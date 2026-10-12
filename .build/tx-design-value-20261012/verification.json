@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "level": "behavioral and structural",
+  "checks": [
+    "input and all generated data hashes",
+    "42 four-source finite waveform files",
+    "174 attempted/completed source solves including two bit-identical replays",
+    "candidate and target materials disjoint",
+    "continuous segment estimator exact-interior and endpoint checks",
+    "216 metrics independently recalculated from 54 saved estimate arrays",
+    "equal two-source budgets and selected-policy identity"
+  ],
+  "scientific_gate_passed": false,
+  "verification_seconds": 0.1456997999921441,
+  "not_verified": [
+    "independent solver convergence",
+    "real instrument",
+    "unknown-support detection",
+    "Mac experiment execution"
+  ]
+}

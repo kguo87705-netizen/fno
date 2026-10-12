@@ -1,0 +1,139 @@
+{
+  "status": "completed",
+  "action_selections": [
+    {
+      "geometry": "left_deep",
+      "scores": {
+        "left": 3381.3478127611897,
+        "right": 1730.0688901952115
+      },
+      "selected": "left"
+    },
+    {
+      "geometry": "right_deep",
+      "scores": {
+        "left": 1740.5177022022829,
+        "right": 3335.023474264106
+      },
+      "selected": "right"
+    },
+    {
+      "geometry": "left_shallow",
+      "scores": {
+        "left": 4130.952030689592,
+        "right": 1987.4110933471038
+      },
+      "selected": "left"
+    },
+    {
+      "geometry": "right_shallow",
+      "scores": {
+        "left": 1972.872111439097,
+        "right": 4197.179394622788
+      },
+      "selected": "right"
+    },
+    {
+      "geometry": "center_small",
+      "scores": {
+        "left": 2112.5257613653453,
+        "right": 2181.9155488754022
+      },
+      "selected": "right"
+    },
+    {
+      "geometry": "center_large",
+      "scores": {
+        "left": 3230.393146465988,
+        "right": 3282.0260179290563
+      },
+      "selected": "right"
+    }
+  ],
+  "pooled_metrics": [
+    {
+      "noise_fraction": 0.0,
+      "policy": "fixed_left",
+      "mae": 0.00024336256668961196
+    },
+    {
+      "noise_fraction": 0.0,
+      "policy": "fixed_right",
+      "mae": 0.0002444258074144334
+    },
+    {
+      "noise_fraction": 0.0,
+      "policy": "physics_selected",
+      "mae": 0.00025808929952574516
+    },
+    {
+      "noise_fraction": 0.0,
+      "policy": "full_four_source",
+      "mae": 0.0002487468102046105
+    },
+    {
+      "noise_fraction": 0.01,
+      "policy": "fixed_left",
+      "mae": 0.0002448040576426621
+    },
+    {
+      "noise_fraction": 0.01,
+      "policy": "fixed_right",
+      "mae": 0.000245213092109596
+    },
+    {
+      "noise_fraction": 0.01,
+      "policy": "physics_selected",
+      "mae": 0.0002584026190846247
+    },
+    {
+      "noise_fraction": 0.01,
+      "policy": "full_four_source",
+      "mae": 0.00024977723795769767
+    },
+    {
+      "noise_fraction": 0.03,
+      "policy": "fixed_left",
+      "mae": 0.0002498730109143336
+    },
+    {
+      "noise_fraction": 0.03,
+      "policy": "fixed_right",
+      "mae": 0.0002486316270174631
+    },
+    {
+      "noise_fraction": 0.03,
+      "policy": "physics_selected",
+      "mae": 0.0002597253769153412
+    },
+    {
+      "noise_fraction": 0.03,
+      "policy": "full_four_source",
+      "mae": 0.00024677855139250654
+    }
+  ],
+  "primary_noise_fraction": 0.01,
+  "gate": {
+    "rank_switch": true,
+    "relative_mae_reduction": -0.055548758353557326,
+    "absolute_mae_reduction": -1.3598561441962556e-05,
+    "passed": false
+  },
+  "background_rms": 0.2552473836595172,
+  "independent_geometries": 6,
+  "targets_per_geometry": 3,
+  "noise_repeats_not_independent_workpieces": 100,
+  "network_forwards": 0,
+  "training_updates": 0,
+  "physical_calls": 174,
+  "scope": "development diagnostic, known geometry/support, scalar same-grid model; no blind detection, adaptive acquisition, neural proxy or final generalization test",
+  "limitations": [
+    "known geometry used for dictionary and action scoring",
+    "same solver and grid for targets and candidates",
+    "piecewise-linear approximation bias",
+    "Gaussian independent sample noise only",
+    "four sources have twice the deployment budget",
+    "dictionary costs 96 source solves; not a demonstrated total-cost saving",
+    "six planned development geometries, no independent final test"
+  ]
+}

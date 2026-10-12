@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "script_sha256": "5c4685d14088b3288ff6386d7791fd9057aeda9c4482d0fcd244a7963b0a2359",
+  "elapsed_seconds": 0.2672565999964718,
+  "previous_font_warning_export_seconds": 3.02,
+  "artifact_sha256": {
+    "report.md": "72400125305b62b709d4b86f8d5770617f8660ab0f7f6a0a6fb42cb99e6fdb05",
+    "diagnostic.png": "5bd6907c2a813a23aa40bc0269d90eb844a3cbaf98fea8f79ce1c0a404ebeef0",
+    "independent_analysis_check.json": "9d6e13d011ea34fbfee8c8563cd5a5acb13d9033743116b7000c40eaaa6802d2"
+  }
+}

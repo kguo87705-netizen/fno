@@ -1,0 +1,304 @@
+{
+  "records": [
+    {
+      "file": "left_deep__gamma_0.44.pt",
+      "sha256": "4859f744751a2b55e4b06c0309bde4ce483c3bd11317c9040e2dc78e14b6dcef",
+      "geometry": "left_deep",
+      "gamma": 0.44,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "left_deep__gamma_0.46.pt",
+      "sha256": "814eeba8bc6d37768fd66c9a434ad5ce1770ca12fcbfb68cf371e78262c7805a",
+      "geometry": "left_deep",
+      "gamma": 0.46,
+      "role": "target"
+    },
+    {
+      "file": "left_deep__gamma_0.48.pt",
+      "sha256": "35a4bf123f6bf673effe26f7c308b2140de311c8dff1b4d9be409c6299ee331a",
+      "geometry": "left_deep",
+      "gamma": 0.48,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "left_deep__gamma_0.50.pt",
+      "sha256": "8323b05af1e6e572d282a8319ca49eb00662ae058c93b58a65ba02dc142610ec",
+      "geometry": "left_deep",
+      "gamma": 0.5,
+      "role": "target"
+    },
+    {
+      "file": "left_deep__gamma_0.52.pt",
+      "sha256": "0265140167ff1081d080a418365b53b553e4e54856ac10d613d20be1b05d16c8",
+      "geometry": "left_deep",
+      "gamma": 0.52,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "left_deep__gamma_0.54.pt",
+      "sha256": "1ab01e7e6c034dcc1c3c95c03443d0787959027ab0f9e3e8c6d4683040b367c5",
+      "geometry": "left_deep",
+      "gamma": 0.54,
+      "role": "target"
+    },
+    {
+      "file": "left_deep__gamma_0.56.pt",
+      "sha256": "e116035af06891410f02a4d615034fc005c481ffd95895d235bb6bcc090621b1",
+      "geometry": "left_deep",
+      "gamma": 0.56,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "right_deep__gamma_0.44.pt",
+      "sha256": "eabbc968cebcfafa092aca4e71554b416c86c7341f09c1e119b6b230c6f34aac",
+      "geometry": "right_deep",
+      "gamma": 0.44,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "right_deep__gamma_0.46.pt",
+      "sha256": "78ad6f7a2cae7036bc87e01e0601794fec384b7e910e627a502752425373b3e3",
+      "geometry": "right_deep",
+      "gamma": 0.46,
+      "role": "target"
+    },
+    {
+      "file": "right_deep__gamma_0.48.pt",
+      "sha256": "8ef88e6e7f3ee62ae0c12e105fd6d372ce27422d035e1935c11edfd86fa3e477",
+      "geometry": "right_deep",
+      "gamma": 0.48,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "right_deep__gamma_0.50.pt",
+      "sha256": "f3a991c27bc552ba4bc087e3717213fbfa43b88cc4273a2acba55bbee218857c",
+      "geometry": "right_deep",
+      "gamma": 0.5,
+      "role": "target"
+    },
+    {
+      "file": "right_deep__gamma_0.52.pt",
+      "sha256": "bde6191492c4bbebded08d251171a146c942b2e2d6030a62a5b6908ab1df4e90",
+      "geometry": "right_deep",
+      "gamma": 0.52,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "right_deep__gamma_0.54.pt",
+      "sha256": "56aa44a28ee331f83659c62d1980452cf803d708952fbba45549a973f9c801bb",
+      "geometry": "right_deep",
+      "gamma": 0.54,
+      "role": "target"
+    },
+    {
+      "file": "right_deep__gamma_0.56.pt",
+      "sha256": "913546c8d742b83c974e2a9e335246954387378f1d06cc4f163fb82e5ab728d4",
+      "geometry": "right_deep",
+      "gamma": 0.56,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "left_shallow__gamma_0.44.pt",
+      "sha256": "72dd7fc2353a1bfbd4f26440189f1a4d8818ead6f1bed18dc3e67529013681e0",
+      "geometry": "left_shallow",
+      "gamma": 0.44,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "left_shallow__gamma_0.46.pt",
+      "sha256": "d9a987cac75b282a48bad7e75d87956995e1f9eea046ea2ab29a26e0b3d628ac",
+      "geometry": "left_shallow",
+      "gamma": 0.46,
+      "role": "target"
+    },
+    {
+      "file": "left_shallow__gamma_0.48.pt",
+      "sha256": "405e9756836781109f1d6df24d73f186a1ec17616f21032aaa23381e5d367972",
+      "geometry": "left_shallow",
+      "gamma": 0.48,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "left_shallow__gamma_0.50.pt",
+      "sha256": "af9f5c09a6009b2f6b8332dba9bd0d2f1f72b337a6e7578e6af7842167182983",
+      "geometry": "left_shallow",
+      "gamma": 0.5,
+      "role": "target"
+    },
+    {
+      "file": "left_shallow__gamma_0.52.pt",
+      "sha256": "5d1aa5531f660a531f590e01b1ab18cc5188346d30e47ce8b98f666bfb6ab12d",
+      "geometry": "left_shallow",
+      "gamma": 0.52,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "left_shallow__gamma_0.54.pt",
+      "sha256": "65df5809e5b0e043e62f1400a5e3e9157d3efdcf86da5714dd3b2a61ade63be2",
+      "geometry": "left_shallow",
+      "gamma": 0.54,
+      "role": "target"
+    },
+    {
+      "file": "left_shallow__gamma_0.56.pt",
+      "sha256": "c1a2af359d37be2d06a20c0cfae6c8bfb8a73f7e84e812b6165ccd351836365b",
+      "geometry": "left_shallow",
+      "gamma": 0.56,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "right_shallow__gamma_0.44.pt",
+      "sha256": "4d608f6b925f8637c655207feb4f69ef9dc62fd0b5f0caf2e300d97b6e35b01d",
+      "geometry": "right_shallow",
+      "gamma": 0.44,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "right_shallow__gamma_0.46.pt",
+      "sha256": "5c20ad41cd1a6f93d3cfd08ef67a0ce89a5ed3dc3c9b6ede00cc72c62e924548",
+      "geometry": "right_shallow",
+      "gamma": 0.46,
+      "role": "target"
+    },
+    {
+      "file": "right_shallow__gamma_0.48.pt",
+      "sha256": "d85bdc47e5fa0c5d6a4bea915d54e3a1fb6a676cef9bfff63cef130b7cc483eb",
+      "geometry": "right_shallow",
+      "gamma": 0.48,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "right_shallow__gamma_0.50.pt",
+      "sha256": "7b4495759b2772d80d709846a76d0d7b43842210b787e9e08c126f8c9e4c5af4",
+      "geometry": "right_shallow",
+      "gamma": 0.5,
+      "role": "target"
+    },
+    {
+      "file": "right_shallow__gamma_0.52.pt",
+      "sha256": "ee09ed7cad92226ea117d212f5e38b586496d34e32e1836c56806fb22b7e243c",
+      "geometry": "right_shallow",
+      "gamma": 0.52,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "right_shallow__gamma_0.54.pt",
+      "sha256": "6ba7ee862cdfa0eb171c00877eca8e9999f3c6ba36c03110d5f7972e794b7755",
+      "geometry": "right_shallow",
+      "gamma": 0.54,
+      "role": "target"
+    },
+    {
+      "file": "right_shallow__gamma_0.56.pt",
+      "sha256": "d86ed18d791ea83ec86c79308d9ea5731f8a4c0d148ece41cb7ba49d34958c9d",
+      "geometry": "right_shallow",
+      "gamma": 0.56,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "center_small__gamma_0.44.pt",
+      "sha256": "93089393577979ec0f11bd2db8dffc580733730197d69a4d3322882629ad8902",
+      "geometry": "center_small",
+      "gamma": 0.44,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "center_small__gamma_0.46.pt",
+      "sha256": "b744c41b3e10876fc19a32dff8bf1f36e99a9230c5caaa196faf5fd415665e56",
+      "geometry": "center_small",
+      "gamma": 0.46,
+      "role": "target"
+    },
+    {
+      "file": "center_small__gamma_0.48.pt",
+      "sha256": "6d5032f92e1ab9338f696a2c1a9152417ebdff0036836ef1ad5e06b49b63ed1e",
+      "geometry": "center_small",
+      "gamma": 0.48,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "center_small__gamma_0.50.pt",
+      "sha256": "c6d672cb104360fb5fa639371d34c699ac06d66a633ba30f04bb56f22d4fb538",
+      "geometry": "center_small",
+      "gamma": 0.5,
+      "role": "target"
+    },
+    {
+      "file": "center_small__gamma_0.52.pt",
+      "sha256": "c1de27b9761f8d7d50a0f0804d844e346bf846332ccfef4592f43fce52cecab6",
+      "geometry": "center_small",
+      "gamma": 0.52,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "center_small__gamma_0.54.pt",
+      "sha256": "e15e6852129c3c8347f3ceed399600c3611c4b50f476d9ef0e6df2e3e0211cfc",
+      "geometry": "center_small",
+      "gamma": 0.54,
+      "role": "target"
+    },
+    {
+      "file": "center_small__gamma_0.56.pt",
+      "sha256": "853b122470284f4a87bd6bd3eec41c181c6ea4e8fb1b8d284406b0375576e4d0",
+      "geometry": "center_small",
+      "gamma": 0.56,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "center_large__gamma_0.44.pt",
+      "sha256": "7c6a7b98e8adaf1820145377643ff07ad5a0617152e812a0566f8ad2734ed22d",
+      "geometry": "center_large",
+      "gamma": 0.44,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "center_large__gamma_0.46.pt",
+      "sha256": "c88ee40b5ae1883bb5ddc2204aa21b55c25aca3bc5fdf354d785f92082f4b83e",
+      "geometry": "center_large",
+      "gamma": 0.46,
+      "role": "target"
+    },
+    {
+      "file": "center_large__gamma_0.48.pt",
+      "sha256": "896b6d343ff710e3705cabf43d61be7f8f449ca5438f00af8687008133e618c4",
+      "geometry": "center_large",
+      "gamma": 0.48,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "center_large__gamma_0.50.pt",
+      "sha256": "e8e57f6b4a94f149840d313a77c2cd7b58038f28a046a8c4b1707b2a30d64f5e",
+      "geometry": "center_large",
+      "gamma": 0.5,
+      "role": "target"
+    },
+    {
+      "file": "center_large__gamma_0.52.pt",
+      "sha256": "7c7efd831dbd0d122b593b8eb7111f9c752880ba248c6dd89d174697f0afa0fe",
+      "geometry": "center_large",
+      "gamma": 0.52,
+      "role": "candidate_dictionary"
+    },
+    {
+      "file": "center_large__gamma_0.54.pt",
+      "sha256": "a3e7420c344eaf6f7dd37b403ca67663387882a468cc80bf9d4b8abd29e71fa3",
+      "geometry": "center_large",
+      "gamma": 0.54,
+      "role": "target"
+    },
+    {
+      "file": "center_large__gamma_0.56.pt",
+      "sha256": "7980beb22abc55714eecbef45163b2937ede551e243aee28fd17cd8d00fbf722",
+      "geometry": "center_large",
+      "gamma": 0.56,
+      "role": "candidate_dictionary"
+    }
+  ],
+  "background_sha256": "727857b6d501c5168c1d4cb7f5b9be9818a466fd2ef2e1e69d7f66f5b625ccbd",
+  "replay": {
+    "background_source0_bit_equal": true,
+    "last_geometry_source3_bit_equal": true
+  },
+  "source_simulations": 174
+}

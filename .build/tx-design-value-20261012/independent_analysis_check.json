@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checks": [
+    "all action scores recomputed from physical waveforms",
+    "pooled metrics recomputed from CSV",
+    "frozen scientific gate recomputed"
+  ],
+  "scientific_gate_passed": false
+}

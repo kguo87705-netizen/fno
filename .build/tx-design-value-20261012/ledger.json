@@ -1,0 +1,1236 @@
+{
+  "status": "completed",
+  "entries": [
+    {
+      "label": "background",
+      "source": 0,
+      "role": "background",
+      "status": "completed",
+      "solve_and_extract_seconds": 1.130944600008661
+    },
+    {
+      "label": "background",
+      "source": 1,
+      "role": "background",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7911123000085354
+    },
+    {
+      "label": "background",
+      "source": 2,
+      "role": "background",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7898157000017818
+    },
+    {
+      "label": "background",
+      "source": 3,
+      "role": "background",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7841989000153262
+    },
+    {
+      "label": "left_deep__gamma_0.44",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8015954000002239
+    },
+    {
+      "label": "left_deep__gamma_0.44",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7945269999909215
+    },
+    {
+      "label": "left_deep__gamma_0.44",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7963009999948554
+    },
+    {
+      "label": "left_deep__gamma_0.44",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7909262999892235
+    },
+    {
+      "label": "left_deep__gamma_0.46",
+      "source": 0,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7882913000066765
+    },
+    {
+      "label": "left_deep__gamma_0.46",
+      "source": 1,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8035198999859858
+    },
+    {
+      "label": "left_deep__gamma_0.46",
+      "source": 2,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7933384999923874
+    },
+    {
+      "label": "left_deep__gamma_0.46",
+      "source": 3,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7903371000138577
+    },
+    {
+      "label": "left_deep__gamma_0.48",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7795662000135053
+    },
+    {
+      "label": "left_deep__gamma_0.48",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7862974999879953
+    },
+    {
+      "label": "left_deep__gamma_0.48",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7986836000054609
+    },
+    {
+      "label": "left_deep__gamma_0.48",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7863510999886785
+    },
+    {
+      "label": "left_deep__gamma_0.50",
+      "source": 0,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7798498999909498
+    },
+    {
+      "label": "left_deep__gamma_0.50",
+      "source": 1,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7846727999858558
+    },
+    {
+      "label": "left_deep__gamma_0.50",
+      "source": 2,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7836480000114534
+    },
+    {
+      "label": "left_deep__gamma_0.50",
+      "source": 3,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8063388000009581
+    },
+    {
+      "label": "left_deep__gamma_0.52",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7849346000002697
+    },
+    {
+      "label": "left_deep__gamma_0.52",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7876893000211567
+    },
+    {
+      "label": "left_deep__gamma_0.52",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7882374000037089
+    },
+    {
+      "label": "left_deep__gamma_0.52",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7770360999857076
+    },
+    {
+      "label": "left_deep__gamma_0.54",
+      "source": 0,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7997662000125274
+    },
+    {
+      "label": "left_deep__gamma_0.54",
+      "source": 1,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8008709000132512
+    },
+    {
+      "label": "left_deep__gamma_0.54",
+      "source": 2,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.787312300002668
+    },
+    {
+      "label": "left_deep__gamma_0.54",
+      "source": 3,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.784351800015429
+    },
+    {
+      "label": "left_deep__gamma_0.56",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7851122000138275
+    },
+    {
+      "label": "left_deep__gamma_0.56",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8074311999953352
+    },
+    {
+      "label": "left_deep__gamma_0.56",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7966668999870308
+    },
+    {
+      "label": "left_deep__gamma_0.56",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7851880999805871
+    },
+    {
+      "label": "right_deep__gamma_0.44",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7997654000064358
+    },
+    {
+      "label": "right_deep__gamma_0.44",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7929222999955527
+    },
+    {
+      "label": "right_deep__gamma_0.44",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8063148000219371
+    },
+    {
+      "label": "right_deep__gamma_0.44",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7934477000089828
+    },
+    {
+      "label": "right_deep__gamma_0.46",
+      "source": 0,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7941519000160042
+    },
+    {
+      "label": "right_deep__gamma_0.46",
+      "source": 1,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7798560000082944
+    },
+    {
+      "label": "right_deep__gamma_0.46",
+      "source": 2,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8003310000058264
+    },
+    {
+      "label": "right_deep__gamma_0.46",
+      "source": 3,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8046377999999095
+    },
+    {
+      "label": "right_deep__gamma_0.48",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7963757999823429
+    },
+    {
+      "label": "right_deep__gamma_0.48",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7846719999797642
+    },
+    {
+      "label": "right_deep__gamma_0.48",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7849932999815792
+    },
+    {
+      "label": "right_deep__gamma_0.48",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7921266999910586
+    },
+    {
+      "label": "right_deep__gamma_0.50",
+      "source": 0,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.799943499994697
+    },
+    {
+      "label": "right_deep__gamma_0.50",
+      "source": 1,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7891023999836762
+    },
+    {
+      "label": "right_deep__gamma_0.50",
+      "source": 2,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7842895000067074
+    },
+    {
+      "label": "right_deep__gamma_0.50",
+      "source": 3,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7851898999942932
+    },
+    {
+      "label": "right_deep__gamma_0.52",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7839249999960884
+    },
+    {
+      "label": "right_deep__gamma_0.52",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.799761700007366
+    },
+    {
+      "label": "right_deep__gamma_0.52",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7968220999755431
+    },
+    {
+      "label": "right_deep__gamma_0.52",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7922259999904782
+    },
+    {
+      "label": "right_deep__gamma_0.54",
+      "source": 0,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7863481999957003
+    },
+    {
+      "label": "right_deep__gamma_0.54",
+      "source": 1,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7877111999841873
+    },
+    {
+      "label": "right_deep__gamma_0.54",
+      "source": 2,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8055541000212543
+    },
+    {
+      "label": "right_deep__gamma_0.54",
+      "source": 3,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7933385999931488
+    },
+    {
+      "label": "right_deep__gamma_0.56",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7841170000028796
+    },
+    {
+      "label": "right_deep__gamma_0.56",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7872557000082452
+    },
+    {
+      "label": "right_deep__gamma_0.56",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7871582999941893
+    },
+    {
+      "label": "right_deep__gamma_0.56",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7965789999871049
+    },
+    {
+      "label": "left_shallow__gamma_0.44",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7980671999976039
+    },
+    {
+      "label": "left_shallow__gamma_0.44",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.792500800016569
+    },
+    {
+      "label": "left_shallow__gamma_0.44",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7834660999942571
+    },
+    {
+      "label": "left_shallow__gamma_0.44",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7858285000256728
+    },
+    {
+      "label": "left_shallow__gamma_0.46",
+      "source": 0,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7918198999832384
+    },
+    {
+      "label": "left_shallow__gamma_0.46",
+      "source": 1,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7992430999875069
+    },
+    {
+      "label": "left_shallow__gamma_0.46",
+      "source": 2,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7871732999919914
+    },
+    {
+      "label": "left_shallow__gamma_0.46",
+      "source": 3,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7861353000043891
+    },
+    {
+      "label": "left_shallow__gamma_0.48",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.787987499992596
+    },
+    {
+      "label": "left_shallow__gamma_0.48",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7957853999978397
+    },
+    {
+      "label": "left_shallow__gamma_0.48",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7938887999916915
+    },
+    {
+      "label": "left_shallow__gamma_0.48",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7856854000128806
+    },
+    {
+      "label": "left_shallow__gamma_0.50",
+      "source": 0,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.780719800008228
+    },
+    {
+      "label": "left_shallow__gamma_0.50",
+      "source": 1,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7842457999940962
+    },
+    {
+      "label": "left_shallow__gamma_0.50",
+      "source": 2,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7934975999814924
+    },
+    {
+      "label": "left_shallow__gamma_0.50",
+      "source": 3,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7962943000020459
+    },
+    {
+      "label": "left_shallow__gamma_0.52",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7881529000005685
+    },
+    {
+      "label": "left_shallow__gamma_0.52",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7868331000208855
+    },
+    {
+      "label": "left_shallow__gamma_0.52",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7868463000049815
+    },
+    {
+      "label": "left_shallow__gamma_0.52",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7979590999893844
+    },
+    {
+      "label": "left_shallow__gamma_0.54",
+      "source": 0,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.799017500015907
+    },
+    {
+      "label": "left_shallow__gamma_0.54",
+      "source": 1,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7802980999986175
+    },
+    {
+      "label": "left_shallow__gamma_0.54",
+      "source": 2,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7925933999940753
+    },
+    {
+      "label": "left_shallow__gamma_0.54",
+      "source": 3,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7950786000001244
+    },
+    {
+      "label": "left_shallow__gamma_0.56",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7913183000055142
+    },
+    {
+      "label": "left_shallow__gamma_0.56",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7927245000028051
+    },
+    {
+      "label": "left_shallow__gamma_0.56",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7965250000124797
+    },
+    {
+      "label": "left_shallow__gamma_0.56",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8595973000046797
+    },
+    {
+      "label": "right_shallow__gamma_0.44",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8378887999861035
+    },
+    {
+      "label": "right_shallow__gamma_0.44",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8105159999977332
+    },
+    {
+      "label": "right_shallow__gamma_0.44",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7915461999946274
+    },
+    {
+      "label": "right_shallow__gamma_0.44",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7923810000065714
+    },
+    {
+      "label": "right_shallow__gamma_0.46",
+      "source": 0,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8113869000226259
+    },
+    {
+      "label": "right_shallow__gamma_0.46",
+      "source": 1,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8146149000094738
+    },
+    {
+      "label": "right_shallow__gamma_0.46",
+      "source": 2,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7999333000043407
+    },
+    {
+      "label": "right_shallow__gamma_0.46",
+      "source": 3,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8013370999833569
+    },
+    {
+      "label": "right_shallow__gamma_0.48",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8000697999959812
+    },
+    {
+      "label": "right_shallow__gamma_0.48",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8041464000125416
+    },
+    {
+      "label": "right_shallow__gamma_0.48",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8149280000070576
+    },
+    {
+      "label": "right_shallow__gamma_0.48",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7996106999926269
+    },
+    {
+      "label": "right_shallow__gamma_0.50",
+      "source": 0,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7979030999995302
+    },
+    {
+      "label": "right_shallow__gamma_0.50",
+      "source": 1,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8035999000130687
+    },
+    {
+      "label": "right_shallow__gamma_0.50",
+      "source": 2,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8108810000121593
+    },
+    {
+      "label": "right_shallow__gamma_0.50",
+      "source": 3,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8066738999914378
+    },
+    {
+      "label": "right_shallow__gamma_0.52",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7944970999960788
+    },
+    {
+      "label": "right_shallow__gamma_0.52",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8007781999767758
+    },
+    {
+      "label": "right_shallow__gamma_0.52",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7972237000067253
+    },
+    {
+      "label": "right_shallow__gamma_0.52",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8116575000167359
+    },
+    {
+      "label": "right_shallow__gamma_0.54",
+      "source": 0,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7979851000127383
+    },
+    {
+      "label": "right_shallow__gamma_0.54",
+      "source": 1,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8024357999966014
+    },
+    {
+      "label": "right_shallow__gamma_0.54",
+      "source": 2,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7932550999976229
+    },
+    {
+      "label": "right_shallow__gamma_0.54",
+      "source": 3,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8006868999800645
+    },
+    {
+      "label": "right_shallow__gamma_0.56",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8056340999901295
+    },
+    {
+      "label": "right_shallow__gamma_0.56",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8053540000109933
+    },
+    {
+      "label": "right_shallow__gamma_0.56",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7946228999935556
+    },
+    {
+      "label": "right_shallow__gamma_0.56",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8063994999974966
+    },
+    {
+      "label": "center_small__gamma_0.44",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8032130000065081
+    },
+    {
+      "label": "center_small__gamma_0.44",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8154434000025503
+    },
+    {
+      "label": "center_small__gamma_0.44",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7957127999980003
+    },
+    {
+      "label": "center_small__gamma_0.44",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7999805000144988
+    },
+    {
+      "label": "center_small__gamma_0.46",
+      "source": 0,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7957817999995314
+    },
+    {
+      "label": "center_small__gamma_0.46",
+      "source": 1,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8007672000094317
+    },
+    {
+      "label": "center_small__gamma_0.46",
+      "source": 2,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8055363000021316
+    },
+    {
+      "label": "center_small__gamma_0.46",
+      "source": 3,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8230884000076912
+    },
+    {
+      "label": "center_small__gamma_0.48",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8099015000043437
+    },
+    {
+      "label": "center_small__gamma_0.48",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7978671999881044
+    },
+    {
+      "label": "center_small__gamma_0.48",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7984967000083998
+    },
+    {
+      "label": "center_small__gamma_0.48",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8090415000042412
+    },
+    {
+      "label": "center_small__gamma_0.50",
+      "source": 0,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8065023999952246
+    },
+    {
+      "label": "center_small__gamma_0.50",
+      "source": 1,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7945977000053972
+    },
+    {
+      "label": "center_small__gamma_0.50",
+      "source": 2,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7930990999739151
+    },
+    {
+      "label": "center_small__gamma_0.50",
+      "source": 3,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7872172000061255
+    },
+    {
+      "label": "center_small__gamma_0.52",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7973855000163894
+    },
+    {
+      "label": "center_small__gamma_0.52",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8014303999952972
+    },
+    {
+      "label": "center_small__gamma_0.52",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7907774999912363
+    },
+    {
+      "label": "center_small__gamma_0.52",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7852018999983557
+    },
+    {
+      "label": "center_small__gamma_0.54",
+      "source": 0,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7829973000043537
+    },
+    {
+      "label": "center_small__gamma_0.54",
+      "source": 1,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8054684000089765
+    },
+    {
+      "label": "center_small__gamma_0.54",
+      "source": 2,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8021096999873407
+    },
+    {
+      "label": "center_small__gamma_0.54",
+      "source": 3,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7849323999835178
+    },
+    {
+      "label": "center_small__gamma_0.56",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7894781999930274
+    },
+    {
+      "label": "center_small__gamma_0.56",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7861836000229232
+    },
+    {
+      "label": "center_small__gamma_0.56",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.796247599995695
+    },
+    {
+      "label": "center_small__gamma_0.56",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8028971000167076
+    },
+    {
+      "label": "center_large__gamma_0.44",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7881381999759469
+    },
+    {
+      "label": "center_large__gamma_0.44",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7946137000108138
+    },
+    {
+      "label": "center_large__gamma_0.44",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7890820000029635
+    },
+    {
+      "label": "center_large__gamma_0.44",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8062340999895241
+    },
+    {
+      "label": "center_large__gamma_0.46",
+      "source": 0,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7988980999798514
+    },
+    {
+      "label": "center_large__gamma_0.46",
+      "source": 1,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7884570999885909
+    },
+    {
+      "label": "center_large__gamma_0.46",
+      "source": 2,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7848276000004262
+    },
+    {
+      "label": "center_large__gamma_0.46",
+      "source": 3,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7889202999940608
+    },
+    {
+      "label": "center_large__gamma_0.48",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.794577599997865
+    },
+    {
+      "label": "center_large__gamma_0.48",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8003544000093825
+    },
+    {
+      "label": "center_large__gamma_0.48",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.786185699980706
+    },
+    {
+      "label": "center_large__gamma_0.48",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7885706000088248
+    },
+    {
+      "label": "center_large__gamma_0.50",
+      "source": 0,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7797612999856938
+    },
+    {
+      "label": "center_large__gamma_0.50",
+      "source": 1,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8066961000149604
+    },
+    {
+      "label": "center_large__gamma_0.50",
+      "source": 2,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7937223000044469
+    },
+    {
+      "label": "center_large__gamma_0.50",
+      "source": 3,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.780960000003688
+    },
+    {
+      "label": "center_large__gamma_0.52",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7847886000236031
+    },
+    {
+      "label": "center_large__gamma_0.52",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7836624000046868
+    },
+    {
+      "label": "center_large__gamma_0.52",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8016051000158768
+    },
+    {
+      "label": "center_large__gamma_0.52",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8047009999863803
+    },
+    {
+      "label": "center_large__gamma_0.54",
+      "source": 0,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7910713999881409
+    },
+    {
+      "label": "center_large__gamma_0.54",
+      "source": 1,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.786521800007904
+    },
+    {
+      "label": "center_large__gamma_0.54",
+      "source": 2,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7893891999847256
+    },
+    {
+      "label": "center_large__gamma_0.54",
+      "source": 3,
+      "role": "target",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7946749999828171
+    },
+    {
+      "label": "center_large__gamma_0.56",
+      "source": 0,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8040614000055939
+    },
+    {
+      "label": "center_large__gamma_0.56",
+      "source": 1,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.790864699985832
+    },
+    {
+      "label": "center_large__gamma_0.56",
+      "source": 2,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7818330000154674
+    },
+    {
+      "label": "center_large__gamma_0.56",
+      "source": 3,
+      "role": "candidate_dictionary",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.7933616999944206
+    },
+    {
+      "label": "replay_background",
+      "source": 0,
+      "role": "replay",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8526107000070624
+    },
+    {
+      "label": "replay_last_source3",
+      "source": 3,
+      "role": "replay",
+      "status": "completed",
+      "solve_and_extract_seconds": 0.8131852000078652
+    }
+  ],
+  "physical_calls_attempted": 174,
+  "network_forwards": 0,
+  "training_updates": 0,
+  "unknown_costs": [
+    "hardware acquisition time",
+    "historic setup and training costs",
+    "Python process startup and dependency imports not separately timed"
+  ],
+  "generation_and_replay_seconds": 139.37176470001577,
+  "preparation_seconds": 2.2697290999931283,
+  "wall_seconds_before_analysis": 141.641494600015,
+  "analysis_and_export_seconds": 32.118934800004354,
+  "analysis_compute_seconds_before_export": 32.1022118999972
+}
