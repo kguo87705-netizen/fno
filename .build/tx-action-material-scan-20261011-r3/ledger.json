@@ -1,0 +1,206 @@
+{
+  "status": "completed",
+  "entries": [
+    {
+      "action": "full_tx",
+      "material": "gamma_0.46",
+      "material_value": 0.46,
+      "source_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "physical_calls": 4,
+      "physical_seconds": 3.562218400009442,
+      "status": "completed"
+    },
+    {
+      "action": "full_tx",
+      "material": "gamma_0.48",
+      "material_value": 0.48,
+      "source_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "physical_calls": 4,
+      "physical_seconds": 3.512702599997283,
+      "status": "completed"
+    },
+    {
+      "action": "full_tx",
+      "material": "gamma_0.50",
+      "material_value": 0.5,
+      "source_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "physical_calls": 4,
+      "physical_seconds": 3.4996229000098538,
+      "status": "completed"
+    },
+    {
+      "action": "full_tx",
+      "material": "gamma_0.52",
+      "material_value": 0.52,
+      "source_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "physical_calls": 4,
+      "physical_seconds": 3.520972000012989,
+      "status": "completed"
+    },
+    {
+      "action": "full_tx",
+      "material": "gamma_0.54",
+      "material_value": 0.54,
+      "source_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "physical_calls": 4,
+      "physical_seconds": 3.5413334000040777,
+      "status": "completed"
+    },
+    {
+      "action": "left_tx",
+      "material": "gamma_0.46",
+      "material_value": 0.46,
+      "source_indices": [
+        0,
+        1
+      ],
+      "physical_calls": 2,
+      "physical_seconds": 1.7583439000009093,
+      "status": "completed"
+    },
+    {
+      "action": "left_tx",
+      "material": "gamma_0.48",
+      "material_value": 0.48,
+      "source_indices": [
+        0,
+        1
+      ],
+      "physical_calls": 2,
+      "physical_seconds": 1.7359124999929918,
+      "status": "completed"
+    },
+    {
+      "action": "left_tx",
+      "material": "gamma_0.50",
+      "material_value": 0.5,
+      "source_indices": [
+        0,
+        1
+      ],
+      "physical_calls": 2,
+      "physical_seconds": 1.7367966000019806,
+      "status": "completed"
+    },
+    {
+      "action": "left_tx",
+      "material": "gamma_0.52",
+      "material_value": 0.52,
+      "source_indices": [
+        0,
+        1
+      ],
+      "physical_calls": 2,
+      "physical_seconds": 1.7469543000042904,
+      "status": "completed"
+    },
+    {
+      "action": "left_tx",
+      "material": "gamma_0.54",
+      "material_value": 0.54,
+      "source_indices": [
+        0,
+        1
+      ],
+      "physical_calls": 2,
+      "physical_seconds": 1.7437575999938417,
+      "status": "completed"
+    },
+    {
+      "action": "right_tx",
+      "material": "gamma_0.46",
+      "material_value": 0.46,
+      "source_indices": [
+        2,
+        3
+      ],
+      "physical_calls": 2,
+      "physical_seconds": 1.7761476000014227,
+      "status": "completed"
+    },
+    {
+      "action": "right_tx",
+      "material": "gamma_0.48",
+      "material_value": 0.48,
+      "source_indices": [
+        2,
+        3
+      ],
+      "physical_calls": 2,
+      "physical_seconds": 1.75602020000224,
+      "status": "completed"
+    },
+    {
+      "action": "right_tx",
+      "material": "gamma_0.50",
+      "material_value": 0.5,
+      "source_indices": [
+        2,
+        3
+      ],
+      "physical_calls": 2,
+      "physical_seconds": 1.7947019999992335,
+      "status": "completed"
+    },
+    {
+      "action": "right_tx",
+      "material": "gamma_0.52",
+      "material_value": 0.52,
+      "source_indices": [
+        2,
+        3
+      ],
+      "physical_calls": 2,
+      "physical_seconds": 1.7734035000030417,
+      "status": "completed"
+    },
+    {
+      "action": "right_tx",
+      "material": "gamma_0.54",
+      "material_value": 0.54,
+      "source_indices": [
+        2,
+        3
+      ],
+      "physical_calls": 2,
+      "physical_seconds": 1.7782265999994706,
+      "status": "completed"
+    }
+  ],
+  "totals": {
+    "logical_tasks": 15,
+    "physical_calls": 40,
+    "network_forwards": 0,
+    "training_updates": 0
+  },
+  "unknowns": [
+    "separate postprocess time",
+    "hardware transmit time",
+    "training cost"
+  ]
+}

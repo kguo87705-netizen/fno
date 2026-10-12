@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checks": [
+    "all 6 half-array outputs exact masks of full outputs",
+    "same gamma and full wavefields",
+    "13 source hashes unchanged",
+    "pilot disjoint and equal action cost"
+  ],
+  "limitation": "audit of saved outputs only, not stage A complete acceptance"
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "retrospective_read_only",
+  "analysis": "all observed tolerance intervals; do not choose acceptance threshold from final material truth",
+  "hashes": {
+    ".build\\hybrid-accepted-step-control-r2-20261011\\summary.json": "6b54ff98703e31c7789a502f1332c45d09eaf65cdfca690d83c7e22e771df060",
+    ".build\\hybrid-accepted-large-step-20261011\\summary.json": "1ee0046923505e3df34277010a63023b82db08b245bd4aca31d11bf5926ceb18",
+    ".build\\hybrid-accepted-mid-step-20261011\\summary.json": "fe959b79509370c416fe09581754e9c29fb1ac339186f0fb11a14cae2021680c",
+    ".build\\cost-timing-control-20261011\\timing.json": "372ab30bc21fd596e68130f0df349d919c1878c89f015fbf385bcb041ba38485"
+  },
+  "new_forward_calls": 0,
+  "warning": "timings are historical component estimates, not measured full inversion costs"
+}

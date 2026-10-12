@@ -1,0 +1,86 @@
+{
+  "status": "completed",
+  "case": 1,
+  "scope": "Truth-state finite material-direction response and feasible trial-step checks; no test data or optimizer update.",
+  "base_cost": 1.7712645586365205e-12,
+  "directions": {
+    "uniform": {
+      "direction_norm": 1.0000001192092896,
+      "steps": [
+        {
+          "epsilon": 0.005,
+          "plus_cost_over_truth": 0.9999865336616834,
+          "minus_cost_over_truth": 1.0000227091432519,
+          "central_difference_over_eps": -6.407634839389331e-15,
+          "plus_material_half_mse": 3.858467798739662e-12
+        },
+        {
+          "epsilon": 0.02,
+          "plus_cost_over_truth": 0.9999466243317635,
+          "minus_cost_over_truth": 1.0000907141517505,
+          "central_difference_over_eps": -6.3805297850771936e-15,
+          "plus_material_half_mse": 6.173548477983459e-11
+        }
+      ]
+    },
+    "smooth_x": {
+      "direction_norm": 1.0,
+      "steps": [
+        {
+          "epsilon": 0.005,
+          "plus_cost_over_truth": 1.0000149966040344,
+          "minus_cost_over_truth": 0.999997673996109,
+          "central_difference_over_eps": 3.0682921481339775e-15,
+          "plus_material_half_mse": 1.8743716301283797e-10
+        },
+        {
+          "epsilon": 0.02,
+          "plus_cost_over_truth": 1.0000601088373946,
+          "minus_cost_over_truth": 0.9999896554037477,
+          "central_difference_over_eps": 3.119791751327039e-15,
+          "plus_material_half_mse": 2.9987368144190896e-09
+        }
+      ]
+    },
+    "smooth_y": {
+      "direction_norm": 1.0,
+      "steps": [
+        {
+          "epsilon": 0.005,
+          "plus_cost_over_truth": 1.0000181183460986,
+          "minus_cost_over_truth": 0.9999990818405693,
+          "central_difference_over_eps": 3.3718687564299188e-15,
+          "plus_material_half_mse": 1.9115094229693597e-10
+        },
+        {
+          "epsilon": 0.02,
+          "plus_cost_over_truth": 1.0000719836993648,
+          "minus_cost_over_truth": 0.9999950419390744,
+          "central_difference_over_eps": 3.4071053270356977e-15,
+          "plus_material_half_mse": 3.058063802185984e-09
+        }
+      ]
+    },
+    "local_center": {
+      "direction_norm": 0.9999999403953552,
+      "steps": [
+        {
+          "epsilon": 0.005,
+          "plus_cost_over_truth": 0.9999973067323367,
+          "minus_cost_over_truth": 1.0000019587401188,
+          "central_difference_over_eps": -8.239936510889834e-16,
+          "plus_material_half_mse": 2.9112175452435107e-13
+        },
+        {
+          "epsilon": 0.02,
+          "plus_cost_over_truth": 0.9999880639274012,
+          "minus_cost_over_truth": 1.0000059986416137,
+          "central_difference_over_eps": -7.94178091345632e-16,
+          "plus_material_half_mse": 4.657948072389617e-12
+        }
+      ]
+    }
+  },
+  "data_source_sha256": "707805f4bbac3a1b890684bbb8dbd8e07ae2608b5f84bbe4b9cd8ffa66fc0616",
+  "settings_sha256": "4fb9e8fdb8fa2fb97502e605f31351601e115463fa1800913473699d9f4ee398"
+}

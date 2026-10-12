@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "note": "All5 edited notes parsed, wikilinks resolved",
+  "evidence": "150 checkpoint reload verified;300 corruption explicit;coverage unstarted",
+  "next_plan": "planned not run;hashes verified",
+  "native_Obsidian_rendering": "not performed",
+  "files_sha256": {
+    "PINO超声成像知识库\\05实践与复习\\配对深度覆盖实验存档故障与恢复协议 2026-10-09.md": "d79722a2323c6448677512688e6c03055f4eddfc0a685f52fc2119b459a7c246",
+    "PINO超声成像知识库\\00导航\\FNO与超声全波形反演科研计划 2026-10-07.md": "fc382ddb25bacc4660b6ab1b7ee2a683b985b4184b7e6ab227dfd8d7babe8afb",
+    "PINO超声成像知识库\\00导航\\相控阵FWI与神经算子后续执行路线 2026-10-08.md": "880cf92065532b69d5fbfc324508327c0d920352c5fb65af79c17fef040653cd",
+    "PINO超声成像知识库\\04专题\\相控阵FWI与神经算子阶段总结及知识梳理 2026-10-08.md": "87c040f986251d35a722e0b93ecd670fa8e36a99f2f6821de16b920843a9536d",
+    "PINO超声成像知识库\\05实践与复习\\深度插值基线与冻结FNO比较 2026-10-09.md": "63e8763a1545ddee6693ef6e13b50928ba5093948b3b07bc961bbac0a1296f5b"
+  }
+}

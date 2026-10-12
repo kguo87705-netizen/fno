@@ -1,0 +1,90 @@
+{
+  "status": "completed",
+  "entries": [
+    {
+      "action": "full_aperture",
+      "material": "low_contrast",
+      "network_forward_seconds": 0.6820808999909787,
+      "full_receiver_error": 2.8794613560696587,
+      "selected_receiver_error": 2.8794613560696587,
+      "scatter_selected_error": 8.465944258095695,
+      "physical_scatter_norm": 18.919801028322603,
+      "pred_scatter_norm": 162.21107320860625,
+      "selected_rx_count": 24,
+      "finite": true
+    },
+    {
+      "action": "full_aperture",
+      "material": "high_contrast",
+      "network_forward_seconds": 0.21166420000372455,
+      "full_receiver_error": 2.885939030347981,
+      "selected_receiver_error": 2.885939030347981,
+      "scatter_selected_error": 9.351078425118942,
+      "physical_scatter_norm": 17.129025170361462,
+      "pred_scatter_norm": 161.88726616425262,
+      "selected_rx_count": 24,
+      "finite": true
+    },
+    {
+      "action": "left_half",
+      "material": "low_contrast",
+      "network_forward_seconds": 0.2050122999935411,
+      "full_receiver_error": 2.8794613560696587,
+      "selected_receiver_error": 2.425420108844953,
+      "scatter_selected_error": 7.448328162462438,
+      "physical_scatter_norm": 14.95924884642373,
+      "pred_scatter_norm": 113.03173131283833,
+      "selected_rx_count": 12,
+      "finite": true
+    },
+    {
+      "action": "left_half",
+      "material": "high_contrast",
+      "network_forward_seconds": 0.20413130000815727,
+      "full_receiver_error": 2.885939030347981,
+      "selected_receiver_error": 2.433339283270879,
+      "scatter_selected_error": 8.246221286751036,
+      "physical_scatter_norm": 13.510629718899994,
+      "pred_scatter_norm": 112.76861461274052,
+      "selected_rx_count": 12,
+      "finite": true
+    },
+    {
+      "action": "right_half",
+      "material": "low_contrast",
+      "network_forward_seconds": 0.2424023999919882,
+      "full_receiver_error": 2.8794613560696587,
+      "selected_receiver_error": 3.668465412090703,
+      "scatter_selected_error": 9.933825681358936,
+      "physical_scatter_norm": 11.583598098263018,
+      "pred_scatter_norm": 116.34543389368639,
+      "selected_rx_count": 12,
+      "finite": true
+    },
+    {
+      "action": "right_half",
+      "material": "high_contrast",
+      "network_forward_seconds": 0.20576510000682902,
+      "full_receiver_error": 2.885939030347981,
+      "selected_receiver_error": 3.6683586788406712,
+      "scatter_selected_error": 10.929500323687288,
+      "physical_scatter_norm": 10.529310893199572,
+      "pred_scatter_norm": 116.14958675974185,
+      "selected_rx_count": 12,
+      "finite": true
+    }
+  ],
+  "totals": {
+    "network_forwards": 6,
+    "physical_calls": 0,
+    "training_updates": 0,
+    "network_seconds": 1.7510561999952188,
+    "physical_seconds": 0.0
+  },
+  "unknowns": [
+    "training cost",
+    "model loading cost",
+    "physical validation cost intentionally zero in this diagnostic"
+  ],
+  "no_cache_policy": "six distinct material-action forward evaluations"
+}

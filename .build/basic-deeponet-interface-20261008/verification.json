@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "scope": "CPU training000 interface and computational AD check only; no training, validation/test evaluation or physical gradient claim. Branch fixed grid256x128; trunk supports query chunks.",
+  "config": {
+    "grid": [
+      256,
+      128
+    ],
+    "latent": 64,
+    "hidden": 128,
+    "branch_channels": [
+      16,
+      32,
+      64
+    ],
+    "trunk_input_channels": 5,
+    "activation": "GELU",
+    "output": "signed scalar normalized residual",
+    "coordinate_order": [
+      "x/Lx",
+      "y/Ly",
+      "t/T",
+      "sx/Lx",
+      "sy/Ly"
+    ]
+  },
+  "real_scalar_parameters_deeponet": 4251521,
+  "real_scalar_parameters_fno": 4194469,
+  "parameter_ratio": 1.013601721695881,
+  "canonical_coordinate_parity": "bit-identical",
+  "gamma_and_coordinate_gradient_connectivity": "nonzero",
+  "computational_directional_derivative_relative_discrepancy": 7.924680893713475e-10,
+  "query_chunk_max_absolute_discrepancy": 2.0816681711721685e-17,
+  "full_grid_xyz_ordering_and_chunking_max_discrepancy": 6.51925802230835e-09,
+  "model_script_sha256": "c39c7e8f5ed6441173ff43f3d657c48448f639a033ed49d3f5afc362de8ee5e9"
+}

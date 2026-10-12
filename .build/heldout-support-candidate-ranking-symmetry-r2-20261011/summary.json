@@ -1,0 +1,159 @@
+{
+  "status": "completed",
+  "target": {
+    "shift": 3,
+    "a": 0.47
+  },
+  "candidates": [
+    {
+      "shift": 1,
+      "a": 0.47,
+      "physical_error": 0.19894079340146778,
+      "fno_error": 0.19212526286487022,
+      "zero_error": 0.34803668022351336
+    },
+    {
+      "shift": 1,
+      "a": 0.53,
+      "physical_error": 0.1940665873883032,
+      "fno_error": 0.18812294392441606,
+      "zero_error": 0.34803668022351336
+    },
+    {
+      "shift": 2,
+      "a": 0.47,
+      "physical_error": 0.10393015975583139,
+      "fno_error": 0.1265051501292797,
+      "zero_error": 0.34803668022351336
+    },
+    {
+      "shift": 2,
+      "a": 0.53,
+      "physical_error": 0.11310025509694814,
+      "fno_error": 0.1289514936902964,
+      "zero_error": 0.34803668022351336
+    },
+    {
+      "shift": 3,
+      "a": 0.47,
+      "physical_error": 0.0,
+      "fno_error": 0.09257689435024635,
+      "zero_error": 0.34803668022351336
+    },
+    {
+      "shift": 3,
+      "a": 0.53,
+      "physical_error": 0.054401273131707666,
+      "fno_error": 0.09713926309379849,
+      "zero_error": 0.34803668022351336
+    },
+    {
+      "shift": 4,
+      "a": 0.47,
+      "physical_error": 0.10451362519198598,
+      "fno_error": 0.09887707017100447,
+      "zero_error": 0.34803668022351336
+    },
+    {
+      "shift": 4,
+      "a": 0.53,
+      "physical_error": 0.10572286513329798,
+      "fno_error": 0.10028711922238422,
+      "zero_error": 0.34803668022351336
+    },
+    {
+      "shift": 5,
+      "a": 0.47,
+      "physical_error": 0.20103327898151926,
+      "fno_error": 0.1226376739422665,
+      "zero_error": 0.34803668022351336
+    },
+    {
+      "shift": 5,
+      "a": 0.53,
+      "physical_error": 0.18875966343974576,
+      "fno_error": 0.12148334750070311,
+      "zero_error": 0.34803668022351336
+    }
+  ],
+  "rank_metrics": {
+    "spearman_fno_vs_physical": 0.7333333333333334,
+    "kendall_fno_vs_physical": 0.6444444444444445,
+    "physical_top1": {
+      "shift": 3,
+      "a": 0.47,
+      "physical_error": 0.0,
+      "fno_error": 0.09257689435024635,
+      "zero_error": 0.34803668022351336
+    },
+    "fno_top1": {
+      "shift": 3,
+      "a": 0.47,
+      "physical_error": 0.0,
+      "fno_error": 0.09257689435024635,
+      "zero_error": 0.34803668022351336
+    },
+    "physical_top3": [
+      {
+        "shift": 3,
+        "a": 0.47,
+        "physical_error": 0.0,
+        "fno_error": 0.09257689435024635,
+        "zero_error": 0.34803668022351336
+      },
+      {
+        "shift": 3,
+        "a": 0.53,
+        "physical_error": 0.054401273131707666,
+        "fno_error": 0.09713926309379849,
+        "zero_error": 0.34803668022351336
+      },
+      {
+        "shift": 2,
+        "a": 0.47,
+        "physical_error": 0.10393015975583139,
+        "fno_error": 0.1265051501292797,
+        "zero_error": 0.34803668022351336
+      }
+    ],
+    "fno_top3": [
+      {
+        "shift": 3,
+        "a": 0.47,
+        "physical_error": 0.0,
+        "fno_error": 0.09257689435024635,
+        "zero_error": 0.34803668022351336
+      },
+      {
+        "shift": 3,
+        "a": 0.53,
+        "physical_error": 0.054401273131707666,
+        "fno_error": 0.09713926309379849,
+        "zero_error": 0.34803668022351336
+      },
+      {
+        "shift": 4,
+        "a": 0.47,
+        "physical_error": 0.10451362519198598,
+        "fno_error": 0.09887707017100447,
+        "zero_error": 0.34803668022351336
+      }
+    ],
+    "fno_top3_contains_physical_top1": true,
+    "zero_top1": {
+      "shift": 1,
+      "a": 0.47,
+      "physical_error": 0.19894079340146778,
+      "fno_error": 0.19212526286487022,
+      "zero_error": 0.34803668022351336
+    }
+  },
+  "cost": {
+    "physical_calls": 11,
+    "network_forwards": 10,
+    "target_calls": 1,
+    "candidate_calls": 10,
+    "elapsed_seconds": 9.65005639998708
+  },
+  "scope": "known support shape but heldout support row, source0, scalar density; not blind defect identification or final test"
+}

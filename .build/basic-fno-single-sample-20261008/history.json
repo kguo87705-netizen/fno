@@ -1,0 +1,42 @@
+[
+  {
+    "update": 0,
+    "field_relative_l2": 0.9991428256034851,
+    "trace_relative_l2": 0.999671220779419,
+    "trace_norm_ratio": 0.015043044462800026,
+    "trace_zero_lag_correlation": 0.029370401054620743,
+    "normalized_field_mse": 0.9960747361183167
+  },
+  {
+    "update": 50,
+    "field_relative_l2": 0.9988389015197754,
+    "trace_relative_l2": 0.9995707273483276,
+    "trace_norm_ratio": 0.030102087184786797,
+    "trace_zero_lag_correlation": 0.029308509081602097,
+    "normalized_field_mse": 0.9954689145088196
+  },
+  {
+    "update": 100,
+    "field_relative_l2": 0.9987825155258179,
+    "trace_relative_l2": 0.999605655670166,
+    "trace_norm_ratio": 0.02782900631427765,
+    "trace_zero_lag_correlation": 0.028079558163881302,
+    "normalized_field_mse": 0.9953565001487732
+  },
+  {
+    "update": 200,
+    "field_relative_l2": 0.9575197696685791,
+    "trace_relative_l2": 0.9885431528091431,
+    "trace_norm_ratio": 0.1574370115995407,
+    "trace_zero_lag_correlation": 0.1510722041130066,
+    "normalized_field_mse": 0.9148129820823669
+  },
+  {
+    "update": 400,
+    "field_relative_l2": 0.18051542341709137,
+    "trace_relative_l2": 0.6413650512695312,
+    "trace_norm_ratio": 0.6392630338668823,
+    "trace_zero_lag_correlation": 0.7800451517105103,
+    "normalized_field_mse": 0.03251362591981888
+  }
+]

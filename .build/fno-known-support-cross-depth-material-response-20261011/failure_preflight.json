@@ -1,0 +1,9 @@
+{
+  "status": "blocked_before_generation",
+  "experiment": "known_support_cross_depth_local_material_response",
+  "reason": "physical_setup could not read existing source.h5 because pandas.read_hdf requires missing PyTables package",
+  "attempted_install": "python -m pip install tables; network TLS/EOF failure before package installation",
+  "scientific_calls": {"physical": 0, "network_forwards": 0, "training_updates": 0},
+  "protocol_preserved": true,
+  "next_action": "restore PyTables/read_hdf dependency, then rerun the same frozen protocol without changing inputs"
+}

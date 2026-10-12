@@ -1,0 +1,33 @@
+{
+  "status": "selected_case_completed",
+  "case": 3,
+  "epochs": 35,
+  "source": "https://zenodo.org/records/14616677",
+  "original_script_md5": "8e5d0114b99b7332df051941f3c2d49d",
+  "runtime_replacements": {
+    "cases = np.linspace(1, 4, 4, dtype=int)": "cases = np.array([3], dtype=int)",
+    "    epochs = 35": "    epochs = 35",
+    "destinationFolder = \"data_casestudy\"": "destinationFolder = outputFolder",
+    "if destinationFolder not in os.listdir(os.getcwd()):": "if not os.path.isdir(destinationFolder):",
+    "destinationFolder + \"/material\"": "inputFolder + \"/material\"",
+    "destinationFolder + \"/measurement\"": "inputFolder + \"/measurement\"",
+    "destinationFolder + \"/source.h5\"": "inputFolder + \"/source.h5\""
+  },
+  "torch_version": "2.11.0+cu128",
+  "numpy_version": "2.4.4",
+  "pandas_version": "3.0.5",
+  "scope": "Selected author case at original numerical settings and original 35 epochs; numerical agreement with published figures still requires assessment.",
+  "post_update_cost": 1.7364386838136792e-12,
+  "initial_cost": 8.414611021856366e-12,
+  "last_pre_update_cost": 1.7784510843166235e-12,
+  "post_update_material_mse_half": 0.039899542927742004,
+  "grid": [
+    255,
+    127
+  ],
+  "sources": 4,
+  "receivers": 24,
+  "steps": 2000,
+  "elapsed_seconds": 86.74213929999678,
+  "peak_cuda_allocated_gb": 8.924927711486816
+}

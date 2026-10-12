@@ -1,0 +1,23 @@
+{
+  "Released adjoint, lr=0.08": {
+    "final_cost_over_initial": 0.34134343505567355,
+    "final_material_mse_over_initial": 2.123176241309566,
+    "cost_increase_steps": 3,
+    "min_material_mse_update": 1,
+    "min_material_mse_over_initial": 0.9969709144018171
+  },
+  "Discrete AD, lr=0.08": {
+    "final_cost_over_initial": 0.37914583349055003,
+    "final_material_mse_over_initial": 2.60990486019286,
+    "cost_increase_steps": 9,
+    "min_material_mse_update": 0,
+    "min_material_mse_over_initial": 1.0
+  },
+  "Discrete AD, lr=0.02": {
+    "final_cost_over_initial": 0.41359376827643973,
+    "final_material_mse_over_initial": 2.0796433984952705,
+    "cost_increase_steps": 0,
+    "min_material_mse_update": 2,
+    "min_material_mse_over_initial": 0.9685515252316297
+  }
+}

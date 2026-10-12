@@ -1,0 +1,119 @@
+{
+  "status": "fixed_before_run",
+  "plan": {
+    "status": "planned_not_run",
+    "question": "Does surrogate initialization retain a cost/quality advantage once the direct physical scalar baseline gets a fixed sufficient iteration budget?",
+    "output_directory": ".build/fno-physical-fixed-budget-control-20261009",
+    "targets": [
+      0.35,
+      0.45,
+      0.55,
+      0.65
+    ],
+    "data_role": "Same now-used development observations, not independent final test",
+    "initializations": [
+      "frozen original width8 grid-selected a",
+      "frozen train-only linear grid-selected a",
+      "fixed .5"
+    ],
+    "fixed": "Same one-step formula, float64 physics, epsilon.002, max absolute step.02, bounds[.3,.7], observations and known support.",
+    "primary_change_from_prior": "Exactly8 physical updates per initialization rather than1; all3 methods get the identical update budget.",
+    "evaluation_updates": [
+      0,
+      1,
+      2,
+      4,
+      8
+    ],
+    "selection": "Run all8 updates; final8 is primary result. No stopping or selection from material truth, objective tolerance or best iterate; all cost increases and clips preserved.",
+    "cache_policy": "Separate physical cache per target/initialization; reuse the previous F(a1) as the next center only within its own trajectory. No cross-method/cross-target sharing for timing; logical4 calls/update reported alongside actual unique calls.",
+    "references": [
+      "unchanged initial estimate",
+      "direct .5 physical route with same8-update budget",
+      "old full201-point physical grid as diagnostic reference only, not new solver call cost"
+    ],
+    "metrics": [
+      "full trajectories of a,cost,raw/clipped delta",
+      "material errors scored after fixed updates, full/scatter receiver errors",
+      "per-route actual physical calls,cache hits,times",
+      "first-stage201-candidate original/linear lookup times and network offline training532.99sec separately; prior training-data generation unknown",
+      "quality versus total accounted calls/time at predeclared updates0/1/2/4/8; do not choose a stopping update based on these labels"
+    ],
+    "decision": {
+      "all_routes_recover_similarly": "Current known-support scalar task offers no neural necessity evidence; favor simplest verified pipeline and preregister a new geometry/parameter axis only if it creates a meaningful operator problem.",
+      "surrogate_routes_only_recover": "Initialization benefit at fixed8 steps; require full cost accounting/new validation before neural advantage, and compare linear first.",
+      "fixed05_still_clip_limited": "Report optimizer budget limitation, not identifiability failure; no automatic extra updates.",
+      "material_worsens_despite_cost_decrease": "No recovery-success claim; audit model/objective mismatch.",
+      "late_roundoff_plateau": "Report numerical plateau and label/reference precision, not best-iterate recovery."
+    },
+    "budget": "At most384 logical float64 FD calls, actual within-trajectory cache may reduce calls. Estimated3-5min,cap10min,no training/download,fresh directory,OOM stop.",
+    "limits": "Known support scalar optimization; does not validate blind imaging, unknown geometry, noise robustness or an independent final test. Single-run route timings are descriptive, not a formal benchmark.",
+    "frozen_sha256": {
+      ".build\\fno-physical-single-step-control-20261009\\raw.pt": "9ae30f1bea7b3258c98c0d12d43f2b54fdbd0d16fc7f05290fc3e937a731069f",
+      ".build\\fno-physical-single-step-control-20261009\\summary.json": "a1adf528aa623ff4f4c4d5e0448f399b0112a8c60f300090d27f04520007c039",
+      ".build\\fno-physical-single-step-control-20261009\\protocol.json": "3f72dd9775ea8e7e0e214c1dff4190616d2197cde7c336fd22db32aa4ef213ab",
+      ".build\\fno-frozen-new-contrast-validation-20261009\\observations.pt": "03d21574983adfee9253cfff3b1536dd6d71ebc8a0fafc98efc646f4481ae9c8",
+      ".build\\fno-frozen-new-contrast-validation-20261009\\summary.json": "f4e31dabfea5b30b4073383963965f939c978d144016461f0b548226d367877f",
+      "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_physical_single_step.py": "6783c10028943b2bfdb27ce4b7eee6598f2c7890cd9998d263bf83bda9e565b2"
+    }
+  },
+  "plan_sha256": "95ca42a477b33c3428767048be1fd903eeb7dd1c690a97cb35ccb5047ff252eb",
+  "script_sha256": "7fc6de67fd3a6c223616d45b8a750becc8c9f808fafa58183bf8df8138642920",
+  "proposal_script_sha256": "6783c10028943b2bfdb27ce4b7eee6598f2c7890cd9998d263bf83bda9e565b2",
+  "frozen_sha256": {
+    ".build/fno-local-contrast-20261009/final.pt": "4389f119e54011fba8ac181fd090da60a9df5f87d580a0dce60e110cfbc3cf86",
+    ".build/fno-width8-control-20261009/final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+    ".build/fno-width8-control-20261009/comparison.json": "614e0a9b0c007a39858005f2325b9d5bc350ca52e0fd8d51d04905d641fd4432",
+    ".build/fno-local-contrast-20261009/data_manifest.json": "281ac315c43066fae6d75457c42f3800d087192bf15022b86307d999acb4da69",
+    ".build/fno-local-contrast-20261009/references.json": "77573d1a890dc22e8cd2f403f98a2f9f7f7cc6dcbb3736fd1f90522728a96d82",
+    ".build/fno-local-contrast-20261009/contrast_03.pt": "07b6c6bcf1aff23887e7fa1e10f7407c3f30f4e64e33905c2d95cb7ffc8a6906",
+    ".build/fno-local-contrast-20261009/contrast_05.pt": "baf16dcfb73599e8172e31919e052811e21ba09e543bb7a191ced73aee4c9c30",
+    ".build/fno-local-contrast-20261009/contrast_07.pt": "44d76f12fd90866012dec14e6881d113ee591ca8c60abac0fc1d10bce61fe3ba",
+    ".build/fno-local-contrast-20261009/contrast_04.pt": "5e86d1634ce196cdc51dace9cb76d3725a39b9702235b6e8182d1a4415c5e863",
+    ".build/fno-local-contrast-20261009/contrast_06.pt": "a60417869bdfd89ef640c0b425718a9cb25f832dba699700208a77df50cb16d1",
+    ".build/operator-pilot-v3-20261008/homogeneous.pt": "9d382c08f6dbd90cedb09c2971aaf66c96d60ca69fecbfea41d29822955d88b6",
+    ".build/operator-pilot-v3-20261008/synthetic_workpiece_000.pt": "eba5bed176c50f379d3ab4da194aae92529e0ecd648d18eabc352bc1d2a41f82",
+    "Research_Direction/Author_Baseline_Singh_Zenodo14616677/data_casestudy/source.h5": "67d94afee4a19becde3f081424510f2a2433f7dd27d301abdf1954fe6f168c9c",
+    "Research_Direction/Author_Baseline_Singh_Zenodo14616677/settings2D.csv": "4fb9e8fdb8fa2fb97502e605f31351601e115463fa1800913473699d9f4ee398",
+    ".build\\fno-contrast-precision-control-20261009\\summary.json": "86712736a08b06ef9e47c5a3d9246a9d635232b83ca1b82a3a9fe2a86eea5889",
+    ".build\\fno-contrast-precision-control-20261009\\raw.pt": "de90bad92a1a44dc91b0e35b2caa4437056eadff3bdd35d2a02238409417c1b4",
+    ".build\\fno-width8-control-20261009\\final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+    ".build\\fno-local-contrast-20261009\\contrast_03.pt": "07b6c6bcf1aff23887e7fa1e10f7407c3f30f4e64e33905c2d95cb7ffc8a6906",
+    ".build\\fno-local-contrast-20261009\\contrast_04.pt": "5e86d1634ce196cdc51dace9cb76d3725a39b9702235b6e8182d1a4415c5e863",
+    ".build\\fno-local-contrast-20261009\\contrast_05.pt": "baf16dcfb73599e8172e31919e052811e21ba09e543bb7a191ced73aee4c9c30",
+    ".build\\fno-local-contrast-20261009\\contrast_06.pt": "a60417869bdfd89ef640c0b425718a9cb25f832dba699700208a77df50cb16d1",
+    ".build\\fno-local-contrast-20261009\\contrast_07.pt": "44d76f12fd90866012dec14e6881d113ee591ca8c60abac0fc1d10bce61fe3ba",
+    ".build\\fno-scalar-grid-recovery-20261009\\raw.pt": "f71ad75179170a8869e122ad5537a7487716e43c1386dc643ba7c00bcb166083",
+    ".build\\fno-scalar-grid-recovery-20261009\\summary.json": "1dbd3e2cebb109f443b83c42116fc403aa7be82bc57062fdac78823be5b40f0c",
+    ".build\\fno-scalar-grid-recovery-20261009\\protocol.json": "ac370e16329956214287d7eb43c433396d6bfcc5f53f97b1446ec56fe4b598bc",
+    ".build\\fno-training-affine-bias-control-20261009\\affine.pt": "0b1e66ff7ee21fe79ab1b84a3246f573c2c3bfbe9920692db591c5e2ecc19998",
+    ".build\\fno-training-affine-bias-control-20261009\\summary.json": "7b3ddd8992063c05c2a2a3929bd9930ed403ad290b47bee7f172f82c667b040e",
+    ".build\\fno-training-affine-bias-control-20261009\\protocol.json": "7fac8b4b14e029213d1866c8ac9cd34d6aac58a3caeec95e544f25cb17a76b7f",
+    ".build\\fno-training-bias-control-20261009\\calibration.pt": "b093d5c5a5196ad6635dfd259b65a314dafb1de874aaafcb237111b9ab2b75da",
+    ".build\\fno-local-contrast-20261009\\data_manifest.json": "281ac315c43066fae6d75457c42f3800d087192bf15022b86307d999acb4da69",
+    ".build\\fno-frozen-new-contrast-validation-20261009\\raw.pt": "10a717aa2e16573d4beaa665d77e773a46cd3fedc75c7a23478e6401b9c53af2",
+    ".build\\fno-frozen-new-contrast-validation-20261009\\summary.json": "f4e31dabfea5b30b4073383963965f939c978d144016461f0b548226d367877f",
+    ".build\\fno-frozen-new-contrast-validation-20261009\\observations.pt": "03d21574983adfee9253cfff3b1536dd6d71ebc8a0fafc98efc646f4481ae9c8",
+    ".build\\fno-frozen-new-contrast-validation-20261009\\protocol.json": "05fc558bf9b7108992ac989b125acd589150567e34d28d123779911e8ebc4d5a",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\discrete_reference.py": "744df2da2f15abed6934a78e600b9d1aa94fc3dd87d87ba48f41839bec7b0aaf",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_frozen_contrast_validation.py": "6ab90f26ce68f9378f5b8d60ec1f28dfaaf085cfe49fddc5074242a859023dad",
+    ".build\\fno-physical-single-step-control-20261009\\raw.pt": "9ae30f1bea7b3258c98c0d12d43f2b54fdbd0d16fc7f05290fc3e937a731069f",
+    ".build\\fno-physical-single-step-control-20261009\\summary.json": "a1adf528aa623ff4f4c4d5e0448f399b0112a8c60f300090d27f04520007c039",
+    ".build\\fno-physical-single-step-control-20261009\\protocol.json": "3f72dd9775ea8e7e0e214c1dff4190616d2197cde7c336fd22db32aa4ef213ab",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_physical_single_step.py": "6783c10028943b2bfdb27ce4b7eee6598f2c7890cd9998d263bf83bda9e565b2"
+  },
+  "dependencies": {
+    "basic_fno.py": "acf21cd017e7bb399d1184d312212db67023adaa7c8ca008ff8a60081210737a",
+    "run_fno_local_contrast.py": "579d0b03d157c73cd54b3c2495994eaeb9f7e6b200d6cced94a6b67e32c30530",
+    "time_feature_input.py": "5d18c16a80304c2ac8027dbdef5b3bcb3c9dd40450e6361dddb39b84fdc86f39",
+    "operator_data.py": "43c1c3f67f7abe6a91a95886c4121fd6f34031e81f29dd46db1f2d19c82617ca",
+    "time_reconstruction.py": "d749b8f5c6aa379187a8d1486c0249b1d79630a9ecd638e7af63ce1cf7d2aaf2",
+    "discrete_reference.py": "744df2da2f15abed6934a78e600b9d1aa94fc3dd87d87ba48f41839bec7b0aaf",
+    "FiniteDifferencePyTorchConv.py": "ffa51af0896fa2ddc0ef8e705d4f88f3dc9cc61df96b780eef1ad25cac1fde9f",
+    "Utilities.py": "20931a36069c795d367d36bcf81df1875b10ba8459718dcd442377a184c101e3",
+    "run_reduced_material_scan.py": "b48630e557fb7c99e7e881f2c1adb32216311077386f5fe71af4693bc12a1108"
+  },
+  "execution": "Same float64 physical solver; cache local to each route; all8 steps, no convergence stopping",
+  "GPU": "NVIDIA GeForce RTX 5070",
+  "torch": "2.11.0+cu128"
+}

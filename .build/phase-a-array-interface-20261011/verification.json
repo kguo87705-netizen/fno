@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "checks": [
+    "protocol input hashes",
+    "3 action definitions",
+    "9 output tensors finite and shape-checked",
+    "9 physical call ledger",
+    "3 exact replay tasks",
+    "no network/training calls",
+    "no old output mutation"
+  ],
+  "replayed_tasks": [
+    [
+      "full_aperture",
+      "low_contrast"
+    ],
+    [
+      "left_half",
+      "background"
+    ],
+    [
+      "right_half",
+      "high_contrast"
+    ]
+  ],
+  "physical_calls": 9,
+  "network_forwards": 0,
+  "training_updates": 0,
+  "scope": "stage A scalar finite-difference array interface; no FNO/PINO training; source0 fixed; not final test"
+}

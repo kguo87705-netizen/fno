@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "notes_sha256": {
+    "PINO超声成像知识库\\05实践与复习\\配对深度覆盖终态审查 2026-10-09.md": "adb13896795e3a923258187df3a15961a54e37480a0ea6e222800ac60eb7b48b",
+    "PINO超声成像知识库\\05实践与复习\\科研工作区D盘迁移记录 2026-10-09.md": "2681952d079012255e53edf97f7fb9e4a827ebeed1e9e6c1e9b6c83015db2b98"
+  },
+  "image": "Visually inspected and copy SHA checked",
+  "scientific_verification": "Both final300 predictions reloaded exactly; all prior input hashes stable",
+  "migration": "4344 source/destination SHA checks before removing originals; C entries are D junctions",
+  "native_Obsidian_rendering": "not performed"
+}

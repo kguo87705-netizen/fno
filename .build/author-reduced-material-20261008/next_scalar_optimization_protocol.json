@@ -1,0 +1,15 @@
+{
+  "status": "planned_not_run",
+  "purpose": "Check whether reducing the same case1 material parameterization to one contrast changes fixed-budget recovery while preserving the prior optimizer settings",
+  "data_access": "Author case1 development only; no operator validation/test, new final test or independent physics",
+  "observations": ["released measurement1", "previous frozen same-stencil truth observations"],
+  "initializations": ["a=1", "a=float32(0.95*truth_defect_value+0.05), matching prior near_truth"],
+  "geometry": "Known truth support material1<0.5 (339 physical cells); fixed gamma=1 outside support, original ghost/source/receiver handling",
+  "primary_intervention": "Replace the free-pixel gamma parameter with a single scalar a; no new regularizer or network",
+  "optimizer": "Adam lr0.02, correct time cost multiplied by 1e12, gradient norm clip1e-5, clamp a to [gamma0,1], 35 updates",
+  "evaluation": "Save all 36 states; final35 main result, no truth-selected stopping. Report contrast, waveform relative L2, correct time cost and physical-grid material half MSE",
+  "checks": "Verify reconstructed initial fields against prior four-arm initial states; audit scalar chain-rule gradient with positive unprojected float64 finite differences before updates; check optimizer steps, finite values, fixed support and endpoint prediction reload",
+  "comparison": "Compare with previously saved free-pixel four arms using identical observations, initial fields and fixed budget. Scalar clipping and Adam occur in a different coordinate system, so this is a parameterization control, not an isolated optimizer improvement",
+  "interpretation": "Known geometry is diagnostic oracle information; success cannot be claimed as blind FWI, geometry recovery or final generalization",
+  "follow_up": "Only after this result choose separately between accepted-step optimization, coarser unknown-geometry parameterization or local FNO material-family work"
+}

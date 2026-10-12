@@ -1,0 +1,99 @@
+{
+  "status": "completed",
+  "new_forward_calls": 0,
+  "new_training_updates": 0,
+  "rows": [
+    {
+      "method": "original",
+      "interval": [
+        "contrast03",
+        "depth0"
+      ],
+      "relative_l2": 0.07508508295014696,
+      "norm_ratio": 0.9898016873721398,
+      "cosine": 0.9972046096850621
+    },
+    {
+      "method": "original",
+      "interval": [
+        "depth0",
+        "contrast07"
+      ],
+      "relative_l2": 0.09942501839022572,
+      "norm_ratio": 0.9575633487804031,
+      "cosine": 0.9957786265914198
+    },
+    {
+      "method": "original",
+      "interval": [
+        "contrast03",
+        "contrast07"
+      ],
+      "relative_l2": 0.04620994121773396,
+      "norm_ratio": 0.9837959881511077,
+      "cosine": 0.9990481824026898
+    },
+    {
+      "method": "nominal_repeat",
+      "interval": [
+        "contrast03",
+        "depth0"
+      ],
+      "relative_l2": 0.18196328383267074,
+      "norm_ratio": 0.9677693533667686,
+      "cosine": 0.9834300280489344
+    },
+    {
+      "method": "nominal_repeat",
+      "interval": [
+        "depth0",
+        "contrast07"
+      ],
+      "relative_l2": 0.16189162449362127,
+      "norm_ratio": 0.9534945999188906,
+      "cosine": 0.987390518076082
+    },
+    {
+      "method": "nominal_repeat",
+      "interval": [
+        "contrast03",
+        "contrast07"
+      ],
+      "relative_l2": 0.15675536439506516,
+      "norm_ratio": 0.967798231716425,
+      "cosine": 0.9878408073011632
+    },
+    {
+      "method": "depth_coverage",
+      "interval": [
+        "contrast03",
+        "depth0"
+      ],
+      "relative_l2": 0.3402569770569995,
+      "norm_ratio": 1.0419116884012196,
+      "cosine": 0.9452841243261754
+    },
+    {
+      "method": "depth_coverage",
+      "interval": [
+        "depth0",
+        "contrast07"
+      ],
+      "relative_l2": 0.30144707634177176,
+      "norm_ratio": 0.9803889407489484,
+      "cosine": 0.9538521180579037
+    },
+    {
+      "method": "depth_coverage",
+      "interval": [
+        "contrast03",
+        "contrast07"
+      ],
+      "relative_l2": 0.3029663801807298,
+      "norm_ratio": 1.0289132827248788,
+      "cosine": 0.9558015961456735
+    }
+  ],
+  "raw_sha256": "f6abe49d34a28743aa373ef44aa263f13ee13c461fd31326f4e32f1d51fdb6c9",
+  "limits": "Nominal geometry, wide finite differences across saved .3/.5/.7; not a local Jacobian or unseen-depth material derivative. Development diagnostics, not final test."
+}

@@ -1,0 +1,135 @@
+{
+  "status": "frozen_before_training",
+  "plan": {
+    "status": "planned_not_run",
+    "experiment": "matched_geometry_exposure_material_anchor_replay",
+    "output_directory": "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\.build\\fno-matched-material-replay-20261009",
+    "question": "Does replay of previously seen nominal material anchors preserve material finite response without losing geometry response?",
+    "initial_checkpoint": "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\.build\\fno-paired-depth-coverage-recovery-r2-20261009\\depth_coverage_update300.pt",
+    "initialization": "Both arms restore identical model and Adam state at step300;lr0.001,IEEE,no scheduling,identical architecture/loss/scales/source.",
+    "arms": {
+      "nominal_control": [
+        "depth-2",
+        "depth0",
+        "depth2",
+        "depth0",
+        "depth0"
+      ],
+      "material_replay": [
+        "depth-2",
+        "depth0",
+        "depth2",
+        "contrast03",
+        "contrast07"
+      ]
+    },
+    "schedule": "Repeat each five-slot order20 times;100 additional updates per arm;the first three geometry slots receive20 exposures each in both arms. Only last two slot labels differ. No geometric augmentation.",
+    "single_factor": "Composition of40 replay slots: nominala0.5 vs nominala0.3/a0.7,20 each. Intentional extra nominal exposure in control;claim is replay-composition effect,not equal total nominal counts.",
+    "loss": "Unchanged field MSE plus receiver MSE;zero encoding,8input channels,width8,source0,same500frames and24 receivers,old normalization.",
+    "budget": {
+      "training_updates": 200,
+      "new_physical_calls": 0,
+      "wall_seconds_cap": 240,
+      "checkpoint_evaluation_updates": [
+        0,
+        100
+      ],
+      "verification": "Reload both finals and replay all7 stored states once;no extra training;log costs separately;total including verification within240sec or interrupted_not_comparable."
+    },
+    "evaluation_states": [
+      "depth-2",
+      "depth0",
+      "depth2",
+      "depth-1",
+      "depth1",
+      "contrast03",
+      "contrast07"
+    ],
+    "baselines": [
+      "frozen coverage300 no update",
+      "original checkpoint cached results",
+      "nominal_control matched steps/exposure",
+      "existing3depth piecewise-linear geometry reference"
+    ],
+    "primary_material": "Nominal receiver finite response(a0.7-a0.3);report subintervals0.3to0.5 and0.5to0.7 as secondary;also report anchor scatter field/trace and full field/trace.",
+    "success": "Replay primary finite-response relativeL2 <=0.8*control AND <=0.8*frozen coverage;neither anchor scatter trace/field >1.1*frozen coverage. On both development depths scatter field/trace <=1.1*frozen coverage,trace <=0.20;geometry response relativeL2 <=0.20 andcos>=0.9. Not proxy qualification unless inherited field<=0.20 also passes.",
+    "failure": "Primary material response does not improve over control,or geometry guardrail violated. Report partial material benefit separately if geometry harms;do not redefine success.",
+    "inconclusive": "Valid improvements smaller than20%,or contradictory subintervals,or nonfinite/failure/incomplete budget. One initialization limits robustness;no winner from intermediate checkpoint.",
+    "threshold_origin": "Inherited20%/.9 proxy screens unchanged.20% relative improvement and10% degradation are new preregistered operational replay effect/guardrail thresholds,not statistical significance or physical guarantees.",
+    "branches": {
+      "success": "Next preregister small physical material-Jacobian check on fixed support;keep simple interpolation baseline. No blind recovery claim.",
+      "material_gain_geometry_harm": "Replay trade-off;next isolate common loss with same data exposure,not add network.",
+      "no_material_gain": "Audit actual frozen Adam update directions including moments before increasing steps/capacity.",
+      "incomplete": "Preserve failures and timings;resume only via new frozen recovery protocol."
+    },
+    "scope": "All states already used for development. Nominal material anchors previously trained;neither unseen material/geometry joint generalization nor independent final test. Finite response is not localJacobian. No final truth stopping.",
+    "frozen_sha256": {
+      "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\.build\\fno-paired-depth-coverage-recovery-r2-20261009\\depth_coverage_update300.pt": "6460eb36126572887b07d40f16d9347bd9ce49e51abfe6b655d05da15802e660",
+      "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\.build\\fno-frozen-loss-gradient-audit-20261009\\summary.json": "209912def545ddea7dafefc1f43374aeb05f16cceb765e95a0a83a0461d4432c",
+      "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\.build\\fno-frozen-loss-gradient-audit-20261009\\raw.pt": "a3d335e6a4cf701256ac910242638ce739083fe1c27aa0445fe7b52e1884b4dd",
+      "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\.build\\fno-frozen-loss-gradient-audit-20261009\\verification.json": "f64a4f2a1aa347974a55e7b0a18d25442c5aa597898f2e99927ec3910c9d8109",
+      "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\.build\\fno-paired-depth-coverage-recovery-r2-20261009\\cached_nominal_material_response.json": "d9f6171bcd985970b8b13b705358ea2015d56b2537865c221faa5cd3e373d65d",
+      "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_paired_depth_coverage.py": "2e37bed83a91c499b01f2fd50b31eca7cbc3590d8ebd05d5922c4b900e590296"
+    }
+  },
+  "plan_sha256": "26d5e9ba31d939b6de04c0b09fb9258ddf611d4febd8d7c9e0c9cbe7b74153e2",
+  "script_sha256": "072003ea63d2f055e507dd2ba471a2b0e3df876fa0fdc440507be7a09bf5ec50",
+  "frozen_sha256": {
+    "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\.build\\fno-paired-depth-coverage-recovery-r2-20261009\\depth_coverage_update300.pt": "6460eb36126572887b07d40f16d9347bd9ce49e51abfe6b655d05da15802e660",
+    "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\.build\\fno-frozen-loss-gradient-audit-20261009\\summary.json": "209912def545ddea7dafefc1f43374aeb05f16cceb765e95a0a83a0461d4432c",
+    "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\.build\\fno-frozen-loss-gradient-audit-20261009\\raw.pt": "a3d335e6a4cf701256ac910242638ce739083fe1c27aa0445fe7b52e1884b4dd",
+    "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\.build\\fno-frozen-loss-gradient-audit-20261009\\verification.json": "f64a4f2a1aa347974a55e7b0a18d25442c5aa597898f2e99927ec3910c9d8109",
+    "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\.build\\fno-paired-depth-coverage-recovery-r2-20261009\\cached_nominal_material_response.json": "d9f6171bcd985970b8b13b705358ea2015d56b2537865c221faa5cd3e373d65d",
+    "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_paired_depth_coverage.py": "2e37bed83a91c499b01f2fd50b31eca7cbc3590d8ebd05d5922c4b900e590296",
+    ".build\\fno-frozen-depth-shift-audit-20261009-r2\\raw.pt": "246c5fbd657fb8b03337832ee3081f2db6011798fa925c3763d9f0c9e032b061",
+    ".build\\fno-depth-interpolation-control-20261009\\raw.pt": "1f0f1dd54042cc812a8f3ef768e1435354d848f0a57e076856432912ef15da7d",
+    ".build\\fno-depth-interpolation-control-20261009\\summary.json": "82af871baea63216be452906d42f0ae03d37424f7dedc3b4d7c7c6ad74f29a9d",
+    ".build\\fno-depth-interpolation-control-20261009\\verification.json": "0644b2e5c81a85deeaae330d65f9d18c49a7cb08f127f3a6151b5c052bc22cf3",
+    ".build\\fno-depth-interpolation-control-20261009\\references.pt": "2bf461f8697e4693d5f235f59320e58b31f376e33fe8995b542a4f45f4736b0e",
+    ".build\\fno-depth-interpolation-control-20261009\\reference_commit.json": "07bcaded29c391e7fcd7771fedf6a8539961ebeb15a99e1ac810bff43835ffb5",
+    ".build\\fno-width8-control-20261009\\final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+    ".build\\fno-local-contrast-20261009\\data_manifest.json": "281ac315c43066fae6d75457c42f3800d087192bf15022b86307d999acb4da69",
+    ".build\\fno-local-contrast-20261009\\contrast_03.pt": "07b6c6bcf1aff23887e7fa1e10f7407c3f30f4e64e33905c2d95cb7ffc8a6906",
+    ".build\\fno-local-contrast-20261009\\contrast_07.pt": "44d76f12fd90866012dec14e6881d113ee591ca8c60abac0fc1d10bce61fe3ba",
+    ".build\\operator-pilot-v3-20261008\\homogeneous.pt": "9d382c08f6dbd90cedb09c2971aaf66c96d60ca69fecbfea41d29822955d88b6",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_receiver_loss_control.py": "50e645a04cdd4695b808db3326e3c87a0a4ea96bfe606c37d83d1c1c4df6a039",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\time_feature_input.py": "5d18c16a80304c2ac8027dbdef5b3bcb3c9dd40450e6361dddb39b84fdc86f39",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\basic_fno.py": "acf21cd017e7bb399d1184d312212db67023adaa7c8ca008ff8a60081210737a",
+    ".build\\fno-paired-depth-coverage-control-20261009\\protocol.json": "a6756982abe6dec39a17cf498f365b13518e853d4f941fe36651c30fb7aa7f0a",
+    ".build\\fno-paired-depth-coverage-control-20261009\\failure.json": "045126695c8286ebe22d290fc209c1e2126a017e49ae39095f4e5331550ffa70",
+    ".build\\fno-paired-depth-coverage-control-20261009\\save_failure_audit.json": "93c15d09926e4421511c7cc29437b451bc762f0387b59fa274c07c0152831fd2",
+    ".build\\fno-paired-depth-coverage-control-20261009\\nominal_repeat_progress.pt": "164293bf8d1e622b2c862fb1694153ddf4a927d9683ce7cf5628c02f28da635e",
+    ".build\\fno-paired-depth-coverage-control-20261009\\nominal_repeat_update150.pt": "70ba976bc8c1718aae9aa01a96ab72fe4e32cb6abafc2abceed35e4b53aa2da0",
+    ".build\\fno-paired-depth-coverage-control-20261009\\nominal_repeat_update300.pt": "723102f808ea52e755026c95faf5aa0b063736e6e76d19779be1800a94d024b1",
+    ".build\\fno-paired-depth-coverage-control-20261009\\save_diagnostic\\checkpoint150.pt": "b91719595ebe9c945962bd98a62531825b2d3a250fbbb8e69d0b271e7cf9f5c8",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_paired_depth_coverage.py": "2e37bed83a91c499b01f2fd50b31eca7cbc3590d8ebd05d5922c4b900e590296",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_frozen_depth_shift.py": "ffb0aa8c5ecd01ee879e90d1b78f4cd784f2cc50d2841026a8730ec7031c253e",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_depth_interpolation.py": "d29259d347b08035c2e7333c0621a48e47527f555b6d4e6336a202da95df7bc3",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_fno_local_contrast.py": "579d0b03d157c73cd54b3c2495994eaeb9f7e6b200d6cced94a6b67e32c30530",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\time_reconstruction.py": "d749b8f5c6aa379187a8d1486c0249b1d79630a9ecd638e7af63ce1cf7d2aaf2",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\train_multiworkpiece_control.py": "81a81d3536dbc1175eaee2795581247d54a200dcf08367f5cdab84df305a5464",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_reduced_material_scan.py": "b48630e557fb7c99e7e881f2c1adb32216311077386f5fe71af4693bc12a1108",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_contrast_derivative_audit.py": "f89db13917f3e66a1b0c3702200c27ef49d2babe23ed04a99956bad9b44fd265",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\operator_data.py": "43c1c3f67f7abe6a91a95886c4121fd6f34031e81f29dd46db1f2d19c82617ca",
+    ".build\\fno-paired-depth-coverage-recovery-20261009\\nominal_repeat_update300.pt": "345ac6691173d7bd4cde20e9cfd2bf9aa6cde3cc5a1d481476252f106352c3da",
+    ".build\\fno-paired-depth-coverage-recovery-20261009\\nominal_repeat_results.pt": "987cdca8a75a46b2519ed14bb7bfceda86f1e2996d47c94f8a9773663d961913",
+    "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_paired_depth_recovery.py": "40b1fb25d386f0d274a9b39c39b519b42f42e0b53f3eb059169f0e0358d7d744"
+  },
+  "dependencies": {
+    "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_paired_depth_coverage.py": "2e37bed83a91c499b01f2fd50b31eca7cbc3590d8ebd05d5922c4b900e590296",
+    "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_paired_depth_recovery.py": "40b1fb25d386f0d274a9b39c39b519b42f42e0b53f3eb059169f0e0358d7d744",
+    "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_frozen_depth_shift.py": "ffb0aa8c5ecd01ee879e90d1b78f4cd784f2cc50d2841026a8730ec7031c253e",
+    "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_fno_local_contrast.py": "579d0b03d157c73cd54b3c2495994eaeb9f7e6b200d6cced94a6b67e32c30530",
+    "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\discrete_reference.py": "744df2da2f15abed6934a78e600b9d1aa94fc3dd87d87ba48f41839bec7b0aaf",
+    "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\time_reconstruction.py": "d749b8f5c6aa379187a8d1486c0249b1d79630a9ecd638e7af63ce1cf7d2aaf2",
+    "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\time_feature_input.py": "5d18c16a80304c2ac8027dbdef5b3bcb3c9dd40450e6361dddb39b84fdc86f39",
+    "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\basic_fno.py": "acf21cd017e7bb399d1184d312212db67023adaa7c8ca008ff8a60081210737a",
+    "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_receiver_loss_control.py": "50e645a04cdd4695b808db3326e3c87a0a4ea96bfe606c37d83d1c1c4df6a039",
+    "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\operator_data.py": "43c1c3f67f7abe6a91a95886c4121fd6f34031e81f29dd46db1f2d19c82617ca",
+    "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\train_multiworkpiece_control.py": "81a81d3536dbc1175eaee2795581247d54a200dcf08367f5cdab84df305a5464"
+  },
+  "gpu": "NVIDIA GeForce RTX 5070",
+  "torch": "2.11.0+cu128",
+  "storage": "D drive;CPU fsync temporary writes,reload tensor equality before commit",
+  "timing": "Clock starts before setup;includes both training,evaluations,safe writes and final model reload/replay;protocol SHA preflight separately."
+}

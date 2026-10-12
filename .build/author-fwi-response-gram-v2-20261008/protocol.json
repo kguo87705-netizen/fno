@@ -1,0 +1,21 @@
+{
+  "scope": "Case1 development only; observation consistency, local unconstrained positive-density derivative responses, separate feasible projected trials. Not a full identifiability proof.",
+  "directions": [
+    "shallow",
+    "deep",
+    "left",
+    "right",
+    "defect_contrast",
+    "uniform"
+  ],
+  "direction_definition": "gamma times masked peak-normalized bump; parameter is relative gamma perturbation, defect_contrast uses mask*(gamma<.5)",
+  "derivative_peak_amplitudes": [
+    0.0001,
+    5e-05
+  ],
+  "projected_trial_peak_amplitude": 0.005,
+  "boundary": "ghost and source/receiver material masked",
+  "precision": "float64 FD using promoted original float32 coefficients",
+  "no_validation_test": true,
+  "script_sha256": "9a1cb3d7c0e311d3c7ea5f713048704f81fd7fecada939cdc97da5c0cd92911d"
+}

@@ -1,0 +1,148 @@
+{
+  "scope": "One seed, fixed epoch20, train12 validation6 workpieces, same eight-channel initialization and order; no test or gradient/FWI evaluation.",
+  "training": [
+    {
+      "split": "train",
+      "groups": 12,
+      "shots": 48,
+      "full_field_relative_l2": 0.3061640561005871,
+      "full_trace_relative_l2": 0.2636004890852491,
+      "scatter_field_relative_l2": 1.00043568599795,
+      "scatter_trace_relative_l2": 0.9936794589550514,
+      "homogeneous_field_relative_l2": 0.30603072279972077,
+      "homogeneous_trace_relative_l2": 0.26527718441764925,
+      "energy_sums": {
+        "field_error": 73717323.14347927,
+        "field_true": 786431953.242777,
+        "scatter_field_true": 73653129.88767907,
+        "trace_error": 10487.222548137306,
+        "trace_true": 150927.3896410998,
+        "scatter_trace_true": 10621.059935399548
+      }
+    },
+    {
+      "split": "train",
+      "groups": 12,
+      "shots": 48,
+      "full_field_relative_l2": 0.30613594939676914,
+      "full_trace_relative_l2": 0.26293691947394693,
+      "scatter_field_relative_l2": 1.0003438432458207,
+      "scatter_trace_relative_l2": 0.9911780391184422,
+      "homogeneous_field_relative_l2": 0.30603072279972077,
+      "homogeneous_trace_relative_l2": 0.26527718441764925,
+      "energy_sums": {
+        "field_error": 73703788.85804528,
+        "field_true": 786431953.242777,
+        "scatter_field_true": 73653129.88767907,
+        "trace_error": 10434.489390023691,
+        "trace_true": 150927.3896410998,
+        "scatter_trace_true": 10621.059935399548
+      }
+    }
+  ],
+  "validation": [
+    {
+      "split": "validation",
+      "groups": 6,
+      "shots": 24,
+      "full_field_relative_l2": 0.28383156182118774,
+      "full_trace_relative_l2": 0.2475314611788178,
+      "scatter_field_relative_l2": 1.0010512376849439,
+      "scatter_trace_relative_l2": 0.9959554253631827,
+      "homogeneous_field_relative_l2": 0.2835335007202865,
+      "homogeneous_trace_relative_l2": 0.24853668635677503,
+      "energy_sums": {
+        "field_error": 31668553.659529343,
+        "field_true": 393103449.81148833,
+        "scatter_field_true": 31602076.149312567,
+        "trace_error": 4614.180122388869,
+        "trace_true": 75306.72012972867,
+        "scatter_trace_true": 4651.732585899018
+      }
+    },
+    {
+      "split": "validation",
+      "groups": 6,
+      "shots": 24,
+      "full_field_relative_l2": 0.28390130194458935,
+      "full_trace_relative_l2": 0.2474482676872292,
+      "scatter_field_relative_l2": 1.001297205527278,
+      "scatter_trace_relative_l2": 0.9956206921179298,
+      "homogeneous_field_relative_l2": 0.2835335007202865,
+      "homogeneous_trace_relative_l2": 0.24853668635677503,
+      "energy_sums": {
+        "field_error": 31684118.103167772,
+        "field_true": 393103449.81148833,
+        "scatter_field_true": 31602076.149312567,
+        "trace_error": 4611.07906003921,
+        "trace_true": 75306.72012972867,
+        "scatter_trace_true": 4651.732585899018
+      }
+    }
+  ],
+  "material_response": [
+    {
+      "arm": 0,
+      "time_feature_mode": "zero",
+      "receiver_loss_weight": 1.0,
+      "target": "defect_minus_homogeneous",
+      "split": "validation",
+      "groups": 6,
+      "shots": 24,
+      "secant_response_relative_l2": 1.0000002700728283,
+      "response_norm_ratio": 0.00025343666886730703,
+      "response_cosine": -0.0009390016643779182,
+      "energy_sums": {
+        "response_error": 4651.735098485319,
+        "true_scatter": 4651.732585871828,
+        "predicted_response": 0.000298781459080482,
+        "dot": -0.0011070074769201118
+      }
+    },
+    {
+      "arm": 1,
+      "time_feature_mode": "sincos",
+      "receiver_loss_weight": 1.0,
+      "target": "defect_minus_homogeneous",
+      "split": "validation",
+      "groups": 6,
+      "shots": 24,
+      "secant_response_relative_l2": 1.0000013703230581,
+      "response_norm_ratio": 0.002109789554751416,
+      "response_cosine": 0.00040534701968959226,
+      "energy_sums": {
+        "response_error": 4651.745334633408,
+        "true_scatter": 4651.732585871828,
+        "predicted_response": 0.02070584774578619,
+        "dot": 0.0039781473251676025
+      }
+    }
+  ],
+  "scatter_target_spectrum": {
+    "train": {
+      "shots": 48,
+      "joint_retained_energy_fraction": 0.9615530993490259,
+      "temporal_retained_energy_fraction": 0.9978208489038599
+    },
+    "validation": {
+      "shots": 24,
+      "joint_retained_energy_fraction": 0.9586519266911278,
+      "temporal_retained_energy_fraction": 0.9978483296638067
+    }
+  },
+  "feature_use": {
+    "scope": "Frozen sin/cos model, validation24 shots; zeroing features is a counterfactual input outside the trained representation, not a separately trained causal control.",
+    "feature_removal_field_change_over_true_scatter": 0.03703936811795853,
+    "feature_removal_trace_change_over_true_scatter": 0.054018001591254784,
+    "zeroed_scatter_field_relative_l2": 1.0002854454606533,
+    "zeroed_scatter_trace_relative_l2": 0.9967124995863507,
+    "energy_sums": {
+      "field_change": 43355.35568143955,
+      "true_scatter_field": 31602076.148756176,
+      "trace_change": 13.573497495402933,
+      "true_scatter_trace": 4651.732585871827,
+      "zeroed_field_error": 31620120.06203301,
+      "zeroed_trace_error": 4621.197714610754
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "status": "planned_not_run",
+  "question": "Can a training-only depth interpolation reference predict new intermediate geometries more reliably than the frozen FNO?",
+  "output_directory": ".build/fno-depth-interpolation-control-20261009",
+  "training_reference_depth_rows": [
+    -2,
+    0,
+    2
+  ],
+  "new_validation_depth_rows": [
+    -1,
+    1
+  ],
+  "contrast": 0.5,
+  "data_roles": "Current -2/0/+2 diagnostic physical labels become explicit training references. New -1/+1 labels are frozen prospective development validation, not independent final test.",
+  "fixed": "Same449-cell support, source0, float32 stencil,24receivers,2000times, frozen width8, IEEE policy, background and normalization. No fitting/training/calibration.",
+  "only_main_axis": "Depth of supplied material support; geometry and contrast are known forward inputs, no blind localization.",
+  "methods": [
+    "Frozen original width8",
+    "Training-only piecewise linear depth interpolation",
+    "Training-only nearest depth reference",
+    "Zero scatter"
+  ],
+  "linear_rule": "For -1 use .5*F(-2)+.5*F(0); for +1 use .5*F(0)+.5*F(+2). Interpolate physical training scattered field snapshots and full-resolution receiver traces separately. Weights from known input depth; freeze before new labels. No interpolation of validation labels.",
+  "nearest_rule": "Nearest training depth; on ties choose smaller signed depth (-2 for -1,0 for +1). Fixed before labels.",
+  "representation_boundary": "Direct full-time physical training-trace interpolation is a simple reference with stored receiver traces, not identical to the FNO field/time reconstruction representation. Also reconstruct the interpolated training snapshots at receivers and report that variant; never hide this asymmetry.",
+  "metrics": [
+    "Allmethods complete/scattered field and receiver relativeL2 separately at both states",
+    "Finite symmetric depth response between+1/-1 versus physical, relative error/norm ratio/cosine",
+    "Direct-trace versus snapshot-reconstructed interpolation gap",
+    "No material recovery or speed claim"
+  ],
+  "screens": "For each method both states scatter field and receiver<=.20 and receiver response error<=.20 with cosine>=.90; inherited engineering screens, no retuning. Report continuous errors and comparisons even on failure.",
+  "decisions": {
+    "linear_passes_and_beats_network_both": "Use the cheap local depth reference as current baseline; network geometry coverage remains plausible but neural necessity is absent here. Only then consider paired same-architecture coverage intervention if needed.",
+    "both_fail": "Do not infer capacity failure; discrete depth response may be nonlinear over this spacing. Next isolate reference spacing/coverage before training.",
+    "network_passes_linear_fails": "Earlier +/-2 failure is scale-limited locally; preregister finer depth-family response checks before inversion.",
+    "mixed": "Local/directional evidence only; no broad success. Freeze results and select one discriminating follow-up.",
+    "controls_fail_or_response_small": "Inconclusive; audit implementation or response scale."
+  },
+  "checks": "New masks449 cells/no wrap/interior; source/receiver metadata unchanged; zero baseline scatter error1; hashes stable. Physical paired response norm >1e-6 of nominal scatter norm.",
+  "budget": "2 new physical and2 network calls plus cached interpolation, estimated<1minute,cap3minutes; separate verification may replay2+2. No training/download.",
+  "frozen_sha256": {
+    ".build\\fno-frozen-depth-shift-audit-20261009-r2\\raw.pt": "246c5fbd657fb8b03337832ee3081f2db6011798fa925c3763d9f0c9e032b061",
+    ".build\\fno-frozen-depth-shift-audit-20261009-r2\\summary.json": "59badb22a80ee30a808e2af1e86e0d5fa7416dafe7711a039f4def5540838ac7",
+    ".build\\fno-frozen-depth-shift-audit-20261009-r2\\response_decomposition.json": "a150900db6be70184c2f472f7a04571987423e8597b050a123f06b382da3c944",
+    ".build\\fno-frozen-depth-shift-audit-20261009-r2\\verification.json": "29d44cefa51293b32d013015165601c7cecf59112d29e2210cc01c981b1b61c9",
+    ".build\\fno-width8-control-20261009\\final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+    ".build\\fno-local-contrast-20261009\\contrast_05.pt": "baf16dcfb73599e8172e31919e052811e21ba09e543bb7a191ced73aee4c9c30"
+  }
+}

@@ -1,0 +1,120 @@
+Forward parity passed: relative=0; starting discrete AD
+AD completed; cosine=0.684526; relative L2=0.743200
+Direction author_gradient checked
+Direction discrete_gradient checked
+Direction lower_left_bump checked
+Direction upper_right_bump checked
+{
+  "scope": "Case 3, same released spatial stencil, sources, receivers and time step; checkpointed discrete AD with actual time integration.",
+  "case": 3,
+  "steps": 2000,
+  "updates": 0,
+  "dtype": "float64",
+  "solver_constants": "Released dt*c/dx constants initially constructed as float32, then promoted if float64; unchanged stencil coefficients.",
+  "chunk_size": 50,
+  "initial_cost": 9.044654342489507e-12,
+  "ad_cost": 9.044654342489507e-12,
+  "author_adjoint_shot_batch": 1,
+  "forward_relative_error": 0.0,
+  "forward_max_abs_error": 0.0,
+  "gradient_cosine": 0.6845262025192794,
+  "gradient_angle_degrees": 46.80164295275085,
+  "author_vs_ad_relative_l2": 0.7431996181550276,
+  "best_author_scale": 0.8255560366910825,
+  "scaled_author_relative_l2": 0.7289882564654484,
+  "directions": {
+    "author_gradient": {
+      "ad_projection": 5.202400641498491e-13,
+      "author_projection": 6.301692932136109e-13,
+      "checks": {
+        "0.02": {
+          "fd": 5.20240146127654e-13,
+          "fd_over_ad": 1.0000001575768775,
+          "ad_relative_error": 1.5757687754992927e-07,
+          "author_relative_error": 0.17444383322037518,
+          "plus_cost": 9.055069514370947e-12,
+          "minus_cost": 9.034259908525841e-12
+        },
+        "0.005": {
+          "fd": 5.202400692734471e-13,
+          "fd_over_ad": 1.0000000098485262,
+          "ad_relative_error": 9.848526218368246e-09,
+          "author_relative_error": 0.1744439551784074,
+          "plus_cost": 9.047256190895916e-12,
+          "minus_cost": 9.042053790203181e-12
+        }
+      }
+    },
+    "discrete_gradient": {
+      "ad_projection": 7.600002194732593e-13,
+      "author_projection": 4.3136739322777147e-13,
+      "checks": {
+        "0.02": {
+          "fd": 7.600022477999925e-13,
+          "fd_over_ad": 1.000002668850194,
+          "ad_relative_error": 2.6688501939915135e-06,
+          "author_relative_error": 0.7618444503029337,
+          "plus_cost": 9.059860339323547e-12,
+          "minus_cost": 9.029460249411547e-12
+        },
+        "0.005": {
+          "fd": 7.600003462428691e-13,
+          "fd_over_ad": 1.00000016680207,
+          "ad_relative_error": 1.6680207000356797e-07,
+          "author_relative_error": 0.7618400420950969,
+          "plus_cost": 9.048454716218157e-12,
+          "minus_cost": 9.040854712755729e-12
+        }
+      }
+    },
+    "lower_left_bump": {
+      "ad_projection": 6.572802740863442e-15,
+      "author_projection": 6.422314537959566e-15,
+      "checks": {
+        "0.02": {
+          "fd": 6.572803539860505e-15,
+          "fd_over_ad": 1.0000001215610896,
+          "ad_relative_error": 1.2156108955530463e-07,
+          "author_relative_error": 0.023432206724143177,
+          "plus_cost": 9.044785768157977e-12,
+          "minus_cost": 9.044522856016382e-12
+        },
+        "0.005": {
+          "fd": 6.572802790914699e-15,
+          "fd_over_ad": 1.0000000076149032,
+          "ad_relative_error": 7.614903259762295e-09,
+          "author_relative_error": 0.023432090107960463,
+          "plus_cost": 9.044687204603317e-12,
+          "minus_cost": 9.044621476575407e-12
+        }
+      }
+    },
+    "upper_right_bump": {
+      "ad_projection": 5.278512022634927e-16,
+      "author_projection": 4.2818612715829905e-16,
+      "checks": {
+        "0.02": {
+          "fd": 5.278470730514621e-16,
+          "fd_over_ad": 0.999992177318129,
+          "ad_relative_error": 7.822681871039242e-06,
+          "author_relative_error": 0.23275145917167636,
+          "plus_cost": 9.044665019202507e-12,
+          "minus_cost": 9.044643905319585e-12
+        },
+        "0.005": {
+          "fd": 5.278509442001833e-16,
+          "fd_over_ad": 0.9999995111059552,
+          "ad_relative_error": 4.888940448516572e-07,
+          "author_relative_error": 0.23276049998004372,
+          "plus_cost": 9.044656989229945e-12,
+          "minus_cost": 9.044651710720503e-12
+        }
+      }
+    }
+  },
+  "discrete_ad_passes_2_percent": true,
+  "torch_version": "2.11.0+cu128",
+  "device": "cuda",
+  "elapsed_seconds": 20.850542400003178,
+  "original_solver_sha256": "ffa51af0896fa2ddc0ef8e705d4f88f3dc9cc61df96b780eef1ad25cac1fde9f"
+}

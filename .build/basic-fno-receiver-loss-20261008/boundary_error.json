@@ -1,0 +1,32 @@
+{
+  "group_id": "synthetic_workpiece_000",
+  "shot": 0,
+  "split": "train",
+  "receiver_y_rows": [
+    127
+  ],
+  "regions": {
+    "whole_grid": {
+      "relative_l2": 0.3861884297122397,
+      "fraction_of_whole_grid_error_energy": 1.0,
+      "grid_cell_fraction": 1.0
+    },
+    "first_two_y_rows": {
+      "relative_l2": 0.9958618718295453,
+      "fraction_of_whole_grid_error_energy": 0.18381274709089498,
+      "grid_cell_fraction": 0.015625
+    },
+    "last_two_y_rows": {
+      "relative_l2": 0.42964608793732156,
+      "fraction_of_whole_grid_error_energy": 0.03757757382631953,
+      "grid_cell_fraction": 0.015625
+    },
+    "interior_y_rows": {
+      "relative_l2": 0.3511027962814227,
+      "fraction_of_whole_grid_error_energy": 0.7786095316844406,
+      "grid_cell_fraction": 0.96875
+    }
+  },
+  "receiver_sparse_field_relative_l2": 0.06996962428092957,
+  "caution": "Descriptive localization on one fitted training shot; not a causal boundary ablation or gradient audit."
+}

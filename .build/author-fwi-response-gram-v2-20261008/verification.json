@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "response_gram_recomputed": "passed",
+  "double_two_epsilon_response_stability": "all below1e-4",
+  "seven_author_files": "unchanged",
+  "input_hashes": "passed",
+  "author_forward_vs_reference_relative_l2": 0.0,
+  "truth_gradient_one_step_control": {
+    "released_observation": {
+      "initial_cost": 1.771264364013947e-12,
+      "scaled_masked_gradient_norm": 0.6849993202184216,
+      "after_one_step_cost": 1.660747115122145e-12,
+      "after_one_step_material_half_mse": 1.8211251559628504e-05,
+      "after_step_gamma_max_change": 0.019862084613564215
+    },
+    "same_solver_truth_observation": {
+      "initial_cost": 0.0,
+      "scaled_masked_gradient_norm": 0.0,
+      "after_one_step_cost": 3.6098876766386635e-36,
+      "after_one_step_material_half_mse": 3.2251238800770704e-28,
+      "after_step_gamma_max_change": 2.526212491824791e-13
+    }
+  },
+  "scope": "Case1 development diagnostic, no validation/test or reconstruction success claim."
+}

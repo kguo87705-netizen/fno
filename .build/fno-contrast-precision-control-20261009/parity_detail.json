@@ -1,0 +1,41 @@
+{
+  "records": [
+    {
+      "method": "width4",
+      "state": 0.4000000059604645,
+      "center_bit_identical": true,
+      "absolute_gradient_difference": 0.0
+    },
+    {
+      "method": "width4",
+      "state": 0.6000000238418579,
+      "center_bit_identical": true,
+      "absolute_gradient_difference": 0.0
+    },
+    {
+      "method": "width8",
+      "state": 0.4000000059604645,
+      "center_bit_identical": true,
+      "absolute_gradient_difference": 1.1920928955078125e-07
+    },
+    {
+      "method": "width8",
+      "state": 0.6000000238418579,
+      "center_bit_identical": true,
+      "absolute_gradient_difference": 5.960464477539063e-08
+    },
+    {
+      "method": "piecewise_linear",
+      "state": 0.4000000059604645,
+      "center_bit_identical": true,
+      "absolute_gradient_difference": 0.0
+    },
+    {
+      "method": "piecewise_linear",
+      "state": 0.6000000238418579,
+      "center_bit_identical": true,
+      "absolute_gradient_difference": 0.0
+    }
+  ],
+  "interpretation": "Default center predictions reproduce exactly; small AD reductions differ across processes. Not evidence that all bits reproduce."
+}

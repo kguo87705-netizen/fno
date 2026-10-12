@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "all111_predictions": "finite, metrics and argmins recomputed exactly",
+  "overlap_predictions_bit_identical": 27,
+  "inputs_and_dependencies": "SHA unchanged",
+  "raw_sha256": "30ceb1a5a0eac17e3ac73d0fa106e843de7d81f2a12654b23752b0fb22764ea3"
+}

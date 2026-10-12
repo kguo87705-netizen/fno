@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "points_recomputed": 9,
+  "predictions": "bit_identical",
+  "max_metric_difference": 0.0,
+  "truth_forward": "bit_identical_to_frozen",
+  "fixed_cells_and_known_support": "passed",
+  "seven_original_files": "unchanged",
+  "protocol_and_input_hashes": "passed",
+  "optimization_steps": 0,
+  "scope": "Case1 known-geometry development scan; no operator validation/test or blind reconstruction."
+}

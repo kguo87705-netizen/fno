@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "metrics": "exact saved recomputation",
+  "physical_and_neural_predictions": "All3 field/trace pairs regenerated bit identical",
+  "inputs": "SHA unchanged",
+  "raw_sha256": "246c5fbd657fb8b03337832ee3081f2db6011798fa925c3763d9f0c9e032b061",
+  "scope": "same discrete physics, not independent solver validation"
+}

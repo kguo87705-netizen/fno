@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "metrics_and_argmins": "exact recomputation from all123 saved predictions",
+  "frozen_inputs_dependencies": "SHA passed",
+  "prior_IEEE_centers": "bit identical checked during run",
+  "raw_sha256": "f71ad75179170a8869e122ad5537a7487716e43c1386dc643ba7c00bcb166083",
+  "limitation": "Same discrete physics; no independent solver verification"
+}

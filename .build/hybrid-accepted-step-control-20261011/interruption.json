@@ -1,0 +1,12 @@
+{
+  "status": "interrupted_invalid_budget",
+  "reason": "Four cases times (4+4+6+10) online solves plus 4 observations equals 100 not 84. Restart in r2 without scientific condition changes.",
+  "completed_routes_seen_in_stdout": [
+    "-1:0.48 fno_frozen",
+    "-1:0.48 nominal_secant"
+  ],
+  "confirmed_completed_calls_minimum": 9,
+  "exact_calls_at_interrupt": null,
+  "wall_seconds": null,
+  "costs_excluded_from_scientific_comparison_but_not_total": true
+}

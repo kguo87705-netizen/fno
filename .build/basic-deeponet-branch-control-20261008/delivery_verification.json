@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "prior_artifacts_unchanged": 16,
+  "author_files_unchanged": 7,
+  "training000_file_hash": "unchanged",
+  "paired_initialization_and_sampling": "identical",
+  "frozen_branch": "unchanged",
+  "model_reload_verifiers": "both passed, metric difference0",
+  "temporal_basis_saved_waveform_metrics": "recomputed, difference below1e-12",
+  "least_squares_rank_and_normal_equation": "passed",
+  "Fourier_vs_FFT": "passed",
+  "plot_copy": "SHA identical",
+  "plot_visual_review": "actually viewed earlier in this turn, readable layout",
+  "updated_notes": 4,
+  "missing_wikilinks": [],
+  "script_syntax_checks": 5,
+  "next_protocol": "planned_not_run",
+  "scope": "Training000/source0 only. No validation/test access or physical-gradient/FWI claim."
+}

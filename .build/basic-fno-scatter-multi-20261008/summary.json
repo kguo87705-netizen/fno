@@ -1,0 +1,78 @@
+{
+  "scope": "Fixed20 epoch, same seed/order/model/scales, validation6 groups24 shots. Not an independent test.",
+  "direct_target_validation": {
+    "full_field_relative_l2": 0.8553722444277154,
+    "full_trace_relative_l2": 0.5584802730662844,
+    "scatter_field_relative_l2": 3.0168295536673226,
+    "scatter_trace_relative_l2": 2.2470737871856254
+  },
+  "scatter_target_validation": {
+    "split": "validation",
+    "groups": 6,
+    "shots": 24,
+    "full_field_relative_l2": 0.2839139011980848,
+    "full_trace_relative_l2": 0.24896342854352782,
+    "scatter_field_relative_l2": 1.0013416420875556,
+    "scatter_trace_relative_l2": 1.0017170188957143,
+    "homogeneous_field_relative_l2": 0.2835335007202865,
+    "homogeneous_trace_relative_l2": 0.24853668635677503,
+    "energy_sums": {
+      "field_error": 31686930.38399207,
+      "field_true": 393103449.81148833,
+      "scatter_field_true": 31602076.149312567,
+      "trace_error": 4667.720525418124,
+      "trace_true": 75306.72012972867,
+      "scatter_trace_true": 4651.732585899018
+    }
+  },
+  "scatter_target_training": {
+    "split": "train",
+    "groups": 12,
+    "shots": 48,
+    "full_field_relative_l2": 0.30587314115336506,
+    "full_trace_relative_l2": 0.260460446073589,
+    "scatter_field_relative_l2": 0.9994850789982324,
+    "scatter_trace_relative_l2": 0.9818426211261468,
+    "homogeneous_field_relative_l2": 0.30603072279972077,
+    "homogeneous_trace_relative_l2": 0.26527718441764925,
+    "energy_sums": {
+      "field_error": 73577298.32948771,
+      "field_true": 786431953.242777,
+      "scatter_field_true": 73653129.88767907,
+      "trace_error": 10238.860378400557,
+      "trace_true": 150927.3896410998,
+      "scatter_trace_true": 10621.059935399548
+    }
+  },
+  "direct_material_response": {
+    "receiver_loss_weight": 1,
+    "split": "validation",
+    "groups": 6,
+    "shots": 24,
+    "secant_response_relative_l2": 1.0038955847618296,
+    "response_norm_ratio": 0.07921452840700231,
+    "response_cosine": -0.0096661785687674,
+    "energy_sums": {
+      "response_error": 4688.045615770041,
+      "true_scatter": 4651.732585871828,
+      "predicted_response": 29.189349899966626,
+      "dot": -3.561839906306494
+    }
+  },
+  "scatter_material_response": {
+    "receiver_loss_weight": 1,
+    "target": "defect_minus_homogeneous",
+    "split": "validation",
+    "groups": 6,
+    "shots": 24,
+    "secant_response_relative_l2": 1.0000850449856977,
+    "response_norm_ratio": 0.008564200619222792,
+    "response_cosine": -0.00564861270212793,
+    "energy_sums": {
+      "response_error": 4652.52383257865,
+      "true_scatter": 4651.732585871828,
+      "predicted_response": 0.3411838023782083,
+      "dot": -0.2250315289845171
+    }
+  }
+}

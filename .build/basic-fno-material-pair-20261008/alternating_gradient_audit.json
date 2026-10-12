@@ -1,0 +1,18 @@
+{
+  "scope": "Frozen final constant-input model, parameter gradients of supervised training loss only; not material/physical gradients or a proof of optimization failure.",
+  "target_losses": {
+    "workpiece000": 0.069025918841362,
+    "workpiece001": 0.07442279160022736,
+    "mean_target": 0.008032734505832195
+  },
+  "parameter_gradient_norms": {
+    "workpiece000": 0.0358813554820282,
+    "workpiece001": 0.040056884680305466,
+    "mean_target": 0.005932728934418578,
+    "half_difference": 0.03756084513465083
+  },
+  "alternating_half_difference_over_mean_gradient_norm": 6.331124436975795,
+  "workpiece_gradient_cosine": -0.9570902242284378,
+  "average_of_pair_gradients_vs_mean_target_relative_error": 0.0003705172993880512,
+  "interpretation": "The mean target has exactly the averaged gradient for these identical inputs. Replacing alternating labels by their mean preserves the average objective up to a constant, while removing this deterministic label alternation. An actual matched training run is needed to assess its effect."
+}

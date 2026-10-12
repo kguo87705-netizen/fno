@@ -1,0 +1,85 @@
+{
+  "status": "passed",
+  "records": [
+    {
+      "observation": "released",
+      "initial": "uniform",
+      "contrast": 1.0,
+      "scaled_ad_gradient": 1.2472378844171248,
+      "checks": [
+        {
+          "epsilon": 0.001,
+          "finite_difference": 1.2472383085004868,
+          "relative_error": 3.400179092419904e-07
+        },
+        {
+          "epsilon": 0.0005,
+          "finite_difference": 1.2472379904386877,
+          "relative_error": 8.500507816077133e-08
+        }
+      ],
+      "precision": "promoted float32 stencil, float64 arithmetic; frozen float32 targets promoted",
+      "bounds": "positive unprojected differences; a=1 positive side exceeds optimization bound"
+    },
+    {
+      "observation": "released",
+      "initial": "near_truth",
+      "contrast": 0.05000950023531914,
+      "scaled_ad_gradient": 0.8130158708218088,
+      "checks": [
+        {
+          "epsilon": 5.000950023531914e-05,
+          "finite_difference": 0.8130157761829181,
+          "relative_error": 1.1640472728838479e-07
+        },
+        {
+          "epsilon": 2.500475011765957e-05,
+          "finite_difference": 0.813015847159313,
+          "relative_error": 2.9104592789435935e-08
+        }
+      ],
+      "precision": "promoted float32 stencil, float64 arithmetic; frozen float32 targets promoted",
+      "bounds": "positive unprojected differences; a=1 positive side exceeds optimization bound"
+    },
+    {
+      "observation": "self_consistent",
+      "initial": "uniform",
+      "contrast": 1.0,
+      "scaled_ad_gradient": 1.3908511315078664,
+      "checks": [
+        {
+          "epsilon": 0.001,
+          "finite_difference": 1.390851631093648,
+          "relative_error": 3.591941587901285e-07
+        },
+        {
+          "epsilon": 0.0005,
+          "finite_difference": 1.3908512564051456,
+          "relative_error": 8.9799163361614e-08
+        }
+      ],
+      "precision": "promoted float32 stencil, float64 arithmetic; frozen float32 targets promoted",
+      "bounds": "positive unprojected differences; a=1 positive side exceeds optimization bound"
+    },
+    {
+      "observation": "self_consistent",
+      "initial": "near_truth",
+      "contrast": 0.05000950023531914,
+      "scaled_ad_gradient": 1.564028619497279,
+      "checks": [
+        {
+          "epsilon": 5.000950023531914e-05,
+          "finite_difference": 1.5640285170594916,
+          "relative_error": 6.549610799108446e-08
+        },
+        {
+          "epsilon": 2.500475011765957e-05,
+          "finite_difference": 1.564028593887107,
+          "relative_error": 1.6374490635174865e-08
+        }
+      ],
+      "precision": "promoted float32 stencil, float64 arithmetic; frozen float32 targets promoted",
+      "bounds": "positive unprojected differences; a=1 positive side exceeds optimization bound"
+    }
+  ]
+}

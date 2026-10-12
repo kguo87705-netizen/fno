@@ -1,0 +1,1617 @@
+{
+  "status": "completed",
+  "models": {
+    "original_fno": [
+      {
+        "state": "depth-2",
+        "field": {
+          "full_relative_l2": 0.20307637108265922,
+          "scatter_relative_l2": 0.5951290265134302,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 384.896078304468,
+              "scatter_energy": 701.5763246195418
+            },
+            "interior": {
+              "error_energy": 16495.868361062305,
+              "scatter_energy": 47162.61127384755
+            },
+            "array_side": {
+              "error_energy": 282.2843772745636,
+              "scatter_energy": 594.5584755952854
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 611.6998795978159,
+              "scatter_energy": 1316.9294636106854
+            },
+            "interior": {
+              "error_energy": 15711.887839936364,
+              "scatter_energy": 45514.84215610678
+            },
+            "right": {
+              "error_energy": 839.4610971071576,
+              "scatter_energy": 1626.9744543449015
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.21593393882688672,
+          "scatter_relative_l2": 0.6517982971520089,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 144523.67084947397,
+              "scatter_energy": 339756.6779534529
+            },
+            "mid": {
+              "error_energy": 106.13677559218465,
+              "scatter_energy": 186.0091819619459
+            },
+            "high": {
+              "error_energy": 23.010934529784098,
+              "scatter_energy": 45.942240414208776
+            },
+            "total": {
+              "error_energy": 144652.81855959597,
+              "scatter_energy": 339988.629375829
+            }
+          }
+        }
+      },
+      {
+        "state": "depth0",
+        "field": {
+          "full_relative_l2": 0.07078670936850083,
+          "scatter_relative_l2": 0.20993339429818783,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 167.16539487860715,
+              "scatter_energy": 686.2474609660865
+            },
+            "interior": {
+              "error_energy": 1758.230410956796,
+              "scatter_energy": 46015.23068403218
+            },
+            "array_side": {
+              "error_energy": 159.60836299446657,
+              "scatter_energy": 607.5331908729503
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 764.0159314570203,
+              "scatter_energy": 1275.8058362744227
+            },
+            "interior": {
+              "error_energy": 1146.0704713934756,
+              "scatter_energy": 44452.81756462953
+            },
+            "right": {
+              "error_energy": 174.91776597937366,
+              "scatter_energy": 1580.387934967267
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.01651136793958105,
+          "scatter_relative_l2": 0.05091913801981444,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 902.2930070897141,
+              "scatter_energy": 324459.2830682065
+            },
+            "mid": {
+              "error_energy": 50.96563983033306,
+              "scatter_energy": 151.12029427153288
+            },
+            "high": {
+              "error_energy": 3.7766193702377837,
+              "scatter_energy": 37.1146959432558
+            },
+            "total": {
+              "error_energy": 957.0352662902847,
+              "scatter_energy": 324647.5180584212
+            }
+          }
+        }
+      },
+      {
+        "state": "depth2",
+        "field": {
+          "full_relative_l2": 0.20631718787957062,
+          "scatter_relative_l2": 0.6147051856586069,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 318.76858595037174,
+              "scatter_energy": 720.3567645009983
+            },
+            "interior": {
+              "error_energy": 17107.40969233692,
+              "scatter_energy": 45538.640131675034
+            },
+            "array_side": {
+              "error_energy": 283.4669485724627,
+              "scatter_energy": 608.9692404836641
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 1448.647318872968,
+              "scatter_energy": 1267.7982726839907
+            },
+            "interior": {
+              "error_energy": 15664.556503077565,
+              "scatter_energy": 44054.199193146575
+            },
+            "right": {
+              "error_energy": 596.4414049092197,
+              "scatter_energy": 1545.9686708291206
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.20169431330004295,
+          "scatter_relative_l2": 0.6268367652796583,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 125881.65039244287,
+              "scatter_energy": 319122.98732637457
+            },
+            "mid": {
+              "error_energy": 91.82968363393624,
+              "scatter_energy": 97.0517123075741
+            },
+            "high": {
+              "error_energy": 17.58990699209746,
+              "scatter_energy": 23.724982977116447
+            },
+            "total": {
+              "error_energy": 125991.0699830689,
+              "scatter_energy": 319243.76402165927
+            }
+          }
+        }
+      },
+      {
+        "state": "depth-1",
+        "field": {
+          "full_relative_l2": 0.12108055355458922,
+          "scatter_relative_l2": 0.35711341381806755,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 232.2449762856487,
+              "scatter_energy": 684.3884215091572
+            },
+            "interior": {
+              "error_energy": 5675.812778752032,
+              "scatter_energy": 46551.45108625524
+            },
+            "array_side": {
+              "error_energy": 192.91403767694288,
+              "scatter_energy": 603.6669250741932
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 583.874054013937,
+              "scatter_energy": 1292.8483884204036
+            },
+            "interior": {
+              "error_energy": 5131.428832510841,
+              "scatter_energy": 44942.06147298215
+            },
+            "right": {
+              "error_energy": 385.6689061898451,
+              "scatter_energy": 1604.5965714360445
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.11471205426516973,
+          "scatter_relative_l2": 0.3502355127636972,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 40718.615491973906,
+              "scatter_energy": 331656.9225113548
+            },
+            "mid": {
+              "error_energy": 74.38918819360534,
+              "scatter_energy": 183.49499342880682
+            },
+            "high": {
+              "error_energy": 11.726465319918645,
+              "scatter_energy": 45.08156096762161
+            },
+            "total": {
+              "error_energy": 40804.731145487436,
+              "scatter_energy": 331885.4990657512
+            }
+          }
+        }
+      },
+      {
+        "state": "depth1",
+        "field": {
+          "full_relative_l2": 0.12308441421243226,
+          "scatter_relative_l2": 0.3666588939432505,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 203.1009886239474,
+              "scatter_energy": 702.7154147208902
+            },
+            "interior": {
+              "error_energy": 5909.888438897394,
+              "scatter_energy": 45576.48863713886
+            },
+            "array_side": {
+              "error_energy": 190.33563852041306,
+              "scatter_energy": 607.019775383397
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 1087.7037453198823,
+              "scatter_energy": 1265.1418481889132
+            },
+            "interior": {
+              "error_energy": 4956.889325531802,
+              "scatter_energy": 44064.3352054096
+            },
+            "right": {
+              "error_energy": 258.73199519007005,
+              "scatter_energy": 1556.7467736446279
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.10457755046734314,
+          "scatter_relative_l2": 0.3249977807675509,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 33921.00713667418,
+              "scatter_energy": 319016.89998732693
+            },
+            "mid": {
+              "error_energy": 56.701209163950516,
+              "scatter_energy": 114.7436791221067
+            },
+            "high": {
+              "error_energy": 5.712533424523422,
+              "scatter_energy": 28.216834627207092
+            },
+            "total": {
+              "error_energy": 33983.42087926265,
+              "scatter_energy": 319159.8605010763
+            }
+          }
+        }
+      },
+      {
+        "state": "contrast03",
+        "field": {
+          "full_relative_l2": 0.10140802902286077,
+          "scatter_relative_l2": 0.19241439920970235,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 402.5678696090947,
+              "scatter_energy": 1742.21985345469
+            },
+            "interior": {
+              "error_energy": 3540.120721068184,
+              "scatter_energy": 114107.26165651428
+            },
+            "array_side": {
+              "error_energy": 399.6094165548259,
+              "scatter_energy": 1436.0626534091712
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 1896.1941770541457,
+              "scatter_energy": 3126.0551412193568
+            },
+            "interior": {
+              "error_energy": 2031.7246556709588,
+              "scatter_energy": 110408.03298538526
+            },
+            "right": {
+              "error_energy": 414.37917450700036,
+              "scatter_energy": 3751.456036773532
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.01882849654777379,
+          "scatter_relative_l2": 0.0383173909286949,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 1234.5276721238124,
+              "scatter_energy": 766494.6600827731
+            },
+            "mid": {
+              "error_energy": 128.9987471460031,
+              "scatter_energy": 317.58178236684915
+            },
+            "high": {
+              "error_energy": 10.823001410164624,
+              "scatter_energy": 77.19223616773563
+            },
+            "total": {
+              "error_energy": 1374.3494206799803,
+              "scatter_energy": 766889.4341013076
+            }
+          }
+        }
+      },
+      {
+        "state": "contrast07",
+        "field": {
+          "full_relative_l2": 0.04518878980647223,
+          "scatter_relative_l2": 0.24710500933842866,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 43.37578228292991,
+              "scatter_energy": 198.6780154605957
+            },
+            "interior": {
+              "error_energy": 751.0177222526092,
+              "scatter_energy": 13439.714998141822
+            },
+            "array_side": {
+              "error_energy": 49.533052325577216,
+              "scatter_energy": 182.67341891604852
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 217.93222639706934,
+              "scatter_energy": 374.6528424221663
+            },
+            "interior": {
+              "error_energy": 565.1808169401445,
+              "scatter_energy": 12977.26969547096
+            },
+            "right": {
+              "error_energy": 60.81351352390255,
+              "scatter_energy": 469.14389462533916
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.010084009975451972,
+          "scatter_relative_l2": 0.056704737382876055,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 326.65602977988976,
+              "scatter_energy": 96051.91338011668
+            },
+            "mid": {
+              "error_energy": 26.781573636578464,
+              "scatter_energy": 49.92216942741895
+            },
+            "high": {
+              "error_energy": 1.1246599056943407,
+              "scatter_energy": 12.323695301667694
+            },
+            "total": {
+              "error_energy": 354.5622633221626,
+              "scatter_energy": 96114.15924484574
+            }
+          }
+        }
+      }
+    ],
+    "coverage300": [
+      {
+        "state": "depth-2",
+        "field": {
+          "full_relative_l2": 0.16065429629384026,
+          "scatter_relative_l2": 0.4708082700553906,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 281.59525228056793,
+              "scatter_energy": 701.5763246195418
+            },
+            "interior": {
+              "error_energy": 10232.177818084714,
+              "scatter_energy": 47162.61127384755
+            },
+            "array_side": {
+              "error_energy": 227.61328369136996,
+              "scatter_energy": 594.5584755952854
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 935.8796185435458,
+              "scatter_energy": 1316.9294636106854
+            },
+            "interior": {
+              "error_energy": 9421.143590000855,
+              "scatter_energy": 45514.84215610678
+            },
+            "right": {
+              "error_energy": 384.36314551225195,
+              "scatter_energy": 1626.9744543449015
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.027080633393578368,
+          "scatter_relative_l2": 0.08174310544987107,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 2214.3273899324654,
+              "scatter_energy": 339756.6779534529
+            },
+            "mid": {
+              "error_energy": 57.43206244302127,
+              "scatter_energy": 186.0091819619459
+            },
+            "high": {
+              "error_energy": 5.180014992564804,
+              "scatter_energy": 45.942240414208776
+            },
+            "total": {
+              "error_energy": 2276.9394673680513,
+              "scatter_energy": 339988.629375829
+            }
+          }
+        }
+      },
+      {
+        "state": "depth0",
+        "field": {
+          "full_relative_l2": 0.07964328077002433,
+          "scatter_relative_l2": 0.23619948453960607,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 177.11106739232906,
+              "scatter_energy": 686.2474609660865
+            },
+            "interior": {
+              "error_energy": 2300.5171241852445,
+              "scatter_energy": 46015.23068403218
+            },
+            "array_side": {
+              "error_energy": 161.7508469183172,
+              "scatter_energy": 607.5331908729503
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 794.6242868259006,
+              "scatter_energy": 1275.8058362744227
+            },
+            "interior": {
+              "error_energy": 1661.2895974849655,
+              "scatter_energy": 44452.81756462953
+            },
+            "right": {
+              "error_energy": 183.46515418502446,
+              "scatter_energy": 1580.387934967267
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.036127793450681345,
+          "scatter_relative_l2": 0.11141391239042718,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 3979.213949444142,
+              "scatter_energy": 324459.2830682065
+            },
+            "mid": {
+              "error_energy": 47.78026793159744,
+              "scatter_energy": 151.12029427153288
+            },
+            "high": {
+              "error_energy": 4.1796941992353815,
+              "scatter_energy": 37.1146959432558
+            },
+            "total": {
+              "error_energy": 4031.173911574975,
+              "scatter_energy": 324647.5180584212
+            }
+          }
+        }
+      },
+      {
+        "state": "depth2",
+        "field": {
+          "full_relative_l2": 0.15691613081443953,
+          "scatter_relative_l2": 0.4675187768719652,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 244.70329250188271,
+              "scatter_energy": 720.3567645009983
+            },
+            "interior": {
+              "error_energy": 9780.88020586401,
+              "scatter_energy": 45538.640131675034
+            },
+            "array_side": {
+              "error_energy": 218.5262737190347,
+              "scatter_energy": 608.9692404836641
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 970.5161255102946,
+              "scatter_energy": 1267.7982726839907
+            },
+            "interior": {
+              "error_energy": 9103.317713444205,
+              "scatter_energy": 44054.199193146575
+            },
+            "right": {
+              "error_energy": 170.27593313042644,
+              "scatter_energy": 1545.9686708291206
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.027402960950203233,
+          "scatter_relative_l2": 0.08516444078201252,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 2262.2832264530152,
+              "scatter_energy": 319122.98732637457
+            },
+            "mid": {
+              "error_energy": 53.58535433079002,
+              "scatter_energy": 97.0517123075741
+            },
+            "high": {
+              "error_energy": 2.6903617891562543,
+              "scatter_energy": 23.724982977116447
+            },
+            "total": {
+              "error_energy": 2318.5589425729613,
+              "scatter_energy": 319243.76402165927
+            }
+          }
+        }
+      },
+      {
+        "state": "depth-1",
+        "field": {
+          "full_relative_l2": 0.10710718705226867,
+          "scatter_relative_l2": 0.3159005479392793,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 206.15027365908605,
+              "scatter_energy": 684.3884215091572
+            },
+            "interior": {
+              "error_energy": 4388.091272497824,
+              "scatter_energy": 46551.45108625524
+            },
+            "array_side": {
+              "error_energy": 179.81379126859397,
+              "scatter_energy": 603.6669250741932
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 836.9819558998237,
+              "scatter_energy": 1292.8483884204036
+            },
+            "interior": {
+              "error_energy": 3678.2631872562515,
+              "scatter_energy": 44942.06147298215
+            },
+            "right": {
+              "error_energy": 258.8101942694301,
+              "scatter_energy": 1604.5965714360445
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.02631887093450274,
+          "scatter_relative_l2": 0.08035601241870492,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 2084.932751664629,
+              "scatter_energy": 331656.9225113548
+            },
+            "mid": {
+              "error_energy": 54.23767471321702,
+              "scatter_energy": 183.49499342880682
+            },
+            "high": {
+              "error_energy": 5.506304365849543,
+              "scatter_energy": 45.08156096762161
+            },
+            "total": {
+              "error_energy": 2144.6767307436953,
+              "scatter_energy": 331885.4990657512
+            }
+          }
+        }
+      },
+      {
+        "state": "depth1",
+        "field": {
+          "full_relative_l2": 0.10318565456308329,
+          "scatter_relative_l2": 0.3073820370758931,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 192.71912970849866,
+              "scatter_energy": 702.7154147208902
+            },
+            "interior": {
+              "error_energy": 4064.562745837453,
+              "scatter_energy": 45576.48863713886
+            },
+            "array_side": {
+              "error_energy": 172.70281447448826,
+              "scatter_energy": 607.019775383397
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 829.6764027352299,
+              "scatter_energy": 1265.1418481889132
+            },
+            "interior": {
+              "error_energy": 3451.0373130227536,
+              "scatter_energy": 44064.3352054096
+            },
+            "right": {
+              "error_energy": 149.27097426245615,
+              "scatter_energy": 1556.7467736446279
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.026567805808793542,
+          "scatter_relative_l2": 0.08256531051965567,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 2128.221616272176,
+              "scatter_energy": 319016.89998732693
+            },
+            "mid": {
+              "error_energy": 45.905119371534916,
+              "scatter_energy": 114.7436791221067
+            },
+            "high": {
+              "error_energy": 2.8283294564280848,
+              "scatter_energy": 28.216834627207092
+            },
+            "total": {
+              "error_energy": 2176.955065100138,
+              "scatter_energy": 319159.8605010763
+            }
+          }
+        }
+      },
+      {
+        "state": "contrast03",
+        "field": {
+          "full_relative_l2": 0.148836639808861,
+          "scatter_relative_l2": 0.28240675718839603,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 473.07253176074363,
+              "scatter_energy": 1742.21985345469
+            },
+            "interior": {
+              "error_energy": 8458.387920129093,
+              "scatter_energy": 114107.26165651428
+            },
+            "array_side": {
+              "error_energy": 422.48116754975786,
+              "scatter_energy": 1436.0626534091712
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 2462.3133820794537,
+              "scatter_energy": 3126.0551412193568
+            },
+            "interior": {
+              "error_energy": 6436.968657684106,
+              "scatter_energy": 110408.03298538526
+            },
+            "right": {
+              "error_energy": 454.65957967603526,
+              "scatter_energy": 3751.456036773532
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.0696346560711671,
+          "scatter_relative_l2": 0.14171170449504678,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 15674.31625380113,
+              "scatter_energy": 766494.6600827731
+            },
+            "mid": {
+              "error_energy": 139.52193974338,
+              "scatter_energy": 317.58178236684915
+            },
+            "high": {
+              "error_energy": 13.77799864410745,
+              "scatter_energy": 77.19223616773563
+            },
+            "total": {
+              "error_energy": 15827.616192188618,
+              "scatter_energy": 766889.4341013076
+            }
+          }
+        }
+      },
+      {
+        "state": "contrast07",
+        "field": {
+          "full_relative_l2": 0.07065404828369984,
+          "scatter_relative_l2": 0.38635620329095094,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 55.862588511126404,
+              "scatter_energy": 198.6780154605957
+            },
+            "interior": {
+              "error_energy": 1949.8406032217774,
+              "scatter_energy": 13439.714998141822
+            },
+            "array_side": {
+              "error_energy": 57.38281649185209,
+              "scatter_energy": 182.67341891604852
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 199.8024971622765,
+              "scatter_energy": 374.6528424221663
+            },
+            "interior": {
+              "error_energy": 1755.0036295424989,
+              "scatter_energy": 12977.26969547096
+            },
+            "right": {
+              "error_energy": 108.27988151998058,
+              "scatter_energy": 469.14389462533916
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.06058147428439413,
+          "scatter_relative_l2": 0.3406637436819927,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 11345.39899926115,
+              "scatter_energy": 96051.91338011668
+            },
+            "mid": {
+              "error_energy": 28.867108450129273,
+              "scatter_energy": 49.92216942741895
+            },
+            "high": {
+              "error_energy": 2.696677114034723,
+              "scatter_energy": 12.323695301667694
+            },
+            "total": {
+              "error_energy": 11376.962784825311,
+              "scatter_energy": 96114.15924484574
+            }
+          }
+        }
+      }
+    ],
+    "material_replay400": [
+      {
+        "state": "depth-2",
+        "field": {
+          "full_relative_l2": 0.15872793166520127,
+          "scatter_relative_l2": 0.4651629283544343,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 274.3219062758693,
+              "scatter_energy": 701.5763246195418
+            },
+            "interior": {
+              "error_energy": 9984.206603126484,
+              "scatter_energy": 47162.61127384755
+            },
+            "array_side": {
+              "error_energy": 226.8077793257121,
+              "scatter_energy": 594.5584755952854
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 850.9501416390718,
+              "scatter_energy": 1316.9294636106854
+            },
+            "interior": {
+              "error_energy": 9250.662503771344,
+              "scatter_energy": 45514.84215610678
+            },
+            "right": {
+              "error_energy": 383.72364331764845,
+              "scatter_energy": 1626.9744543449015
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.03826792525179066,
+          "scatter_relative_l2": 0.11551203414417491,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 4587.412941031883,
+              "scatter_energy": 339756.6779534529
+            },
+            "mid": {
+              "error_energy": 54.61992507511853,
+              "scatter_energy": 186.0091819619459
+            },
+            "high": {
+              "error_energy": 5.273569182702959,
+              "scatter_energy": 45.942240414208776
+            },
+            "total": {
+              "error_energy": 4647.3064352897045,
+              "scatter_energy": 339988.629375829
+            }
+          }
+        }
+      },
+      {
+        "state": "depth0",
+        "field": {
+          "full_relative_l2": 0.07212904858395394,
+          "scatter_relative_l2": 0.21391439341954316,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 169.22915813600136,
+              "scatter_energy": 686.2474609660865
+            },
+            "interior": {
+              "error_energy": 1837.9102471048031,
+              "scatter_energy": 46015.23068403218
+            },
+            "array_side": {
+              "error_energy": 157.6910405698916,
+              "scatter_energy": 607.5331908729503
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 730.6003353801325,
+              "scatter_energy": 1275.8058362744227
+            },
+            "interior": {
+              "error_energy": 1264.0536635801923,
+              "scatter_energy": 44452.81756462953
+            },
+            "right": {
+              "error_energy": 170.1764468503719,
+              "scatter_energy": 1580.387934967267
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.028987372959279476,
+          "scatter_relative_l2": 0.0893936862134295,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 2616.160841083667,
+              "scatter_energy": 324459.2830682065
+            },
+            "mid": {
+              "error_energy": 44.21782251844461,
+              "scatter_energy": 151.12029427153288
+            },
+            "high": {
+              "error_energy": 3.7954840298620267,
+              "scatter_energy": 37.1146959432558
+            },
+            "total": {
+              "error_energy": 2664.174147631974,
+              "scatter_energy": 324647.5180584212
+            }
+          }
+        }
+      },
+      {
+        "state": "depth2",
+        "field": {
+          "full_relative_l2": 0.15422083641902373,
+          "scatter_relative_l2": 0.4594883676813079,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 238.87320587394734,
+              "scatter_energy": 720.3567645009983
+            },
+            "interior": {
+              "error_energy": 9443.545329285265,
+              "scatter_energy": 45538.640131675034
+            },
+            "array_side": {
+              "error_energy": 212.7945349851973,
+              "scatter_energy": 608.9692404836641
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 942.919394442225,
+              "scatter_energy": 1267.7982726839907
+            },
+            "interior": {
+              "error_energy": 8788.963928747533,
+              "scatter_energy": 44054.199193146575
+            },
+            "right": {
+              "error_energy": 163.3297469546527,
+              "scatter_energy": 1545.9686708291206
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.035896454939595424,
+          "scatter_relative_l2": 0.11156099213303014,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 4033.905078087819,
+              "scatter_energy": 319122.98732637457
+            },
+            "mid": {
+              "error_energy": 53.07419655492287,
+              "scatter_energy": 97.0517123075741
+            },
+            "high": {
+              "error_energy": 2.566252678154131,
+              "scatter_energy": 23.724982977116447
+            },
+            "total": {
+              "error_energy": 4089.545527320896,
+              "scatter_energy": 319243.76402165927
+            }
+          }
+        }
+      },
+      {
+        "state": "depth-1",
+        "field": {
+          "full_relative_l2": 0.10271275729084862,
+          "scatter_relative_l2": 0.3029396738119827,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 198.68087636327724,
+              "scatter_energy": 684.3884215091572
+            },
+            "interior": {
+              "error_energy": 4014.109825483413,
+              "scatter_energy": 46551.45108625524
+            },
+            "array_side": {
+              "error_energy": 177.55781745956438,
+              "scatter_energy": 603.6669250741932
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 758.0476078822347,
+              "scatter_energy": 1292.8483884204036
+            },
+            "interior": {
+              "error_energy": 3382.002221296289,
+              "scatter_energy": 44942.06147298215
+            },
+            "right": {
+              "error_energy": 250.2986901277303,
+              "scatter_energy": 1604.5965714360445
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.02455338363114976,
+          "scatter_relative_l2": 0.07496567785510035,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 1884.2006596160948,
+              "scatter_energy": 331656.9225113548
+            },
+            "mid": {
+              "error_energy": 50.297402616345295,
+              "scatter_energy": 183.49499342880682
+            },
+            "high": {
+              "error_energy": 5.224376118994928,
+              "scatter_energy": 45.08156096762161
+            },
+            "total": {
+              "error_energy": 1939.7224383514344,
+              "scatter_energy": 331885.4990657512
+            }
+          }
+        }
+      },
+      {
+        "state": "depth1",
+        "field": {
+          "full_relative_l2": 0.09774701480602044,
+          "scatter_relative_l2": 0.2911807523670203,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 185.05664350216372,
+              "scatter_energy": 702.7154147208902
+            },
+            "interior": {
+              "error_energy": 3622.82728580018,
+              "scatter_energy": 45576.48863713886
+            },
+            "array_side": {
+              "error_energy": 167.42225368775962,
+              "scatter_energy": 607.019775383397
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 785.77160911566,
+              "scatter_energy": 1265.1418481889132
+            },
+            "interior": {
+              "error_energy": 3052.237387222407,
+              "scatter_energy": 44064.3352054096
+            },
+            "right": {
+              "error_energy": 137.29718665203703,
+              "scatter_energy": 1556.7467736446279
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.023254528052584832,
+          "scatter_relative_l2": 0.07226856984230944,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 1706.1006172957955,
+              "scatter_energy": 319016.89998732693
+            },
+            "mid": {
+              "error_energy": 44.04822221910896,
+              "scatter_energy": 114.7436791221067
+            },
+            "high": {
+              "error_energy": 2.5364723305305876,
+              "scatter_energy": 28.216834627207092
+            },
+            "total": {
+              "error_energy": 1752.6853118454346,
+              "scatter_energy": 319159.8605010763
+            }
+          }
+        }
+      },
+      {
+        "state": "contrast03",
+        "field": {
+          "full_relative_l2": 0.11925441235789742,
+          "scatter_relative_l2": 0.22627662057979728,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 426.7786697901805,
+              "scatter_energy": 1742.21985345469
+            },
+            "interior": {
+              "error_energy": 5184.161164663505,
+              "scatter_energy": 114107.26165651428
+            },
+            "array_side": {
+              "error_energy": 394.21009884143587,
+              "scatter_energy": 1436.0626534091712
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 2074.61670126229,
+              "scatter_energy": 3126.0551412193568
+            },
+            "interior": {
+              "error_energy": 3538.629819299669,
+              "scatter_energy": 110408.03298538526
+            },
+            "right": {
+              "error_energy": 391.9034127331619,
+              "scatter_energy": 3751.456036773532
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.01992737413029822,
+          "scatter_relative_l2": 0.040553688543086545,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 1257.581985304303,
+              "scatter_energy": 766494.6600827731
+            },
+            "mid": {
+              "error_energy": 121.06601860930388,
+              "scatter_energy": 317.58178236684915
+            },
+            "high": {
+              "error_energy": 10.345989512139942,
+              "scatter_energy": 77.19223616773563
+            },
+            "total": {
+              "error_energy": 1388.9939934257468,
+              "scatter_energy": 766889.4341013076
+            }
+          }
+        }
+      },
+      {
+        "state": "contrast07",
+        "field": {
+          "full_relative_l2": 0.06120363658828017,
+          "scatter_relative_l2": 0.33467869477059214,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 49.543302161466535,
+              "scatter_energy": 198.6780154605957
+            },
+            "interior": {
+              "error_energy": 1444.8416676766028,
+              "scatter_energy": 13439.714998141822
+            },
+            "array_side": {
+              "error_energy": 53.710314181190355,
+              "scatter_energy": 182.67341891604852
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 182.34051455540592,
+              "scatter_energy": 374.6528424221663
+            },
+            "interior": {
+              "error_energy": 1290.579496672243,
+              "scatter_energy": 12977.26969547096
+            },
+            "right": {
+              "error_energy": 75.17527279161081,
+              "scatter_energy": 469.14389462533916
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.027107571819333664,
+          "scatter_relative_l2": 0.1524321916424792,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 2268.187547611312,
+              "scatter_energy": 96051.91338011668
+            },
+            "mid": {
+              "error_energy": 25.772505788933188,
+              "scatter_energy": 49.92216942741895
+            },
+            "high": {
+              "error_energy": 1.3487720824156273,
+              "scatter_energy": 12.323695301667694
+            },
+            "total": {
+              "error_energy": 2295.30882548266,
+              "scatter_energy": 96114.15924484574
+            }
+          }
+        }
+      }
+    ],
+    "adam_reset400": [
+      {
+        "state": "depth-2",
+        "field": {
+          "full_relative_l2": 0.15740871267617407,
+          "scatter_relative_l2": 0.4612968679727554,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 271.95615757281837,
+              "scatter_energy": 701.5763246195418
+            },
+            "interior": {
+              "error_energy": 9814.658575212896,
+              "scatter_energy": 47162.61127384755
+            },
+            "array_side": {
+              "error_energy": 225.15446575184407,
+              "scatter_energy": 594.5584755952854
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 838.0374909763207,
+              "scatter_energy": 1316.9294636106854
+            },
+            "interior": {
+              "error_energy": 9090.692253686339,
+              "scatter_energy": 45514.84215610678
+            },
+            "right": {
+              "error_energy": 383.03945387489847,
+              "scatter_energy": 1626.9744543449015
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.035825427825214584,
+          "scatter_relative_l2": 0.1081393364011084,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 3927.898067502265,
+              "scatter_energy": 339756.6779534529
+            },
+            "mid": {
+              "error_energy": 55.379970935848405,
+              "scatter_energy": 186.0091819619459
+            },
+            "high": {
+              "error_energy": 5.231143208899534,
+              "scatter_energy": 45.942240414208776
+            },
+            "total": {
+              "error_energy": 3988.509181647013,
+              "scatter_energy": 339988.629375829
+            }
+          }
+        }
+      },
+      {
+        "state": "depth0",
+        "field": {
+          "full_relative_l2": 0.07187409600265121,
+          "scatter_relative_l2": 0.21315827604588006,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 169.4545133682173,
+              "scatter_energy": 686.2474609660865
+            },
+            "interior": {
+              "error_energy": 1822.5608760512825,
+              "scatter_energy": 46015.23068403218
+            },
+            "array_side": {
+              "error_energy": 157.53816929322176,
+              "scatter_energy": 607.5331908729503
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 709.3270974924679,
+              "scatter_energy": 1275.8058362744227
+            },
+            "interior": {
+              "error_energy": 1268.8236648710783,
+              "scatter_energy": 44452.81756462953
+            },
+            "right": {
+              "error_energy": 171.40279634917528,
+              "scatter_energy": 1580.387934967267
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.028454662790854547,
+          "scatter_relative_l2": 0.08775087002219417,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 2456.5161258112503,
+              "scatter_energy": 324459.2830682065
+            },
+            "mid": {
+              "error_energy": 44.3929285103592,
+              "scatter_energy": 151.12029427153288
+            },
+            "high": {
+              "error_energy": 3.735881227038258,
+              "scatter_energy": 37.1146959432558
+            },
+            "total": {
+              "error_energy": 2504.6449355486475,
+              "scatter_energy": 324647.5180584212
+            }
+          }
+        }
+      },
+      {
+        "state": "depth2",
+        "field": {
+          "full_relative_l2": 0.15378835015000128,
+          "scatter_relative_l2": 0.45819981021779,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 237.92868145833012,
+              "scatter_energy": 720.3567645009983
+            },
+            "interior": {
+              "error_energy": 9390.127168600207,
+              "scatter_energy": 45538.640131675034
+            },
+            "array_side": {
+              "error_energy": 211.7361336421788,
+              "scatter_energy": 608.9692404836641
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 930.028974104589,
+              "scatter_energy": 1267.7982726839907
+            },
+            "interior": {
+              "error_energy": 8747.453299283683,
+              "scatter_energy": 44054.199193146575
+            },
+            "right": {
+              "error_energy": 162.30971031244428,
+              "scatter_energy": 1545.9686708291206
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.034220626276663474,
+          "scatter_relative_l2": 0.10635275893573368,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 3566.986673995624,
+              "scatter_energy": 319122.98732637457
+            },
+            "mid": {
+              "error_energy": 51.8981832553938,
+              "scatter_energy": 97.0517123075741
+            },
+            "high": {
+              "error_energy": 2.4848172652439002,
+              "scatter_energy": 23.724982977116447
+            },
+            "total": {
+              "error_energy": 3621.3696745162624,
+              "scatter_energy": 319243.76402165927
+            }
+          }
+        }
+      },
+      {
+        "state": "depth-1",
+        "field": {
+          "full_relative_l2": 0.1018244444087203,
+          "scatter_relative_l2": 0.30031969532194064,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 198.01988673686594,
+              "scatter_energy": 684.3884215091572
+            },
+            "interior": {
+              "error_energy": 3939.8038558320195,
+              "scatter_energy": 46551.45108625524
+            },
+            "array_side": {
+              "error_energy": 176.9131656745829,
+              "scatter_energy": 603.6669250741932
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 740.2904877032083,
+              "scatter_energy": 1292.8483884204036
+            },
+            "interior": {
+              "error_energy": 3323.5139330153543,
+              "scatter_energy": 44942.06147298215
+            },
+            "right": {
+              "error_energy": 250.93248752490527,
+              "scatter_energy": 1604.5965714360445
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.023166948630795967,
+          "scatter_relative_l2": 0.07073265477506747,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 1608.0227680312253,
+              "scatter_energy": 331656.9225113548
+            },
+            "mid": {
+              "error_energy": 50.99313375174151,
+              "scatter_energy": 183.49499342880682
+            },
+            "high": {
+              "error_energy": 5.207079417581399,
+              "scatter_energy": 45.08156096762161
+            },
+            "total": {
+              "error_energy": 1664.222981200548,
+              "scatter_energy": 331885.4990657512
+            }
+          }
+        }
+      },
+      {
+        "state": "depth1",
+        "field": {
+          "full_relative_l2": 0.09755584142937153,
+          "scatter_relative_l2": 0.2906112617513156,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 185.0595672169061,
+              "scatter_energy": 702.7154147208902
+            },
+            "interior": {
+              "error_energy": 3607.6678061545263,
+              "scatter_energy": 45576.48863713886
+            },
+            "array_side": {
+              "error_energy": 167.04422718010505,
+              "scatter_energy": 607.019775383397
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 765.2765927949333,
+              "scatter_energy": 1265.1418481889132
+            },
+            "interior": {
+              "error_energy": 3056.612231978589,
+              "scatter_energy": 44064.3352054096
+            },
+            "right": {
+              "error_energy": 137.88277577801512,
+              "scatter_energy": 1556.7467736446279
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.021934435516502662,
+          "scatter_relative_l2": 0.06816609141632557,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 1443.7686723929155,
+              "scatter_energy": 319016.89998732693
+            },
+            "mid": {
+              "error_energy": 43.43063375386148,
+              "scatter_energy": 114.7436791221067
+            },
+            "high": {
+              "error_energy": 2.4830321296771047,
+              "scatter_energy": 28.216834627207092
+            },
+            "total": {
+              "error_energy": 1489.6823382764542,
+              "scatter_energy": 319159.8605010763
+            }
+          }
+        }
+      },
+      {
+        "state": "contrast03",
+        "field": {
+          "full_relative_l2": 0.11824863524952535,
+          "scatter_relative_l2": 0.2243682312746205,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 424.28021024031034,
+              "scatter_energy": 1742.21985345469
+            },
+            "interior": {
+              "error_energy": 5086.9045808616065,
+              "scatter_energy": 114107.26165651428
+            },
+            "array_side": {
+              "error_energy": 393.0988921137318,
+              "scatter_energy": 1436.0626534091712
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 2024.2373766619648,
+              "scatter_energy": 3126.0551412193568
+            },
+            "interior": {
+              "error_energy": 3488.2453586900265,
+              "scatter_energy": 110408.03298538526
+            },
+            "right": {
+              "error_energy": 391.8009478636572,
+              "scatter_energy": 3751.456036773532
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.018553552914656223,
+          "scatter_relative_l2": 0.03775786018513338,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 966.1703434716558,
+              "scatter_energy": 766494.6600827731
+            },
+            "mid": {
+              "error_energy": 121.67226376841704,
+              "scatter_energy": 317.58178236684915
+            },
+            "high": {
+              "error_energy": 10.12408422618451,
+              "scatter_energy": 77.19223616773563
+            },
+            "total": {
+              "error_energy": 1097.9666914662575,
+              "scatter_energy": 766889.4341013076
+            }
+          }
+        }
+      },
+      {
+        "state": "contrast07",
+        "field": {
+          "full_relative_l2": 0.062450074936249024,
+          "scatter_relative_l2": 0.3414945701444112,
+          "y_regions": {
+            "boundary": {
+              "error_energy": 50.287730544377844,
+              "scatter_energy": 198.6780154605957
+            },
+            "interior": {
+              "error_energy": 1507.3464824985915,
+              "scatter_energy": 13439.714998141822
+            },
+            "array_side": {
+              "error_energy": 54.158395437312876,
+              "scatter_energy": 182.67341891604852
+            }
+          },
+          "x_regions": {
+            "left": {
+              "error_energy": 176.4727044441559,
+              "scatter_energy": 374.6528424221663
+            },
+            "interior": {
+              "error_energy": 1358.4179360582416,
+              "scatter_energy": 12977.26969547096
+            },
+            "right": {
+              "error_energy": 76.90196797788471,
+              "scatter_energy": 469.14389462533916
+            }
+          }
+        },
+        "trace": {
+          "full_relative_l2": 0.025844116451538474,
+          "scatter_relative_l2": 0.14532748775977603,
+          "frequency_bands": {
+            "low": {
+              "error_energy": 2022.5257884963653,
+              "scatter_energy": 96051.91338011668
+            },
+            "mid": {
+              "error_energy": 25.899428921619396,
+              "scatter_energy": 49.92216942741895
+            },
+            "high": {
+              "error_energy": 1.4111786311180432,
+              "scatter_energy": 12.323695301667694
+            },
+            "total": {
+              "error_energy": 2049.8363960491024,
+              "scatter_energy": 96114.15924484574
+            }
+          }
+        }
+      }
+    ]
+  },
+  "elapsed_seconds": 10.979529599999296,
+  "calls": {
+    "forward": 28,
+    "backward": 0,
+    "optimizer": 0,
+    "physical": 0
+  },
+  "scope": "Existing final models and seven stored development states; spatial y/x partitions and receiver FFT residual energy; no training or physical derivative."
+}

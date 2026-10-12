@@ -1,0 +1,34 @@
+{
+  "status": "planned_not_run",
+  "question": "Does the frozen contrast-only width8 forward surrogate respond correctly to a small unseen depth translation?",
+  "output_directory": ".build/fno-frozen-depth-shift-audit-20261009",
+  "only_main_factor": "Translate the nominal discrete support along physical y by -2,0,+2 grid rows; contrast remains .5.",
+  "fixed": "Frozen width8 checkpoint, IEEE policy, source0, 24 receivers, 2000 times, original float32 discrete physics, normalization, time reconstruction and homogeneous background; no optimization, training or calibration.",
+  "support_checks": "449 cells for each mask; translate with zero fill without roll/wrap; every cell inside the physical domain; save masks and actual shift in meters from y_m spacing.",
+  "data_role": "Prospective frozen diagnostic validation; immediately becomes development data after review. Never an independent final test.",
+  "baselines": [
+    "Frozen nominal .5 training field/trace (geometry-insensitive lookup)",
+    "Zero scattered field/trace plus homogeneous background",
+    "Nominal zero-shift replay as implementation control"
+  ],
+  "observations": "Generate three float32 physical field-snapshot/receiver labels after saving protocol and hashes. No shifted label may become a reference prediction.",
+  "metrics": [
+    "full and scattered field relative L2 separately",
+    "full and scattered receiver relative L2 separately",
+    "finite symmetric geometry response P(+2)-P(-2) versus F(+2)-F(-2): relative L2 and cosine",
+    "network/lookup per-case error ratios, source and receiver coordinate checks"
+  ],
+  "screening": "Predeclare shifted scatter field and receiver error <=.20 for both signs, finite geometry-response receiver relative error <=.20 and cosine >=.90. These are engineering screening rules, not a claim of physical derivative or inversion accuracy. No threshold tuning from new labels.",
+  "success": "Both signs meet screens, finite response meets screen, and network beats nominal lookup scatter receiver error on both shifted states; supports only this discrete local depth transfer.",
+  "failure": "A valid run fails any screen: record the failing metric and sign; next examine geometry-family coverage with the same architecture, not automatic network growth.",
+  "inconclusive": "Mask/control/hash checks fail, nonfinite outputs, or finite physical response norm is <=1e-6 times nominal scattered trace norm; stop interpretation and audit implementation/response scale.",
+  "next_if_success": "Preregister a depth-family derivative/data protocol before any unknown-geometry material inversion. A three-state finite response is not a local Jacobian.",
+  "budget": "Exactly3 physical and3 network predictions; estimated <2min, cap5min, no training/download. If nominal replay requires repair or resource cap is exceeded, stop and preserve artifacts.",
+  "boundary": "Geometry is supplied as forward input. No blind localization, unknown-shape recovery, noise robustness or full-inversion cost claim.",
+  "frozen_evidence_sha256": {
+    ".build\\fno-physical-fixed-budget-control-20261009\\raw.pt": "414a0f1aa6869fbec0ed2683dee8294cc419ae14ea224848204294e0fbef779e",
+    ".build\\fno-physical-fixed-budget-control-20261009\\summary.json": "f806e74265df8d29072ec6b8f74e376e2a5db22ebec24a312c74f3191da56ec1",
+    ".build\\fno-physical-fixed-budget-control-20261009\\verification.json": "73da04730b19304c2f37bc198f2e0c4c7ed7cccacf1af6411a74277104312386",
+    ".build\\fno-physical-fixed-budget-control-20261009\\protocol.json": "afe9bd7c973bdf488987b351b5fea5937e4f5dc15b7482fee7377ca2a6c0d34b"
+  }
+}

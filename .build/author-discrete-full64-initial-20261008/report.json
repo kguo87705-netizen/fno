@@ -1,0 +1,113 @@
+{
+  "scope": "Case 1, same released spatial stencil, sources, receivers and time step; checkpointed discrete AD with actual time integration.",
+  "steps": 2000,
+  "updates": 0,
+  "dtype": "float64",
+  "solver_constants": "Released dt*c/dx constants initially constructed as float32, then promoted if float64; unchanged stencil coefficients.",
+  "chunk_size": 50,
+  "initial_cost": 3.677988505149336e-12,
+  "ad_cost": 3.677988505149336e-12,
+  "author_adjoint_shot_batch": 1,
+  "forward_relative_error": 0.0,
+  "forward_max_abs_error": 0.0,
+  "gradient_cosine": 0.7719611263300319,
+  "gradient_angle_degrees": 39.46967561127106,
+  "author_vs_ad_relative_l2": 0.7082561124369959,
+  "best_author_scale": 0.7119493475012975,
+  "scaled_author_relative_l2": 0.6356697408523302,
+  "directions": {
+    "author_gradient": {
+      "ad_projection": 3.2667513695325865e-13,
+      "author_projection": 4.588460374319866e-13,
+      "checks": {
+        "0.02": {
+          "fd": 3.2667650896191586e-13,
+          "fd_over_ad": 1.0000041999176001,
+          "ad_relative_error": 4.1999176000991966e-06,
+          "author_relative_error": 0.28804766237010776,
+          "plus_cost": 3.684535863754604e-12,
+          "minus_cost": 3.671468803396127e-12
+        },
+        "0.005": {
+          "fd": 3.266752227020208e-13,
+          "fd_over_ad": 1.0000002624894044,
+          "ad_relative_error": 2.624894044956773e-07,
+          "author_relative_error": 0.28805046561954245,
+          "plus_cost": 3.6796227455321624e-12,
+          "minus_cost": 3.676355993305142e-12
+        }
+      }
+    },
+    "discrete_gradient": {
+      "ad_projection": 4.231756312734292e-13,
+      "author_projection": 3.542113038680682e-13,
+      "checks": {
+        "0.02": {
+          "fd": 4.2317630981805075e-13,
+          "fd_over_ad": 1.0000016034586383,
+          "ad_relative_error": 1.6034586384172286e-06,
+          "author_relative_error": 0.19470018375153178,
+          "plus_cost": 3.686469393106968e-12,
+          "minus_cost": 3.669542340714246e-12
+        },
+        "0.005": {
+          "fd": 4.2317567368263626e-13,
+          "fd_over_ad": 1.0000001002165624,
+          "ad_relative_error": 1.0021656237415837e-07,
+          "author_relative_error": 0.19469838783082702,
+          "plus_cost": 3.680105468623112e-12,
+          "minus_cost": 3.6758737118862856e-12
+        }
+      }
+    },
+    "lower_left_bump": {
+      "ad_projection": 1.063774530592468e-14,
+      "author_projection": 1.0707411570702623e-14,
+      "checks": {
+        "0.02": {
+          "fd": 1.0637748593220997e-14,
+          "fd_over_ad": 1.0000003090219047,
+          "ad_relative_error": 3.090219048263623e-07,
+          "author_relative_error": 0.006506052095002644,
+          "plus_cost": 3.678201153430991e-12,
+          "minus_cost": 3.677775643487262e-12
+        },
+        "0.005": {
+          "fd": 1.063774551132698e-14,
+          "fd_over_ad": 1.0000000193088192,
+          "ad_relative_error": 1.930881920688164e-08,
+          "author_relative_error": 0.0065063399231108906,
+          "plus_cost": 3.678041687208756e-12,
+          "minus_cost": 3.677935309753643e-12
+        }
+      }
+    },
+    "upper_right_bump": {
+      "ad_projection": -3.573392273507072e-15,
+      "author_projection": -3.705625299688123e-15,
+      "checks": {
+        "0.02": {
+          "fd": -3.573400670604065e-15,
+          "fd_over_ad": 1.0000023498950996,
+          "ad_relative_error": 2.3498950996728303e-06,
+          "author_relative_error": 0.035682136856952894,
+          "plus_cost": 3.677917247452107e-12,
+          "minus_cost": 3.678060183478931e-12
+        },
+        "0.005": {
+          "fd": -3.573392798373027e-15,
+          "fd_over_ad": 1.0000001468817066,
+          "ad_relative_error": 1.4688170648771696e-07,
+          "author_relative_error": 0.03568426125712856,
+          "plus_cost": 3.677970651330097e-12,
+          "minus_cost": 3.678006385258081e-12
+        }
+      }
+    }
+  },
+  "discrete_ad_passes_2_percent": true,
+  "torch_version": "2.11.0+cu128",
+  "device": "cuda",
+  "elapsed_seconds": 25.6675499999983,
+  "original_solver_sha256": "ffa51af0896fa2ddc0ef8e705d4f88f3dc9cc61df96b780eef1ad25cac1fde9f"
+}

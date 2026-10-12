@@ -1,0 +1,257 @@
+{
+  "scope": "Frozen sin/cos model, validation24 shots; zeroing features is a counterfactual input outside the trained representation, not a separately trained causal control.",
+  "feature_removal_field_change_over_true_scatter": 0.03703936811795853,
+  "feature_removal_trace_change_over_true_scatter": 0.054018001591254784,
+  "zeroed_scatter_field_relative_l2": 1.0002854454606533,
+  "zeroed_scatter_trace_relative_l2": 0.9967124995863507,
+  "energy_sums": {
+    "field_change": 43355.35568143955,
+    "true_scatter_field": 31602076.148756176,
+    "trace_change": 13.573497495402933,
+    "true_scatter_trace": 4651.732585871827,
+    "zeroed_field_error": 31620120.06203301,
+    "zeroed_trace_error": 4621.197714610754
+  },
+  "records": [
+    {
+      "group_id": "synthetic_workpiece_004",
+      "shot": 0,
+      "field_change": 1823.115806192703,
+      "true_scatter_field": 504655.19419026095,
+      "trace_change": 0.5908856677508546,
+      "true_scatter_trace": 74.18736048849505,
+      "zeroed_field_error": 508074.40447566286,
+      "zeroed_trace_error": 75.50108927146748
+    },
+    {
+      "group_id": "synthetic_workpiece_004",
+      "shot": 1,
+      "field_change": 1812.0478711819076,
+      "true_scatter_field": 543885.6408575287,
+      "trace_change": 0.5815650677784782,
+      "true_scatter_trace": 80.90887350910893,
+      "zeroed_field_error": 545301.6196207321,
+      "zeroed_trace_error": 79.06438607523253
+    },
+    {
+      "group_id": "synthetic_workpiece_004",
+      "shot": 2,
+      "field_change": 1778.9615941602387,
+      "true_scatter_field": 653463.1707069951,
+      "trace_change": 0.557671098009074,
+      "true_scatter_trace": 104.31312732943015,
+      "zeroed_field_error": 653742.0309827933,
+      "zeroed_trace_error": 101.02713220140842
+    },
+    {
+      "group_id": "synthetic_workpiece_004",
+      "shot": 3,
+      "field_change": 1757.6395591817077,
+      "true_scatter_field": 630084.878937997,
+      "trace_change": 0.5435767949826709,
+      "true_scatter_trace": 90.18274176307129,
+      "zeroed_field_error": 633194.69169983,
+      "zeroed_trace_error": 90.93286178022674
+    },
+    {
+      "group_id": "synthetic_workpiece_005",
+      "shot": 0,
+      "field_change": 1861.8211325381017,
+      "true_scatter_field": 1766770.6360681886,
+      "trace_change": 0.5902124894759609,
+      "true_scatter_trace": 252.5668499661298,
+      "zeroed_field_error": 1768486.0325518027,
+      "zeroed_trace_error": 252.28745331501383
+    },
+    {
+      "group_id": "synthetic_workpiece_005",
+      "shot": 1,
+      "field_change": 1851.2029060986424,
+      "true_scatter_field": 1931470.688500483,
+      "trace_change": 0.5807917427650564,
+      "true_scatter_trace": 296.7231054776246,
+      "zeroed_field_error": 1931778.4153614887,
+      "zeroed_trace_error": 294.34168104183004
+    },
+    {
+      "group_id": "synthetic_workpiece_005",
+      "shot": 2,
+      "field_change": 1818.688727251037,
+      "true_scatter_field": 1777168.3931996007,
+      "trace_change": 0.5569092435452381,
+      "true_scatter_trace": 270.0495910252969,
+      "zeroed_field_error": 1775069.1472429747,
+      "zeroed_trace_error": 268.46969187979425
+    },
+    {
+      "group_id": "synthetic_workpiece_005",
+      "shot": 3,
+      "field_change": 1797.5025190159586,
+      "true_scatter_field": 1818990.266768362,
+      "trace_change": 0.5428321252577666,
+      "true_scatter_trace": 273.3128669664354,
+      "zeroed_field_error": 1818402.9086610833,
+      "zeroed_trace_error": 272.6996144725066
+    },
+    {
+      "group_id": "synthetic_workpiece_012",
+      "shot": 0,
+      "field_change": 1819.625890277343,
+      "true_scatter_field": 363620.8021073834,
+      "trace_change": 0.5850414276296669,
+      "true_scatter_trace": 44.028190478104136,
+      "zeroed_field_error": 365253.39593649947,
+      "zeroed_trace_error": 43.19960094516743
+    },
+    {
+      "group_id": "synthetic_workpiece_012",
+      "shot": 1,
+      "field_change": 1808.973472022861,
+      "true_scatter_field": 445599.73679770913,
+      "trace_change": 0.575643630369323,
+      "true_scatter_trace": 54.41685558224144,
+      "zeroed_field_error": 449457.3462600361,
+      "zeroed_trace_error": 55.7081172390824
+    },
+    {
+      "group_id": "synthetic_workpiece_012",
+      "shot": 2,
+      "field_change": 1776.7262954264215,
+      "true_scatter_field": 495916.61684085417,
+      "trace_change": 0.5518286791225295,
+      "true_scatter_trace": 58.29937399741877,
+      "zeroed_field_error": 499166.8564962683,
+      "zeroed_trace_error": 59.494299976426355
+    },
+    {
+      "group_id": "synthetic_workpiece_012",
+      "shot": 3,
+      "field_change": 1755.8286794849555,
+      "true_scatter_field": 476459.18855649105,
+      "trace_change": 0.5378072899455227,
+      "true_scatter_trace": 60.057477618842036,
+      "zeroed_field_error": 478474.413884329,
+      "zeroed_trace_error": 59.70835957201854
+    },
+    {
+      "group_id": "synthetic_workpiece_013",
+      "shot": 0,
+      "field_change": 1839.2049810632518,
+      "true_scatter_field": 1949971.654486475,
+      "trace_change": 0.5872057461912605,
+      "true_scatter_trace": 275.1775141648255,
+      "zeroed_field_error": 1949067.690737731,
+      "zeroed_trace_error": 272.87204614912866
+    },
+    {
+      "group_id": "synthetic_workpiece_013",
+      "shot": 1,
+      "field_change": 1828.7761985418024,
+      "true_scatter_field": 2218852.885399719,
+      "trace_change": 0.5778781603257213,
+      "true_scatter_trace": 327.6435090765578,
+      "zeroed_field_error": 2217378.5628618263,
+      "zeroed_trace_error": 324.83939348203893
+    },
+    {
+      "group_id": "synthetic_workpiece_013",
+      "shot": 2,
+      "field_change": 1796.837354645397,
+      "true_scatter_field": 2463257.713010275,
+      "trace_change": 0.5541175079313511,
+      "true_scatter_trace": 390.8602893547027,
+      "zeroed_field_error": 2464351.9396602316,
+      "zeroed_trace_error": 392.449671663686
+    },
+    {
+      "group_id": "synthetic_workpiece_013",
+      "shot": 3,
+      "field_change": 1776.0184739701995,
+      "true_scatter_field": 2145990.3772551976,
+      "trace_change": 0.5400907241334458,
+      "true_scatter_trace": 314.9817080357238,
+      "zeroed_field_error": 2144295.475334696,
+      "zeroed_trace_error": 311.00459448976295
+    },
+    {
+      "group_id": "synthetic_workpiece_020",
+      "shot": 0,
+      "field_change": 1830.1272422737868,
+      "true_scatter_field": 1123089.0809804252,
+      "trace_change": 0.5836169632454932,
+      "true_scatter_trace": 145.96731850889068,
+      "zeroed_field_error": 1125757.352240976,
+      "zeroed_trace_error": 145.20139450137643
+    },
+    {
+      "group_id": "synthetic_workpiece_020",
+      "shot": 1,
+      "field_change": 1819.7669816928465,
+      "true_scatter_field": 1360187.9350906932,
+      "trace_change": 0.5743062642226746,
+      "true_scatter_trace": 182.5404211235817,
+      "zeroed_field_error": 1358245.441012388,
+      "zeroed_trace_error": 176.12985664883223
+    },
+    {
+      "group_id": "synthetic_workpiece_020",
+      "shot": 2,
+      "field_change": 1788.0091963071297,
+      "true_scatter_field": 1067385.242401197,
+      "trace_change": 0.5507642959660627,
+      "true_scatter_trace": 148.2638049494097,
+      "zeroed_field_error": 1064666.76230268,
+      "zeroed_trace_error": 140.95396908158256
+    },
+    {
+      "group_id": "synthetic_workpiece_020",
+      "shot": 3,
+      "field_change": 1767.3275621269604,
+      "true_scatter_field": 1236012.5877142411,
+      "trace_change": 0.536895738851304,
+      "true_scatter_trace": 167.85058049152502,
+      "zeroed_field_error": 1239234.0652916357,
+      "zeroed_trace_error": 168.75004729358193
+    },
+    {
+      "group_id": "synthetic_workpiece_021",
+      "shot": 0,
+      "field_change": 1841.5980986637492,
+      "true_scatter_field": 1439593.7057947055,
+      "trace_change": 0.5909183109407514,
+      "true_scatter_trace": 225.70444601024667,
+      "zeroed_field_error": 1441515.0806005006,
+      "zeroed_trace_error": 226.56818273929474
+    },
+    {
+      "group_id": "synthetic_workpiece_021",
+      "shot": 1,
+      "field_change": 1830.771401727767,
+      "true_scatter_field": 1694207.058120016,
+      "trace_change": 0.5815188324514873,
+      "true_scatter_trace": 284.66790101040726,
+      "zeroed_field_error": 1697316.028236824,
+      "zeroed_trace_error": 285.9093525514039
+    },
+    {
+      "group_id": "synthetic_workpiece_021",
+      "shot": 2,
+      "field_change": 1798.0031529445828,
+      "true_scatter_field": 1932817.0358630572,
+      "trace_change": 0.557732475472331,
+      "true_scatter_trace": 290.66294176122915,
+      "zeroed_field_error": 1932876.8375368477,
+      "zeroed_trace_error": 289.7924629101139
+    },
+    {
+      "group_id": "synthetic_workpiece_021",
+      "shot": 3,
+      "field_change": 1776.7805846501963,
+      "true_scatter_field": 1562625.659108323,
+      "trace_change": 0.5436872190389086,
+      "true_scatter_trace": 238.3657371825281,
+      "zeroed_field_error": 1559013.5630431697,
+      "zeroed_trace_error": 234.29245532977825
+    }
+  ]
+}

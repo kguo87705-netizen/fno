@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "summary_recomputed": "exact with four CPU threads",
+  "default_center_and_ad_old_run_parity": false,
+  "frozen_files_and_code": "SHA verified",
+  "raw_sha256": "de90bad92a1a44dc91b0e35b2caa4437056eadff3bdd35d2a02238409417c1b4",
+  "scope": "Numerical consistency is separate from physical derivative screens"
+}

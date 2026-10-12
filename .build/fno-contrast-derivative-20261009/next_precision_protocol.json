@@ -1,0 +1,52 @@
+{
+  "status": "planned_not_run",
+  "question": "Does reduced-precision convolution contaminate frozen FNO small contrast differences?",
+  "new_output_directory": ".build/fno-contrast-precision-control-20261009",
+  "single_primary_factor": "Default versus IEEE float32 backend execution policy; identical frozen weights and float32 tensors",
+  "methods": [
+    "width4 final1200",
+    "width8 final1200",
+    "frozen train-only piecewise linear"
+  ],
+  "states": [
+    0.4,
+    0.6
+  ],
+  "epsilons": [
+    0.001,
+    0.0005
+  ],
+  "fixed": "Same geometry, source0, receiver/time reconstruction, original target a=.5, scales, actual float32 endpoints, cost and original physical float64 endpoint tensors",
+  "arms": {
+    "default": "Fresh-process runtime defaults, record actual backend flags before evaluation; never silently assume TF32 was used",
+    "ieee": "Disable cuda.matmul.allow_tf32 and cudnn.allow_tf32, highest float32 matmul precision, no AMP; retain float32 weights/inputs"
+  },
+  "replicates": "Two identical forward evaluations per center and endpoint per arm to measure repeat variability; scalar AD once per state/method/arm. Methods run sequentially. No training.",
+  "baselines": "Original FD float64 endpoints/AD and train-only piecewise linear, plus zero derivative; report undefined cosine for zero",
+  "metrics": [
+    "absolute waveform change between policies",
+    "response relativeL2, norm ratio and cosine at BOTH epsilons",
+    "two-epsilon response change",
+    "own scalar AD versus both loss differences",
+    "physical scalar gradient ratio",
+    "repeat variability"
+  ],
+  "numerical_qa": "Predeclared follow-up QA: two-epsilon response change <=0.01 and own scalar AD/FD relative error <=0.01 in each state. This is a numerical usability check, not a replacement for research screens.",
+  "unchanged_science_screens": "Response error <=0.20 and cosine >=0.9, report each state and both epsilons; cannot select the favorable epsilon. Scalar sign/descent remains separate.",
+  "decision": {
+    "stable_and_passes": "Reduced-precision explanation supported; do not add derivative training. Next separately preregister fixed-geometry scalar recovery/near-target bias against linear and physical baselines.",
+    "stable_but_fails": "A genuine learned tangent discrepancy is supported; then design one derivative-informed correction with matched value-only continuation and retained linear baseline.",
+    "still_unstable": "Do not label physical Jacobian accurate or inaccurate. Next use a separately budgeted direct JVP/high-precision diagnostic, not more training.",
+    "policies_identical": "If runtime flags or effective outputs do not differ, intervention is uninformative about TF32, not evidence excluding all numerical error."
+  },
+  "budget": "No new data or training; <=60 forward evaluations and 12 scalar reverse evaluations; estimated 1-3 minutes on this GPU, operational cap 10 minutes, stop on OOM; report actual cost.",
+  "limits": "Two development states, oracle-known fixed support and one contrast direction; neither independent test nor full Jacobian nor blind recovery nor total-cost advantage.",
+  "frozen_files_sha256": {
+    ".build\\fno-contrast-derivative-20261009\\protocol.json": "f27134b91b8bc87557edf0feb0e7cb67e933c484463be993e7580c57f1557157",
+    ".build\\fno-contrast-derivative-20261009\\raw.pt": "df8af380be3e6d9d73e4d57b495d5b6662982c0728ef972b69b31937c5a35563",
+    ".build\\fno-contrast-derivative-20261009\\summary.json": "d1248cdb30d48266d57d1f65ec28acb6f64aa0d531ed612e0b454f5d8f9f2067",
+    ".build\\fno-local-contrast-20261009\\final.pt": "4389f119e54011fba8ac181fd090da60a9df5f87d580a0dce60e110cfbc3cf86",
+    ".build\\fno-width8-control-20261009\\final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_contrast_derivative_audit.py": "f89db13917f3e66a1b0c3702200c27ef49d2babe23ed04a99956bad9b44fd265"
+  }
+}

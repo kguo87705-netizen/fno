@@ -1,0 +1,103 @@
+{
+  "status": "planned_not_run",
+  "title": "equal-channel receiver selection rank consistency",
+  "purpose": "whether frozen R2 preserves physical ranking of left vs right reception for material discrimination",
+  "scope": "source0, known center support, discrete material hypothesis discrimination; no blind reconstruction or acquisition savings",
+  "hypotheses": [
+    0.48,
+    0.52
+  ],
+  "pilot_channels": [
+    5,
+    18
+  ],
+  "remaining_budget": 11,
+  "left_action": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "right_action": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "total_selected_channels": 13,
+  "target_materials": [
+    0.46,
+    0.5,
+    0.54
+  ],
+  "source": "source0",
+  "noise": {
+    "model": "iid Gaussian additive on full record generated once per target and seed",
+    "std": "0.01 * RMS of saved full homogeneous trace; same scalar for all channels",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  "methods": [
+    "fixed_left",
+    "fixed_right",
+    "frozen_R2_score",
+    "nominal_secant_score",
+    "physical_score_oracle_upper_bound",
+    "full24_reference"
+  ],
+  "score": "sum of squared difference between hypothesis traces on incremental channels; independent equal variance Gaussian noise assumption; same 11 channels per action; tie chooses left",
+  "policy_note": "two hypotheses fixed independent of pilot: static design, NOT adaptive policy; pilot is reserved for later extension, not used to claim adaptation",
+  "nominal": "center .5 trace plus original .3/.7 secant times (a-.5); calibration costs separately reported",
+  "selection": "freeze selected action before reading target observations; select material hypothesis with minimal unweighted SSE on pilot+chosen channels",
+  "evaluation": [
+    "per-target absolute material error",
+    "agreement with full24 choice",
+    "paired method error differences over common noise seeds",
+    "R2 vs physical action score ranking",
+    "actual vs logical compute ledger"
+  ],
+  "interpretation": "targets outside or between hypotheses test bounded discrimination; no claim exact material recovery; action disagreement prevents moving to active loop; agreement only qualifies this two-state observation design",
+  "budget": {
+    "new_physical_calls_max": 3,
+    "new_network_forwards_max": 2,
+    "training_updates": 0,
+    "max_seconds": 300
+  },
+  "verification": "save predicted hypothesis traces and noisy observations; rederive scores and choices from raw data; hash all consumed PT and source files before run; no posthoc thresholds",
+  "cost": "existing calibration files reused with historical cost unknown; cached offline channel masks do not equal hardware acquisition savings",
+  "stop": "if shape, source coordinate, background or hashes mismatch save failure and stop; no extra runs to chase success"
+}

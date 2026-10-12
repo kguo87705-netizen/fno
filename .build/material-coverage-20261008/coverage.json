@@ -1,0 +1,310 @@
+{
+  "scope": "Development diagnostic, fixed nearest gamma Euclidean distance; only training gamma selects a stored training source0 response. No validation waveform influences neighbor selection, no fitted parameters, no independent test or formal OOD claim. Coordinates and source fixed. Sparse perturbation distance is a heuristic, not a wave-physics metric.",
+  "selection_rule": "argmin sum((gamma_validation-gamma_train)^2), stable manifest order breaks ties",
+  "training_groups": [
+    "synthetic_workpiece_000",
+    "synthetic_workpiece_001",
+    "synthetic_workpiece_002",
+    "synthetic_workpiece_003",
+    "synthetic_workpiece_008",
+    "synthetic_workpiece_009",
+    "synthetic_workpiece_010",
+    "synthetic_workpiece_011",
+    "synthetic_workpiece_016",
+    "synthetic_workpiece_017",
+    "synthetic_workpiece_018",
+    "synthetic_workpiece_019"
+  ],
+  "validation_groups": [
+    "synthetic_workpiece_004",
+    "synthetic_workpiece_005",
+    "synthetic_workpiece_012",
+    "synthetic_workpiece_013",
+    "synthetic_workpiece_020",
+    "synthetic_workpiece_021"
+  ],
+  "data_manifest_sha256": "9972c2aec68c347ba73e1677c182b25542ebc74bb3a5cdcee9b7243548991e42",
+  "summary": {
+    "scatter_trace_relative_l2": 1.2011370643738242,
+    "scatter_field_relative_l2": 1.2099397124106164,
+    "full_trace_relative_l2": 0.284065958660631,
+    "full_field_relative_l2": 0.3263596873506788
+  },
+  "records": [
+    {
+      "group_id": "synthetic_workpiece_004",
+      "nearest_training_group": "synthetic_workpiece_016",
+      "distance_squared": 81.20216837506733,
+      "material_perturbation_relative_distance": 1.406079755351991,
+      "material_perturbation_cosine": 0.37013050714204077,
+      "defect_support_iou": 0.21590909361839294,
+      "scatter_trace_relative_l2": 1.3113296645944759,
+      "scatter_field_relative_l2": 1.3242487993984582,
+      "energy_sums": {
+        "trace_error": 127.5715085814381,
+        "trace_true": 3069.0859148845943,
+        "scatter_trace_true": 74.18736048849505,
+        "field_error": 884980.9440671704,
+        "field_true": 16263770.176457819,
+        "scatter_field_true": 504655.18951153266
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_005",
+      "nearest_training_group": "synthetic_workpiece_010",
+      "distance_squared": 206.95459617362656,
+      "material_perturbation_relative_distance": 1.0773498584051406,
+      "material_perturbation_cosine": 0.07886427914028808,
+      "defect_support_iou": 0.03639846667647362,
+      "scatter_trace_relative_l2": 1.1633070941084467,
+      "scatter_field_relative_l2": 1.1757574563730162,
+      "energy_sums": {
+        "trace_error": 341.7945242379006,
+        "trace_true": 3057.210930016214,
+        "scatter_trace_true": 252.56684996612984,
+        "field_error": 2442393.5929760253,
+        "field_true": 16475719.186548071,
+        "scatter_field_true": 1766770.6204750394
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_012",
+      "nearest_training_group": "synthetic_workpiece_010",
+      "distance_squared": 88.48204886159954,
+      "material_perturbation_relative_distance": 1.3850435469454028,
+      "material_perturbation_cosine": 0.0,
+      "defect_support_iou": 0.0,
+      "scatter_trace_relative_l2": 1.4864419132133815,
+      "scatter_field_relative_l2": 1.5125702730656778,
+      "energy_sums": {
+        "trace_error": 97.28070783063849,
+        "trace_true": 3001.3824956560557,
+        "scatter_trace_true": 44.02819047810414,
+        "field_error": 831916.6922354073,
+        "field_true": 16265350.31218535,
+        "scatter_field_true": 363620.7989623302
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_013",
+      "nearest_training_group": "synthetic_workpiece_010",
+      "distance_squared": 253.62742577890793,
+      "material_perturbation_relative_distance": 1.095669780820724,
+      "material_perturbation_cosine": 0.0,
+      "defect_support_iou": 0.0,
+      "scatter_trace_relative_l2": 1.1095591095578226,
+      "scatter_field_relative_l2": 1.1339139636558535,
+      "energy_sums": {
+        "trace_error": 338.7769313310002,
+        "trace_true": 3008.8148095551305,
+        "scatter_trace_true": 275.1775141648255,
+        "field_error": 2507197.2427313877,
+        "field_true": 16514414.968922736,
+        "scatter_field_true": 1949971.6375198252
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_020",
+      "nearest_training_group": "synthetic_workpiece_016",
+      "distance_squared": 125.93479189275729,
+      "material_perturbation_relative_distance": 1.045994041023194,
+      "material_perturbation_cosine": 0.3705469412242181,
+      "defect_support_iou": 0.22525107860565186,
+      "scatter_trace_relative_l2": 1.2661290686791882,
+      "scatter_field_relative_l2": 1.2080502290133968,
+      "energy_sums": {
+        "trace_error": 233.99770037206446,
+        "trace_true": 3026.859533735837,
+        "scatter_trace_true": 145.96731850889068,
+        "field_error": 1639019.7435170836,
+        "field_true": 16358229.971311873,
+        "scatter_field_true": 1123089.071012991
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_021",
+      "nearest_training_group": "synthetic_workpiece_010",
+      "distance_squared": 147.46252105683743,
+      "material_perturbation_relative_distance": 1.1370096871366415,
+      "material_perturbation_cosine": 0.06445616383829364,
+      "defect_support_iou": 0.03403756022453308,
+      "scatter_trace_relative_l2": 1.206870298911328,
+      "scatter_field_relative_l2": 1.2244633800703701,
+      "energy_sums": {
+        "trace_error": 328.74663255521546,
+        "trace_true": 3031.0308862029287,
+        "scatter_trace_true": 225.70444601024667,
+        "field_error": 2158398.0383148273,
+        "field_true": 16365336.109261053,
+        "scatter_field_true": 1439593.6924278757
+      }
+    }
+  ],
+  "coverage_ranges": {
+    "train": {
+      "groups": [
+        "synthetic_workpiece_000",
+        "synthetic_workpiece_001",
+        "synthetic_workpiece_002",
+        "synthetic_workpiece_003",
+        "synthetic_workpiece_008",
+        "synthetic_workpiece_009",
+        "synthetic_workpiece_010",
+        "synthetic_workpiece_011",
+        "synthetic_workpiece_016",
+        "synthetic_workpiece_017",
+        "synthetic_workpiece_018",
+        "synthetic_workpiece_019"
+      ],
+      "defect_count_histogram": {
+        "1": 6,
+        "2": 6
+      },
+      "defect_parameter_ranges": {
+        "x_m": [
+          0.025708548184605214,
+          0.07505316832838878
+        ],
+        "y_m": [
+          0.014512196215348714,
+          0.036344882586698525
+        ],
+        "axis_x_m": [
+          0.003151189121295742,
+          0.006971387128090809
+        ],
+        "axis_y_m": [
+          0.0020555140199989626,
+          0.004977279628406153
+        ],
+        "gamma": [
+          0.32429682887739975,
+          0.6442155978021192
+        ]
+      }
+    },
+    "validation": {
+      "groups": [
+        "synthetic_workpiece_004",
+        "synthetic_workpiece_005",
+        "synthetic_workpiece_012",
+        "synthetic_workpiece_013",
+        "synthetic_workpiece_020",
+        "synthetic_workpiece_021"
+      ],
+      "defect_count_histogram": {
+        "1": 3,
+        "2": 3
+      },
+      "defect_parameter_ranges": {
+        "x_m": [
+          0.02809815846179565,
+          0.07326874765783599
+        ],
+        "y_m": [
+          0.014390335644994279,
+          0.03541019345085956
+        ],
+        "axis_x_m": [
+          0.003272017553770767,
+          0.006419604502687746
+        ],
+        "axis_y_m": [
+          0.0020108273440795836,
+          0.004449342233446944
+        ],
+        "gamma": [
+          0.4452365195577353,
+          0.6092511327002652
+        ]
+      }
+    }
+  },
+  "distance_squared_matrix": [
+    [
+      111.19622985792157,
+      162.99585822513887,
+      97.96455447016513,
+      102.88975868321559,
+      220.61255760304147,
+      412.8110578083948,
+      83.43008175558352,
+      114.33388486264175,
+      81.20216837506733,
+      174.47694476325083,
+      103.76926521728792,
+      121.34024829965564
+    ],
+    [
+      248.42824731587035,
+      268.58652700651635,
+      234.28840809615411,
+      328.0427041693103,
+      357.84457506099034,
+      550.0430752663436,
+      206.95459617362656,
+      256.5801998955476,
+      261.7789056758765,
+      311.7089622211996,
+      241.00128267523672,
+      278.8612398833334
+    ],
+    [
+      116.24819696393757,
+      136.4243869764041,
+      103.01652157618115,
+      195.86265381737752,
+      225.66452470905747,
+      417.8630249144108,
+      88.48204886159954,
+      124.40014954361479,
+      129.59885532394372,
+      179.52891186926684,
+      108.82123232330395,
+      146.68118953140063
+    ],
+    [
+      281.39357388124597,
+      314.1450459885435,
+      268.16189849348956,
+      361.0080307346859,
+      390.80990162636584,
+      523.6153649596898,
+      253.62742577890793,
+      289.54552646092316,
+      294.7442322412521,
+      291.1722403159188,
+      273.96660924061234,
+      311.82656644870906
+    ],
+    [
+      185.2272297749351,
+      237.02685814215243,
+      171.9955543871787,
+      264.84168662837504,
+      294.64355752005497,
+      486.8420577254084,
+      157.46108167259706,
+      193.37918235461234,
+      125.93479189275729,
+      248.5079446802644,
+      177.80026513430147,
+      215.66022234239819
+    ],
+    [
+      184.18929515348452,
+      235.98892352070183,
+      170.56866436611423,
+      263.80375200692447,
+      293.60562289860445,
+      426.070621479307,
+      147.46252105683743,
+      192.34124773316177,
+      197.53995351349067,
+      247.47001005881384,
+      176.7623305128509,
+      214.62228772094758
+    ]
+  ],
+  "verification": "energy aggregation, grouped split, deterministic argmin passed"
+}

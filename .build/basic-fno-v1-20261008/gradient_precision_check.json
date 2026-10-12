@@ -1,0 +1,26 @@
+{
+  "scope": "Same frozen checkpoint and first test shot as evaluation; real weights promoted to float64 and complex weights to complex128 without changing values. FD compared with saved float32 AD direction.",
+  "initial_float64_cost": 6.6882248358762e-12,
+  "checks": [
+    {
+      "epsilon": 0.1,
+      "float64_finite_difference": 5.900167977539022e-15,
+      "float32_ad_projection": 5.9011241997770316e-15,
+      "relative_difference": 0.0001620406901527982
+    },
+    {
+      "epsilon": 0.05,
+      "float64_finite_difference": 5.900168341704479e-15,
+      "float32_ad_projection": 5.9011241997770316e-15,
+      "relative_difference": 0.00016197897895264823
+    },
+    {
+      "epsilon": 0.02,
+      "float64_finite_difference": 5.900168443692456e-15,
+      "float32_ad_projection": 5.9011241997770316e-15,
+      "relative_difference": 0.00016196169614790534
+    }
+  ],
+  "passes_2_percent": true,
+  "model_weights_changed": false
+}

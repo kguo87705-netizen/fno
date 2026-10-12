@@ -1,0 +1,43 @@
+{
+  "status": "planned_not_run",
+  "purpose": "Expand fitted material mapping from two to four workpieces at one fixed source and check unseen-material validation.",
+  "data_access": [
+    "train",
+    "validation"
+  ],
+  "test_access": false,
+  "training_workpieces": [
+    "synthetic_workpiece_000",
+    "synthetic_workpiece_001",
+    "synthetic_workpiece_002",
+    "synthetic_workpiece_003"
+  ],
+  "shot": 0,
+  "validation": "all six original validation workpieces, source0 only; no validation-based checkpoint selection",
+  "model": "BasicFNO eight channels, two zero channels, width4 layers4 modes16/8/64 padding0",
+  "seed": 2,
+  "initial_weights": "same eight-channel seed2 initialization, from scratch",
+  "target": "FD(gamma)-FD(1)",
+  "normalization": "old full-field train-only RMS scales, unchanged",
+  "receiver_loss_weight": 1,
+  "optimizer": "Adam lr0.001",
+  "updates": 1600,
+  "exposures_per_training_workpiece": 400,
+  "sample_order": "cycle000,001,002,003 exactly400 cycles",
+  "selection": "fixed final1600, intermediate0/400/800 diagnostic only",
+  "arms": [
+    "true_gamma"
+  ],
+  "references": [
+    "zero scattering",
+    "arithmetic mean residual of these four training workpieces, fixed for validation without using validation targets"
+  ],
+  "metrics": [
+    "training full/scatter field and receiver errors; objective vs shared-target optimum",
+    "validation six unseen workpieces source0: full/scatter field and receivers versus zero and frozen training mean",
+    "frozen validation FNO(gamma)-FNO(1) response, explicitly diagnostic counterfactual",
+    "opposite two rows, interior2..125, array-side126..127 field/scattering response regions"
+  ],
+  "comparability": "Preserves400 sample exposures per fitted source-material pair; total optimizer updates and workpiece count both increase. Does not isolate workpiece count versus budget as a causal factor. One fitted seed and one source; no local-gradient, FWI, full-source or test claim.",
+  "motivation": "Two fitted materials can now be distinguished in receivers, while interior differences remain poor. Check whether this extends beyond memorizing the fitted pair before adding architectural complexity."
+}

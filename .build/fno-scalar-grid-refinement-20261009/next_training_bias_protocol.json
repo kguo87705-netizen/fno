@@ -1,0 +1,43 @@
+{
+  "status": "planned_not_run",
+  "question": "Can a fixed training-only mean residual reduce scalar recovery bias without changing the material derivative?",
+  "output_directory": ".build/fno-training-bias-control-20261009",
+  "training": "No optimization. Three frozen width8 IEEE forward evaluations at training a=.3,.5,.7.",
+  "correction": "b=(sum over three train states of (full reconstructed FNO receiver prediction - frozen full receiver training label))/3. Correct every candidate prediction by subtracting the same b, coefficient1, no fitting or tuning.",
+  "unique_factor": "Apply versus do not apply constant training-derived receiver offset; frozen model and all other settings unchanged.",
+  "data_separation": "Construct and save b and its SHA using only three training labels, before loading development labels or scoring. No development residual, geometry truth adjustment, threshold tuning or best correction selection.",
+  "evaluation": "Reuse all37 frozen refined grid predictions and physical reference; same windows, two development observations, min observable time-cost selection and tie rule. Report every candidate and both targets.",
+  "baselines": [
+    "uncorrected width8",
+    "train-only piecewise linear",
+    "physical FD grid",
+    "zero correction exactly recovers uncorrected results"
+  ],
+  "metrics": [
+    "selected a and contrast error",
+    "physical material half-MSE",
+    "physical cost relative to initial .5",
+    "full and scatter receiver error at true input and selected input",
+    "constant correction norm",
+    "finite difference of corrected and uncorrected predictions should match to float64 rounding"
+  ],
+  "invariant": "Constant offset does not change prediction derivative with respect to a; it can change objective gradient by changing residual. This is a receiver-only calibration, not a corrected full-field operator.",
+  "decision": {
+    "both_material_errors_improve": "Supports transferable constant training residual for these development cases only; freeze correction before genuinely new materials/geometry evaluation.",
+    "mixed_or_worse": "Reject constant bias as a sufficient remedy; do not tune coefficient using these targets. Inspect material-dependent residual and retain simple baseline.",
+    "wave_error_only_improves": "No material-recovery success; do not promote correction.",
+    "window_edge_minimum": "Inconclusive outside current windows; save failure and separately preregister expansion."
+  },
+  "screens": "Keep existing derivative and numerical QA unchanged. No new posthoc success thresholds; compare per-target material errors at same0.002 grid.",
+  "budget": "3 network calls plus cached CPU arithmetic, no training or new physical simulation, expected under1min, cap5min, fresh directory and OOM stop.",
+  "limits": "Same known-support development targets. Not blind FWI, independent test, full-field improvement or total-cost advantage.",
+  "frozen_sha256": {
+    ".build\\fno-scalar-grid-refinement-20261009\\raw.pt": "30ceb1a5a0eac17e3ac73d0fa106e843de7d81f2a12654b23752b0fb22764ea3",
+    ".build\\fno-scalar-grid-refinement-20261009\\summary.json": "1455cbbcc33486c22b35cbf689b5ebae1c6ac2e9569816e3ce50d287d5002da1",
+    ".build\\fno-scalar-grid-refinement-20261009\\protocol.json": "00e56710f6b75d3bcaa38661acaea71b2c31a83a1934660d9f46e703966a2310",
+    ".build\\fno-width8-control-20261009\\final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+    ".build\\fno-local-contrast-20261009\\contrast_03.pt": "07b6c6bcf1aff23887e7fa1e10f7407c3f30f4e64e33905c2d95cb7ffc8a6906",
+    ".build\\fno-local-contrast-20261009\\contrast_05.pt": "baf16dcfb73599e8172e31919e052811e21ba09e543bb7a191ced73aee4c9c30",
+    ".build\\fno-local-contrast-20261009\\contrast_07.pt": "44d76f12fd90866012dec14e6881d113ee591ca8c60abac0fc1d10bce61fe3ba"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "status": "completed",
+  "target": {
+    "shift": 3,
+    "a": 0.53
+  },
+  "candidates": [
+    {
+      "shift": 1,
+      "a": 0.47,
+      "physical_error": 0.1892350976407229,
+      "fno_error": 0.18032139519221424,
+      "zero_error": 0.3011965225134379
+    },
+    {
+      "shift": 1,
+      "a": 0.53,
+      "physical_error": 0.17075469053229753,
+      "fno_error": 0.16294222650538331,
+      "zero_error": 0.3011965225134379
+    },
+    {
+      "shift": 2,
+      "a": 0.47,
+      "physical_error": 0.10655163601573207,
+      "fno_error": 0.1223129055892171,
+      "zero_error": 0.3011965225134379
+    },
+    {
+      "shift": 2,
+      "a": 0.53,
+      "physical_error": 0.08854070047544835,
+      "fno_error": 0.10371827133706633,
+      "zero_error": 0.3011965225134379
+    },
+    {
+      "shift": 3,
+      "a": 0.47,
+      "physical_error": 0.05457421405842513,
+      "fno_error": 0.09726397949728093,
+      "zero_error": 0.3011965225134379
+    },
+    {
+      "shift": 3,
+      "a": 0.53,
+      "physical_error": 0.0,
+      "fno_error": 0.07353502924188954,
+      "zero_error": 0.3011965225134379
+    },
+    {
+      "shift": 4,
+      "a": 0.47,
+      "physical_error": 0.1157698758402061,
+      "fno_error": 0.1057583784733504,
+      "zero_error": 0.3011965225134379
+    },
+    {
+      "shift": 4,
+      "a": 0.53,
+      "physical_error": 0.08894103193810086,
+      "fno_error": 0.08192205267948481,
+      "zero_error": 0.3011965225134379
+    },
+    {
+      "shift": 5,
+      "a": 0.47,
+      "physical_error": 0.19823727287053974,
+      "fno_error": 0.12543151108129524,
+      "zero_error": 0.3011965225134379
+    },
+    {
+      "shift": 5,
+      "a": 0.53,
+      "physical_error": 0.17212310661563207,
+      "fno_error": 0.10508179482272219,
+      "zero_error": 0.3011965225134379
+    }
+  ],
+  "rank_metrics": {
+    "spearman_fno_vs_physical": 0.8303030303030303,
+    "kendall_fno_vs_physical": 0.6444444444444445,
+    "physical_top1": {
+      "shift": 3,
+      "a": 0.53,
+      "physical_error": 0.0,
+      "fno_error": 0.07353502924188954,
+      "zero_error": 0.3011965225134379
+    },
+    "fno_top1": {
+      "shift": 3,
+      "a": 0.53,
+      "physical_error": 0.0,
+      "fno_error": 0.07353502924188954,
+      "zero_error": 0.3011965225134379
+    },
+    "physical_top3": [
+      {
+        "shift": 3,
+        "a": 0.53,
+        "physical_error": 0.0,
+        "fno_error": 0.07353502924188954,
+        "zero_error": 0.3011965225134379
+      },
+      {
+        "shift": 3,
+        "a": 0.47,
+        "physical_error": 0.05457421405842513,
+        "fno_error": 0.09726397949728093,
+        "zero_error": 0.3011965225134379
+      },
+      {
+        "shift": 2,
+        "a": 0.53,
+        "physical_error": 0.08854070047544835,
+        "fno_error": 0.10371827133706633,
+        "zero_error": 0.3011965225134379
+      }
+    ],
+    "fno_top3": [
+      {
+        "shift": 3,
+        "a": 0.53,
+        "physical_error": 0.0,
+        "fno_error": 0.07353502924188954,
+        "zero_error": 0.3011965225134379
+      },
+      {
+        "shift": 4,
+        "a": 0.53,
+        "physical_error": 0.08894103193810086,
+        "fno_error": 0.08192205267948481,
+        "zero_error": 0.3011965225134379
+      },
+      {
+        "shift": 3,
+        "a": 0.47,
+        "physical_error": 0.05457421405842513,
+        "fno_error": 0.09726397949728093,
+        "zero_error": 0.3011965225134379
+      }
+    ],
+    "fno_top3_contains_physical_top1": true,
+    "zero_top1": {
+      "shift": 1,
+      "a": 0.47,
+      "physical_error": 0.1892350976407229,
+      "fno_error": 0.18032139519221424,
+      "zero_error": 0.3011965225134379
+    }
+  },
+  "cost": {
+    "physical_calls": 11,
+    "network_forwards": 10,
+    "target_calls": 1,
+    "candidate_calls": 10,
+    "elapsed_seconds": 9.818307199981064
+  },
+  "scope": "known support shape but heldout support row, source0, scalar density; not blind defect identification or final test"
+}

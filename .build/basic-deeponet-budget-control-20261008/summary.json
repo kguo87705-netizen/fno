@@ -1,0 +1,477 @@
+{
+  "scope": "Training000/source0 only; matched seven-channel feature arms and continued budget. No independent validation/test or physical-gradient/FWI claims.",
+  "runs": {
+    "400_zero": {
+      "final_training": {
+        "split": "train",
+        "groups": 1,
+        "shots": 1,
+        "mean_field_mse": 0.06360873579978943,
+        "mean_receiver_mse": 0.05826326459646225,
+        "mean_total_objective": 0.12187200039625168,
+        "full_field_relative_l2": 0.2524875669632142,
+        "full_trace_relative_l2": 0.24471254375300547,
+        "scatter_field_relative_l2": 1.0000048633411267,
+        "scatter_trace_relative_l2": 0.999993681994148,
+        "regions": {
+          "opposite_boundary": {
+            "scatter_field_relative_l2": 1.0000062610257752,
+            "energy_sums": {
+              "error": 28191.370438103553,
+              "reference": 28191.01742762496
+            }
+          },
+          "interior": {
+            "scatter_field_relative_l2": 1.000004634634253,
+            "energy_sums": {
+              "error": 978797.4995540975,
+              "reference": 978788.4268803338
+            }
+          },
+          "array_side": {
+            "scatter_field_relative_l2": 1.000010107061228,
+            "energy_sums": {
+              "error": 35176.6831756219,
+              "reference": 35175.97212062064
+            }
+          }
+        },
+        "energy_sums": {
+          "field_error": 1042165.553167823,
+          "field_true": 16347702.26747235,
+          "scatter_field_true": 1042155.4164285795,
+          "trace_error": 183.05153581375674,
+          "trace_true": 3056.756990218245,
+          "scatter_trace_true": 183.0538488770266
+        },
+        "records": [
+          {
+            "group_id": "synthetic_workpiece_000",
+            "split": "train",
+            "shot": 0,
+            "field_mse": 0.06360873579978943,
+            "receiver_mse": 0.05826326459646225,
+            "field_error": 1042165.553167823,
+            "field_true": 16347702.26747235,
+            "scatter_field_true": 1042155.4164285795,
+            "trace_error": 183.05153581375674,
+            "trace_true": 3056.756990218245,
+            "scatter_trace_true": 183.0538488770266
+          }
+        ]
+      },
+      "material_response": {
+        "field": {
+          "relative_l2": 1.0000012276074217,
+          "norm_ratio": 0.0030435717394346052,
+          "cosine": 0.001118441286327299,
+          "energy_sums": {
+            "error": 1042157.9751310847,
+            "predicted": 9.653828421639655,
+            "reference": 1042155.4164140663,
+            "dot": 3.547555701738598
+          }
+        },
+        "trace": {
+          "relative_l2": 1.0000061085584406,
+          "norm_ratio": 0.0021557708695962405,
+          "cosine": -0.0017557074966374976,
+          "energy_sums": {
+            "error": 183.05608523956323,
+            "predicted": 0.0008507149460351589,
+            "reference": 183.05384884246578,
+            "dot": -0.0006928410757007927
+          }
+        },
+        "opposite_boundary": {
+          "relative_l2": 1.000004962295577,
+          "norm_ratio": 0.002140345272091412,
+          "cosine": -0.0012482887607738879,
+          "energy_sums": {
+            "error": 28191.297214983006,
+            "predicted": 0.1291452464692272,
+            "reference": 28191.017429966614,
+            "dot": -0.07531988496294573
+          }
+        },
+        "interior": {
+          "relative_l2": 1.0000010598766127,
+          "norm_ratio": 0.003089046822580328,
+          "cosine": 0.0012014152503372906,
+          "energy_sums": {
+            "error": 978790.5016553183,
+            "predicted": 9.33980498103082,
+            "reference": 978788.4268642938,
+            "dot": 3.6325069783220565
+          }
+        },
+        "array_side": {
+          "relative_l2": 1.0000029017063197,
+          "norm_ratio": 0.0022925551451359752,
+          "cosine": -0.00011943267034376679,
+          "energy_sums": {
+            "error": 35176.17626078332,
+            "predicted": 0.18487819413960682,
+            "reference": 35175.97211980594,
+            "dot": -0.009631391620512991
+          }
+        }
+      },
+      "sampled_indices_sha256": "bebce3c7093819eb7a0e2d1d897254f22de6aebc00b9703f5dc08ede54fc1e22"
+    },
+    "400_sincos": {
+      "final_training": {
+        "split": "train",
+        "groups": 1,
+        "shots": 1,
+        "mean_field_mse": 0.06366562843322754,
+        "mean_receiver_mse": 0.05805167183279991,
+        "mean_total_objective": 0.12171730026602745,
+        "full_field_relative_l2": 0.2526004484011817,
+        "full_trace_relative_l2": 0.24426749096203298,
+        "scatter_field_relative_l2": 1.0004519427292569,
+        "scatter_trace_relative_l2": 0.9981750176449452,
+        "regions": {
+          "opposite_boundary": {
+            "scatter_field_relative_l2": 1.0000825611270008,
+            "energy_sums": {
+              "error": 28195.672584124753,
+              "reference": 28191.01742762496
+            }
+          },
+          "interior": {
+            "scatter_field_relative_l2": 1.0004735204377864,
+            "energy_sums": {
+              "error": 979715.5989946389,
+              "reference": 978788.4268803338
+            }
+          },
+          "array_side": {
+            "scatter_field_relative_l2": 1.0001474579478353,
+            "energy_sums": {
+              "error": 35186.346838805606,
+              "reference": 35175.97212062064
+            }
+          }
+        },
+        "energy_sums": {
+          "field_error": 1043097.6184175692,
+          "field_true": 16347702.26747235,
+          "scatter_field_true": 1042155.4164285795,
+          "trace_error": 182.38631846051177,
+          "trace_true": 3056.756990218245,
+          "scatter_trace_true": 183.0538488770266
+        },
+        "records": [
+          {
+            "group_id": "synthetic_workpiece_000",
+            "split": "train",
+            "shot": 0,
+            "field_mse": 0.06366562843322754,
+            "receiver_mse": 0.05805167183279991,
+            "field_error": 1043097.6184175692,
+            "field_true": 16347702.26747235,
+            "scatter_field_true": 1042155.4164285795,
+            "trace_error": 182.38631846051177,
+            "trace_true": 3056.756990218245,
+            "scatter_trace_true": 183.0538488770266
+          }
+        ]
+      },
+      "material_response": {
+        "field": {
+          "relative_l2": 1.0000063716711638,
+          "norm_ratio": 0.0020428317010767823,
+          "cosine": -0.0020976328011596914,
+          "energy_sums": {
+            "error": 1042168.696999606,
+            "predicted": 4.349082713772804,
+            "reference": 1042155.4164140663,
+            "dot": -4.465751412883302
+          }
+        },
+        "trace": {
+          "relative_l2": 1.0000429087111484,
+          "norm_ratio": 0.0014474269868298777,
+          "cosine": -0.02892174159186344,
+          "energy_sums": {
+            "error": 183.06955838894595,
+            "predicted": 0.0003835060291850462,
+            "reference": 183.05384884246578,
+            "dot": -0.007663020225499771
+          }
+        },
+        "opposite_boundary": {
+          "relative_l2": 0.999999190431017,
+          "norm_ratio": 0.0014411973778937096,
+          "cosine": 0.0012823320556615235,
+          "energy_sums": {
+            "error": 28190.971784838475,
+            "predicted": 0.058554149427716924,
+            "reference": 28191.017429966614,
+            "dot": 0.052099638782921766
+          }
+        },
+        "interior": {
+          "relative_l2": 1.0000063592736068,
+          "norm_ratio": 0.0020725478968209184,
+          "cosine": -0.0020320719443967083,
+          "energy_sums": {
+            "error": 978800.8756706954,
+            "predicted": 4.204341431301794,
+            "reference": 978788.4268642938,
+            "dot": -4.122232485105887
+          }
+        },
+        "array_side": {
+          "relative_l2": 1.0000124718485626,
+          "norm_ratio": 0.0015653020824591064,
+          "cosine": -0.007185092997412073,
+          "energy_sums": {
+            "error": 35176.8495440721,
+            "predicted": 0.08618713304329219,
+            "reference": 35175.97211980594,
+            "dot": -0.39561856656033656
+          }
+        }
+      },
+      "sampled_indices_sha256": "bebce3c7093819eb7a0e2d1d897254f22de6aebc00b9703f5dc08ede54fc1e22"
+    },
+    "4000_zero": {
+      "final_training": {
+        "split": "train",
+        "groups": 1,
+        "shots": 1,
+        "mean_field_mse": 0.06360907852649689,
+        "mean_receiver_mse": 0.05826227739453316,
+        "mean_total_objective": 0.12187135592103004,
+        "full_field_relative_l2": 0.2524882439997443,
+        "full_trace_relative_l2": 0.24471041977809319,
+        "scatter_field_relative_l2": 1.0000075448189947,
+        "scatter_trace_relative_l2": 0.9999850025800877,
+        "regions": {
+          "opposite_boundary": {
+            "scatter_field_relative_l2": 1.000005632060033,
+            "energy_sums": {
+              "error": 28191.334975524274,
+              "reference": 28191.01742762496
+            }
+          },
+          "interior": {
+            "scatter_field_relative_l2": 1.0000077775432852,
+            "energy_sums": {
+              "error": 978803.652078255,
+              "reference": 978788.4268803338
+            }
+          },
+          "array_side": {
+            "scatter_field_relative_l2": 1.000002602077741,
+            "energy_sums": {
+              "error": 35176.15518208696,
+              "reference": 35175.97212062064
+            }
+          }
+        },
+        "energy_sums": {
+          "field_error": 1042171.142235866,
+          "field_true": 16347702.26747235,
+          "scatter_field_true": 1042155.4164285795,
+          "trace_error": 183.04835824732322,
+          "trace_true": 3056.756990218245,
+          "scatter_trace_true": 183.0538488770266
+        },
+        "records": [
+          {
+            "group_id": "synthetic_workpiece_000",
+            "split": "train",
+            "shot": 0,
+            "field_mse": 0.06360907852649689,
+            "receiver_mse": 0.05826227739453316,
+            "field_error": 1042171.142235866,
+            "field_true": 16347702.26747235,
+            "scatter_field_true": 1042155.4164285795,
+            "trace_error": 183.04835824732322,
+            "trace_true": 3056.756990218245,
+            "scatter_trace_true": 183.0538488770266
+          }
+        ]
+      },
+      "material_response": {
+        "field": {
+          "relative_l2": 0.9999999365961528,
+          "norm_ratio": 0.00012439341959016647,
+          "cosine": 0.0005719008832576327,
+          "energy_sums": {
+            "error": 1042155.2842607452,
+            "predicted": 0.016126024067018928,
+            "reference": 1042155.4164140663,
+            "dot": 0.07413967264302959
+          }
+        },
+        "trace": {
+          "relative_l2": 1.0000002761250228,
+          "norm_ratio": 8.246615920179448e-05,
+          "cosine": -0.003307110818988672,
+          "energy_sums": {
+            "error": 183.05394993397613,
+            "predicted": 1.2448883447379268e-06,
+            "reference": 183.05384884246578,
+            "dot": -4.992331100617223e-05
+          }
+        },
+        "opposite_boundary": {
+          "relative_l2": 1.0000002093672966,
+          "norm_ratio": 0.00015343048892017228,
+          "cosine": -0.0012878591630956764,
+          "energy_sums": {
+            "error": 28191.029234522066,
+            "predicted": 0.0006636423431169724,
+            "reference": 28191.017429966614,
+            "dot": -0.005570456554082641
+          }
+        },
+        "interior": {
+          "relative_l2": 0.9999999258574105,
+          "norm_ratio": 0.000124160914212957,
+          "cosine": 0.0006592296266044292,
+          "energy_sums": {
+            "error": 978788.2817244821,
+            "predicted": 0.015088936436011252,
+            "reference": 978788.4268642938,
+            "dot": 0.08011437412186534
+          }
+        },
+        "array_side": {
+          "relative_l2": 1.0000000168003194,
+          "norm_ratio": 0.00010303634337767614,
+          "cosine": -0.00011153419316334565,
+          "energy_sums": {
+            "error": 35175.973301741076,
+            "predicted": 0.00037344528789070533,
+            "reference": 35175.97211980594,
+            "dot": -0.00040424492475309897
+          }
+        }
+      },
+      "sampled_indices_sha256": "9ab04d1c1e9be159490f78582356b9ebfb8ddbad7f36b6ff0919a5b00146788c"
+    },
+    "4000_sincos": {
+      "final_training": {
+        "split": "train",
+        "groups": 1,
+        "shots": 1,
+        "mean_field_mse": 0.06412789970636368,
+        "mean_receiver_mse": 0.056041471660137177,
+        "mean_total_objective": 0.12016937136650085,
+        "full_field_relative_l2": 0.2535158411884687,
+        "full_trace_relative_l2": 0.23999392299406236,
+        "scatter_field_relative_l2": 1.004077456849276,
+        "scatter_trace_relative_l2": 0.9807115035070815,
+        "regions": {
+          "opposite_boundary": {
+            "scatter_field_relative_l2": 0.9999505792123402,
+            "energy_sums": {
+              "error": 28188.231051906696,
+              "reference": 28191.01742762496
+            }
+          },
+          "interior": {
+            "scatter_field_relative_l2": 1.0039076387797692,
+            "energy_sums": {
+              "error": 986452.8758561978,
+              "reference": 978788.4268803338
+            }
+          },
+          "array_side": {
+            "scatter_field_relative_l2": 1.0120711070340476,
+            "energy_sums": {
+              "error": 36030.323517669625,
+              "reference": 35175.97212062064
+            }
+          }
+        },
+        "energy_sums": {
+          "field_error": 1050671.4304257738,
+          "field_true": 16347702.26747235,
+          "scatter_field_true": 1042155.4164285795,
+          "trace_error": 176.0602863028748,
+          "trace_true": 3056.756990218245,
+          "scatter_trace_true": 183.0538488770266
+        },
+        "records": [
+          {
+            "group_id": "synthetic_workpiece_000",
+            "split": "train",
+            "shot": 0,
+            "field_mse": 0.06412789970636368,
+            "receiver_mse": 0.056041471660137177,
+            "field_error": 1050671.4304257738,
+            "field_true": 16347702.26747235,
+            "scatter_field_true": 1042155.4164285795,
+            "trace_error": 176.0602863028748,
+            "trace_true": 3056.756990218245,
+            "scatter_trace_true": 183.0538488770266
+          }
+        ]
+      },
+      "material_response": {
+        "field": {
+          "relative_l2": 1.0000013572584967,
+          "norm_ratio": 0.0005975411201768921,
+          "cosine": -0.0019726369999054417,
+          "energy_sums": {
+            "error": 1042158.2453645738,
+            "predicted": 0.3721072089633336,
+            "reference": 1042155.4164140663,
+            "dot": -1.228421649233645
+          }
+        },
+        "trace": {
+          "relative_l2": 0.9998708608717563,
+          "norm_ratio": 0.0006807916179957765,
+          "cosine": 0.190017804245196,
+          "energy_sums": {
+            "error": 183.0065730663168,
+            "predicted": 8.484129027758562e-05,
+            "reference": 183.05384884246578,
+            "dot": 0.023680308719629572
+          }
+        },
+        "opposite_boundary": {
+          "relative_l2": 0.9999975549671295,
+          "norm_ratio": 0.00041559896900365866,
+          "cosine": 0.006090946613620196,
+          "energy_sums": {
+            "error": 28190.879574206607,
+            "predicted": 0.004869223093660823,
+            "reference": 28191.017429966614,
+            "dot": 0.07136249154899504
+          }
+        },
+        "interior": {
+          "relative_l2": 1.0000028387981643,
+          "norm_ratio": 0.000584261472357681,
+          "cosine": -0.004566656515643662,
+          "energy_sums": {
+            "error": 978793.9840377604,
+            "predicted": 0.334120654335641,
+            "reference": 978788.4268642938,
+            "dot": -2.611526406106897
+          }
+        },
+        "array_side": {
+          "relative_l2": 0.9999631791996981,
+          "norm_ratio": 0.0009702968325876628,
+          "cosine": 0.038432425145956184,
+          "energy_sums": {
+            "error": 35173.38175260682,
+            "predicted": 0.0331173315340318,
+            "reference": 35175.97211980594,
+            "dot": 1.3117422653242563
+          }
+        }
+      },
+      "sampled_indices_sha256": "9ab04d1c1e9be159490f78582356b9ebfb8ddbad7f36b6ff0919a5b00146788c"
+    }
+  }
+}

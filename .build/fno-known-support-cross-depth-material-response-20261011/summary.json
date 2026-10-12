@@ -1,0 +1,250 @@
+{
+  "status": "completed",
+  "scope": "No exact local Jacobian or networkAD claim;this is converged central finite-difference evidence along one known-support direction. Not unseen geometry or independent test;only perturbed material labels newly generated.",
+  "elapsed_seconds": 18.52645009999833,
+  "calls": {
+    "physical": 8,
+    "network_forwards": 16
+  },
+  "stability": {
+    "-1": {
+      "field": {
+        "relative_l2": 0.0014763918959964815,
+        "amplitude_ratio": 1.0000134746152678,
+        "cosine": 0.9999989102383107
+      },
+      "trace": {
+        "relative_l2": 0.0011905314238953146,
+        "amplitude_ratio": 1.0000113474564962,
+        "cosine": 0.9999992913898818
+      }
+    },
+    "-1:width8_control": {
+      "field": {
+        "relative_l2": 8.851648439553207e-05,
+        "amplitude_ratio": 0.9999894289293108,
+        "cosine": 0.999999996137691
+      },
+      "trace": {
+        "relative_l2": 9.729446636705669e-05,
+        "amplitude_ratio": 0.999990154522575,
+        "cosine": 0.9999999953152983
+      }
+    },
+    "-1:joint_loss_r2": {
+      "field": {
+        "relative_l2": 0.00011121552095569441,
+        "amplitude_ratio": 1.000005319334128,
+        "cosine": 0.9999999938292099
+      },
+      "trace": {
+        "relative_l2": 0.00011213041196171883,
+        "amplitude_ratio": 1.0000132897981853,
+        "cosine": 0.9999999938017643
+      }
+    },
+    "1": {
+      "field": {
+        "relative_l2": 0.0040967683519641165,
+        "amplitude_ratio": 1.0000298670652514,
+        "cosine": 0.99999160894054
+      },
+      "trace": {
+        "relative_l2": 0.0029277487385651556,
+        "amplitude_ratio": 1.000035032378398,
+        "cosine": 0.9999957149074015
+      }
+    },
+    "1:width8_control": {
+      "field": {
+        "relative_l2": 8.82840824161303e-05,
+        "amplitude_ratio": 1.0000025413562201,
+        "cosine": 0.9999999961056447
+      },
+      "trace": {
+        "relative_l2": 7.640021451958391e-05,
+        "amplitude_ratio": 0.999999163148486,
+        "cosine": 0.999999997081841
+      }
+    },
+    "1:joint_loss_r2": {
+      "field": {
+        "relative_l2": 0.00010808077084828618,
+        "amplitude_ratio": 1.0000122158577465,
+        "cosine": 0.999999994233463
+      },
+      "trace": {
+        "relative_l2": 9.984430229560635e-05,
+        "amplitude_ratio": 1.0000115926240702,
+        "cosine": 0.9999999950827957
+      }
+    }
+  },
+  "gates": {
+    "physical_fd_stable_2pct": {
+      "-1": true,
+      "1": true
+    },
+    "network_fd_stable_2pct": {
+      "-1:width8_control": true,
+      "-1:joint_loss_r2": true,
+      "1:width8_control": true,
+      "1:joint_loss_r2": true
+    },
+    "screen": {
+      "-1": false,
+      "1": false,
+      "-1:width8_control": false,
+      "-1:joint_loss_r2": false,
+      "1:width8_control": false,
+      "1:joint_loss_r2": false
+    }
+  },
+  "rows": [
+    {
+      "depth": -1,
+      "model": "width8_control",
+      "eps": 0.002,
+      "space": "field",
+      "relative_l2": 0.4266674322858567,
+      "amplitude_ratio": 1.0269068335147704,
+      "cosine": 0.9117149121192258
+    },
+    {
+      "depth": -1,
+      "model": "width8_control",
+      "eps": 0.002,
+      "space": "trace",
+      "relative_l2": 0.4332472174241394,
+      "amplitude_ratio": 0.8742646806334052,
+      "cosine": 0.9016923680680897
+    },
+    {
+      "depth": -1,
+      "model": "width8_control",
+      "eps": 0.001,
+      "space": "field",
+      "relative_l2": 0.42669296328508916,
+      "amplitude_ratio": 1.0269315264550272,
+      "cosine": 0.9117070743620094
+    },
+    {
+      "depth": -1,
+      "model": "width8_control",
+      "eps": 0.001,
+      "space": "trace",
+      "relative_l2": 0.4332885277958846,
+      "amplitude_ratio": 0.8742832090494327,
+      "cosine": 0.9016713148479836
+    },
+    {
+      "depth": -1,
+      "model": "joint_loss_r2",
+      "eps": 0.002,
+      "space": "field",
+      "relative_l2": 0.4507254057238656,
+      "amplitude_ratio": 0.9945740980318969,
+      "cosine": 0.8978839528620944
+    },
+    {
+      "depth": -1,
+      "model": "joint_loss_r2",
+      "eps": 0.002,
+      "space": "trace",
+      "relative_l2": 0.2692065283799033,
+      "amplitude_ratio": 0.9358851101947763,
+      "cosine": 0.9634776560269165
+    },
+    {
+      "depth": -1,
+      "model": "joint_loss_r2",
+      "eps": 0.001,
+      "space": "field",
+      "relative_l2": 0.4507293637216654,
+      "amplitude_ratio": 0.9945822090201358,
+      "cosine": 0.8978829477237281
+    },
+    {
+      "depth": -1,
+      "model": "joint_loss_r2",
+      "eps": 0.001,
+      "space": "trace",
+      "relative_l2": 0.26923489764110276,
+      "amplitude_ratio": 0.9358832924102687,
+      "cosine": 0.9634695487833795
+    },
+    {
+      "depth": 1,
+      "model": "width8_control",
+      "eps": 0.002,
+      "space": "field",
+      "relative_l2": 0.42498025971567094,
+      "amplitude_ratio": 1.055330892855714,
+      "cosine": 0.9158810214661045
+    },
+    {
+      "depth": 1,
+      "model": "width8_control",
+      "eps": 0.002,
+      "space": "trace",
+      "relative_l2": 0.4014648448833736,
+      "amplitude_ratio": 1.1583007432073285,
+      "cosine": 0.941243715340991
+    },
+    {
+      "depth": 1,
+      "model": "width8_control",
+      "eps": 0.001,
+      "space": "field",
+      "relative_l2": 0.42498226035710285,
+      "amplitude_ratio": 1.0553597304473374,
+      "cosine": 0.9158840266772212
+    },
+    {
+      "depth": 1,
+      "model": "width8_control",
+      "eps": 0.001,
+      "space": "trace",
+      "relative_l2": 0.4016421229666956,
+      "amplitude_ratio": 1.1583422905977627,
+      "cosine": 0.9411900458718641
+    },
+    {
+      "depth": 1,
+      "model": "joint_loss_r2",
+      "eps": 0.002,
+      "space": "field",
+      "relative_l2": 0.421434559438989,
+      "amplitude_ratio": 1.0123028315525884,
+      "cosine": 0.9123504732502316
+    },
+    {
+      "depth": 1,
+      "model": "joint_loss_r2",
+      "eps": 0.002,
+      "space": "trace",
+      "relative_l2": 0.2339442509524944,
+      "amplitude_ratio": 1.0111645433241263,
+      "cosine": 0.9729988230468382
+    },
+    {
+      "depth": 1,
+      "model": "joint_loss_r2",
+      "eps": 0.001,
+      "space": "field",
+      "relative_l2": 0.4214131789710356,
+      "amplitude_ratio": 1.0123206997016514,
+      "cosine": 0.9123611382129457
+    },
+    {
+      "depth": 1,
+      "model": "joint_loss_r2",
+      "eps": 0.001,
+      "space": "trace",
+      "relative_l2": 0.2339009412984715,
+      "amplitude_ratio": 1.0111882444978477,
+      "cosine": 0.97300973689993
+    }
+  ],
+  "decision": "screen_failed_or_network_unstable"
+}

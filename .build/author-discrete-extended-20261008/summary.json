@@ -1,0 +1,56 @@
+[
+  {
+    "case": 2,
+    "update": 0,
+    "forward_relative_error": 0.0,
+    "max_direction_relative_error": 2.8140545285325733e-06,
+    "passes": true,
+    "author_gradient_angle": 41.7335770053748,
+    "output": ".build\\author-discrete-case2-full64-update0-20261008"
+  },
+  {
+    "case": 2,
+    "update": 5,
+    "forward_relative_error": 0.0,
+    "max_direction_relative_error": 1.0198564910657948e-05,
+    "passes": true,
+    "author_gradient_angle": 43.58870373125204,
+    "output": ".build\\author-discrete-case2-full64-update5-20261008"
+  },
+  {
+    "case": 3,
+    "update": 0,
+    "forward_relative_error": 0.0,
+    "max_direction_relative_error": 7.822681871039242e-06,
+    "passes": true,
+    "author_gradient_angle": 46.80164295275085,
+    "output": ".build\\author-discrete-case3-full64-update0-20261008"
+  },
+  {
+    "case": 3,
+    "update": 5,
+    "forward_relative_error": 0.0,
+    "max_direction_relative_error": 4.426212561715023e-05,
+    "passes": true,
+    "author_gradient_angle": 53.10033214851709,
+    "output": ".build\\author-discrete-case3-full64-update5-20261008"
+  },
+  {
+    "case": 4,
+    "update": 0,
+    "forward_relative_error": 0.0,
+    "max_direction_relative_error": 1.89506899624674e-06,
+    "passes": true,
+    "author_gradient_angle": 46.000819546234126,
+    "output": ".build\\author-discrete-case4-full64-update0-20261008"
+  },
+  {
+    "case": 4,
+    "update": 5,
+    "forward_relative_error": 0.0,
+    "max_direction_relative_error": 0.0001501402941298401,
+    "passes": true,
+    "author_gradient_angle": 52.31547297572778,
+    "output": ".build\\author-discrete-case4-full64-update5-20261008"
+  }
+]

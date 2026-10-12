@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "metrics": "Exact saved recomputation",
+  "new_physical_and_network": "Both field/trace predictions regenerated bit identical",
+  "all_references": "Exact reconstruction from training labels only",
+  "files": "SHA unchanged",
+  "raw_sha256": "1f0f1dd54042cc812a8f3ef768e1435354d848f0a57e076856432912ef15da7d",
+  "limits": "Same discrete solver; development data, no final test"
+}

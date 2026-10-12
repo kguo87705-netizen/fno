@@ -1,0 +1,137 @@
+{
+  "status": "completed",
+  "protocol": {
+    "status": "fixed_budget_protocol",
+    "purpose": "isolate full-field vs defect-scattering target on same training shot",
+    "group_id": "synthetic_workpiece_000",
+    "shot": 0,
+    "split": "train",
+    "updates": 400,
+    "seed": 2,
+    "Adam_learning_rate": 0.001,
+    "receiver_loss_weight": 1.0,
+    "model": "same ordinary four-layer FNO width4 modes16/8/64 six input channels, no padding",
+    "normalization": {
+      "fit_split": "train",
+      "trace_mean": 0,
+      "wavefield_mean": 0,
+      "trace_rms": 0.25594272720229144,
+      "wavefield_rms": 0.15921596709548344
+    },
+    "target": "FD(gamma)-FD(1)",
+    "field_prediction": "fixed FD(1) snapshots plus learned residual",
+    "full_trace_prediction": "fixed full FD(1) traces plus cubic reconstructed learned residual",
+    "baseline_control": ".build\\basic-fno-receiver-loss-20261008\\final.pt",
+    "baseline_control_sha256": "99e0247518bf507c7620524963bb78668ce09cc8bec15f98df034d576eacd54f",
+    "selection": "fixed final update, no selection",
+    "test_access": false,
+    "data_manifest_sha256": "9972c2aec68c347ba73e1677c182b25542ebc74bb3a5cdcee9b7243548991e42",
+    "metrics": [
+      "scatter field relative L2",
+      "scatter full-trace relative L2",
+      "full field and receiver relative L2"
+    ],
+    "caution": "single-sample fit cannot prove material sensitivity or generalization; only then proceed to train/validation multiworkpiece comparison",
+    "evaluation_updates": [
+      0,
+      50,
+      100,
+      200,
+      400
+    ],
+    "plan_sha256": "a2caadde642801f00fd35b97f32898e2d5ab5b03972dd68a3ebed4198828d9e9",
+    "script_sha256": "b342d0b6416367b9fcc95c149055abd36a08186c21785950e455f5742d91660a",
+    "homogeneous_sha256": "9d382c08f6dbd90cedb09c2971aaf66c96d60ca69fecbfea41d29822955d88b6",
+    "initial_weights": "same seed2 BasicFNO as direct target control; raw initial metrics checked",
+    "data_access": [
+      "train"
+    ],
+    "test_not_loaded": true,
+    "normalization_changed": false
+  },
+  "initial_raw_predictions_match_control": true,
+  "history": [
+    {
+      "update": 0,
+      "scatter_field_relative_l2": 1.0042755603790283,
+      "scatter_trace_relative_l2": 1.0019097328186035,
+      "full_field_relative_l2": 0.25356584787368774,
+      "full_trace_relative_l2": 0.24518142640590668,
+      "homogeneous_field_relative_l2": 0.25248631834983826,
+      "homogeneous_trace_relative_l2": 0.24471408128738403,
+      "full_trace_norm_ratio": 0.9962287545204163,
+      "full_trace_zero_lag_correlation": 0.9698363542556763,
+      "scatter_field_normalized_mse": 0.06415320187807083,
+      "receiver_normalized_mse": 0.05848642438650131,
+      "total_training_loss": 0.12263962626457214
+    },
+    {
+      "update": 50,
+      "scatter_field_relative_l2": 0.9999973773956299,
+      "scatter_trace_relative_l2": 0.9999424815177917,
+      "full_field_relative_l2": 0.2524856626987457,
+      "full_trace_relative_l2": 0.24469999969005585,
+      "homogeneous_field_relative_l2": 0.25248631834983826,
+      "homogeneous_trace_relative_l2": 0.24471408128738403,
+      "full_trace_norm_ratio": 0.9956808090209961,
+      "full_trace_zero_lag_correlation": 0.9699404239654541,
+      "scatter_field_normalized_mse": 0.06360778212547302,
+      "receiver_normalized_mse": 0.05825730413198471,
+      "total_training_loss": 0.12186508625745773
+    },
+    {
+      "update": 100,
+      "scatter_field_relative_l2": 1.0000026226043701,
+      "scatter_trace_relative_l2": 0.9991776943206787,
+      "full_field_relative_l2": 0.2524869740009308,
+      "full_trace_relative_l2": 0.24451285600662231,
+      "homogeneous_field_relative_l2": 0.25248631834983826,
+      "homogeneous_trace_relative_l2": 0.24471408128738403,
+      "full_trace_norm_ratio": 0.995654284954071,
+      "full_trace_zero_lag_correlation": 0.9699857831001282,
+      "scatter_field_normalized_mse": 0.06360844522714615,
+      "receiver_normalized_mse": 0.05816818028688431,
+      "total_training_loss": 0.12177662551403046
+    },
+    {
+      "update": 200,
+      "scatter_field_relative_l2": 1.0010592937469482,
+      "scatter_trace_relative_l2": 0.7357711791992188,
+      "full_field_relative_l2": 0.25275376439094543,
+      "full_trace_relative_l2": 0.18005356192588806,
+      "homogeneous_field_relative_l2": 0.25248631834983826,
+      "homogeneous_trace_relative_l2": 0.24471408128738403,
+      "full_trace_norm_ratio": 0.9965088367462158,
+      "full_trace_zero_lag_correlation": 0.9837396144866943,
+      "scatter_field_normalized_mse": 0.06374294310808182,
+      "receiver_normalized_mse": 0.03155280649662018,
+      "total_training_loss": 0.095295749604702
+    },
+    {
+      "update": 400,
+      "scatter_field_relative_l2": 0.5811223387718201,
+      "scatter_trace_relative_l2": 0.08079645037651062,
+      "full_field_relative_l2": 0.14672544598579407,
+      "full_trace_relative_l2": 0.019772028550505638,
+      "homogeneous_field_relative_l2": 0.25248631834983826,
+      "homogeneous_trace_relative_l2": 0.24471408128738403,
+      "full_trace_norm_ratio": 0.9990580677986145,
+      "full_trace_zero_lag_correlation": 0.9998047947883606,
+      "scatter_field_normalized_mse": 0.021480664610862732,
+      "receiver_normalized_mse": 0.00039424316491931677,
+      "total_training_loss": 0.021874908357858658
+    }
+  ],
+  "direct_control_final": {
+    "update": 400,
+    "field_relative_l2": 0.38618841767311096,
+    "trace_relative_l2": 0.06920848041772842,
+    "trace_norm_ratio": 0.9649120569229126,
+    "trace_zero_lag_correlation": 0.998155951499939,
+    "normalized_field_mse": 0.14881110191345215,
+    "receiver_normalized_mse": 0.004762658383697271,
+    "total_training_loss": 0.15357376635074615
+  },
+  "elapsed_seconds": 100.59912559999793,
+  "scope": "One fitted training shot. No material-response, physical-gradient or held-out evaluation."
+}

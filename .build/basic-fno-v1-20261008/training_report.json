@@ -1,0 +1,67 @@
+{
+  "status": "fixed_budget_training_completed",
+  "epochs": 6,
+  "updates": 288,
+  "train_groups": 12,
+  "validation_groups": 6,
+  "checkpoint_selection": "lowest validation wavefield normalized MSE; test unseen by training/selection",
+  "config": {
+    "width": 4,
+    "modes": [
+      16,
+      8,
+      64
+    ],
+    "layers": 4,
+    "input_channels": 6,
+    "output_channels": 1,
+    "padding": 0
+  },
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "batch_size": 1,
+  "seed": 2,
+  "precision": "float32 and complex64",
+  "data": ".build\\operator-pilot-v3-20261008",
+  "history": [
+    {
+      "epoch": 1,
+      "training_normalized_mse": 0.9977317353089651,
+      "validation_normalized_mse": 0.9973935137192408,
+      "elapsed_seconds": 21.850654900001246
+    },
+    {
+      "epoch": 2,
+      "training_normalized_mse": 0.997667521238327,
+      "validation_normalized_mse": 0.9973546216885248,
+      "elapsed_seconds": 42.74598310000147
+    },
+    {
+      "epoch": 3,
+      "training_normalized_mse": 0.9975054922203223,
+      "validation_normalized_mse": 0.9968354801336924,
+      "elapsed_seconds": 63.30828810000094
+    },
+    {
+      "epoch": 4,
+      "training_normalized_mse": 0.9936944295962652,
+      "validation_normalized_mse": 0.9877022181948026,
+      "elapsed_seconds": 84.42785079999885
+    },
+    {
+      "epoch": 5,
+      "training_normalized_mse": 0.9759192503988743,
+      "validation_normalized_mse": 0.9592728416124979,
+      "elapsed_seconds": 105.4912919999988
+    },
+    {
+      "epoch": 6,
+      "training_normalized_mse": 0.9340302546819051,
+      "validation_normalized_mse": 0.9029993042349815,
+      "elapsed_seconds": 127.51789200000349
+    }
+  ],
+  "parameter_count_real_equivalent": 4194461,
+  "elapsed_seconds": 127.54644640000333,
+  "torch_version": "2.11.0+cu128"
+}

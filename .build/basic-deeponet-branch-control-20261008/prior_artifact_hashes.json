@@ -1,0 +1,18 @@
+{
+  ".build\\basic-deeponet-budget-control-20261008\\delivery_verification.json": "07909d88d231e3eb36b041381daa50e792ebde7d67b7540f582eda3c62f61e61",
+  ".build\\basic-deeponet-budget-control-20261008\\next_branch_freeze_protocol.json": "82e391182978c218f473d921d1e2d90fff41b6264acba0e8104721f864f151d9",
+  ".build\\basic-deeponet-budget-control-20261008\\summary.json": "030c1cc8278a4440100a652ad56480c99fad645da61cb7c48eb9cf1b069e73e5",
+  ".build\\basic-deeponet-budget-control-20261008\\time_features_budget_control.png": "423faca78fc90a00ab4f19a8dee6c91fd8c7aca8d1ae7a6649f8f9c8684a7ecc",
+  ".build\\basic-deeponet-budget-control-20261008\\sincos\\artifact_verification.json": "e4ae086670ed3e94b1dcc86df97995ca068f0fad761ec10f0c9d3a52622ebed3",
+  ".build\\basic-deeponet-budget-control-20261008\\sincos\\comparison.json": "b60de8ef3aa43893ba5fba56325d1a7a43b3f9592252550529b1905fd81c0f77",
+  ".build\\basic-deeponet-budget-control-20261008\\sincos\\final.pt": "a1974eda269e2a505f26f2359d13fbc91d33c7363f21d0d8f1b0efdec03e7d6a",
+  ".build\\basic-deeponet-budget-control-20261008\\sincos\\optimization_audit.json": "745d0ce640eaaef587db3accf5ec4c492d519e684e3c9a1dfc6c5621cc708566",
+  ".build\\basic-deeponet-budget-control-20261008\\sincos\\protocol.json": "bcadc0550ddaffd8411acb0f1ea1266890daa72d987a2e3c2a5b5848edbb7689",
+  ".build\\basic-deeponet-budget-control-20261008\\sincos\\training_example.pt": "551a0c824cb604c6f7df6761279df1259cedf7f140b40e9ce65b52a1178d0c02",
+  ".build\\basic-deeponet-budget-control-20261008\\zero\\artifact_verification.json": "e4ae086670ed3e94b1dcc86df97995ca068f0fad761ec10f0c9d3a52622ebed3",
+  ".build\\basic-deeponet-budget-control-20261008\\zero\\comparison.json": "d5bc6ff72af637964fb10d2f2ebe531ee48f01c050c98549ae63628ac506e92a",
+  ".build\\basic-deeponet-budget-control-20261008\\zero\\final.pt": "80a782f0e83d5a7c1e2f8482bc30606513b54712d8d2c88ac1985ddf8ba42b20",
+  ".build\\basic-deeponet-budget-control-20261008\\zero\\optimization_audit.json": "f13ae06d0ef224cc75df13722cfa86e5251fdda26db4e9f6f18d9684abf342b4",
+  ".build\\basic-deeponet-budget-control-20261008\\zero\\protocol.json": "07ddd6d67f49f1f7152a1410d738047fb832ab241cb8ad8d0821ba1f7874ffc8",
+  ".build\\basic-deeponet-budget-control-20261008\\zero\\training_example.pt": "e7536e6061f87d27dc00a2799ff04c1937f4acbd13f8a0323ecdd49e6445fa98"
+}

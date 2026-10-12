@@ -1,0 +1,14 @@
+{
+  "evaluation_only_after_fixed_epoch": 20,
+  "data_access": [
+    "validation"
+  ],
+  "counterfactual": "gamma=1, same source and array",
+  "metrics": [
+    "receiver secant relative L2",
+    "response norm ratio",
+    "response cosine"
+  ],
+  "no_selection_or_training_based_on_audit": true,
+  "local_gradient_not_claimed": true
+}

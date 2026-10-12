@@ -1,0 +1,22 @@
+# Large experiment tensors and model checkpoints: retain locally, transfer on demand.
+*.pt
+
+# Platform-specific environments and generated caches.
+.venv/
+venv/
+author-baseline-env/
+__pycache__/
+*.py[cod]
+torchinductor_*/
+.pytest_cache/
+.mypy_cache/
+
+# Temporary files and duplicate vault archive.
+*.tmp
+/PINO超声成像知识库.zip
+.DS_Store
+Thumbs.db
+
+# Per-device Obsidian window state; retain shared settings and plugins.
+**/.obsidian/workspace*.json
+**/.obsidian/cache/

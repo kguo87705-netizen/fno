@@ -1,0 +1,93 @@
+{
+  "description": "Case1 at homogeneous initial material; direction is the normalized author adjoint gradient after source/receiver masking. Original grid/time and float32 retained.",
+  "initial_cost": 3.3375873679380996e-12,
+  "author_adjoint_projection": 4.588460687793283e-13,
+  "residual_shape": [
+    1,
+    4,
+    24,
+    2000
+  ],
+  "published_trapezoid_axis": 2,
+  "actual_time_axis": 3,
+  "initial_published_axis_cost": 3.3375873679380996e-12,
+  "initial_last_axis_time_cost": 3.677988903022511e-12,
+  "checks": {
+    "0.1": {
+      "finite_difference": 2.7826699278143963e-13,
+      "fd_over_adjoint": 0.6064495518545368,
+      "relative_error": 0.3935504481454632,
+      "cost_minus_direction": 3.3100388749374154e-12,
+      "cost_plus_direction": 3.3656922734937034e-12,
+      "time_axis_finite_difference": 3.26706977443747e-13,
+      "time_axis_fd_over_adjoint": 0.7120186913944541,
+      "time_axis_relative_error": 0.287981308605546
+    },
+    "0.05": {
+      "finite_difference": 2.7824964554667986e-13,
+      "fd_over_adjoint": 0.6064117456359809,
+      "relative_error": 0.39358825436401906,
+      "cost_minus_direction": 3.323744491440239e-12,
+      "cost_plus_direction": 3.351569455994907e-12,
+      "time_axis_finite_difference": 3.2668746180464225e-13,
+      "time_axis_fd_over_adjoint": 0.7119761593985787,
+      "time_axis_relative_error": 0.28802384060142133
+    },
+    "0.02": {
+      "finite_difference": 2.7824964554667986e-13,
+      "fd_over_adjoint": 0.6064117456359809,
+      "relative_error": 0.39358825436401906,
+      "cost_minus_direction": 3.33203365072976e-12,
+      "cost_plus_direction": 3.343163636551627e-12,
+      "time_axis_finite_difference": 3.266917986133322e-13,
+      "time_axis_fd_over_adjoint": 0.7119856109532177,
+      "time_axis_relative_error": 0.28801438904678234
+    }
+  },
+  "additional_directions": {
+    "lower_left_bump": {
+      "author_adjoint_projection": 1.070741463700918e-14,
+      "checks": {
+        "0.05": {
+          "finite_difference": 1.010042743887496e-14,
+          "fd_over_adjoint": 0.9433115071460644,
+          "relative_error": 0.05668849285393563,
+          "time_axis_finite_difference": 1.063819171642777e-14,
+          "time_axis_fd_over_adjoint": 0.9935350481018874,
+          "time_axis_relative_error": 0.006464951898112535
+        },
+        "0.02": {
+          "finite_difference": 1.0104764247564901e-14,
+          "fd_over_adjoint": 0.9437165357021597,
+          "relative_error": 0.05628346429784028,
+          "time_axis_finite_difference": 1.0636023312082798e-14,
+          "time_axis_fd_over_adjoint": 0.9933325338238398,
+          "time_axis_relative_error": 0.006667466176160209
+        }
+      }
+    },
+    "upper_right_bump": {
+      "author_adjoint_projection": -3.705632771933056e-15,
+      "checks": {
+        "0.05": {
+          "finite_difference": -3.452099717193846e-15,
+          "fd_over_adjoint": 0.9315817107783853,
+          "relative_error": 0.06841828922161479,
+          "time_axis_finite_difference": -3.5691935518222806e-15,
+          "time_axis_fd_over_adjoint": 0.9631805879027777,
+          "time_axis_relative_error": 0.03681941209722232
+        },
+        "0.02": {
+          "finite_difference": -3.4531839193663316e-15,
+          "fd_over_adjoint": 0.9318742929739814,
+          "relative_error": 0.06812570702601856,
+          "time_axis_finite_difference": -3.5670251474773096e-15,
+          "time_axis_fd_over_adjoint": 0.9625954235115852,
+          "time_axis_relative_error": 0.037404576488414776
+        }
+      }
+    }
+  },
+  "passes_2_percent_discrete_direction_check": false,
+  "minus_direction_lowers_cost": true
+}

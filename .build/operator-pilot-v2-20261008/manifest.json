@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "scope": "Synthetic I/O pilot on the released scalar density-scaling solver. Four author cases excluded; all shots and future versions of a workpiece must share its split. No FNO trained.",
+  "seed": 20261008,
+  "grid_physical": [
+    256,
+    128
+  ],
+  "grid_padded": [
+    258,
+    130
+  ],
+  "steps": 2000,
+  "dt_seconds": 3e-08,
+  "snapshot_stride": 4,
+  "source_file_sha256": "67d94afee4a19becde3f081424510f2a2433f7dd27d301abdf1954fe6f168c9c",
+  "solver_sha256": "ffa51af0896fa2ddc0ef8e705d4f88f3dc9cc61df96b780eef1ad25cac1fde9f",
+  "material_quantity": "dimensionless density scaling gamma",
+  "wave_quantity": "author scalar wave variable; absolute experimental calibration not established",
+  "records": [
+    {
+      "group_id": "synthetic_workpiece_000",
+      "split": "train",
+      "file": "synthetic_workpiece_000.pt",
+      "defects": [
+        {
+          "x_m": 0.031281823002192975,
+          "y_m": 0.03629481593078667,
+          "axis_x_m": 0.006965594462249671,
+          "axis_y_m": 0.0031898383767438943,
+          "gamma": 0.6048060185139736
+        }
+      ],
+      "gamma_sha256": "07c994703be4748d703a837fac4b0d6622e90be541c8344f48eaf0460cb38d74",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014137710572623053
+    },
+    {
+      "group_id": "synthetic_workpiece_001",
+      "split": "train",
+      "file": "synthetic_workpiece_001.pt",
+      "defects": [
+        {
+          "x_m": 0.0260744125784116,
+          "y_m": 0.02108121442740624,
+          "axis_x_m": 0.003719037570039438,
+          "axis_y_m": 0.0048115914301930796,
+          "gamma": 0.6155033340504669
+        },
+        {
+          "x_m": 0.07505316832838878,
+          "y_m": 0.025548566181686078,
+          "axis_x_m": 0.0045221858394677425,
+          "axis_y_m": 0.0022808020432359983,
+          "gamma": 0.4240485113544026
+        }
+      ],
+      "gamma_sha256": "5b43ad62177ce69b737ee59b6f0d2f8228e32ecd5d787c9a8df3ca110c7f9b7a",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014123401346135838
+    },
+    {
+      "group_id": "synthetic_workpiece_002",
+      "split": "train",
+      "file": "synthetic_workpiece_002.pt",
+      "defects": [
+        {
+          "x_m": 0.03726764044674649,
+          "y_m": 0.024938078347947132,
+          "axis_x_m": 0.003244244882230049,
+          "axis_y_m": 0.003997289170870482,
+          "gamma": 0.5383940261775402
+        }
+      ],
+      "gamma_sha256": "ca96299a295b5be40aaf8d09aade7ce9c3d9a9877dff3b4c1330c608ea2af3bd",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014135844338872912
+    },
+    {
+      "group_id": "synthetic_workpiece_003",
+      "split": "train",
+      "file": "synthetic_workpiece_003.pt",
+      "defects": [
+        {
+          "x_m": 0.032656969426652055,
+          "y_m": 0.03342575748598583,
+          "axis_x_m": 0.003413176517265459,
+          "axis_y_m": 0.002569346010465939,
+          "gamma": 0.5186915262615229
+        },
+        {
+          "x_m": 0.05809481977586863,
+          "y_m": 0.01825277432092385,
+          "axis_x_m": 0.006098085882707389,
+          "axis_y_m": 0.004977279628406153,
+          "gamma": 0.5817727937732982
+        }
+      ],
+      "gamma_sha256": "acee1fca8ff11807ca075506f3ed424c619a395d090824319b117a6b408e5806",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014115489483412453
+    },
+    {
+      "group_id": "synthetic_workpiece_004",
+      "split": "validation",
+      "file": "synthetic_workpiece_004.pt",
+      "defects": [
+        {
+          "x_m": 0.057850651047245634,
+          "y_m": 0.017208484873067396,
+          "axis_x_m": 0.005412315607950712,
+          "axis_y_m": 0.002459184683660811,
+          "gamma": 0.6092511327002652
+        }
+      ],
+      "gamma_sha256": "e895c9c7e33cd61871ba394582de9346760c561d490e3e907f8df15c8d09f556",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014122648601305831
+    },
+    {
+      "group_id": "synthetic_workpiece_005",
+      "split": "validation",
+      "file": "synthetic_workpiece_005.pt",
+      "defects": [
+        {
+          "x_m": 0.041855572168721336,
+          "y_m": 0.031806797440618366,
+          "axis_x_m": 0.005587703397568754,
+          "axis_y_m": 0.004221603649630704,
+          "gamma": 0.5081498879656347
+        },
+        {
+          "x_m": 0.06994575297867539,
+          "y_m": 0.02627133183364637,
+          "axis_x_m": 0.0037877630452018696,
+          "axis_y_m": 0.0037182433573615154,
+          "gamma": 0.53442778139567
+        }
+      ],
+      "gamma_sha256": "b24fc70e3266e7bdb349edc2ec9d0c53456f138de488aa1f52b13b337c7d008d",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014112179573665583
+    },
+    {
+      "group_id": "synthetic_workpiece_006",
+      "split": "test",
+      "file": "synthetic_workpiece_006.pt",
+      "defects": [
+        {
+          "x_m": 0.06240601248972251,
+          "y_m": 0.0184252594261418,
+          "axis_x_m": 0.005503119693741223,
+          "axis_y_m": 0.00498880822975575,
+          "gamma": 0.4178900578497527
+        }
+      ],
+      "gamma_sha256": "128194cfcddfc0d120c2144914bd12311f655814b423709725521146cf388479",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014100857986204458
+    },
+    {
+      "group_id": "synthetic_workpiece_007",
+      "split": "test",
+      "file": "synthetic_workpiece_007.pt",
+      "defects": [
+        {
+          "x_m": 0.03643620480627559,
+          "y_m": 0.015365070948208161,
+          "axis_x_m": 0.0030866041746073617,
+          "axis_y_m": 0.0032903244566967007,
+          "gamma": 0.39778800551437404
+        },
+        {
+          "x_m": 0.0723007845913231,
+          "y_m": 0.0230705030094802,
+          "axis_x_m": 0.003313541576107126,
+          "axis_y_m": 0.0030344653307753985,
+          "gamma": 0.3158622041321884
+        }
+      ],
+      "gamma_sha256": "72d7a582f12b61044c541b12b6f3a376b92854e2b40ff7b43ab231b42339d16c",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014127824739970285
+    }
+  ],
+  "normalization": {
+    "fit_split": "train",
+    "trace_mean": 0,
+    "wavefield_mean": 0,
+    "trace_rms": 0.25594646033832263,
+    "wavefield_rms": 0.1590881646290914
+  },
+  "compression_warning": "Stored sparse snapshots are for interface testing. Full 2000-step traces retained; time compression must pass waveform, phase and gradient checks before FWI use."
+}

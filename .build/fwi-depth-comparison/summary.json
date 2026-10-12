@@ -1,0 +1,89 @@
+{
+  "shallow": {
+    "indexed": {
+      "material_mae": 0.2228531539440155,
+      "dice_gamma_below_0p65": 0.080924853682518,
+      "inside_mean": 0.5677664279937744,
+      "outside_mean": 0.7776758670806885,
+      "predicted_defect_cells": 648,
+      "true_defect_cells": 44,
+      "final_waveform_loss": 0.00032844166279955543
+    },
+    "1p5": {
+      "material_mae": 0.13103878498077393,
+      "dice_gamma_below_0p65": 0.19186046719551086,
+      "inside_mean": 0.5109161734580994,
+      "outside_mean": 0.87022465467453,
+      "predicted_defect_cells": 300,
+      "true_defect_cells": 44,
+      "final_waveform_loss": 8.799442632226655e-05
+    },
+    "3": {
+      "material_mae": 0.05911917984485626,
+      "dice_gamma_below_0p65": 0.632478654384613,
+      "inside_mean": 0.44826602935791016,
+      "outside_mean": 0.9423422813415527,
+      "predicted_defect_cells": 73,
+      "true_defect_cells": 44,
+      "final_waveform_loss": 7.955139130723194e-06
+    }
+  },
+  "middle": {
+    "indexed": {
+      "material_mae": 0.22010426223278046,
+      "dice_gamma_below_0p65": 0.11304347962141037,
+      "inside_mean": 0.3897066116333008,
+      "outside_mean": 0.7773436903953552,
+      "predicted_defect_cells": 646,
+      "true_defect_cells": 44,
+      "final_waveform_loss": 0.0003601197143413516
+    },
+    "1p5": {
+      "material_mae": 0.13745799660682678,
+      "dice_gamma_below_0p65": 0.18701298534870148,
+      "inside_mean": 0.46761634945869446,
+      "outside_mean": 0.8629604578018188,
+      "predicted_defect_cells": 341,
+      "true_defect_cells": 44,
+      "final_waveform_loss": 9.585631230545526e-05
+    },
+    "3": {
+      "material_mae": 0.06548532098531723,
+      "dice_gamma_below_0p65": 0.5806451439857483,
+      "inside_mean": 0.46261921525001526,
+      "outside_mean": 0.9359110593795776,
+      "predicted_defect_cells": 80,
+      "true_defect_cells": 44,
+      "final_waveform_loss": 7.680541340842859e-06
+    }
+  },
+  "deep": {
+    "indexed": {
+      "material_mae": 0.2210918515920639,
+      "dice_gamma_below_0p65": 0.0941176488995552,
+      "inside_mean": 0.5073325037956238,
+      "outside_mean": 0.7785513997077942,
+      "predicted_defect_cells": 636,
+      "true_defect_cells": 44,
+      "final_waveform_loss": 0.0003585878375254956
+    },
+    "1p5": {
+      "material_mae": 0.1494656652212143,
+      "dice_gamma_below_0p65": 0.1715686321258545,
+      "inside_mean": 0.5544210076332092,
+      "outside_mean": 0.8519088625907898,
+      "predicted_defect_cells": 364,
+      "true_defect_cells": 44,
+      "final_waveform_loss": 9.628401908976891e-05
+    },
+    "3": {
+      "material_mae": 0.07706239819526672,
+      "dice_gamma_below_0p65": 0.4528301954269409,
+      "inside_mean": 0.5616946816444397,
+      "outside_mean": 0.9258935451507568,
+      "predicted_defect_cells": 115,
+      "true_defect_cells": 44,
+      "final_waveform_loss": 6.92808971636514e-06
+    }
+  }
+}

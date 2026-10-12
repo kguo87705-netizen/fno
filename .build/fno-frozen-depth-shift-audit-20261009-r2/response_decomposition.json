@@ -1,0 +1,23 @@
+{
+  "status": "completed",
+  "new_forward_calls": 0,
+  "new_training_calls": 0,
+  "full_field_finite_geometry_response": {
+    "relative_l2": 1.1151230340850922,
+    "norm_ratio": 0.5046420483421334,
+    "cosine": 0.011061519589661348
+  },
+  "receiver_snapshot_finite_geometry_response": {
+    "relative_l2": 1.222780374313874,
+    "norm_ratio": 0.5933512674051707,
+    "cosine": -0.1206082510801431
+  },
+  "physical_snapshot_reconstruction_vs_full_time_physical_response": {
+    "relative_l2": 0.0007367563267375722,
+    "norm_ratio": 0.9996039830226444,
+    "cosine": 0.9999998069333126
+  },
+  "interpretation": "Evaluate response before temporal reconstruction and reconstruction on physical snapshots. Background cancels between paired states; a geometry-independent additive correction cannot alter this response.",
+  "raw_sha256": "246c5fbd657fb8b03337832ee3081f2db6011798fa925c3763d9f0c9e032b061",
+  "script_sha256": "ab8e9f287cef821cc150281438f60239e4ccdbcb9dcd3227abdcd83ea50a115a"
+}

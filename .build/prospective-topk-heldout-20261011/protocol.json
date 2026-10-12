@@ -1,0 +1,17 @@
+{
+  "status": "frozen_before_run",
+  "target": {
+    "shift": 4,
+    "a": 0.56
+  },
+  "candidate_grid": "shifts1..5 x materials .44,.48,.52,.56",
+  "proxy_keep": 3,
+  "physical_verify": 3,
+  "baseline": "nominal secant top-3",
+  "budget": {
+    "network_forwards": 20,
+    "physical_calls": 12,
+    "training_updates": 0
+  },
+  "scope": "prospective heldout support/material batch; no full-grid physical benchmark; not final test"
+}

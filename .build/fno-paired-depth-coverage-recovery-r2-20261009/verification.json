@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "primary": "Both fixed300;Adam300,slots100,600 trajectory losses",
+  "initial": "Original parameters and all initial prediction fields/traces equal",
+  "final": "All14 fields SHA and traces bit-identical reload;all metrics exact",
+  "storage": "D drive CPU temporary writes checked before commit;prior artifacts retained",
+  "actual_updates_across_attempts": 750,
+  "inputs": "SHA unchanged",
+  "raw_sha256": "f6abe49d34a28743aa373ef44aa263f13ee13c461fd31326f4e32f1d51fdb6c9",
+  "scope": "Used development states;no material derivative/recovery/final test"
+}

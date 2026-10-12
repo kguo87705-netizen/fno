@@ -1,0 +1,4737 @@
+{
+  "status": "completed",
+  "decision": "coverage_improves_but_fails_screens",
+  "coverage_dominates_repeat_all_metrics": true,
+  "causal_screen_passed": false,
+  "arms": {
+    "nominal_repeat": {
+      "initial_state_hash": "15f88d01353645b010e2ad0a6a6ad6a93eb448a404be22450cd9d754c409d73c",
+      "exposures": [
+        100,
+        100,
+        100
+      ],
+      "losses": [
+        {
+          "update": 1,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.005020115990191698,
+          "receiver_loss": 0.00027182811754755676
+        },
+        {
+          "update": 2,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0063430569134652615,
+          "receiver_loss": 0.009940049611032009
+        },
+        {
+          "update": 3,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.00508776493370533,
+          "receiver_loss": 0.0009714086772873998
+        },
+        {
+          "update": 4,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.005284587386995554,
+          "receiver_loss": 0.0035058942157775164
+        },
+        {
+          "update": 5,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0054583181627094746,
+          "receiver_loss": 0.005258352495729923
+        },
+        {
+          "update": 6,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0050701540894806385,
+          "receiver_loss": 0.0030726254917681217
+        },
+        {
+          "update": 7,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.004554537124931812,
+          "receiver_loss": 0.0011190369259566069
+        },
+        {
+          "update": 8,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.004349982365965843,
+          "receiver_loss": 0.0013753903331235051
+        },
+        {
+          "update": 9,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.004410929046571255,
+          "receiver_loss": 0.002420372562482953
+        },
+        {
+          "update": 10,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.004475683439522982,
+          "receiver_loss": 0.0025288742035627365
+        },
+        {
+          "update": 11,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.004451144486665726,
+          "receiver_loss": 0.0017244863556697965
+        },
+        {
+          "update": 12,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.004413432441651821,
+          "receiver_loss": 0.0009400827111676335
+        },
+        {
+          "update": 13,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.004435047507286072,
+          "receiver_loss": 0.0007397201843559742
+        },
+        {
+          "update": 14,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.004472207278013229,
+          "receiver_loss": 0.0009174729930236936
+        },
+        {
+          "update": 15,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.004435449838638306,
+          "receiver_loss": 0.0010142354294657707
+        },
+        {
+          "update": 16,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.004317122045904398,
+          "receiver_loss": 0.0009196285391226411
+        },
+        {
+          "update": 17,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.004184546414762735,
+          "receiver_loss": 0.0008120795828290284
+        },
+        {
+          "update": 18,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.004095418378710747,
+          "receiver_loss": 0.0007949597202241421
+        },
+        {
+          "update": 19,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.004061385523527861,
+          "receiver_loss": 0.0007961526862345636
+        },
+        {
+          "update": 20,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.00406929524615407,
+          "receiver_loss": 0.0007137792999856174
+        },
+        {
+          "update": 21,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.004102642182260752,
+          "receiver_loss": 0.0005567015614360571
+        },
+        {
+          "update": 22,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0041429828852415085,
+          "receiver_loss": 0.0004327375499997288
+        },
+        {
+          "update": 23,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.004169273655861616,
+          "receiver_loss": 0.0004107162239961326
+        },
+        {
+          "update": 24,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.004164802376180887,
+          "receiver_loss": 0.00043668324360623956
+        },
+        {
+          "update": 25,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.004127998370677233,
+          "receiver_loss": 0.00041332925320602953
+        },
+        {
+          "update": 26,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.004079011268913746,
+          "receiver_loss": 0.0003315943176858127
+        },
+        {
+          "update": 27,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.004044475499540567,
+          "receiver_loss": 0.0002766127581708133
+        },
+        {
+          "update": 28,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.004028426483273506,
+          "receiver_loss": 0.000305209745420143
+        },
+        {
+          "update": 29,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0040107653476297855,
+          "receiver_loss": 0.00036739103961735964
+        },
+        {
+          "update": 30,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003980984445661306,
+          "receiver_loss": 0.00037738680839538574
+        },
+        {
+          "update": 31,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003956597764045,
+          "receiver_loss": 0.0003216043405700475
+        },
+        {
+          "update": 32,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003959800116717815,
+          "receiver_loss": 0.0002552078221924603
+        },
+        {
+          "update": 33,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003988882061094046,
+          "receiver_loss": 0.00022074862499721348
+        },
+        {
+          "update": 34,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.004019230138510466,
+          "receiver_loss": 0.00020859049982391298
+        },
+        {
+          "update": 35,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.004025859292596579,
+          "receiver_loss": 0.0001904437958728522
+        },
+        {
+          "update": 36,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.004003813490271568,
+          "receiver_loss": 0.00016770092770457268
+        },
+        {
+          "update": 37,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.00396960973739624,
+          "receiver_loss": 0.00016865880752447993
+        },
+        {
+          "update": 38,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003941931761801243,
+          "receiver_loss": 0.00019863498164340854
+        },
+        {
+          "update": 39,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003925544209778309,
+          "receiver_loss": 0.00022174349578563124
+        },
+        {
+          "update": 40,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003917833790183067,
+          "receiver_loss": 0.00020773487631231546
+        },
+        {
+          "update": 41,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0039197406731545925,
+          "receiver_loss": 0.0001718387647997588
+        },
+        {
+          "update": 42,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003930565435439348,
+          "receiver_loss": 0.00014905032003298402
+        },
+        {
+          "update": 43,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003940674941986799,
+          "receiver_loss": 0.00014746400120202452
+        },
+        {
+          "update": 44,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003939363639801741,
+          "receiver_loss": 0.00014819600619375706
+        },
+        {
+          "update": 45,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003926410339772701,
+          "receiver_loss": 0.00014016694331075996
+        },
+        {
+          "update": 46,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003911076113581657,
+          "receiver_loss": 0.0001330250088358298
+        },
+        {
+          "update": 47,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0039021256379783154,
+          "receiver_loss": 0.00013681399286724627
+        },
+        {
+          "update": 48,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0038999675307422876,
+          "receiver_loss": 0.00014395602920558304
+        },
+        {
+          "update": 49,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003898334689438343,
+          "receiver_loss": 0.00014056087820790708
+        },
+        {
+          "update": 50,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0038936021737754345,
+          "receiver_loss": 0.00012884970055893064
+        },
+        {
+          "update": 51,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003888548817485571,
+          "receiver_loss": 0.00012247207632753998
+        },
+        {
+          "update": 52,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0038862363435328007,
+          "receiver_loss": 0.0001234793453477323
+        },
+        {
+          "update": 53,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0038853322621434927,
+          "receiver_loss": 0.00012214083108119667
+        },
+        {
+          "update": 54,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0038823101203888655,
+          "receiver_loss": 0.00011633410031208768
+        },
+        {
+          "update": 55,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003875184338539839,
+          "receiver_loss": 0.00011455648927949369
+        },
+        {
+          "update": 56,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0038653064984828234,
+          "receiver_loss": 0.00012036075349897146
+        },
+        {
+          "update": 57,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003856655675917864,
+          "receiver_loss": 0.0001258485863218084
+        },
+        {
+          "update": 58,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0038529338780790567,
+          "receiver_loss": 0.00012280997179914266
+        },
+        {
+          "update": 59,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0038549641612917185,
+          "receiver_loss": 0.00011316716700093821
+        },
+        {
+          "update": 60,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0038596622180193663,
+          "receiver_loss": 0.0001046164907165803
+        },
+        {
+          "update": 61,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003861097153276205,
+          "receiver_loss": 0.00010068578558275476
+        },
+        {
+          "update": 62,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003855170449241996,
+          "receiver_loss": 0.00010069517884403467
+        },
+        {
+          "update": 63,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0038438732735812664,
+          "receiver_loss": 0.00010473972361069173
+        },
+        {
+          "update": 64,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.00383301661349833,
+          "receiver_loss": 0.00011141982395201921
+        },
+        {
+          "update": 65,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0038267194759100676,
+          "receiver_loss": 0.00011517399252625182
+        },
+        {
+          "update": 66,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0038251003716140985,
+          "receiver_loss": 0.00011216662096558139
+        },
+        {
+          "update": 67,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003825495485216379,
+          "receiver_loss": 0.00010561884118942544
+        },
+        {
+          "update": 68,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0038250021170824766,
+          "receiver_loss": 0.00010145466512767598
+        },
+        {
+          "update": 69,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0038224312011152506,
+          "receiver_loss": 0.00010091664444189519
+        },
+        {
+          "update": 70,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003818331053480506,
+          "receiver_loss": 0.00010087964619742706
+        },
+        {
+          "update": 71,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0038137866649776697,
+          "receiver_loss": 0.00010004777868743986
+        },
+        {
+          "update": 72,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003809260902926326,
+          "receiver_loss": 0.00010019617184298113
+        },
+        {
+          "update": 73,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003804389853030443,
+          "receiver_loss": 0.00010171208850806579
+        },
+        {
+          "update": 74,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003799204947426915,
+          "receiver_loss": 0.00010270180064253509
+        },
+        {
+          "update": 75,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0037948829121887684,
+          "receiver_loss": 0.00010214537178399041
+        },
+        {
+          "update": 76,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003792395116761327,
+          "receiver_loss": 0.00010048843978438526
+        },
+        {
+          "update": 77,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0037909599486738443,
+          "receiver_loss": 9.833850344875827e-05
+        },
+        {
+          "update": 78,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0037885166238993406,
+          "receiver_loss": 9.666732512414455e-05
+        },
+        {
+          "update": 79,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003783788299188018,
+          "receiver_loss": 9.687101555755362e-05
+        },
+        {
+          "update": 80,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003777712117880583,
+          "receiver_loss": 9.89302498055622e-05
+        },
+        {
+          "update": 81,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0037724983412772417,
+          "receiver_loss": 0.00010044997179647908
+        },
+        {
+          "update": 82,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0037695341743528843,
+          "receiver_loss": 9.925192716764286e-05
+        },
+        {
+          "update": 83,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0037682359106838703,
+          "receiver_loss": 9.624572703614831e-05
+        },
+        {
+          "update": 84,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003766542999073863,
+          "receiver_loss": 9.408801997778937e-05
+        },
+        {
+          "update": 85,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0037627434358000755,
+          "receiver_loss": 9.40785466809757e-05
+        },
+        {
+          "update": 86,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003757127560675144,
+          "receiver_loss": 9.553064592182636e-05
+        },
+        {
+          "update": 87,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0037515112198889256,
+          "receiver_loss": 9.701991803012788e-05
+        },
+        {
+          "update": 88,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0037472927942872047,
+          "receiver_loss": 9.741435496835038e-05
+        },
+        {
+          "update": 89,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.00374436704441905,
+          "receiver_loss": 9.646725811762735e-05
+        },
+        {
+          "update": 90,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0037417656276375055,
+          "receiver_loss": 9.495007543591782e-05
+        },
+        {
+          "update": 91,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003738849889487028,
+          "receiver_loss": 9.384949953528121e-05
+        },
+        {
+          "update": 92,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0037355816457420588,
+          "receiver_loss": 9.330302418675274e-05
+        },
+        {
+          "update": 93,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0037320207338780165,
+          "receiver_loss": 9.291958849644288e-05
+        },
+        {
+          "update": 94,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0037280141841620207,
+          "receiver_loss": 9.286338172387332e-05
+        },
+        {
+          "update": 95,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003723466768860817,
+          "receiver_loss": 9.34878844418563e-05
+        },
+        {
+          "update": 96,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0037187766283750534,
+          "receiver_loss": 9.432083606952801e-05
+        },
+        {
+          "update": 97,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003714748192578554,
+          "receiver_loss": 9.437885455554351e-05
+        },
+        {
+          "update": 98,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0037118045147508383,
+          "receiver_loss": 9.33286064537242e-05
+        },
+        {
+          "update": 99,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.00370938703417778,
+          "receiver_loss": 9.185189264826477e-05
+        },
+        {
+          "update": 100,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0037063676863908768,
+          "receiver_loss": 9.097231668420136e-05
+        },
+        {
+          "update": 101,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0037021886091679335,
+          "receiver_loss": 9.117507579503581e-05
+        },
+        {
+          "update": 102,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0036974321119487286,
+          "receiver_loss": 9.199453052133322e-05
+        },
+        {
+          "update": 103,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003693138249218464,
+          "receiver_loss": 9.240072540706024e-05
+        },
+        {
+          "update": 104,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003689741948619485,
+          "receiver_loss": 9.185953967971727e-05
+        },
+        {
+          "update": 105,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0036867705639451742,
+          "receiver_loss": 9.087821672437713e-05
+        },
+        {
+          "update": 106,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003683473914861679,
+          "receiver_loss": 9.02674364624545e-05
+        },
+        {
+          "update": 107,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003679614281281829,
+          "receiver_loss": 9.021600271807984e-05
+        },
+        {
+          "update": 108,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0036755467299371958,
+          "receiver_loss": 9.033740207087249e-05
+        },
+        {
+          "update": 109,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.00367167079821229,
+          "receiver_loss": 9.028488420881331e-05
+        },
+        {
+          "update": 110,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0036680123303085566,
+          "receiver_loss": 9.004000457935035e-05
+        },
+        {
+          "update": 111,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003664380172267556,
+          "receiver_loss": 8.974027878139168e-05
+        },
+        {
+          "update": 112,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0036607233341783285,
+          "receiver_loss": 8.945703302742913e-05
+        },
+        {
+          "update": 113,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003657134249806404,
+          "receiver_loss": 8.913349302019924e-05
+        },
+        {
+          "update": 114,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0036535707768052816,
+          "receiver_loss": 8.877731306711212e-05
+        },
+        {
+          "update": 115,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003649824531748891,
+          "receiver_loss": 8.858458022587001e-05
+        },
+        {
+          "update": 116,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0036458184476941824,
+          "receiver_loss": 8.86641864781268e-05
+        },
+        {
+          "update": 117,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0036418125964701176,
+          "receiver_loss": 8.875343337422237e-05
+        },
+        {
+          "update": 118,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0036381615791469812,
+          "receiver_loss": 8.847107528708875e-05
+        },
+        {
+          "update": 119,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003634881693869829,
+          "receiver_loss": 8.781511132838205e-05
+        },
+        {
+          "update": 120,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0036315571051090956,
+          "receiver_loss": 8.721776976017281e-05
+        },
+        {
+          "update": 121,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0036277901381254196,
+          "receiver_loss": 8.705619984539226e-05
+        },
+        {
+          "update": 122,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003623637603595853,
+          "receiver_loss": 8.72694217832759e-05
+        },
+        {
+          "update": 123,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0036195372231304646,
+          "receiver_loss": 8.743934449739754e-05
+        },
+        {
+          "update": 124,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003615803550928831,
+          "receiver_loss": 8.724381768843159e-05
+        },
+        {
+          "update": 125,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003612344851717353,
+          "receiver_loss": 8.6764179286547e-05
+        },
+        {
+          "update": 126,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0036088626366108656,
+          "receiver_loss": 8.630860975245014e-05
+        },
+        {
+          "update": 127,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0036051953211426735,
+          "receiver_loss": 8.604259346611798e-05
+        },
+        {
+          "update": 128,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003601402509957552,
+          "receiver_loss": 8.589647040935233e-05
+        },
+        {
+          "update": 129,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.00359758036211133,
+          "receiver_loss": 8.577627158956602e-05
+        },
+        {
+          "update": 130,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0035937491338700056,
+          "receiver_loss": 8.566852193325758e-05
+        },
+        {
+          "update": 131,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0035899269860237837,
+          "receiver_loss": 8.554870146326721e-05
+        },
+        {
+          "update": 132,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0035861842334270477,
+          "receiver_loss": 8.534578228136525e-05
+        },
+        {
+          "update": 133,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0035825620871037245,
+          "receiver_loss": 8.502332639181986e-05
+        },
+        {
+          "update": 134,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0035789553076028824,
+          "receiver_loss": 8.468450687360018e-05
+        },
+        {
+          "update": 135,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003575199982151389,
+          "receiver_loss": 8.448991138720885e-05
+        },
+        {
+          "update": 136,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0035712907556444407,
+          "receiver_loss": 8.444948616670445e-05
+        },
+        {
+          "update": 137,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0035674083046615124,
+          "receiver_loss": 8.438192890025675e-05
+        },
+        {
+          "update": 138,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0035637018736451864,
+          "receiver_loss": 8.413457544520497e-05
+        },
+        {
+          "update": 139,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003560112090781331,
+          "receiver_loss": 8.376900223083794e-05
+        },
+        {
+          "update": 140,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003556446870788932,
+          "receiver_loss": 8.347890980076045e-05
+        },
+        {
+          "update": 141,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0035526191350072622,
+          "receiver_loss": 8.33486337796785e-05
+        },
+        {
+          "update": 142,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0035487301647663116,
+          "receiver_loss": 8.327728573931381e-05
+        },
+        {
+          "update": 143,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0035449182614684105,
+          "receiver_loss": 8.312860882142559e-05
+        },
+        {
+          "update": 144,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0035411962307989597,
+          "receiver_loss": 8.288722892757505e-05
+        },
+        {
+          "update": 145,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0035374832805246115,
+          "receiver_loss": 8.263457857538015e-05
+        },
+        {
+          "update": 146,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0035337291192263365,
+          "receiver_loss": 8.242239709943533e-05
+        },
+        {
+          "update": 147,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0035299460869282484,
+          "receiver_loss": 8.223685290431604e-05
+        },
+        {
+          "update": 148,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0035261574666947126,
+          "receiver_loss": 8.2054415543098e-05
+        },
+        {
+          "update": 149,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0035223523154854774,
+          "receiver_loss": 8.18876433186233e-05
+        },
+        {
+          "update": 150,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003518538549542427,
+          "receiver_loss": 8.172706293407828e-05
+        },
+        {
+          "update": 151,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0035147564485669136,
+          "receiver_loss": 8.153272938216105e-05
+        },
+        {
+          "update": 152,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003511014860123396,
+          "receiver_loss": 8.129604248097166e-05
+        },
+        {
+          "update": 153,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0035072672180831432,
+          "receiver_loss": 8.106402674457058e-05
+        },
+        {
+          "update": 154,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003503452753648162,
+          "receiver_loss": 8.089595212368295e-05
+        },
+        {
+          "update": 155,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003499590093269944,
+          "receiver_loss": 8.077403617789969e-05
+        },
+        {
+          "update": 156,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0034957625903189182,
+          "receiver_loss": 8.061591506702825e-05
+        },
+        {
+          "update": 157,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003492009360343218,
+          "receiver_loss": 8.038069790927693e-05
+        },
+        {
+          "update": 158,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0034882735926657915,
+          "receiver_loss": 8.012591570150107e-05
+        },
+        {
+          "update": 159,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003484477987512946,
+          "receiver_loss": 7.992931205080822e-05
+        },
+        {
+          "update": 160,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003480617655441165,
+          "receiver_loss": 7.9794590419624e-05
+        },
+        {
+          "update": 161,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0034767603501677513,
+          "receiver_loss": 7.965502300066873e-05
+        },
+        {
+          "update": 162,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0034729449544101954,
+          "receiver_loss": 7.947192352730781e-05
+        },
+        {
+          "update": 163,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0034691549371927977,
+          "receiver_loss": 7.926055695861578e-05
+        },
+        {
+          "update": 164,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0034653597977012396,
+          "receiver_loss": 7.905224629212171e-05
+        },
+        {
+          "update": 165,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003461552318185568,
+          "receiver_loss": 7.88545366958715e-05
+        },
+        {
+          "update": 166,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0034577283076941967,
+          "receiver_loss": 7.867065869504586e-05
+        },
+        {
+          "update": 167,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0034538842737674713,
+          "receiver_loss": 7.85047304816544e-05
+        },
+        {
+          "update": 168,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0034500283654779196,
+          "receiver_loss": 7.834820280550048e-05
+        },
+        {
+          "update": 169,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0034461866598576307,
+          "receiver_loss": 7.817534788046032e-05
+        },
+        {
+          "update": 170,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003442373825237155,
+          "receiver_loss": 7.797130820108578e-05
+        },
+        {
+          "update": 171,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0034385668113827705,
+          "receiver_loss": 7.77591485530138e-05
+        },
+        {
+          "update": 172,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0034347272012382746,
+          "receiver_loss": 7.757712592137977e-05
+        },
+        {
+          "update": 173,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0034308554604649544,
+          "receiver_loss": 7.74249347159639e-05
+        },
+        {
+          "update": 174,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0034269888419657946,
+          "receiver_loss": 7.726531475782394e-05
+        },
+        {
+          "update": 175,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003423149697482586,
+          "receiver_loss": 7.707557233516127e-05
+        },
+        {
+          "update": 176,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.00341932219453156,
+          "receiver_loss": 7.687205652473494e-05
+        },
+        {
+          "update": 177,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003415475832298398,
+          "receiver_loss": 7.668488251511008e-05
+        },
+        {
+          "update": 178,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003411603160202503,
+          "receiver_loss": 7.652137719560415e-05
+        },
+        {
+          "update": 179,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003407730022445321,
+          "receiver_loss": 7.635593647137284e-05
+        },
+        {
+          "update": 180,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0034038666635751724,
+          "receiver_loss": 7.61781629989855e-05
+        },
+        {
+          "update": 181,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003400008659809828,
+          "receiver_loss": 7.599274977110326e-05
+        },
+        {
+          "update": 182,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003396148094907403,
+          "receiver_loss": 7.580740930279717e-05
+        },
+        {
+          "update": 183,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0033922805450856686,
+          "receiver_loss": 7.562635437352583e-05
+        },
+        {
+          "update": 184,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003388403682038188,
+          "receiver_loss": 7.545205153292045e-05
+        },
+        {
+          "update": 185,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0033845154102891684,
+          "receiver_loss": 7.528635615017265e-05
+        },
+        {
+          "update": 186,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003380623646080494,
+          "receiver_loss": 7.512175216106698e-05
+        },
+        {
+          "update": 187,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003376743057742715,
+          "receiver_loss": 7.494378223782405e-05
+        },
+        {
+          "update": 188,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003372871084138751,
+          "receiver_loss": 7.475383608834818e-05
+        },
+        {
+          "update": 189,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0033689909614622593,
+          "receiver_loss": 7.456965977326035e-05
+        },
+        {
+          "update": 190,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0033650915138423443,
+          "receiver_loss": 7.440283661708236e-05
+        },
+        {
+          "update": 191,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0033611839171499014,
+          "receiver_loss": 7.424085197271779e-05
+        },
+        {
+          "update": 192,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0033572837710380554,
+          "receiver_loss": 7.406873191939667e-05
+        },
+        {
+          "update": 193,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003353388514369726,
+          "receiver_loss": 7.388885569525883e-05
+        },
+        {
+          "update": 194,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0033494888339191675,
+          "receiver_loss": 7.371090759988874e-05
+        },
+        {
+          "update": 195,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0033455805387347937,
+          "receiver_loss": 7.353900582529604e-05
+        },
+        {
+          "update": 196,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003341664792969823,
+          "receiver_loss": 7.33714914531447e-05
+        },
+        {
+          "update": 197,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0033377502113580704,
+          "receiver_loss": 7.320035365410149e-05
+        },
+        {
+          "update": 198,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003333834232762456,
+          "receiver_loss": 7.302751328097656e-05
+        },
+        {
+          "update": 199,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003329915925860405,
+          "receiver_loss": 7.285430910997093e-05
+        },
+        {
+          "update": 200,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0033259938936680555,
+          "receiver_loss": 7.268193439813331e-05
+        },
+        {
+          "update": 201,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0033220669720321894,
+          "receiver_loss": 7.251155329868197e-05
+        },
+        {
+          "update": 202,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003318134928122163,
+          "receiver_loss": 7.234384247567505e-05
+        },
+        {
+          "update": 203,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003314199158921838,
+          "receiver_loss": 7.217680104076862e-05
+        },
+        {
+          "update": 204,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0033102657180279493,
+          "receiver_loss": 7.200431718956679e-05
+        },
+        {
+          "update": 205,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0033063306473195553,
+          "receiver_loss": 7.183086563600227e-05
+        },
+        {
+          "update": 206,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003302390221506357,
+          "receiver_loss": 7.165965507738292e-05
+        },
+        {
+          "update": 207,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0032984407152980566,
+          "receiver_loss": 7.149482553359121e-05
+        },
+        {
+          "update": 208,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0032944874837994576,
+          "receiver_loss": 7.133058534236625e-05
+        },
+        {
+          "update": 209,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0032905356492847204,
+          "receiver_loss": 7.116195774869993e-05
+        },
+        {
+          "update": 210,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003286585444584489,
+          "receiver_loss": 7.09887535776943e-05
+        },
+        {
+          "update": 211,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0032826282549649477,
+          "receiver_loss": 7.081960939103737e-05
+        },
+        {
+          "update": 212,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0032786638475954533,
+          "receiver_loss": 7.065462705213577e-05
+        },
+        {
+          "update": 213,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0032746978104114532,
+          "receiver_loss": 7.048832776490599e-05
+        },
+        {
+          "update": 214,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0032707294449210167,
+          "receiver_loss": 7.032122084638104e-05
+        },
+        {
+          "update": 215,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0032667566556483507,
+          "receiver_loss": 7.015538722043857e-05
+        },
+        {
+          "update": 216,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0032627820037305355,
+          "receiver_loss": 6.99886804795824e-05
+        },
+        {
+          "update": 217,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0032588050235062838,
+          "receiver_loss": 6.982086051721126e-05
+        },
+        {
+          "update": 218,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0032548238523304462,
+          "receiver_loss": 6.965465581743047e-05
+        },
+        {
+          "update": 219,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0032508373260498047,
+          "receiver_loss": 6.94901536917314e-05
+        },
+        {
+          "update": 220,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0032468459103256464,
+          "receiver_loss": 6.932747783139348e-05
+        },
+        {
+          "update": 221,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0032428547274321318,
+          "receiver_loss": 6.916162237757817e-05
+        },
+        {
+          "update": 222,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003238862380385399,
+          "receiver_loss": 6.899382424307987e-05
+        },
+        {
+          "update": 223,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0032348649110645056,
+          "receiver_loss": 6.882807792862877e-05
+        },
+        {
+          "update": 224,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0032308590598404408,
+          "receiver_loss": 6.866745388833806e-05
+        },
+        {
+          "update": 225,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003226850414648652,
+          "receiver_loss": 6.85059349052608e-05
+        },
+        {
+          "update": 226,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0032228438649326563,
+          "receiver_loss": 6.833966472186148e-05
+        },
+        {
+          "update": 227,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0032188345212489367,
+          "receiver_loss": 6.81728488416411e-05
+        },
+        {
+          "update": 228,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003214817261323333,
+          "receiver_loss": 6.80105877108872e-05
+        },
+        {
+          "update": 229,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0032107937149703503,
+          "receiver_loss": 6.785134610254318e-05
+        },
+        {
+          "update": 230,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0032067717984318733,
+          "receiver_loss": 6.768738967366517e-05
+        },
+        {
+          "update": 231,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003202746855095029,
+          "receiver_loss": 6.752317858627066e-05
+        },
+        {
+          "update": 232,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003198714926838875,
+          "receiver_loss": 6.736239447491243e-05
+        },
+        {
+          "update": 233,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003194680903106928,
+          "receiver_loss": 6.720073724864051e-05
+        },
+        {
+          "update": 234,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0031906459480524063,
+          "receiver_loss": 6.703666440444067e-05
+        },
+        {
+          "update": 235,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0031866044737398624,
+          "receiver_loss": 6.687538552796468e-05
+        },
+        {
+          "update": 236,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0031825564801692963,
+          "receiver_loss": 6.67173953843303e-05
+        },
+        {
+          "update": 237,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0031785089522600174,
+          "receiver_loss": 6.655593460891396e-05
+        },
+        {
+          "update": 238,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003174461191520095,
+          "receiver_loss": 6.639090133830905e-05
+        },
+        {
+          "update": 239,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0031704038847237825,
+          "receiver_loss": 6.623230001423508e-05
+        },
+        {
+          "update": 240,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0031663428526371717,
+          "receiver_loss": 6.607396062463522e-05
+        },
+        {
+          "update": 241,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0031622801907360554,
+          "receiver_loss": 6.591388228116557e-05
+        },
+        {
+          "update": 242,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0031582177616655827,
+          "receiver_loss": 6.575018778676167e-05
+        },
+        {
+          "update": 243,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003154145320877433,
+          "receiver_loss": 6.559272151207551e-05
+        },
+        {
+          "update": 244,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0031500712502747774,
+          "receiver_loss": 6.54339455650188e-05
+        },
+        {
+          "update": 245,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003145994385704398,
+          "receiver_loss": 6.527446385007352e-05
+        },
+        {
+          "update": 246,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003141913330182433,
+          "receiver_loss": 6.511562969535589e-05
+        },
+        {
+          "update": 247,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0031378285493701696,
+          "receiver_loss": 6.495673733297735e-05
+        },
+        {
+          "update": 248,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0031337407417595387,
+          "receiver_loss": 6.479759758803993e-05
+        },
+        {
+          "update": 249,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003129649208858609,
+          "receiver_loss": 6.46386033622548e-05
+        },
+        {
+          "update": 250,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003125552088022232,
+          "receiver_loss": 6.448186468333006e-05
+        },
+        {
+          "update": 251,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0031214526388794184,
+          "receiver_loss": 6.432396912714466e-05
+        },
+        {
+          "update": 252,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003117348998785019,
+          "receiver_loss": 6.416642281692475e-05
+        },
+        {
+          "update": 253,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003113243728876114,
+          "receiver_loss": 6.400734855560586e-05
+        },
+        {
+          "update": 254,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0031091319397091866,
+          "receiver_loss": 6.385095184668899e-05
+        },
+        {
+          "update": 255,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0031050171237438917,
+          "receiver_loss": 6.369423499563709e-05
+        },
+        {
+          "update": 256,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0031008985824882984,
+          "receiver_loss": 6.353738717734814e-05
+        },
+        {
+          "update": 257,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003096776781603694,
+          "receiver_loss": 6.338026287266985e-05
+        },
+        {
+          "update": 258,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0030926510225981474,
+          "receiver_loss": 6.322381523204967e-05
+        },
+        {
+          "update": 259,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0030885208398103714,
+          "receiver_loss": 6.306783325271681e-05
+        },
+        {
+          "update": 260,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003084386931732297,
+          "receiver_loss": 6.291233148658648e-05
+        },
+        {
+          "update": 261,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0030802502296864986,
+          "receiver_loss": 6.27558256383054e-05
+        },
+        {
+          "update": 262,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0030761095695197582,
+          "receiver_loss": 6.25996253802441e-05
+        },
+        {
+          "update": 263,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0030719635542482138,
+          "receiver_loss": 6.24452150077559e-05
+        },
+        {
+          "update": 264,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0030678147450089455,
+          "receiver_loss": 6.228974234545603e-05
+        },
+        {
+          "update": 265,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0030636629089713097,
+          "receiver_loss": 6.213405868038535e-05
+        },
+        {
+          "update": 266,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0030595059506595135,
+          "receiver_loss": 6.19795682723634e-05
+        },
+        {
+          "update": 267,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.003055343870073557,
+          "receiver_loss": 6.182630750117823e-05
+        },
+        {
+          "update": 268,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0030511801596730947,
+          "receiver_loss": 6.167127867229283e-05
+        },
+        {
+          "update": 269,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0030470143537968397,
+          "receiver_loss": 6.151468551252037e-05
+        },
+        {
+          "update": 270,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0030428410973399878,
+          "receiver_loss": 6.136181764304638e-05
+        },
+        {
+          "update": 271,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0030386634171009064,
+          "receiver_loss": 6.12097283010371e-05
+        },
+        {
+          "update": 272,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0030344845727086067,
+          "receiver_loss": 6.105519423726946e-05
+        },
+        {
+          "update": 273,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0030303027015179396,
+          "receiver_loss": 6.089992166380398e-05
+        },
+        {
+          "update": 274,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003026113146916032,
+          "receiver_loss": 6.074837801861577e-05
+        },
+        {
+          "update": 275,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003021920332685113,
+          "receiver_loss": 6.0596485127462074e-05
+        },
+        {
+          "update": 276,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0030177279841154814,
+          "receiver_loss": 6.0440557717811316e-05
+        },
+        {
+          "update": 277,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0030135284177958965,
+          "receiver_loss": 6.02881409577094e-05
+        },
+        {
+          "update": 278,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.003009322565048933,
+          "receiver_loss": 6.0138365370221436e-05
+        },
+        {
+          "update": 279,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0030051160138100386,
+          "receiver_loss": 5.998526467010379e-05
+        },
+        {
+          "update": 280,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.003000907599925995,
+          "receiver_loss": 5.983078517601825e-05
+        },
+        {
+          "update": 281,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.002996692666783929,
+          "receiver_loss": 5.967890683677979e-05
+        },
+        {
+          "update": 282,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0029924719128757715,
+          "receiver_loss": 5.952895662630908e-05
+        },
+        {
+          "update": 283,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0029882488306611776,
+          "receiver_loss": 5.937766036367975e-05
+        },
+        {
+          "update": 284,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0029840231873095036,
+          "receiver_loss": 5.9225170844001696e-05
+        },
+        {
+          "update": 285,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0029797931201756,
+          "receiver_loss": 5.907320519327186e-05
+        },
+        {
+          "update": 286,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.00297555816359818,
+          "receiver_loss": 5.8922767493641004e-05
+        },
+        {
+          "update": 287,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.00297131878323853,
+          "receiver_loss": 5.8772671764018014e-05
+        },
+        {
+          "update": 288,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0029670782387256622,
+          "receiver_loss": 5.862029502168298e-05
+        },
+        {
+          "update": 289,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.002962830476462841,
+          "receiver_loss": 5.8471301599638537e-05
+        },
+        {
+          "update": 290,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.002958580618724227,
+          "receiver_loss": 5.832074020872824e-05
+        },
+        {
+          "update": 291,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0029543275013566017,
+          "receiver_loss": 5.816972043248825e-05
+        },
+        {
+          "update": 292,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.002950069960206747,
+          "receiver_loss": 5.801934821647592e-05
+        },
+        {
+          "update": 293,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0029458068311214447,
+          "receiver_loss": 5.787061672890559e-05
+        },
+        {
+          "update": 294,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0029415409080684185,
+          "receiver_loss": 5.7721201301319525e-05
+        },
+        {
+          "update": 295,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0029372726567089558,
+          "receiver_loss": 5.7570465287426487e-05
+        },
+        {
+          "update": 296,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0029329995159059763,
+          "receiver_loss": 5.742105349781923e-05
+        },
+        {
+          "update": 297,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.002928721019998193,
+          "receiver_loss": 5.727280949940905e-05
+        },
+        {
+          "update": 298,
+          "slot": 0,
+          "depth": 0,
+          "field_loss": 0.0029244383331388235,
+          "receiver_loss": 5.712552956538275e-05
+        },
+        {
+          "update": 299,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.002920156344771385,
+          "receiver_loss": 5.6973425671458244e-05
+        },
+        {
+          "update": 300,
+          "slot": 2,
+          "depth": 0,
+          "field_loss": 0.0029158664401620626,
+          "receiver_loss": 5.682579649146646e-05
+        }
+      ],
+      "elapsed_seconds": 155.2506356999802,
+      "peak_allocated_bytes": 9467619328,
+      "peak_reserved_bytes": 10932453376,
+      "final_state_hash": "6b8c9cfaff19b39775c608ed7659f82f60123ff825dcf1887654ced4414413ba",
+      "updates": 300,
+      "recovery_start_update": 150,
+      "history": [
+        {
+          "update": 0,
+          "evaluation": {
+            "records": {
+              "depth-2": {
+                "role": "training_geometry",
+                "full_field_relative_l2": 0.20307637108265922,
+                "scatter_field_relative_l2": 0.5951290265134302,
+                "full_trace_relative_l2": 0.21593393882688672,
+                "scatter_trace_relative_l2": 0.6517982971520089
+              },
+              "depth0": {
+                "role": "training_geometry",
+                "full_field_relative_l2": 0.07078670936850083,
+                "scatter_field_relative_l2": 0.20993339429818783,
+                "full_trace_relative_l2": 0.01651136793958105,
+                "scatter_trace_relative_l2": 0.05091913801981444
+              },
+              "depth2": {
+                "role": "training_geometry",
+                "full_field_relative_l2": 0.20631718787957062,
+                "scatter_field_relative_l2": 0.6147051856586069,
+                "full_trace_relative_l2": 0.20169431330004295,
+                "scatter_trace_relative_l2": 0.6268367652796583
+              },
+              "depth-1": {
+                "role": "used_development",
+                "full_field_relative_l2": 0.12108055355458922,
+                "scatter_field_relative_l2": 0.35711341381806755,
+                "full_trace_relative_l2": 0.11471205426516973,
+                "scatter_trace_relative_l2": 0.3502355127636972
+              },
+              "depth1": {
+                "role": "used_development",
+                "full_field_relative_l2": 0.12308441421243226,
+                "scatter_field_relative_l2": 0.3666588939432505,
+                "full_trace_relative_l2": 0.10457755046734314,
+                "scatter_trace_relative_l2": 0.3249977807675509
+              },
+              "contrast03": {
+                "role": "forgetting_diagnostic",
+                "full_field_relative_l2": 0.10140802902286077,
+                "scatter_field_relative_l2": 0.19241439920970235,
+                "full_trace_relative_l2": 0.01882849654777379,
+                "scatter_trace_relative_l2": 0.0383173909286949
+              },
+              "contrast07": {
+                "role": "forgetting_diagnostic",
+                "full_field_relative_l2": 0.04518878980647223,
+                "scatter_field_relative_l2": 0.24710500933842866,
+                "full_trace_relative_l2": 0.010084009975451972,
+                "scatter_trace_relative_l2": 0.056704737382876055
+              }
+            },
+            "response": {
+              "relative_l2": 1.207872429970621,
+              "norm_ratio": 0.5696710194067093,
+              "cosine": -0.11798979775311773
+            },
+            "screen_passed": false
+          }
+        },
+        {
+          "update": 150,
+          "evaluation": {
+            "records": {
+              "depth-2": {
+                "role": "training_geometry",
+                "full_field_relative_l2": 0.20026653176665507,
+                "scatter_field_relative_l2": 0.58689460254831,
+                "full_trace_relative_l2": 0.2180786055667634,
+                "scatter_trace_relative_l2": 0.6582719906186522
+              },
+              "depth0": {
+                "role": "training_geometry",
+                "full_field_relative_l2": 0.05923010048753474,
+                "scatter_field_relative_l2": 0.17565975521252378,
+                "full_trace_relative_l2": 0.008910085931497684,
+                "scatter_trace_relative_l2": 0.027477668535672472
+              },
+              "depth2": {
+                "role": "training_geometry",
+                "full_field_relative_l2": 0.20543751092164197,
+                "scatter_field_relative_l2": 0.6120842601152694,
+                "full_trace_relative_l2": 0.20359740047929986,
+                "scatter_trace_relative_l2": 0.6327512850892277
+              },
+              "depth-1": {
+                "role": "used_development",
+                "full_field_relative_l2": 0.11438730625540774,
+                "scatter_field_relative_l2": 0.337372437068555,
+                "full_trace_relative_l2": 0.11452413259741787,
+                "scatter_trace_relative_l2": 0.34966175578509456
+              },
+              "depth1": {
+                "role": "used_development",
+                "full_field_relative_l2": 0.11869165195130398,
+                "scatter_field_relative_l2": 0.3535731969252583,
+                "full_trace_relative_l2": 0.10549996058331759,
+                "scatter_trace_relative_l2": 0.3278643734474287
+              }
+            },
+            "response": {
+              "relative_l2": 1.21792966914462,
+              "norm_ratio": 0.5783219303583538,
+              "cosine": -0.12873143489216715
+            },
+            "screen_passed": false
+          }
+        },
+        {
+          "update": 300,
+          "evaluation": {
+            "records": {
+              "depth-2": {
+                "role": "training_geometry",
+                "full_field_relative_l2": 0.19986368664866988,
+                "scatter_field_relative_l2": 0.5857140377114259,
+                "full_trace_relative_l2": 0.22249083162086364,
+                "scatter_trace_relative_l2": 0.6715903297567061
+              },
+              "depth0": {
+                "role": "training_geometry",
+                "full_field_relative_l2": 0.05390867712295879,
+                "scatter_field_relative_l2": 0.15987791594651846,
+                "full_trace_relative_l2": 0.007400014090038012,
+                "scatter_trace_relative_l2": 0.02282078263763637
+              },
+              "depth2": {
+                "role": "training_geometry",
+                "full_field_relative_l2": 0.20383170038273765,
+                "scatter_field_relative_l2": 0.6072998789612092,
+                "full_trace_relative_l2": 0.20468338834305094,
+                "scatter_trace_relative_l2": 0.6361263783603702
+              },
+              "depth-1": {
+                "role": "used_development",
+                "full_field_relative_l2": 0.11241840517396194,
+                "scatter_field_relative_l2": 0.3315653857624326,
+                "full_trace_relative_l2": 0.11582389187665726,
+                "scatter_trace_relative_l2": 0.35363014307054486
+              },
+              "depth1": {
+                "role": "used_development",
+                "full_field_relative_l2": 0.11587397862274561,
+                "scatter_field_relative_l2": 0.3451795672951125,
+                "full_trace_relative_l2": 0.10679491535549775,
+                "scatter_trace_relative_l2": 0.3318887307332146
+              },
+              "contrast03": {
+                "role": "forgetting_diagnostic",
+                "full_field_relative_l2": 0.11453472819639021,
+                "scatter_field_relative_l2": 0.21732136130549234,
+                "full_trace_relative_l2": 0.039797126529666396,
+                "scatter_trace_relative_l2": 0.08099011257785546
+              },
+              "contrast07": {
+                "role": "forgetting_diagnostic",
+                "full_field_relative_l2": 0.054484057297419564,
+                "scatter_field_relative_l2": 0.29793414572359367,
+                "full_trace_relative_l2": 0.024975555139540497,
+                "scatter_trace_relative_l2": 0.14044336515203693
+              }
+            },
+            "response": {
+              "relative_l2": 1.2330568559219894,
+              "norm_ratio": 0.598454027922153,
+              "cosine": -0.1355843380011866
+            },
+            "screen_passed": false
+          }
+        }
+      ]
+    },
+    "depth_coverage": {
+      "initial_state_hash": "15f88d01353645b010e2ad0a6a6ad6a93eb448a404be22450cd9d754c409d73c",
+      "exposures": [
+        100,
+        100,
+        100
+      ],
+      "losses": [
+        {
+          "update": 1,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.04132389649748802,
+          "receiver_loss": 0.04598917439579964
+        },
+        {
+          "update": 2,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006234689150005579,
+          "receiver_loss": 0.0036743951495736837
+        },
+        {
+          "update": 3,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.0446896068751812,
+          "receiver_loss": 0.05529729276895523
+        },
+        {
+          "update": 4,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.036535728722810745,
+          "receiver_loss": 0.03140920773148537
+        },
+        {
+          "update": 5,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.008724949322640896,
+          "receiver_loss": 0.0036978658754378557
+        },
+        {
+          "update": 6,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.04288136586546898,
+          "receiver_loss": 0.04289444535970688
+        },
+        {
+          "update": 7,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.036450065672397614,
+          "receiver_loss": 0.030576137825846672
+        },
+        {
+          "update": 8,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.009395766071975231,
+          "receiver_loss": 0.0038526770658791065
+        },
+        {
+          "update": 9,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.041961319744586945,
+          "receiver_loss": 0.03710153326392174
+        },
+        {
+          "update": 10,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.035688579082489014,
+          "receiver_loss": 0.029135100543498993
+        },
+        {
+          "update": 11,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007906720042228699,
+          "receiver_loss": 0.003181283827871084
+        },
+        {
+          "update": 12,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.04152226448059082,
+          "receiver_loss": 0.034706950187683105
+        },
+        {
+          "update": 13,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03562653809785843,
+          "receiver_loss": 0.028304308652877808
+        },
+        {
+          "update": 14,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007190145086497068,
+          "receiver_loss": 0.002456646878272295
+        },
+        {
+          "update": 15,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.04100952297449112,
+          "receiver_loss": 0.031696170568466187
+        },
+        {
+          "update": 16,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03567313402891159,
+          "receiver_loss": 0.02864392101764679
+        },
+        {
+          "update": 17,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0071973917074501514,
+          "receiver_loss": 0.002230114070698619
+        },
+        {
+          "update": 18,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.040142711251974106,
+          "receiver_loss": 0.027637818828225136
+        },
+        {
+          "update": 19,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03559198975563049,
+          "receiver_loss": 0.02878744900226593
+        },
+        {
+          "update": 20,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007527981884777546,
+          "receiver_loss": 0.0024117683060467243
+        },
+        {
+          "update": 21,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03944958746433258,
+          "receiver_loss": 0.02497103065252304
+        },
+        {
+          "update": 22,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03551274910569191,
+          "receiver_loss": 0.028291605412960052
+        },
+        {
+          "update": 23,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007528325077146292,
+          "receiver_loss": 0.0022123914677649736
+        },
+        {
+          "update": 24,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03897726535797119,
+          "receiver_loss": 0.023568663746118546
+        },
+        {
+          "update": 25,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03552258014678955,
+          "receiver_loss": 0.02729223668575287
+        },
+        {
+          "update": 26,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007297206670045853,
+          "receiver_loss": 0.0019421173492446542
+        },
+        {
+          "update": 27,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03870522230863571,
+          "receiver_loss": 0.022642765194177628
+        },
+        {
+          "update": 28,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.035547949373722076,
+          "receiver_loss": 0.025935541838407516
+        },
+        {
+          "update": 29,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007107975892722607,
+          "receiver_loss": 0.001849998952820897
+        },
+        {
+          "update": 30,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.038440946489572525,
+          "receiver_loss": 0.021985748782753944
+        },
+        {
+          "update": 31,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03556198254227638,
+          "receiver_loss": 0.024624526500701904
+        },
+        {
+          "update": 32,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007093915715813637,
+          "receiver_loss": 0.0017391687724739313
+        },
+        {
+          "update": 33,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03804728016257286,
+          "receiver_loss": 0.02118512988090515
+        },
+        {
+          "update": 34,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.035498492419719696,
+          "receiver_loss": 0.023582221940159798
+        },
+        {
+          "update": 35,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007148184347897768,
+          "receiver_loss": 0.0017583814915269613
+        },
+        {
+          "update": 36,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.037621039897203445,
+          "receiver_loss": 0.02027801424264908
+        },
+        {
+          "update": 37,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.035430386662483215,
+          "receiver_loss": 0.022614868357777596
+        },
+        {
+          "update": 38,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007179972715675831,
+          "receiver_loss": 0.0018152669072151184
+        },
+        {
+          "update": 39,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03729035332798958,
+          "receiver_loss": 0.019625380635261536
+        },
+        {
+          "update": 40,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03541811555624008,
+          "receiver_loss": 0.021508846431970596
+        },
+        {
+          "update": 41,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0071340203285217285,
+          "receiver_loss": 0.0017509430181235075
+        },
+        {
+          "update": 42,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.0370514914393425,
+          "receiver_loss": 0.019134683534502983
+        },
+        {
+          "update": 43,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03543868288397789,
+          "receiver_loss": 0.020404167473316193
+        },
+        {
+          "update": 44,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007077398709952831,
+          "receiver_loss": 0.0016973374877125025
+        },
+        {
+          "update": 45,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.036822449415922165,
+          "receiver_loss": 0.018612578511238098
+        },
+        {
+          "update": 46,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03543143719434738,
+          "receiver_loss": 0.01942453160881996
+        },
+        {
+          "update": 47,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007082963827997446,
+          "receiver_loss": 0.0016814375994727015
+        },
+        {
+          "update": 48,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03655211627483368,
+          "receiver_loss": 0.018014712259173393
+        },
+        {
+          "update": 49,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.035383835434913635,
+          "receiver_loss": 0.018584558740258217
+        },
+        {
+          "update": 50,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007134732324630022,
+          "receiver_loss": 0.001700167660601437
+        },
+        {
+          "update": 51,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.036274224519729614,
+          "receiver_loss": 0.01736561767756939
+        },
+        {
+          "update": 52,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.0353226438164711,
+          "receiver_loss": 0.017830723896622658
+        },
+        {
+          "update": 53,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0071717314422130585,
+          "receiver_loss": 0.001721573993563652
+        },
+        {
+          "update": 54,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03603328764438629,
+          "receiver_loss": 0.016760677099227905
+        },
+        {
+          "update": 55,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.035291120409965515,
+          "receiver_loss": 0.01707695610821247
+        },
+        {
+          "update": 56,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007171955890953541,
+          "receiver_loss": 0.0016995070036500692
+        },
+        {
+          "update": 57,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03584042564034462,
+          "receiver_loss": 0.016201552003622055
+        },
+        {
+          "update": 58,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03528566285967827,
+          "receiver_loss": 0.016350364312529564
+        },
+        {
+          "update": 59,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007158034015446901,
+          "receiver_loss": 0.0016722840955480933
+        },
+        {
+          "update": 60,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.035657282918691635,
+          "receiver_loss": 0.01562426332384348
+        },
+        {
+          "update": 61,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03526870161294937,
+          "receiver_loss": 0.015687955543398857
+        },
+        {
+          "update": 62,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007165111601352692,
+          "receiver_loss": 0.0016628291923552752
+        },
+        {
+          "update": 63,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03545277565717697,
+          "receiver_loss": 0.015033760108053684
+        },
+        {
+          "update": 64,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03522852435708046,
+          "receiver_loss": 0.015088642947375774
+        },
+        {
+          "update": 65,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0071925148367881775,
+          "receiver_loss": 0.001675031497143209
+        },
+        {
+          "update": 66,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03524645417928696,
+          "receiver_loss": 0.014427730813622475
+        },
+        {
+          "update": 67,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03517916426062584,
+          "receiver_loss": 0.014523634687066078
+        },
+        {
+          "update": 68,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007217587903141975,
+          "receiver_loss": 0.0016858523013070226
+        },
+        {
+          "update": 69,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03505805507302284,
+          "receiver_loss": 0.013857807032763958
+        },
+        {
+          "update": 70,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03514137491583824,
+          "receiver_loss": 0.013953533954918385
+        },
+        {
+          "update": 71,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007231062278151512,
+          "receiver_loss": 0.0016780408332124352
+        },
+        {
+          "update": 72,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03489129990339279,
+          "receiver_loss": 0.013324803672730923
+        },
+        {
+          "update": 73,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03511038050055504,
+          "receiver_loss": 0.013386204838752747
+        },
+        {
+          "update": 74,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0072389510460197926,
+          "receiver_loss": 0.0016699007246643305
+        },
+        {
+          "update": 75,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03473226726055145,
+          "receiver_loss": 0.012806362472474575
+        },
+        {
+          "update": 76,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03507247939705849,
+          "receiver_loss": 0.012841652147471905
+        },
+        {
+          "update": 77,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007255156524479389,
+          "receiver_loss": 0.0016638115048408508
+        },
+        {
+          "update": 78,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03456692770123482,
+          "receiver_loss": 0.012300443835556507
+        },
+        {
+          "update": 79,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03502059355378151,
+          "receiver_loss": 0.012326213531196117
+        },
+        {
+          "update": 80,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007275961805135012,
+          "receiver_loss": 0.0016661261906847358
+        },
+        {
+          "update": 81,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03440318629145622,
+          "receiver_loss": 0.011805246584117413
+        },
+        {
+          "update": 82,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03496505320072174,
+          "receiver_loss": 0.011826950125396252
+        },
+        {
+          "update": 83,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007293399423360825,
+          "receiver_loss": 0.0016644449206069112
+        },
+        {
+          "update": 84,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.034249041229486465,
+          "receiver_loss": 0.011332839727401733
+        },
+        {
+          "update": 85,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.034912239760160446,
+          "receiver_loss": 0.011333511210978031
+        },
+        {
+          "update": 86,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007306810002774,
+          "receiver_loss": 0.0016610240563750267
+        },
+        {
+          "update": 87,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.034101445227861404,
+          "receiver_loss": 0.01087871752679348
+        },
+        {
+          "update": 88,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03485725447535515,
+          "receiver_loss": 0.010851498693227768
+        },
+        {
+          "update": 89,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007320799399167299,
+          "receiver_loss": 0.0016565650003030896
+        },
+        {
+          "update": 90,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.033955059945583344,
+          "receiver_loss": 0.010440617799758911
+        },
+        {
+          "update": 91,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.034796636551618576,
+          "receiver_loss": 0.010386585257947445
+        },
+        {
+          "update": 92,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007336132228374481,
+          "receiver_loss": 0.001654725638218224
+        },
+        {
+          "update": 93,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.033809904009103775,
+          "receiver_loss": 0.010013250634074211
+        },
+        {
+          "update": 94,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03473047912120819,
+          "receiver_loss": 0.009938935749232769
+        },
+        {
+          "update": 95,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007350582629442215,
+          "receiver_loss": 0.00165380141697824
+        },
+        {
+          "update": 96,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03366682678461075,
+          "receiver_loss": 0.009600351564586163
+        },
+        {
+          "update": 97,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03466301038861275,
+          "receiver_loss": 0.009505673311650753
+        },
+        {
+          "update": 98,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007362912409007549,
+          "receiver_loss": 0.0016510330606251955
+        },
+        {
+          "update": 99,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03352750837802887,
+          "receiver_loss": 0.009200327098369598
+        },
+        {
+          "update": 100,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.0345931276679039,
+          "receiver_loss": 0.009086613543331623
+        },
+        {
+          "update": 101,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007373581174761057,
+          "receiver_loss": 0.0016483237268403172
+        },
+        {
+          "update": 102,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03339014947414398,
+          "receiver_loss": 0.008813031017780304
+        },
+        {
+          "update": 103,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03452098369598389,
+          "receiver_loss": 0.008682074956595898
+        },
+        {
+          "update": 104,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007383611984550953,
+          "receiver_loss": 0.0016453952994197607
+        },
+        {
+          "update": 105,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03325337544083595,
+          "receiver_loss": 0.008437360636889935
+        },
+        {
+          "update": 106,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03444425389170647,
+          "receiver_loss": 0.008294419385492802
+        },
+        {
+          "update": 107,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0073927175253629684,
+          "receiver_loss": 0.001643264782615006
+        },
+        {
+          "update": 108,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.033117134124040604,
+          "receiver_loss": 0.008073707111179829
+        },
+        {
+          "update": 109,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.0343642458319664,
+          "receiver_loss": 0.007921326905488968
+        },
+        {
+          "update": 110,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.00740048149600625,
+          "receiver_loss": 0.0016413622070103884
+        },
+        {
+          "update": 111,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03298250213265419,
+          "receiver_loss": 0.007722016423940659
+        },
+        {
+          "update": 112,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.034281522035598755,
+          "receiver_loss": 0.007562155369669199
+        },
+        {
+          "update": 113,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007406593766063452,
+          "receiver_loss": 0.0016387171344831586
+        },
+        {
+          "update": 114,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03284899517893791,
+          "receiver_loss": 0.007383054122328758
+        },
+        {
+          "update": 115,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.034196026623249054,
+          "receiver_loss": 0.007216454949229956
+        },
+        {
+          "update": 116,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007411669939756393,
+          "receiver_loss": 0.00163626903668046
+        },
+        {
+          "update": 117,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03271610662341118,
+          "receiver_loss": 0.0070555382408201694
+        },
+        {
+          "update": 118,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03410693630576134,
+          "receiver_loss": 0.006884797476232052
+        },
+        {
+          "update": 119,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007415579631924629,
+          "receiver_loss": 0.0016338800778612494
+        },
+        {
+          "update": 120,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.032583337277173996,
+          "receiver_loss": 0.006740655284374952
+        },
+        {
+          "update": 121,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.034014709293842316,
+          "receiver_loss": 0.006566397380083799
+        },
+        {
+          "update": 122,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007417991291731596,
+          "receiver_loss": 0.001631618943065405
+        },
+        {
+          "update": 123,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03245105966925621,
+          "receiver_loss": 0.006437650416046381
+        },
+        {
+          "update": 124,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03391968086361885,
+          "receiver_loss": 0.006260731723159552
+        },
+        {
+          "update": 125,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007418868597596884,
+          "receiver_loss": 0.001629298785701394
+        },
+        {
+          "update": 126,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03231917694211006,
+          "receiver_loss": 0.00614681001752615
+        },
+        {
+          "update": 127,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.033821795135736465,
+          "receiver_loss": 0.005967587698251009
+        },
+        {
+          "update": 128,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007418319117277861,
+          "receiver_loss": 0.0016269241459667683
+        },
+        {
+          "update": 129,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.0321875624358654,
+          "receiver_loss": 0.005867574829608202
+        },
+        {
+          "update": 130,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03372079133987427,
+          "receiver_loss": 0.00568701745942235
+        },
+        {
+          "update": 131,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007416496053338051,
+          "receiver_loss": 0.0016245852457359433
+        },
+        {
+          "update": 132,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03205610811710358,
+          "receiver_loss": 0.005599777214229107
+        },
+        {
+          "update": 133,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03361678868532181,
+          "receiver_loss": 0.005418796557933092
+        },
+        {
+          "update": 134,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007413217332214117,
+          "receiver_loss": 0.0016223143320530653
+        },
+        {
+          "update": 135,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.031924813985824585,
+          "receiver_loss": 0.005343135911971331
+        },
+        {
+          "update": 136,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03350989148020744,
+          "receiver_loss": 0.005162578076124191
+        },
+        {
+          "update": 137,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007408606819808483,
+          "receiver_loss": 0.0016199471428990364
+        },
+        {
+          "update": 138,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03179368004202843,
+          "receiver_loss": 0.0050975726917386055
+        },
+        {
+          "update": 139,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03340023756027222,
+          "receiver_loss": 0.0049180928617715836
+        },
+        {
+          "update": 140,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007402574643492699,
+          "receiver_loss": 0.0016174351330846548
+        },
+        {
+          "update": 141,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03166269510984421,
+          "receiver_loss": 0.0048627303913235664
+        },
+        {
+          "update": 142,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.033288028091192245,
+          "receiver_loss": 0.0046849059872329235
+        },
+        {
+          "update": 143,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007395226042717695,
+          "receiver_loss": 0.0016148148570209742
+        },
+        {
+          "update": 144,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03153183311223984,
+          "receiver_loss": 0.004638348706066608
+        },
+        {
+          "update": 145,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.0331730954349041,
+          "receiver_loss": 0.004462955519556999
+        },
+        {
+          "update": 146,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007386575918644667,
+          "receiver_loss": 0.0016122286906465888
+        },
+        {
+          "update": 147,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.031400956213474274,
+          "receiver_loss": 0.004424143582582474
+        },
+        {
+          "update": 148,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.033055566251277924,
+          "receiver_loss": 0.004251720849424601
+        },
+        {
+          "update": 149,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007376797962933779,
+          "receiver_loss": 0.0016096673207357526
+        },
+        {
+          "update": 150,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.031270094215869904,
+          "receiver_loss": 0.004219876602292061
+        },
+        {
+          "update": 151,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.032935552299022675,
+          "receiver_loss": 0.004050878342241049
+        },
+        {
+          "update": 152,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007365867495536804,
+          "receiver_loss": 0.0016070607816800475
+        },
+        {
+          "update": 153,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.031139368191361427,
+          "receiver_loss": 0.004025239497423172
+        },
+        {
+          "update": 154,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.032813362777233124,
+          "receiver_loss": 0.0038598240353167057
+        },
+        {
+          "update": 155,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007353731896728277,
+          "receiver_loss": 0.0016044694930315018
+        },
+        {
+          "update": 156,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03100874461233616,
+          "receiver_loss": 0.0038399952463805676
+        },
+        {
+          "update": 157,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03268894553184509,
+          "receiver_loss": 0.0036784091498702765
+        },
+        {
+          "update": 158,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007340577431023121,
+          "receiver_loss": 0.0016018126625567675
+        },
+        {
+          "update": 159,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.030878158286213875,
+          "receiver_loss": 0.0036637838929891586
+        },
+        {
+          "update": 160,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03256228193640709,
+          "receiver_loss": 0.00350640038959682
+        },
+        {
+          "update": 161,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007326455321162939,
+          "receiver_loss": 0.0015991849359124899
+        },
+        {
+          "update": 162,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.03074759617447853,
+          "receiver_loss": 0.003496358869597316
+        },
+        {
+          "update": 163,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03243362158536911,
+          "receiver_loss": 0.0033432713244110346
+        },
+        {
+          "update": 164,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0073113711550831795,
+          "receiver_loss": 0.0015964253107085824
+        },
+        {
+          "update": 165,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.030617188662290573,
+          "receiver_loss": 0.003337360452860594
+        },
+        {
+          "update": 166,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03230321779847145,
+          "receiver_loss": 0.0031886494252830744
+        },
+        {
+          "update": 167,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0072953668422997,
+          "receiver_loss": 0.001593597698956728
+        },
+        {
+          "update": 168,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.030486896634101868,
+          "receiver_loss": 0.003186463378369808
+        },
+        {
+          "update": 169,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03217102214694023,
+          "receiver_loss": 0.0030422916170209646
+        },
+        {
+          "update": 170,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007278576493263245,
+          "receiver_loss": 0.0015907182823866606
+        },
+        {
+          "update": 171,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.030356621369719505,
+          "receiver_loss": 0.0030433356296271086
+        },
+        {
+          "update": 172,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03203712776303291,
+          "receiver_loss": 0.002903818152844906
+        },
+        {
+          "update": 173,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007261069491505623,
+          "receiver_loss": 0.0015878548147156835
+        },
+        {
+          "update": 174,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.030226441100239754,
+          "receiver_loss": 0.0029076705686748028
+        },
+        {
+          "update": 175,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.031901732087135315,
+          "receiver_loss": 0.002772838342934847
+        },
+        {
+          "update": 176,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007242857478559017,
+          "receiver_loss": 0.0015848909970372915
+        },
+        {
+          "update": 177,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.030096424743533134,
+          "receiver_loss": 0.0027791575994342566
+        },
+        {
+          "update": 178,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03176501765847206,
+          "receiver_loss": 0.002648940309882164
+        },
+        {
+          "update": 179,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0072240158915519714,
+          "receiver_loss": 0.0015818617539480329
+        },
+        {
+          "update": 180,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.029966529458761215,
+          "receiver_loss": 0.002657459117472172
+        },
+        {
+          "update": 181,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03162698447704315,
+          "receiver_loss": 0.002531842328608036
+        },
+        {
+          "update": 182,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007204659748822451,
+          "receiver_loss": 0.001578837400302291
+        },
+        {
+          "update": 183,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.029836731031537056,
+          "receiver_loss": 0.0025422689504921436
+        },
+        {
+          "update": 184,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03148774057626724,
+          "receiver_loss": 0.002421254524961114
+        },
+        {
+          "update": 185,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007184823043644428,
+          "receiver_loss": 0.0015757778892293572
+        },
+        {
+          "update": 186,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.029707061126828194,
+          "receiver_loss": 0.0024332746397703886
+        },
+        {
+          "update": 187,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03134748339653015,
+          "receiver_loss": 0.0023167866747826338
+        },
+        {
+          "update": 188,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007164542097598314,
+          "receiver_loss": 0.0015726368874311447
+        },
+        {
+          "update": 189,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.029577558860182762,
+          "receiver_loss": 0.002330182818695903
+        },
+        {
+          "update": 190,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03120630420744419,
+          "receiver_loss": 0.002218138426542282
+        },
+        {
+          "update": 191,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007143890950828791,
+          "receiver_loss": 0.0015694613102823496
+        },
+        {
+          "update": 192,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.02944818325340748,
+          "receiver_loss": 0.0022326933685690165
+        },
+        {
+          "update": 193,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.031064245849847794,
+          "receiver_loss": 0.002125042024999857
+        },
+        {
+          "update": 194,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007122946437448263,
+          "receiver_loss": 0.0015662546502426267
+        },
+        {
+          "update": 195,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.02931893989443779,
+          "receiver_loss": 0.002140532247722149
+        },
+        {
+          "update": 196,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.030921438708901405,
+          "receiver_loss": 0.0020371696446090937
+        },
+        {
+          "update": 197,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007101744879037142,
+          "receiver_loss": 0.0015629970002919436
+        },
+        {
+          "update": 198,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.02918984554708004,
+          "receiver_loss": 0.0020534279756247997
+        },
+        {
+          "update": 199,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.030778000131249428,
+          "receiver_loss": 0.001954226288944483
+        },
+        {
+          "update": 200,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007080335170030594,
+          "receiver_loss": 0.0015596890589222312
+        },
+        {
+          "update": 201,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.029060903936624527,
+          "receiver_loss": 0.0019711069762706757
+        },
+        {
+          "update": 202,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.030633987858891487,
+          "receiver_loss": 0.0018759603844955564
+        },
+        {
+          "update": 203,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0070587811060249805,
+          "receiver_loss": 0.0015563492197543383
+        },
+        {
+          "update": 204,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.02893209271132946,
+          "receiver_loss": 0.0018933236133307219
+        },
+        {
+          "update": 205,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03048948384821415,
+          "receiver_loss": 0.0018021069699898362
+        },
+        {
+          "update": 206,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007037127390503883,
+          "receiver_loss": 0.0015529654920101166
+        },
+        {
+          "update": 207,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.028803415596485138,
+          "receiver_loss": 0.0018198295729234815
+        },
+        {
+          "update": 208,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.030344579368829727,
+          "receiver_loss": 0.0017324050422757864
+        },
+        {
+          "update": 209,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.007015408482402563,
+          "receiver_loss": 0.0015495402039960027
+        },
+        {
+          "update": 210,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.02867487631738186,
+          "receiver_loss": 0.001750386436469853
+        },
+        {
+          "update": 211,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.030199358239769936,
+          "receiver_loss": 0.0016666221199557185
+        },
+        {
+          "update": 212,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006993665359914303,
+          "receiver_loss": 0.001546071725897491
+        },
+        {
+          "update": 213,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.028546465560793877,
+          "receiver_loss": 0.0016847699880599976
+        },
+        {
+          "update": 214,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.03005385771393776,
+          "receiver_loss": 0.0016045360825955868
+        },
+        {
+          "update": 215,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.00697194691747427,
+          "receiver_loss": 0.0015425734454765916
+        },
+        {
+          "update": 216,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.028418170288205147,
+          "receiver_loss": 0.0016227648593485355
+        },
+        {
+          "update": 217,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.029908139258623123,
+          "receiver_loss": 0.0015459274873137474
+        },
+        {
+          "update": 218,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006950280629098415,
+          "receiver_loss": 0.0015390395419672132
+        },
+        {
+          "update": 219,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.02828999049961567,
+          "receiver_loss": 0.0015641709323972464
+        },
+        {
+          "update": 220,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.02976229228079319,
+          "receiver_loss": 0.001490583992563188
+        },
+        {
+          "update": 221,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006928696762770414,
+          "receiver_loss": 0.0015354667557403445
+        },
+        {
+          "update": 222,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.028161924332380295,
+          "receiver_loss": 0.001508788438513875
+        },
+        {
+          "update": 223,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.0296163409948349,
+          "receiver_loss": 0.001438323175534606
+        },
+        {
+          "update": 224,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006907226052135229,
+          "receiver_loss": 0.0015318581135943532
+        },
+        {
+          "update": 225,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.028033947572112083,
+          "receiver_loss": 0.0014564357697963715
+        },
+        {
+          "update": 226,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.029470333829522133,
+          "receiver_loss": 0.0013889592373743653
+        },
+        {
+          "update": 227,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.00688590295612812,
+          "receiver_loss": 0.001528221764601767
+        },
+        {
+          "update": 228,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.027906056493520737,
+          "receiver_loss": 0.0014069397002458572
+        },
+        {
+          "update": 229,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.02932431735098362,
+          "receiver_loss": 0.0013423127820715308
+        },
+        {
+          "update": 230,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006864740047603846,
+          "receiver_loss": 0.0015245468821376562
+        },
+        {
+          "update": 231,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.027778247371315956,
+          "receiver_loss": 0.0013601311948150396
+        },
+        {
+          "update": 232,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.029178334400057793,
+          "receiver_loss": 0.0012982259504497051
+        },
+        {
+          "update": 233,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006843763403594494,
+          "receiver_loss": 0.001520840683951974
+        },
+        {
+          "update": 234,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.027650507166981697,
+          "receiver_loss": 0.0013158570509403944
+        },
+        {
+          "update": 235,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.029032403603196144,
+          "receiver_loss": 0.0012565464712679386
+        },
+        {
+          "update": 236,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.00682299816980958,
+          "receiver_loss": 0.0015171082923188806
+        },
+        {
+          "update": 237,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.027522806078195572,
+          "receiver_loss": 0.0012739691883325577
+        },
+        {
+          "update": 238,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.02888655476272106,
+          "receiver_loss": 0.0012171303387731314
+        },
+        {
+          "update": 239,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.00680245365947485,
+          "receiver_loss": 0.0015133414417505264
+        },
+        {
+          "update": 240,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.027395153418183327,
+          "receiver_loss": 0.0012343281414359808
+        },
+        {
+          "update": 241,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.02874082699418068,
+          "receiver_loss": 0.001179832499474287
+        },
+        {
+          "update": 242,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006782144773751497,
+          "receiver_loss": 0.0015095405979081988
+        },
+        {
+          "update": 243,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.027267536148428917,
+          "receiver_loss": 0.0011968021281063557
+        },
+        {
+          "update": 244,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.028595229610800743,
+          "receiver_loss": 0.0011445303680375218
+        },
+        {
+          "update": 245,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.00676208920776844,
+          "receiver_loss": 0.0015057140262797475
+        },
+        {
+          "update": 246,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.027139928191900253,
+          "receiver_loss": 0.0011612694943323731
+        },
+        {
+          "update": 247,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.028449777513742447,
+          "receiver_loss": 0.0011111082276329398
+        },
+        {
+          "update": 248,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0067422958090901375,
+          "receiver_loss": 0.0015018591657280922
+        },
+        {
+          "update": 249,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.02701231837272644,
+          "receiver_loss": 0.0011276130098849535
+        },
+        {
+          "update": 250,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.02830449305474758,
+          "receiver_loss": 0.0010794487316161394
+        },
+        {
+          "update": 251,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006722773890942335,
+          "receiver_loss": 0.0014979754341766238
+        },
+        {
+          "update": 252,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.02688470482826233,
+          "receiver_loss": 0.0010957230115309358
+        },
+        {
+          "update": 253,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.028159383684396744,
+          "receiver_loss": 0.00104944733902812
+        },
+        {
+          "update": 254,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006703532766550779,
+          "receiver_loss": 0.001494065742008388
+        },
+        {
+          "update": 255,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.026757070794701576,
+          "receiver_loss": 0.0010654960060492158
+        },
+        {
+          "update": 256,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.02801445871591568,
+          "receiver_loss": 0.0010210006730630994
+        },
+        {
+          "update": 257,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006684573832899332,
+          "receiver_loss": 0.0014901229878887534
+        },
+        {
+          "update": 258,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.026629390195012093,
+          "receiver_loss": 0.001036838162690401
+        },
+        {
+          "update": 259,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.02786972187459469,
+          "receiver_loss": 0.0009940197924152017
+        },
+        {
+          "update": 260,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.0066659110598266125,
+          "receiver_loss": 0.0014861579984426498
+        },
+        {
+          "update": 261,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.02650166116654873,
+          "receiver_loss": 0.001009659143164754
+        },
+        {
+          "update": 262,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.02772517502307892,
+          "receiver_loss": 0.0009684195392765105
+        },
+        {
+          "update": 263,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006647542119026184,
+          "receiver_loss": 0.0014821653021499515
+        },
+        {
+          "update": 264,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.026373865082859993,
+          "receiver_loss": 0.0009838718688115478
+        },
+        {
+          "update": 265,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.027580834925174713,
+          "receiver_loss": 0.0009441171423532069
+        },
+        {
+          "update": 266,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006629469338804483,
+          "receiver_loss": 0.0014781472273170948
+        },
+        {
+          "update": 267,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.02624599263072014,
+          "receiver_loss": 0.0009593968279659748
+        },
+        {
+          "update": 268,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.02743667922914028,
+          "receiver_loss": 0.0009210403659380972
+        },
+        {
+          "update": 269,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006611699238419533,
+          "receiver_loss": 0.0014741068007424474
+        },
+        {
+          "update": 270,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.026118023321032524,
+          "receiver_loss": 0.0009361604461446404
+        },
+        {
+          "update": 271,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.02729272097349167,
+          "receiver_loss": 0.0008991069626063108
+        },
+        {
+          "update": 272,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.00659422529861331,
+          "receiver_loss": 0.0014700285391882062
+        },
+        {
+          "update": 273,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.02598995342850685,
+          "receiver_loss": 0.0009140933398157358
+        },
+        {
+          "update": 274,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.027148954570293427,
+          "receiver_loss": 0.00087825080845505
+        },
+        {
+          "update": 275,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006577052175998688,
+          "receiver_loss": 0.0014659252483397722
+        },
+        {
+          "update": 276,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.02586176060140133,
+          "receiver_loss": 0.0008931277552619576
+        },
+        {
+          "update": 277,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.02700536884367466,
+          "receiver_loss": 0.0008584139868617058
+        },
+        {
+          "update": 278,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006560185924172401,
+          "receiver_loss": 0.0014618049608543515
+        },
+        {
+          "update": 279,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.025733429938554764,
+          "receiver_loss": 0.0008732048445381224
+        },
+        {
+          "update": 280,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.026861954480409622,
+          "receiver_loss": 0.0008395442855544388
+        },
+        {
+          "update": 281,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006543613038957119,
+          "receiver_loss": 0.001457658945582807
+        },
+        {
+          "update": 282,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.025604955852031708,
+          "receiver_loss": 0.0008542625000700355
+        },
+        {
+          "update": 283,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.02671871893107891,
+          "receiver_loss": 0.0008215876878239214
+        },
+        {
+          "update": 284,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006527335848659277,
+          "receiver_loss": 0.0014534902293235064
+        },
+        {
+          "update": 285,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.02547631971538067,
+          "receiver_loss": 0.0008362483931705356
+        },
+        {
+          "update": 286,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.026575639843940735,
+          "receiver_loss": 0.0008044889545999467
+        },
+        {
+          "update": 287,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006511351093649864,
+          "receiver_loss": 0.0014492927584797144
+        },
+        {
+          "update": 288,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.0253475159406662,
+          "receiver_loss": 0.0008191107772290707
+        },
+        {
+          "update": 289,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.0264327060431242,
+          "receiver_loss": 0.0007881892379373312
+        },
+        {
+          "update": 290,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006495660170912743,
+          "receiver_loss": 0.0014450603630393744
+        },
+        {
+          "update": 291,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.025218527764081955,
+          "receiver_loss": 0.0008028016891330481
+        },
+        {
+          "update": 292,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.0262899212539196,
+          "receiver_loss": 0.0007726324838586152
+        },
+        {
+          "update": 293,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006480254698544741,
+          "receiver_loss": 0.0014407895505428314
+        },
+        {
+          "update": 294,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.025089344009757042,
+          "receiver_loss": 0.0007872784626670182
+        },
+        {
+          "update": 295,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.0261472687125206,
+          "receiver_loss": 0.000757785455789417
+        },
+        {
+          "update": 296,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006465139798820019,
+          "receiver_loss": 0.0014365010429173708
+        },
+        {
+          "update": 297,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.024959934875369072,
+          "receiver_loss": 0.0007725005852989852
+        },
+        {
+          "update": 298,
+          "slot": 0,
+          "depth": -2,
+          "field_loss": 0.026004733517766,
+          "receiver_loss": 0.0007436243467964232
+        },
+        {
+          "update": 299,
+          "slot": 1,
+          "depth": 0,
+          "field_loss": 0.006450297776609659,
+          "receiver_loss": 0.0014321942580863833
+        },
+        {
+          "update": 300,
+          "slot": 2,
+          "depth": 2,
+          "field_loss": 0.02483031526207924,
+          "receiver_loss": 0.0007584262057207525
+        }
+      ],
+      "updates": 300,
+      "elapsed_seconds": 174.30776830000104,
+      "peak_allocated_bytes": 9467357184,
+      "peak_reserved_bytes": 10739515392,
+      "final_state_hash": "be74d89f0037c2e78bec39e1223371e31dbb0702067ad98946f98ffa00376e71",
+      "history": [
+        {
+          "update": 0,
+          "evaluation": {
+            "records": {
+              "depth-2": {
+                "role": "training_geometry",
+                "full_field_relative_l2": 0.20307637108265922,
+                "scatter_field_relative_l2": 0.5951290265134302,
+                "full_trace_relative_l2": 0.21593393882688672,
+                "scatter_trace_relative_l2": 0.6517982971520089
+              },
+              "depth0": {
+                "role": "training_geometry",
+                "full_field_relative_l2": 0.07078670936850083,
+                "scatter_field_relative_l2": 0.20993339429818783,
+                "full_trace_relative_l2": 0.01651136793958105,
+                "scatter_trace_relative_l2": 0.05091913801981444
+              },
+              "depth2": {
+                "role": "training_geometry",
+                "full_field_relative_l2": 0.20631718787957062,
+                "scatter_field_relative_l2": 0.6147051856586069,
+                "full_trace_relative_l2": 0.20169431330004295,
+                "scatter_trace_relative_l2": 0.6268367652796583
+              },
+              "depth-1": {
+                "role": "used_development",
+                "full_field_relative_l2": 0.12108055355458922,
+                "scatter_field_relative_l2": 0.35711341381806755,
+                "full_trace_relative_l2": 0.11471205426516973,
+                "scatter_trace_relative_l2": 0.3502355127636972
+              },
+              "depth1": {
+                "role": "used_development",
+                "full_field_relative_l2": 0.12308441421243226,
+                "scatter_field_relative_l2": 0.3666588939432505,
+                "full_trace_relative_l2": 0.10457755046734314,
+                "scatter_trace_relative_l2": 0.3249977807675509
+              },
+              "contrast03": {
+                "role": "forgetting_diagnostic",
+                "full_field_relative_l2": 0.10140802902286077,
+                "scatter_field_relative_l2": 0.19241439920970235,
+                "full_trace_relative_l2": 0.01882849654777379,
+                "scatter_trace_relative_l2": 0.0383173909286949
+              },
+              "contrast07": {
+                "role": "forgetting_diagnostic",
+                "full_field_relative_l2": 0.04518878980647223,
+                "scatter_field_relative_l2": 0.24710500933842866,
+                "full_trace_relative_l2": 0.010084009975451972,
+                "scatter_trace_relative_l2": 0.056704737382876055
+              }
+            },
+            "response": {
+              "relative_l2": 1.207872429970621,
+              "norm_ratio": 0.5696710194067093,
+              "cosine": -0.11798979775311773
+            },
+            "screen_passed": false
+          }
+        },
+        {
+          "update": 150,
+          "evaluation": {
+            "records": {
+              "depth-2": {
+                "role": "training_geometry",
+                "full_field_relative_l2": 0.18129725779131023,
+                "scatter_field_relative_l2": 0.5313038634858199,
+                "full_trace_relative_l2": 0.06404659780560057,
+                "scatter_trace_relative_l2": 0.19332516053225518
+              },
+              "depth0": {
+                "role": "training_geometry",
+                "full_field_relative_l2": 0.08540205639357665,
+                "scatter_field_relative_l2": 0.25327838712512407,
+                "full_trace_relative_l2": 0.03910001683061306,
+                "scatter_trace_relative_l2": 0.12057990354647566
+              },
+              "depth2": {
+                "role": "training_geometry",
+                "full_field_relative_l2": 0.1761769908707299,
+                "scatter_field_relative_l2": 0.5249049339756447,
+                "full_trace_relative_l2": 0.06395868068123979,
+                "scatter_trace_relative_l2": 0.19877433257199517
+              },
+              "depth-1": {
+                "role": "used_development",
+                "full_field_relative_l2": 0.11947622432943703,
+                "scatter_field_relative_l2": 0.35238162601513284,
+                "full_trace_relative_l2": 0.04185903159818503,
+                "scatter_trace_relative_l2": 0.12780277965986647
+              },
+              "depth1": {
+                "role": "used_development",
+                "full_field_relative_l2": 0.11445154877218036,
+                "scatter_field_relative_l2": 0.34094225943564643,
+                "full_trace_relative_l2": 0.04198610534635471,
+                "scatter_trace_relative_l2": 0.13048107361148212
+              }
+            },
+            "response": {
+              "relative_l2": 0.3895932440946629,
+              "norm_ratio": 0.6877638593194629,
+              "cosine": 0.960530429477032
+            },
+            "screen_passed": false
+          }
+        },
+        {
+          "update": 300,
+          "evaluation": {
+            "records": {
+              "depth-2": {
+                "role": "training_geometry",
+                "full_field_relative_l2": 0.16065429629384026,
+                "scatter_field_relative_l2": 0.4708082700553906,
+                "full_trace_relative_l2": 0.027080633393578368,
+                "scatter_trace_relative_l2": 0.08174310544987107
+              },
+              "depth0": {
+                "role": "training_geometry",
+                "full_field_relative_l2": 0.07964328077002433,
+                "scatter_field_relative_l2": 0.23619948453960607,
+                "full_trace_relative_l2": 0.036127793450681345,
+                "scatter_trace_relative_l2": 0.11141391239042718
+              },
+              "depth2": {
+                "role": "training_geometry",
+                "full_field_relative_l2": 0.15691613081443953,
+                "scatter_field_relative_l2": 0.4675187768719652,
+                "full_trace_relative_l2": 0.027402960950203233,
+                "scatter_trace_relative_l2": 0.08516444078201252
+              },
+              "depth-1": {
+                "role": "used_development",
+                "full_field_relative_l2": 0.10710718705226867,
+                "scatter_field_relative_l2": 0.3159005479392793,
+                "full_trace_relative_l2": 0.02631887093450274,
+                "scatter_trace_relative_l2": 0.08035601241870492
+              },
+              "depth1": {
+                "role": "used_development",
+                "full_field_relative_l2": 0.10318565456308329,
+                "scatter_field_relative_l2": 0.3073820370758931,
+                "full_trace_relative_l2": 0.026567805808793542,
+                "scatter_trace_relative_l2": 0.08256531051965567
+              },
+              "contrast03": {
+                "role": "forgetting_diagnostic",
+                "full_field_relative_l2": 0.148836639808861,
+                "scatter_field_relative_l2": 0.28240675718839603,
+                "full_trace_relative_l2": 0.0696346560711671,
+                "scatter_trace_relative_l2": 0.14171170449504678
+              },
+              "contrast07": {
+                "role": "forgetting_diagnostic",
+                "full_field_relative_l2": 0.07065404828369984,
+                "scatter_field_relative_l2": 0.38635620329095094,
+                "full_trace_relative_l2": 0.06058147428439413,
+                "scatter_trace_relative_l2": 0.3406637436819927
+              }
+            },
+            "response": {
+              "relative_l2": 0.1688145136633924,
+              "norm_ratio": 0.9261752973089504,
+              "cosine": 0.9875572943032753
+            },
+            "screen_passed": false
+          }
+        }
+      ]
+    }
+  },
+  "elapsed_seconds": 182.99164310001652,
+  "primary_update": 300,
+  "total_updates": 600,
+  "physical_calls": 0,
+  "linear_baselines": {
+    "status": "completed",
+    "rows": [
+      {
+        "shift_rows": -1,
+        "method": "width8",
+        "full_field_relative_l2": 0.12108055355458922,
+        "scatter_field_relative_l2": 0.35711341381806755,
+        "full_trace_relative_l2": 0.11471205426516973,
+        "scatter_trace_relative_l2": 0.3502355127636972
+      },
+      {
+        "shift_rows": -1,
+        "method": "linear_direct",
+        "full_field_relative_l2": 0.02135244784794371,
+        "scatter_field_relative_l2": 0.06297663266722334,
+        "full_trace_relative_l2": 0.02152008645715733,
+        "scatter_trace_relative_l2": 0.06570450301254956
+      },
+      {
+        "shift_rows": -1,
+        "method": "linear_snapshot",
+        "full_field_relative_l2": 0.02135244784794371,
+        "scatter_field_relative_l2": 0.06297663266722334,
+        "full_trace_relative_l2": 0.02158056492957062,
+        "scatter_trace_relative_l2": 0.06588915412818444
+      },
+      {
+        "shift_rows": -1,
+        "method": "nearest",
+        "full_field_relative_l2": 0.0934895322986486,
+        "scatter_field_relative_l2": 0.2757368136772899,
+        "full_trace_relative_l2": 0.09198412267701374,
+        "scatter_trace_relative_l2": 0.28084325207385447
+      },
+      {
+        "shift_rows": -1,
+        "method": "zero_scatter",
+        "full_field_relative_l2": 0.3390535019675123,
+        "scatter_field_relative_l2": 1.0,
+        "full_trace_relative_l2": 0.327528334748183,
+        "scatter_trace_relative_l2": 1.0
+      },
+      {
+        "shift_rows": 1,
+        "method": "width8",
+        "full_field_relative_l2": 0.12308441421243226,
+        "scatter_field_relative_l2": 0.3666588939432505,
+        "full_trace_relative_l2": 0.10457755046734314,
+        "scatter_trace_relative_l2": 0.3249977807675509
+      },
+      {
+        "shift_rows": 1,
+        "method": "linear_direct",
+        "full_field_relative_l2": 0.021696398186149556,
+        "scatter_field_relative_l2": 0.06463188221179691,
+        "full_trace_relative_l2": 0.020909250117827648,
+        "scatter_trace_relative_l2": 0.06498010189987845
+      },
+      {
+        "shift_rows": 1,
+        "method": "linear_snapshot",
+        "full_field_relative_l2": 0.021696398186149556,
+        "scatter_field_relative_l2": 0.06463188221179691,
+        "full_trace_relative_l2": 0.020979226219387463,
+        "scatter_trace_relative_l2": 0.0651975680540585
+      },
+      {
+        "shift_rows": 1,
+        "method": "nearest",
+        "full_field_relative_l2": 0.09349776483455675,
+        "scatter_field_relative_l2": 0.27852256729464986,
+        "full_trace_relative_l2": 0.09165096168995002,
+        "scatter_trace_relative_l2": 0.28482555788823044
+      },
+      {
+        "shift_rows": 1,
+        "method": "zero_scatter",
+        "full_field_relative_l2": 0.33569188214341417,
+        "scatter_field_relative_l2": 1.0,
+        "full_trace_relative_l2": 0.32177927560108616,
+        "scatter_trace_relative_l2": 1.0
+      }
+    ],
+    "finite_geometry_receiver_responses": {
+      "width8": {
+        "relative_l2": 1.207872429970621,
+        "norm_ratio": 0.5696710194067093,
+        "cosine": -0.11798979775311773
+      },
+      "linear_direct": {
+        "relative_l2": 0.14840173883230007,
+        "norm_ratio": 0.9199916223700971,
+        "cosine": 0.9915098489933908
+      },
+      "linear_snapshot": {
+        "relative_l2": 0.14865503651761586,
+        "norm_ratio": 0.9196272908919404,
+        "cosine": 0.9914973448115513
+      },
+      "nearest": {
+        "relative_l2": 0.4387766519880747,
+        "norm_ratio": 1.0005639985872292,
+        "cosine": 0.9037919450893316
+      },
+      "zero_scatter": {
+        "relative_l2": 1.0,
+        "norm_ratio": 0.0,
+        "cosine": null
+      }
+    },
+    "physical_response_over_nominal_scatter_norm": 0.5487594991070374,
+    "screen_passes": {
+      "width8": false,
+      "linear_direct": true,
+      "linear_snapshot": true,
+      "nearest": false,
+      "zero_scatter": false
+    },
+    "linear_beats_width8_both_receiver": true,
+    "decision": "linear_passes_and_beats_network_both",
+    "direct_vs_snapshot_gap_over_true_scatter_norm": {
+      "-1": 0.0004544291833408719,
+      "1": 0.0004981280878544179
+    },
+    "calls": {
+      "physical": 2,
+      "network": 2,
+      "training": 0
+    },
+    "elapsed_seconds": 8.648814299987862,
+    "checks": {
+      "449_cells_no_wrap_interior": true,
+      "coordinates": "exact unchanged",
+      "references": "committed before new labels",
+      "nearest_tie_rule": "lower signed depth"
+    },
+    "scope": "Known depth and contrast supplied forward inputs; references have three physical depth labels unavailable during original FNO training; no architecture causal comparison or material recovery"
+  },
+  "scope": "Paired one-initialization local-depth intervention on used development states; not final testing, material derivative/recovery or full-cost benefit",
+  "retry_new_updates": 300,
+  "recovery_new_updates": 450,
+  "across_attempts_executed_updates": 750,
+  "failed_first_run_seconds_lower_bound": 302.1,
+  "prior_nominal_recovery_seconds": 155.2506356999802,
+  "cost_warning": "Selected trajectories600 updates;actual750 across attempts. Elapsed here is storage retry only. Nominal elapsed is prior resumed150,coverage elapsed is new300;not equal-budget timing comparison. Failed storage and verification costs not fully timed."
+}

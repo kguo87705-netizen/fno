@@ -1,0 +1,20 @@
+{
+  "scope": "Case1 development only; observation consistency, local unconstrained derivative responses, separate feasible projected trials. Not a full identifiability proof.",
+  "directions": [
+    "shallow",
+    "deep",
+    "left",
+    "right",
+    "defect_contrast",
+    "uniform"
+  ],
+  "derivative_peak_amplitudes": [
+    0.0001,
+    5e-05
+  ],
+  "projected_trial_peak_amplitude": 0.005,
+  "boundary": "ghost and source/receiver material masked",
+  "precision": "float32 FD; response Gram and statistics float64",
+  "no_validation_test": true,
+  "script_sha256": "91a1b86c9df950fae1eeb646d68d82f10621d9ce8aa6e271d1a1a6374b3728be"
+}

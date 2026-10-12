@@ -1,0 +1,11 @@
+{
+  "status": "planned_not_run",
+  "experiment": "two_stage_topk_physical_verification",
+  "candidate_count": 20,
+  "proxy_keep": 3,
+  "physical_verify": 3,
+  "comparison": ["frozen_R2_top3", "nominal_secant_top3", "full_physical_grid"],
+  "success": "physical top1 contained in proxy top3 and fewer physical calls than full grid at same candidate quality",
+  "scope": "heldout support rows and scalar materials, source0; not blind final test",
+  "budget": {"network_forwards": 20, "physical_calls": 30, "training_updates": 0}
+}

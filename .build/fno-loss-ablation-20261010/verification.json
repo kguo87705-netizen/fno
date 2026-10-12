@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "saved_artifacts": "Existing two-arm checkpoints and raw summary independently verified; no rerun",
+  "initial": "Both arms same coverage300 state and Adam step300; initial predictions match",
+  "final": "Both final checkpoints reload; 14 states and metrics exact",
+  "schedule": "200 updates total; each arm100; each slot20; receiver weights 1 and 0",
+  "physical_calls": 0,
+  "raw_sha256": "19922471d1c972d20c31e53317bb1414a74798cbd9a2cc5903d84e1d96eb411e",
+  "limits": "One initialization; development states; no physical Jacobian or final independent test"
+}

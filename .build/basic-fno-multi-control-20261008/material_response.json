@@ -1,0 +1,329 @@
+{
+  "scope": "Frozen epoch-20 models, validation material-vs-homogeneous secant response; not a local gradient audit or a test-set score.",
+  "definition": "Compare (FNO(gamma)-FNO(1)) with (FD(gamma)-FD(1)) in full receiver traces; same shot and reconstruction.",
+  "homogeneous_input_caution": "All-homogeneous material is a diagnostic counterfactual, not itself a training workpiece.",
+  "models": [
+    {
+      "receiver_loss_weight": 0,
+      "split": "validation",
+      "groups": 6,
+      "shots": 24,
+      "secant_response_relative_l2": 1.0006834174543608,
+      "response_norm_ratio": 0.029567454266323515,
+      "response_cosine": -0.008338010715893246,
+      "records": [
+        {
+          "group_id": "synthetic_workpiece_004",
+          "shot": 0,
+          "secant_response_relative_l2": 1.001156787811372,
+          "response_norm_ratio": 0.04213486150284157
+        },
+        {
+          "group_id": "synthetic_workpiece_004",
+          "shot": 1,
+          "secant_response_relative_l2": 1.0000606447829148,
+          "response_norm_ratio": 0.03895599975297211
+        },
+        {
+          "group_id": "synthetic_workpiece_004",
+          "shot": 2,
+          "secant_response_relative_l2": 1.0002477179848581,
+          "response_norm_ratio": 0.026159002453107007
+        },
+        {
+          "group_id": "synthetic_workpiece_004",
+          "shot": 3,
+          "secant_response_relative_l2": 1.0004476139541605,
+          "response_norm_ratio": 0.023236528692853527
+        },
+        {
+          "group_id": "synthetic_workpiece_005",
+          "shot": 0,
+          "secant_response_relative_l2": 1.0010967663081538,
+          "response_norm_ratio": 0.035318275050475766
+        },
+        {
+          "group_id": "synthetic_workpiece_005",
+          "shot": 1,
+          "secant_response_relative_l2": 1.0004276836951362,
+          "response_norm_ratio": 0.03216641804947688
+        },
+        {
+          "group_id": "synthetic_workpiece_005",
+          "shot": 2,
+          "secant_response_relative_l2": 1.0017510592884558,
+          "response_norm_ratio": 0.028471948207193766
+        },
+        {
+          "group_id": "synthetic_workpiece_005",
+          "shot": 3,
+          "secant_response_relative_l2": 1.000547231121081,
+          "response_norm_ratio": 0.024859403493519158
+        },
+        {
+          "group_id": "synthetic_workpiece_012",
+          "shot": 0,
+          "secant_response_relative_l2": 1.0018644699965922,
+          "response_norm_ratio": 0.042676034630499675
+        },
+        {
+          "group_id": "synthetic_workpiece_012",
+          "shot": 1,
+          "secant_response_relative_l2": 1.0005359888029548,
+          "response_norm_ratio": 0.03685815130766015
+        },
+        {
+          "group_id": "synthetic_workpiece_012",
+          "shot": 2,
+          "secant_response_relative_l2": 0.9998237012547178,
+          "response_norm_ratio": 0.031156315329311637
+        },
+        {
+          "group_id": "synthetic_workpiece_012",
+          "shot": 3,
+          "secant_response_relative_l2": 1.0008482952145568,
+          "response_norm_ratio": 0.027943740600665682
+        },
+        {
+          "group_id": "synthetic_workpiece_013",
+          "shot": 0,
+          "secant_response_relative_l2": 0.9997666037082374,
+          "response_norm_ratio": 0.03013565170689164
+        },
+        {
+          "group_id": "synthetic_workpiece_013",
+          "shot": 1,
+          "secant_response_relative_l2": 1.001609210790571,
+          "response_norm_ratio": 0.027242309814419448
+        },
+        {
+          "group_id": "synthetic_workpiece_013",
+          "shot": 2,
+          "secant_response_relative_l2": 1.0012148701145624,
+          "response_norm_ratio": 0.021867275834058134
+        },
+        {
+          "group_id": "synthetic_workpiece_013",
+          "shot": 3,
+          "secant_response_relative_l2": 1.0003887716116808,
+          "response_norm_ratio": 0.021415986227587933
+        },
+        {
+          "group_id": "synthetic_workpiece_020",
+          "shot": 0,
+          "secant_response_relative_l2": 0.9997827482179495,
+          "response_norm_ratio": 0.03639025330007984
+        },
+        {
+          "group_id": "synthetic_workpiece_020",
+          "shot": 1,
+          "secant_response_relative_l2": 0.9998001191819135,
+          "response_norm_ratio": 0.03232428605364978
+        },
+        {
+          "group_id": "synthetic_workpiece_020",
+          "shot": 2,
+          "secant_response_relative_l2": 0.9999348846901843,
+          "response_norm_ratio": 0.03305057809420761
+        },
+        {
+          "group_id": "synthetic_workpiece_020",
+          "shot": 3,
+          "secant_response_relative_l2": 1.0012235266916898,
+          "response_norm_ratio": 0.02795303469886397
+        },
+        {
+          "group_id": "synthetic_workpiece_021",
+          "shot": 0,
+          "secant_response_relative_l2": 1.0013910065476874,
+          "response_norm_ratio": 0.033956186312315804
+        },
+        {
+          "group_id": "synthetic_workpiece_021",
+          "shot": 1,
+          "secant_response_relative_l2": 1.0007840898598444,
+          "response_norm_ratio": 0.03142533885853752
+        },
+        {
+          "group_id": "synthetic_workpiece_021",
+          "shot": 2,
+          "secant_response_relative_l2": 1.0004859155633608,
+          "response_norm_ratio": 0.02718554255328248
+        },
+        {
+          "group_id": "synthetic_workpiece_021",
+          "shot": 3,
+          "secant_response_relative_l2": 0.9999022308173007,
+          "response_norm_ratio": 0.02646184898332571
+        }
+      ],
+      "energy_sums": {
+        "response_error": 4658.092908991745,
+        "true_scatter": 4651.732585871828,
+        "predicted_response": 4.066704421915347,
+        "dot": -1.1468090807845133
+      }
+    },
+    {
+      "receiver_loss_weight": 1,
+      "split": "validation",
+      "groups": 6,
+      "shots": 24,
+      "secant_response_relative_l2": 1.0038955847618296,
+      "response_norm_ratio": 0.07921452840700231,
+      "response_cosine": -0.0096661785687674,
+      "records": [
+        {
+          "group_id": "synthetic_workpiece_004",
+          "shot": 0,
+          "secant_response_relative_l2": 1.0048763759328874,
+          "response_norm_ratio": 0.06949634774388469
+        },
+        {
+          "group_id": "synthetic_workpiece_004",
+          "shot": 1,
+          "secant_response_relative_l2": 1.0002997294521665,
+          "response_norm_ratio": 0.07081879585997278
+        },
+        {
+          "group_id": "synthetic_workpiece_004",
+          "shot": 2,
+          "secant_response_relative_l2": 1.0023409061119155,
+          "response_norm_ratio": 0.05942914640184611
+        },
+        {
+          "group_id": "synthetic_workpiece_004",
+          "shot": 3,
+          "secant_response_relative_l2": 1.002246866637726,
+          "response_norm_ratio": 0.06251170733025177
+        },
+        {
+          "group_id": "synthetic_workpiece_005",
+          "shot": 0,
+          "secant_response_relative_l2": 1.0016015891308592,
+          "response_norm_ratio": 0.0858791334334753
+        },
+        {
+          "group_id": "synthetic_workpiece_005",
+          "shot": 1,
+          "secant_response_relative_l2": 1.003386143125531,
+          "response_norm_ratio": 0.08888361595598962
+        },
+        {
+          "group_id": "synthetic_workpiece_005",
+          "shot": 2,
+          "secant_response_relative_l2": 1.0073145552331306,
+          "response_norm_ratio": 0.10062370877288093
+        },
+        {
+          "group_id": "synthetic_workpiece_005",
+          "shot": 3,
+          "secant_response_relative_l2": 1.0036709694673658,
+          "response_norm_ratio": 0.09821616824777153
+        },
+        {
+          "group_id": "synthetic_workpiece_012",
+          "shot": 0,
+          "secant_response_relative_l2": 1.0046829646058533,
+          "response_norm_ratio": 0.09485972359256252
+        },
+        {
+          "group_id": "synthetic_workpiece_012",
+          "shot": 1,
+          "secant_response_relative_l2": 1.0076301508681238,
+          "response_norm_ratio": 0.09639308155392999
+        },
+        {
+          "group_id": "synthetic_workpiece_012",
+          "shot": 2,
+          "secant_response_relative_l2": 1.010907948691241,
+          "response_norm_ratio": 0.10036923262266073
+        },
+        {
+          "group_id": "synthetic_workpiece_012",
+          "shot": 3,
+          "secant_response_relative_l2": 1.0095634393430797,
+          "response_norm_ratio": 0.10290887264043673
+        },
+        {
+          "group_id": "synthetic_workpiece_013",
+          "shot": 0,
+          "secant_response_relative_l2": 1.0048015227011062,
+          "response_norm_ratio": 0.08013344701327808
+        },
+        {
+          "group_id": "synthetic_workpiece_013",
+          "shot": 1,
+          "secant_response_relative_l2": 1.0032926369118722,
+          "response_norm_ratio": 0.07590095927511098
+        },
+        {
+          "group_id": "synthetic_workpiece_013",
+          "shot": 2,
+          "secant_response_relative_l2": 1.0051390197021797,
+          "response_norm_ratio": 0.07354104436425421
+        },
+        {
+          "group_id": "synthetic_workpiece_013",
+          "shot": 3,
+          "secant_response_relative_l2": 1.0084680089529985,
+          "response_norm_ratio": 0.08100473481531166
+        },
+        {
+          "group_id": "synthetic_workpiece_020",
+          "shot": 0,
+          "secant_response_relative_l2": 1.0009072945712596,
+          "response_norm_ratio": 0.08766335468718463
+        },
+        {
+          "group_id": "synthetic_workpiece_020",
+          "shot": 1,
+          "secant_response_relative_l2": 1.0026131232665743,
+          "response_norm_ratio": 0.08370359741961513
+        },
+        {
+          "group_id": "synthetic_workpiece_020",
+          "shot": 2,
+          "secant_response_relative_l2": 1.0040865267168668,
+          "response_norm_ratio": 0.10120691838649586
+        },
+        {
+          "group_id": "synthetic_workpiece_020",
+          "shot": 3,
+          "secant_response_relative_l2": 1.0025436839905442,
+          "response_norm_ratio": 0.09421942759660348
+        },
+        {
+          "group_id": "synthetic_workpiece_021",
+          "shot": 0,
+          "secant_response_relative_l2": 1.0003036215167764,
+          "response_norm_ratio": 0.05117500298351187
+        },
+        {
+          "group_id": "synthetic_workpiece_021",
+          "shot": 1,
+          "secant_response_relative_l2": 1.0033223251877335,
+          "response_norm_ratio": 0.0524604371195726
+        },
+        {
+          "group_id": "synthetic_workpiece_021",
+          "shot": 2,
+          "secant_response_relative_l2": 1.0038655539203718,
+          "response_norm_ratio": 0.05047547338139896
+        },
+        {
+          "group_id": "synthetic_workpiece_021",
+          "shot": 3,
+          "secant_response_relative_l2": 1.000837091540167,
+          "response_norm_ratio": 0.05189214746306215
+        }
+      ],
+      "energy_sums": {
+        "response_error": 4688.045615770041,
+        "true_scatter": 4651.732585871828,
+        "predicted_response": 29.189349899966626,
+        "dot": -3.561839906306494
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "spectral_amplitude_relative_l2": 0.5178404450416565,
+  "reference_energy_weighted_wrapped_phase_rms_degrees": 35.087947845458984,
+  "phase_reference_amplitude_threshold_fraction": 0.01,
+  "phase_included_reference_energy_fraction": 0.9989855885505676,
+  "dominant_reference_frequency_MHz": 0.4166666666666667,
+  "reference_energy_below_1p05MHz_fraction": 0.9989733099937439,
+  "prediction_norm_ratio": 0.6392630338668823,
+  "caution": "Wrapped full-record spectral phase is not travel-time error; weak predicted amplitude makes phase less informative. No time shift fitted."
+}

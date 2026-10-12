@@ -1,0 +1,42 @@
+{
+  "1": {
+    "initial_cost": 3.3375873679380996e-12,
+    "post_update_cost": 1.065420971932407e-12,
+    "final_cost_over_initial": 0.3192189011041843,
+    "initial_material_mse_half": 0.005053566303104162,
+    "final_material_mse_half": 0.010729610919952393,
+    "final_material_mse_over_initial": 2.1231760456693145,
+    "elapsed_seconds": 84.93598270000075,
+    "epochs": 35
+  },
+  "2": {
+    "initial_cost": 6.732533801290241e-12,
+    "post_update_cost": 1.3563000549055015e-12,
+    "final_cost_over_initial": 0.20145462242544945,
+    "initial_material_mse_half": 0.012253778986632824,
+    "final_material_mse_half": 0.02026391215622425,
+    "final_material_mse_over_initial": 1.6536867670234114,
+    "elapsed_seconds": 86.83277369999996,
+    "epochs": 35
+  },
+  "3": {
+    "initial_cost": 8.414611021856366e-12,
+    "post_update_cost": 1.7364386838136792e-12,
+    "final_cost_over_initial": 0.20635994691892479,
+    "initial_material_mse_half": 0.01870863139629364,
+    "final_material_mse_half": 0.039899542927742004,
+    "final_material_mse_over_initial": 2.132681011377801,
+    "elapsed_seconds": 86.74213929999678,
+    "epochs": 35
+  },
+  "4": {
+    "initial_cost": 6.856695766721543e-12,
+    "post_update_cost": 1.49353153542503e-12,
+    "final_cost_over_initial": 0.21782088432066257,
+    "initial_material_mse_half": 0.01583152636885643,
+    "final_material_mse_half": 0.029392294585704803,
+    "final_material_mse_over_initial": 1.8565673265418638,
+    "elapsed_seconds": 81.7757844000007,
+    "epochs": 35
+  }
+}

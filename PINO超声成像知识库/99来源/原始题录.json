@@ -1,0 +1,132 @@
+{
+  "sheet": "PINO超声成像文献",
+  "rows": [
+    {
+      "序号": 1,
+      "团队": "华东理工 刘立帅",
+      "论文题目": "Neural operators for ultrasonic full waveform inversion: A next-generation ultrasonic NDT with improved fidelity, efficiency, and robustness",
+      "作者（部分）": "Jiang Lu, Lishuai Liu, Xuan Li, …, Yanxun Xiang",
+      "期刊/来源": "Mechanical Systems and Signal Processing",
+      "时间": "2026-04",
+      "方法类型": "神经算子",
+      "应用场景": "超声全波形反演（FWI）/ 定量成像",
+      "文献类型": "期刊论文",
+      "链接": "https://www.researchgate.net/publication/403739104"
+    },
+    {
+      "序号": 2,
+      "团队": "华东理工 刘立帅",
+      "论文题目": "Physics-informed Fourier neural network with self-adaptive loss weight for modeling transient wave propagation",
+      "作者（部分）": "Jiang Lu, Lishuai Liu, Haiming Xu, …, Fu-Zhen Xuan",
+      "期刊/来源": "Engineering Applications of Artificial Intelligence",
+      "时间": "2026-02",
+      "方法类型": "PINN + Fourier 网络",
+      "应用场景": "瞬态机械波正演建模与参数反演",
+      "文献类型": "期刊论文",
+      "链接": "https://www.researchgate.net/publication/400741378"
+    },
+    {
+      "序号": 3,
+      "团队": "华东理工 刘立帅",
+      "论文题目": "A steady-state wavefield polarity-aware U-Net for ultrasonic guided waves depth-resolved imaging",
+      "作者（部分）": "Xuan Li, Lishuai Liu, Jiang Lu, …, Yanxun Xiang",
+      "期刊/来源": "NDT & E International",
+      "时间": "2025-11",
+      "方法类型": "数据驱动 U-Net",
+      "应用场景": "导波深度分辨成像",
+      "文献类型": "期刊论文",
+      "链接": "https://www.researchgate.net/publication/397779684"
+    },
+    {
+      "序号": 4,
+      "团队": "华东理工 刘立帅",
+      "论文题目": "A multiscale residual U-net architecture for super-resolution ultrasonic phased array imaging from full matrix capture data (FMC-Net)",
+      "作者（部分）": "Lishuai Liu, Wen Liu, Da Teng, …, Fu-Zhen Xuan",
+      "期刊/来源": "The Journal of the Acoustical Society of America",
+      "时间": "2023-10",
+      "方法类型": "数据驱动 U-Net",
+      "应用场景": "FMC 相控阵超分辨成像",
+      "文献类型": "期刊论文",
+      "链接": "https://www.researchgate.net/publication/374384943"
+    },
+    {
+      "序号": 5,
+      "团队": "天津大学 刘洋",
+      "论文题目": "A Dual-Stage Fourier Neural Operator for Lamb Wave Scattering with Physics Embedded and Residual Refinement",
+      "作者（部分）": "Linfeng Wang, Hongyan Zhang, Zhao Wang, …, Yang Liu",
+      "期刊/来源": "NDT & E International, Vol. 162, Article 103759",
+      "时间": "2026",
+      "方法类型": "物理嵌入 FNO（双阶段）",
+      "应用场景": "Lamb 波散射建模 / 厚度分布→波场",
+      "文献类型": "期刊论文",
+      "链接": "https://www.researchgate.net/publication/404232531"
+    },
+    {
+      "序号": 6,
+      "团队": "天津大学 刘洋",
+      "论文题目": "Physics-Informed Deep U-Fourier Neural Network for Efficient Prediction of Guided Wavefield in Plates with Irregular Defects",
+      "作者（部分）": "Zhao Wang, Linfeng Wang, Xiao Ying, …, Lin Liang",
+      "期刊/来源": "预印本",
+      "时间": "2026-01",
+      "方法类型": "物理信息 U-Fourier 网络",
+      "应用场景": "不规则缺陷板导波全场预测",
+      "文献类型": "预印本（仅题录）",
+      "链接": "https://www.researchgate.net/publication/407324736"
+    },
+    {
+      "序号": 7,
+      "团队": "天津大学 刘洋",
+      "论文题目": "Dual-Stage Fourier Neural Operator: Mitigating Spectral Bias for Enhanced Ultrasonic Guided Wave Corrosion Imaging",
+      "作者（部分）": "Yizhe Gao, Linfeng Wang, Yitian Yan, …, Yang Liu",
+      "期刊/来源": "会议论文",
+      "时间": "2025-09",
+      "方法类型": "双阶段 FNO",
+      "应用场景": "导波腐蚀成像",
+      "文献类型": "会议论文（仅题录）",
+      "链接": "https://www.researchgate.net/publication/396723677"
+    },
+    {
+      "序号": 8,
+      "团队": "天津大学 刘洋",
+      "论文题目": "S0 Lamb wave scattering in plate structures using physics-enhanced TransUNet",
+      "作者（部分）": "Linfeng Wang, Hongyan Zhang, Zhen Zhang, …, Yang Liu",
+      "期刊/来源": "Ultrasonics",
+      "时间": "2025-10",
+      "方法类型": "物理增强 TransUNet",
+      "应用场景": "S0 模态 Lamb 波散射",
+      "文献类型": "期刊论文",
+      "链接": "https://www.researchgate.net/publication/396321558"
+    },
+    {
+      "序号": 9,
+      "团队": "天津大学 刘洋",
+      "论文题目": "Finite difference-embedded UNet for solving transcranial ultrasound frequency-domain wavefield",
+      "作者（部分）": "Linfeng Wang, Jian Li, Shili Chen, Zheng Fan, Zhoumo Zeng, Yang Liu",
+      "期刊/来源": "J. Acoust. Soc. Am. 155(3), 2257–2269",
+      "时间": "2024-03",
+      "方法类型": "有限差分嵌入 UNet",
+      "应用场景": "经颅超声频域波场求解",
+      "文献类型": "期刊论文",
+      "链接": "https://doi.org/10.1121/10.0025391"
+    },
+    {
+      "序号": 10,
+      "团队": "天津大学 刘洋",
+      "论文题目": "Physics-informed neural networks for transcranial ultrasound wave propagation",
+      "作者（部分）": "Linfeng Wang, Hao Wang, Lin Liang, Jian Li, Zhoumo Zeng, Yang Liu",
+      "期刊/来源": "Ultrasonics 132, 107026",
+      "时间": "2023-07",
+      "方法类型": "PINN",
+      "应用场景": "经颅超声波传播建模",
+      "文献类型": "期刊论文",
+      "链接": "https://doi.org/10.1016/j.ultras.2023.107026"
+    }
+  ],
+  "notes": [
+    "说明：",
+    "#1 与 #5 为两组各自最接近“PINO/神经算子超声成像”的核心论文。",
+    "#6、#7 目前仅查到题录（预印本/会议），全文需另行获取。",
+    "未检索到两位老师联合署名的 PINO 超声成像论文。",
+    "来源：ResearchGate 作者主页、ScienceDirect、PubMed，检索日期 2026-08-25。"
+  ]
+}

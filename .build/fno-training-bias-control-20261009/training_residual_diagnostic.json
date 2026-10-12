@@ -1,0 +1,14 @@
+{
+  "status": "exploratory_training_only_cached_analysis",
+  "residual_norms": [
+    1.0610609220991412,
+    0.9174080464742608,
+    0.5558929540247769
+  ],
+  "nonconstant_energy_fraction": 0.35192010289476267,
+  "pairwise_cosines": [
+    0.5943518498566775,
+    0.5061215314484526,
+    0.38558488715093225
+  ]
+}

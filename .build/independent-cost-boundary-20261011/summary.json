@@ -1,0 +1,123 @@
+{
+  "status": "completed",
+  "target": {
+    "shift": 5,
+    "a": 0.48
+  },
+  "proxy_top3": [
+    {
+      "shift": 5,
+      "a": 0.56,
+      "proxy_error": 0.21712623181297155,
+      "nominal_error": 0.06234422865493939
+    },
+    {
+      "shift": 5,
+      "a": 0.52,
+      "proxy_error": 0.21981423161761068,
+      "nominal_error": 0.0300635514029791
+    },
+    {
+      "shift": 4,
+      "a": 0.56,
+      "proxy_error": 0.22629134124912684,
+      "nominal_error": 0.09276405367479461
+    }
+  ],
+  "nominal_top3": [
+    {
+      "shift": 5,
+      "a": 0.48,
+      "proxy_error": 0.22694911395564102,
+      "nominal_error": 0.02111314246532893
+    },
+    {
+      "shift": 5,
+      "a": 0.52,
+      "proxy_error": 0.21981423161761068,
+      "nominal_error": 0.0300635514029791
+    },
+    {
+      "shift": 5,
+      "a": 0.44,
+      "proxy_error": 0.23826028613756622,
+      "nominal_error": 0.05012629880596095
+    }
+  ],
+  "physical_verification": [
+    {
+      "method": "r2_top3",
+      "shift": 5,
+      "a": 0.56,
+      "physical_error": 0.07216430735092831,
+      "proxy_error": 0.21712623181297155,
+      "nominal_error": 0.06234422865493939
+    },
+    {
+      "method": "r2_top3",
+      "shift": 5,
+      "a": 0.52,
+      "physical_error": 0.03728092520320994,
+      "proxy_error": 0.21981423161761068,
+      "nominal_error": 0.0300635514029791
+    },
+    {
+      "method": "r2_top3",
+      "shift": 4,
+      "a": 0.56,
+      "physical_error": 0.11922245449752407,
+      "proxy_error": 0.22629134124912684,
+      "nominal_error": 0.09276405367479461
+    },
+    {
+      "method": "nominal_top3",
+      "shift": 5,
+      "a": 0.48,
+      "physical_error": 0.0,
+      "proxy_error": 0.22694911395564102,
+      "nominal_error": 0.02111314246532893
+    },
+    {
+      "method": "nominal_top3",
+      "shift": 5,
+      "a": 0.52,
+      "physical_error": 0.03728092520320994,
+      "proxy_error": 0.21981423161761068,
+      "nominal_error": 0.0300635514029791
+    },
+    {
+      "method": "nominal_top3",
+      "shift": 5,
+      "a": 0.44,
+      "physical_error": 0.039860706399763995,
+      "proxy_error": 0.23826028613756622,
+      "nominal_error": 0.05012629880596095
+    }
+  ],
+  "best": {
+    "r2": {
+      "method": "r2_top3",
+      "shift": 5,
+      "a": 0.52,
+      "physical_error": 0.03728092520320994,
+      "proxy_error": 0.21981423161761068,
+      "nominal_error": 0.0300635514029791
+    },
+    "nominal": {
+      "method": "nominal_top3",
+      "shift": 5,
+      "a": 0.48,
+      "physical_error": 0.0,
+      "proxy_error": 0.22694911395564102,
+      "nominal_error": 0.02111314246532893
+    }
+  },
+  "cost": {
+    "network_forwards": 20,
+    "physical_calls": 12,
+    "target": 1,
+    "centers": 5,
+    "rechecks": 6
+  },
+  "scope": "prospective heldout support/material batch; no full-grid benchmark; not final test"
+}

@@ -1,0 +1,5 @@
+{
+  "status": "passed",
+  "checks": "saved trace residuals, LS proposal algebra, acceptance, first threshold crossing, final a, and input hashes; no independent physical replay",
+  "raw_sha256": "122e76cd55dbaf1dabb1b5167e41a752a5e1fa361123953d933df65dc2df47c8"
+}

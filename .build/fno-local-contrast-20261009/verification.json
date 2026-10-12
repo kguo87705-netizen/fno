@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "five_physical_targets": "bit_identical_recomputed",
+  "references": "exact_recomputed",
+  "final_metrics": "exact_reload",
+  "example_predictions": "bit_identical",
+  "optimizer_steps": 1200,
+  "exposures": [
+    400,
+    400,
+    400
+  ],
+  "source_and_dependency_hashes": "passed",
+  "scope": "Fixed training geometry contrast interpolation only; no unseen geometry, old validation/test or independent final test"
+}

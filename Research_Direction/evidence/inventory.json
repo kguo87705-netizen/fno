@@ -1,0 +1,905 @@
+[
+  {
+    "path": ".build/add_fulltexts.py",
+    "size": 10685,
+    "sha256": "8c11159bc7f5c787237cf8d5636dab4e041fd06a4d2ef24dd46ab351011b4e6e",
+    "ext": ".py"
+  },
+  {
+    "path": ".build/b01-guide/B01_page_1.png",
+    "size": 333116,
+    "sha256": "7378ce8165ca490e919ecda61889ea15e1e7126908c10443b6a77c4c550fd073",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/b01-guide/B01_page_2.png",
+    "size": 540263,
+    "sha256": "a109046387b99e8dbde16d56c921a22e7e1c49ecb3b2ec758cc2d233ea67a3ce",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/b01-guide/B01_page_4.png",
+    "size": 324053,
+    "sha256": "3784ff5d7bd845928473e88e39199b4f478f5bd84678376ae5bef2e3f023f56a",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/b01-guide/B01_page_6.png",
+    "size": 369610,
+    "sha256": "8a26c783c7c2d5fbc19e34cc5ec3e1cab4add1a42d47cf80eaeac66612947e8c",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/b01-guide/B01_page_9.png",
+    "size": 377523,
+    "sha256": "60bb40a87fa3eee96b5ae3a4dc6c1ed5ad2d699e8c8f6408ff7c948087e057b3",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/build_vault.py",
+    "size": 49960,
+    "sha256": "a87500b2662877d83082fb86b8484a95e0af1cb3df1d57dad331f338e14ab593",
+    "ext": ".py"
+  },
+  {
+    "path": ".build/downloads/B01.pdf",
+    "size": 2436198,
+    "sha256": "6cd2645d4a50d1a61a261529b33747c674d78851bdbe6993b0961f81a17dc6f2",
+    "ext": ".pdf"
+  },
+  {
+    "path": ".build/downloads/B02.pdf",
+    "size": 8382546,
+    "sha256": "bc7fbaddfc6f87d5afeb8af7fe757d2224b30ff0d7e9e8f5be38495f46b9985d",
+    "ext": ".pdf"
+  },
+  {
+    "path": ".build/downloads/P01-locations.json",
+    "size": 1000,
+    "sha256": "7b0289674c1ad9c36d8f56010b91c22c785f98b437ffeaefe9284ac955990c71",
+    "ext": ".json"
+  },
+  {
+    "path": ".build/downloads/P02-locations.json",
+    "size": 1028,
+    "sha256": "636ac0e1afc1fcf154deacd27f3e74ecf4081902118e17e73f3b5879282063bc",
+    "ext": ".json"
+  },
+  {
+    "path": ".build/downloads/P03-crossref.json",
+    "size": 24774,
+    "sha256": "19b337f2de6579521911b73d8c2671fc72c3553fccfff25a7aae4e3d09a9cef9",
+    "ext": ".json"
+  },
+  {
+    "path": ".build/downloads/P04-crossref.json",
+    "size": 27943,
+    "sha256": "61a13c1e9b4a808e51e804dfb1d568bafe9c296c3ec21da148b2ea64c4980652",
+    "ext": ".json"
+  },
+  {
+    "path": ".build/downloads/P04-locations.json",
+    "size": 1946,
+    "sha256": "d7418a61ac42fdc6106e66e0d841f77033edd76781ad6e5ab11f0a00c49e9b98",
+    "ext": ".json"
+  },
+  {
+    "path": ".build/downloads/P05-locations.json",
+    "size": 971,
+    "sha256": "4cb82f8a2803f00a9a3f6fedf49b508f916940579cb18160bc0ffdccdf9b2f3d",
+    "ext": ".json"
+  },
+  {
+    "path": ".build/downloads/P07-crossref.json",
+    "size": 7137,
+    "sha256": "a3d6593b171fcac7a63ac8c45d4ed2bb51dd1151a2b21fc3ad6d2c3884fda9bb",
+    "ext": ".json"
+  },
+  {
+    "path": ".build/downloads/P08-locations.json",
+    "size": 1826,
+    "sha256": "83782aeed938cd9608520ab65b3dd4b5013eb482d9057f898296aa7458de1dfb",
+    "ext": ".json"
+  },
+  {
+    "path": ".build/downloads/P09.pdf",
+    "size": 4786426,
+    "sha256": "36cfc4343c6c12eda7de97180a3379d59d01a6d1890cf443e99f29543ae9e6e7",
+    "ext": ".pdf"
+  },
+  {
+    "path": ".build/downloads/P10-locations.json",
+    "size": 1799,
+    "sha256": "be2b0ce1c8be02411ed8011e627407f3bc855493b7654620f2a9f81160350e86",
+    "ext": ".json"
+  },
+  {
+    "path": ".build/downloads/qa.png",
+    "size": 502586,
+    "sha256": "1151b6a3c00cb420fab03ffe2cad1de3df708e93b494897f44ef52b4413c6d04",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/import_qa.png",
+    "size": 672812,
+    "sha256": "aadae830bfe15139324846839b6254b3d3f2152ab0d507310bc79c8f0a10274a",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/import_scan.json",
+    "size": 1088,
+    "sha256": "4eed97ebf75fe92861d862e3dc76ca6320134fe0b7e10496c4627513243b639d",
+    "ext": ".json"
+  },
+  {
+    "path": ".build/import_user_pdfs.py",
+    "size": 5907,
+    "sha256": "2d37c1055d2890c2319d7b11e737aa0b53ad32a738fe8693823028e8dd1e297a",
+    "ext": ".py"
+  },
+  {
+    "path": ".build/p01-guide/P01_page_13.png",
+    "size": 427419,
+    "sha256": "be9289932a4660e0dab79f81528cad73021123969336a7c36a15a66a3b298c94",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/p01-guide/P01_page_14.png",
+    "size": 381560,
+    "sha256": "6f00609ae56c07d6d560f918d9fab8c6fc9ab88c30bc261523ad22bf7d11f494",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/p01-guide/P01_page_3.png",
+    "size": 345803,
+    "sha256": "d50493ddc6c20f4a362580dc43956187c7fe412527d3b81b5dbb5f74bf8cbb90",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/p01-guide/P01_page_5.png",
+    "size": 428970,
+    "sha256": "1f579724386799b68e40622f357d87045ac66a3f70b8bae5ab4c1f037a7f49b8",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/p01-guide/P01_page_6.png",
+    "size": 280307,
+    "sha256": "1a8bea52e5bd36521f9beec75638ff82f1ef0973e27f589d1694eec9fe841e5c",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/p01-guide/P01_page_8.png",
+    "size": 301304,
+    "sha256": "0bbf55e7dd172c5130e1f9d57866c99dd80c158e9d9e356271039de786d23882",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/p01-guide/P01_page_9.png",
+    "size": 363864,
+    "sha256": "c6a3fc47c5bf04460390dc901dc392941fd14337956f7e78090e48ed59fa02d6",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P01_page_12.png",
+    "size": 358616,
+    "sha256": "e6675b4c69b489f15ae66e4a4201b0a339962f1a51723c0b56097a4594a1e549",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P01_page_8.png",
+    "size": 301535,
+    "sha256": "dced5721fcbd802ab3e7d21396de9b08afad81120a59c159a2a88a732fb5a82a",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P05_page_10.png",
+    "size": 390178,
+    "sha256": "ddff67089cacb6b3b2de0649d63cd6d4dc95eb149a0136931cabde3621df2cf7",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P05_page_11.png",
+    "size": 807516,
+    "sha256": "37eb3b41f38fa08a815a6e2de91f7afa92290471ff90078d87a08c6dac083ad4",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P05_page_12.png",
+    "size": 614853,
+    "sha256": "e82743a1e5f0d50891302b04fb0f79700fd4599c068868f07e8abcf3bcb3ede8",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P05_page_13.png",
+    "size": 552832,
+    "sha256": "33a6c666e29da13100c8a2fda164cc56914271986102b16942ab4537c9f031d6",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P05_page_14.png",
+    "size": 375435,
+    "sha256": "c1af3b7f6c5e5dea13e4bb81b61d36ec2db4b29aca406150e528b5636ef301a3",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P05_page_6.png",
+    "size": 470618,
+    "sha256": "540eef2e62409e4f8a938929dcfd75b818177dc3a6933e5b15bf9f695e31f0ab",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P05_page_7.png",
+    "size": 446295,
+    "sha256": "89a453bb16cd7602264937aeb747233b296e27a054c06bf36f8706f55fa6a503",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P06_page_1.png",
+    "size": 75708,
+    "sha256": "20768b45b1124195f56cd9f178e4b2c45d82fc26d5c755295572e979af4ca8d7",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P06_page_11.png",
+    "size": 132393,
+    "sha256": "61cedc7eb65367628daf62f77346cb79a65fd24fd43100544ac16190dea8b5a8",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P06_page_2.png",
+    "size": 165582,
+    "sha256": "45699d28228e0a21ac45f39ea9e69147cb14fa168abd360639436b08a716362b",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P06_page_22.png",
+    "size": 226762,
+    "sha256": "d36014b7ba28e4b4326477d6cbcd0c9e12ee34b86261aded1363e121195322e3",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P06_page_23.png",
+    "size": 190176,
+    "sha256": "e90bbf3cdd886bb2682afb4ea3b1788cac45689d049c1bb399ffebfd52d57d63",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P06_page_24.png",
+    "size": 192529,
+    "sha256": "40178438543e7979fd7833006de5b177e0bddf2d0a34ab996d0756b36b963985",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P06_page_27.png",
+    "size": 391058,
+    "sha256": "987bf6ce33379197a37020dc2f8cf15f77f8ffb077d9d4024350b339c7f58c9e",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P06_page_3.png",
+    "size": 49621,
+    "sha256": "b4474ad194f38d2ed65e4229d327a401f71c842a08f6246509f86941d16e8c03",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P06_page_31.png",
+    "size": 309539,
+    "sha256": "2261e9953ef2c52b8a0c214321014273b783910fdb48488ee223e578204e17e0",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P06_page_36.png",
+    "size": 295027,
+    "sha256": "65ac6607cabb5a04524ae279247be0c0df47b5bc8bd03be8624f9b238216cbc4",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P06_page_37.png",
+    "size": 401903,
+    "sha256": "0eeecb6b53ad8f13436407d4423a95524878bd2c3f85ebba3f4918303cdd6fe8",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P06_page_39.png",
+    "size": 162795,
+    "sha256": "28e471abcf57c2987f2833754861c661f8db8165b46ac03651dee2044b890652",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/P06_page_43.png",
+    "size": 191276,
+    "sha256": "a1f70bfafe2d4c425f2978fa8b6a6d853a5de9877ccbce879339b7a7aa31438b",
+    "ext": ".png"
+  },
+  {
+    "path": ".build/validation.json",
+    "size": 184,
+    "sha256": "e71d48b94d4a01f7ddecde5f960d063855d735f949bee228c846028a3ffd9bb5",
+    "ext": ".json"
+  },
+  {
+    "path": ".obsidian/app.json",
+    "size": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "ext": ".json"
+  },
+  {
+    "path": ".obsidian/appearance.json",
+    "size": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "ext": ".json"
+  },
+  {
+    "path": ".obsidian/core-plugins.json",
+    "size": 696,
+    "sha256": "763cf20a921fd9955735b278006820b90b207b2fc04d9e79ca648279c7c14276",
+    "ext": ".json"
+  },
+  {
+    "path": ".obsidian/workspace.json",
+    "size": 6090,
+    "sha256": "8a394964efb44978e70844d8086eccacaf2d13f20b50a927ea25923db655fe37",
+    "ext": ".json"
+  },
+  {
+    "path": "PINO超声成像知识库/.DS_Store",
+    "size": 8196,
+    "sha256": "eb06dcdf498ed913fc3717da2b886c1e28fb4e0758d7f60799578761a8018db9",
+    "ext": ""
+  },
+  {
+    "path": "PINO超声成像知识库/.obsidian/app.json",
+    "size": 184,
+    "sha256": "57578d0be685aa46694327365c8c201504fc9beb90c8c51af78dfbdf88fea2dd",
+    "ext": ".json"
+  },
+  {
+    "path": "PINO超声成像知识库/.obsidian/appearance.json",
+    "size": 2,
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+    "ext": ".json"
+  },
+  {
+    "path": "PINO超声成像知识库/.obsidian/core-plugins.json",
+    "size": 700,
+    "sha256": "3a53a8e3a5bdc1d917f19a08fca6d2a99869522869e19432205c19ad36887ba0",
+    "ext": ".json"
+  },
+  {
+    "path": "PINO超声成像知识库/.obsidian/templates.json",
+    "size": 27,
+    "sha256": "f07e3fa3ea1dc059b48949da9655fd16c613ecee69df893b1c13aef915d73c21",
+    "ext": ".json"
+  },
+  {
+    "path": "PINO超声成像知识库/.obsidian/workspace.json",
+    "size": 6839,
+    "sha256": "6230faee19844a8e14cf1fa2f9553f8b6c93f66040fbed0788aa317431d992aa",
+    "ext": ".json"
+  },
+  {
+    "path": "PINO超声成像知识库/00导航/原文下载清单.md",
+    "size": 2515,
+    "sha256": "648247ce9f5ad61381044df73b5851e431792f9d73fd67cdfb65c783a4c2d247",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/00导航/开始学习.md",
+    "size": 2751,
+    "sha256": "c0a251cc3a29f07492b1ae8921db71f35ee5a93abd5493013903089b80b6a3d7",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/00导航/文献地图.md",
+    "size": 1650,
+    "sha256": "7acf91c138638e6d0b642eb3215b035ca8fb47d885fd70917ea4a939992e4756",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/00导航/概念索引.md",
+    "size": 523,
+    "sha256": "c7b176af7c8c382350a27f424b192c521b018a80fbcbe1366f153aa54aec5fbb",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/00导航/短期计划.md",
+    "size": 3284,
+    "sha256": "f43f6640029ec76c7f57419f62aee759248ccaf914f8ff2a11c165c86d0e4182",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/01学习路线/P06加入后的学习路线.md",
+    "size": 3436,
+    "sha256": "0e50cc72aa4c8b9262e686b4f35e195fea625d67ca970ab910386a56fffb44a5",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/01学习路线/六周学习路线.md",
+    "size": 2428,
+    "sha256": "7c8a9b98bc7922dda66f07c7a0a761fece0d26df4ec97b36858e858511963274",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/01学习路线/第一课 从一张波场图开始.md",
+    "size": 1801,
+    "sha256": "7f1460dcfc52eb0941e9363d04504f4b2c134d9b28ed5f84401240d75003e79a",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/02文献/B01 FNO基础论文.md",
+    "size": 4632,
+    "sha256": "481e3ec4714519cb35b971a02b657fcbb4a8308ab618366a3f2b7ec6ec19265f",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/02文献/B02 PINO基础论文.md",
+    "size": 1640,
+    "sha256": "a5edcc8b6255669b95897282bf756c7cceb9137555d3ea134f2f73bc61750a90",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/02文献/P01 U-FNO超声全波形直接反演.md",
+    "size": 9043,
+    "sha256": "6c9289046a29079f0ca08c9fb4f0c1ccfe2a386283c71da19bcdb80d7f20a305",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/02文献/P02 PIFNN瞬态波与自适应权重.md",
+    "size": 4392,
+    "sha256": "d734afb9252869ac6161704273e64be1c86c3c3a65eddfa3c9195e06bbda85d7",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/02文献/P03 波场极性感知U-Net深度成像.md",
+    "size": 4313,
+    "sha256": "50097fb29d48d111d0dafd4a7ec772cc0ba385cf9f5fa85fad07301b6a732e16",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/02文献/P04 FMC-Net相控阵超分辨成像.md",
+    "size": 4392,
+    "sha256": "8f2c2dbcbcb47916a0b9e83d618df7c09b3629cc86474351f21655a8ce9c16aa",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/02文献/P05 双阶段FNO导波散射.md",
+    "size": 10687,
+    "sha256": "015d9a85eabe970aeca01f67176f9073f8a59daa7d2a8c0a41cd5fdfa3f7b479",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/02文献/P06 PI-DeepUFNet不规则缺陷波场.md",
+    "size": 8159,
+    "sha256": "d77b6135b2a1bfa19ed456b4b7b873d206f22b5f83fe3f16421cc391d2cd8c97",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/02文献/P07 双阶段FNO腐蚀成像会议.md",
+    "size": 4582,
+    "sha256": "2e821dee9abd3050abd3df50d815b47775142792695263f59ad61477a8c7a196",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/02文献/P08 PTUNet的S0散射预测.md",
+    "size": 4273,
+    "sha256": "778c853375f50e50aaf99357cfc5e68b13fea56bcb1899c0d2356bf329426a84",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/02文献/P09 FEUNet经颅频域波场.md",
+    "size": 4756,
+    "sha256": "a62c5940a1b38e9496c6f0d9b139c68289ece08365f334b6613421485222c13e",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/02文献/P10 PINN经颅波传播.md",
+    "size": 4158,
+    "sha256": "10a788a023eb6599f1c077cc327eeb1388d2b6bd5376040c04e76858da5ebfac",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/03概念/FMC与TFM.md",
+    "size": 3574,
+    "sha256": "78635b96a71e9a226ba4321ff73fb068d739962f12ef47fe6a236bedf2563f75",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/03概念/FNO与神经算子.md",
+    "size": 7204,
+    "sha256": "4fc9c9d6437302f6775de12537602ad3d9f053c199f83bb0469b01b8d161b2bc",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/03概念/PINN与PINO的边界.md",
+    "size": 1866,
+    "sha256": "bff06712ad37f2181e9e1346c5df6a8811963a2d424ba8b995963cc913ae8bc6",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/03概念/U-Net与多尺度残差.md",
+    "size": 1466,
+    "sha256": "c7d99d565f4d9dbd6573e7ab713470cf56830f809ae53804720856fa61490515",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/03概念/导波与Lamb模态.md",
+    "size": 1418,
+    "sha256": "d56223be8240cd211cf84c400073bf0d7ecfc3781b0ca8eaf33240dcaf7cf6eb",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/03概念/有限差分与自动微分.md",
+    "size": 1435,
+    "sha256": "a2d2477bbd777e36d1bd87c35346a06d1c88819a36232d504a9981c8018c4bbc",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/03概念/正演与反演.md",
+    "size": 1566,
+    "sha256": "ef31803e3121f9a620b7bf3f0a3ad5f042b9236bbb46650d29267ed38ce2d3a4",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/03概念/残差精修与谱截断.md",
+    "size": 1199,
+    "sha256": "beba0bc9e13de3b7186caa32cc7183802fc660e1f2336b526e8b38bbb2b5b28f",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/03概念/泛化与误差指标.md",
+    "size": 1578,
+    "sha256": "a413451d020ee71840f33c38c6106d9eeb6b067d178b32a9e08da9420e04ad38",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/03概念/波动方程与Helmholtz方程.md",
+    "size": 1387,
+    "sha256": "c9ab40b9172ac3f5612cbaf313485e67b0f6e88888e4db77faf2bf28ce4da989",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/03概念/波场极性与采样.md",
+    "size": 1051,
+    "sha256": "738310d1380377703144cea6a4fcd43e1b5ade327b52e744afd5614dd5cb19df",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/03概念/物理损失与自适应权重.md",
+    "size": 1433,
+    "sha256": "9bfc51dc657e20b68cad7ca81bbc2c4f4d432301aa6bbac7424d6d32f0e5c2dd",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/03概念/薄板方程与适用条件.md",
+    "size": 1398,
+    "sha256": "a970c80901b88ffd3e5ea372d674780037c17d66e7650939ff88cdbb6af4cf52",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/03概念/证据与阅读方法.md",
+    "size": 1278,
+    "sha256": "ff723033dd32526f470841dce0eb92278b1aaf060a67a487997148f40c733826",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/03概念/谱偏置与Fourier特征.md",
+    "size": 1419,
+    "sha256": "75d03712832a6ed09a135eedbdd77038ab681fc39ca4409bf2b158db90b12379",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/04专题/2026-09-14 FNO与超声检测六个初始方向.md",
+    "size": 5883,
+    "sha256": "2d61eea31772638562a4260d5db45bd58a3c8b37d9d57d4c9becd29184f9fc0d",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/04专题/p01笔记部分.md",
+    "size": 3568,
+    "sha256": "a2805611af2b53a68b399a2cff3d8c3a89706557ebb27c5d838ae4d2e9917a82",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/04专题/p05笔记部分.md",
+    "size": 3250,
+    "sha256": "76e0c7ee5ec834e247c5762e28585adaec79806a2cebdc8ac10b30d5383a0890",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/04专题/p06笔记部分.md",
+    "size": 4078,
+    "sha256": "22fca4dbf5835685c79b0217a653bebb0840e31c653527eec0ae78441def71a1",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/04专题/可能的研究方向.md",
+    "size": 942,
+    "sha256": "56b9186bcd720772e9ba262be90d95900463fda765fecf675bad3442e17f3633",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/04专题/四篇核心论文详细导读.md",
+    "size": 21469,
+    "sha256": "61a50d9ef03efa44f252574ad01cb79ccb201e8f17624191c7def796b5df6fca",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/04专题/文献完整总结.md",
+    "size": 11239,
+    "sha256": "2b71ff6eea8446dbcc4ffed4ce8b75b634d9d77aa1ae9286c9188138aab96057",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/04专题/文献对照与选题.md",
+    "size": 3227,
+    "sha256": "98950ace0f6535e46bf00983e277eca1f84ac69349d7516bdfa9b92a680701ec",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/04专题/超声检测与物理神经算子科研方向广泛调研 2026-09-14.md",
+    "size": 38470,
+    "sha256": "d06aa91ca95ccdded0eac8c270a2f3558c345b460bbcdbceac8df20dbe9b60c6",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/05实践与复习/复习问题.md",
+    "size": 1425,
+    "sha256": "0e0e994643329ccfa2a9c8428921705b48c2084b761d7c940ed55b04eef2f5c8",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/05实践与复习/学习进度.md",
+    "size": 2777,
+    "sha256": "f163e57fd00ed0ca76a8d217344335ab11f06bbc3dc4b20dd99b7d66aecf2675",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/05实践与复习/最小实验设计.md",
+    "size": 1730,
+    "sha256": "7e23369c2a80bc716a93fafe16493f7c6c7b144253594b2357a5df3503c3d03f",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/05实践与复习/疑问与研究想法.md",
+    "size": 5627,
+    "sha256": "b04547af45faca77dd20844e9c85e6ba24c3f71dfbe45ba5331fc1084ced5e75",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/06模板/周复盘模板.md",
+    "size": 401,
+    "sha256": "ddefa4845828d5cbc0556d7fb037f970ca208f64b6a9650c8aba6cd6572931d5",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/06模板/导师带读提示词.md",
+    "size": 865,
+    "sha256": "486a1346e9ab00f09b26006328b592cb1d1be31765ed75ad4810a2844974e3ca",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/06模板/文献精读模板.md",
+    "size": 704,
+    "sha256": "f42d9e39275122c6d174f16a5d6ce712cd00eff171f031ba1147a339cb2e8975",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/.DS_Store",
+    "size": 8196,
+    "sha256": "6e80545a9ff755ea969baca189f736d3459a9c49b6d30c7371a386c7842129f3",
+    "ext": ""
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/Pasted image 20260911090959.png",
+    "size": 167394,
+    "sha256": "9bf1031b51cf5ca9a2d7dfc4f3d9fe98376a7463d978d0ab93c5d8d8791fd066",
+    "ext": ".png"
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/Pasted image 20260911144246.png",
+    "size": 415127,
+    "sha256": "d4d8bd66a55b6c4fe1f17237d2337b8532e387fb26aea1f0aec2b0db9dfc317a",
+    "ext": ".png"
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/Pasted image 20260911144255.png",
+    "size": 177509,
+    "sha256": "3d3c9ea782ef63ad3269ed59e10db195e3a9de5aca05fd65405cfb76204292e0",
+    "ext": ".png"
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/Pasted image 20260911144305.png",
+    "size": 177509,
+    "sha256": "3d3c9ea782ef63ad3269ed59e10db195e3a9de5aca05fd65405cfb76204292e0",
+    "ext": ".png"
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/Pasted image 20260911164451.png",
+    "size": 376374,
+    "sha256": "09fa78de81428cf7de5c678d16de2f61976d7b9248012d2f42295c84c5bbca97",
+    "ext": ".png"
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/Pasted image 20260911164517.png",
+    "size": 393701,
+    "sha256": "e65fdcfdb9dea978c1d022904bec866b12125ae503e40d3ce7623b7d1ced3b5f",
+    "ext": ".png"
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/Pasted image 20260911165028.png",
+    "size": 227662,
+    "sha256": "5b346675cb59f3efd4cb44612b6cbc1b754e063dbcd2c1ded196b885f0aaf444",
+    "ext": ".png"
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/Pasted image 20260911172756.png",
+    "size": 84754,
+    "sha256": "12e54e76c1749c72d1d042df65579ff5dcd07241c5dd56aec07f3ce3a4283f1d",
+    "ext": ".png"
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/PINO超声成像文献汇总(1).xlsx",
+    "size": 8574,
+    "sha256": "b5912c62b8eb5b92fc85e6e8effbfcc2fbd8faf22fefd54460ffb3a258fe67c3",
+    "ext": ".xlsx"
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/论文原文/B01_FNO_2010.08895v3.pdf",
+    "size": 2436198,
+    "sha256": "6cd2645d4a50d1a61a261529b33747c674d78851bdbe6993b0961f81a17dc6f2",
+    "ext": ".pdf",
+    "pages": 16,
+    "low_text_pages": []
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/论文原文/B01_FNO_2010.08895v3_1_16_translate_20260914184734.pdf",
+    "size": 3108070,
+    "sha256": "e9f023cdf526abecbeea3dfe4b0d77cd9bec02061eafa64560ebdab7251e2877",
+    "ext": ".pdf",
+    "error": "Odd-length string"
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/论文原文/B02_PINO_2111.03794v4.pdf",
+    "size": 8382546,
+    "sha256": "bc7fbaddfc6f87d5afeb8af7fe757d2224b30ff0d7e9e8f5be38495f46b9985d",
+    "ext": ".pdf",
+    "pages": 27,
+    "low_text_pages": []
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/论文原文/P01_U-FNO_FWI_2026.pdf",
+    "size": 7750514,
+    "sha256": "eafa8026a7aa620252d39c2b98ae5db9ad46c9e74f25335f22fa10527b1184af",
+    "ext": ".pdf",
+    "pages": 17,
+    "low_text_pages": []
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/论文原文/P02_PIFNN_2026.pdf",
+    "size": 8429591,
+    "sha256": "7eb025920e35400607c903185a03bdafd59c33fe34f07bfa414c9f3c7856bf58",
+    "ext": ".pdf",
+    "pages": 14,
+    "low_text_pages": []
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/论文原文/P03_SSWP_UNet_2026.pdf",
+    "size": 7314513,
+    "sha256": "127e03fcb8451bf16c55fea026eaab5cb406866a762d1ce660ee644fcb88be96",
+    "ext": ".pdf",
+    "pages": 9,
+    "low_text_pages": []
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/论文原文/P05_DualStage_FNO_2026.pdf",
+    "size": 12240788,
+    "sha256": "9cd060b6b64bc99fc8810b666cf4477c150430aec583e4cd85b2ddfb40847d0d",
+    "ext": ".pdf",
+    "pages": 16,
+    "low_text_pages": []
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/论文原文/P05_DualStage_FNO_2026_1_16_translate_20260911150814.pdf",
+    "size": 12971942,
+    "sha256": "8ce00ef6b7fbafe6cee8263dd47c4131d4ca22427d760992d7696317f340bbcb",
+    "ext": ".pdf",
+    "pages": 16,
+    "low_text_pages": []
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/论文原文/P06_PI-DeepUFNet_2026_SSRN.pdf",
+    "size": 3208924,
+    "sha256": "2037760f229bfdb9a27103a7d8969b375a29c19843dee6cb2eecdfa705847ad1",
+    "ext": ".pdf",
+    "pages": 43,
+    "low_text_pages": []
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/论文原文/P06_PI-DeepUFNet_2026_SSRN_1_43_translate_20260911154807.pdf",
+    "size": 3908148,
+    "sha256": "83d3211b657f3a01989101c66e58e55f747d32d4ab81bd778de7d2b0f6d20d44",
+    "ext": ".pdf",
+    "error": "Odd-length string"
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/论文原文/P07_DualStage_FNO_IUS_2025.pdf",
+    "size": 689201,
+    "sha256": "f7a90465a0f6e205e73ceae2f6c9778e66fe5c2639db20b1b89288e07f938133",
+    "ext": ".pdf",
+    "pages": 4,
+    "low_text_pages": []
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/论文原文/P08_PTUNet_2026.pdf",
+    "size": 15168801,
+    "sha256": "5f7fa9ebc91843ab87fda60d4036ef0216e16ba00eadbe3113fdfa92eebf39d4",
+    "ext": ".pdf",
+    "pages": 16,
+    "low_text_pages": []
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/论文原文/P09_FEUNet_2024.pdf",
+    "size": 4786426,
+    "sha256": "36cfc4343c6c12eda7de97180a3379d59d01a6d1890cf443e99f29543ae9e6e7",
+    "ext": ".pdf",
+    "pages": 13,
+    "low_text_pages": []
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/论文原文/P10_PINN_Transcranial_2023.pdf",
+    "size": 8055153,
+    "sha256": "d3ece29f3df57aa958194def253a774cfa6b12ab6821c804ba7c3685598d7cac",
+    "ext": ".pdf",
+    "pages": 12,
+    "low_text_pages": []
+  },
+  {
+    "path": "PINO超声成像知识库/90附件/论文原文/Pasted image 20260911090959.pdf",
+    "size": 8626073,
+    "sha256": "ef309d81ad6ff26a79baff0750ff75cb92196a64a7789c7e8483f3aa68d4338f",
+    "ext": ".pdf",
+    "error": "Odd-length string"
+  },
+  {
+    "path": "PINO超声成像知识库/99来源/原始表格说明.md",
+    "size": 1490,
+    "sha256": "3a260460c1e470901da55b65d5738a49a77c3c49f3f4f7adbae78514b042fa8c",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/99来源/原始题录.json",
+    "size": 6293,
+    "sha256": "9f6ec12f149c9ba97bc335531cb9dc4c66d0e2a10ec00b53c9507dab71b3953e",
+    "ext": ".json"
+  },
+  {
+    "path": "PINO超声成像知识库/99来源/原文文件记录.json",
+    "size": 6812,
+    "sha256": "9dfc409b7c2aaaf5b324e48a7c07f8c1394812ba38a6106618d79e05b2e77707",
+    "ext": ".json"
+  },
+  {
+    "path": "PINO超声成像知识库/99来源/核验记录.md",
+    "size": 3131,
+    "sha256": "c2dc6b9e8822aa941a5af532d11cda6cf1284cceb23802c3efb6af0608af5350",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/99来源/科研方向调研来源与检索记录 2026-09-14.md",
+    "size": 19908,
+    "sha256": "11101c983ad6ac3e98502eef531c6b1b48a1cc74786ffbf004bde6887cec2fb3",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库/README.md",
+    "size": 1013,
+    "sha256": "b615d3dfaad13e3ca3412bcc375718c93a46be0164b820df1184595ef2c9941b",
+    "ext": ".md"
+  },
+  {
+    "path": "PINO超声成像知识库.zip",
+    "size": 92229284,
+    "sha256": "ae44de24c85c7a20f698082157ea73136099035b4b4fc11c070e612ec0b58aa4",
+    "ext": ".zip"
+  }
+]

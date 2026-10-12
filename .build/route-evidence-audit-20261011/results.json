@@ -1,0 +1,744 @@
+{
+  "status": "completed",
+  "checkpoint_audit": {
+    "fno-matched-material-replay-20261009": {
+      "material_replay_update400.pt": {
+        "claimed_update": 400,
+        "actual_adam_steps": [
+          400.0
+        ],
+        "weight_hash": "9018b4d663941dcf922d99aa978ce5e856a6d104f54e5f4bf7f532b1c7e7eb0b"
+      },
+      "nominal_control_update400.pt": {
+        "claimed_update": 400,
+        "actual_adam_steps": [
+          400.0
+        ],
+        "weight_hash": "a4ad90db87afab6c1a0f4947e3219ab92a8f1e74a38089d3067dbe02433a5090"
+      }
+    },
+    "fno-loss-ablation-20261010": {
+      "loss_field_only_update400.pt": {
+        "claimed_update": 400,
+        "actual_adam_steps": [
+          400.0
+        ],
+        "weight_hash": "f9e576cb4673045ce3104f2782a79c33b50f0725ab87865c73007e97473b8aa2"
+      },
+      "loss_original_update400.pt": {
+        "claimed_update": 400,
+        "actual_adam_steps": [
+          400.0
+        ],
+        "weight_hash": "9018b4d663941dcf922d99aa978ce5e856a6d104f54e5f4bf7f532b1c7e7eb0b"
+      }
+    },
+    "fno-adam-state-control-20261010": {
+      "loss_reset_update400.pt": {
+        "claimed_update": 400,
+        "actual_adam_steps": [
+          100.0
+        ],
+        "weight_hash": "712804a2ffbd57ca3c12c1c1e253906eefa605a1bf434bbdc8842fa5f7071bec"
+      },
+      "loss_stateful_update400.pt": {
+        "claimed_update": 400,
+        "actual_adam_steps": [
+          400.0
+        ],
+        "weight_hash": "9018b4d663941dcf922d99aa978ce5e856a6d104f54e5f4bf7f532b1c7e7eb0b"
+      }
+    },
+    "fno-lowfreq-field-control-20261011": {
+      "loss_lowfreq_update400.pt": {
+        "claimed_update": 400,
+        "actual_adam_steps": [
+          100.0
+        ],
+        "weight_hash": "25474b3da99b38903e3f7a677cf554ca95bdb28219a1a35c915cc4d7e24aeaf1"
+      },
+      "loss_original_update400.pt": {
+        "claimed_update": 400,
+        "actual_adam_steps": [
+          500.0
+        ],
+        "weight_hash": "eef07c273a1ce8eea02d74b21b1b6b0429adeec68c5bf3fc281b141108122e03"
+      }
+    },
+    "fno-lowfreq-field-control-r2-20261011": {
+      "loss_lowfreq_update400.pt": {
+        "claimed_update": 400,
+        "actual_adam_steps": [
+          500.0
+        ],
+        "weight_hash": "e41033346f2e8ee6e1e8366ffc69a5ad2953b0b4f8035797eb40bdf536b84742"
+      },
+      "loss_original_update400.pt": {
+        "claimed_update": 400,
+        "actual_adam_steps": [
+          500.0
+        ],
+        "weight_hash": "eef07c273a1ce8eea02d74b21b1b6b0429adeec68c5bf3fc281b141108122e03"
+      }
+    },
+    "fno-coverage-diagnostic-20261011": {},
+    "fno-adam-direction-audit-20261010": {}
+  },
+  "saved_metrics": {
+    "fno-matched-material-replay-20261009": {
+      "nominal_control": {
+        "field": [
+          0.29032259696129953,
+          0.2819397839782667
+        ],
+        "trace": [
+          0.06324340387680384,
+          0.06775183756426546
+        ],
+        "geometry": {
+          "relative_l2": 0.15801724810685563,
+          "norm_ratio": 0.9491387598159388,
+          "cosine": 0.9882090027855676
+        },
+        "material": [
+          0.3762218336008066,
+          0.34268748541814825,
+          0.34785433069563965
+        ],
+        "loss_count": 100,
+        "slots": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      },
+      "material_replay": {
+        "field": [
+          0.3029396738119827,
+          0.2911807523670203
+        ],
+        "trace": [
+          0.07496567785510035,
+          0.07226856984230944
+        ],
+        "geometry": {
+          "relative_l2": 0.1766547826174348,
+          "norm_ratio": 0.9047263996083629,
+          "cosine": 0.9877698642928932
+        },
+        "material": [
+          0.11812171852330079,
+          0.14517478959350127,
+          0.06814399707628097
+        ],
+        "loss_count": 100,
+        "slots": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      }
+    },
+    "fno-loss-ablation-20261010": {
+      "loss_original": {
+        "field": [
+          0.3029396738119827,
+          0.2911807523670203
+        ],
+        "trace": [
+          0.07496567785510035,
+          0.07226856984230944
+        ],
+        "geometry": {
+          "relative_l2": 0.1766547826174348,
+          "norm_ratio": 0.9047263996083629,
+          "cosine": 0.9877698642928932
+        },
+        "material": [
+          0.11812171852330079,
+          0.14517478959350127,
+          0.06814399707628097
+        ],
+        "loss_count": 100,
+        "slots": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      },
+      "loss_field_only": {
+        "field": [
+          0.2852368358128857,
+          0.27564064379094505
+        ],
+        "trace": [
+          0.47756660461353423,
+          0.4186887337536142
+        ],
+        "geometry": {
+          "relative_l2": 0.32608580188115766,
+          "norm_ratio": 0.7779298842167983,
+          "cosine": 0.9633535007323252
+        },
+        "material": [
+          0.3035487397500754,
+          0.4267739254543104,
+          0.3366714233679133
+        ],
+        "loss_count": 100,
+        "slots": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      }
+    },
+    "fno-adam-state-control-20261010": {
+      "loss_stateful": {
+        "field": [
+          0.3029396738119827,
+          0.2911807523670203
+        ],
+        "trace": [
+          0.07496567785510035,
+          0.07226856984230944
+        ],
+        "geometry": {
+          "relative_l2": 0.1766547826174348,
+          "norm_ratio": 0.9047263996083629,
+          "cosine": 0.9877698642928932
+        },
+        "material": [
+          0.11812171852330079,
+          0.14517478959350127,
+          0.06814399707628097
+        ],
+        "loss_count": 100,
+        "slots": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      },
+      "loss_reset": {
+        "field": [
+          0.30031969532194064,
+          0.2906112617513156
+        ],
+        "trace": [
+          0.07073265477506747,
+          0.06816609141632557
+        ],
+        "geometry": {
+          "relative_l2": 0.1651891029329391,
+          "norm_ratio": 0.925444970206373,
+          "cosine": 0.9882602488749737
+        },
+        "material": [
+          0.11870736194711122,
+          0.15191565966170528,
+          0.06612365286435193
+        ],
+        "loss_count": 100,
+        "slots": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      }
+    },
+    "fno-lowfreq-field-control-r2-20261011": {
+      "loss_original": {
+        "field": [
+          0.28970996949503325,
+          0.27975393506583596
+        ],
+        "trace": [
+          0.06636426791675684,
+          0.06673573260041257
+        ],
+        "geometry": {
+          "relative_l2": 0.15407253407023802,
+          "norm_ratio": 0.9483330629501352,
+          "cosine": 0.9888916277445997
+        },
+        "material": [
+          0.12048547248511797,
+          0.14212759698411964,
+          0.05962350989394601
+        ],
+        "loss_count": 100,
+        "slots": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      },
+      "loss_lowfreq": {
+        "field": [
+          0.2880598013801801,
+          0.27784599390284287
+        ],
+        "trace": [
+          0.0685755024476405,
+          0.06837802797137288
+        ],
+        "geometry": {
+          "relative_l2": 0.1560682231650543,
+          "norm_ratio": 0.945401687832499,
+          "cosine": 0.988694586192581
+        },
+        "material": [
+          0.12189159798008523,
+          0.14423014461144923,
+          0.06239873972790805
+        ],
+        "loss_count": 100,
+        "slots": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      }
+    }
+  },
+  "corrected_comparisons": {
+    "fno-loss-ablation-20261010": {
+      "field_relative_improvement": [
+        0.05843684247869141,
+        0.05336928505661542
+      ],
+      "field_twenty_percent_pass": false,
+      "geometry_pass": false,
+      "material_ten_percent_guard": false,
+      "trace_ten_percent_guard": false
+    },
+    "fno-adam-state-control-20261010": {
+      "field_relative_improvement": [
+        0.008648515584222083,
+        0.0019557975967686714
+      ],
+      "field_twenty_percent_pass": false,
+      "geometry_pass": true,
+      "material_ten_percent_guard": true,
+      "trace_ten_percent_guard": true
+    },
+    "fno-lowfreq-field-control-r2-20261011": {
+      "field_relative_improvement": [
+        0.00569593140936564,
+        0.006820069081580837
+      ],
+      "field_twenty_percent_pass": false,
+      "geometry_pass": true,
+      "material_ten_percent_guard": true,
+      "trace_ten_percent_guard": true
+    }
+  },
+  "same_hz_spectra": {
+    "loss_original": {
+      "depth-1": {
+        "field": {
+          "error": {
+            "total": 4015.2590637499393,
+            "bands": [
+              1245.8167024271024,
+              2742.92435834179,
+              26.51800298104649
+            ],
+            "n": 500,
+            "dt": 1.2e-07
+          },
+          "target_scatter": {
+            "total": 47839.50643283859,
+            "bands": [
+              16434.81347180062,
+              31365.069315495144,
+              39.623645542830985
+            ],
+            "n": 500,
+            "dt": 1.2e-07
+          },
+          "relative_l2_bands": [
+            0.27532438946707516,
+            0.29572210559313467,
+            0.8180751347620352
+          ]
+        },
+        "regions": {
+          "x": [
+            {
+              "error_energy": 191.90045607325916,
+              "count": 128000,
+              "mean_square": 0.0014992223130723373
+            },
+            {
+              "error_energy": 3649.324439912558,
+              "count": 16128000,
+              "mean_square": 0.0002262725967207687
+            },
+            {
+              "error_energy": 174.03416776412212,
+              "count": 128000,
+              "mean_square": 0.001359641935657204
+            }
+          ],
+          "y": [
+            {
+              "error_energy": 712.3876924271877,
+              "count": 256000,
+              "mean_square": 0.002782764423543702
+            },
+            {
+              "error_energy": 3060.3768568897285,
+              "count": 15872000,
+              "mean_square": 0.00019281608221331456
+            },
+            {
+              "error_energy": 242.49451443302308,
+              "count": 256000,
+              "mean_square": 0.0009472441970039964
+            }
+          ]
+        },
+        "trace": {
+          "error": {
+            "total": 1.461525471376231,
+            "bands": [
+              0.23150875368144438,
+              1.1774905512673424,
+              0.052526166427444204
+            ],
+            "n": 2000,
+            "dt": 3e-08
+          },
+          "target_scatter": {
+            "total": 331.84690595342965,
+            "bands": [
+              130.88748396713902,
+              200.7308709847899,
+              0.22855100150077784
+            ],
+            "n": 2000,
+            "dt": 3e-08
+          },
+          "relative_l2_bands": [
+            0.04205664734182497,
+            0.07658992264629876,
+            0.47939807780020643
+          ]
+        }
+      },
+      "depth1": {
+        "field": {
+          "error": {
+            "total": 3669.4220357964464,
+            "bands": [
+              1175.4417952346407,
+              2470.258630903948,
+              23.721609657857705
+            ],
+            "n": 500,
+            "dt": 1.2e-07
+          },
+          "target_scatter": {
+            "total": 46886.22382724314,
+            "bands": [
+              16474.754684277563,
+              30375.782223603495,
+              35.686919362082904
+            ],
+            "n": 500,
+            "dt": 1.2e-07
+          },
+          "relative_l2_bands": [
+            0.26711057743712835,
+            0.2851723913188816,
+            0.8153001981263085
+          ]
+        },
+        "regions": {
+          "x": [
+            {
+              "error_energy": 180.18004026657798,
+              "count": 128000,
+              "mean_square": 0.0014076565645826404
+            },
+            {
+              "error_energy": 3325.6047562481235,
+              "count": 16128000,
+              "mean_square": 0.00020620069173165448
+            },
+            {
+              "error_energy": 163.63723928174488,
+              "count": 128000,
+              "mean_square": 0.001278415931888632
+            }
+          ],
+          "y": [
+            {
+              "error_energy": 726.9467672134642,
+              "count": 256000,
+              "mean_square": 0.0028396358094275945
+            },
+            {
+              "error_energy": 2808.1942733701426,
+              "count": 15872000,
+              "mean_square": 0.0001769275625863245
+            },
+            {
+              "error_energy": 134.28099521283949,
+              "count": 256000,
+              "mean_square": 0.0005245351375501542
+            }
+          ]
+        },
+        "trace": {
+          "error": {
+            "total": 1.4212824500937744,
+            "bands": [
+              0.3307260303237821,
+              1.0450118496052236,
+              0.04554457016476882
+            ],
+            "n": 2000,
+            "dt": 3e-08
+          },
+          "target_scatter": {
+            "total": 319.12698466526086,
+            "bands": [
+              123.10624983781982,
+              195.87779030776204,
+              0.14294451967901495
+            ],
+            "n": 2000,
+            "dt": 3e-08
+          },
+          "relative_l2_bands": [
+            0.05183154305278417,
+            0.07304121846908991,
+            0.5644617904680067
+          ]
+        }
+      }
+    },
+    "loss_lowfreq": {
+      "depth-1": {
+        "field": {
+          "error": {
+            "total": 3969.648052912078,
+            "bands": [
+              1199.7535195339544,
+              2743.332875347357,
+              26.56165803076673
+            ],
+            "n": 500,
+            "dt": 1.2e-07
+          },
+          "target_scatter": {
+            "total": 47839.50643283859,
+            "bands": [
+              16434.81347180062,
+              31365.069315495144,
+              39.623645542830985
+            ],
+            "n": 500,
+            "dt": 1.2e-07
+          },
+          "relative_l2_bands": [
+            0.2701864882596918,
+            0.29574412643576425,
+            0.8187482326700644
+          ]
+        },
+        "regions": {
+          "x": [
+            {
+              "error_energy": 191.5200577350237,
+              "count": 128000,
+              "mean_square": 0.0014962504510548727
+            },
+            {
+              "error_energy": 3604.5390262594606,
+              "count": 16128000,
+              "mean_square": 0.00022349572335438124
+            },
+            {
+              "error_energy": 173.58896891759457,
+              "count": 128000,
+              "mean_square": 0.0013561638196687075
+            }
+          ],
+          "y": [
+            {
+              "error_energy": 701.8542176864462,
+              "count": 256000,
+              "mean_square": 0.0027416180378376804
+            },
+            {
+              "error_energy": 3026.7919189554923,
+              "count": 15872000,
+              "mean_square": 0.00019070009570032082
+            },
+            {
+              "error_energy": 241.00191627014044,
+              "count": 256000,
+              "mean_square": 0.0009414137354302361
+            }
+          ]
+        },
+        "trace": {
+          "error": {
+            "total": 1.560543105941873,
+            "bands": [
+              0.3247638310730905,
+              1.1826572574756757,
+              0.05312201739310659
+            ],
+            "n": 2000,
+            "dt": 3e-08
+          },
+          "target_scatter": {
+            "total": 331.84690595342965,
+            "bands": [
+              130.88748396713902,
+              200.7308709847899,
+              0.22855100150077784
+            ],
+            "n": 2000,
+            "dt": 3e-08
+          },
+          "relative_l2_bands": [
+            0.049812090476044374,
+            0.07675777303211177,
+            0.4821095290118721
+          ]
+        }
+      },
+      "depth1": {
+        "field": {
+          "error": {
+            "total": 3619.541289332346,
+            "bands": [
+              1126.0690245839348,
+              2469.714372712189,
+              23.757892036222582
+            ],
+            "n": 500,
+            "dt": 1.2e-07
+          },
+          "target_scatter": {
+            "total": 46886.22382724314,
+            "bands": [
+              16474.754684277563,
+              30375.782223603495,
+              35.686919362082904
+            ],
+            "n": 500,
+            "dt": 1.2e-07
+          },
+          "relative_l2_bands": [
+            0.26144059779090467,
+            0.28514097437370167,
+            0.8159234637528063
+          ]
+        },
+        "regions": {
+          "x": [
+            {
+              "error_energy": 180.0132916837086,
+              "count": 128000,
+              "mean_square": 0.0014063538412789733
+            },
+            {
+              "error_energy": 3276.6813920554955,
+              "count": 16128000,
+              "mean_square": 0.00020316724901137744
+            },
+            {
+              "error_energy": 162.84660559314253,
+              "count": 128000,
+              "mean_square": 0.001272239106196426
+            }
+          ],
+          "y": [
+            {
+              "error_energy": 716.9313717198012,
+              "count": 256000,
+              "mean_square": 0.0028005131707804732
+            },
+            {
+              "error_energy": 2768.7510906058396,
+              "count": 15872000,
+              "mean_square": 0.00017444248302708162
+            },
+            {
+              "error_energy": 133.8588270067056,
+              "count": 256000,
+              "mean_square": 0.0005228860429949438
+            }
+          ]
+        },
+        "trace": {
+          "error": {
+            "total": 1.4920956760016804,
+            "bands": [
+              0.3970148412023008,
+              1.0492036187298432,
+              0.04587721606953664
+            ],
+            "n": 2000,
+            "dt": 3e-08
+          },
+          "target_scatter": {
+            "total": 319.12698466526086,
+            "bands": [
+              123.10624983781982,
+              195.87779030776204,
+              0.14294451967901495
+            ],
+            "n": 2000,
+            "dt": 3e-08
+          },
+          "relative_l2_bands": [
+            0.05678888216398314,
+            0.0731875639427168,
+            0.5665193826258157
+          ]
+        }
+      }
+    }
+  },
+  "frequency_axis_correction": {
+    "trace_old_low_last_hz": 1650000.0000000002,
+    "field_loss_low_last_hz": 400000.00000000006,
+    "source_hz": 500000,
+    "field_shape_XYT": [
+      256,
+      128,
+      500
+    ]
+  },
+  "elapsed_seconds": 13.255163899993931,
+  "new_calls": {
+    "forward": 4,
+    "optimizer": 0,
+    "physical": 0
+  },
+  "cost_correction": "Recent material replay/loss ablation/Adam reset/lowfreq R1/R2 =1000 training updates; R1 excluded scientifically but still costs200. Failed preflight and diagnosis costs not fully logged."
+}

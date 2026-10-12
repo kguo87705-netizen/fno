@@ -1,0 +1,82 @@
+{
+  "status": "completed",
+  "rows": [
+    {
+      "action": "full_aperture",
+      "material": "low_contrast",
+      "network_forward_seconds": 0.4721741000103066,
+      "full_receiver_error": 0.028391388722438515,
+      "selected_receiver_error": 0.028391388722438515,
+      "scatter_selected_error": 0.08347391564308825,
+      "physical_scatter_norm": 18.919801028322603,
+      "pred_scatter_norm": 18.107804668162075,
+      "selected_rx_count": 24,
+      "finite": true
+    },
+    {
+      "action": "full_aperture",
+      "material": "high_contrast",
+      "network_forward_seconds": 0.20124829999986105,
+      "full_receiver_error": 0.028598500568722488,
+      "selected_receiver_error": 0.028598500568722488,
+      "scatter_selected_error": 0.09266544401899122,
+      "physical_scatter_norm": 17.129025170361462,
+      "pred_scatter_norm": 16.34634428180907,
+      "selected_rx_count": 24,
+      "finite": true
+    },
+    {
+      "action": "left_half",
+      "material": "low_contrast",
+      "network_forward_seconds": 0.19502709999505896,
+      "full_receiver_error": 0.028391388722438515,
+      "selected_receiver_error": 0.027538025690449542,
+      "scatter_selected_error": 0.08456772150143883,
+      "physical_scatter_norm": 14.95924884642373,
+      "pred_scatter_norm": 14.32199932676922,
+      "selected_rx_count": 12,
+      "finite": true
+    },
+    {
+      "action": "left_half",
+      "material": "high_contrast",
+      "network_forward_seconds": 0.19509439999819733,
+      "full_receiver_error": 0.028598500568722488,
+      "selected_receiver_error": 0.027832070397479737,
+      "scatter_selected_error": 0.09431870555163425,
+      "physical_scatter_norm": 13.510629718899994,
+      "pred_scatter_norm": 12.89498406857593,
+      "selected_rx_count": 12,
+      "finite": true
+    },
+    {
+      "action": "right_half",
+      "material": "low_contrast",
+      "network_forward_seconds": 0.19662630000675563,
+      "full_receiver_error": 0.028391388722438515,
+      "selected_receiver_error": 0.030140406837220177,
+      "scatter_selected_error": 0.08161711065869015,
+      "physical_scatter_norm": 11.583598098263018,
+      "pred_scatter_norm": 11.080294453864092,
+      "selected_rx_count": 12,
+      "finite": true
+    },
+    {
+      "action": "right_half",
+      "material": "high_contrast",
+      "network_forward_seconds": 0.19638900000427384,
+      "full_receiver_error": 0.028598500568722488,
+      "selected_receiver_error": 0.03016622320630278,
+      "scatter_selected_error": 0.08987718354790389,
+      "physical_scatter_norm": 10.529310893199572,
+      "pred_scatter_norm": 10.046012007289436,
+      "selected_rx_count": 12,
+      "finite": true
+    }
+  ],
+  "network_forwards": 6,
+  "physical_calls": 0,
+  "training_updates": 0,
+  "elapsed_seconds": 1.8308249999972759,
+  "scope": "same scalar finite-difference stage-A outputs; not generalization or final test"
+}

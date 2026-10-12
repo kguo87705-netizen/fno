@@ -1,0 +1,50 @@
+{
+  "status": "generated",
+  "records": [
+    {
+      "group_id": "contrast_03",
+      "split": "train",
+      "contrast": 0.3,
+      "file": "contrast_03.pt",
+      "file_sha256": "07b6c6bcf1aff23887e7fa1e10f7407c3f30f4e64e33905c2d95cb7ffc8a6906"
+    },
+    {
+      "group_id": "contrast_05",
+      "split": "train",
+      "contrast": 0.5,
+      "file": "contrast_05.pt",
+      "file_sha256": "baf16dcfb73599e8172e31919e052811e21ba09e543bb7a191ced73aee4c9c30"
+    },
+    {
+      "group_id": "contrast_07",
+      "split": "train",
+      "contrast": 0.7,
+      "file": "contrast_07.pt",
+      "file_sha256": "44d76f12fd90866012dec14e6881d113ee591ca8c60abac0fc1d10bce61fe3ba"
+    },
+    {
+      "group_id": "contrast_04",
+      "split": "development_interpolation",
+      "contrast": 0.4,
+      "file": "contrast_04.pt",
+      "file_sha256": "5e86d1634ce196cdc51dace9cb76d3725a39b9702235b6e8182d1a4415c5e863"
+    },
+    {
+      "group_id": "contrast_06",
+      "split": "development_interpolation",
+      "contrast": 0.6,
+      "file": "contrast_06.pt",
+      "file_sha256": "a60417869bdfd89ef640c0b425718a9cb25f832dba699700208a77df50cb16d1"
+    }
+  ],
+  "normalization": {
+    "fit_split": "train",
+    "trace_mean": 0,
+    "wavefield_mean": 0,
+    "trace_rms": 0.25594272720229144,
+    "wavefield_rms": 0.15921596709548344
+  },
+  "geometry_support_cells": 449,
+  "homogeneous_parity": "bit_identical_source0",
+  "scope": "Fixed training geometry contrast interpolation only; no unseen geometry, old validation/test or independent final test"
+}

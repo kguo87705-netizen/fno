@@ -1,0 +1,123 @@
+{
+  "status": "completed",
+  "target": {
+    "shift": 2,
+    "a": 0.44
+  },
+  "proxy_top3": [
+    {
+      "shift": 2,
+      "a": 0.44,
+      "proxy_error": 0.049560990732510045,
+      "nominal_error": 0.03228488623417422
+    },
+    {
+      "shift": 2,
+      "a": 0.48,
+      "proxy_error": 0.05829447772142721,
+      "nominal_error": 0.04266816100993727
+    },
+    {
+      "shift": 3,
+      "a": 0.44,
+      "proxy_error": 0.08353263894122946,
+      "nominal_error": 0.08118380023530335
+    }
+  ],
+  "nominal_top3": [
+    {
+      "shift": 2,
+      "a": 0.44,
+      "proxy_error": 0.049560990732510045,
+      "nominal_error": 0.03228488623417422
+    },
+    {
+      "shift": 2,
+      "a": 0.48,
+      "proxy_error": 0.05829447772142721,
+      "nominal_error": 0.04266816100993727
+    },
+    {
+      "shift": 2,
+      "a": 0.52,
+      "proxy_error": 0.0839349552908156,
+      "nominal_error": 0.07160761177575327
+    }
+  ],
+  "physical_verification": [
+    {
+      "method": "r2_top3",
+      "shift": 2,
+      "a": 0.44,
+      "physical_error": 0.0,
+      "proxy_error": 0.049560990732510045,
+      "nominal_error": 0.03228488623417422
+    },
+    {
+      "method": "r2_top3",
+      "shift": 2,
+      "a": 0.48,
+      "physical_error": 0.03810719213767224,
+      "proxy_error": 0.05829447772142721,
+      "nominal_error": 0.04266816100993727
+    },
+    {
+      "method": "r2_top3",
+      "shift": 3,
+      "a": 0.44,
+      "physical_error": 0.11216961520652642,
+      "proxy_error": 0.08353263894122946,
+      "nominal_error": 0.08118380023530335
+    },
+    {
+      "method": "nominal_top3",
+      "shift": 2,
+      "a": 0.44,
+      "physical_error": 0.0,
+      "proxy_error": 0.049560990732510045,
+      "nominal_error": 0.03228488623417422
+    },
+    {
+      "method": "nominal_top3",
+      "shift": 2,
+      "a": 0.48,
+      "physical_error": 0.03810719213767224,
+      "proxy_error": 0.05829447772142721,
+      "nominal_error": 0.04266816100993727
+    },
+    {
+      "method": "nominal_top3",
+      "shift": 2,
+      "a": 0.52,
+      "physical_error": 0.0736817305647979,
+      "proxy_error": 0.0839349552908156,
+      "nominal_error": 0.07160761177575327
+    }
+  ],
+  "best": {
+    "r2": {
+      "method": "r2_top3",
+      "shift": 2,
+      "a": 0.44,
+      "physical_error": 0.0,
+      "proxy_error": 0.049560990732510045,
+      "nominal_error": 0.03228488623417422
+    },
+    "nominal": {
+      "method": "nominal_top3",
+      "shift": 2,
+      "a": 0.44,
+      "physical_error": 0.0,
+      "proxy_error": 0.049560990732510045,
+      "nominal_error": 0.03228488623417422
+    }
+  },
+  "cost": {
+    "network_forwards": 20,
+    "physical_calls": 12,
+    "target": 1,
+    "centers": 5,
+    "rechecks": 6
+  },
+  "scope": "prospective heldout support/material batch; no full-grid benchmark; not final test"
+}

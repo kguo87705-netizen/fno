@@ -1,0 +1,60 @@
+{
+  "small": {
+    "indexed": {
+      "material_mae": 0.2318894863128662,
+      "dice_gamma_below_0p65": 0.024464832618832588,
+      "inside_mean": 0.548560619354248,
+      "outside_mean": 0.7681174278259277,
+      "predicted_defect_cells": 642,
+      "true_defect_cells": 12,
+      "final_waveform_loss": 0.00035110005169838903
+    },
+    "1p5": {
+      "material_mae": 0.14935021102428436,
+      "dice_gamma_below_0p65": 0.04931506887078285,
+      "inside_mean": 0.5799124240875244,
+      "outside_mean": 0.8511489033699036,
+      "predicted_defect_cells": 353,
+      "true_defect_cells": 12,
+      "final_waveform_loss": 9.593567783308756e-05
+    },
+    "3": {
+      "material_mae": 0.05750999599695206,
+      "dice_gamma_below_0p65": 0.3333333432674408,
+      "inside_mean": 0.6227418184280396,
+      "outside_mean": 0.9437586069107056,
+      "predicted_defect_cells": 48,
+      "true_defect_cells": 12,
+      "final_waveform_loss": 7.101350313597423e-06
+    }
+  },
+  "double": {
+    "indexed": {
+      "material_mae": 0.22018682956695557,
+      "dice_gamma_below_0p65": 0.049921996891498566,
+      "inside_mean": 0.5118265748023987,
+      "outside_mean": 0.7797394394874573,
+      "predicted_defect_cells": 617,
+      "true_defect_cells": 24,
+      "final_waveform_loss": 0.0003560962705646833
+    },
+    "1p5": {
+      "material_mae": 0.13921710848808289,
+      "dice_gamma_below_0p65": 0.06779661029577255,
+      "inside_mean": 0.6853896379470825,
+      "outside_mean": 0.8632494211196899,
+      "predicted_defect_cells": 330,
+      "true_defect_cells": 24,
+      "final_waveform_loss": 9.68560803027353e-05
+    },
+    "3": {
+      "material_mae": 0.07182842493057251,
+      "dice_gamma_below_0p65": 0.3125,
+      "inside_mean": 0.6605842113494873,
+      "outside_mean": 0.931002676486969,
+      "predicted_defect_cells": 72,
+      "true_defect_cells": 24,
+      "final_waveform_loss": 7.488771678515655e-06
+    }
+  }
+}

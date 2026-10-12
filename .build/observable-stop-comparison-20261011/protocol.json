@@ -1,0 +1,70 @@
+{
+  "plan": {
+    "status": "planned_not_run",
+    "purpose": "compare FNO against simple nominal secant at the same observable residual reduction; development only",
+    "cases": [
+      [
+        -1,
+        0.465
+      ],
+      [
+        -1,
+        0.535
+      ],
+      [
+        1,
+        0.465
+      ],
+      [
+        1,
+        0.535
+      ]
+    ],
+    "known_support": true,
+    "initial_a": 0.5,
+    "max_proposals": 6,
+    "clip": 0.02,
+    "accept": "strict physical squared receiver residual decrease",
+    "stop": "relative receiver residual <= initial relative residual * .001; threshold is prospective for this new development batch, not a final-test acceptance threshold",
+    "methods": [
+      "frozen_r2_direction",
+      "nominal_secant"
+    ],
+    "timing": "synchronize CUDA at boundaries; include initial solve, all accepted/rejected proposals, input encoding and response generation; separately charge model load, observations and historical offline cost; distinguish per-case direction and shared direction reuse",
+    "budget": {
+      "max_physical_calls": 56,
+      "network_calls": 8,
+      "training": 0
+    },
+    "report": [
+      "full and scatter receiver errors",
+      "final parameter error only after stopping",
+      "reached tolerance or censored at cap",
+      "actual online wall time and calls",
+      "rejected steps",
+      "no amortization count unless incremental offline cost and positive matched-quality savings both known"
+    ],
+    "scope": "known support and reused depths; not blind inversion, not full traditional adjoint FWI comparison"
+  },
+  "frozen_before_run": true,
+  "hashes": {
+    ".build\\same-quality-cost-audit-20261011\\next_protocol.json": "fc26b79f65edb5f54c4b963db5093b7d96e9a47b042877631739675758cda5e9",
+    ".build\\fno-lowfreq-field-control-r2-20261011\\loss_original_update400.pt": "8b59728c9ab6c72d08d6f8d12fae34ad8300df26640997dd85953c0908aa9a2b",
+    ".build\\operator-pilot-v3-20261008\\homogeneous.pt": "9d382c08f6dbd90cedb09c2971aaf66c96d60ca69fecbfea41d29822955d88b6",
+    ".build\\fno-local-contrast-20261009\\data_manifest.json": "281ac315c43066fae6d75457c42f3800d087192bf15022b86307d999acb4da69",
+    ".build\\fno-local-contrast-20261009\\contrast_03.pt": "07b6c6bcf1aff23887e7fa1e10f7407c3f30f4e64e33905c2d95cb7ffc8a6906",
+    ".build\\fno-local-contrast-20261009\\contrast_07.pt": "44d76f12fd90866012dec14e6881d113ee591ca8c60abac0fc1d10bce61fe3ba",
+    ".build\\fno-depth-interpolation-control-20261009\\state_-1.pt": "2d260921f1eb35cce1fae04c18afa586433ab17e6e5921448e78c65e217eb655",
+    ".build\\fno-depth-interpolation-control-20261009\\state_1.pt": "107c1774b5135af71c55804f5b9763999c35a894a421fe59922814ab3c3cdda0",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_observable_stop_comparison_20261011.py": "55043ea40d1e52b5f513e4b0871e76b36ee1b74087ec97c763cdd34cc8bf69bb",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_fno_local_contrast.py": "579d0b03d157c73cd54b3c2495994eaeb9f7e6b200d6cced94a6b67e32c30530",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_frozen_depth_shift.py": "ffb0aa8c5ecd01ee879e90d1b78f4cd784f2cc50d2841026a8730ec7031c253e",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\FiniteDifferencePyTorchConv.py": "ffa51af0896fa2ddc0ef8e705d4f88f3dc9cc61df96b780eef1ad25cac1fde9f",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\basic_fno.py": "acf21cd017e7bb399d1184d312212db67023adaa7c8ca008ff8a60081210737a",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\settings2D.csv": "4fb9e8fdb8fa2fb97502e605f31351601e115463fa1800913473699d9f4ee398",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\data_casestudy\\source.h5": "67d94afee4a19becde3f081424510f2a2433f7dd27d301abdf1954fe6f168c9c"
+  },
+  "execution": "one timed route per method/case, alternate method order; no extra warmup; timings descriptive; global physical cap 56 includes observations, so cap may censor last routes; 240 second compute cap",
+  "truth_policy": "target a only observation generation and final reporting; solve() receives obs and mask, no target a",
+  "direction_policy": "each FNO case two new network calls on gamma only; no physical labels to generate direction; nominal slope from historical two anchors; shared direction reuse estimated separately"
+}

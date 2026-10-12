@@ -1,0 +1,28 @@
+{
+  "original_files_checked": 146,
+  "changed_original_files": [
+    ".obsidian/workspace.json"
+  ],
+  "deliverable_markdown_files": 23,
+  "paper_cards": 12,
+  "candidate_count": 10,
+  "missing_required": [],
+  "broken_local_links": [],
+  "score_errors": [],
+  "exact_pdf_duplicates": [
+    [
+      ".build/downloads/B01.pdf",
+      "PINO超声成像知识库/90附件/论文原文/B01_FNO_2010.08895v3.pdf"
+    ],
+    [
+      ".build/downloads/B02.pdf",
+      "PINO超声成像知识库/90附件/论文原文/B02_PINO_2111.03794v4.pdf"
+    ],
+    [
+      ".build/downloads/P09.pdf",
+      "PINO超声成像知识库/90附件/论文原文/P09_FEUNet_2024.pdf"
+    ]
+  ],
+  "visual_QA": "P05 PDF p3 and P08 PDF p5; no Obsidian UI rendering",
+  "experiments_run": false
+}

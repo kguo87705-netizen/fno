@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "updates": 4000,
+  "arm": "fourier126",
+  "same_initialization_and_sampling": "passed",
+  "frozen_branch_state": "bit_identical_to_initial",
+  "optimizer_parameter_selection": "passed",
+  "finite_adam_state": "passed",
+  "full_grid_reload": "bit_identical",
+  "reload_max_metric_difference": 0.0,
+  "scope": "Training000/source0 only. No validation/test, physical-gradient/FWI or generalization claim."
+}

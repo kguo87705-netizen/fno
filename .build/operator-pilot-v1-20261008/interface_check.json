@@ -1,0 +1,115 @@
+{
+  "status": "pilot_interface_checks_passed",
+  "groups": 8,
+  "shot_samples_by_split": {
+    "train": 16,
+    "validation": 8,
+    "test": 8
+  },
+  "input_shape": [
+    6,
+    256,
+    128,
+    250
+  ],
+  "output_shape": [
+    1,
+    256,
+    128,
+    250
+  ],
+  "records": [
+    {
+      "group_id": "synthetic_workpiece_000",
+      "split": "train",
+      "linear_error": 0.05582714825569518,
+      "cubic_error": 0.009373631328344345,
+      "cubic_stride_errors": {
+        "2": 3.9709004340693355e-05,
+        "4": 0.0006244500400498509,
+        "8": 0.009373631328344345
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_001",
+      "split": "train",
+      "linear_error": 0.055771087068666104,
+      "cubic_error": 0.009362719021737576,
+      "cubic_stride_errors": {
+        "2": 3.963917333749123e-05,
+        "4": 0.0006233029998838902,
+        "8": 0.009362719021737576
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_002",
+      "split": "train",
+      "linear_error": 0.0558189560223286,
+      "cubic_error": 0.009374122135341167,
+      "cubic_stride_errors": {
+        "2": 3.97089243051596e-05,
+        "4": 0.0006243635434657335,
+        "8": 0.009374122135341167
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_003",
+      "split": "train",
+      "linear_error": 0.05573941010437098,
+      "cubic_error": 0.009365130215883255,
+      "cubic_stride_errors": {
+        "2": 3.966628355556168e-05,
+        "4": 0.0006236399058252573,
+        "8": 0.009365130215883255
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_004",
+      "split": "validation",
+      "linear_error": 0.055768244882487564,
+      "cubic_error": 0.009356261231005192,
+      "cubic_stride_errors": {
+        "2": 3.9613762055523694e-05,
+        "4": 0.0006227908306755126,
+        "8": 0.009356261231005192
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_005",
+      "split": "validation",
+      "linear_error": 0.05572910968414386,
+      "cubic_error": 0.009329037740826607,
+      "cubic_stride_errors": {
+        "2": 3.948983794543892e-05,
+        "4": 0.0006208751583471894,
+        "8": 0.009329037740826607
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_006",
+      "split": "test",
+      "linear_error": 0.055684253191639416,
+      "cubic_error": 0.00932068657130003,
+      "cubic_stride_errors": {
+        "2": 3.9477523387176916e-05,
+        "4": 0.0006207450642250478,
+        "8": 0.00932068657130003
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_007",
+      "split": "test",
+      "linear_error": 0.055788873776468594,
+      "cubic_error": 0.009365243837237358,
+      "cubic_stride_errors": {
+        "2": 3.966069925809279e-05,
+        "4": 0.0006234681350179017,
+        "8": 0.009365243837237358
+      }
+    }
+  ],
+  "normalization_train_only_verified": true,
+  "input_material_derivative_preserved": true,
+  "temporal_decoder_derivative_preserved": true,
+  "limitation": "Cubic waveform reconstruction checked on pilot traces; full FWI objective and material-gradient distortion still require separate validation. No neural network trained."
+}

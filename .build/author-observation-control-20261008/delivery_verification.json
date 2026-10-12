@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "four_endpoint_behavioral_verifiers": "passed, bit-identical predictions and zero metric differences",
+  "scripts_compiled": 3,
+  "notes_and_internal_links": 5,
+  "original_seven_author_files": "unchanged, verified",
+  "downloaded_generation_sources": "MD5 and SHA verified",
+  "visual_review": "actually viewed; readable common-scale field and trajectory panels",
+  "plot_copy": "SHA identical",
+  "next_protocol": "planned_not_run",
+  "scope": "case1 development; no validation/test or independent physics evaluation"
+}

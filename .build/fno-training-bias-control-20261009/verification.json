@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "calibration": "training-only construction order and hash committed",
+  "mean_residual": "exactly recomputed",
+  "all_metrics_and_argmins": "exactly recomputed",
+  "uncorrected_and_other_baselines": "selected a and physical costs match frozen prior",
+  "zero_correction": "bit identical",
+  "derivative_invariant_max_absolute_change": 5.551115123125783e-14,
+  "raw_sha256": "51846aac87930cd08342043282bf22ec4ea4173127d8989f4be1a3d06e12ecdb",
+  "inputs_dependencies": "SHA unchanged"
+}

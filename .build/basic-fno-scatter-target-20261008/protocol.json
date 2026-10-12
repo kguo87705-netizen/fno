@@ -1,0 +1,49 @@
+{
+  "status": "fixed_budget_protocol",
+  "purpose": "isolate full-field vs defect-scattering target on same training shot",
+  "group_id": "synthetic_workpiece_000",
+  "shot": 0,
+  "split": "train",
+  "updates": 400,
+  "seed": 2,
+  "Adam_learning_rate": 0.001,
+  "receiver_loss_weight": 1.0,
+  "model": "same ordinary four-layer FNO width4 modes16/8/64 six input channels, no padding",
+  "normalization": {
+    "fit_split": "train",
+    "trace_mean": 0,
+    "wavefield_mean": 0,
+    "trace_rms": 0.25594272720229144,
+    "wavefield_rms": 0.15921596709548344
+  },
+  "target": "FD(gamma)-FD(1)",
+  "field_prediction": "fixed FD(1) snapshots plus learned residual",
+  "full_trace_prediction": "fixed full FD(1) traces plus cubic reconstructed learned residual",
+  "baseline_control": ".build\\basic-fno-receiver-loss-20261008\\final.pt",
+  "baseline_control_sha256": "99e0247518bf507c7620524963bb78668ce09cc8bec15f98df034d576eacd54f",
+  "selection": "fixed final update, no selection",
+  "test_access": false,
+  "data_manifest_sha256": "9972c2aec68c347ba73e1677c182b25542ebc74bb3a5cdcee9b7243548991e42",
+  "metrics": [
+    "scatter field relative L2",
+    "scatter full-trace relative L2",
+    "full field and receiver relative L2"
+  ],
+  "caution": "single-sample fit cannot prove material sensitivity or generalization; only then proceed to train/validation multiworkpiece comparison",
+  "evaluation_updates": [
+    0,
+    50,
+    100,
+    200,
+    400
+  ],
+  "plan_sha256": "a2caadde642801f00fd35b97f32898e2d5ab5b03972dd68a3ebed4198828d9e9",
+  "script_sha256": "b342d0b6416367b9fcc95c149055abd36a08186c21785950e455f5742d91660a",
+  "homogeneous_sha256": "9d382c08f6dbd90cedb09c2971aaf66c96d60ca69fecbfea41d29822955d88b6",
+  "initial_weights": "same seed2 BasicFNO as direct target control; raw initial metrics checked",
+  "data_access": [
+    "train"
+  ],
+  "test_not_loaded": true,
+  "normalization_changed": false
+}

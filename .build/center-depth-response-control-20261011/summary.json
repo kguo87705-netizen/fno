@@ -1,0 +1,140 @@
+{
+  "status": "completed",
+  "rows": [
+    {
+      "target": 0.47,
+      "method": "fno_r2",
+      "final_a": 0.4700273576748683,
+      "final_error": 2.6524852863187054e-05,
+      "parameter_error": 2.7357674868333515e-05,
+      "history": [
+        {
+          "iteration": 1,
+          "a_before": 0.5,
+          "proposal": 0.48,
+          "before": 0.028011916634697803,
+          "after": 0.009491996061006994,
+          "accepted": true
+        },
+        {
+          "iteration": 2,
+          "a_before": 0.48,
+          "proposal": 0.46951446423337373,
+          "before": 0.009491996061006994,
+          "after": 0.0004649206004002064,
+          "accepted": true
+        },
+        {
+          "iteration": 3,
+          "a_before": 0.46951446423337373,
+          "proposal": 0.4700273576748683,
+          "before": 0.0004649206004002064,
+          "after": 2.6524852863187054e-05,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "target": 0.47,
+      "method": "nominal_secant",
+      "final_a": 0.47004373122152937,
+      "final_error": 4.1877539045571416e-05,
+      "parameter_error": 4.3731221529397235e-05,
+      "history": [
+        {
+          "iteration": 1,
+          "a_before": 0.5,
+          "proposal": 0.48,
+          "before": 0.028011916634697803,
+          "after": 0.009491996061006994,
+          "accepted": true
+        },
+        {
+          "iteration": 2,
+          "a_before": 0.48,
+          "proposal": 0.4693868407034969,
+          "before": 0.009491996061006994,
+          "after": 0.0005872091521630515,
+          "accepted": true
+        },
+        {
+          "iteration": 3,
+          "a_before": 0.4693868407034969,
+          "proposal": 0.47004373122152937,
+          "before": 0.0005872091521630515,
+          "after": 4.1877539045571416e-05,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "target": 0.53,
+      "method": "fno_r2",
+      "final_a": 0.5299884382245489,
+      "final_error": 1.0274220396935765e-05,
+      "parameter_error": 1.156177545114101e-05,
+      "history": [
+        {
+          "iteration": 1,
+          "a_before": 0.5,
+          "proposal": 0.52,
+          "before": 0.02681777343115215,
+          "after": 0.008806585448061132,
+          "accepted": true
+        },
+        {
+          "iteration": 2,
+          "a_before": 0.52,
+          "proposal": 0.5296987462574319,
+          "before": 0.008806585448061132,
+          "after": 0.00026332948459559854,
+          "accepted": true
+        },
+        {
+          "iteration": 3,
+          "a_before": 0.5296987462574319,
+          "proposal": 0.5299884382245489,
+          "before": 0.00026332948459559854,
+          "after": 1.0274220396935765e-05,
+          "accepted": true
+        }
+      ]
+    },
+    {
+      "target": 0.53,
+      "method": "nominal_secant",
+      "final_a": 0.5299848799305737,
+      "final_error": 1.3292286230476916e-05,
+      "parameter_error": 1.5120069426277638e-05,
+      "history": [
+        {
+          "iteration": 1,
+          "a_before": 0.5,
+          "proposal": 0.52,
+          "before": 0.02681777343115215,
+          "after": 0.008806585448061132,
+          "accepted": true
+        },
+        {
+          "iteration": 2,
+          "a_before": 0.52,
+          "proposal": 0.5296559743630892,
+          "before": 0.008806585448061132,
+          "after": 0.0003007186779502529,
+          "accepted": true
+        },
+        {
+          "iteration": 3,
+          "a_before": 0.5296559743630892,
+          "proposal": 0.5299848799305737,
+          "before": 0.0003007186779502529,
+          "after": 1.3292286230476916e-05,
+          "accepted": true
+        }
+      ]
+    }
+  ],
+  "physical_calls": 19,
+  "network_forwards": 2,
+  "scope": "known support center depth state, source0, development diagnostic"
+}

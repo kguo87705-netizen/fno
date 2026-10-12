@@ -1,0 +1,45 @@
+{
+  "status": "planned_not_run",
+  "question": "Can one fixed physical scalar correction reduce frozen surrogate recovery bias, and does neural initialization add value over linear lookup?",
+  "output_directory": ".build/fno-physical-single-step-control-20261009",
+  "targets": [
+    0.35,
+    0.45,
+    0.55,
+    0.65
+  ],
+  "observations": "Reuse frozen new-contrast observations; now development/diagnostic data, not untouched final test",
+  "methods": [
+    "uncorrected width8 grid estimate followed by one physical update",
+    "train-only linear grid estimate followed by one physical update",
+    "fixed a=.5 followed by same one physical update"
+  ],
+  "fixed": "Same geometry/source0, observations, physical float64 stencil, objective, epsilon, max step and number of updates. No fitted bias methods promoted.",
+  "primary_factor": "Initial scalar estimate supplied by frozen FNO, train-only linear or fixed background-reference contrast",
+  "update": "At a0 compute physical F(a0), F(a0+0.002), F(a0-0.002). J=(Fplus-Fminus)/0.004, r=F(a0)-d. delta=-<J,r>time/<J,J>time. Clamp delta to[-0.02,0.02], clamp a1 to[.3,.7], then compute F(a1). Exactly one step, no line search, acceptance selection, truth stopping or iteration tuning.",
+  "precision": "a0 from frozen grid values, physical update endpoints and a1 use float64; record actual a and endpoints. Same original coefficients promoted float64.",
+  "report": "All4 targets and3 initializations, even increases. Record raw/clipped delta, true cost before/after, full/scatter receiver errors, material error after completing step, slope norm and boundary flags.",
+  "references": [
+    "no-update starting estimate",
+    "same physical grid optimum from prior cache",
+    "linear lookup initialization under identical update budget",
+    "fixed .5 direct-physical start, explicitly different starting estimate"
+  ],
+  "cost_accounting": "Four physical calls per target/initialization,48 calls; original and linear201-point lookup costs are prior recorded first-stage costs and must remain separate. Shared/cached calls reported; no inference of full inversion amortization from one-step timing.",
+  "decision": {
+    "both_FNO_and_linear_correct": "Supports hybrid physical verification/correction; if quality comparable, no evidence neural first stage is needed for this task.",
+    "FNO_correct_linear_not": "Only one-step known-support evidence; require new frozen validation and full cost before advantage claim.",
+    "cost_decreases_but_material_worsens": "Do not label recovery success; revisit physical objective/material relationship.",
+    "updates_increase_cost_or_boundary": "Report failure; separately preregister optimizer/step diagnostic, no automatic retuning."
+  },
+  "budget": "48 float64 FD calls, estimated under1min to2min,cap5min,no network training/download, fresh directory, OOM stop.",
+  "limits": "Single known-support scalar Gauss-Newton step on used prospective-validation observations. Not blind FWI, final testing, complete optimization or same-quality total-cost advantage.",
+  "frozen_sha256": {
+    ".build\\fno-frozen-new-contrast-validation-20261009\\raw.pt": "10a717aa2e16573d4beaa665d77e773a46cd3fedc75c7a23478e6401b9c53af2",
+    ".build\\fno-frozen-new-contrast-validation-20261009\\summary.json": "f4e31dabfea5b30b4073383963965f939c978d144016461f0b548226d367877f",
+    ".build\\fno-frozen-new-contrast-validation-20261009\\observations.pt": "03d21574983adfee9253cfff3b1536dd6d71ebc8a0fafc98efc646f4481ae9c8",
+    ".build\\fno-frozen-new-contrast-validation-20261009\\protocol.json": "05fc558bf9b7108992ac989b125acd589150567e34d28d123779911e8ebc4d5a",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\discrete_reference.py": "744df2da2f15abed6934a78e600b9d1aa94fc3dd87d87ba48f41839bec7b0aaf",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_frozen_contrast_validation.py": "6ab90f26ce68f9378f5b8d60ec1f28dfaaf085cfe49fddc5074242a859023dad"
+  }
+}

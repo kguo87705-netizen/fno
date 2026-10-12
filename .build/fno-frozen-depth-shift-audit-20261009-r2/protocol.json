@@ -1,0 +1,65 @@
+{
+  "status": "frozen_before_labels",
+  "plan": {
+    "status": "planned_not_run",
+    "question": "Does the frozen contrast-only width8 forward surrogate respond correctly to a small unseen depth translation?",
+    "output_directory": ".build/fno-frozen-depth-shift-audit-20261009",
+    "only_main_factor": "Translate the nominal discrete support along physical y by -2,0,+2 grid rows; contrast remains .5.",
+    "fixed": "Frozen width8 checkpoint, IEEE policy, source0, 24 receivers, 2000 times, original float32 discrete physics, normalization, time reconstruction and homogeneous background; no optimization, training or calibration.",
+    "support_checks": "449 cells for each mask; translate with zero fill without roll/wrap; every cell inside the physical domain; save masks and actual shift in meters from y_m spacing.",
+    "data_role": "Prospective frozen diagnostic validation; immediately becomes development data after review. Never an independent final test.",
+    "baselines": [
+      "Frozen nominal .5 training field/trace (geometry-insensitive lookup)",
+      "Zero scattered field/trace plus homogeneous background",
+      "Nominal zero-shift replay as implementation control"
+    ],
+    "observations": "Generate three float32 physical field-snapshot/receiver labels after saving protocol and hashes. No shifted label may become a reference prediction.",
+    "metrics": [
+      "full and scattered field relative L2 separately",
+      "full and scattered receiver relative L2 separately",
+      "finite symmetric geometry response P(+2)-P(-2) versus F(+2)-F(-2): relative L2 and cosine",
+      "network/lookup per-case error ratios, source and receiver coordinate checks"
+    ],
+    "screening": "Predeclare shifted scatter field and receiver error <=.20 for both signs, finite geometry-response receiver relative error <=.20 and cosine >=.90. These are engineering screening rules, not a claim of physical derivative or inversion accuracy. No threshold tuning from new labels.",
+    "success": "Both signs meet screens, finite response meets screen, and network beats nominal lookup scatter receiver error on both shifted states; supports only this discrete local depth transfer.",
+    "failure": "A valid run fails any screen: record the failing metric and sign; next examine geometry-family coverage with the same architecture, not automatic network growth.",
+    "inconclusive": "Mask/control/hash checks fail, nonfinite outputs, or finite physical response norm is <=1e-6 times nominal scattered trace norm; stop interpretation and audit implementation/response scale.",
+    "next_if_success": "Preregister a depth-family derivative/data protocol before any unknown-geometry material inversion. A three-state finite response is not a local Jacobian.",
+    "budget": "Exactly3 physical and3 network predictions; estimated <2min, cap5min, no training/download. If nominal replay requires repair or resource cap is exceeded, stop and preserve artifacts.",
+    "boundary": "Geometry is supplied as forward input. No blind localization, unknown-shape recovery, noise robustness or full-inversion cost claim.",
+    "frozen_evidence_sha256": {
+      ".build\\fno-physical-fixed-budget-control-20261009\\raw.pt": "414a0f1aa6869fbec0ed2683dee8294cc419ae14ea224848204294e0fbef779e",
+      ".build\\fno-physical-fixed-budget-control-20261009\\summary.json": "f806e74265df8d29072ec6b8f74e376e2a5db22ebec24a312c74f3191da56ec1",
+      ".build\\fno-physical-fixed-budget-control-20261009\\verification.json": "73da04730b19304c2f37bc198f2e0c4c7ed7cccacf1af6411a74277104312386",
+      ".build\\fno-physical-fixed-budget-control-20261009\\protocol.json": "afe9bd7c973bdf488987b351b5fea5937e4f5dc15b7482fee7377ca2a6c0d34b"
+    }
+  },
+  "plan_sha256": "f3deb1dec6e141082f438597b42ab76594dc11afdbc6e1672cd5db9e6253e3d9",
+  "script_sha256": "ffb0aa8c5ecd01ee879e90d1b78f4cd784f2cc50d2841026a8730ec7031c253e",
+  "files_sha256": {
+    ".build\\fno-width8-control-20261009\\final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+    ".build\\fno-local-contrast-20261009\\contrast_05.pt": "baf16dcfb73599e8172e31919e052811e21ba09e543bb7a191ced73aee4c9c30",
+    ".build\\fno-local-contrast-20261009\\data_manifest.json": "281ac315c43066fae6d75457c42f3800d087192bf15022b86307d999acb4da69",
+    ".build\\operator-pilot-v3-20261008\\homogeneous.pt": "9d382c08f6dbd90cedb09c2971aaf66c96d60ca69fecbfea41d29822955d88b6",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\settings2D.csv": "4fb9e8fdb8fa2fb97502e605f31351601e115463fa1800913473699d9f4ee398",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\data_casestudy\\source.h5": "67d94afee4a19becde3f081424510f2a2433f7dd27d301abdf1954fe6f168c9c",
+    ".build\\operator-pilot-v3-20261008\\synthetic_workpiece_000.pt": "eba5bed176c50f379d3ab4da194aae92529e0ecd648d18eabc352bc1d2a41f82",
+    ".build\\fno-frozen-new-contrast-validation-20261009\\width8_grid.pt": "7a498e377d04087b390245e528fb89438f7ab1db73f94f325a585a5ca42b209a"
+  },
+  "dependencies": {
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\basic_fno.py": "acf21cd017e7bb399d1184d312212db67023adaa7c8ca008ff8a60081210737a",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_fno_local_contrast.py": "579d0b03d157c73cd54b3c2495994eaeb9f7e6b200d6cced94a6b67e32c30530",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\time_feature_input.py": "5d18c16a80304c2ac8027dbdef5b3bcb3c9dd40450e6361dddb39b84fdc86f39",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\operator_data.py": "43c1c3f67f7abe6a91a95886c4121fd6f34031e81f29dd46db1f2d19c82617ca",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\time_reconstruction.py": "d749b8f5c6aa379187a8d1486c0249b1d79630a9ecd638e7af63ce1cf7d2aaf2",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\FiniteDifferencePyTorchConv.py": "ffa51af0896fa2ddc0ef8e705d4f88f3dc9cc61df96b780eef1ad25cac1fde9f",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\Utilities.py": "20931a36069c795d367d36bcf81df1875b10ba8459718dcd442377a184c101e3",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_contrast_derivative_audit.py": "f89db13917f3e66a1b0c3702200c27ef49d2babe23ed04a99956bad9b44fd265",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_reduced_material_scan.py": "b48630e557fb7c99e7e881f2c1adb32216311077386f5fe71af4693bc12a1108"
+  },
+  "execution": "IEEE float32 physical and neural forwards; metric accumulation float64; no fitting; four CPU threads",
+  "restart": "Initial directory retained after CPU/CUDA input mismatch before first network prediction; device-only fix, new r2 directory; scientific plan unchanged",
+  "verification_budget": "Separate replay may repeat3 physical and3 network predictions for bit parity, no method changes",
+  "gpu": "NVIDIA GeForce RTX 5070",
+  "torch": "2.11.0+cu128"
+}

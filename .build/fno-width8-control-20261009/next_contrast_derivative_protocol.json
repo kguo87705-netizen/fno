@@ -1,0 +1,40 @@
+{
+  "status": "planned_not_run",
+  "purpose": "Separate waveform accuracy from local material sensitivity and real physical descent after width8 passed narrow waveform screens",
+  "scope": "Existing training000 geometry, source0, contrast axis only; diagnostic development states, not full-pixel Jacobian or blind FWI",
+  "states": [
+    0.4,
+    0.6
+  ],
+  "methods": [
+    "frozen width4 final1200",
+    "frozen width8 final1200",
+    "train-only piecewise linear field interpolation"
+  ],
+  "training": "None; all networks, scales, base and train-only reference coefficients frozen",
+  "waveform_response": "Full2000-step scattered receiver central differences along support contrast a. Requested absolute epsilon0.001 and0.0005. Record actual float32 proxy contrasts and use the identical positive endpoints for promoted-float64 FD differences",
+  "reference": "Same discrete stencil with original coefficients promoted to float64, source0 and fixed support. FD double arithmetic is a numerical derivative reference, not independent physics",
+  "metrics": "Pooled and individual directional response relativeL2, predicted/reference norm ratio, waveform-response cosine, two-epsilon convergence; report each state separately",
+  "loss_gradient": "Correct source0 time cost against frozen training a=0.5 full traces, multiplied by1e12. Compare scalar AD derivative to proxy finite differences and physical AD derivative. Scalar sign is informative, scalar gradient cosine is not a high-dimensional angle",
+  "precision_checks": "Promote the frozen float32 target to FD float64 without recomputing its labels; use identical objective, sampling and actual contrasts. Record float32 proxy finite-difference limits, do not call unreliable difference an accurate derivative",
+  "true_step_trials": "At each state use candidate a-step*sign(proxy loss derivative), steps0.02 and0.01, bounded to[0.3,0.7]. Recompute physical float64 cost against the same frozen target; report actual step, cost ratio and contrast distance to0.5 for every method/step, no selected best trial",
+  "selection": "All predefined states, methods, epsilons and step trials reported; no checkpoint selection, optimization, test-based tuning or new geometry generation",
+  "screening": "Directional response relative error<=20% and waveform-response cosine>=0.9 are project screens, not guarantees. Genuine physical descent must be reported independently; an accepted scalar step does not prove full FWI recovery",
+  "decision": "If waveform accuracy is adequate but sensitivity is poor, define one derivative-informed correction in a separate protocol. If both responses and physical steps are useful, evaluate a small further contrast/geometry protocol while retaining the simple reference. Do not claim innovation or acceleration over linear interpolation from these checks",
+  "frozen_files_sha256": {
+    ".build/fno-local-contrast-20261009/final.pt": "4389f119e54011fba8ac181fd090da60a9df5f87d580a0dce60e110cfbc3cf86",
+    ".build/fno-width8-control-20261009/final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+    ".build/fno-width8-control-20261009/comparison.json": "614e0a9b0c007a39858005f2325b9d5bc350ca52e0fd8d51d04905d641fd4432",
+    ".build/fno-local-contrast-20261009/data_manifest.json": "281ac315c43066fae6d75457c42f3800d087192bf15022b86307d999acb4da69",
+    ".build/fno-local-contrast-20261009/references.json": "77573d1a890dc22e8cd2f403f98a2f9f7f7cc6dcbb3736fd1f90522728a96d82",
+    ".build/fno-local-contrast-20261009/contrast_03.pt": "07b6c6bcf1aff23887e7fa1e10f7407c3f30f4e64e33905c2d95cb7ffc8a6906",
+    ".build/fno-local-contrast-20261009/contrast_05.pt": "baf16dcfb73599e8172e31919e052811e21ba09e543bb7a191ced73aee4c9c30",
+    ".build/fno-local-contrast-20261009/contrast_07.pt": "44d76f12fd90866012dec14e6881d113ee591ca8c60abac0fc1d10bce61fe3ba",
+    ".build/fno-local-contrast-20261009/contrast_04.pt": "5e86d1634ce196cdc51dace9cb76d3725a39b9702235b6e8182d1a4415c5e863",
+    ".build/fno-local-contrast-20261009/contrast_06.pt": "a60417869bdfd89ef640c0b425718a9cb25f832dba699700208a77df50cb16d1",
+    ".build/operator-pilot-v3-20261008/homogeneous.pt": "9d382c08f6dbd90cedb09c2971aaf66c96d60ca69fecbfea41d29822955d88b6",
+    ".build/operator-pilot-v3-20261008/synthetic_workpiece_000.pt": "eba5bed176c50f379d3ab4da194aae92529e0ecd648d18eabc352bc1d2a41f82",
+    "Research_Direction/Author_Baseline_Singh_Zenodo14616677/data_casestudy/source.h5": "67d94afee4a19becde3f081424510f2a2433f7dd27d301abdf1954fe6f168c9c",
+    "Research_Direction/Author_Baseline_Singh_Zenodo14616677/settings2D.csv": "4fb9e8fdb8fa2fb97502e605f31351601e115463fa1800913473699d9f4ee398"
+  }
+}

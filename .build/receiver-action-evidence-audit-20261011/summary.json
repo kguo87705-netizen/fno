@@ -1,0 +1,75 @@
+{
+  "status": "completed",
+  "rows": [
+    {
+      "material": "background",
+      "gamma_range": [
+        1.0,
+        1.0
+      ],
+      "left_half": {
+        "same_full_trace": true,
+        "same_wavefield": true,
+        "exact_receiver_slice": true,
+        "same_gamma": true
+      },
+      "right_half": {
+        "same_full_trace": true,
+        "same_wavefield": true,
+        "exact_receiver_slice": true,
+        "same_gamma": true
+      }
+    },
+    {
+      "material": "low_contrast",
+      "gamma_range": [
+        0.47999998927116394,
+        1.0
+      ],
+      "left_half": {
+        "same_full_trace": true,
+        "same_wavefield": true,
+        "exact_receiver_slice": true,
+        "same_gamma": true
+      },
+      "right_half": {
+        "same_full_trace": true,
+        "same_wavefield": true,
+        "exact_receiver_slice": true,
+        "same_gamma": true
+      }
+    },
+    {
+      "material": "high_contrast",
+      "gamma_range": [
+        0.5199999809265137,
+        1.0
+      ],
+      "left_half": {
+        "same_full_trace": true,
+        "same_wavefield": true,
+        "exact_receiver_slice": true,
+        "same_gamma": true
+      },
+      "right_half": {
+        "same_full_trace": true,
+        "same_wavefield": true,
+        "exact_receiver_slice": true,
+        "same_gamma": true
+      }
+    }
+  ],
+  "new_physical_calls": 0,
+  "new_network_forwards": 0,
+  "conclusions": [
+    "receiver masking only, no transmit action change",
+    "two distinct material inputs, not six independent neural samples",
+    "no ensemble or noise replicates: predictive uncertainty uncalibrated",
+    "subset cannot add observations after full aperture already observed",
+    "phase A physical_seconds includes processing and saving; not solver-only timing",
+    "phase A 9 generation plus 3 verification calls per run; two runs consumed 24 calls, not 18",
+    "peak argmax shift is not validated echo TOF",
+    "gamma .48 has larger distance from background 1 than .52: low/high contrast names misleading"
+  ],
+  "audit_seconds": 0.45638079999480397
+}

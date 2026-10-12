@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "curves_argmins_scores": "exact recomputation from saved predictions",
+  "observations": "four float32 labels regenerated bit identical",
+  "prior_overlap_predictions": 111,
+  "frozen_files_dependencies": "SHA unchanged",
+  "raw_sha256": "10a717aa2e16573d4beaa665d77e773a46cd3fedc75c7a23478e6401b9c53af2",
+  "limitation": "Same stencil, no independent physics or new Jacobian validation"
+}

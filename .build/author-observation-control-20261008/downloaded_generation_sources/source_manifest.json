@@ -1,0 +1,12 @@
+{
+  "GenerateMeasurementDataTest.py": {
+    "url": "https://zenodo.org/records/14616677/files/GenerateMeasurementDataTest.py?download=1",
+    "md5": "681d26903cb78a52e591a8163342af4f",
+    "sha256": "d9de8be21ec08d2e5d364ae7fc215b5f85d00455f710a82cd6e4e2a9ac122f85"
+  },
+  "GenerateMeasurementDataTrain.py": {
+    "url": "https://zenodo.org/records/14616677/files/GenerateMeasurementDataTrain.py?download=1",
+    "md5": "9ca35d656f0c9dd95e121e347bef04ce",
+    "sha256": "953bfdb7b2eed0668d00511ee4c5a3e919bff69f4561f3ec7a781b74d5c3c8c8"
+  }
+}

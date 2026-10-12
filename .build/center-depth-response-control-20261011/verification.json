@@ -1,0 +1,5 @@
+{
+  "status": "passed",
+  "rows": 4,
+  "inputs": "center depth regenerated in same solver; no independent final test"
+}

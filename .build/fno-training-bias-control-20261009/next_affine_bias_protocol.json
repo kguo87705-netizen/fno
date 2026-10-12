@@ -1,0 +1,37 @@
+{
+  "status": "planned_not_run",
+  "question": "Does training-derived material dependence of residual improve recovery beyond fixed mean correction?",
+  "output_directory": ".build/fno-training-affine-bias-control-20261009",
+  "unique_factor": "Constant residual correction versus first-order residual correction in input contrast, fit only from the same3 training states.",
+  "formula": "b0=mean(e03,e05,e07); b1=(e07-e03)/(actual_float32_a07-actual_float32_a03); b(a)=b0+(a-mean(actual_training_a))*b1. This is ordinary least squares with centered three actual training contrasts; record exact coefficients. Use exact OLS denominator sum((a-mean_a)^2) if float32 spacing asymmetric.",
+  "implementation": "Calculate OLS coefficient tensors from calibration.pt only, save SHA before loading development labels. No neural training, no new predictions, no regularization/strength selection.",
+  "baselines": [
+    "original width8",
+    "constant mean correction",
+    "train-only piecewise linear",
+    "physical reference",
+    "b1=0 must reproduce constant correction"
+  ],
+  "evaluation": "Same two development observations, frozen37 candidates/common windows, observable time cost argmin and tie rule; all targets and methods reported.",
+  "metrics": [
+    "material error and true FD cost at selected candidate",
+    "full/scatter waveform error at true and selected input",
+    "two epsilon material response at a=.4/.6 from frozen IEEE endpoint tensors minus affine offset, report error/cosine against frozen float64 FD",
+    "own objective gradient from cached proxy AD and affine slope via time-weighted residual contraction, finite-difference check when feasible; never call FD alone exact network Jacobian"
+  ],
+  "screens": "Keep original response relative error<=.20/cos>=.9 and numerical1%QA; report both epsilons, no target-based parameter tuning.",
+  "decision": {
+    "both_material_improve_and_response_passes": "Supports this development-only low-order receiver calibration; freeze before evaluating predeclared new materials.",
+    "mixed_worse_or_response_fails": "Do not promote correction or increase polynomial degree using these targets. Stop calibration escalation and plan fresh frozen material validation with original/linear baselines.",
+    "window_edge": "Inconclusive recovery outside window; no automatic expansion."
+  },
+  "budget": "Cached tensor arithmetic only; no network or FD calls/training, expected under1min,cap5min,fresh directory.",
+  "limits": "Additional training-data-derived surrogate calibration changes derivatives; must check them. Receiver-only, known-support, development data; no blind/generalization/total-cost claim.",
+  "frozen_sha256": {
+    ".build\\fno-training-bias-control-20261009\\calibration.pt": "b093d5c5a5196ad6635dfd259b65a314dafb1de874aaafcb237111b9ab2b75da",
+    ".build\\fno-training-bias-control-20261009\\raw.pt": "51846aac87930cd08342043282bf22ec4ea4173127d8989f4be1a3d06e12ecdb",
+    ".build\\fno-training-bias-control-20261009\\summary.json": "19db57f99a743a9a7c36f9d70a2c8ed64ec492d0e8536fdb788bb948cf42760f",
+    ".build\\fno-contrast-precision-control-20261009\\raw.pt": "de90bad92a1a44dc91b0e35b2caa4437056eadff3bdd35d2a02238409417c1b4",
+    ".build\\fno-scalar-grid-refinement-20261009\\raw.pt": "30ceb1a5a0eac17e3ac73d0fa106e843de7d81f2a12654b23752b0fb22764ea3"
+  }
+}

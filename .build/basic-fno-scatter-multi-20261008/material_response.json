@@ -1,0 +1,169 @@
+{
+  "scope": "Frozen epoch-20 models, validation material-vs-homogeneous secant response; not a local gradient audit or a test-set score.",
+  "definition": "Compare (FNO(gamma)-FNO(1)) with (FD(gamma)-FD(1)) in full receiver traces; same shot and reconstruction.",
+  "homogeneous_input_caution": "All-homogeneous material is a diagnostic counterfactual, not itself a training workpiece.",
+  "models": [
+    {
+      "receiver_loss_weight": 1,
+      "target": "defect_minus_homogeneous",
+      "split": "validation",
+      "groups": 6,
+      "shots": 24,
+      "secant_response_relative_l2": 1.0000850449856977,
+      "response_norm_ratio": 0.008564200619222792,
+      "response_cosine": -0.00564861270212793,
+      "records": [
+        {
+          "group_id": "synthetic_workpiece_004",
+          "shot": 0,
+          "secant_response_relative_l2": 0.9997669240509437,
+          "response_norm_ratio": 0.007560544591611844
+        },
+        {
+          "group_id": "synthetic_workpiece_004",
+          "shot": 1,
+          "secant_response_relative_l2": 0.9998786183264685,
+          "response_norm_ratio": 0.0071501879320730885
+        },
+        {
+          "group_id": "synthetic_workpiece_004",
+          "shot": 2,
+          "secant_response_relative_l2": 0.9996212736117279,
+          "response_norm_ratio": 0.006094792905610438
+        },
+        {
+          "group_id": "synthetic_workpiece_004",
+          "shot": 3,
+          "secant_response_relative_l2": 0.9998198543798468,
+          "response_norm_ratio": 0.006415642244516282
+        },
+        {
+          "group_id": "synthetic_workpiece_005",
+          "shot": 0,
+          "secant_response_relative_l2": 0.9999633330166278,
+          "response_norm_ratio": 0.009845185228037056
+        },
+        {
+          "group_id": "synthetic_workpiece_005",
+          "shot": 1,
+          "secant_response_relative_l2": 0.9998591123291721,
+          "response_norm_ratio": 0.009085517040099871
+        },
+        {
+          "group_id": "synthetic_workpiece_005",
+          "shot": 2,
+          "secant_response_relative_l2": 1.0005230599098436,
+          "response_norm_ratio": 0.009489600345540711
+        },
+        {
+          "group_id": "synthetic_workpiece_005",
+          "shot": 3,
+          "secant_response_relative_l2": 1.0000727619700824,
+          "response_norm_ratio": 0.009408249649381632
+        },
+        {
+          "group_id": "synthetic_workpiece_012",
+          "shot": 0,
+          "secant_response_relative_l2": 0.9997683959801282,
+          "response_norm_ratio": 0.015635450835912466
+        },
+        {
+          "group_id": "synthetic_workpiece_012",
+          "shot": 1,
+          "secant_response_relative_l2": 0.9996525426826885,
+          "response_norm_ratio": 0.013874676465929178
+        },
+        {
+          "group_id": "synthetic_workpiece_012",
+          "shot": 2,
+          "secant_response_relative_l2": 0.9999742671851595,
+          "response_norm_ratio": 0.01295708711696502
+        },
+        {
+          "group_id": "synthetic_workpiece_012",
+          "shot": 3,
+          "secant_response_relative_l2": 0.99991962142697,
+          "response_norm_ratio": 0.012548962733951697
+        },
+        {
+          "group_id": "synthetic_workpiece_013",
+          "shot": 0,
+          "secant_response_relative_l2": 0.9999491884349703,
+          "response_norm_ratio": 0.009221652155617413
+        },
+        {
+          "group_id": "synthetic_workpiece_013",
+          "shot": 1,
+          "secant_response_relative_l2": 0.9999070671391788,
+          "response_norm_ratio": 0.00838115290840835
+        },
+        {
+          "group_id": "synthetic_workpiece_013",
+          "shot": 2,
+          "secant_response_relative_l2": 1.0002166650552586,
+          "response_norm_ratio": 0.00750832445646697
+        },
+        {
+          "group_id": "synthetic_workpiece_013",
+          "shot": 3,
+          "secant_response_relative_l2": 1.0004326142771816,
+          "response_norm_ratio": 0.008244474536084177
+        },
+        {
+          "group_id": "synthetic_workpiece_020",
+          "shot": 0,
+          "secant_response_relative_l2": 1.000228751723058,
+          "response_norm_ratio": 0.009348755609062247
+        },
+        {
+          "group_id": "synthetic_workpiece_020",
+          "shot": 1,
+          "secant_response_relative_l2": 0.9999804037604062,
+          "response_norm_ratio": 0.008230886371065721
+        },
+        {
+          "group_id": "synthetic_workpiece_020",
+          "shot": 2,
+          "secant_response_relative_l2": 1.0004383571860984,
+          "response_norm_ratio": 0.008826798191604845
+        },
+        {
+          "group_id": "synthetic_workpiece_020",
+          "shot": 3,
+          "secant_response_relative_l2": 1.0001047904637912,
+          "response_norm_ratio": 0.008134145829475796
+        },
+        {
+          "group_id": "synthetic_workpiece_021",
+          "shot": 0,
+          "secant_response_relative_l2": 1.000316142280083,
+          "response_norm_ratio": 0.007542866052259484
+        },
+        {
+          "group_id": "synthetic_workpiece_021",
+          "shot": 1,
+          "secant_response_relative_l2": 0.9999727390590586,
+          "response_norm_ratio": 0.006670223223597717
+        },
+        {
+          "group_id": "synthetic_workpiece_021",
+          "shot": 2,
+          "secant_response_relative_l2": 1.0001125014641672,
+          "response_norm_ratio": 0.006480570966765297
+        },
+        {
+          "group_id": "synthetic_workpiece_021",
+          "shot": 3,
+          "secant_response_relative_l2": 1.000077639139962,
+          "response_norm_ratio": 0.007064067771711074
+        }
+      ],
+      "energy_sums": {
+        "response_error": 4652.52383257865,
+        "true_scatter": 4651.732585871828,
+        "predicted_response": 0.3411838023782083,
+        "dot": -0.2250315289845171
+      }
+    }
+  ]
+}

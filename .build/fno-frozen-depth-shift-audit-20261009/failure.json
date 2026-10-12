@@ -1,0 +1,1 @@
+{"status":"execution_failed_before_first_network_prediction","cause":"CPU input and CUDA model device mismatch","scientific_interpretation":"none","restart":"fresh -r2 directory, unchanged scientific protocol"}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "updates": 400,
+  "sampled_indices_sequence_sha256": "recomputed_exact",
+  "same_initialization_and_source_data_hashes": "passed",
+  "seven_author_files": "unchanged",
+  "full_grid_prediction_reload": "bit_identical",
+  "reload_max_metric_difference": 0.0,
+  "training_only_material_response_reload_and_energy_identity": "passed",
+  "Adam_steps_and_finite_states": "passed",
+  "scope": "Training000/source0 only. No validation/test, physical gradient or architecture superiority claim."
+}

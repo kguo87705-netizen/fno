@@ -1,0 +1,14 @@
+{
+  ".build\\basic-deeponet-time-control-20261008\\zero\\artifact_verification.json": "b415e80a8b5cd2edbae7e79f3899bff19867c9a21c63fffa1e42153b7539776b",
+  ".build\\basic-deeponet-time-control-20261008\\zero\\comparison.json": "3ad20539b1556df0dad7b226ee4d4437b185fd0d24a71117cf17c39492b78b6b",
+  ".build\\basic-deeponet-time-control-20261008\\zero\\final.pt": "d8bad06105b3baf4ce3034c11909ee70ad390371cb8f9000242c1b7bade997bd",
+  ".build\\basic-deeponet-time-control-20261008\\zero\\optimization_audit.json": "ee8c6a0d65b9d60e47c10ebe7279a9d3bd71a5b076486aa2c89608bee9402a0c",
+  ".build\\basic-deeponet-time-control-20261008\\zero\\protocol.json": "6411677c3fdb2dc16e246a84ea5387b3925f353154d00f334315ebc2cfb10591",
+  ".build\\basic-deeponet-time-control-20261008\\zero\\training_example.pt": "19e5cbf5b684e93d471c8c24a96c062fc624e16ed19a9a087ab2ee3ccac2092e",
+  ".build\\basic-deeponet-time-control-20261008\\sincos\\artifact_verification.json": "b415e80a8b5cd2edbae7e79f3899bff19867c9a21c63fffa1e42153b7539776b",
+  ".build\\basic-deeponet-time-control-20261008\\sincos\\comparison.json": "536df656bda46e9a9cb26c8c5ef9aa485bfa9930dfd3f812478d1c8ecc36bc8e",
+  ".build\\basic-deeponet-time-control-20261008\\sincos\\final.pt": "10dbf9f5252e365ba102375a3ee4ba9420624d6bb76ee58fb8655f34e57c19a1",
+  ".build\\basic-deeponet-time-control-20261008\\sincos\\optimization_audit.json": "97bdae8e38b7c3cfb1fc1e7a0ccabad869f3fd29aa2aadb2c2b84777b2241a93",
+  ".build\\basic-deeponet-time-control-20261008\\sincos\\protocol.json": "8e958516e92c7a3f6c348ff7854c02dbc5ae215848b8423732fac2d2875dbda3",
+  ".build\\basic-deeponet-time-control-20261008\\sincos\\training_example.pt": "595e9d1bdb38d52d2ac91309edac3957b655ebd26ddfa02ef8d7b79886b45583"
+}

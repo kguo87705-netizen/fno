@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "immutable_inputs": "14 SHA checks passed",
+  "code_dependencies": "SHA checks passed",
+  "metrics": "exactly recomputed from saved endpoint/center/step tensors",
+  "coverage": "all 3 methods, 2 states, 2 epsilons and 2 steps reported",
+  "raw_sha256": "df8af380be3e6d9d73e4d57b495d5b6662982c0728ef972b69b31937c5a35563",
+  "summary_sha256": "d1248cdb30d48266d57d1f65ec28acb6f64aa0d531ed612e0b454f5d8f9f2067",
+  "limitation": "Numerical AD/finite-difference residuals are reported in summary; passed here means artifact consistency, not physical accuracy acceptance"
+}

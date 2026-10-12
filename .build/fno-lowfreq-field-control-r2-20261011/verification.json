@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "final_reload": "All14 field hashes/trace bits and metrics match",
+  "initial": "Both weights/Adam300 exact;all14 initial field/trace predictions match previous coverage300",
+  "schedule": "Each arm100 updates;each slot20;Adamfinal400",
+  "saved_summaries": "Exact recomputation",
+  "physical": "0 new calls",
+  "raw_sha256": "f985f4cbdb12cb9945d46521be7632d37a6e452041b77493f6a8e3b340c2e6dd",
+  "limits": "One init,used development data,no physical Jacobian/recovery test",
+  "execution_seconds_through_final_sha_audit": 153.82390699999996,
+  "inclusive_clock_note": "Summary clock includes replay;verification clock additionally includes raw/report serialization and final SHA audit."
+}

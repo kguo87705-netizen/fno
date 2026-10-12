@@ -1,0 +1,424 @@
+{
+  "status": "completed",
+  "protocol": {
+    "scope": "Case1 development only; observation consistency, local unconstrained positive-density derivative responses, separate feasible projected trials. Not a full identifiability proof.",
+    "directions": [
+      "shallow",
+      "deep",
+      "left",
+      "right",
+      "defect_contrast",
+      "uniform"
+    ],
+    "direction_definition": "gamma times masked peak-normalized bump; parameter is relative gamma perturbation, defect_contrast uses mask*(gamma<.5)",
+    "derivative_peak_amplitudes": [
+      0.0001,
+      5e-05
+    ],
+    "projected_trial_peak_amplitude": 0.005,
+    "boundary": "ghost and source/receiver material masked",
+    "precision": "float64 FD using promoted original float32 coefficients",
+    "no_validation_test": true,
+    "script_sha256": "9a1cb3d7c0e311d3c7ea5f713048704f81fd7fecada939cdc97da5c0cd92911d"
+  },
+  "observation_consistency": {
+    "relative_l2": 0.5155089821632072,
+    "truth_cost": 1.771264364013947e-12,
+    "uniform_cost": 3.677988505149336e-12,
+    "trace_cosine": 0.8729197852599859,
+    "amplitude_ls_pred_to_obs": 0.8397751504716364,
+    "time_shift_amplitude_diagnostic": [
+      {
+        "lag_samples": -8,
+        "scale": 0.624017025541712,
+        "raw_relative_l2": 0.8560055591971892,
+        "scaled_relative_l2": 0.7618582089894278
+      },
+      {
+        "lag_samples": -7,
+        "scale": 0.6701283863210766,
+        "raw_relative_l2": 0.7957668253157137,
+        "scaled_relative_l2": 0.7183002741169402
+      },
+      {
+        "lag_samples": -6,
+        "scale": 0.7115269260785723,
+        "raw_relative_l2": 0.7374528527584108,
+        "scaled_relative_l2": 0.6738747739954303
+      },
+      {
+        "lag_samples": -5,
+        "scale": 0.7477640966959529,
+        "raw_relative_l2": 0.6822761194948509,
+        "scaled_relative_l2": 0.6299794348129686
+      },
+      {
+        "lag_samples": -4,
+        "scale": 0.7784438072758052,
+        "raw_relative_l2": 0.6317472666345174,
+        "scaled_relative_l2": 0.5883352566034208
+      },
+      {
+        "lag_samples": -3,
+        "scale": 0.803227671652181,
+        "raw_relative_l2": 0.5877011578494488,
+        "scaled_relative_l2": 0.5509982036509734
+      },
+      {
+        "lag_samples": -2,
+        "scale": 0.8218395260464552,
+        "raw_relative_l2": 0.5522457183139377,
+        "scaled_relative_l2": 0.5202905147523003
+      },
+      {
+        "lag_samples": -1,
+        "scale": 0.8340691520171294,
+        "raw_relative_l2": 0.527561409336724,
+        "scaled_relative_l2": 0.4985796412642432
+      },
+      {
+        "lag_samples": 0,
+        "scale": 0.8397751504716364,
+        "raw_relative_l2": 0.5155089821632072,
+        "scaled_relative_l2": 0.4878637601848083
+      },
+      {
+        "lag_samples": 1,
+        "scale": 0.8388637757327948,
+        "raw_relative_l2": 0.5171677200268666,
+        "scaled_relative_l2": 0.4892828472669261
+      },
+      {
+        "lag_samples": 2,
+        "scale": 0.8313452298210183,
+        "raw_relative_l2": 0.5324123860773254,
+        "scaled_relative_l2": 0.5026999889343411
+      },
+      {
+        "lag_samples": 3,
+        "scale": 0.8172949580539162,
+        "raw_relative_l2": 0.5600021468190347,
+        "scaled_relative_l2": 0.5267789376362892
+      },
+      {
+        "lag_samples": 4,
+        "scale": 0.7968600231395095,
+        "raw_relative_l2": 0.5979778689541542,
+        "scaled_relative_l2": 0.5593984930205126
+      },
+      {
+        "lag_samples": 5,
+        "scale": 0.7702572138002648,
+        "raw_relative_l2": 0.6441538977400982,
+        "scaled_relative_l2": 0.5981655427888887
+      },
+      {
+        "lag_samples": 6,
+        "scale": 0.7377702321413597,
+        "raw_relative_l2": 0.6964721683266996,
+        "scaled_relative_l2": 0.6407914629228789
+      },
+      {
+        "lag_samples": 7,
+        "scale": 0.6997459967315198,
+        "raw_relative_l2": 0.7531659123637564,
+        "scaled_relative_l2": 0.6852759819969024
+      },
+      {
+        "lag_samples": 8,
+        "scale": 0.6565901007545673,
+        "raw_relative_l2": 0.812789182924521,
+        "scaled_relative_l2": 0.7299537804716975
+      }
+    ]
+  },
+  "directions": {
+    "shallow": {
+      "derivative_checks": [
+        {
+          "peak_epsilon": 0.0001,
+          "response_norm": 20.91691901797174,
+          "response_relative_to_observation": 0.1949357940975535,
+          "plus_min_gamma": 9.999999756839613e-06,
+          "plus_max_gamma": 1.0001
+        },
+        {
+          "peak_epsilon": 5e-05,
+          "response_norm": 20.916918980440236,
+          "response_relative_to_observation": 0.1949357937477776,
+          "plus_min_gamma": 9.999999752109182e-06,
+          "plus_max_gamma": 1.00005
+        }
+      ],
+      "two_epsilon_relative_difference": 4.066816241112267e-09,
+      "projected_trial": {
+        "requested_peak_step": 0.005,
+        "actual_peak_step": 1.6766667716116266e-10,
+        "actual_norm": 8.430448451318022e-10,
+        "cost_over_truth": 0.9999999999880791,
+        "trace_change_relative_to_observation": 2.9702063237265006e-10
+      }
+    },
+    "deep": {
+      "derivative_checks": [
+        {
+          "peak_epsilon": 0.0001,
+          "response_norm": 10.390567329321293,
+          "response_relative_to_observation": 0.09683517403901813,
+          "plus_min_gamma": 1.0000060816668688e-05,
+          "plus_max_gamma": 1.0001
+        },
+        {
+          "peak_epsilon": 5e-05,
+          "response_norm": 10.390567308624034,
+          "response_relative_to_observation": 0.09683517384612947,
+          "plus_min_gamma": 1.000003028202372e-05,
+          "plus_max_gamma": 1.00005
+        }
+      ],
+      "two_epsilon_relative_difference": 4.137397625578734e-09,
+      "projected_trial": {
+        "requested_peak_step": 0.005,
+        "actual_peak_step": 3.868979061645e-08,
+        "actual_norm": 3.730281408831752e-07,
+        "cost_over_truth": 0.9999999894383987,
+        "trace_change_relative_to_observation": 6.128853787189e-08
+      }
+    },
+    "left": {
+      "derivative_checks": [
+        {
+          "peak_epsilon": 0.0001,
+          "response_norm": 15.290186072186595,
+          "response_relative_to_observation": 0.14249730380081893,
+          "plus_min_gamma": 1.000001314816969e-05,
+          "plus_max_gamma": 1.0001
+        },
+        {
+          "peak_epsilon": 5e-05,
+          "response_norm": 15.290186043113582,
+          "response_relative_to_observation": 0.1424973035298722,
+          "plus_min_gamma": 1.000000644777422e-05,
+          "plus_max_gamma": 1.00005
+        }
+      ],
+      "two_epsilon_relative_difference": 5.945827132303228e-09,
+      "projected_trial": {
+        "requested_peak_step": 0.005,
+        "actual_peak_step": 4.354650660600085e-09,
+        "actual_norm": 4.1318146169470355e-08,
+        "cost_over_truth": 0.9999999996245776,
+        "trace_change_relative_to_observation": 1.1777993391648334e-08
+      }
+    },
+    "right": {
+      "derivative_checks": [
+        {
+          "peak_epsilon": 0.0001,
+          "response_norm": 14.10111326509428,
+          "response_relative_to_observation": 0.13141570752503892,
+          "plus_min_gamma": 9.999999747404166e-06,
+          "plus_max_gamma": 1.0001
+        },
+        {
+          "peak_epsilon": 5e-05,
+          "response_norm": 14.101113240348036,
+          "response_relative_to_observation": 0.13141570729441562,
+          "plus_min_gamma": 9.999999747391459e-06,
+          "plus_max_gamma": 1.00005
+        }
+      ],
+      "two_epsilon_relative_difference": 4.943694871114638e-09,
+      "projected_trial": {
+        "requested_peak_step": 0.005,
+        "actual_peak_step": 1.341726284180664e-11,
+        "actual_norm": 4.874367424008658e-11,
+        "cost_over_truth": 0.9999999999986454,
+        "trace_change_relative_to_observation": 1.1191311863064827e-11
+      }
+    },
+    "defect_contrast": {
+      "derivative_checks": [
+        {
+          "peak_epsilon": 0.0001,
+          "response_norm": 0.0031270011608505966,
+          "response_relative_to_observation": 2.914217212920541e-05,
+          "plus_min_gamma": 1.000099974735349e-05,
+          "plus_max_gamma": 1.0
+        },
+        {
+          "peak_epsilon": 5e-05,
+          "response_norm": 0.0031270012779486384,
+          "response_relative_to_observation": 2.9142173220503784e-05,
+          "plus_min_gamma": 1.000049974736612e-05,
+          "plus_max_gamma": 1.0
+        }
+      ],
+      "two_epsilon_relative_difference": 2.3962471161533518e-06,
+      "projected_trial": {
+        "requested_peak_step": 0.005,
+        "actual_peak_step": 4.9999998736893826e-08,
+        "actual_norm": 9.205976087198474e-07,
+        "cost_over_truth": 0.9999999756963575,
+        "trace_change_relative_to_observation": 1.4571062664215428e-07
+      }
+    },
+    "uniform": {
+      "derivative_checks": [
+        {
+          "peak_epsilon": 0.0001,
+          "response_norm": 82.58892963385193,
+          "response_relative_to_observation": 0.7696897697031397,
+          "plus_min_gamma": 1.000099974735349e-05,
+          "plus_max_gamma": 1.0001
+        },
+        {
+          "peak_epsilon": 5e-05,
+          "response_norm": 82.58892916778261,
+          "response_relative_to_observation": 0.7696897653595941,
+          "plus_min_gamma": 1.000049974736612e-05,
+          "plus_max_gamma": 1.00005
+        }
+      ],
+      "two_epsilon_relative_difference": 5.666156628681534e-09,
+      "projected_trial": {
+        "requested_peak_step": 0.005,
+        "actual_peak_step": 4.9999998736893826e-08,
+        "actual_norm": 9.205976087198474e-07,
+        "cost_over_truth": 0.9999999756963575,
+        "trace_change_relative_to_observation": 1.4571062664215428e-07
+      }
+    }
+  },
+  "direction_names": [
+    "shallow",
+    "deep",
+    "left",
+    "right",
+    "defect_contrast",
+    "uniform"
+  ],
+  "response_gram": [
+    [
+      437.5175012043941,
+      23.577932227723227,
+      -10.009826616284926,
+      -8.566083845074168,
+      0.0048071656549715245,
+      768.8105273656262
+    ],
+    [
+      23.577932227723227,
+      107.96388942515829,
+      -3.645998644332103,
+      -10.395978655314474,
+      0.0017034160124405982,
+      -6.023877101763217
+    ],
+    [
+      -10.009826616284926,
+      -3.645998644332103,
+      233.7897901220853,
+      35.6644038988441,
+      -0.001058814431670181,
+      46.52084332271994
+    ],
+    [
+      -8.566083845074168,
+      -10.395978655314474,
+      35.6644038988441,
+      198.84139531501285,
+      0.000838488559325422,
+      60.52454024229966
+    ],
+    [
+      0.0048071656549715245,
+      0.0017034160124405982,
+      -0.001058814431670181,
+      0.000838488559325422,
+      9.77813625996091e-06,
+      0.00025736661928121645
+    ],
+    [
+      768.8105273656262,
+      -6.023877101763217,
+      46.52084332271994,
+      60.52454024229966,
+      0.00025736661928121645,
+      6820.931298065345
+    ]
+  ],
+  "normalized_response_correlation": [
+    [
+      1.0,
+      0.10848476165776674,
+      -0.031297962758246985,
+      -0.029042313220516824,
+      0.0734959369361991,
+      0.44504073983690257
+    ],
+    [
+      0.10848476165776674,
+      1.0,
+      -0.022949037278869506,
+      -0.07095331931243626,
+      0.05242680866364633,
+      -0.007019642656265674
+    ],
+    [
+      -0.031297962758246985,
+      -0.022949037278869506,
+      1.0,
+      0.16541267995823042,
+      -0.022145171048343827,
+      0.036839435840730454
+    ],
+    [
+      -0.029042313220516824,
+      -0.07095331931243626,
+      0.16541267995823042,
+      1.0000000000000002,
+      0.019015848023749147,
+      0.051970424056915654
+    ],
+    [
+      0.0734959369361991,
+      0.05242680866364633,
+      -0.022145171048343827,
+      0.019015848023749147,
+      1.0,
+      0.000996557444307732
+    ],
+    [
+      0.44504073983690257,
+      -0.007019642656265674,
+      0.036839435840730454,
+      0.051970424056915654,
+      0.000996557444307732,
+      0.9999999999999999
+    ]
+  ],
+  "singular_values": [
+    83.144751627741,
+    18.80970682557109,
+    15.831035374987398,
+    13.299014319248375,
+    10.232478547057667,
+    0.0031118786341710757
+  ],
+  "unit_response_singular_values": [
+    1.210254769481104,
+    1.0983738542858716,
+    1.0136672807310954,
+    0.9763215075684223,
+    0.9043887637225902,
+    0.72815808108978
+  ],
+  "limitations": "Finite differences use gamma-relative directions and may exceed optimization upper bound, but gamma stays positive. Six directions do not prove full Jacobian rank. A small cost first derivative does not measure response norm.",
+  "input_hashes": {
+    "settings2D.csv": "4fb9e8fdb8fa2fb97502e605f31351601e115463fa1800913473699d9f4ee398",
+    "data_casestudy/source.h5": "67d94afee4a19becde3f081424510f2a2433f7dd27d301abdf1954fe6f168c9c",
+    "data_casestudy/measurement1.h5": "707805f4bbac3a1b890684bbb8dbd8e07ae2608b5f84bbe4b9cd8ffa66fc0616",
+    "data_casestudy/material1.h5": "b6251c0404d9abfc13af6a6728250e7005422ca5892216744c5d9ccd35e94194"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "scope": "Frozen fitted-pair spatial diagnostic. Physical y indices0..1,2..125,126..127 partition the grid; receivers are at127. Not a causal loss-weight ablation or physical-gradient check.",
+  "models": [
+    {
+      "arm": 0,
+      "regions": {
+        "opposite_boundary_two_rows": {
+          "scatter_field_relative_l2": 1.066324648826693,
+          "pair_field_response_relative_l2": 1.110523662554234,
+          "pair_field_response_norm_ratio": 0.6780208167855963,
+          "energy_sums": {
+            "field_error": 82104.43621746282,
+            "field_reference": 72208.40077279117,
+            "pair_response_error": 82046.86062970327,
+            "pair_response_reference": 66528.28601566782,
+            "pair_response_predicted": 30583.86658892512
+          }
+        },
+        "interior": {
+          "scatter_field_relative_l2": 0.6679425374423973,
+          "pair_field_response_relative_l2": 0.8844424378991878,
+          "pair_field_response_norm_ratio": 0.35697295172637433,
+          "energy_sums": {
+            "field_error": 1068118.139855587,
+            "field_reference": 2394093.3845879855,
+            "pair_response_error": 1734100.6162388036,
+            "pair_response_reference": 2216844.070421565,
+            "pair_response_predicted": 282491.7488242497
+          }
+        },
+        "array_side_two_rows": {
+          "scatter_field_relative_l2": 0.5401733584260738,
+          "pair_field_response_relative_l2": 0.6289404601844294,
+          "pair_field_response_norm_ratio": 0.7451192574436893,
+          "energy_sums": {
+            "field_error": 22039.769697446234,
+            "field_reference": 75533.69503681458,
+            "pair_response_error": 27623.737674426346,
+            "pair_response_reference": 69833.42986885246,
+            "pair_response_predicted": 38771.7093590865
+          }
+        }
+      }
+    },
+    {
+      "arm": 1,
+      "regions": {
+        "opposite_boundary_two_rows": {
+          "scatter_field_relative_l2": 1.0269453859333828,
+          "pair_field_response_relative_l2": 1.0,
+          "pair_field_response_norm_ratio": 0.0,
+          "energy_sums": {
+            "field_error": 76152.19441114258,
+            "field_reference": 72208.40077279117,
+            "pair_response_error": 66528.28601566782,
+            "pair_response_reference": 66528.28601566782,
+            "pair_response_predicted": 0.0
+          }
+        },
+        "interior": {
+          "scatter_field_relative_l2": 0.7406255780387253,
+          "pair_field_response_relative_l2": 1.0,
+          "pair_field_response_norm_ratio": 0.0,
+          "energy_sums": {
+            "field_error": 1313223.0588449598,
+            "field_reference": 2394093.3845879855,
+            "pair_response_error": 2216844.070421565,
+            "pair_response_reference": 2216844.070421565,
+            "pair_response_predicted": 0.0
+          }
+        },
+        "array_side_two_rows": {
+          "scatter_field_relative_l2": 0.7498307586236433,
+          "pair_field_response_relative_l2": 1.0,
+          "pair_field_response_norm_ratio": 0.0,
+          "energy_sums": {
+            "field_error": 42468.5304819289,
+            "field_reference": 75533.69503681458,
+            "pair_response_error": 69833.42986885246,
+            "pair_response_reference": 69833.42986885246,
+            "pair_response_predicted": 0.0
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "records": [
+    {
+      "update": 0,
+      "contrast": 0.05000950023531914,
+      "cost": 4.8002929214051304e-14,
+      "waveform_relative_l2": 0.08166307496308046,
+      "material_half_mse": 1.263391641259659e-05,
+      "physical_material_half_mse": 1.2931565834151115e-05,
+      "scaled_gradient_before_clip": 1.5640277862548828,
+      "gradient_after_clip": 9.99999338091584e-06
+    },
+    {
+      "update": 1,
+      "contrast": 0.030029483139514923,
+      "cost": 2.0908557681444465e-14,
+      "waveform_relative_l2": 0.05389579471120245,
+      "material_half_mse": 4.554209681373322e-06,
+      "physical_material_half_mse": 4.661505045078229e-06,
+      "scaled_gradient_before_clip": 1.130391001701355,
+      "gradient_after_clip": 9.999990652431734e-06
+    },
+    {
+      "update": 2,
+      "contrast": 0.010049465112388134,
+      "cost": 3.534116646927059e-15,
+      "waveform_relative_l2": 0.02215843268535313,
+      "material_half_mse": 5.093634740660491e-07,
+      "physical_material_half_mse": 5.213638587520109e-07,
+      "scaled_gradient_before_clip": 0.583662748336792,
+      "gradient_after_clip": 9.999982466979418e-06
+    },
+    {
+      "update": 3,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 4,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 5,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 6,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 7,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 8,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 9,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 10,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 11,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 12,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 13,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 14,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 15,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 16,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 17,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 18,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 19,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 20,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 21,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 22,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 23,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 24,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 25,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 26,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 27,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 28,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 29,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 30,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 31,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 32,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 33,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 34,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0,
+      "scaled_gradient_before_clip": 0.0,
+      "gradient_after_clip": 0.0
+    },
+    {
+      "update": 35,
+      "contrast": 9.999999747378752e-06,
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0,
+      "material_half_mse": 0.0,
+      "physical_material_half_mse": 0.0
+    }
+  ],
+  "elapsed_seconds": 98.47232319999603,
+  "final_cost_over_initial": 0.0,
+  "final_material_mse_over_initial": 0.0,
+  "cost_increases": 0
+}

@@ -1,0 +1,50 @@
+{
+  "shallow": {
+    "reflecting": {
+      "material_mae": 0.059119176119565964,
+      "exploratory_dice_at_gamma_0p65": 0.632478654384613,
+      "mean_reconstructed_inside": 0.44826608896255493,
+      "mean_reconstructed_outside": 0.942342221736908,
+      "final_loss": 7.955139130723194e-06
+    },
+    "expanded": {
+      "material_mae": 0.053524769842624664,
+      "exploratory_dice_at_gamma_0p65": 0.8571428656578064,
+      "mean_reconstructed_inside": 0.4497438371181488,
+      "mean_reconstructed_outside": 0.9480569362640381,
+      "final_loss": 5.100517427920526e-06
+    }
+  },
+  "original": {
+    "reflecting": {
+      "material_mae": 0.06548531353473663,
+      "exploratory_dice_at_gamma_0p65": 0.5806451439857483,
+      "mean_reconstructed_inside": 0.46261927485466003,
+      "mean_reconstructed_outside": 0.9359110593795776,
+      "final_loss": 7.680541340842859e-06
+    },
+    "expanded": {
+      "material_mae": 0.06037478148937225,
+      "exploratory_dice_at_gamma_0p65": 0.782608687877655,
+      "mean_reconstructed_inside": 0.4635773301124573,
+      "mean_reconstructed_outside": 0.9412259459495544,
+      "final_loss": 5.33716211259742e-06
+    }
+  },
+  "deep": {
+    "reflecting": {
+      "material_mae": 0.07706239819526672,
+      "exploratory_dice_at_gamma_0p65": 0.4528301954269409,
+      "mean_reconstructed_inside": 0.5616946816444397,
+      "mean_reconstructed_outside": 0.9258935451507568,
+      "final_loss": 6.92808971636514e-06
+    },
+    "expanded": {
+      "material_mae": 0.06372344493865967,
+      "exploratory_dice_at_gamma_0p65": 0.5581395626068115,
+      "mean_reconstructed_inside": 0.5456076264381409,
+      "mean_reconstructed_outside": 0.9391722083091736,
+      "final_loss": 4.7224637956429846e-06
+    }
+  }
+}

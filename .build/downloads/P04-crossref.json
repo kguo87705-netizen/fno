@@ -1,0 +1,863 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        4,
+        7
+      ]
+    ],
+    "date-time": "2026-04-07T19:08:50Z",
+    "timestamp": 1775588930363,
+    "version": "3.50.1"
+  },
+  "reference-count": 54,
+  "publisher": "Acoustical Society of America (ASA)",
+  "issue": "4",
+  "funder": [
+    {
+      "DOI": "10.13039/501100002855",
+      "name": "Ministry of Science and Technology of the People's Republic of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "2022YFF0605600"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2022YFF0605600"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100002855",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "12104155"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "12104155"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "12025403"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "12025403"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "name": "Shanghai Chenguang Program",
+      "award": [
+        "21CGA36"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "21CGA36"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/100007219",
+      "name": "Natural Science Foundation of Shanghai",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "21ZR1417100"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "21ZR1417100"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100007219",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "pubs.aip.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2023,
+        10,
+        1
+      ]
+    ]
+  },
+  "abstract": "<jats:p>Ultrasonic phased array imaging using full-matrix capture (FMC) has raised great interest among various communities, including the nondestructive testing community, as it makes full use of the echo space to provide preferable visualization performance of inhomogeneities. The conventional way of FMC data postprocessing for imaging is through beamforming approaches, such as delay-and-sum, which suffers from limited imaging resolution and contrast-to-noise ratio. To tackle these difficulties, we propose a deep learning (DL)-based image forming approach, termed FMC-Net, to reconstruct high-quality ultrasonic images directly from FMC data. Benefitting from the remarkable capability of DL to approximate nonlinear mapping, the developed FMC-Net automatically models the underlying nonlinear wave-matter interactions; thus, it is trained end-to-end to link the FMC data to the spatial distribution of the acoustic scattering coefficient of the inspected object. Specifically, the FMC-Net is an encoder-decoder architecture composed of multiscale residual modules that make local perception at different scales for the transmitter-receiver pair combinations in the FMC data. We numerically and experimentally compared the DL imaging results to the total focusing method and wavenumber algorithm and demonstrated that the proposed FMC-Net remarkably outperforms conventional methods in terms of exceeding resolution limit and visualizing subwavelength defects. It is expected that the proposed DL approach can benefit a variety of ultrasonic array imaging applications.</jats:p>",
+  "DOI": "10.1121/10.0021171",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        10,
+        2
+      ]
+    ],
+    "date-time": "2023-10-02T12:11:23Z",
+    "timestamp": 1696248683000
+  },
+  "page": "2044-2054",
+  "update-policy": "https://doi.org/10.1063/aip-crossmark-policy-page",
+  "source": "Crossref",
+  "is-referenced-by-count": 9,
+  "title": [
+    "A multiscale residual U-net architecture for super-resolution ultrasonic phased array imaging from full matrix capture data"
+  ],
+  "prefix": "10.1121",
+  "volume": "154",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-5218-0398",
+      "authenticated-orcid": false,
+      "given": "Lishuai",
+      "family": "Liu",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Shanghai Key Laboratory of Intelligent Sensing and Detection Technology, School of Mechanical and Power Engineering, East China University of Science and Technology , Shanghai 200237, China"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Wen",
+      "family": "Liu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Shanghai Key Laboratory of Intelligent Sensing and Detection Technology, School of Mechanical and Power Engineering, East China University of Science and Technology , Shanghai 200237, China"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Da",
+      "family": "Teng",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Shanghai Key Laboratory of Intelligent Sensing and Detection Technology, School of Mechanical and Power Engineering, East China University of Science and Technology , Shanghai 200237, China"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-0871-4748",
+      "authenticated-orcid": false,
+      "given": "Yanxun",
+      "family": "Xiang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Shanghai Key Laboratory of Intelligent Sensing and Detection Technology, School of Mechanical and Power Engineering, East China University of Science and Technology , Shanghai 200237, China"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-7404-2671",
+      "authenticated-orcid": false,
+      "given": "Fu-Zhen",
+      "family": "Xuan",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Shanghai Key Laboratory of Intelligent Sensing and Detection Technology, School of Mechanical and Power Engineering, East China University of Science and Technology , Shanghai 200237, China"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "231",
+  "published-online": {
+    "date-parts": [
+      [
+        2023,
+        10,
+        2
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "2023100212110925000_c1",
+      "doi-asserted-by": "publisher",
+      "first-page": "1205",
+      "DOI": "10.1109/TMI.2014.2302312",
+      "article-title": "Multi-transmit beam forming for fast cardiac imaging—Experimental validation and in vivo application",
+      "volume": "33",
+      "year": "2014",
+      "journal-title": "IEEE Trans. Med. Imaging"
+    },
+    {
+      "key": "2023100212110925000_c2",
+      "doi-asserted-by": "publisher",
+      "first-page": "72",
+      "DOI": "10.1109/TUFFC.2020.3016382",
+      "article-title": "Full-matrix phase shift migration method for transcranial ultrasonic imaging",
+      "volume": "68",
+      "year": "2021",
+      "journal-title": "IEEE Trans. Ultrason. Ferroelectr. Freq. Control"
+    },
+    {
+      "key": "2023100212110925000_c3",
+      "doi-asserted-by": "publisher",
+      "first-page": "281",
+      "DOI": "10.1121/1.3664085",
+      "article-title": "Time reversal multiple-input/multiple-output acoustic communication enhanced by parallel interference cancellation",
+      "volume": "131",
+      "year": "2012",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2023100212110925000_c4",
+      "doi-asserted-by": "publisher",
+      "first-page": "177",
+      "DOI": "10.1109/JOE.2013.2293962",
+      "article-title": "Underwater acoustic navigation using a beacon with a spiral wave front",
+      "volume": "40",
+      "year": "2015",
+      "journal-title": "IEEE J. Ocean. Eng."
+    },
+    {
+      "key": "2023100212110925000_c5",
+      "doi-asserted-by": "publisher",
+      "first-page": "525",
+      "DOI": "10.1016/j.ndteint.2006.03.006",
+      "article-title": "Ultrasonic arrays for non-destructive evaluation: A review",
+      "volume": "39",
+      "year": "2006",
+      "journal-title": "NDT&E Int."
+    },
+    {
+      "key": "2023100212110925000_c6",
+      "doi-asserted-by": "publisher",
+      "first-page": "106881",
+      "DOI": "10.1016/j.ultras.2022.106881",
+      "article-title": "An optimized total focusing method based on delay-multiply-and-sum for nondestructive testing",
+      "volume": "128",
+      "year": "2023",
+      "journal-title": "Ultrasonics"
+    },
+    {
+      "key": "2023100212110925000_c7",
+      "doi-asserted-by": "publisher",
+      "first-page": "377",
+      "DOI": "10.1177/1045389X09356026",
+      "article-title": "Ultrasonic guided wave imaging techniques in structural health monitoring",
+      "volume": "21",
+      "year": "2010",
+      "journal-title": "J. Intell. Mater. Syst. Struct."
+    },
+    {
+      "key": "2023100212110925000_c8",
+      "doi-asserted-by": "publisher",
+      "first-page": "117",
+      "DOI": "10.1016/j.ultras.2007.10.008",
+      "article-title": "In situ 2-D piezoelectric wafer active sensors arrays for guided wave damage detection",
+      "volume": "48",
+      "year": "2008",
+      "journal-title": "Ultrasonics"
+    },
+    {
+      "key": "2023100212110925000_c9",
+      "doi-asserted-by": "publisher",
+      "first-page": "1762",
+      "DOI": "10.1121/1.1835506",
+      "article-title": "Modeling of phased array transducers",
+      "volume": "117",
+      "year": "2005",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2023100212110925000_c10",
+      "doi-asserted-by": "publisher",
+      "first-page": "701",
+      "DOI": "10.1016/j.ndteint.2005.04.002",
+      "article-title": "Post-processing of the full matrix of ultrasonic transmit–receive array data for non-destructive evaluation",
+      "volume": "38",
+      "year": "2005",
+      "journal-title": "NDT&E Int."
+    },
+    {
+      "key": "2023100212110925000_c11",
+      "doi-asserted-by": "publisher",
+      "first-page": "1732",
+      "DOI": "10.1109/TUFFC.2013.2754",
+      "article-title": "Comparison of ultrasonic array imaging algorithms for nondestructive evaluation",
+      "volume": "60",
+      "year": "2013",
+      "journal-title": "IEEE Trans. Ultrason. Ferroelectr. Freq. Control"
+    },
+    {
+      "key": "2023100212110925000_c12",
+      "doi-asserted-by": "publisher",
+      "first-page": "2450",
+      "DOI": "10.1109/TUFFC.952",
+      "article-title": "The wavenumber algorithm for full-matrix imaging using an ultrasonic array",
+      "volume": "55",
+      "year": "2008",
+      "journal-title": "IEEE Trans. Ultrason. Ferroelectr. Freq. Control"
+    },
+    {
+      "key": "2023100212110925000_c13",
+      "doi-asserted-by": "publisher",
+      "first-page": "118",
+      "DOI": "10.1109/TUFFC.2007.217",
+      "article-title": "Inverse wave field extrapolation: A different NDI approach to imaging defects",
+      "volume": "54",
+      "year": "2007",
+      "journal-title": "IEEE Trans. Ultrason. Ferroelect. Freq. Control"
+    },
+    {
+      "key": "2023100212110925000_c14",
+      "doi-asserted-by": "publisher",
+      "first-page": "2377",
+      "DOI": "10.1121/1.3308470",
+      "article-title": "An analytical comparison of ultrasonic array imaging algorithms",
+      "volume": "127",
+      "year": "2010",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2023100212110925000_c15",
+      "doi-asserted-by": "publisher",
+      "first-page": "261",
+      "DOI": "10.1080/14786447908639684",
+      "article-title": "XXXI. Investigations in optics with special reference to the spectroscope",
+      "volume": "8",
+      "year": "1879",
+      "journal-title": "London, Edinburgh Dublin Philos. Mag. J. Sci."
+    },
+    {
+      "key": "2023100212110925000_c16",
+      "doi-asserted-by": "publisher",
+      "first-page": "3042",
+      "DOI": "10.1121/1.1738451",
+      "article-title": "Time-reversal imaging with multiple signal classification considering multiple scattering, between the targets",
+      "volume": "115",
+      "year": "2004",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2023100212110925000_c17",
+      "doi-asserted-by": "publisher",
+      "first-page": "1842",
+      "DOI": "10.1016/j.ultras.2013.12.012",
+      "article-title": "A comparison between ultrasonic array beamforming and super resolution imaging algorithms for non-destructive evaluation",
+      "volume": "54",
+      "year": "2014",
+      "journal-title": "Ultrasonics"
+    },
+    {
+      "key": "2023100212110925000_c18",
+      "article-title": "Fast ultrasonic imaging using end-to-end deep learning",
+      "year": "2020"
+    },
+    {
+      "key": "2023100212110925000_c19",
+      "doi-asserted-by": "publisher",
+      "first-page": "3005",
+      "DOI": "10.1109/TIP.2007.910179",
+      "article-title": "Blind deconvolution of medical ultrasound images: A parametric inverse filtering approach",
+      "volume": "16",
+      "year": "2007",
+      "journal-title": "IEEE Trans. Image Process."
+    },
+    {
+      "key": "2023100212110925000_c20",
+      "doi-asserted-by": "publisher",
+      "first-page": "81",
+      "DOI": "10.1109/MSP.2010.936726",
+      "article-title": "Model-based image reconstruction for MRI",
+      "volume": "27",
+      "year": "2010",
+      "journal-title": "IEEE Signal Process. Mag."
+    },
+    {
+      "key": "2023100212110925000_c21",
+      "doi-asserted-by": "publisher",
+      "first-page": "660",
+      "DOI": "10.1118/1.2836423",
+      "article-title": "Prior image constrained compressed sensing (PICCS): A method to accurately reconstruct dynamic CT images from highly undersampled projection data sets",
+      "volume": "35",
+      "year": "2008",
+      "journal-title": "Med. Phys."
+    },
+    {
+      "key": "2023100212110925000_c22",
+      "doi-asserted-by": "publisher",
+      "first-page": "89",
+      "DOI": "10.1109/42.993128",
+      "article-title": "Statistical image reconstruction for polyenergetic x-ray computed tomography",
+      "volume": "21",
+      "year": "2002",
+      "journal-title": "IEEE Trans. Med. Imaging"
+    },
+    {
+      "key": "2023100212110925000_c23",
+      "doi-asserted-by": "publisher",
+      "first-page": "1272",
+      "DOI": "10.1109/TMI.2006.882141",
+      "article-title": "Penalized weighted least-squares approach to sinogram noise reduction and image reconstruction for low-dose x-ray computed tomography",
+      "volume": "25",
+      "year": "2006",
+      "journal-title": "IEEE Trans. Med. Imaging"
+    },
+    {
+      "key": "2023100212110925000_c24",
+      "doi-asserted-by": "publisher",
+      "first-page": "WCC105",
+      "DOI": "10.1190/1.3215771",
+      "article-title": "Seismic imaging of complex onshore structures by 2D elastic frequency-domain full-waveform inversion",
+      "volume": "74",
+      "year": "2009",
+      "journal-title": "Geophysics"
+    },
+    {
+      "key": "2023100212110925000_c25",
+      "doi-asserted-by": "publisher",
+      "first-page": "1411",
+      "DOI": "10.1111/j.1365-246X.2009.04226.x",
+      "article-title": "Seismic tomography with the reversible jump algorithm",
+      "volume": "178",
+      "year": "2009",
+      "journal-title": "Geophys. J. Int."
+    },
+    {
+      "key": "2023100212110925000_c26",
+      "doi-asserted-by": "publisher",
+      "first-page": "2031",
+      "DOI": "10.1109/TUFFC.2016.2608939",
+      "article-title": "Beamforming through regularized inverse problems in ultrasound medical imaging",
+      "volume": "63",
+      "year": "2016",
+      "journal-title": "IEEE Trans. Ultrason. Ferroelectr. Freq. Control"
+    },
+    {
+      "key": "2023100212110925000_c27",
+      "doi-asserted-by": "publisher",
+      "first-page": "356",
+      "DOI": "10.1109/TUFFC.2017.2757880",
+      "article-title": "Inverse problem of ultrasound beamforming with sparsity constraints and regularization",
+      "volume": "65",
+      "year": "2018",
+      "journal-title": "IEEE Trans. Ultrason. Ferroelectr. Freq. Control"
+    },
+    {
+      "key": "2023100212110925000_c28",
+      "doi-asserted-by": "publisher",
+      "first-page": "4509",
+      "DOI": "10.1109/TIP.2017.2713099",
+      "article-title": "Deep convolutional neural network for inverse problems in imaging",
+      "volume": "26",
+      "year": "2017",
+      "journal-title": "IEEE Trans. Image Process."
+    },
+    {
+      "key": "2023100212110925000_c29",
+      "doi-asserted-by": "publisher",
+      "first-page": "20",
+      "DOI": "10.1109/MSP.2017.2760358",
+      "article-title": "Using deep neural networks for inverse problems in imaging: Beyond analytical methods",
+      "volume": "35",
+      "year": "2018",
+      "journal-title": "IEEE Signal Process. Mag."
+    },
+    {
+      "key": "2023100212110925000_c30",
+      "doi-asserted-by": "publisher",
+      "first-page": "778",
+      "DOI": "10.1109/TASLP.2014.2303296",
+      "article-title": "Application of deep belief networks for natural language understanding",
+      "volume": "22",
+      "year": "2014",
+      "journal-title": "IEEE/ACM Trans. Audio Speech Lang. Process."
+    },
+    {
+      "key": "2023100212110925000_c31",
+      "doi-asserted-by": "publisher",
+      "first-page": "117",
+      "DOI": "10.1109/MSP.2017.2740460",
+      "article-title": "Deep-learning systems for domain adaptation in computer vision: Learning transferable feature representations",
+      "volume": "34",
+      "year": "2017",
+      "journal-title": "IEEE Signal Process. Mag."
+    },
+    {
+      "key": "2023100212110925000_c32",
+      "doi-asserted-by": "publisher",
+      "first-page": "102703",
+      "DOI": "10.1016/j.ndteint.2022.102703",
+      "article-title": "Deep learning in automated ultrasonic NDE—Developments, axioms and opportunities",
+      "volume": "131",
+      "year": "2022",
+      "journal-title": "NDT&E Int."
+    },
+    {
+      "key": "2023100212110925000_c33",
+      "doi-asserted-by": "publisher",
+      "first-page": "102218",
+      "DOI": "10.1016/j.ndteint.2020.102218",
+      "article-title": "Performance enhancement of convolutional neural network for ultrasonic flaw classification by adopting autoencoder",
+      "volume": "111",
+      "year": "2020",
+      "journal-title": "NDT&E Int."
+    },
+    {
+      "key": "2023100212110925000_c34",
+      "doi-asserted-by": "publisher",
+      "first-page": "045104",
+      "DOI": "10.1063/1.5136269",
+      "article-title": "Ultrasonic signal denoising based on autoencoder",
+      "volume": "91",
+      "year": "2020",
+      "journal-title": "Rev. Sci. Instrum."
+    },
+    {
+      "key": "2023100212110925000_c35",
+      "doi-asserted-by": "publisher",
+      "first-page": "106312",
+      "DOI": "10.1016/j.ultras.2020.106312",
+      "article-title": "Deconvolution of ultrasonic signals using a convolutional neural network",
+      "volume": "111",
+      "year": "2021",
+      "journal-title": "Ultrasonics"
+    },
+    {
+      "key": "2023100212110925000_c36",
+      "doi-asserted-by": "publisher",
+      "first-page": "2505014",
+      "DOI": "10.1109/TIM.2021.3050154",
+      "article-title": "Domain adaptation in intelligent ultrasonic logging tool: From microseismic to pulse-echo",
+      "volume": "70",
+      "year": "2021",
+      "journal-title": "IEEE Trans. Instrum. Meas."
+    },
+    {
+      "key": "2023100212110925000_c37",
+      "doi-asserted-by": "publisher",
+      "first-page": "12",
+      "DOI": "10.1016/j.measurement.2019.04.014",
+      "article-title": "Liquid level detection in porcelain bushing type terminals using piezoelectric transducers based on auto-encoder networks",
+      "volume": "141",
+      "year": "2019",
+      "journal-title": "Measurement"
+    },
+    {
+      "key": "2023100212110925000_c38",
+      "article-title": "Deep data compression for approximate ultrasonic image formation",
+      "year": "2020"
+    },
+    {
+      "key": "2023100212110925000_c39",
+      "doi-asserted-by": "publisher",
+      "first-page": "3126",
+      "DOI": "10.1109/TUFFC.2021.3081750",
+      "article-title": "Automated defect detection from ultrasonic images using deep learning",
+      "volume": "68",
+      "year": "2021",
+      "journal-title": "IEEE Trans. Ultrason. Ferroelectr. Freq. Control"
+    },
+    {
+      "key": "2023100212110925000_c40",
+      "doi-asserted-by": "publisher",
+      "first-page": "145",
+      "DOI": "10.1016/j.ultras.2018.10.005",
+      "article-title": "Carburization level identification in industrial HP pipes using ultrasonic evaluation and machine learning",
+      "volume": "94",
+      "year": "2019",
+      "journal-title": "Ultrasonics"
+    },
+    {
+      "key": "2023100212110925000_c41",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1177/14759217231167076",
+      "article-title": "Deep learning enables nonlinear Lamb waves for precise location of fatigue crack",
+      "year": "2023",
+      "journal-title": "Struct. Health Monitor."
+    },
+    {
+      "key": "2023100212110925000_c42",
+      "doi-asserted-by": "publisher",
+      "first-page": "144901",
+      "DOI": "10.1063/5.0107205",
+      "article-title": "Deep learning-based solvability of underdetermined inverse problems in nonlinear ultrasonic characterization of micro damages",
+      "volume": "132",
+      "year": "2022",
+      "journal-title": "J. Appl. Phys."
+    },
+    {
+      "key": "2023100212110925000_c43",
+      "doi-asserted-by": "publisher",
+      "first-page": "2997",
+      "DOI": "10.1121/10.0004827",
+      "article-title": "Visual geometry Group-UNet: Deep learning ultrasonic image reconstruction for curved parts",
+      "volume": "149",
+      "year": "2021",
+      "journal-title": "J. Acoust. Soc. Am."
+    },
+    {
+      "key": "2023100212110925000_c44",
+      "doi-asserted-by": "publisher",
+      "first-page": "102344",
+      "DOI": "10.1016/j.ndteint.2020.102344",
+      "article-title": "Super-resolution visualization of subwavelength defects via deep learning-enhanced ultrasonic beamforming: A proof-of-principle study",
+      "volume": "116",
+      "year": "2020",
+      "journal-title": "NDT&E Int."
+    },
+    {
+      "key": "2023100212110925000_c45",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1017/S0962492919000059",
+      "article-title": "Solving inverse problems using data-driven models",
+      "volume": "28",
+      "year": "2019",
+      "journal-title": "Acta Numer."
+    },
+    {
+      "key": "2023100212110925000_c46",
+      "doi-asserted-by": "publisher",
+      "first-page": "eaau0323",
+      "DOI": "10.1126/science.aau0323",
+      "article-title": "Machine learning for data-driven discovery in solid Earth geoscience",
+      "volume": "363",
+      "year": "2019",
+      "journal-title": "Science"
+    },
+    {
+      "key": "2023100212110925000_c47",
+      "doi-asserted-by": "publisher",
+      "first-page": "2524",
+      "DOI": "10.1109/TMI.2017.2715284",
+      "article-title": "Low-dose CT with a residual encoder-decoder convolutional neural network",
+      "volume": "36",
+      "year": "2017",
+      "journal-title": "IEEE Trans. Med. Imaging"
+    },
+    {
+      "key": "2023100212110925000_c48",
+      "doi-asserted-by": "publisher",
+      "first-page": "295",
+      "DOI": "10.1109/TPAMI.2015.2439281",
+      "article-title": "Image super-resolution using deep convolutional networks",
+      "volume": "38",
+      "year": "2016",
+      "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+    },
+    {
+      "key": "2023100212110925000_c49",
+      "doi-asserted-by": "publisher",
+      "first-page": "921",
+      "DOI": "10.1364/OPTICA.6.000921",
+      "article-title": "On the use of deep learning for computational imaging",
+      "volume": "6",
+      "year": "2019",
+      "journal-title": "Optica"
+    },
+    {
+      "key": "2023100212110925000_c50",
+      "first-page": "234",
+      "article-title": "U-net: Convolutional networks for biomedical image segmentation",
+      "volume-title": "Medical Image Computing and Computer-Assisted Intervention—MICCAI 2015",
+      "author": "Navab",
+      "year": "2015"
+    },
+    {
+      "key": "2023100212110925000_c51",
+      "article-title": "Inception-v4, Inception-ResNet and the impact of residual connections on learning",
+      "year": "2017"
+    },
+    {
+      "key": "2023100212110925000_c52",
+      "first-page": "770",
+      "article-title": "Deep Residual Learning for Image Recognition",
+      "year": "2016"
+    },
+    {
+      "key": "2023100212110925000_c53",
+      "first-page": "351",
+      "article-title": "Field: A program for simulating ultrasound systems",
+      "volume": "34",
+      "year": "1996",
+      "journal-title": "Med. Biol. Eng. Comput."
+    },
+    {
+      "key": "2023100212110925000_c54",
+      "doi-asserted-by": "publisher",
+      "first-page": "262",
+      "DOI": "10.1109/58.139123",
+      "article-title": "Calculation of pressure fields from arbitrarily shaped, apodized, and excited ultrasound transducers",
+      "volume": "39",
+      "year": "1992",
+      "journal-title": "IEEE Trans. Ultrason. Ferroelectr. Freq. Control"
+    }
+  ],
+  "container-title": [
+    "The Journal of the Acoustical Society of America"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://pubs.aip.org/asa/jasa/article-pdf/154/4/2044/18148226/2044_1_10.0021171.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "syndication"
+    },
+    {
+      "URL": "https://pubs.aip.org/asa/jasa/article-pdf/154/4/2044/18148226/2044_1_10.0021171.pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2023,
+        10,
+        2
+      ]
+    ],
+    "date-time": "2023-10-02T12:11:31Z",
+    "timestamp": 1696248691000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://pubs.aip.org/jasa/article/154/4/2044/2914014/A-multiscale-residual-U-net-architecture-for-super"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        10,
+        1
+      ]
+    ]
+  },
+  "references-count": 54,
+  "journal-issue": {
+    "issue": "4",
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          1
+        ]
+      ]
+    }
+  },
+  "URL": "https://doi.org/10.1121/10.0021171",
+  "relation": {},
+  "ISSN": [
+    "0001-4966"
+  ],
+  "issn-type": [
+    {
+      "value": "0001-4966",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published-other": {
+    "date-parts": [
+      [
+        2023,
+        10
+      ]
+    ]
+  },
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        10,
+        1
+      ]
+    ]
+  }
+}

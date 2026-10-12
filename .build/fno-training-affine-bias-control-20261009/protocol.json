@@ -1,0 +1,84 @@
+{
+  "status": "fixed_before_fit",
+  "plan": {
+    "status": "planned_not_run",
+    "question": "Does training-derived material dependence of residual improve recovery beyond fixed mean correction?",
+    "output_directory": ".build/fno-training-affine-bias-control-20261009",
+    "unique_factor": "Constant residual correction versus first-order residual correction in input contrast, fit only from the same3 training states.",
+    "formula": "b0=mean(e03,e05,e07); b1=(e07-e03)/(actual_float32_a07-actual_float32_a03); b(a)=b0+(a-mean(actual_training_a))*b1. This is ordinary least squares with centered three actual training contrasts; record exact coefficients. Use exact OLS denominator sum((a-mean_a)^2) if float32 spacing asymmetric.",
+    "implementation": "Calculate OLS coefficient tensors from calibration.pt only, save SHA before loading development labels. No neural training, no new predictions, no regularization/strength selection.",
+    "baselines": [
+      "original width8",
+      "constant mean correction",
+      "train-only piecewise linear",
+      "physical reference",
+      "b1=0 must reproduce constant correction"
+    ],
+    "evaluation": "Same two development observations, frozen37 candidates/common windows, observable time cost argmin and tie rule; all targets and methods reported.",
+    "metrics": [
+      "material error and true FD cost at selected candidate",
+      "full/scatter waveform error at true and selected input",
+      "two epsilon material response at a=.4/.6 from frozen IEEE endpoint tensors minus affine offset, report error/cosine against frozen float64 FD",
+      "own objective gradient from cached proxy AD and affine slope via time-weighted residual contraction, finite-difference check when feasible; never call FD alone exact network Jacobian"
+    ],
+    "screens": "Keep original response relative error<=.20/cos>=.9 and numerical1%QA; report both epsilons, no target-based parameter tuning.",
+    "decision": {
+      "both_material_improve_and_response_passes": "Supports this development-only low-order receiver calibration; freeze before evaluating predeclared new materials.",
+      "mixed_worse_or_response_fails": "Do not promote correction or increase polynomial degree using these targets. Stop calibration escalation and plan fresh frozen material validation with original/linear baselines.",
+      "window_edge": "Inconclusive recovery outside window; no automatic expansion."
+    },
+    "budget": "Cached tensor arithmetic only; no network or FD calls/training, expected under1min,cap5min,fresh directory.",
+    "limits": "Additional training-data-derived surrogate calibration changes derivatives; must check them. Receiver-only, known-support, development data; no blind/generalization/total-cost claim.",
+    "frozen_sha256": {
+      ".build\\fno-training-bias-control-20261009\\calibration.pt": "b093d5c5a5196ad6635dfd259b65a314dafb1de874aaafcb237111b9ab2b75da",
+      ".build\\fno-training-bias-control-20261009\\raw.pt": "51846aac87930cd08342043282bf22ec4ea4173127d8989f4be1a3d06e12ecdb",
+      ".build\\fno-training-bias-control-20261009\\summary.json": "19db57f99a743a9a7c36f9d70a2c8ed64ec492d0e8536fdb788bb948cf42760f",
+      ".build\\fno-contrast-precision-control-20261009\\raw.pt": "de90bad92a1a44dc91b0e35b2caa4437056eadff3bdd35d2a02238409417c1b4",
+      ".build\\fno-scalar-grid-refinement-20261009\\raw.pt": "30ceb1a5a0eac17e3ac73d0fa106e843de7d81f2a12654b23752b0fb22764ea3"
+    }
+  },
+  "plan_sha256": "4698e48252ec16b113055b55b2e43e6ce72997ddc32217ab19dc9ff41fb84f75",
+  "clarification": {
+    "status": "fixed_before_followup",
+    "reason": "Cached scalar AD for an old target is insufficient to reconstruct arbitrary corrected-objective AD",
+    "rule": "Use cached central differences only; report no exact AD gradient unless a separately budgeted reverse run is executed",
+    "response_checks": "Keep both epsilons, original20percent/cos0.9 and numerical1percent checks"
+  },
+  "clarification_sha256": "043c209983faa49bdc036c000eb6b79008914cd2766005a6d52dc7061419698c",
+  "script_sha256": "7c831acfef015ac4ace0fffeb57934da15ec43a151606912f5179339fd169adf",
+  "constant_report_script_sha256": "db423622a7809edc43352a4898c6adfc55d4d4ed2d6705b36c2aceba25a9e418",
+  "frozen_sha256": {
+    ".build/fno-local-contrast-20261009/final.pt": "4389f119e54011fba8ac181fd090da60a9df5f87d580a0dce60e110cfbc3cf86",
+    ".build/fno-width8-control-20261009/final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+    ".build/fno-width8-control-20261009/comparison.json": "614e0a9b0c007a39858005f2325b9d5bc350ca52e0fd8d51d04905d641fd4432",
+    ".build/fno-local-contrast-20261009/data_manifest.json": "281ac315c43066fae6d75457c42f3800d087192bf15022b86307d999acb4da69",
+    ".build/fno-local-contrast-20261009/references.json": "77573d1a890dc22e8cd2f403f98a2f9f7f7cc6dcbb3736fd1f90522728a96d82",
+    ".build/fno-local-contrast-20261009/contrast_03.pt": "07b6c6bcf1aff23887e7fa1e10f7407c3f30f4e64e33905c2d95cb7ffc8a6906",
+    ".build/fno-local-contrast-20261009/contrast_05.pt": "baf16dcfb73599e8172e31919e052811e21ba09e543bb7a191ced73aee4c9c30",
+    ".build/fno-local-contrast-20261009/contrast_07.pt": "44d76f12fd90866012dec14e6881d113ee591ca8c60abac0fc1d10bce61fe3ba",
+    ".build/fno-local-contrast-20261009/contrast_04.pt": "5e86d1634ce196cdc51dace9cb76d3725a39b9702235b6e8182d1a4415c5e863",
+    ".build/fno-local-contrast-20261009/contrast_06.pt": "a60417869bdfd89ef640c0b425718a9cb25f832dba699700208a77df50cb16d1",
+    ".build/operator-pilot-v3-20261008/homogeneous.pt": "9d382c08f6dbd90cedb09c2971aaf66c96d60ca69fecbfea41d29822955d88b6",
+    ".build/operator-pilot-v3-20261008/synthetic_workpiece_000.pt": "eba5bed176c50f379d3ab4da194aae92529e0ecd648d18eabc352bc1d2a41f82",
+    "Research_Direction/Author_Baseline_Singh_Zenodo14616677/data_casestudy/source.h5": "67d94afee4a19becde3f081424510f2a2433f7dd27d301abdf1954fe6f168c9c",
+    "Research_Direction/Author_Baseline_Singh_Zenodo14616677/settings2D.csv": "4fb9e8fdb8fa2fb97502e605f31351601e115463fa1800913473699d9f4ee398",
+    ".build\\fno-contrast-precision-control-20261009\\summary.json": "86712736a08b06ef9e47c5a3d9246a9d635232b83ca1b82a3a9fe2a86eea5889",
+    ".build\\fno-contrast-precision-control-20261009\\raw.pt": "de90bad92a1a44dc91b0e35b2caa4437056eadff3bdd35d2a02238409417c1b4",
+    ".build\\fno-width8-control-20261009\\final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+    ".build\\fno-local-contrast-20261009\\contrast_03.pt": "07b6c6bcf1aff23887e7fa1e10f7407c3f30f4e64e33905c2d95cb7ffc8a6906",
+    ".build\\fno-local-contrast-20261009\\contrast_04.pt": "5e86d1634ce196cdc51dace9cb76d3725a39b9702235b6e8182d1a4415c5e863",
+    ".build\\fno-local-contrast-20261009\\contrast_05.pt": "baf16dcfb73599e8172e31919e052811e21ba09e543bb7a191ced73aee4c9c30",
+    ".build\\fno-local-contrast-20261009\\contrast_06.pt": "a60417869bdfd89ef640c0b425718a9cb25f832dba699700208a77df50cb16d1",
+    ".build\\fno-local-contrast-20261009\\contrast_07.pt": "44d76f12fd90866012dec14e6881d113ee591ca8c60abac0fc1d10bce61fe3ba",
+    ".build\\fno-scalar-grid-recovery-20261009\\raw.pt": "f71ad75179170a8869e122ad5537a7487716e43c1386dc643ba7c00bcb166083",
+    ".build\\fno-scalar-grid-recovery-20261009\\summary.json": "1dbd3e2cebb109f443b83c42116fc403aa7be82bc57062fdac78823be5b40f0c",
+    ".build\\fno-scalar-grid-recovery-20261009\\protocol.json": "ac370e16329956214287d7eb43c433396d6bfcc5f53f97b1446ec56fe4b598bc",
+    ".build\\fno-scalar-grid-refinement-20261009\\raw.pt": "30ceb1a5a0eac17e3ac73d0fa106e843de7d81f2a12654b23752b0fb22764ea3",
+    ".build\\fno-scalar-grid-refinement-20261009\\summary.json": "1455cbbcc33486c22b35cbf689b5ebae1c6ac2e9569816e3ce50d287d5002da1",
+    ".build\\fno-scalar-grid-refinement-20261009\\protocol.json": "00e56710f6b75d3bcaa38661acaea71b2c31a83a1934660d9f46e703966a2310",
+    ".build\\fno-training-bias-control-20261009\\calibration.pt": "b093d5c5a5196ad6635dfd259b65a314dafb1de874aaafcb237111b9ab2b75da",
+    ".build\\fno-training-bias-control-20261009\\raw.pt": "51846aac87930cd08342043282bf22ec4ea4173127d8989f4be1a3d06e12ecdb",
+    ".build\\fno-training-bias-control-20261009\\summary.json": "19db57f99a743a9a7c36f9d70a2c8ed64ec492d0e8536fdb788bb948cf42760f"
+  },
+  "execution": "Cached float64 tensors, exact OLS with actual training a, four CPU threads, coefficient1"
+}

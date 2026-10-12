@@ -1,0 +1,8 @@
+{
+  "class": "RuntimeError",
+  "action": "torch.save nominal_repeat_update300.pt",
+  "message": "ios_base::badbit / unexpected pos171992448 vs171992336",
+  "cause": "unknown",
+  "coverage_started": false,
+  "artifacts": "preserved"
+}

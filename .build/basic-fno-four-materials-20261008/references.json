@@ -1,0 +1,446 @@
+{
+  "zero": {
+    "train": {
+      "split": "train",
+      "groups": 4,
+      "shots": 4,
+      "mean_field_mse": 0.07311168871819973,
+      "mean_receiver_mse": 0.056901768781244755,
+      "mean_total_objective": 0.13001345749944448,
+      "full_field_relative_l2": 0.2705958087463286,
+      "full_trace_relative_l2": 0.2421891106535346,
+      "scatter_field_relative_l2": 1.0,
+      "scatter_trace_relative_l2": 1.0,
+      "regions": {
+        "opposite_boundary": {
+          "scatter_field_relative_l2": 1.0,
+          "energy_sums": {
+            "error": 135586.93378825212,
+            "reference": 135586.93378825212
+          }
+        },
+        "interior": {
+          "scatter_field_relative_l2": 1.0,
+          "energy_sums": {
+            "error": 4514082.183873,
+            "reference": 4514082.183873
+          }
+        },
+        "array_side": {
+          "scatter_field_relative_l2": 1.0,
+          "energy_sums": {
+            "error": 141778.293767853,
+            "reference": 141778.293767853
+          }
+        }
+      },
+      "energy_sums": {
+        "field_error": 4791447.411429104,
+        "field_true": 65437182.95204182,
+        "scatter_field_true": 4791447.411429104,
+        "trace_error": 714.8420114308967,
+        "trace_true": 12187.113150156838,
+        "scatter_trace_true": 714.8420114308967
+      },
+      "records": [
+        {
+          "group_id": "synthetic_workpiece_000",
+          "split": "train",
+          "shot": 0,
+          "field_mse": 0.06360812485218048,
+          "receiver_mse": 0.058264028280973434,
+          "field_error": 1042155.4164285795,
+          "field_true": 16347702.26747235,
+          "scatter_field_true": 1042155.4164285795,
+          "trace_error": 183.0538488770266,
+          "trace_true": 3056.756990218245,
+          "scatter_trace_true": 183.0538488770266
+        },
+        {
+          "group_id": "synthetic_workpiece_001",
+          "split": "train",
+          "shot": 0,
+          "field_mse": 0.09153321385383606,
+          "receiver_mse": 0.06355073302984238,
+          "field_error": 1499680.0639784713,
+          "field_true": 16366629.998306189,
+          "scatter_field_true": 1499680.0639784713,
+          "trace_error": 199.653700622014,
+          "trace_true": 3024.9295695378414,
+          "scatter_trace_true": 199.653700622014
+        },
+        {
+          "group_id": "synthetic_workpiece_002",
+          "split": "train",
+          "shot": 0,
+          "field_mse": 0.04414895921945572,
+          "receiver_mse": 0.03444201499223709,
+          "field_error": 723336.5486121618,
+          "field_true": 16289141.581893075,
+          "scatter_field_true": 723336.5486121618,
+          "trace_error": 108.1383015352364,
+          "trace_true": 3027.2836431562564,
+          "scatter_trace_true": 108.1383015352364
+        },
+        {
+          "group_id": "synthetic_workpiece_003",
+          "split": "train",
+          "shot": 0,
+          "field_mse": 0.09315645694732666,
+          "receiver_mse": 0.07135029882192612,
+          "field_error": 1526275.382409892,
+          "field_true": 16433709.104370203,
+          "scatter_field_true": 1526275.382409892,
+          "trace_error": 223.9961603966197,
+          "trace_true": 3078.142947244494,
+          "scatter_trace_true": 223.9961603966197
+        }
+      ]
+    },
+    "validation": {
+      "split": "validation",
+      "groups": 6,
+      "shots": 6,
+      "mean_field_mse": 0.07271017910291751,
+      "mean_receiver_mse": 0.054017863081147276,
+      "mean_total_objective": 0.12672804218406478,
+      "full_field_relative_l2": 0.2697321903375382,
+      "full_trace_relative_l2": 0.236497538246199,
+      "scatter_field_relative_l2": 1.0,
+      "scatter_trace_relative_l2": 1.0,
+      "regions": {
+        "opposite_boundary": {
+          "scatter_field_relative_l2": 1.0,
+          "energy_sums": {
+            "error": 206220.12576746865,
+            "reference": 206220.12576746865
+          }
+        },
+        "interior": {
+          "scatter_field_relative_l2": 1.0,
+          "energy_sums": {
+            "error": 6740805.605834058,
+            "reference": 6740805.605834058
+          }
+        },
+        "array_side": {
+          "scatter_field_relative_l2": 1.0,
+          "energy_sums": {
+            "error": 200675.34210370993,
+            "reference": 200675.34210370993
+          }
+        }
+      },
+      "energy_sums": {
+        "field_error": 7147701.073705237,
+        "field_true": 98242820.72602785,
+        "scatter_field_true": 7147701.073705237,
+        "trace_error": 1017.631679592409,
+        "trace_true": 18194.38454911493,
+        "scatter_trace_true": 1017.631679592409
+      },
+      "records": [
+        {
+          "group_id": "synthetic_workpiece_004",
+          "split": "validation",
+          "shot": 0,
+          "field_mse": 0.03080170974135399,
+          "receiver_mse": 0.02362430840730667,
+          "field_error": 504655.1941867868,
+          "field_true": 16263770.176923783,
+          "scatter_field_true": 504655.1941867868,
+          "trace_error": 74.18736050139852,
+          "trace_true": 3069.085910748053,
+          "scatter_trace_true": 74.18736050139852
+        },
+        {
+          "group_id": "synthetic_workpiece_005",
+          "split": "validation",
+          "shot": 0,
+          "field_mse": 0.10783512890338898,
+          "receiver_mse": 0.08046575635671616,
+          "field_error": 1766770.636068895,
+          "field_true": 16475719.18667889,
+          "scatter_field_true": 1766770.636068895,
+          "trace_error": 252.56685002153915,
+          "trace_true": 3057.2109267108813,
+          "scatter_trace_true": 252.56685002153915
+        },
+        {
+          "group_id": "synthetic_workpiece_012",
+          "split": "validation",
+          "shot": 0,
+          "field_mse": 0.022193653509020805,
+          "receiver_mse": 0.014011659659445286,
+          "field_error": 363620.8021222905,
+          "field_true": 16265350.31269403,
+          "scatter_field_true": 363620.8021222905,
+          "trace_error": 44.02819046806912,
+          "trace_true": 3001.382492488943,
+          "scatter_trace_true": 44.02819046806912
+        },
+        {
+          "group_id": "synthetic_workpiece_013",
+          "split": "validation",
+          "shot": 0,
+          "field_mse": 0.11901683360338211,
+          "receiver_mse": 0.0876549705862999,
+          "field_error": 1949971.6545324237,
+          "field_true": 16514414.968962288,
+          "scatter_field_true": 1949971.6545324237,
+          "trace_error": 275.1775141373289,
+          "trace_true": 3008.814805796518,
+          "scatter_trace_true": 275.1775141373289
+        },
+        {
+          "group_id": "synthetic_workpiece_020",
+          "split": "validation",
+          "shot": 0,
+          "field_mse": 0.06854791939258575,
+          "receiver_mse": 0.04645611345767975,
+          "field_error": 1123089.0810017735,
+          "field_true": 16358229.971534792,
+          "scatter_field_true": 1123089.0810017735,
+          "trace_error": 145.9673185317082,
+          "trace_true": 3026.859530358649,
+          "scatter_trace_true": 145.9673185317082
+        },
+        {
+          "group_id": "synthetic_workpiece_021",
+          "split": "validation",
+          "shot": 0,
+          "field_mse": 0.08786582946777344,
+          "receiver_mse": 0.07189437001943588,
+          "field_error": 1439593.7057930678,
+          "field_true": 16365336.109234065,
+          "scatter_field_true": 1439593.7057930678,
+          "trace_error": 225.7044459323651,
+          "trace_true": 3031.0308830118856,
+          "scatter_trace_true": 225.7044459323651
+        }
+      ]
+    }
+  },
+  "training_mean": {
+    "train": {
+      "split": "train",
+      "groups": 4,
+      "shots": 4,
+      "mean_field_mse": 0.052406251430511475,
+      "mean_receiver_mse": 0.041255402378737926,
+      "mean_total_objective": 0.0936616538092494,
+      "full_field_relative_l2": 0.2290968969994885,
+      "full_trace_relative_l2": 0.20623054154466114,
+      "scatter_field_relative_l2": 0.8466387489920677,
+      "scatter_trace_relative_l2": 0.8515268956071511,
+      "regions": {
+        "opposite_boundary": {
+          "scatter_field_relative_l2": 0.8412785176758059,
+          "energy_sums": {
+            "error": 95961.59060204952,
+            "reference": 135586.93378825212
+          }
+        },
+        "interior": {
+          "scatter_field_relative_l2": 0.8467658075832487,
+          "energy_sums": {
+            "error": 3236652.5975254965,
+            "reference": 4514082.183873
+          }
+        },
+        "array_side": {
+          "scatter_field_relative_l2": 0.8477022825819839,
+          "energy_sums": {
+            "error": 101881.76279288394,
+            "reference": 141778.293767853
+          }
+        }
+      },
+      "energy_sums": {
+        "field_error": 3434495.95092043,
+        "field_true": 65437182.95204182,
+        "scatter_field_true": 4791447.411429104,
+        "trace_error": 518.3305513647798,
+        "trace_true": 12187.113150156838,
+        "scatter_trace_true": 714.8420114308967
+      },
+      "records": [
+        {
+          "group_id": "synthetic_workpiece_000",
+          "split": "train",
+          "shot": 0,
+          "field_mse": 0.04729807376861572,
+          "receiver_mse": 0.040803585201501846,
+          "field_error": 774931.638897371,
+          "field_true": 16347702.26747235,
+          "scatter_field_true": 1042155.4164285795,
+          "trace_error": 128.2233645816395,
+          "trace_true": 3056.756990218245,
+          "scatter_trace_true": 183.0538488770266
+        },
+        {
+          "group_id": "synthetic_workpiece_001",
+          "split": "train",
+          "shot": 0,
+          "field_mse": 0.061612483114004135,
+          "receiver_mse": 0.04566008970141411,
+          "field_error": 1009458.8603578755,
+          "field_true": 16366629.998306189,
+          "scatter_field_true": 1499680.0639784713,
+          "trace_error": 143.40958000817812,
+          "trace_true": 3024.9295695378414,
+          "scatter_trace_true": 199.653700622014
+        },
+        {
+          "group_id": "synthetic_workpiece_002",
+          "split": "train",
+          "shot": 0,
+          "field_mse": 0.03890249505639076,
+          "receiver_mse": 0.030338525772094727,
+          "field_error": 637378.4686223144,
+          "field_true": 16289141.581893075,
+          "scatter_field_true": 723336.5486121618,
+          "trace_error": 95.2938702597831,
+          "trace_true": 3027.2836431562564,
+          "scatter_trace_true": 108.1383015352364
+        },
+        {
+          "group_id": "synthetic_workpiece_003",
+          "split": "train",
+          "shot": 0,
+          "field_mse": 0.06181195378303528,
+          "receiver_mse": 0.048219408839941025,
+          "field_error": 1012726.9830428693,
+          "field_true": 16433709.104370203,
+          "scatter_field_true": 1526275.382409892,
+          "trace_error": 151.40373651517908,
+          "trace_true": 3078.142947244494,
+          "scatter_trace_true": 223.9961603966197
+        }
+      ]
+    },
+    "validation": {
+      "split": "validation",
+      "groups": 6,
+      "shots": 6,
+      "mean_field_mse": 0.08508197714885075,
+      "mean_receiver_mse": 0.06305371504276991,
+      "mean_total_objective": 0.14813569219162068,
+      "full_field_relative_l2": 0.29177895406079846,
+      "full_trace_relative_l2": 0.2554942656762982,
+      "scatter_field_relative_l2": 1.0817357531397025,
+      "scatter_trace_relative_l2": 1.0803252649941886,
+      "regions": {
+        "opposite_boundary": {
+          "scatter_field_relative_l2": 1.0758612160746657,
+          "energy_sums": {
+            "error": 238695.12597962655,
+            "reference": 206220.12576746865
+          }
+        },
+        "interior": {
+          "scatter_field_relative_l2": 1.0818585253088286,
+          "energy_sums": {
+            "error": 7889559.331063449,
+            "reference": 6740805.605834058
+          }
+        },
+        "array_side": {
+          "scatter_field_relative_l2": 1.0836303310100683,
+          "energy_sums": {
+            "error": 235643.9624925277,
+            "reference": 200675.34210370993
+          }
+        }
+      },
+      "energy_sums": {
+        "field_error": 8363898.419535604,
+        "field_true": 98242820.72602785,
+        "scatter_field_true": 7147701.073705237,
+        "trace_error": 1187.6806586579598,
+        "trace_true": 18194.38454911493,
+        "scatter_trace_true": 1017.631679592409
+      },
+      "records": [
+        {
+          "group_id": "synthetic_workpiece_004",
+          "split": "validation",
+          "shot": 0,
+          "field_mse": 0.03996310755610466,
+          "receiver_mse": 0.03058617189526558,
+          "field_error": 654755.5225463221,
+          "field_true": 16263770.176923783,
+          "scatter_field_true": 504655.1941867868,
+          "trace_error": 95.98895390910383,
+          "trace_true": 3069.085910748053,
+          "scatter_trace_true": 74.18736050139852
+        },
+        {
+          "group_id": "synthetic_workpiece_005",
+          "split": "validation",
+          "shot": 0,
+          "field_mse": 0.12334565073251724,
+          "receiver_mse": 0.09285398572683334,
+          "field_error": 2020895.0541346285,
+          "field_true": 16475719.18667889,
+          "scatter_field_true": 1766770.636068895,
+          "trace_error": 291.4835139289051,
+          "trace_true": 3057.2109267108813,
+          "scatter_trace_true": 252.56685002153915
+        },
+        {
+          "group_id": "synthetic_workpiece_012",
+          "split": "validation",
+          "shot": 0,
+          "field_mse": 0.040237125009298325,
+          "receiver_mse": 0.025260278955101967,
+          "field_error": 659245.0365395902,
+          "field_true": 16265350.31269403,
+          "scatter_field_true": 363620.8021222905,
+          "trace_error": 79.3092580937408,
+          "trace_true": 3001.382492488943,
+          "scatter_trace_true": 44.02819046806912
+        },
+        {
+          "group_id": "synthetic_workpiece_013",
+          "split": "validation",
+          "shot": 0,
+          "field_mse": 0.12433227896690369,
+          "receiver_mse": 0.09331929683685303,
+          "field_error": 2037060.0353624276,
+          "field_true": 16514414.968962288,
+          "scatter_field_true": 1949971.6545324237,
+          "trace_error": 293.05521782248866,
+          "trace_true": 3008.814805796518,
+          "scatter_trace_true": 275.1775141373289
+        },
+        {
+          "group_id": "synthetic_workpiece_020",
+          "split": "validation",
+          "shot": 0,
+          "field_mse": 0.08460165560245514,
+          "receiver_mse": 0.056089963763952255,
+          "field_error": 1386113.4260380024,
+          "field_true": 16358229.971534792,
+          "scatter_field_true": 1123089.0810017735,
+          "trace_error": 176.10320646528126,
+          "trace_true": 3026.859530358649,
+          "scatter_trace_true": 145.9673185317082
+        },
+        {
+          "group_id": "synthetic_workpiece_021",
+          "split": "validation",
+          "shot": 0,
+          "field_mse": 0.0980120450258255,
+          "receiver_mse": 0.08021259307861328,
+          "field_error": 1605829.344914633,
+          "field_true": 16365336.109234065,
+          "scatter_field_true": 1439593.7057930678,
+          "trace_error": 251.74050843844014,
+          "trace_true": 3031.0308830118856,
+          "scatter_trace_true": 225.7044459323651
+        }
+      ]
+    }
+  }
+}

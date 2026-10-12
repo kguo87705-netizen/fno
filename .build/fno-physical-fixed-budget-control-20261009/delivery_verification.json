@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "numeric_tables": "Match all12 primary results",
+  "checkpoints": "Second-update bound verified; no truth-based stopping",
+  "wikilinks": "All5 edited notes resolved",
+  "image": "Copied SHA matches; plot visually inspected separately",
+  "next_protocol": "Planned not run; evidence hashes match",
+  "cost_increases": "All saved and recomputed",
+  "limitation": "Markdown structural QA, no native Obsidian rendering claim",
+  "files_sha256": {
+    "PINO超声成像知识库\\05实践与复习\\固定八步物理更新与初始化收益审查 2026-10-09.md": "76cec613f8fc12210c24a2966d97ee018bdd131390c6356bbb31c3ba05086d96",
+    "PINO超声成像知识库\\00导航\\FNO与超声全波形反演科研计划 2026-10-07.md": "9c063db2e3f420dc99a100156417fc717681312ef6ccedd543278e5bb94d60c0",
+    "PINO超声成像知识库\\00导航\\相控阵FWI与神经算子后续执行路线 2026-10-08.md": "136a6d03909fb303e727aea2a566693d625fba6b61bdda1745dd2888b2923dd1",
+    "PINO超声成像知识库\\04专题\\相控阵FWI与神经算子阶段总结及知识梳理 2026-10-08.md": "bdbc349467c73c092a57ee5f18756504cd28899178aa7874ecd0bcf176b71fea",
+    "PINO超声成像知识库\\05实践与复习\\代理初值与一次物理材料更新 2026-10-09.md": "4dc3a49b59eb09ee65f63e8d61326dce47be8fcb636c4d4bdf4032ca277de41e"
+  }
+}

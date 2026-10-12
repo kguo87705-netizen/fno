@@ -1,0 +1,168 @@
+{
+  "description": "Independent scalar finite-difference forward model; same dt, pulse, nominal source/receiver positions; not an author-code reproduction.",
+  "device": "cuda",
+  "dt_seconds": 4e-08,
+  "steps": 420,
+  "geometry": {
+    "1": {
+      "grid": [
+        64,
+        32
+      ],
+      "dx_mm": 1.5625,
+      "source_x_mm": [
+        34.375,
+        65.62500762939453
+      ],
+      "receiver_x_mm": [
+        10.9375,
+        15.625,
+        20.312501907348633,
+        25.0,
+        29.6875,
+        34.375,
+        39.0625,
+        43.75,
+        48.437503814697266,
+        53.125,
+        57.8125,
+        62.5,
+        67.1875,
+        71.875,
+        76.5625,
+        81.25000762939453,
+        85.9375
+      ],
+      "source_receiver_y_mm": 1.5625,
+      "homogeneous_peak": 0.003971150820755691,
+      "defect_contrast_rmse": 4.565729680501582e-05
+    },
+    "2": {
+      "grid": [
+        128,
+        64
+      ],
+      "dx_mm": 0.78125,
+      "source_x_mm": [
+        34.375,
+        65.62500762939453
+      ],
+      "receiver_x_mm": [
+        10.9375,
+        15.625,
+        20.312501907348633,
+        25.0,
+        29.6875,
+        34.375,
+        39.0625,
+        43.75,
+        48.437503814697266,
+        53.125,
+        57.8125,
+        62.5,
+        67.1875,
+        71.875,
+        76.5625,
+        81.25000762939453,
+        85.9375
+      ],
+      "source_receiver_y_mm": 1.5625,
+      "homogeneous_peak": 0.004637486771094001,
+      "defect_contrast_rmse": 5.600091029327466e-05
+    },
+    "4": {
+      "grid": [
+        256,
+        128
+      ],
+      "dx_mm": 0.390625,
+      "source_x_mm": [
+        34.375,
+        65.62500762939453
+      ],
+      "receiver_x_mm": [
+        10.9375,
+        15.625,
+        20.312501907348633,
+        25.0,
+        29.6875,
+        34.375,
+        39.0625,
+        43.75,
+        48.437503814697266,
+        53.125,
+        57.8125,
+        62.5,
+        67.1875,
+        71.875,
+        76.5625,
+        81.25000762939453,
+        85.9375
+      ],
+      "source_receiver_y_mm": 1.5625,
+      "homogeneous_peak": 0.005541181488887291,
+      "defect_contrast_rmse": 6.0750000819796724e-05
+    }
+  },
+  "comparisons": {
+    "1x_vs_2x": {
+      "homogeneous": {
+        "raw_rmse": 0.00016277085770085683,
+        "gain_only": 0.9515790711720469,
+        "gain_only_rmse": 0.00016174150766360852,
+        "best_lag_samples": -2,
+        "best_lag_microseconds": -0.08,
+        "gain_with_lag": 0.986069722426883,
+        "gain_and_lag_rmse": 0.00012899160090624372
+      },
+      "defect_raw_rmse": 0.00016414297945886895,
+      "defect_after_background_gain_rmse": 0.00016323970934577664,
+      "defect_after_background_gain_and_lag_rmse": 0.00013136666171661307,
+      "contrast_raw_rmse": 1.946712651830472e-05,
+      "fine_defect_contrast_rmse": 5.600091029327466e-05
+    },
+    "2x_vs_4x": {
+      "homogeneous": {
+        "raw_rmse": 6.662599947105912e-05,
+        "gain_only": 1.0398144968238279,
+        "gain_only_rmse": 6.475377458150348e-05,
+        "best_lag_samples": -1,
+        "best_lag_microseconds": -0.04,
+        "gain_with_lag": 1.044121493759095,
+        "gain_and_lag_rmse": 5.291818144120486e-05
+      },
+      "defect_raw_rmse": 6.743088984930544e-05,
+      "defect_after_background_gain_rmse": 6.547538753110762e-05,
+      "defect_after_background_gain_and_lag_rmse": 5.366530328949903e-05,
+      "contrast_raw_rmse": 1.2076797443255107e-05,
+      "fine_defect_contrast_rmse": 6.0750000819796724e-05
+    },
+    "1x_vs_4x": {
+      "homogeneous": {
+        "raw_rmse": 0.0002033843880663996,
+        "gain_only": 0.9583316212577069,
+        "gain_only_rmse": 0.00020277534999953967,
+        "best_lag_samples": -3,
+        "best_lag_microseconds": -0.12,
+        "gain_with_lag": 1.0125657920601467,
+        "gain_and_lag_rmse": 0.0001609007833620402
+      },
+      "defect_raw_rmse": 0.00020583644793922086,
+      "defect_after_background_gain_rmse": 0.00020531618281952141,
+      "defect_after_background_gain_and_lag_rmse": 0.00016453752161886326,
+      "contrast_raw_rmse": 2.9376533927083394e-05,
+      "fine_defect_contrast_rmse": 6.0750000819796724e-05
+    }
+  },
+  "halved_timestep_same_spatial_grid": {
+    "1": {
+      "homogeneous_rmse": 3.8730557230680115e-06,
+      "defect_rmse": 3.8582736700634025e-06
+    },
+    "2": {
+      "homogeneous_rmse": 3.7243629854488493e-06,
+      "defect_rmse": 3.7631374861278645e-06
+    }
+  },
+  "interpretation_limit": "A 4x grid is only a finer reference, not a converged continuum solution. Global gain/lag are diagnostic fits from homogeneous traces."
+}

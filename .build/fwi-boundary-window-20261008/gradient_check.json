@@ -1,0 +1,10 @@
+{
+  "device": "cpu",
+  "dtype": "float64",
+  "padding_acquisition_checks": "passed",
+  "autograd_projection": -5.4697346982643e-06,
+  "relative_directional_errors": {
+    "0.01": 1.0952442819364819e-06,
+    "0.005": 2.7379543240575115e-07
+  }
+}

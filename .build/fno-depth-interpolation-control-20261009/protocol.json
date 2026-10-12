@@ -1,0 +1,82 @@
+{
+  "status": "frozen_before_new_labels",
+  "plan": {
+    "status": "planned_not_run",
+    "question": "Can a training-only depth interpolation reference predict new intermediate geometries more reliably than the frozen FNO?",
+    "output_directory": ".build/fno-depth-interpolation-control-20261009",
+    "training_reference_depth_rows": [
+      -2,
+      0,
+      2
+    ],
+    "new_validation_depth_rows": [
+      -1,
+      1
+    ],
+    "contrast": 0.5,
+    "data_roles": "Current -2/0/+2 diagnostic physical labels become explicit training references. New -1/+1 labels are frozen prospective development validation, not independent final test.",
+    "fixed": "Same449-cell support, source0, float32 stencil,24receivers,2000times, frozen width8, IEEE policy, background and normalization. No fitting/training/calibration.",
+    "only_main_axis": "Depth of supplied material support; geometry and contrast are known forward inputs, no blind localization.",
+    "methods": [
+      "Frozen original width8",
+      "Training-only piecewise linear depth interpolation",
+      "Training-only nearest depth reference",
+      "Zero scatter"
+    ],
+    "linear_rule": "For -1 use .5*F(-2)+.5*F(0); for +1 use .5*F(0)+.5*F(+2). Interpolate physical training scattered field snapshots and full-resolution receiver traces separately. Weights from known input depth; freeze before new labels. No interpolation of validation labels.",
+    "nearest_rule": "Nearest training depth; on ties choose smaller signed depth (-2 for -1,0 for +1). Fixed before labels.",
+    "representation_boundary": "Direct full-time physical training-trace interpolation is a simple reference with stored receiver traces, not identical to the FNO field/time reconstruction representation. Also reconstruct the interpolated training snapshots at receivers and report that variant; never hide this asymmetry.",
+    "metrics": [
+      "Allmethods complete/scattered field and receiver relativeL2 separately at both states",
+      "Finite symmetric depth response between+1/-1 versus physical, relative error/norm ratio/cosine",
+      "Direct-trace versus snapshot-reconstructed interpolation gap",
+      "No material recovery or speed claim"
+    ],
+    "screens": "For each method both states scatter field and receiver<=.20 and receiver response error<=.20 with cosine>=.90; inherited engineering screens, no retuning. Report continuous errors and comparisons even on failure.",
+    "decisions": {
+      "linear_passes_and_beats_network_both": "Use the cheap local depth reference as current baseline; network geometry coverage remains plausible but neural necessity is absent here. Only then consider paired same-architecture coverage intervention if needed.",
+      "both_fail": "Do not infer capacity failure; discrete depth response may be nonlinear over this spacing. Next isolate reference spacing/coverage before training.",
+      "network_passes_linear_fails": "Earlier +/-2 failure is scale-limited locally; preregister finer depth-family response checks before inversion.",
+      "mixed": "Local/directional evidence only; no broad success. Freeze results and select one discriminating follow-up.",
+      "controls_fail_or_response_small": "Inconclusive; audit implementation or response scale."
+    },
+    "checks": "New masks449 cells/no wrap/interior; source/receiver metadata unchanged; zero baseline scatter error1; hashes stable. Physical paired response norm >1e-6 of nominal scatter norm.",
+    "budget": "2 new physical and2 network calls plus cached interpolation, estimated<1minute,cap3minutes; separate verification may replay2+2. No training/download.",
+    "frozen_sha256": {
+      ".build\\fno-frozen-depth-shift-audit-20261009-r2\\raw.pt": "246c5fbd657fb8b03337832ee3081f2db6011798fa925c3763d9f0c9e032b061",
+      ".build\\fno-frozen-depth-shift-audit-20261009-r2\\summary.json": "59badb22a80ee30a808e2af1e86e0d5fa7416dafe7711a039f4def5540838ac7",
+      ".build\\fno-frozen-depth-shift-audit-20261009-r2\\response_decomposition.json": "a150900db6be70184c2f472f7a04571987423e8597b050a123f06b382da3c944",
+      ".build\\fno-frozen-depth-shift-audit-20261009-r2\\verification.json": "29d44cefa51293b32d013015165601c7cecf59112d29e2210cc01c981b1b61c9",
+      ".build\\fno-width8-control-20261009\\final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+      ".build\\fno-local-contrast-20261009\\contrast_05.pt": "baf16dcfb73599e8172e31919e052811e21ba09e543bb7a191ced73aee4c9c30"
+    }
+  },
+  "plan_sha256": "b434d12ed498dab5eecf0e53d2ffcc9bf34c3983a5ef137a05a82c0815751bc7",
+  "script_sha256": "d29259d347b08035c2e7333c0621a48e47527f555b6d4e6336a202da95df7bc3",
+  "frozen_sha256": {
+    ".build\\fno-width8-control-20261009\\final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+    ".build\\fno-local-contrast-20261009\\contrast_05.pt": "baf16dcfb73599e8172e31919e052811e21ba09e543bb7a191ced73aee4c9c30",
+    ".build\\fno-local-contrast-20261009\\data_manifest.json": "281ac315c43066fae6d75457c42f3800d087192bf15022b86307d999acb4da69",
+    ".build\\operator-pilot-v3-20261008\\homogeneous.pt": "9d382c08f6dbd90cedb09c2971aaf66c96d60ca69fecbfea41d29822955d88b6",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\settings2D.csv": "4fb9e8fdb8fa2fb97502e605f31351601e115463fa1800913473699d9f4ee398",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\data_casestudy\\source.h5": "67d94afee4a19becde3f081424510f2a2433f7dd27d301abdf1954fe6f168c9c",
+    ".build\\operator-pilot-v3-20261008\\synthetic_workpiece_000.pt": "eba5bed176c50f379d3ab4da194aae92529e0ecd648d18eabc352bc1d2a41f82",
+    ".build\\fno-frozen-new-contrast-validation-20261009\\width8_grid.pt": "7a498e377d04087b390245e528fb89438f7ab1db73f94f325a585a5ca42b209a",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\basic_fno.py": "acf21cd017e7bb399d1184d312212db67023adaa7c8ca008ff8a60081210737a",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_fno_local_contrast.py": "579d0b03d157c73cd54b3c2495994eaeb9f7e6b200d6cced94a6b67e32c30530",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\time_feature_input.py": "5d18c16a80304c2ac8027dbdef5b3bcb3c9dd40450e6361dddb39b84fdc86f39",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\operator_data.py": "43c1c3f67f7abe6a91a95886c4121fd6f34031e81f29dd46db1f2d19c82617ca",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\time_reconstruction.py": "d749b8f5c6aa379187a8d1486c0249b1d79630a9ecd638e7af63ce1cf7d2aaf2",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\FiniteDifferencePyTorchConv.py": "ffa51af0896fa2ddc0ef8e705d4f88f3dc9cc61df96b780eef1ad25cac1fde9f",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\Utilities.py": "20931a36069c795d367d36bcf81df1875b10ba8459718dcd442377a184c101e3",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_contrast_derivative_audit.py": "f89db13917f3e66a1b0c3702200c27ef49d2babe23ed04a99956bad9b44fd265",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_reduced_material_scan.py": "b48630e557fb7c99e7e881f2c1adb32216311077386f5fe71af4693bc12a1108",
+    ".build\\fno-frozen-depth-shift-audit-20261009-r2\\raw.pt": "246c5fbd657fb8b03337832ee3081f2db6011798fa925c3763d9f0c9e032b061",
+    ".build\\fno-frozen-depth-shift-audit-20261009-r2\\summary.json": "59badb22a80ee30a808e2af1e86e0d5fa7416dafe7711a039f4def5540838ac7",
+    ".build\\fno-frozen-depth-shift-audit-20261009-r2\\response_decomposition.json": "a150900db6be70184c2f472f7a04571987423e8597b050a123f06b382da3c944",
+    ".build\\fno-frozen-depth-shift-audit-20261009-r2\\verification.json": "29d44cefa51293b32d013015165601c7cecf59112d29e2210cc01c981b1b61c9",
+    "C:\\Users\\Administrator\\Desktop\\\u5927\u4e8c\u4e0b\\\u5927\u4e09\u8bfe\u7a0b\\\u6587\u732e\u9605\u8bfb\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_frozen_depth_shift.py": "ffb0aa8c5ecd01ee879e90d1b78f4cd784f2cc50d2841026a8730ec7031c253e"
+  },
+  "verification": "Separate two physical and two neural replays allowed",
+  "execution": "IEEE float32 forwards; float64 reference interpolation and metrics; sparse interpolated scatter cast float32 for existing reconstruction"
+}

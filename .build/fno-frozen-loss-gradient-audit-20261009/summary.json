@@ -1,0 +1,475 @@
+{
+  "status": "completed",
+  "models": {
+    "original": {
+      "rows": [
+        {
+          "state": "depth-2",
+          "field_loss": 0.04132389649748802,
+          "receiver_loss": 0.04598917439579964,
+          "regions": {
+            "opposite_boundary": {
+              "error_energy": 24130.434322878773,
+              "scatter_reference_energy": 51950.44344841604,
+              "relative_l2": 0.6815346486426059,
+              "fraction_total_error": 0.03564051408591326
+            },
+            "interior": {
+              "error_energy": 619805.0513186888,
+              "scatter_reference_energy": 1795476.750440288,
+              "relative_l2": 0.5875403028180907,
+              "fraction_total_error": 0.9154485313635479
+            },
+            "array_side": {
+              "error_energy": 33115.19507283342,
+              "scatter_reference_energy": 64181.14766181128,
+              "relative_l2": 0.718306703582973,
+              "fraction_total_error": 0.04891095455053879
+            }
+          },
+          "total_error_energy": 677050.6807144011,
+          "real_parameter_coordinates": 16777737,
+          "field_receiver": {
+            "first_norm": 0.16747129907438327,
+            "second_norm": 0.15223811087430236,
+            "dot": -0.0029656420056939576,
+            "cosine": -0.11632014882335916,
+            "second_over_first": 0.9090400069488026,
+            "negative_first_direction_derivative_of_second": 0.0029656420056939576
+          },
+          "total_field": {
+            "first_norm": 0.21281868904034246,
+            "second_norm": 0.16747129907438327,
+            "dot": 0.025080994007967566,
+            "cosine": 0.7037114082236824,
+            "second_over_first": 0.7869200765663817,
+            "negative_first_direction_derivative_of_second": -0.025080994007967566
+          }
+        },
+        {
+          "state": "depth0",
+          "field_loss": 0.005020115990191698,
+          "receiver_loss": 0.00027182811754755676,
+          "regions": {
+            "opposite_boundary": {
+              "error_energy": 30139.022209543364,
+              "scatter_reference_energy": 50328.19207511514,
+              "relative_l2": 0.7738537909344932,
+              "fraction_total_error": 0.36643376762231944
+            },
+            "interior": {
+              "error_energy": 45210.3704009538,
+              "scatter_reference_energy": 1753581.8351356925,
+              "relative_l2": 0.16056689660738147,
+              "fraction_total_error": 0.5496729869483411
+            },
+            "array_side": {
+              "error_energy": 6900.1839094469005,
+              "scatter_reference_energy": 62343.395233138566,
+              "relative_l2": 0.3326864461936093,
+              "fraction_total_error": 0.08389324542933942
+            }
+          },
+          "total_error_energy": 82249.57651994406,
+          "real_parameter_coordinates": 16777737,
+          "field_receiver": {
+            "first_norm": 0.029436223130279215,
+            "second_norm": 0.04139473393663531,
+            "dot": -0.0005185220294294344,
+            "cosine": -0.4255396483286173,
+            "second_over_first": 1.4062515341533444,
+            "negative_first_direction_derivative_of_second": 0.0005185220294294344
+          },
+          "total_field": {
+            "first_norm": 0.03928067172289118,
+            "second_norm": 0.029436223130279215,
+            "dot": 0.00034796920274615065,
+            "cosine": 0.3009399302440613,
+            "second_over_first": 0.7493818674471644,
+            "negative_first_direction_derivative_of_second": -0.00034796920274615065
+          }
+        },
+        {
+          "state": "depth2",
+          "field_loss": 0.042639948427677155,
+          "receiver_loss": 0.03994542732834816,
+          "regions": {
+            "opposite_boundary": {
+              "error_energy": 57146.47004641773,
+              "scatter_reference_energy": 50012.30845113087,
+              "relative_l2": 1.0689471999862084,
+              "fraction_total_error": 0.08179990649884814
+            },
+            "interior": {
+              "error_energy": 617937.9163951221,
+              "scatter_reference_energy": 1737857.0738467886,
+              "relative_l2": 0.5963008028462365,
+              "fraction_total_error": 0.8845211916353986
+            },
+            "array_side": {
+              "error_energy": 23528.515361990387,
+              "scatter_reference_energy": 60985.61859547495,
+              "relative_l2": 0.6211314869647664,
+              "fraction_total_error": 0.033678901865753515
+            }
+          },
+          "total_error_energy": 698612.90180353,
+          "real_parameter_coordinates": 16777737,
+          "field_receiver": {
+            "first_norm": 0.17298719251615588,
+            "second_norm": 0.3041190873533754,
+            "dot": 0.04594159716213887,
+            "cosine": 0.8732698384789401,
+            "second_over_first": 1.7580439507102392,
+            "negative_first_direction_derivative_of_second": -0.04594159716213887
+          },
+          "total_field": {
+            "first_norm": 0.4629213565947777,
+            "second_norm": 0.17298719251615588,
+            "dot": 0.07586616593676045,
+            "cosine": 0.9473860139736492,
+            "second_over_first": 0.3736859188969796,
+            "negative_first_direction_derivative_of_second": -0.07586616593676045
+          }
+        },
+        {
+          "state": "contrast03",
+          "field_loss": 0.010455057956278324,
+          "receiver_loss": 0.0003708633594214916,
+          "regions": {
+            "opposite_boundary": {
+              "error_energy": 74801.36998024957,
+              "scatter_reference_energy": 123317.12162714708,
+              "relative_l2": 0.7788307433321608,
+              "fraction_total_error": 0.43667988060022356
+            },
+            "interior": {
+              "error_energy": 80147.79806238266,
+              "scatter_reference_energy": 4355393.688718364,
+              "relative_l2": 0.13565383903589384,
+              "fraction_total_error": 0.4678915760164974
+            },
+            "array_side": {
+              "error_energy": 16346.49567659813,
+              "scatter_reference_energy": 147988.0358144066,
+              "relative_l2": 0.3323525604756213,
+              "fraction_total_error": 0.0954285433832789
+            }
+          },
+          "total_error_energy": 171295.6637192304,
+          "real_parameter_coordinates": 16777737,
+          "field_receiver": {
+            "first_norm": 0.027831331084407055,
+            "second_norm": 0.06636823304281148,
+            "dot": 0.00030323284801228145,
+            "cosine": 0.16416554462771887,
+            "second_over_first": 2.3846589601312793,
+            "negative_first_direction_derivative_of_second": -0.00030323284801228145
+          },
+          "total_field": {
+            "first_norm": 0.0760643874831013,
+            "second_norm": 0.027831331084407055,
+            "dot": 0.0010778158379421638,
+            "cosine": 0.5091306127517717,
+            "second_over_first": 0.3658917399497912,
+            "negative_first_direction_derivative_of_second": -0.0010778158379421638
+          }
+        },
+        {
+          "state": "contrast07",
+          "field_loss": 0.0020319425966590643,
+          "receiver_loss": 0.00010068336996482685,
+          "regions": {
+            "opposite_boundary": {
+              "error_energy": 8597.025182604671,
+              "scatter_reference_energy": 14779.365064330475,
+              "relative_l2": 0.7626867667198568,
+              "fraction_total_error": 0.2582360152143085
+            },
+            "interior": {
+              "error_energy": 22295.342189555122,
+              "scatter_reference_energy": 511929.4040566259,
+              "relative_l2": 0.20869018957679042,
+              "fraction_total_error": 0.6697037873658772
+            },
+            "array_side": {
+              "error_energy": 2398.981146636292,
+              "scatter_reference_energy": 18506.863159792567,
+              "relative_l2": 0.36003689741771044,
+              "fraction_total_error": 0.07206019741981443
+            }
+          },
+          "total_error_energy": 33291.34851879608,
+          "real_parameter_coordinates": 16777737,
+          "field_receiver": {
+            "first_norm": 0.019293746343553967,
+            "second_norm": 0.01857432449335525,
+            "dot": 7.432944576674975e-05,
+            "cosine": 0.20741076895502952,
+            "second_over_first": 0.9627121743290111,
+            "negative_first_direction_derivative_of_second": -7.432944576674975e-05
+          },
+          "total_field": {
+            "first_norm": 0.029426400899317577,
+            "second_norm": 0.019293746343553967,
+            "dot": 0.00044657809373615175,
+            "cosine": 0.786581456180657,
+            "second_over_first": 0.6556610986701199,
+            "negative_first_direction_derivative_of_second": -0.00044657809373615175
+          }
+        }
+      ],
+      "geometry_material": {
+        "first_norm": 0.19321335151417007,
+        "second_norm": 0.050262551027051065,
+        "dot": 0.0011007217074849793,
+        "cosine": 0.11334330453955488,
+        "second_over_first": 0.26014015404812674,
+        "negative_first_direction_derivative_of_second": -0.0011007217074849793
+      },
+      "geometry_field_mean_norm": 0.1210771405057319,
+      "geometry_field_mean_over_mean_individual_norm": 0.9819859734717976,
+      "hash_before": "15f88d01353645b010e2ad0a6a6ad6a93eb448a404be22450cd9d754c409d73c",
+      "hash_after": "15f88d01353645b010e2ad0a6a6ad6a93eb448a404be22450cd9d754c409d73c"
+    },
+    "coverage": {
+      "rows": [
+        {
+          "state": "depth-2",
+          "field_loss": 0.025862302631139755,
+          "receiver_loss": 0.0007301326259039342,
+          "regions": {
+            "opposite_boundary": {
+              "error_energy": 36918.72823462775,
+              "scatter_reference_energy": 51950.44344841604,
+              "relative_l2": 0.8430022554137602,
+              "fraction_total_error": 0.08712838242559104
+            },
+            "interior": {
+              "error_energy": 371646.77296710305,
+              "scatter_reference_energy": 1795476.750440288,
+              "relative_l2": 0.45496217365016917,
+              "fraction_total_error": 0.8770882343650985
+            },
+            "array_side": {
+              "error_energy": 15162.418528179347,
+              "scatter_reference_energy": 64181.14766181128,
+              "relative_l2": 0.4860495000969975,
+              "fraction_total_error": 0.035783383209310536
+            }
+          },
+          "total_error_energy": 423727.9197299101,
+          "real_parameter_coordinates": 16777737,
+          "field_receiver": {
+            "first_norm": 0.07017544471253655,
+            "second_norm": 0.017876428530060568,
+            "dot": -0.0007310132207722825,
+            "cosine": -0.5827191639881577,
+            "second_over_first": 0.25473908435192316,
+            "negative_first_direction_derivative_of_second": 0.0007310132207722825
+          },
+          "total_field": {
+            "first_norm": 0.06149905118006351,
+            "second_norm": 0.07017544471253655,
+            "dot": 0.004193579819829991,
+            "cosine": 0.9716980356239681,
+            "second_over_first": 1.141081746238155,
+            "negative_first_direction_derivative_of_second": -0.004193579819829991
+          }
+        },
+        {
+          "state": "depth0",
+          "field_loss": 0.00635489821434021,
+          "receiver_loss": 0.0012853984953835607,
+          "regions": {
+            "opposite_boundary": {
+              "error_energy": 31346.46549326832,
+              "scatter_reference_energy": 50328.19207511514,
+              "relative_l2": 0.7892028128034331,
+              "fraction_total_error": 0.3010648571248469
+            },
+            "interior": {
+              "error_energy": 65534.81853235897,
+              "scatter_reference_energy": 1753581.8351356925,
+              "relative_l2": 0.193318328559871,
+              "fraction_total_error": 0.6294244173201762
+            },
+            "array_side": {
+              "error_energy": 7237.362676034851,
+              "scatter_reference_energy": 62343.395233138566,
+              "relative_l2": 0.34071789427022114,
+              "fraction_total_error": 0.06951072555497703
+            }
+          },
+          "total_error_energy": 104118.64670166213,
+          "real_parameter_coordinates": 16777737,
+          "field_receiver": {
+            "first_norm": 0.04497574640071208,
+            "second_norm": 0.03591397733106179,
+            "dot": 0.0012977470442594153,
+            "cosine": 0.8034302229924889,
+            "second_over_first": 0.7985187618919245,
+            "negative_first_direction_derivative_of_second": -0.0012977470442594153
+          },
+          "total_field": {
+            "first_norm": 0.0768643325643046,
+            "second_norm": 0.04497574640071208,
+            "dot": 0.0033205648085605807,
+            "cosine": 0.9605251064216042,
+            "second_over_first": 0.5851315545228397,
+            "negative_first_direction_derivative_of_second": -0.0033205648085605807
+          }
+        },
+        {
+          "state": "depth2",
+          "field_loss": 0.024664996191859245,
+          "receiver_loss": 0.0007407027296721935,
+          "regions": {
+            "opposite_boundary": {
+              "error_energy": 38285.074706571926,
+              "scatter_reference_energy": 50012.30845113087,
+              "relative_l2": 0.8749360253941315,
+              "fraction_total_error": 0.0947389423263033
+            },
+            "interior": {
+              "error_energy": 359109.12741425727,
+              "scatter_reference_energy": 1737857.0738467886,
+              "relative_l2": 0.4545756766086318,
+              "fraction_total_error": 0.8886392196358532
+            },
+            "array_side": {
+              "error_energy": 6717.072150199549,
+              "scatter_reference_energy": 60985.61859547495,
+              "relative_l2": 0.3318763384518465,
+              "fraction_total_error": 0.01662183803784339
+            }
+          },
+          "total_error_energy": 404111.27427102876,
+          "real_parameter_coordinates": 16777737,
+          "field_receiver": {
+            "first_norm": 0.04164955626530499,
+            "second_norm": 0.009199902250766492,
+            "dot": -0.00010918495859225369,
+            "cosine": -0.2849503678569394,
+            "second_over_first": 0.2208883617430089,
+            "negative_first_direction_derivative_of_second": 0.00010918495859225369
+          },
+          "total_field": {
+            "first_norm": 0.040011920990324336,
+            "second_norm": 0.04164955626530499,
+            "dot": 0.0016255005785045522,
+            "cosine": 0.9754103219422763,
+            "second_over_first": 1.0409286841133338,
+            "negative_first_direction_derivative_of_second": -0.0016255005785045522
+          }
+        },
+        {
+          "state": "contrast03",
+          "field_loss": 0.022521715611219406,
+          "receiver_loss": 0.0049210949800908566,
+          "regions": {
+            "opposite_boundary": {
+              "error_energy": 97133.73040217653,
+              "scatter_reference_energy": 123317.12162714708,
+              "relative_l2": 0.8875101824168948,
+              "fraction_total_error": 0.2632380499822013
+            },
+            "interior": {
+              "error_energy": 253926.56918467645,
+              "scatter_reference_energy": 4355393.688718364,
+              "relative_l2": 0.24145731319682048,
+              "fraction_total_error": 0.6881557481019689
+            },
+            "array_side": {
+              "error_energy": 17935.483540792062,
+              "scatter_reference_energy": 147988.0358144066,
+              "relative_l2": 0.3481314362907413,
+              "fraction_total_error": 0.04860620191582981
+            }
+          },
+          "total_error_energy": 368995.78312764503,
+          "real_parameter_coordinates": 16777737,
+          "field_receiver": {
+            "first_norm": 0.09853815102368325,
+            "second_norm": 0.07590061511705888,
+            "dot": -0.0011613210990174061,
+            "cosine": -0.1552753840213476,
+            "second_over_first": 0.770266280913029,
+            "negative_first_direction_derivative_of_second": 0.0011613210990174061
+          },
+          "total_field": {
+            "first_norm": 0.11466485243647813,
+            "second_norm": 0.09853815102368325,
+            "dot": 0.008548446108148804,
+            "cosine": 0.7565758122087546,
+            "second_over_first": 0.8593579368906551,
+            "negative_first_direction_derivative_of_second": -0.008548446108148804
+          }
+        },
+        {
+          "state": "contrast07",
+          "field_loss": 0.004967343062162399,
+          "receiver_loss": 0.003555330215021968,
+          "regions": {
+            "opposite_boundary": {
+              "error_energy": 7881.840718159968,
+              "scatter_reference_energy": 14779.365064330475,
+              "relative_l2": 0.7302741680999993,
+              "fraction_total_error": 0.09684642346196656
+            },
+            "interior": {
+              "error_energy": 69231.66097635473,
+              "scatter_reference_energy": 511929.4040566259,
+              "relative_l2": 0.3677454753641613,
+              "fraction_total_error": 0.850669151489351
+            },
+            "array_side": {
+              "error_energy": 4271.441976175607,
+              "scatter_reference_energy": 18506.863159792567,
+              "relative_l2": 0.480419745380482,
+              "fraction_total_error": 0.052484425048682684
+            }
+          },
+          "total_error_energy": 81384.94367069029,
+          "real_parameter_coordinates": 16777737,
+          "field_receiver": {
+            "first_norm": 0.03510958939063585,
+            "second_norm": 0.040763087602910884,
+            "dot": 0.0003006087165730683,
+            "cosine": 0.21004325835387186,
+            "second_over_first": 1.161024332964227,
+            "negative_first_direction_derivative_of_second": -0.0003006087165730683
+          },
+          "total_field": {
+            "first_norm": 0.05912300746112103,
+            "second_norm": 0.03510958939063585,
+            "dot": 0.0015332919837521175,
+            "cosine": 0.7386566246656816,
+            "second_over_first": 0.5938397063735927,
+            "negative_first_direction_derivative_of_second": -0.0015332919837521175
+          }
+        }
+      ],
+      "geometry_material": {
+        "first_norm": 0.007703873230603437,
+        "second_norm": 0.052290828426651864,
+        "dot": -0.00013655372405484812,
+        "cosine": -0.3389759593998439,
+        "second_over_first": 6.787602399651113,
+        "negative_first_direction_derivative_of_second": 0.00013655372405484812
+      },
+      "geometry_field_mean_norm": 0.022096711066496105,
+      "geometry_field_mean_over_mean_individual_norm": 0.4227666915352671,
+      "hash_before": "be74d89f0037c2e78bec39e1223371e31dbb0702067ad98946f98ffa00376e71",
+      "hash_after": "be74d89f0037c2e78bec39e1223371e31dbb0702067ad98946f98ffa00376e71"
+    }
+  },
+  "elapsed_seconds": 20.42932519997703,
+  "calls": {
+    "forward": 10,
+    "backward": 20,
+    "optimizer": 0,
+    "physical": 0
+  },
+  "scope": "Real Euclidean network parameter gradients on five stored training/anchor states; not material Jacobian or actual Adam step."
+}

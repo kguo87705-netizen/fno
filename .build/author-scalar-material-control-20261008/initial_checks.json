@@ -1,0 +1,18 @@
+{
+  "released_uniform": {
+    "bit_identical": true,
+    "states_sha256": "a36d7d87c41c1c4b6cf7c21f0f3efb1d4c7310f7a63db00d909a12dfa6f7e21e"
+  },
+  "released_near_truth": {
+    "bit_identical": true,
+    "states_sha256": "c710160a9b804a6a71c7f74a83f1462f1f62c47b05a9a0615c7ca4fa07d1802f"
+  },
+  "self_consistent_uniform": {
+    "bit_identical": true,
+    "states_sha256": "5d106f59d33a37918d486986f0873d791849ba4eb0ee07eb1d2a29e9db836119"
+  },
+  "self_consistent_near_truth": {
+    "bit_identical": true,
+    "states_sha256": "8250e383ccac873d8f0f9837e70a86848ede513ef95a04400a049b900b1e3f00"
+  }
+}

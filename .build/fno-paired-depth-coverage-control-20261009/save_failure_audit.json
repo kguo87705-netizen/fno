@@ -1,0 +1,70 @@
+{
+  "status": "execution_failed_incomplete",
+  "primary300_pair": "unknown, unavailable",
+  "coverage_arm": "not started",
+  "stdout_observation": "nominal loop reached300 updates; failed while saving update300; final300 evaluation not persisted",
+  "saved_checkpoints": {
+    "150": {
+      "loadable": true,
+      "file_sha256": "70ba976bc8c1718aae9aa01a96ab72fe4e32cb6abafc2abceed35e4b53aa2da0"
+    },
+    "300": {
+      "loadable": false,
+      "error": "PytorchStreamReader failed reading zip archive: failed finding central directory. This is an internal miniz error. If you are seeing this error, there is a high likelihood that your checkpoint file is corrupted. This can happen if the checkpoint was not saved properly, was transferred incorrectly, or the file was modified after saving.",
+      "file_sha256": "723102f808ea52e755026c95faf5aa0b063736e6e76d19779be1800a94d024b1"
+    }
+  },
+  "verified150": "All5 fields hash and traces bit-identical reload; metrics exact; Adam150; slots50 each",
+  "CPU_save_readback": "passed in new diagnostic directory; does not identify original write failure cause",
+  "original_IO_cause": "unknown; current free-space check showed about11.45GB, so no evidence of disk full",
+  "secondary150": {
+    "records": {
+      "depth-2": {
+        "role": "training_geometry",
+        "full_field_relative_l2": 0.20026653176665507,
+        "scatter_field_relative_l2": 0.58689460254831,
+        "full_trace_relative_l2": 0.2180786055667634,
+        "scatter_trace_relative_l2": 0.6582719906186522
+      },
+      "depth0": {
+        "role": "training_geometry",
+        "full_field_relative_l2": 0.05923010048753474,
+        "scatter_field_relative_l2": 0.17565975521252378,
+        "full_trace_relative_l2": 0.008910085931497684,
+        "scatter_trace_relative_l2": 0.027477668535672472
+      },
+      "depth2": {
+        "role": "training_geometry",
+        "full_field_relative_l2": 0.20543751092164197,
+        "scatter_field_relative_l2": 0.6120842601152694,
+        "full_trace_relative_l2": 0.20359740047929986,
+        "scatter_trace_relative_l2": 0.6327512850892277
+      },
+      "depth-1": {
+        "role": "used_development",
+        "full_field_relative_l2": 0.11438730625540774,
+        "scatter_field_relative_l2": 0.337372437068555,
+        "full_trace_relative_l2": 0.11452413259741787,
+        "scatter_trace_relative_l2": 0.34966175578509456
+      },
+      "depth1": {
+        "role": "used_development",
+        "full_field_relative_l2": 0.11869165195130398,
+        "scatter_field_relative_l2": 0.3535731969252583,
+        "full_trace_relative_l2": 0.10549996058331759,
+        "scatter_trace_relative_l2": 0.3278643734474287
+      }
+    },
+    "response": {
+      "relative_l2": 1.21792966914462,
+      "norm_ratio": 0.5783219303583538,
+      "cosine": -0.12873143489216715
+    },
+    "screen_passed": false
+  },
+  "scientific_limits": "Only nominal repeated-training secondary result; no paired causal conclusion, no selected replacement primary",
+  "verified_restart_checkpoint": ".build\\fno-paired-depth-coverage-control-20261009\\save_diagnostic\\checkpoint150.pt",
+  "verified_restart_sha256": "b91719595ebe9c945962bd98a62531825b2d3a250fbbb8e69d0b271e7cf9f5c8",
+  "new_training_updates": 0,
+  "new_physical_calls": 0
+}

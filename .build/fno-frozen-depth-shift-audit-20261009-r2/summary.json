@@ -1,0 +1,103 @@
+{
+  "status": "completed",
+  "rows": [
+    {
+      "shift_rows": -2,
+      "method": "width8",
+      "full_field_relative_l2": 0.20307637108265922,
+      "scatter_field_relative_l2": 0.5951290265134302,
+      "full_trace_relative_l2": 0.21593393882688672,
+      "scatter_trace_relative_l2": 0.6517982971520089
+    },
+    {
+      "shift_rows": -2,
+      "method": "nominal_lookup",
+      "full_field_relative_l2": 0.18169489152482682,
+      "scatter_field_relative_l2": 0.5324691560084064,
+      "full_trace_relative_l2": 0.17774864352408246,
+      "scatter_trace_relative_l2": 0.5365356821604493
+    },
+    {
+      "shift_rows": -2,
+      "method": "zero_scatter",
+      "full_field_relative_l2": 0.341230829005912,
+      "scatter_field_relative_l2": 1.0,
+      "full_trace_relative_l2": 0.33128951052863487,
+      "scatter_trace_relative_l2": 1.0
+    },
+    {
+      "shift_rows": 0,
+      "method": "width8",
+      "full_field_relative_l2": 0.07078670936850083,
+      "scatter_field_relative_l2": 0.20993339429818783,
+      "full_trace_relative_l2": 0.01651136793958105,
+      "scatter_trace_relative_l2": 0.05091913801981444
+    },
+    {
+      "shift_rows": 0,
+      "method": "nominal_lookup",
+      "full_field_relative_l2": 0.0,
+      "scatter_field_relative_l2": 0.0,
+      "full_trace_relative_l2": 0.0,
+      "scatter_trace_relative_l2": 0.0
+    },
+    {
+      "shift_rows": 0,
+      "method": "zero_scatter",
+      "full_field_relative_l2": 0.33718651387094667,
+      "scatter_field_relative_l2": 1.0,
+      "full_trace_relative_l2": 0.3242664464028416,
+      "scatter_trace_relative_l2": 1.0
+    },
+    {
+      "shift_rows": 2,
+      "method": "width8",
+      "full_field_relative_l2": 0.20631718787957062,
+      "scatter_field_relative_l2": 0.6147051856586069,
+      "full_trace_relative_l2": 0.20169431330004295,
+      "scatter_trace_relative_l2": 0.6268367652796583
+    },
+    {
+      "shift_rows": 2,
+      "method": "nominal_lookup",
+      "full_field_relative_l2": 0.1833032665796766,
+      "scatter_field_relative_l2": 0.5461370895596938,
+      "full_trace_relative_l2": 0.18064710886234597,
+      "scatter_trace_relative_l2": 0.5614250968392133
+    },
+    {
+      "shift_rows": 2,
+      "method": "zero_scatter",
+      "full_field_relative_l2": 0.33563599704876157,
+      "scatter_field_relative_l2": 1.0,
+      "full_trace_relative_l2": 0.32176528958070705,
+      "scatter_trace_relative_l2": 1.0
+    }
+  ],
+  "finite_geometry_receiver_response": {
+    "relative_l2": 1.222518114215802,
+    "norm_ratio": 0.5932330678828007,
+    "cosine": -0.1202099768857558
+  },
+  "physical_response_over_nominal_scatter_norm": 1.0097082837489704,
+  "decision": "screen_failed",
+  "elapsed_seconds": 9.051425599987851,
+  "calls": {
+    "physical": 3,
+    "network": 3
+  },
+  "checks": {
+    "support_cells": 449,
+    "no_wrap_and_interior": true,
+    "coordinates_and_source": "exact equality",
+    "nominal_physics": "bit identical training field/trace",
+    "nominal_network_trace": "bit identical frozen IEEE grid prediction",
+    "dy_m": 0.0003937007859349251,
+    "shift_m": [
+      -0.0007874015718698502,
+      0,
+      0.0007874015718698502
+    ]
+  },
+  "scope": "Three supplied geometries, a=.5, source0; finite discrete depth response, not local Jacobian or blind material recovery"
+}

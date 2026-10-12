@@ -1,0 +1,24 @@
+{
+  "scope": "Training-only feasibility check for a possible next diagnostic, not a trained result.",
+  "workpieces": [
+    "synthetic_workpiece_000",
+    "synthetic_workpiece_001"
+  ],
+  "shot": 0,
+  "non_material_inputs_identical": true,
+  "gamma_maps_different": true,
+  "full_trace_pair_difference_over_mean_norm": 0.33885473012924194,
+  "training_only_oracle": {
+    "zero": {
+      "mean_field_mse": 0.07757066562771797,
+      "mean_receiver_mse": 0.060907380655407906,
+      "mean_total_objective": 0.13847804628312588
+    },
+    "training_mean_oracle": {
+      "mean_field_mse": 0.0359070710837841,
+      "mean_receiver_mse": 0.027784550562500954,
+      "mean_total_objective": 0.06369162164628506
+    },
+    "mean_oracle_over_zero_objective": 0.45994020969983995
+  }
+}

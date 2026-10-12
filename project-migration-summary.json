@@ -1,0 +1,9 @@
+{
+  "Status": "completed",
+  "Files": 4344,
+  "Bytes": 21674368591.0,
+  "Destination": "D:\\下载\\FNO_Research_Workspace",
+  "Compatibility": "C paths are directory junctions; physical files on D",
+  "HashVerification": "SHA256 of every source/destination pair before removing original",
+  "Completed": "2026-10-09T13:10:29.5779950+08:00"
+}

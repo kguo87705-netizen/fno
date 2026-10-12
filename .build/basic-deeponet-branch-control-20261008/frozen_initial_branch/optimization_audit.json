@@ -1,0 +1,36 @@
+{
+  "scope": "Frozen initial/final read-only training000/source0, fresh fixed diagnostic point seed23, no optimizer updates. Gradient is model-computational, not FD physics. Activations and gradients diagnose optimization but do not alone establish spectral bias.",
+  "results": {
+    "initial": {
+      "sampled_diagnostic_objective": 0.12235629558563232,
+      "branch_gradient_norm": 0.0,
+      "trunk_gradient_norm": 0.03442128538644439,
+      "material_input_gradient_norm": 0.00013590757196673848,
+      "branch_fc_pre_min": -0.03853650018572807,
+      "branch_fc_pre_max": 0.05702950805425644,
+      "branch_fc_pre_below_minus6_fraction": 0.0,
+      "branch_activation_norm": 0.10579018294811249,
+      "material_encoding_norm": 0.42017000913619995,
+      "homogeneous_encoding_difference_norm": 0.0023021178785711527,
+      "trunk_basis_norm": 132.21087646484375,
+      "prediction_rms": 0.024606911465525627,
+      "target_sampled_rms": 0.2518680989742279
+    },
+    "final": {
+      "sampled_diagnostic_objective": 0.11752724647521973,
+      "branch_gradient_norm": 0.0,
+      "trunk_gradient_norm": 0.022542126235835666,
+      "material_input_gradient_norm": 2.04860889129908e-05,
+      "branch_fc_pre_min": -0.03853650018572807,
+      "branch_fc_pre_max": 0.05702950805425644,
+      "branch_fc_pre_below_minus6_fraction": 0.0,
+      "branch_activation_norm": 0.10579018294811249,
+      "material_encoding_norm": 0.42017000913619995,
+      "homogeneous_encoding_difference_norm": 0.0023021178785711527,
+      "trunk_basis_norm": 191.26429748535156,
+      "prediction_rms": 0.05306811258196831,
+      "target_sampled_rms": 0.2518680989742279
+    }
+  },
+  "checkpoint_sha256": "4513f24683a655f37eb8385e00cf58f0e7529fa082151b8849911fcba974f9ae"
+}

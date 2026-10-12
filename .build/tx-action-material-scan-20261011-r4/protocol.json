@@ -1,0 +1,45 @@
+{
+  "status": "frozen_before_run",
+  "experiment": "tx_action_material_scan",
+  "actions": {
+    "full_tx": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "left_tx": [
+      0,
+      1
+    ],
+    "right_tx": [
+      2,
+      3
+    ]
+  },
+  "materials": {
+    "gamma_0.46": 0.46,
+    "gamma_0.48": 0.48,
+    "gamma_0.50": 0.5,
+    "gamma_0.52": 0.52,
+    "gamma_0.54": 0.54
+  },
+  "matrix": "3 transmit actions x 5 materials = 15 logical tasks",
+  "physical_calls_expected": 40,
+  "network_forwards": 0,
+  "training_updates": 0,
+  "metrics": [
+    "per_source_scatter_norm",
+    "per_source_low_high response",
+    "action ranking"
+  ],
+  "input_hashes": {
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\settings2D.csv": "4fb9e8fdb8fa2fb97502e605f31351601e115463fa1800913473699d9f4ee398",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\data_casestudy\\source.h5": "67d94afee4a19becde3f081424510f2a2433f7dd27d301abdf1954fe6f168c9c",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\FiniteDifferencePyTorchConv.py": "ffa51af0896fa2ddc0ef8e705d4f88f3dc9cc61df96b780eef1ad25cac1fde9f",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_fno_local_contrast.py": "579d0b03d157c73cd54b3c2495994eaeb9f7e6b200d6cced94a6b67e32c30530",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\operator-pilot-v3-20261008\\synthetic_workpiece_000.pt": "eba5bed176c50f379d3ab4da194aae92529e0ecd648d18eabc352bc1d2a41f82",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-frozen-depth-shift-audit-20261009-r2\\state_0.pt": "4a35b835ea601b37617a9ed4aa4082fb142d04247ccaf8845776ad71a86b569b"
+  },
+  "scope": "true transmit source selection, known center support, scalar finite-difference; no proxy or final test"
+}

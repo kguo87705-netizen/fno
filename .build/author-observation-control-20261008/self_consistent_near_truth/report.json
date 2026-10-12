@@ -1,0 +1,259 @@
+{
+  "records": [
+    {
+      "update": 0,
+      "cost": 4.8002929214051304e-14,
+      "waveform_relative_l2": 0.08166307496308046,
+      "material_half_mse": 1.263391641259659e-05,
+      "physical_material_half_mse": 1.2931565834151115e-05
+    },
+    {
+      "update": 1,
+      "cost": 1.7244091557780915e-14,
+      "waveform_relative_l2": 0.04894259546941017,
+      "material_half_mse": 2.823402792273555e-05,
+      "physical_material_half_mse": 2.8899208700750023e-05
+    },
+    {
+      "update": 2,
+      "cost": 1.5044399509804227e-14,
+      "waveform_relative_l2": 0.04571075674690731,
+      "material_half_mse": 4.053160228068009e-05,
+      "physical_material_half_mse": 4.148650623392314e-05
+    },
+    {
+      "update": 3,
+      "cost": 1.0799602314856549e-14,
+      "waveform_relative_l2": 0.03872934199941871,
+      "material_half_mse": 4.798388545168564e-05,
+      "physical_material_half_mse": 4.9114365538116544e-05
+    },
+    {
+      "update": 4,
+      "cost": 7.515686071537728e-15,
+      "waveform_relative_l2": 0.03230775986740828,
+      "material_half_mse": 5.0425194785930216e-05,
+      "physical_material_half_mse": 5.1613191317301244e-05
+    },
+    {
+      "update": 5,
+      "cost": 1.2956544609985313e-14,
+      "waveform_relative_l2": 0.04242015370698339,
+      "material_half_mse": 5.8406818425282836e-05,
+      "physical_material_half_mse": 5.978285480523482e-05
+    },
+    {
+      "update": 6,
+      "cost": 2.1061765612812033e-14,
+      "waveform_relative_l2": 0.054085209898011584,
+      "material_half_mse": 6.85245540807955e-05,
+      "physical_material_half_mse": 7.013896538410336e-05
+    },
+    {
+      "update": 7,
+      "cost": 7.896804310990064e-15,
+      "waveform_relative_l2": 0.033119471125808035,
+      "material_half_mse": 6.443382881116122e-05,
+      "physical_material_half_mse": 6.595186277991161e-05
+    },
+    {
+      "update": 8,
+      "cost": 9.161113640149092e-15,
+      "waveform_relative_l2": 0.0356729933309927,
+      "material_half_mse": 6.568127719219774e-05,
+      "physical_material_half_mse": 6.722869875375181e-05
+    },
+    {
+      "update": 9,
+      "cost": 1.5815821213988925e-14,
+      "waveform_relative_l2": 0.04687017418346794,
+      "material_half_mse": 6.948147347429767e-05,
+      "physical_material_half_mse": 7.111842569429427e-05
+    },
+    {
+      "update": 10,
+      "cost": 1.509980732301592e-14,
+      "waveform_relative_l2": 0.04579662274552231,
+      "material_half_mse": 7.037097384454682e-05,
+      "physical_material_half_mse": 7.202888082247227e-05
+    },
+    {
+      "update": 11,
+      "cost": 5.0691491409733495e-15,
+      "waveform_relative_l2": 0.02653684333178307,
+      "material_half_mse": 6.710652814945206e-05,
+      "physical_material_half_mse": 6.868752825539559e-05
+    },
+    {
+      "update": 12,
+      "cost": 8.337459649271958e-15,
+      "waveform_relative_l2": 0.03402989038433373,
+      "material_half_mse": 6.697951903333887e-05,
+      "physical_material_half_mse": 6.855753599666059e-05
+    },
+    {
+      "update": 13,
+      "cost": 1.3860207638994194e-14,
+      "waveform_relative_l2": 0.04387495736971569,
+      "material_half_mse": 7.050779822748154e-05,
+      "physical_material_half_mse": 7.216892845463008e-05
+    },
+    {
+      "update": 14,
+      "cost": 7.141217887754285e-15,
+      "waveform_relative_l2": 0.03149491580358766,
+      "material_half_mse": 6.887065683258697e-05,
+      "physical_material_half_mse": 7.04932099324651e-05
+    },
+    {
+      "update": 15,
+      "cost": 5.132067595328346e-15,
+      "waveform_relative_l2": 0.02669908197781328,
+      "material_half_mse": 6.737009971402586e-05,
+      "physical_material_half_mse": 6.895730621181428e-05
+    },
+    {
+      "update": 16,
+      "cost": 2.1176811321774007e-14,
+      "waveform_relative_l2": 0.054233488877694525,
+      "material_half_mse": 7.468583498848602e-05,
+      "physical_material_half_mse": 7.644540164619684e-05
+    },
+    {
+      "update": 17,
+      "cost": 3.8761630352917437e-14,
+      "waveform_relative_l2": 0.07337311584874587,
+      "material_half_mse": 8.495985821355134e-05,
+      "physical_material_half_mse": 8.69614741532132e-05
+    },
+    {
+      "update": 18,
+      "cost": 3.785431576487294e-14,
+      "waveform_relative_l2": 0.07251016311063016,
+      "material_half_mse": 8.685045031597838e-05,
+      "physical_material_half_mse": 8.889660966815427e-05
+    },
+    {
+      "update": 19,
+      "cost": 1.9562258104090062e-14,
+      "waveform_relative_l2": 0.05212741454044788,
+      "material_half_mse": 8.041723049245775e-05,
+      "physical_material_half_mse": 8.231181709561497e-05
+    },
+    {
+      "update": 20,
+      "cost": 1.2705945677375392e-14,
+      "waveform_relative_l2": 0.042014409160591064,
+      "material_half_mse": 7.808785449014977e-05,
+      "physical_material_half_mse": 7.992757309693843e-05
+    },
+    {
+      "update": 21,
+      "cost": 1.0835116712269027e-14,
+      "waveform_relative_l2": 0.03879602361096541,
+      "material_half_mse": 7.89065525168553e-05,
+      "physical_material_half_mse": 8.076555968727916e-05
+    },
+    {
+      "update": 22,
+      "cost": 1.3440379146819389e-14,
+      "waveform_relative_l2": 0.04320784790806466,
+      "material_half_mse": 8.095029625110328e-05,
+      "physical_material_half_mse": 8.285745570901781e-05
+    },
+    {
+      "update": 23,
+      "cost": 5.925978024262646e-15,
+      "waveform_relative_l2": 0.028689818549296003,
+      "material_half_mse": 7.69028629292734e-05,
+      "physical_material_half_mse": 7.871465641073883e-05
+    },
+    {
+      "update": 24,
+      "cost": 4.850041199276449e-15,
+      "waveform_relative_l2": 0.025954988308765563,
+      "material_half_mse": 7.605177961522713e-05,
+      "physical_material_half_mse": 7.78435351094231e-05
+    },
+    {
+      "update": 25,
+      "cost": 9.178214388321209e-15,
+      "waveform_relative_l2": 0.035705839335613124,
+      "material_half_mse": 7.830135291442275e-05,
+      "physical_material_half_mse": 8.014609920792282e-05
+    },
+    {
+      "update": 26,
+      "cost": 1.6614425899516908e-14,
+      "waveform_relative_l2": 0.04804019639062982,
+      "material_half_mse": 8.27013427624479e-05,
+      "physical_material_half_mse": 8.464974962407723e-05
+    },
+    {
+      "update": 27,
+      "cost": 2.400513056562137e-14,
+      "waveform_relative_l2": 0.0577448234671793,
+      "material_half_mse": 8.78691571415402e-05,
+      "physical_material_half_mse": 8.993931987788528e-05
+    },
+    {
+      "update": 28,
+      "cost": 2.1063905218036798e-14,
+      "waveform_relative_l2": 0.05409228209085621,
+      "material_half_mse": 8.817083289613947e-05,
+      "physical_material_half_mse": 9.0248096967116e-05
+    },
+    {
+      "update": 29,
+      "cost": 1.4187701916621755e-14,
+      "waveform_relative_l2": 0.04439392913796176,
+      "material_half_mse": 8.649728988530114e-05,
+      "physical_material_half_mse": 8.853512554196641e-05
+    },
+    {
+      "update": 30,
+      "cost": 8.831852451793559e-15,
+      "waveform_relative_l2": 0.03502576781780226,
+      "material_half_mse": 8.516642992617562e-05,
+      "physical_material_half_mse": 8.717290620552376e-05
+    },
+    {
+      "update": 31,
+      "cost": 5.023621120058431e-15,
+      "waveform_relative_l2": 0.0264151098729146,
+      "material_half_mse": 8.407038694713265e-05,
+      "physical_material_half_mse": 8.605104085290805e-05
+    },
+    {
+      "update": 32,
+      "cost": 3.43823865828674e-15,
+      "waveform_relative_l2": 0.02185311126362464,
+      "material_half_mse": 8.380007784580812e-05,
+      "physical_material_half_mse": 8.577437256462872e-05
+    },
+    {
+      "update": 33,
+      "cost": 4.906185084119306e-15,
+      "waveform_relative_l2": 0.02610722404811734,
+      "material_half_mse": 8.547270408598706e-05,
+      "physical_material_half_mse": 8.748640539124608e-05
+    },
+    {
+      "update": 34,
+      "cost": 7.250718072010585e-15,
+      "waveform_relative_l2": 0.03173843863231572,
+      "material_half_mse": 8.813648310024291e-05,
+      "physical_material_half_mse": 9.021293953992426e-05
+    },
+    {
+      "update": 35,
+      "cost": 6.8076791830151175e-15,
+      "waveform_relative_l2": 0.030753616416464673,
+      "material_half_mse": 8.902741683414206e-05,
+      "physical_material_half_mse": 9.112486441154033e-05
+    }
+  ],
+  "final_cost_over_initial": 0.1418179951614784,
+  "final_material_mse_over_initial": 7.046699845613801,
+  "elapsed_seconds": 95.06758719999925
+}

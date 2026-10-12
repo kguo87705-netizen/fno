@@ -1,0 +1,18 @@
+{
+  "status": "planned_not_run",
+  "purpose": "Return to the operator main line and test contrast interpolation before adding geometric complexity",
+  "geometry_source": ".build/operator-pilot-v3-20261008/synthetic_workpiece_000.pt; existing training geometry only",
+  "material_family": "Use gamma<0.99 in training000 as fixed physical support; gamma=a inside and 1 outside, same solver boundary handling",
+  "training_contrasts": [0.3, 0.5, 0.7],
+  "development_interpolation_contrasts": [0.4, 0.6],
+  "data_scope": "Intentionally shared geometry, distinct contrast values. This is controlled within-geometry interpolation, not unseen-geometry or independent-workpiece generalization. No old validation/test data or new final test accessed",
+  "source": "Existing source0 only; keep source and all 24 receiver coordinates, 2000 steps, dt30ns, 500 physical snapshots at stored times",
+  "targets": "FD(gamma)-fixed FD(1); use frozen homogeneous.pt and old train-only field/trace RMS 0.15921596709548344 and 0.25594272720229144",
+  "model": "Existing BasicFNO input8, last2 channels zero, width4, layers4, modes16/8/64, padding0, seed2",
+  "training": "Adam lr0.001, field+receiver supervision with receiver weight1, stable cycle over three materials, 400 exposures each, total1200 updates",
+  "evaluation": "0/400/800/1200 fixed points; final1200 main result, no interpolation-label early stopping. Full field and full2000-step receiver metrics, scatter and complete signal separately, per-material and pooled results",
+  "references": "Zero scatter; frozen training mean; contrast-nearest training material with lower-a tie break; piecewise linear interpolation of adjacent training FD targets using known input contrast. Fit no reference coefficients to development labels",
+  "checks": "Protocol before generation/training; source/material/base hashes; encoder parity; initial state provenance; optimizer and exposure counts; full reload metrics; report fixed-geometry subgroup limitations",
+  "decision": "Training scatter receiver<=10% and field<=30% are project screening goals. Development receiver<=20% and field<=30% and comparisons with all simple references decide whether to proceed to one geometric axis; thresholds are not guarantees or field standards",
+  "follow_up": "If training succeeds but interpolation fails, change only one input/capacity factor in a new matched protocol. If interpolation succeeds, freeze a separate depth-axis protocol. Do not connect the proxy to FWI before material derivative and true-step checks"
+}

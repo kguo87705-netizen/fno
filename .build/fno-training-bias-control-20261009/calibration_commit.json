@@ -1,0 +1,9 @@
+{
+  "sha256": "b093d5c5a5196ad6635dfd259b65a314dafb1de874aaafcb237111b9ab2b75da",
+  "saved_before_development_load": true,
+  "training_files": [
+    "contrast_03.pt",
+    "contrast_05.pt",
+    "contrast_07.pt"
+  ]
+}

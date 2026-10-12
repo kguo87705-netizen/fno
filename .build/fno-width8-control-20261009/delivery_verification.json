@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "final_reload": "exact metrics and bit-identical example",
+  "training": "1200 steps and400 exposures per material",
+  "fixed_data_and_control": "nine frozen SHA checks passed",
+  "scripts_compiled": 2,
+  "notes_and_links": 5,
+  "figure": "actually viewed, vault copy bit identical",
+  "next_derivative_protocol": "planned_not_run",
+  "next_frozen_files": 14,
+  "scope": "fixed geometry, no derivative or real-step result yet"
+}

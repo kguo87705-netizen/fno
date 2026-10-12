@@ -1,0 +1,20 @@
+{
+  ".build\\basic-fno-time-feature-control-20261008\\artifact_verification.json": "880cff720251e5e9816035950807b93cf72c7060e33c48296784e5072d00d243",
+  ".build\\basic-fno-time-feature-control-20261008\\comparison.json": "c3609a5c4e15b834408ff0faba4e85651bcc01c70ebbf81f69b725d9f0e397a8",
+  ".build\\basic-fno-time-feature-control-20261008\\feature_use.json": "f629273f0420d6b65a2479184dade83f1e4afb500a8866745849adcc37024e80",
+  ".build\\basic-fno-time-feature-control-20261008\\final_weight0.pt": "ab99c6507df9f5f24468c964dd5fcfeb6c3363bde5ccf2f72224ba16fdc937fd",
+  ".build\\basic-fno-time-feature-control-20261008\\final_weight1.pt": "00c73c103f7bde07a9884deb00ae819149dbb4aee173bb457ac1985d2760da69",
+  ".build\\basic-fno-time-feature-control-20261008\\history.json": "7a62fffe0c742ee054d2b0d2239fea7991c1c0b0477d72b206d78439f3c0d516",
+  ".build\\basic-fno-time-feature-control-20261008\\latest_weight0.pt": "6b2bae68e0dfc0a0646357035b90a261b433ee198791c29481d8566df085bb2f",
+  ".build\\basic-fno-time-feature-control-20261008\\latest_weight1.pt": "e6b276090e437acd769d766d924f60d9fba087eba91bc95f22b2d8f2dacba984",
+  ".build\\basic-fno-time-feature-control-20261008\\material_response.json": "7fa3632b9e0802025ceedc064ec9b48744efbf0dd0a457e861a77292baafe126",
+  ".build\\basic-fno-time-feature-control-20261008\\next_material_conditioning_protocol.json": "a3ca8e7a0e48ba6f4c879faf4ec13192c743167c68feec8e8ca4850fc89c6e28",
+  ".build\\basic-fno-time-feature-control-20261008\\next_pair_feasibility.json": "c221b3097ed79c6d0e54e4eb4167da57b3338a5a12be8ddac7b7bfe41ed45d47",
+  ".build\\basic-fno-time-feature-control-20261008\\protected_prior_hashes.json": "880349828237d09b6833b7cd8f6c0aa90b4a2d2533e4395704efcebba1090ff5",
+  ".build\\basic-fno-time-feature-control-20261008\\protocol.json": "83e7a330ee4b0a0392cd6523a1d9e8e297ee6475a40674496072265d78778e01",
+  ".build\\basic-fno-time-feature-control-20261008\\scatter_target_spectrum.json": "86f3ea20162f3638b104494ba131090272beef61c6154ca6672e9f08f5f6f1fd",
+  ".build\\basic-fno-time-feature-control-20261008\\summary.json": "b969191a105daa0081acaf336dc65b9ee0f1dccade6403d8e5f7c6cc6362f60b",
+  ".build\\basic-fno-time-feature-control-20261008\\time_feature_comparison.png": "d56bd8e7d5b6af8aa056231685b8a68b7a90469036e424c046fcd6fc4fcfdd30",
+  ".build\\basic-fno-time-feature-control-20261008\\validation_example0.pt": "60bbdd1541e548e2cdf6f68a9e38bbc92ec4fb162560779efb48c3071418696b",
+  ".build\\basic-fno-time-feature-control-20261008\\validation_example1.pt": "36b6e0c5420facc721958f0f8f40a12d37af6ac4e2c9df5e5919bc48e5126d89"
+}

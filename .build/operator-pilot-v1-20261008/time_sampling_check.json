@@ -1,0 +1,78 @@
+{
+  "stride": 4,
+  "reconstruction": "Fixed local cubic Lagrange, known zero initial displacement",
+  "dtype": "float64",
+  "scope": "Four author cases at initial and author update 5; same scalar solver and actual full-time objective. No neural approximation included.",
+  "results": [
+    {
+      "case": 1,
+      "update": 0,
+      "waveform_relative_error": 0.0006241354261908142,
+      "relative_cost_change": 0.00046872998803915156,
+      "gradient_relative_l2": 0.0012996556242860131,
+      "gradient_angle_degrees": 0.04553763713678275
+    },
+    {
+      "case": 1,
+      "update": 5,
+      "waveform_relative_error": 0.0006205172293713329,
+      "relative_cost_change": 0.0004596330241593005,
+      "gradient_relative_l2": 0.0023945187319297694,
+      "gradient_angle_degrees": 0.12023748686393511
+    },
+    {
+      "case": 2,
+      "update": 0,
+      "waveform_relative_error": 0.0006241354261908142,
+      "relative_cost_change": 0.00033404337596798506,
+      "gradient_relative_l2": 0.0010098030210441554,
+      "gradient_angle_degrees": 0.031876682048029695
+    },
+    {
+      "case": 2,
+      "update": 5,
+      "waveform_relative_error": 0.0006244046240589793,
+      "relative_cost_change": 0.00032044238130857217,
+      "gradient_relative_l2": 0.0018815921241767913,
+      "gradient_angle_degrees": 0.09786833885760697
+    },
+    {
+      "case": 3,
+      "update": 0,
+      "waveform_relative_error": 0.0006241354261908142,
+      "relative_cost_change": 0.0003173763515710304,
+      "gradient_relative_l2": 0.0008841697942268867,
+      "gradient_angle_degrees": 0.0266577585046398
+    },
+    {
+      "case": 3,
+      "update": 5,
+      "waveform_relative_error": 0.0006365381134083445,
+      "relative_cost_change": 0.0003156575697338404,
+      "gradient_relative_l2": 0.001687332653754067,
+      "gradient_angle_degrees": 0.06659547605835411
+    },
+    {
+      "case": 4,
+      "update": 0,
+      "waveform_relative_error": 0.0006241354261908142,
+      "relative_cost_change": 0.00034114107681981753,
+      "gradient_relative_l2": 0.0009333681266605691,
+      "gradient_angle_degrees": 0.029744975244339045
+    },
+    {
+      "case": 4,
+      "update": 5,
+      "waveform_relative_error": 0.0006334984901480586,
+      "relative_cost_change": 0.0003773442853337583,
+      "gradient_relative_l2": 0.0018491282229692071,
+      "gradient_angle_degrees": 0.07479770916956446
+    }
+  ],
+  "screening_thresholds": {
+    "waveform": 0.001,
+    "relative_cost_change": 0.01,
+    "gradient_relative_l2": 0.02
+  },
+  "screening_passed": true
+}

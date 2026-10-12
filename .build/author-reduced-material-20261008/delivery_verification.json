@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "forward_points_recomputed": 9,
+  "metric_difference": 0,
+  "scripts_compiled": 2,
+  "notes_links_and_math_delimiters": 4,
+  "figure": "actually viewed; readable; vault copy bit identical",
+  "next_scalar_protocol": "planned_not_run",
+  "scope": "case1 known-geometry development, no optimization or final test"
+}

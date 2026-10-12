@@ -1,0 +1,17 @@
+{
+  "status": "frozen_read_only",
+  "purpose": "separate constant nominal slope from depth-scalar oracle calibration",
+  "inputs_sha256": {
+    ".build\\fno-known-support-cross-depth-material-response-20261011\\raw.pt": "5ed95281bfb510dff37ab09774bcce2702464a2efc6996eebd511f66e40c42ba",
+    ".build\\fno-known-support-cross-depth-material-response-20261011\\summary.json": "64929a32387ccd4febe9923326f4cb248f5f34166b3a8d4f1ebb9de5016d0d44",
+    ".build\\fno-known-support-cross-depth-material-response-20261011\\protocol.json": "a7cfa11f1abd036d28012e15d7f03a842371805d77d166240a31d8258a0ed045",
+    ".build\\route-evidence-audit-20261011\\next_experiment_protocol.json": "38578f0e5faa14fda30a2d66c99e76f150945cc6771f22a4ea5ea47c9d596d42"
+  },
+  "baselines": [
+    "zero_response",
+    "nominal_constant_secant",
+    "depth_scalar_oracle_projection"
+  ],
+  "oracle_warning": "depth scalar is fit independently to each physical target and is diagnostic only; not a predictive test",
+  "scope": "same known 449-pixel support, source0, used development depths -1,+1; no new labels, training or final test"
+}

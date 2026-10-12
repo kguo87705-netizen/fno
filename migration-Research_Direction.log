@@ -1,0 +1,29 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 2026109 13:10:26
+   Source : C:\Users\Administrator\Desktop\大二下\大三课程\文献阅读\Research_Direction\
+     Dest : D:\下载\FNO_Research_Workspace\Research_Direction\
+
+    Files : *.*
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DAT /COPY:DAT /NP /XJ /R:1 /W:1 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        10        10         0         0         0         0
+   Files :       324       324         0         0         0         0
+   Bytes :   28.91 m   28.91 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :           137,200,524 Bytes/sec.
+   Speed :             7,850.677 MegaBytes/min.
+   Ended : 2026109 13:10:26
+

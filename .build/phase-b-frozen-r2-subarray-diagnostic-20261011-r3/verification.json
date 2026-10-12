@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": [
+    "13 input hashes",
+    "6 frozen network forwards",
+    "finite outputs",
+    "selected/full receiver metrics",
+    "no training",
+    "no physical calls"
+  ],
+  "network_forwards": 6,
+  "physical_calls": 0,
+  "training_updates": 0,
+  "scope": "same scalar finite-difference stage-A outputs; not generalization or final test"
+}

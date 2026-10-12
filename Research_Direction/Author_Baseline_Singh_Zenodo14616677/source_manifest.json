@@ -1,0 +1,42 @@
+{
+  "source": "https://zenodo.org/records/14616677",
+  "version": "v3",
+  "download_date": "2026-10-08",
+  "files": {
+    "Readme.txt": {
+      "md5": "a75191017c5e206cd59e327a9b34dcaa",
+      "sha256": "07c0ec8a3acf4bb88b3282feb412d68d793b25d42da592313507f5daea844748",
+      "bytes": 926
+    },
+    "conventionalFWI.py": {
+      "md5": "8e5d0114b99b7332df051941f3c2d49d",
+      "sha256": "0cd3bdd18e6b01e46093da5e5df08e88ea66edde5a5515a5ed40f52c37fef8e7",
+      "bytes": 6997
+    },
+    "FiniteDifferencePyTorchConv.py": {
+      "md5": "6999722258039531a0688efccdb3c34f",
+      "sha256": "ffa51af0896fa2ddc0ef8e705d4f88f3dc9cc61df96b780eef1ad25cac1fde9f",
+      "bytes": 13722
+    },
+    "Utilities.py": {
+      "md5": "658cad4cf836b015cb6088790cc8ef61",
+      "sha256": "20931a36069c795d367d36bcf81df1875b10ba8459718dcd442377a184c101e3",
+      "bytes": 5536
+    },
+    "AdjointMethod.py": {
+      "md5": "6b5f56ff63f0f82452941edfce946489",
+      "sha256": "8de4709c628564f352f9ddeb2f58b17fcf7fa9619fbcacc3b364c68e33323a8a",
+      "bytes": 4407
+    },
+    "settings2D.csv": {
+      "md5": "16f86a701947f734ed1676c70d0e48ec",
+      "sha256": "4fb9e8fdb8fa2fb97502e605f31351601e115463fa1800913473699d9f4ee398",
+      "bytes": 151
+    },
+    "data_casestudy.rar": {
+      "md5": "4466f4f84903a9ef68851e7b23d887e3",
+      "sha256": "ab7ac7f534e208e7960f1cd9206c2ec4f64a4db54a486de2377af8e6d913d617",
+      "bytes": 2886780
+    }
+  }
+}

@@ -1,0 +1,886 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        3,
+        18
+      ]
+    ],
+    "date-time": "2026-03-18T07:46:08Z",
+    "timestamp": 1773819968783,
+    "version": "3.50.1"
+  },
+  "reference-count": 37,
+  "publisher": "Elsevier BV",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2026-03-01T00:00:00Z",
+        "timestamp": 1772323200000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2026-03-01T00:00:00Z",
+        "timestamp": 1772323200000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2026-03-01T00:00:00Z",
+        "timestamp": 1772323200000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-017"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2026-03-01T00:00:00Z",
+        "timestamp": 1772323200000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2026-03-01T00:00:00Z",
+        "timestamp": 1772323200000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-012"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2026-03-01T00:00:00Z",
+        "timestamp": 1772323200000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2026-03-01T00:00:00Z",
+        "timestamp": 1772323200000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-004"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "12327807"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "12327807"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "12374434"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "12374434"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "12422415"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "12422415"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100018625",
+      "name": "Science and Technology Innovation Plan Of Shanghai Science and Technology Commission",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "24TS1412200"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "24TS1412200"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100018625",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100018625",
+      "name": "Science and Technology Innovation Plan Of Shanghai Science and Technology Commission",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "24ZR1490900"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "24ZR1490900"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100018625",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100012166",
+      "name": "National Key Research and Development Program of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "2024YFF0619000"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2024YFF0619000"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100012166",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "elsevier.com",
+      "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "NDT &amp; E International"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2026,
+        3
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.ndteint.2025.103597",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2025,
+        11,
+        20
+      ]
+    ],
+    "date-time": "2025-11-20T03:10:16Z",
+    "timestamp": 1763608216000
+  },
+  "page": "103597",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 0,
+  "special_numbering": "C",
+  "title": [
+    "A steady-state wavefield polarity-aware U-Net for ultrasonic guided waves depth-resolved imaging"
+  ],
+  "prefix": "10.1016",
+  "volume": "158",
+  "author": [
+    {
+      "given": "Xuan",
+      "family": "Li",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-5218-0398",
+      "authenticated-orcid": false,
+      "given": "Lishuai",
+      "family": "Liu",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Jiang",
+      "family": "Lu",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Yuncheng",
+      "family": "Zhang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Dazhi",
+      "family": "Cong",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Yanxun",
+      "family": "Xiang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "issue": "6",
+      "key": "10.1016/j.ndteint.2025.103597_bib1",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1177/14759217231159868",
+      "article-title": "Forward-propagation-free focusing MUSIC algorithm for Lamb waves",
+      "volume": "22",
+      "author": "Lang",
+      "year": "2023",
+      "journal-title": "Struct Health Monit"
+    },
+    {
+      "key": "10.1016/j.ndteint.2025.103597_bib2",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.ndteint.2023.102867",
+      "article-title": "Local wavenumber imaging with low-sampled wavefield for delamination characterization in composite plate",
+      "volume": "137",
+      "author": "Hua",
+      "year": "2023",
+      "journal-title": "NDT&E Int"
+    },
+    {
+      "issue": "8",
+      "key": "10.1016/j.ndteint.2025.103597_bib3",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1088/1361-665X/ab1fc8",
+      "article-title": "An enhanced Lamb wave virtual time reversal technique for damage detection with transducer transfer function compensation",
+      "volume": "28",
+      "author": "Wang",
+      "year": "2019",
+      "journal-title": "Smart Mater Struct"
+    },
+    {
+      "issue": "10",
+      "key": "10.1016/j.ndteint.2025.103597_bib4",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1088/1361-665X/aadd2d",
+      "article-title": "Nonlinear features of guided wave scattering from rivet hole nucleated fatigue cracks considering the rough contact surface condition",
+      "volume": "27",
+      "author": "Shen",
+      "year": "2018",
+      "journal-title": "Smart Mater Struct"
+    },
+    {
+      "issue": "6",
+      "key": "10.1016/j.ndteint.2025.103597_bib5",
+      "doi-asserted-by": "crossref",
+      "first-page": "2162",
+      "DOI": "10.1109/TUFFC.2022.3169221",
+      "article-title": "A robust lamb wave imaging approach to plate-like structural health monitoring of materials with transducer array position errors",
+      "volume": "69",
+      "author": "Liu",
+      "year": "2022",
+      "journal-title": "IEEE T Ultrason Ferr"
+    },
+    {
+      "issue": "8",
+      "key": "10.1016/j.ndteint.2025.103597_bib6",
+      "doi-asserted-by": "crossref",
+      "first-page": "2526",
+      "DOI": "10.1109/TUFFC.2022.3182419",
+      "article-title": "Lamb wave frequency diverse array",
+      "volume": "69",
+      "author": "Lang",
+      "year": "2022",
+      "journal-title": "IEEE T Ultrason Ferr"
+    },
+    {
+      "key": "10.1016/j.ndteint.2025.103597_bib7",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.measurement.2023.112965",
+      "article-title": "Lamb wave tomography for defect localization using wideband dispersion reversal method",
+      "volume": "216",
+      "author": "Ling",
+      "year": "2023",
+      "journal-title": "Measurement"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.ndteint.2025.103597_bib8",
+      "doi-asserted-by": "crossref",
+      "first-page": "872",
+      "DOI": "10.1121/1.2149775",
+      "article-title": "A phase reconstruction algorithm for Lamb wave based structural health monitoring of anisotropic multilayered composite plates",
+      "volume": "119",
+      "author": "Rajagopalan",
+      "year": "2006",
+      "journal-title": "J Acoust Soc Am"
+    },
+    {
+      "issue": "12",
+      "key": "10.1016/j.ndteint.2025.103597_bib9",
+      "doi-asserted-by": "crossref",
+      "first-page": "2666",
+      "DOI": "10.1109/TUFFC.2009.1357",
+      "article-title": "Evaluation of the damage detection capability of a sparse-array guided-wave SHM system applied to a complex structure under varying thermal conditions",
+      "volume": "56",
+      "author": "Clarke",
+      "year": "2009",
+      "journal-title": "IEEE T Ultrason Ferr"
+    },
+    {
+      "issue": "6",
+      "key": "10.1016/j.ndteint.2025.103597_bib10",
+      "doi-asserted-by": "crossref",
+      "first-page": "1805",
+      "DOI": "10.1016/j.ymssp.2008.10.011",
+      "article-title": "Damage localisation in plate-like structures based on PZT sensors",
+      "volume": "23",
+      "author": "Ostachowicz",
+      "year": "2009",
+      "journal-title": "Mech Syst Signal Process"
+    },
+    {
+      "issue": "9",
+      "key": "10.1016/j.ndteint.2025.103597_bib11",
+      "doi-asserted-by": "crossref",
+      "first-page": "1069",
+      "DOI": "10.1177/1045389X08101632",
+      "article-title": "Damage detection for composite laminate plates with a distributed hybrid PZT/FBG sensor network",
+      "volume": "20",
+      "author": "Wu",
+      "year": "2009",
+      "journal-title": "J Intel Mat Syst Str"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.ndteint.2025.103597_bib12",
+      "doi-asserted-by": "crossref",
+      "first-page": "123",
+      "DOI": "10.1016/j.ndteint.2009.10.001",
+      "article-title": "Defect detection using ultrasonic arrays: the multi-mode total focusing method",
+      "volume": "43",
+      "author": "Zhang",
+      "year": "2010",
+      "journal-title": "NDT&E Int"
+    },
+    {
+      "issue": "15",
+      "key": "10.1016/j.ndteint.2025.103597_bib13",
+      "article-title": "Lamb wave phased array imaging based on phase-amplitude compounding algorithm",
+      "volume": "205",
+      "author": "Li",
+      "year": "2023",
+      "journal-title": "Mech Syst Signal Process"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.ndteint.2025.103597_bib14",
+      "doi-asserted-by": "crossref",
+      "first-page": "138",
+      "DOI": "10.1016/j.compstruct.2017.01.015",
+      "article-title": "Damage localization and identification in WGF/epoxy composite laminates by using Lamb waves: experiment and simulation",
+      "volume": "165",
+      "author": "Yang",
+      "year": "2017",
+      "journal-title": "Compos Struct"
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.ndteint.2025.103597_bib15",
+      "first-page": "1208",
+      "article-title": "Active health monitoring of an aircraft wing with embedded piezoelectric sensor/actuator network: I. Defect detection, localization and growth monitoring",
+      "volume": "16",
+      "author": "Zhao",
+      "year": "2007",
+      "journal-title": "Struct Health Monit"
+    },
+    {
+      "key": "10.1016/j.ndteint.2025.103597_bib16",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.ultras.2023.107175",
+      "article-title": "Characterizing polycrystalline microstructures by reconstructing grain boundaries and velocity map from ultrasonic surface wave field",
+      "volume": "137",
+      "author": "Sun",
+      "year": "2024",
+      "journal-title": "Ultrasonics"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.ndteint.2025.103597_bib17",
+      "article-title": "A deep learning-based spatial gradient reconstruction method for efficient damage identification in composite with high-sparsity Lamb wavefield",
+      "volume": "224",
+      "author": "Ji",
+      "year": "2025",
+      "journal-title": "Mech Syst Signal Process"
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.ndteint.2025.103597_bib18",
+      "first-page": "1",
+      "article-title": "Statistical partial wavefield imaging using Lamb wave signals",
+      "volume": "17",
+      "author": "Harley",
+      "year": "2017",
+      "journal-title": "Struct Health Monit"
+    },
+    {
+      "key": "10.1016/j.ndteint.2025.103597_bib19",
+      "series-title": "Ultrasonic guided waves in solid media",
+      "author": "Rose",
+      "year": "2014"
+    },
+    {
+      "issue": "6",
+      "key": "10.1016/j.ndteint.2025.103597_bib20",
+      "doi-asserted-by": "crossref",
+      "first-page": "3183",
+      "DOI": "10.3390/s23063183",
+      "article-title": "A review of Laser ultrasonic Lamb wave damage detection methods for thin-walled structures",
+      "volume": "23",
+      "author": "Zheng",
+      "year": "2023",
+      "journal-title": "Sensors (Basel)"
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.ndteint.2025.103597_bib21",
+      "doi-asserted-by": "crossref",
+      "first-page": "193",
+      "DOI": "10.1177/1475921714560073",
+      "article-title": "Instantaneous and local wavenumber estimations for damage quantification in composites",
+      "volume": "14",
+      "author": "Mesnil",
+      "year": "2015",
+      "journal-title": "Struct Health Monit"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.ndteint.2025.103597_bib22",
+      "doi-asserted-by": "crossref",
+      "first-page": "223",
+      "DOI": "10.1177/1475921716636375",
+      "article-title": "Fast wavenumber measurement for accurate and automatic location and quantification of defect in composite",
+      "volume": "15",
+      "author": "Mesnil",
+      "year": "2016",
+      "journal-title": "Struct Health Monit"
+    },
+    {
+      "key": "10.1016/j.ndteint.2025.103597_bib23",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.ultras.2024.107561",
+      "article-title": "Quantitative evaluation of corrosion-thinning defect by an instantaneous wavenumber multi-shot fusion method based on laser ultrasonic guided wavefield detection",
+      "volume": "148",
+      "author": "Liu",
+      "year": "2025",
+      "journal-title": "Ultrasonics"
+    },
+    {
+      "issue": "5",
+      "key": "10.1016/j.ndteint.2025.103597_bib24",
+      "doi-asserted-by": "crossref",
+      "first-page": "2208",
+      "DOI": "10.1080/10589759.2024.2409392",
+      "article-title": "Multi-frequency instantaneous wavenumber damage imaging method based on ultrasonic guided waves induced by laser point-by-point excitation",
+      "volume": "40",
+      "author": "Liu",
+      "year": "2024",
+      "journal-title": "Nondestruct Test Eva"
+    },
+    {
+      "issue": "7",
+      "key": "10.1016/j.ndteint.2025.103597_bib25",
+      "doi-asserted-by": "crossref",
+      "first-page": "1217",
+      "DOI": "10.1016/j.ultras.2012.12.015",
+      "article-title": "Characterization of impact damage in composite laminates using guided wavefield imaging and local wavenumber domain analysis",
+      "volume": "53",
+      "author": "Rogge",
+      "year": "2013",
+      "journal-title": "Ultrasonics"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.ndteint.2025.103597_bib26",
+      "article-title": "Local wavenumber imaging in anisotropic structures",
+      "volume": "224",
+      "author": "Spytek",
+      "year": "2025",
+      "journal-title": "Mech Syst Signal Process"
+    },
+    {
+      "key": "10.1016/j.ndteint.2025.103597_bib27",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/j.ndteint.2013.04.003",
+      "article-title": "Structural imaging through local wavenumber estimation of guided waves",
+      "volume": "59",
+      "author": "Flynn",
+      "year": "2013",
+      "journal-title": "NDT&E Int"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.ndteint.2025.103597_bib28",
+      "doi-asserted-by": "crossref",
+      "first-page": "489",
+      "DOI": "10.1109/TIT.2005.862083",
+      "article-title": "Robust uncertainty principles: exact signal reconstruction from highly incomplete frequency information",
+      "volume": "52",
+      "author": "Candes",
+      "year": "2006",
+      "journal-title": "IEEE T Inform Theory"
+    },
+    {
+      "issue": "5",
+      "key": "10.1016/j.ndteint.2025.103597_bib29",
+      "article-title": "Sparse multi-time wavenumber analysis method based on incomplete guided wavefield data",
+      "volume": "241",
+      "author": "Liu",
+      "year": "2025",
+      "journal-title": "Appl Acoust"
+    },
+    {
+      "key": "10.1016/j.ndteint.2025.103597_bib30",
+      "doi-asserted-by": "crossref",
+      "first-page": "94",
+      "DOI": "10.1016/j.ultras.2015.12.014",
+      "article-title": "Sparse wavefield reconstruction and source detection using Compressed Sensing",
+      "volume": "67",
+      "author": "Mesnil",
+      "year": "2016",
+      "journal-title": "Ultrasonics"
+    },
+    {
+      "key": "10.1016/j.ndteint.2025.103597_bib31",
+      "doi-asserted-by": "crossref",
+      "first-page": "35",
+      "DOI": "10.1016/j.dsp.2015.04.001",
+      "article-title": "Best basis compressive sensing of guided waves in structural health monitoring",
+      "volume": "42",
+      "author": "Perelli",
+      "year": "2015",
+      "journal-title": "Digit Signal Process: Rev J"
+    },
+    {
+      "key": "10.1016/j.ndteint.2025.103597_bib32",
+      "doi-asserted-by": "crossref",
+      "first-page": "48",
+      "DOI": "10.1016/j.ultras.2018.02.011",
+      "article-title": "Sparse representation for lamb-wave-based damage detection using a dictionary algorithm",
+      "volume": "87",
+      "author": "Wang",
+      "year": "2018",
+      "journal-title": "Ultrasonics"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.ndteint.2025.103597_bib33",
+      "article-title": "Deep learning super-resolution for the reconstruction of full wavefield of Lamb waves",
+      "volume": "186",
+      "author": "Ijjeh",
+      "year": "2023",
+      "journal-title": "Mech Syst Signal Process"
+    },
+    {
+      "key": "10.1016/j.ndteint.2025.103597_bib34",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1109/TIM.2023.3316259",
+      "article-title": "The high-sparsity Lamb Wavefield Reconstruction framework based on masked autoencoder",
+      "volume": "72",
+      "author": "Ji",
+      "year": "2023",
+      "journal-title": "IEEE T Instrum Meas"
+    },
+    {
+      "key": "10.1016/j.ndteint.2025.103597_bib35",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1088/1361-665X/ada09a",
+      "article-title": "Deep knowledge transfer powered ultrasonic guided wave damage monitoring under incomplete database scenarios: theories, applications and challenges",
+      "volume": "34",
+      "author": "Hong",
+      "year": "2025",
+      "journal-title": "Smart Mater Struct"
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.ndteint.2025.103597_bib36",
+      "doi-asserted-by": "crossref",
+      "first-page": "2044",
+      "DOI": "10.1121/10.0021171",
+      "article-title": "A multiscale residual U-net architecture for super-resolution ultrasonic phased array imaging from full matrix capture data",
+      "volume": "154",
+      "author": "Liu",
+      "year": "2023",
+      "journal-title": "J Acoust Soc Am"
+    },
+    {
+      "key": "10.1016/j.ndteint.2025.103597_bib37",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.ymssp.2020.107537",
+      "article-title": "Full wavefield processing by using FCN for delamination detection",
+      "volume": "153",
+      "author": "Ijjeh",
+      "year": "2021",
+      "journal-title": "Mech Syst Signal Process"
+    }
+  ],
+  "container-title": [
+    "NDT &amp; E International"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0963869525002786?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0963869525002786?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        3,
+        18
+      ]
+    ],
+    "date-time": "2026-03-18T06:43:21Z",
+    "timestamp": 1773816201000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0963869525002786"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2026,
+        3
+      ]
+    ]
+  },
+  "references-count": 37,
+  "alternative-id": [
+    "S0963869525002786"
+  ],
+  "URL": "https://doi.org/10.1016/j.ndteint.2025.103597",
+  "relation": {},
+  "ISSN": [
+    "0963-8695"
+  ],
+  "issn-type": [
+    {
+      "value": "0963-8695",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2026,
+        3
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "Elsevier",
+      "name": "publisher",
+      "label": "This article is maintained by"
+    },
+    {
+      "value": "A steady-state wavefield polarity-aware U-Net for ultrasonic guided waves depth-resolved imaging",
+      "name": "articletitle",
+      "label": "Article Title"
+    },
+    {
+      "value": "NDT & E International",
+      "name": "journaltitle",
+      "label": "Journal Title"
+    },
+    {
+      "value": "https://doi.org/10.1016/j.ndteint.2025.103597",
+      "name": "articlelink",
+      "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+      "value": "article",
+      "name": "content_type",
+      "label": "Content Type"
+    },
+    {
+      "value": "© 2025 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+      "name": "copyright",
+      "label": "Copyright"
+    }
+  ],
+  "article-number": "103597"
+}

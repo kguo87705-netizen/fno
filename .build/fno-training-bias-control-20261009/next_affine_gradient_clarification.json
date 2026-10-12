@@ -1,0 +1,6 @@
+{
+  "status": "fixed_before_followup",
+  "reason": "Cached scalar AD for an old target is insufficient to reconstruct arbitrary corrected-objective AD",
+  "rule": "Use cached central differences only; report no exact AD gradient unless a separately budgeted reverse run is executed",
+  "response_checks": "Keep both epsilons, original20percent/cos0.9 and numerical1percent checks"
+}

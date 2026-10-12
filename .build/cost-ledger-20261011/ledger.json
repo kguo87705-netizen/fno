@@ -1,0 +1,92 @@
+{
+  "status": "completed",
+  "scope": "accounting from saved records only; no invented missing costs",
+  "items": [
+    {
+      "name": "fno_width8",
+      "path": ".build/fno-width8-control-20261009/comparison.json",
+      "status": "completed",
+      "elapsed_seconds": 532.9938059000124,
+      "physical_calls": null,
+      "network_forwards": null,
+      "updates": null
+    },
+    {
+      "name": "lowfreq_r2",
+      "path": ".build/fno-lowfreq-field-control-r2-20261011/summary.json",
+      "status": "completed",
+      "elapsed_seconds": null,
+      "physical_calls": null,
+      "network_forwards": null,
+      "updates": null
+    },
+    {
+      "name": "matched_replay",
+      "path": ".build/fno-matched-material-replay-20261009/summary.json",
+      "status": "completed",
+      "elapsed_seconds": null,
+      "physical_calls": null,
+      "network_forwards": null,
+      "updates": null
+    },
+    {
+      "name": "center_response",
+      "path": ".build/center-depth-response-control-20261011/summary.json",
+      "status": "completed",
+      "elapsed_seconds": null,
+      "physical_calls": 19,
+      "network_forwards": 2,
+      "updates": null
+    },
+    {
+      "name": "cross_depth_response",
+      "path": ".build/fno-known-support-cross-depth-material-response-20261011/summary.json",
+      "status": "completed",
+      "elapsed_seconds": 18.52645009999833,
+      "physical_calls": null,
+      "network_forwards": null,
+      "updates": null
+    },
+    {
+      "name": "hybrid_small",
+      "path": ".build/hybrid-accepted-step-control-r2-20261011/summary.json",
+      "status": "completed",
+      "elapsed_seconds": 122.62303470000188,
+      "physical_calls": 100,
+      "network_forwards": null,
+      "updates": null
+    },
+    {
+      "name": "hybrid_large",
+      "path": ".build/hybrid-accepted-large-step-20261011/summary.json",
+      "status": "completed",
+      "elapsed_seconds": 98.74703299999237,
+      "physical_calls": 100,
+      "network_forwards": null,
+      "updates": null
+    },
+    {
+      "name": "hybrid_mid",
+      "path": ".build/hybrid-accepted-mid-step-20261011/summary.json",
+      "status": "completed",
+      "elapsed_seconds": 107.9881466000079,
+      "physical_calls": 100,
+      "network_forwards": null,
+      "updates": null
+    }
+  ],
+  "known_totals": {
+    "response_experiments_physical_calls": 8,
+    "center_response_physical_calls": 19,
+    "accepted_small_actual_physical_calls": 100,
+    "accepted_large_actual_physical_calls": 100,
+    "accepted_mid_actual_physical_calls": 100
+  },
+  "unknowns": [
+    "training data generation time for original and R2 models",
+    "model loading and network forward wall time in accepted routes",
+    "historical nominal secant generation cost and storage cost",
+    "full C/(T_FWI-T_hybrid) break-even because no matched full inversion baseline"
+  ],
+  "decision_rule": "Only claim amortized benefit after same-quality baseline and all offline/online costs are measured under one fixed protocol; current ledger is insufficient for an acceleration claim."
+}

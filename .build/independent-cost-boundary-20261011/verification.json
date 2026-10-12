@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "checks": "20 proxy records and 6 fresh top-k physical rechecks",
+  "no_full_grid": true,
+  "no_final_test": true
+}

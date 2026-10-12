@@ -1,0 +1,56 @@
+{
+  "status": "frozen_before_generation",
+  "plan": {
+    "status": "planned_not_run",
+    "experiment": "known_support_cross_depth_local_material_response",
+    "purpose": "Does nominal anchor replay transfer small material perturbation response to the already-used development depths -1 and+1?",
+    "fixed": "Known449-pixel support at each depth;source0,same physical solver and scalar density scaling;central a=.5. Freeze original width8 and original-joint-loss R2 final500,not lowfreq winner selection.",
+    "models": [
+      "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\.build\\fno-width8-control-20261009\\final.pt",
+      "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\.build\\fno-lowfreq-field-control-r2-20261011\\loss_original_update400.pt"
+    ],
+    "geometry_rows": [
+      -1,
+      1
+    ],
+    "material_center": 0.5,
+    "epsilons": [
+      0.002,
+      0.001
+    ],
+    "baseline": "Physical nominal-geometry secant (F(.7,0)-F(.3,0))/.4,constant across depth;uses existing nominal training anchors only. Also retain no-change response as zero baseline.",
+    "budget": {
+      "new_physical_calls": 8,
+      "network_forwards": 16,
+      "training_updates": 0,
+      "wall_seconds": 120
+    },
+    "metrics": "Central directional finite differences in receivers(primary) and field(secondary);both epsilons;relativeL2,amplitude ratio,cosine;complete vs scatter point prediction separately.",
+    "gates": "Physical finite-difference stabilization between epsilons <=2% relative,else inconclusive. Existing derivative screen relativeL2<=20%,cosine>=.9 on both depths and both epsilons;network FD stabilization<=2%. Simple baseline remains explicit.",
+    "interpretation": "No exact local Jacobian or networkAD claim;this is converged central finite-difference evidence along one known-support direction. Not unseen geometry or independent test;only perturbed material labels newly generated.",
+    "outcomes": {
+      "pass": "Preregister fixed-budget known-support single-parameter physical inversion comparison against same simple initializer,then include total offline/online cost. No blind claim.",
+      "fail": "Local material response remains bottleneck;compare simple depth/material separable approximation before derivative supervision or architecture change.",
+      "reference_unstable": "Fix physical finite-difference precision first,do not train to unreliable labels."
+    },
+    "frozen_sha256": {
+      "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\.build\\route-evidence-audit-20261011\\results.json": "8a5c8e1398e4a6f6282ed479e24980caaeafccb79ef7f5bc65ccb3b84d81b625",
+      "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\.build\\route-evidence-audit-20261011\\verification.json": "68763790a592a6cf1a3ffc6724c2e372fead624c1e1dd61c24185500317940db",
+      "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\.build\\fno-lowfreq-field-control-r2-20261011\\loss_original_update400.pt": "8b59728c9ab6c72d08d6f8d12fae34ad8300df26640997dd85953c0908aa9a2b",
+      "D:\\\u4e0b\u8f7d\\FNO_Research_Workspace\\.build\\fno-width8-control-20261009\\final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20"
+    }
+  },
+  "plan_sha256": "38578f0e5faa14fda30a2d66c99e76f150945cc6771f22a4ea5ea47c9d596d42",
+  "script_sha256": "0cb59cfa7105d8347f1a664b442682707a7b5bfdcce72375115ccd57a2e7538c",
+  "inputs_sha256": {
+    ".build\\fno-width8-control-20261009\\final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+    ".build\\fno-lowfreq-field-control-r2-20261011\\loss_original_update400.pt": "8b59728c9ab6c72d08d6f8d12fae34ad8300df26640997dd85953c0908aa9a2b",
+    ".build\\fno-local-contrast-20261009\\contrast_03.pt": "07b6c6bcf1aff23887e7fa1e10f7407c3f30f4e64e33905c2d95cb7ffc8a6906",
+    ".build\\fno-local-contrast-20261009\\contrast_07.pt": "44d76f12fd90866012dec14e6881d113ee591ca8c60abac0fc1d10bce61fe3ba",
+    ".build\\fno-depth-interpolation-control-20261009\\state_-1.pt": "2d260921f1eb35cce1fae04c18afa586433ab17e6e5921448e78c65e217eb655",
+    ".build\\fno-depth-interpolation-control-20261009\\state_1.pt": "107c1774b5135af71c55804f5b9763999c35a894a421fe59922814ab3c3cdda0",
+    ".build\\operator-pilot-v3-20261008\\homogeneous.pt": "9d382c08f6dbd90cedb09c2971aaf66c96d60ca69fecbfea41d29822955d88b6"
+  },
+  "execution": "IEEE float32 physical and neural forwards; float64 metric accumulation; no training",
+  "scope": "No exact local Jacobian or networkAD claim;this is converged central finite-difference evidence along one known-support direction. Not unseen geometry or independent test;only perturbed material labels newly generated."
+}

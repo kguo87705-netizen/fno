@@ -1,0 +1,39 @@
+{
+  "updates": 400,
+  "evaluation_updates": [
+    0,
+    50,
+    100,
+    200,
+    400
+  ],
+  "seed": 2,
+  "learning_rate": 0.001,
+  "receiver_loss_weight": 1.0,
+  "loss": "mean(field error / train wavefield RMS)^2 + mean(sparse receiver error / train trace RMS)^2",
+  "receiver_training_frames": 500,
+  "full_trace_evaluation_steps": 2000,
+  "receiver_target": "same saved sparse wavefield at 24 physical receiver indices",
+  "selection": "final fixed update, no selection",
+  "sample_group": "synthetic_workpiece_000",
+  "shot": 0,
+  "data_access": [
+    "train"
+  ],
+  "test_unloaded": true,
+  "control_directory": ".build\\basic-fno-single-sample-20261008",
+  "data_manifest_sha256": "9972c2aec68c347ba73e1677c182b25542ebc74bb3a5cdcee9b7243548991e42",
+  "config": {
+    "width": 4,
+    "modes": [
+      16,
+      8,
+      64
+    ],
+    "layers": 4,
+    "input_channels": 6,
+    "output_channels": 1,
+    "padding": 0
+  },
+  "caution": "One fitted training shot only; not operator generalization, gradient accuracy or inverse reconstruction."
+}

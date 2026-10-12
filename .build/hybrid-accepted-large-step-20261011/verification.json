@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "checked": "all saved trace residuals, LS steps, accepts and final states recomputed; input hashes unchanged; not independent physical replay",
+  "routes": 16,
+  "physical_calls": 100,
+  "raw_sha256": "5e4217fc8f600772eb87f5d1e0cd35646de8dc4498e4f06896ffd6677e1b1166"
+}

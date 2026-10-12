@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": [
+    "15 logical tasks",
+    "40 physical source solves",
+    "source indices",
+    "shape and finite outputs",
+    "0 network",
+    "0 training"
+  ],
+  "physical_calls": 40,
+  "scope": "true transmit source selection, scalar finite-difference, no neural proxy"
+}

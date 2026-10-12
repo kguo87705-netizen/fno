@@ -1,0 +1,44 @@
+{
+  "cases": [
+    [
+      -1,
+      0.48
+    ],
+    [
+      -1,
+      0.52
+    ],
+    [
+      1,
+      0.48
+    ],
+    [
+      1,
+      0.52
+    ]
+  ],
+  "initial_a": 0.5,
+  "iterations": 3,
+  "methods": [
+    "fno_frozen",
+    "nominal_secant",
+    "physical_frozen",
+    "physical_recomputed"
+  ],
+  "eps": 0.001,
+  "clip": 0.02,
+  "accept": "strict decrease of physical full receiver relative L2; otherwise retain current state; no retries",
+  "stopping": "exactly three proposals; truth used only for posthoc parameter error",
+  "max_physical_calls": 84,
+  "wall_cap_seconds": 240,
+  "scope": "known support, single scalar, source0, reused development depths; no independent final test",
+  "cost_policy": "each route computes own initial physical trace; observation generation separate; frozen physical direction costs 2 solves per route; FNO cached direction would need 2 neural forwards per depth; nominal secant costs 2 historical nominal physical solves shared, no training. Historical training excluded and unknown total prevents total-cost claim",
+  "hashes": {
+    ".build\\fno-known-support-cross-depth-material-response-20261011\\raw.pt": "5ed95281bfb510dff37ab09774bcce2702464a2efc6996eebd511f66e40c42ba",
+    ".build\\fno-depth-interpolation-control-20261009\\state_-1.pt": "2d260921f1eb35cce1fae04c18afa586433ab17e6e5921448e78c65e217eb655",
+    ".build\\fno-depth-interpolation-control-20261009\\state_1.pt": "107c1774b5135af71c55804f5b9763999c35a894a421fe59922814ab3c3cdda0",
+    ".build\\fno-local-contrast-20261009\\contrast_03.pt": "07b6c6bcf1aff23887e7fa1e10f7407c3f30f4e64e33905c2d95cb7ffc8a6906",
+    ".build\\fno-local-contrast-20261009\\contrast_07.pt": "44d76f12fd90866012dec14e6881d113ee591ca8c60abac0fc1d10bce61fe3ba",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_hybrid_accepted_control_20261011.py": "5a66d09e1909ca6c78128321e134fb0932ca5e12b08b27423613b419284cbf55"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "hash": "48d282ff40213262abb800c329c5fe482bbb267fd5154eceb7b924cfac72f234",
+  "config": {
+    "width": 4,
+    "modes": [
+      16,
+      8,
+      64
+    ],
+    "layers": 4,
+    "input_channels": 8,
+    "output_channels": 1,
+    "padding": 0
+  },
+  "old_initial_parity": true
+}

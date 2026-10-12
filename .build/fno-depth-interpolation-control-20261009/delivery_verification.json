@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "numeric_tables": "generated from verified machine summary",
+  "wikilinks": "all5 edited notes resolved",
+  "image": "copy SHA identical",
+  "next_plan": "planned not run, hashes checked",
+  "native_Obsidian_rendering": "not performed",
+  "files_sha256": {
+    "PINO超声成像知识库\\05实践与复习\\深度插值基线与冻结FNO比较 2026-10-09.md": "13e5533b31385caaab1867e7070dd1fa7c42c5108b874c49a407a36351c3059c",
+    "PINO超声成像知识库\\00导航\\FNO与超声全波形反演科研计划 2026-10-07.md": "beed46415ef0a3f244b32aaf7bb45d64187b7ea6f10350f741bab4a66d53c923",
+    "PINO超声成像知识库\\00导航\\相控阵FWI与神经算子后续执行路线 2026-10-08.md": "80aa6889aae47a4e1a3f30af973fe10c13d9e6474732864370789f2cd32da154",
+    "PINO超声成像知识库\\04专题\\相控阵FWI与神经算子阶段总结及知识梳理 2026-10-08.md": "b13aa1ca6534a42d629963c751d5204f3b5e7c98301ab68163a2df7ffd410473",
+    "PINO超声成像知识库\\05实践与复习\\冻结FNO深度平移审查与几何响应 2026-10-09.md": "35026b412999d8c92b9deed0f0d142dfab14c0d5b772649502477793e20ed470"
+  }
+}

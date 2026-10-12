@@ -1,0 +1,32 @@
+{
+  "epochs": 20,
+  "updates_per_arm": 960,
+  "seed": 2,
+  "sample_order_seed": 2,
+  "learning_rate": 0.001,
+  "batch_size": 1,
+  "receiver_loss_weights": [
+    0.0,
+    1.0
+  ],
+  "primary_comparison": "fixed final epoch 20; no validation checkpoint selection",
+  "train_groups": 12,
+  "validation_groups": 6,
+  "dataset_access": [
+    "train",
+    "validation"
+  ],
+  "test_not_loaded": true,
+  "normalization": {
+    "fit_split": "train",
+    "trace_mean": 0,
+    "wavefield_mean": 0,
+    "trace_rms": 0.25594272720229144,
+    "wavefield_rms": 0.15921596709548344
+  },
+  "receiver_training_frames": 500,
+  "trace_evaluation_steps": 2000,
+  "data_manifest_sha256": "9972c2aec68c347ba73e1677c182b25542ebc74bb3a5cdcee9b7243548991e42",
+  "script_sha256": "81a81d3536dbc1175eaee2795581247d54a200dcf08367f5cdab84df305a5464",
+  "scope": "Synthetic scalar material model, fixed source and array, one seed. No gradients or FWI evaluation."
+}

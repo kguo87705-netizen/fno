@@ -1,0 +1,50 @@
+{
+  "status": "planned_not_run",
+  "question": "Does a numerically stable frozen proxy recover contrast as well as train-only interpolation on the same known geometry?",
+  "output_directory": ".build/fno-scalar-grid-recovery-20261009",
+  "training": "None",
+  "methods": [
+    "frozen width8 IEEE float32",
+    "train-only piecewise linear IEEE float32",
+    "original-stencil promoted float64 FD"
+  ],
+  "targets": [
+    0.4,
+    0.6
+  ],
+  "target_source": "Existing contrast_04/06 full traces, already-used development data, not independent final test",
+  "fixed": "Known training000 support, source0, scales, observations, full2000 times and correct time cost; no initial condition/optimizer differences",
+  "unique_method_factor": "Forward prediction provider; same predeclared candidate grid and objective for all",
+  "grid": "41 float32 candidates from0.30 to0.70 inclusive at0.01 intervals, computed as float32(0.30+i*0.01), i=0..40",
+  "selection": "Evaluate every candidate; select minimum observed-data time cost, tie by lower a. Never use true material error to choose candidate, stop, or thresholds. Reuse each prediction for both targets.",
+  "references": "FD objective grid and training-only linear; constant predictor as uninformative objective reference, not a recovered-material success",
+  "metrics": [
+    "all 41 objective values per target/method",
+    "selected a and absolute contrast error, scoring only after selection",
+    "physical material half-MSE on full physical grid",
+    "true FD objective at selected candidate divided by initial a=.5 FD objective",
+    "full and scatter receiver error at selected candidate",
+    "gap to FD-grid selected a",
+    "counts and wall times; include prior data generation/training as separate offline costs, unknown costs explicitly unknown"
+  ],
+  "interpretation": "Grid-resolution-limited known-support scalar recovery, not iterative blind FWI. Do not claim identical-quality total-cost advantage from this diagnostic.",
+  "decision": {
+    "FNO_matches_linear_and_FD": "Next preregister one new geometry axis with matched simple reference; no necessity or speedup claim yet",
+    "FNO_biased_linear_good": "Diagnose near-target forward residual bias before derivative training; tangent passed only at two states",
+    "linear_and_FNO_biased": "Inspect approximation bias and grid resolution using frozen objectives before any model change",
+    "FD_reference_inconsistent": "Stop interpreting surrogate recovery and audit target/reference consistency"
+  },
+  "budget": "41 predictions per method,123 total, no training or download, estimated1-3min,10min cap, OOM stop. Save protocol before run, reject existing output directory.",
+  "frozen_sha256": {
+    ".build\\fno-contrast-precision-control-20261009\\summary.json": "86712736a08b06ef9e47c5a3d9246a9d635232b83ca1b82a3a9fe2a86eea5889",
+    ".build\\fno-contrast-precision-control-20261009\\raw.pt": "de90bad92a1a44dc91b0e35b2caa4437056eadff3bdd35d2a02238409417c1b4",
+    ".build\\fno-width8-control-20261009\\final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+    ".build\\fno-local-contrast-20261009\\contrast_03.pt": "07b6c6bcf1aff23887e7fa1e10f7407c3f30f4e64e33905c2d95cb7ffc8a6906",
+    ".build\\fno-local-contrast-20261009\\contrast_04.pt": "5e86d1634ce196cdc51dace9cb76d3725a39b9702235b6e8182d1a4415c5e863",
+    ".build\\fno-local-contrast-20261009\\contrast_05.pt": "baf16dcfb73599e8172e31919e052811e21ba09e543bb7a191ced73aee4c9c30",
+    ".build\\fno-local-contrast-20261009\\contrast_06.pt": "a60417869bdfd89ef640c0b425718a9cb25f832dba699700208a77df50cb16d1",
+    ".build\\fno-local-contrast-20261009\\contrast_07.pt": "44d76f12fd90866012dec14e6881d113ee591ca8c60abac0fc1d10bce61fe3ba"
+  },
+  "numerical_policy": "Disable TF32 for both cuda.matmul and cudnn, highest float32 precision, no AMP; check current0.4/0.6 centers against frozen IEEE predictions before interpretation",
+  "screens": "Do not alter existing derivative20%/cos0.9 screens or numerical1% QA. Report material differences at fixed grid resolution, no posthoc success threshold."
+}

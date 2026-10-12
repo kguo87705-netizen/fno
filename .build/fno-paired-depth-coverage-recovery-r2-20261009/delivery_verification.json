@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "notes": "All5 wikilinks/structure checked",
+  "tables": "Generated from verified summary",
+  "next_protocol": "Not run, hashes match",
+  "image": "Copied SHA matches; inspect plot separately",
+  "native_Obsidian_rendering": "not performed",
+  "files_sha256": {
+    "PINO超声成像知识库\\05实践与复习\\配对深度覆盖终态审查 2026-10-09.md": "dd32b2a3b4c6e821b93643d3fe569cb7455b4a6af64fde68eee910e57f455afc",
+    "PINO超声成像知识库\\00导航\\FNO与超声全波形反演科研计划 2026-10-07.md": "900387a8452f274b72396c5e5bf210b55fc7726bc22d0dea15bc6c18512986c2",
+    "PINO超声成像知识库\\00导航\\相控阵FWI与神经算子后续执行路线 2026-10-08.md": "ec477e12d3e1b7520939c7603e93b90f31b42a00a35048d150b249753883dae9",
+    "PINO超声成像知识库\\04专题\\相控阵FWI与神经算子阶段总结及知识梳理 2026-10-08.md": "fee9f238765ec9b063f987a0c1752fcd25012002d6fa8dead1e985a985adbc91",
+    "PINO超声成像知识库\\05实践与复习\\配对深度覆盖实验存档故障与恢复协议 2026-10-09.md": "48b0b682f4595a0aea433e5614096fb5a517e741ea94455c32577a037d244b87"
+  }
+}

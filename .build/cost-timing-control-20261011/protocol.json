@@ -1,0 +1,11 @@
+{
+  "status": "frozen",
+  "repeats": 5,
+  "pair_repeats": 3,
+  "warmup": 1,
+  "inputs": {
+    ".build\\fno-frozen-depth-shift-audit-20261009-r2\\state_0.pt": "4a35b835ea601b37617a9ed4aa4082fb142d04247ccaf8845776ad71a86b569b",
+    ".build\\fno-local-contrast-20261009\\data_manifest.json": "281ac315c43066fae6d75457c42f3800d087192bf15022b86307d999acb4da69",
+    ".build\\fno-lowfreq-field-control-r2-20261011\\loss_original_update400.pt": "8b59728c9ab6c72d08d6f8d12fae34ad8300df26640997dd85953c0908aa9a2b"
+  }
+}

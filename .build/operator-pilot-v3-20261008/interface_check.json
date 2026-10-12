@@ -1,0 +1,293 @@
+{
+  "status": "pilot_interface_checks_passed",
+  "groups": 24,
+  "shot_samples_by_split": {
+    "train": 48,
+    "validation": 24,
+    "test": 24
+  },
+  "input_shape": [
+    6,
+    256,
+    128,
+    500
+  ],
+  "output_shape": [
+    1,
+    256,
+    128,
+    500
+  ],
+  "records": [
+    {
+      "group_id": "synthetic_workpiece_000",
+      "split": "train",
+      "linear_error": 0.014137710572623053,
+      "cubic_error": 0.0006244500400498509,
+      "cubic_stride_errors": {
+        "2": 3.9709004340693355e-05,
+        "4": 0.0006244500400498509,
+        "8": 0.009373631328344345
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_001",
+      "split": "train",
+      "linear_error": 0.014123401346135838,
+      "cubic_error": 0.0006233029998838902,
+      "cubic_stride_errors": {
+        "2": 3.963917333749123e-05,
+        "4": 0.0006233029998838902,
+        "8": 0.009362719021737576
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_002",
+      "split": "train",
+      "linear_error": 0.014135844338872912,
+      "cubic_error": 0.0006243635434657335,
+      "cubic_stride_errors": {
+        "2": 3.97089243051596e-05,
+        "4": 0.0006243635434657335,
+        "8": 0.009374122135341167
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_003",
+      "split": "train",
+      "linear_error": 0.014115489483412453,
+      "cubic_error": 0.0006236399058252573,
+      "cubic_stride_errors": {
+        "2": 3.966628355556168e-05,
+        "4": 0.0006236399058252573,
+        "8": 0.009365130215883255
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_004",
+      "split": "validation",
+      "linear_error": 0.014122648601305831,
+      "cubic_error": 0.0006227908306755126,
+      "cubic_stride_errors": {
+        "2": 3.9613762055523694e-05,
+        "4": 0.0006227908306755126,
+        "8": 0.009356261231005192
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_005",
+      "split": "validation",
+      "linear_error": 0.014112179573665583,
+      "cubic_error": 0.0006208751583471894,
+      "cubic_stride_errors": {
+        "2": 3.948983794543892e-05,
+        "4": 0.0006208751583471894,
+        "8": 0.009329037740826607
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_006",
+      "split": "test",
+      "linear_error": 0.014100857986204458,
+      "cubic_error": 0.0006207450642250478,
+      "cubic_stride_errors": {
+        "2": 3.9477523387176916e-05,
+        "4": 0.0006207450642250478,
+        "8": 0.00932068657130003
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_007",
+      "split": "test",
+      "linear_error": 0.014127824739970285,
+      "cubic_error": 0.0006234681350179017,
+      "cubic_stride_errors": {
+        "2": 3.966069925809279e-05,
+        "4": 0.0006234681350179017,
+        "8": 0.009365243837237358
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_008",
+      "split": "train",
+      "linear_error": 0.01408638736320038,
+      "cubic_error": 0.0006205389508977532,
+      "cubic_stride_errors": {
+        "2": 3.946768993046135e-05,
+        "4": 0.0006205389508977532,
+        "8": 0.009320445358753204
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_009",
+      "split": "train",
+      "linear_error": 0.013983908120407477,
+      "cubic_error": 0.0006145288934931159,
+      "cubic_stride_errors": {
+        "2": 3.9086629840312526e-05,
+        "4": 0.0006145288934931159,
+        "8": 0.009238410741090775
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_010",
+      "split": "train",
+      "linear_error": 0.014130808715694597,
+      "cubic_error": 0.0006237654015421867,
+      "cubic_stride_errors": {
+        "2": 3.966682925238274e-05,
+        "4": 0.0006237654015421867,
+        "8": 0.009368869476020336
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_011",
+      "split": "train",
+      "linear_error": 0.014166293797514547,
+      "cubic_error": 0.0006250134319998324,
+      "cubic_stride_errors": {
+        "2": 3.974433275288902e-05,
+        "4": 0.0006250134319998324,
+        "8": 0.009386079385876656
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_012",
+      "split": "validation",
+      "linear_error": 0.014142971512591977,
+      "cubic_error": 0.0006238489877432585,
+      "cubic_stride_errors": {
+        "2": 3.968229430029169e-05,
+        "4": 0.0006238489877432585,
+        "8": 0.009367180988192558
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_013",
+      "split": "validation",
+      "linear_error": 0.014093297222529642,
+      "cubic_error": 0.0006221607327461243,
+      "cubic_stride_errors": {
+        "2": 3.956408909289166e-05,
+        "4": 0.0006221607327461243,
+        "8": 0.009338969364762306
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_014",
+      "split": "test",
+      "linear_error": 0.01415823953945869,
+      "cubic_error": 0.0006243546376936138,
+      "cubic_stride_errors": {
+        "2": 3.9709291741019115e-05,
+        "4": 0.0006243546376936138,
+        "8": 0.009373507462441921
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_015",
+      "split": "test",
+      "linear_error": 0.01410272281223084,
+      "cubic_error": 0.000621258222963661,
+      "cubic_stride_errors": {
+        "2": 3.9511021896032616e-05,
+        "4": 0.000621258222963661,
+        "8": 0.009332953952252865
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_016",
+      "split": "train",
+      "linear_error": 0.014099914618218986,
+      "cubic_error": 0.0006217315094545484,
+      "cubic_stride_errors": {
+        "2": 3.9549289795104414e-05,
+        "4": 0.0006217315094545484,
+        "8": 0.009338608011603355
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_017",
+      "split": "train",
+      "linear_error": 0.014110559831089501,
+      "cubic_error": 0.0006227949634194374,
+      "cubic_stride_errors": {
+        "2": 3.9608443330507725e-05,
+        "4": 0.0006227949634194374,
+        "8": 0.00935364793986082
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_018",
+      "split": "train",
+      "linear_error": 0.014106523827112197,
+      "cubic_error": 0.0006226777331903577,
+      "cubic_stride_errors": {
+        "2": 3.960062895203009e-05,
+        "4": 0.0006226777331903577,
+        "8": 0.009351223707199097
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_019",
+      "split": "train",
+      "linear_error": 0.014131094392545451,
+      "cubic_error": 0.0006238508503884077,
+      "cubic_stride_errors": {
+        "2": 3.967899101553485e-05,
+        "4": 0.0006238508503884077,
+        "8": 0.009370104409754276
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_020",
+      "split": "validation",
+      "linear_error": 0.014114943455823965,
+      "cubic_error": 0.0006235364708118141,
+      "cubic_stride_errors": {
+        "2": 3.966115036746487e-05,
+        "4": 0.0006235364708118141,
+        "8": 0.009364040568470955
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_021",
+      "split": "validation",
+      "linear_error": 0.014155172391073839,
+      "cubic_error": 0.0006258781650103629,
+      "cubic_stride_errors": {
+        "2": 3.979776010964997e-05,
+        "4": 0.0006258781650103629,
+        "8": 0.009400156326591969
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_022",
+      "split": "test",
+      "linear_error": 0.014143701862037596,
+      "cubic_error": 0.0006258111679926515,
+      "cubic_stride_errors": {
+        "2": 3.980255132773891e-05,
+        "4": 0.0006258111679926515,
+        "8": 0.009387267753481865
+      }
+    },
+    {
+      "group_id": "synthetic_workpiece_023",
+      "split": "test",
+      "linear_error": 0.014105553811843266,
+      "cubic_error": 0.0006219727220013738,
+      "cubic_stride_errors": {
+        "2": 3.9560822187922895e-05,
+        "4": 0.0006219727220013738,
+        "8": 0.009338860400021076
+      }
+    }
+  ],
+  "normalization_train_only_verified": true,
+  "input_material_derivative_preserved": true,
+  "temporal_decoder_derivative_preserved": true,
+  "limitation": "Sparse-time reference separately screened on four author cases at two states. Unseen-geometry FWI and neural-network approximation not validated; no network trained.",
+  "time_sampling_audit": ".build\\operator-pilot-v1-20261008\\time_sampling_check.json",
+  "time_sampling_screening_passed": true
+}

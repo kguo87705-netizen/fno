@@ -1,0 +1,23 @@
+{
+  "scope": "18 train/validation serialized workpieces, no old-test access; integrity snapshot during fixed4800 run",
+  "files": {
+    "synthetic_workpiece_000.pt": "eba5bed176c50f379d3ab4da194aae92529e0ecd648d18eabc352bc1d2a41f82",
+    "synthetic_workpiece_001.pt": "aa43ba5cb1fce0af53da60672efacc68fde2f7a266c483c04bc814db31214efa",
+    "synthetic_workpiece_002.pt": "2c137e8e20b1c36d5a7f7121840969f9a84c99fe769518e4fa22e0aa3b22aeb6",
+    "synthetic_workpiece_003.pt": "b2f8eb4c11d2f7e8201da5eb96ab3e4f660f9abb3b1c9c3bf1dbf1f7d5c8c365",
+    "synthetic_workpiece_004.pt": "6ea48f3b0f724c97be9ccdef7645045e46849359f079df0a9d4f4a701190c7e2",
+    "synthetic_workpiece_005.pt": "03c87c8234859e0208cea9e8446f7c09e57bebea6692368906436d144e4d9a51",
+    "synthetic_workpiece_008.pt": "185862223bbbf412efb3c793b8f3506124b2be8c46f5b93c10c7e88d32e04cbe",
+    "synthetic_workpiece_009.pt": "8e564fb4e4fd6318505b937090f192816040aeb4c03421889e4cb031345783fe",
+    "synthetic_workpiece_010.pt": "e6d48e29c60c8a78308f52d3e0eed76ed76ddaa942d76b11e555c3ea36e28110",
+    "synthetic_workpiece_011.pt": "e63e3e6858d0394988cad15eb12c094e142377fc1eebdbf100d25f8d76e0147b",
+    "synthetic_workpiece_012.pt": "75d0e46449b1894fbf2893721d134dbe65c4af8a8aaeb4565eebd30bae6dfa06",
+    "synthetic_workpiece_013.pt": "7ec442e0faa1eed9838580b2cb87a55f8de86dff1d8241a1b7a867f65e23e106",
+    "synthetic_workpiece_016.pt": "652b8291dafe8e7fa28ecf857811e4de5fcb1032509249d8c74c97fd5da34a8d",
+    "synthetic_workpiece_017.pt": "e251ca2fb4cc66b0705e210f3b2ddeaeffeefc68652463bde8511c71516893db",
+    "synthetic_workpiece_018.pt": "22f25d641963b5014f385362210370b00a616fa3c8120ebdb15eca99cce756f3",
+    "synthetic_workpiece_019.pt": "b2e8c2c2b0076beae50c91936693237e92c13aa59677e829942b571116d52d43",
+    "synthetic_workpiece_020.pt": "05d8f7d22940b4dbf8d6c368b844746a1f278887cdc5b5ac07728a0b33358be3",
+    "synthetic_workpiece_021.pt": "02a5faa2456493b211010b4e76d312e780e5bd5b58dfe3ac725ba3b013fd36ac"
+  }
+}

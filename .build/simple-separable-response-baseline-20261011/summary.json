@@ -1,0 +1,234 @@
+{
+  "status": "completed",
+  "rows": [
+    {
+      "depth": -1,
+      "eps": 0.002,
+      "space": "field",
+      "baseline": "zero_response",
+      "relative_l2": 1.0,
+      "amplitude_ratio": 0.0,
+      "cosine": NaN
+    },
+    {
+      "depth": -1,
+      "eps": 0.002,
+      "space": "field",
+      "baseline": "nominal_constant_secant",
+      "relative_l2": 0.33814032262423754,
+      "amplitude_ratio": 0.9724480858100222,
+      "cosine": 0.94160111399925
+    },
+    {
+      "depth": -1,
+      "eps": 0.002,
+      "space": "field",
+      "baseline": "depth_scalar_oracle_projection",
+      "relative_l2": 0.33673037005123624,
+      "amplitude_ratio": 0.941601122047291,
+      "cosine": 0.9416011139991051,
+      "alpha": 0.9682790554471981
+    },
+    {
+      "depth": -1,
+      "eps": 0.002,
+      "space": "trace",
+      "baseline": "zero_response",
+      "relative_l2": 1.0,
+      "amplitude_ratio": 0.0,
+      "cosine": NaN
+    },
+    {
+      "depth": -1,
+      "eps": 0.002,
+      "space": "trace",
+      "baseline": "nominal_constant_secant",
+      "relative_l2": 0.35240680235630945,
+      "amplitude_ratio": 0.9611592215221358,
+      "cosine": 0.936180215760731
+    },
+    {
+      "depth": -1,
+      "eps": 0.002,
+      "space": "trace",
+      "baseline": "depth_scalar_oracle_projection",
+      "relative_l2": 0.3515204170178328,
+      "amplitude_ratio": 0.9361802313069243,
+      "cosine": 0.9361802157809099,
+      "alpha": 0.974011583926926
+    },
+    {
+      "depth": -1,
+      "eps": 0.001,
+      "space": "field",
+      "baseline": "zero_response",
+      "relative_l2": 1.0,
+      "amplitude_ratio": 0.0,
+      "cosine": NaN
+    },
+    {
+      "depth": -1,
+      "eps": 0.001,
+      "space": "field",
+      "baseline": "nominal_constant_secant",
+      "relative_l2": 0.3381608956961733,
+      "amplitude_ratio": 0.9724611891738464,
+      "cosine": 0.9415943759288359
+    },
+    {
+      "depth": -1,
+      "eps": 0.001,
+      "space": "field",
+      "baseline": "depth_scalar_oracle_projection",
+      "relative_l2": 0.3367492111581027,
+      "amplitude_ratio": 0.9415943920321012,
+      "cosine": 0.9415943759302116,
+      "alpha": 0.9682590795516278
+    },
+    {
+      "depth": -1,
+      "eps": 0.001,
+      "space": "trace",
+      "baseline": "zero_response",
+      "relative_l2": 1.0,
+      "amplitude_ratio": 0.0,
+      "cosine": NaN
+    },
+    {
+      "depth": -1,
+      "eps": 0.001,
+      "space": "trace",
+      "baseline": "nominal_constant_secant",
+      "relative_l2": 0.35241768750696406,
+      "amplitude_ratio": 0.9611701282345879,
+      "cosine": 0.9361765082359531
+    },
+    {
+      "depth": -1,
+      "eps": 0.001,
+      "space": "trace",
+      "baseline": "depth_scalar_oracle_projection",
+      "relative_l2": 0.35153029074826936,
+      "amplitude_ratio": 0.9361765323553006,
+      "cosine": 0.9361765082966043,
+      "alpha": 0.9739966741948944
+    },
+    {
+      "depth": 1,
+      "eps": 0.002,
+      "space": "field",
+      "baseline": "zero_response",
+      "relative_l2": 1.0,
+      "amplitude_ratio": 0.0,
+      "cosine": NaN
+    },
+    {
+      "depth": 1,
+      "eps": 0.002,
+      "space": "field",
+      "baseline": "nominal_constant_secant",
+      "relative_l2": 0.30937334239196845,
+      "amplitude_ratio": 1.0007052811332846,
+      "cosine": 0.9521780441421669
+    },
+    {
+      "depth": 1,
+      "eps": 0.002,
+      "space": "field",
+      "baseline": "depth_scalar_oracle_projection",
+      "relative_l2": 0.30554373214720715,
+      "amplitude_ratio": 0.9521780522062847,
+      "cosine": 0.9521780441413373,
+      "alpha": 0.9515069642324225
+    },
+    {
+      "depth": 1,
+      "eps": 0.002,
+      "space": "trace",
+      "baseline": "zero_response",
+      "relative_l2": 1.0,
+      "amplitude_ratio": 0.0,
+      "cosine": NaN
+    },
+    {
+      "depth": 1,
+      "eps": 0.002,
+      "space": "trace",
+      "baseline": "nominal_constant_secant",
+      "relative_l2": 0.3116935318540218,
+      "amplitude_ratio": 0.9912459083694946,
+      "cosine": 0.9510332285562371
+    },
+    {
+      "depth": 1,
+      "eps": 0.002,
+      "space": "trace",
+      "baseline": "depth_scalar_oracle_projection",
+      "relative_l2": 0.309088657449795,
+      "amplitude_ratio": 0.9510332273968658,
+      "cosine": 0.9510332285655715,
+      "alpha": 0.9594321858242143
+    },
+    {
+      "depth": 1,
+      "eps": 0.001,
+      "space": "field",
+      "baseline": "zero_response",
+      "relative_l2": 1.0,
+      "amplitude_ratio": 0.0,
+      "cosine": NaN
+    },
+    {
+      "depth": 1,
+      "eps": 0.001,
+      "space": "field",
+      "baseline": "nominal_constant_secant",
+      "relative_l2": 0.309379721211395,
+      "amplitude_ratio": 1.0007351692632136,
+      "cosine": 0.9521775219039307
+    },
+    {
+      "depth": 1,
+      "eps": 0.001,
+      "space": "field",
+      "baseline": "depth_scalar_oracle_projection",
+      "relative_l2": 0.30554535961513285,
+      "amplitude_ratio": 0.9521775018742525,
+      "cosine": 0.9521775219026185,
+      "alpha": 0.9514780245060083
+    },
+    {
+      "depth": 1,
+      "eps": 0.001,
+      "space": "trace",
+      "baseline": "zero_response",
+      "relative_l2": 1.0,
+      "amplitude_ratio": 0.0,
+      "cosine": NaN
+    },
+    {
+      "depth": 1,
+      "eps": 0.001,
+      "space": "trace",
+      "baseline": "nominal_constant_secant",
+      "relative_l2": 0.31170440544554956,
+      "amplitude_ratio": 0.991280634071242,
+      "cosine": 0.9510312187612999
+    },
+    {
+      "depth": 1,
+      "eps": 0.001,
+      "space": "trace",
+      "baseline": "depth_scalar_oracle_projection",
+      "relative_l2": 0.3090948413379829,
+      "amplitude_ratio": 0.9510312116300413,
+      "cosine": 0.9510312187610999,
+      "alpha": 0.959396548337054
+    }
+  ],
+  "interpretation": {
+    "predictive_baseline": "nominal_constant_secant",
+    "oracle_only": "depth_scalar_oracle_projection",
+    "decision_rule": "If oracle projection <=20% while nominal >20%, amplitude-only correction may explain the gap; otherwise scalar separability is insufficient."
+  }
+}

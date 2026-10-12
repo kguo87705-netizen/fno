@@ -1,0 +1,144 @@
+"""Save evidence review and the unique next small baseline protocol."""
+import json,shutil,re
+from pathlib import Path
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from run_frozen_depth_shift import OUT,ROOT,BASE,WIDE
+from run_reduced_material_scan import sha
+V=Path('PINO超声成像知识库');TITLE='冻结FNO深度平移审查与几何响应 2026-10-09'
+r=json.loads((OUT/'summary.json').read_text());d=json.loads((OUT/'response_decomposition.json').read_text())
+assert json.loads((OUT/'verification.json').read_text())['status']=='passed'
+plan={'status':'planned_not_run','question':'Can a training-only depth interpolation reference predict new intermediate geometries more reliably than the frozen FNO?',
+ 'output_directory':'.build/fno-depth-interpolation-control-20261009',
+ 'training_reference_depth_rows':[-2,0,2],'new_validation_depth_rows':[-1,1],'contrast':.5,
+ 'data_roles':'Current -2/0/+2 diagnostic physical labels become explicit training references. New -1/+1 labels are frozen prospective development validation, not independent final test.',
+ 'fixed':'Same449-cell support, source0, float32 stencil,24receivers,2000times, frozen width8, IEEE policy, background and normalization. No fitting/training/calibration.',
+ 'only_main_axis':'Depth of supplied material support; geometry and contrast are known forward inputs, no blind localization.',
+ 'methods':['Frozen original width8','Training-only piecewise linear depth interpolation','Training-only nearest depth reference','Zero scatter'],
+ 'linear_rule':'For -1 use .5*F(-2)+.5*F(0); for +1 use .5*F(0)+.5*F(+2). Interpolate physical training scattered field snapshots and full-resolution receiver traces separately. Weights from known input depth; freeze before new labels. No interpolation of validation labels.',
+ 'nearest_rule':'Nearest training depth; on ties choose smaller signed depth (-2 for -1,0 for +1). Fixed before labels.',
+ 'representation_boundary':'Direct full-time physical training-trace interpolation is a simple reference with stored receiver traces, not identical to the FNO field/time reconstruction representation. Also reconstruct the interpolated training snapshots at receivers and report that variant; never hide this asymmetry.',
+ 'metrics':['Allmethods complete/scattered field and receiver relativeL2 separately at both states','Finite symmetric depth response between+1/-1 versus physical, relative error/norm ratio/cosine','Direct-trace versus snapshot-reconstructed interpolation gap','No material recovery or speed claim'],
+ 'screens':'For each method both states scatter field and receiver<=.20 and receiver response error<=.20 with cosine>=.90; inherited engineering screens, no retuning. Report continuous errors and comparisons even on failure.',
+ 'decisions':{'linear_passes_and_beats_network_both':'Use the cheap local depth reference as current baseline; network geometry coverage remains plausible but neural necessity is absent here. Only then consider paired same-architecture coverage intervention if needed.',
+ 'both_fail':'Do not infer capacity failure; discrete depth response may be nonlinear over this spacing. Next isolate reference spacing/coverage before training.',
+ 'network_passes_linear_fails':'Earlier +/-2 failure is scale-limited locally; preregister finer depth-family response checks before inversion.',
+ 'mixed':'Local/directional evidence only; no broad success. Freeze results and select one discriminating follow-up.',
+ 'controls_fail_or_response_small':'Inconclusive; audit implementation or response scale.'},
+ 'checks':'New masks449 cells/no wrap/interior; source/receiver metadata unchanged; zero baseline scatter error1; hashes stable. Physical paired response norm >1e-6 of nominal scatter norm.',
+ 'budget':'2 new physical and2 network calls plus cached interpolation, estimated<1minute,cap3minutes; separate verification may replay2+2. No training/download.',
+ 'frozen_sha256':{str(p):sha(p) for p in [OUT/'raw.pt',OUT/'summary.json',OUT/'response_decomposition.json',OUT/'verification.json',WIDE/'final.pt',BASE/'contrast_05.pt']}}
+assert not (OUT/'next_depth_interpolation_protocol.json').exists()
+(OUT/'next_depth_interpolation_protocol.json').write_text(json.dumps(plan,ensure_ascii=False,indent=2),encoding='utf-8')
+fig,ax=plt.subplots(1,2,figsize=(9,3.8),layout='constrained')
+for m,c in [('width8','#2171b5'),('nominal_lookup','#238b45'),('zero_scatter','#999999')]:
+ a=[x for x in r['rows'] if x['method']==m]
+ for i,space in enumerate(['field','trace']):
+  ax[i].plot([x['shift_rows'] for x in a],[100*x['scatter_'+space+'_relative_l2'] for x in a],'o-',label=m,color=c)
+for a,space in zip(ax,['field snapshots','receiver traces']):
+ a.axhline(20,color='red',linestyle=':',label='20% predeclared screen')
+ a.set(xlabel='Depth shift (grid rows)',ylabel='Scattered relative L2 error (%)',title=space,xticks=[-2,0,2]);a.grid(alpha=.2);a.legend(fontsize=7)
+fig.savefig(OUT/'depth_shift_errors.png',dpi=170)
+shutil.copy2(OUT/'depth_shift_errors.png',V/'90附件'/f'{TITLE}.png')
+rows=[]
+for k in [-2,0,2]:
+ a=next(x for x in r['rows'] if x['shift_rows']==k and x['method']=='width8')
+ b=next(x for x in r['rows'] if x['shift_rows']==k and x['method']=='nominal_lookup')
+ rows.append(f"| {k:+d} | {100*a['full_field_relative_l2']:.3f}% | {100*a['scatter_field_relative_l2']:.3f}% | {100*a['full_trace_relative_l2']:.3f}% | {100*a['scatter_trace_relative_l2']:.3f}% | {100*b['scatter_trace_relative_l2']:.3f}% |")
+note=f'''---
+type: evidence-review
+date: 2026-10-09
+status: 深度审查已完成复核；下一步训练参考深度插值，未运行
+tags: [FNO, FWI, 几何泛化, 正演代理, 简单基线]
+---
+# 冻结FNO深度平移审查与几何响应
+
+**瓶颈判断：当前固定几何训练的FNO对±0.787毫米深度变化的正演响应不可靠，错误在场/接收快照预测阶段已经出现，尚不能归因于网络容量不足或证明增加数据即可解决。** 对本模型三状态失效置信度高，对训练覆盖等机制置信度低。
+
+承接 [[固定八步物理更新与初始化收益审查 2026-10-09]]。项目根相对结果目录R=`.build/fno-frozen-depth-shift-audit-20261009-r2`；协议、缓存、结果及复核分别为R/protocol.json、raw.pt、summary.json、verification.json，额外缓存分析为R/response_decomposition.json。执行代码`Research_Direction/Author_Baseline_Singh_Zenodo14616677/run_frozen_depth_shift.py`；缓存分析代码`analyze_depth_response.py`。
+
+## 1. 已完成事实、解释与未知
+
+| 类别 | 判断 | 可核查来源 |
+| --- | --- | --- |
+| 已完成 | 固定a=.5、源0、网络width8、IEEE策略、24接收与2000时刻；仅支撑沿y改变−2/0/+2行 | R/protocol.json、raw.pt |
+| 已完成 | 三个支撑均449格，零填充不环绕且处于内部；实际格距0.3937008毫米，移位±0.7874016毫米；源/接收/时间/空间坐标未变 | R/summary.json checks、执行断言 |
+| 已完成 | 名义物理场和接收逐位等于训练a=.5标签，名义网络接收逐位等于既有IEEE全网格预测 | R/summary.json、verification.json |
+| 已完成 | 两移位网络散射场/接收均未达20%筛查，接收误差比静态训练参考更高 | R/summary.json全部9行 |
+| 已完成 | 几何接收有限响应误差122.252%，cos=−.120210，幅度比.593233；物理响应/名义散射范数=1.009708，非近零响应 | R/summary.json |
+| 已完成 | 时间重建前的全场响应误差111.512%、cos=.011062；接收快照响应误差122.278%、cos=−.120608 | R/response_decomposition.json |
+| 已完成 | 同一重建程序对物理接收快照差的响应误差仅.073676%、cos=.9999998 | R/response_decomposition.json |
+| 已完成 | 主实验3物理＋3网络约9.051秒；另行核验重复3＋3，全部场/接收逐位一致；缓存分析0正演0训练 | R/summary.json、verification.json、response_decomposition.json |
+| 合理解释 | 当前模型对未见局部几何的学习响应不可靠，可能与固定几何训练覆盖有关 | 前述结果支持现象；未做覆盖干预，原因仍待验证 |
+| 未知 | 同架构增加深度样本是否修复；更小深度变化是否可靠；材料方向导数在新几何是否正确 | 没有相关干预/导数结果，不能补猜 |
+| 未执行 | 以现有三深度标签作训练参考，在新±1行位置比较冻结网络和深度线性插值 | R/next_depth_interpolation_protocol.json |
+
+### 波形误差结果
+
+| 深度行移位 | 网络完整场 | 网络散射场 | 网络完整接收 | 网络散射接收 | 静态训练参考散射接收 |
+| --- | ---: | ---: | ---: | ---: | ---: |
+{chr(10).join(rows)}
+
+零散射参照的散射场/接收误差均100%。名义训练参考在0位置为真值本身，所以误差0是训练重放，不是泛化成功。名义网络散射场约20.99%、接收约5.09%，两空间不能互换；本轮20%筛查预先针对移位状态，不按名义结果改门槛。
+
+![[{TITLE}.png]]
+
+一次输入设备错误：首次目录`.build/fno-frozen-depth-shift-audit-20261009`在第一个网络预测前因CPU输入/CUDA模型不匹配停止；failure.json和script_at_failure.py已保存，不能解释为方法失败。修正仅把gamma输入传入相同设备，r2重新冻结协议并运行，旧目录不覆盖；此额外失败尝试亦不是免费正演成本。主实验9秒不是完整总成本优势。
+
+## 2. 三个竞争解释与上一轮更新
+
+| 解释 | 支持证据 | 冲突/未知 | 预期及反证 |
+| --- | --- | --- | --- |
+| H1 固定几何训练使当前网络局部深度响应没有被约束 | 固定训练几何；名义接收5.09%而移位>62%；场响应方向几乎无关 | 未做同架构数据覆盖干预；当前三点标签仅能证明现象 | 同架构、同预算增加深度覆盖应改善新中间位置；若覆盖后训练也拟合不好，或泛化无改善，削弱“覆盖即可解决” |
+| H2 两行间距已对应显著非线性波形变化，有限深度插值本身可能困难 | 物理两侧响应范数约名义散射范数1.01倍，静态参考也有>53%误差 | 网络比静态参考更差，不能单靠“变化大”解释错误响应；未有深度插值结果 | 若三深度训练线性参照在±1行也失败，说明该间距内简单插值不足，但仍非容量结论；若线性达标而网络失败，削弱“局部变化对任何简单代理都困难” |
+| H3 时间重建/背景处理造成表观几何响应失真 | 网络最终接收需时间重建，理论上可能引入误差 | 接收快照已错122.28%；物理快照重建仅.074%；背景在两侧差中抵消 | 作为主要原因被明显削弱。若发现坐标/快照对齐或重建实现错误须先撤回判断；现有检查及重放不支持这一解释 |
+
+上一轮“当前固定几何材料恢复不必依赖神经初值”的结论保留，不能由本轮波形结果变成未知几何恢复结论。上一轮几何失效假设获当前模型的直接支持；**失效现象被确认，覆盖不足的因果机制尚未确认**。不把有限孔径或参数量当答案。
+
+## 3. 反方审查
+
+继续原计划若立即微调同架构：相同初权重、预算和对照不可省略，否则“更多训练”和“新几何覆盖”同时变化。当前还缺一个训练深度标签可直接构造的简单参照；先查其效果有机会避免不必要训练。
+
+修改为深度插值参照：只新增±1行验证几何，a=.5和网络不变。插值权重由已知正演输入深度给定，使用现有−2/0/+2物理标签作为明确训练参考，不使用±1验证标签选权重。它有额外深度训练信息，不能把与原FNO差距称为架构胜负或证明覆盖因果；它检验的是小数据简单代理是否足够。完整时间接收标签的直接插值和FNO快照重建表示不同，必须同时报告快照重建版本，不能隐藏优势信息。
+
+现有缓存已经回答重建是否主要原因，无需为该问题新增正演。现有数据没有±1行，无法直接回答中间几何预测。即使新实验成功，也只支持已知深度、固定a=.5、同形状/source0的局部正演，不证明盲定位、材料恢复或神经算子普适优劣。
+
+## 4. 候选最小实验比较
+
+| 候选 | 要区分；固定与唯一变化 | 简单基线 | 成本 | 成功/失败/无法判定及触发下一步 |
+| --- | --- | --- | --- | --- |
+| A 三深度训练参考预测±1行（唯一优先） | H1/H2的局部可预测性；固定a=.5/网络/物理，只换输入深度与已冻结参照 | 深度线性、最近邻、零散射；保留原网络 | 2物理＋2网络，预计<1分钟，上限3分钟；无训练 | 线性两侧场/接收≤20%、响应≤20%且cos≥.9并优于网络：简单参照优先，覆盖干预仍待证。都失败：检查间距/非线性。网络独过：此前失效有尺度限制。控制失败/物理响应过弱：无法判 |
+| B 同初权重的配对覆盖微调 | H1因果检验；两臂均固定300步/Adam，名义重复 vs 三深度轮换 | 未微调网络、线性参照 | 600训练步及新验证，约数分钟，尚未授权本轮执行 | 覆盖臂在冻结新几何持续优于重复臂支持覆盖作用；两臂都差不区分优化与表示；失败不自动扩网 |
+| C 缩小位移，仅原网络±1行 | 检验失效的尺度限制；只改移位幅度 | 静态参考与零散射 | 与A相近，但缺训练深度参照 | 达标只能限制失效范围；失败仍无法判断简单代理是否足够，因此信息被A包含，不单独运行 |
+
+## 5. 唯一下一实验A：可执行协议，尚未运行
+
+- 新目录`.build/fno-depth-interpolation-control-20261009`，先冻结现有R/raw.pt、网络和协议SHA，再生成新±1行标签；旧三深度明确转为训练参考，新两深度为前瞻开发验证，非独立最终测试。
+- 训练深度−2/0/+2；验证−1/+1。固定449格、a=.5、source0、IEEE、原离散模型、坐标、背景和归一化。无训练、校准或材料反演。
+- 线性在−1取F(−2)/2＋F(0)/2，在+1取F(0)/2＋F(+2)/2；权重仅来自已知输入。场与全时间接收分别插值，并报告同快照重建后的接收版本。最近邻平局固定取更小有符号深度，零散射仍保留。
+- 报四类误差、两侧有限响应及表示差距。继承20%/.9工程筛查，物理响应需大于名义散射范数1e−6；不根据新标签调阈值或择优报告方向。
+- 恰好2物理＋2网络，上限3分钟，验证可另重放2＋2。根据候选表选择下一项；B/C本轮未运行。
+
+## 6. 改变建议的证据与边界
+
+若缓存/坐标/重建核验发现错误，先修复再重审；若新深度线性达标且网络失败，优先建立简单几何族参照，不增加网络复杂度；若两者失败，先查更细间距，不能说数据量增加必然解决；若原网络在±1行可靠，则本轮±2行结论应限定到位移尺度。
+
+保留完整/散射、全场/接收、训练拟合/未见输入泛化、有限差分/局部Jacobian、网络AD/物理导数、失配/材料恢复、单次预测/完整成本的区别。几何在本轮作为已知材料输入，没有盲缺陷识别；没有材料优化，也不能从波形误差推出材料恢复。三个结果现已用于开发，不能继续称最终独立测试。
+'''
+dest=V/'05实践与复习'/f'{TITLE}.md';assert not dest.exists();dest.write_text(note,encoding='utf-8')
+targets=[V/'00导航'/'FNO与超声全波形反演科研计划 2026-10-07.md',V/'00导航'/'相控阵FWI与神经算子后续执行路线 2026-10-08.md',V/'04专题'/'相控阵FWI与神经算子阶段总结及知识梳理 2026-10-08.md',V/'05实践与复习'/'固定八步物理更新与初始化收益审查 2026-10-09.md']
+for p in targets:
+ lines=p.read_text(encoding='utf-8').splitlines();i=next(i for i,l in enumerate(lines) if l.startswith('# '))
+ lines[i+1:i+1]=['', '> [!important] 深度响应审查新结果（2026-10-09）',f'> [[{TITLE}]]：冻结FNO在±2行移位的散射接收误差约65.2%/62.7%，几何响应未达筛查；时间重建主因解释被削弱。唯一下一步为三深度训练线性参照预测新±1行，已保存协议、未运行。','']
+ for i,l in enumerate(lines):
+  if l.startswith('status:'):lines[i]='status: 冻结深度审查已复核，下一步深度插值基线';break
+ p.write_text('\n'.join(lines)+'\n',encoding='utf-8')
+names={p.stem for p in V.rglob('*') if p.is_file()}|{p.name for p in V.rglob('*') if p.is_file()}
+for p in [dest,*targets]:
+ s=p.read_text(encoding='utf-8');assert s.startswith('---\n') and s.count('```')%2==0
+ for l in re.findall(r'\[\[([^\]]+)\]\]',s):assert l.split('|')[0].split('#')[0] in names,(p,l)
+assert sha(OUT/'depth_shift_errors.png')==sha(V/'90附件'/f'{TITLE}.png')
+dump={'status':'passed','wikilinks':'All5 edited files resolved','image':'copy SHA matches','tables':'Generated from verified summary','evidence_hashes':plan['frozen_sha256'],'native_Obsidian_rendering':'not performed','files_sha256':{str(p):sha(p) for p in [dest,*targets]}}
+(OUT/'delivery_verification.json').write_text(json.dumps(dump,ensure_ascii=False,indent=2),encoding='utf-8')
+print(dest.resolve())

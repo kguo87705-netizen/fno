@@ -1,0 +1,395 @@
+{
+  "scope": "Only training000/source0, 24 receivers. Each receiver independently fits its own coefficients using its entire target waveform. This is an in-sample linear-basis oracle, not prediction, generalization, a medium-to-waveform operator, or a lower bound on nonlinear DeepONet capacity.",
+  "data_manifest_sha256": "9972c2aec68c347ba73e1677c182b25542ebc74bb3a5cdcee9b7243548991e42",
+  "bases": {
+    "single_carrier": {
+      "basis_columns": 4,
+      "rank": 4,
+      "sparse500_relative_l2": 0.9829737680241547,
+      "full2000_relative_l2": 0.9829060525601415,
+      "least_squares_normal_equation_relative_residual": 7.677610625966348e-17,
+      "records": [
+        {
+          "receiver": 0,
+          "sparse500_relative_l2": 0.9927374929710145,
+          "full2000_relative_l2": 0.9927364606842143
+        },
+        {
+          "receiver": 1,
+          "sparse500_relative_l2": 0.973481644791844,
+          "full2000_relative_l2": 0.9735229766080803
+        },
+        {
+          "receiver": 2,
+          "sparse500_relative_l2": 0.9633521008496729,
+          "full2000_relative_l2": 0.9633396657953603
+        },
+        {
+          "receiver": 3,
+          "sparse500_relative_l2": 0.9789432044355106,
+          "full2000_relative_l2": 0.9788198324938208
+        },
+        {
+          "receiver": 4,
+          "sparse500_relative_l2": 0.9816502921842134,
+          "full2000_relative_l2": 0.9815369695564393
+        },
+        {
+          "receiver": 5,
+          "sparse500_relative_l2": 0.972344543577404,
+          "full2000_relative_l2": 0.9722748547264405
+        },
+        {
+          "receiver": 6,
+          "sparse500_relative_l2": 0.9729453492780279,
+          "full2000_relative_l2": 0.9729021839212985
+        },
+        {
+          "receiver": 7,
+          "sparse500_relative_l2": 0.9928986150828887,
+          "full2000_relative_l2": 0.9928250799024618
+        },
+        {
+          "receiver": 8,
+          "sparse500_relative_l2": 0.9950663051404838,
+          "full2000_relative_l2": 0.9951276495413311
+        },
+        {
+          "receiver": 9,
+          "sparse500_relative_l2": 0.9830172110971316,
+          "full2000_relative_l2": 0.9829497429573325
+        },
+        {
+          "receiver": 10,
+          "sparse500_relative_l2": 0.981729626014687,
+          "full2000_relative_l2": 0.9813318646179541
+        },
+        {
+          "receiver": 11,
+          "sparse500_relative_l2": 0.989525884872939,
+          "full2000_relative_l2": 0.9892188894467124
+        },
+        {
+          "receiver": 12,
+          "sparse500_relative_l2": 0.9948993811863591,
+          "full2000_relative_l2": 0.9947583312249779
+        },
+        {
+          "receiver": 13,
+          "sparse500_relative_l2": 0.9992196767785624,
+          "full2000_relative_l2": 0.999218710273327
+        },
+        {
+          "receiver": 14,
+          "sparse500_relative_l2": 0.9993939151824823,
+          "full2000_relative_l2": 0.9994072384585089
+        },
+        {
+          "receiver": 15,
+          "sparse500_relative_l2": 0.9950796981109187,
+          "full2000_relative_l2": 0.9950775541003025
+        },
+        {
+          "receiver": 16,
+          "sparse500_relative_l2": 0.9791095339446253,
+          "full2000_relative_l2": 0.9791577539800339
+        },
+        {
+          "receiver": 17,
+          "sparse500_relative_l2": 0.9746619885747526,
+          "full2000_relative_l2": 0.9746645860093082
+        },
+        {
+          "receiver": 18,
+          "sparse500_relative_l2": 0.9721600051174816,
+          "full2000_relative_l2": 0.9721739739095715
+        },
+        {
+          "receiver": 19,
+          "sparse500_relative_l2": 0.9761946258936541,
+          "full2000_relative_l2": 0.9761562355389818
+        },
+        {
+          "receiver": 20,
+          "sparse500_relative_l2": 0.9936765038288118,
+          "full2000_relative_l2": 0.9936897466216649
+        },
+        {
+          "receiver": 21,
+          "sparse500_relative_l2": 0.9912156455996392,
+          "full2000_relative_l2": 0.9911202603622776
+        },
+        {
+          "receiver": 22,
+          "sparse500_relative_l2": 0.9740073475007287,
+          "full2000_relative_l2": 0.974065188180928
+        },
+        {
+          "receiver": 23,
+          "sparse500_relative_l2": 0.9380387740249675,
+          "full2000_relative_l2": 0.9377145983012315
+        }
+      ]
+    },
+    "localized_carrier16": {
+      "basis_columns": 34,
+      "rank": 34,
+      "sparse500_relative_l2": 0.636528701646631,
+      "full2000_relative_l2": 0.6358990754659751,
+      "least_squares_normal_equation_relative_residual": 1.6494363848423386e-16,
+      "records": [
+        {
+          "receiver": 0,
+          "sparse500_relative_l2": 0.7140098478874574,
+          "full2000_relative_l2": 0.7137119640693985
+        },
+        {
+          "receiver": 1,
+          "sparse500_relative_l2": 0.7837587799019379,
+          "full2000_relative_l2": 0.7829853201643184
+        },
+        {
+          "receiver": 2,
+          "sparse500_relative_l2": 0.7900468331950814,
+          "full2000_relative_l2": 0.7893157619443738
+        },
+        {
+          "receiver": 3,
+          "sparse500_relative_l2": 0.7721607955009833,
+          "full2000_relative_l2": 0.7723678053953748
+        },
+        {
+          "receiver": 4,
+          "sparse500_relative_l2": 0.7474163244642571,
+          "full2000_relative_l2": 0.7472892446918504
+        },
+        {
+          "receiver": 5,
+          "sparse500_relative_l2": 0.7211416109138034,
+          "full2000_relative_l2": 0.7203620195524727
+        },
+        {
+          "receiver": 6,
+          "sparse500_relative_l2": 0.6809803816989373,
+          "full2000_relative_l2": 0.6807008378441813
+        },
+        {
+          "receiver": 7,
+          "sparse500_relative_l2": 0.6084304302990451,
+          "full2000_relative_l2": 0.608535414220456
+        },
+        {
+          "receiver": 8,
+          "sparse500_relative_l2": 0.5535821034666288,
+          "full2000_relative_l2": 0.5533151591473786
+        },
+        {
+          "receiver": 9,
+          "sparse500_relative_l2": 0.5495477784072772,
+          "full2000_relative_l2": 0.5482115326756569
+        },
+        {
+          "receiver": 10,
+          "sparse500_relative_l2": 0.574092850566603,
+          "full2000_relative_l2": 0.5727072269054535
+        },
+        {
+          "receiver": 11,
+          "sparse500_relative_l2": 0.5114376081831105,
+          "full2000_relative_l2": 0.5099822568388204
+        },
+        {
+          "receiver": 12,
+          "sparse500_relative_l2": 0.6160081587072743,
+          "full2000_relative_l2": 0.616873298728527
+        },
+        {
+          "receiver": 13,
+          "sparse500_relative_l2": 0.5967867270039862,
+          "full2000_relative_l2": 0.5968207983346107
+        },
+        {
+          "receiver": 14,
+          "sparse500_relative_l2": 0.5618139441279164,
+          "full2000_relative_l2": 0.5611292914369288
+        },
+        {
+          "receiver": 15,
+          "sparse500_relative_l2": 0.5888288314930301,
+          "full2000_relative_l2": 0.5888961505913458
+        },
+        {
+          "receiver": 16,
+          "sparse500_relative_l2": 0.6097537581116922,
+          "full2000_relative_l2": 0.6099992394939293
+        },
+        {
+          "receiver": 17,
+          "sparse500_relative_l2": 0.6311437813508005,
+          "full2000_relative_l2": 0.6303703182214707
+        },
+        {
+          "receiver": 18,
+          "sparse500_relative_l2": 0.6457290399909067,
+          "full2000_relative_l2": 0.6434489360525313
+        },
+        {
+          "receiver": 19,
+          "sparse500_relative_l2": 0.6059877832733765,
+          "full2000_relative_l2": 0.6033143276329335
+        },
+        {
+          "receiver": 20,
+          "sparse500_relative_l2": 0.6067549331829032,
+          "full2000_relative_l2": 0.6056327661072686
+        },
+        {
+          "receiver": 21,
+          "sparse500_relative_l2": 0.5131373396504436,
+          "full2000_relative_l2": 0.5130223304799901
+        },
+        {
+          "receiver": 22,
+          "sparse500_relative_l2": 0.4421564459810793,
+          "full2000_relative_l2": 0.43927913811846137
+        },
+        {
+          "receiver": 23,
+          "sparse500_relative_l2": 0.607194793700904,
+          "full2000_relative_l2": 0.6048736488619165
+        }
+      ]
+    },
+    "fourier_modes0_to63": {
+      "basis_columns": 127,
+      "rank": 127,
+      "sparse500_relative_l2": 0.03217199368281266,
+      "full2000_relative_l2": 0.03091588451010795,
+      "least_squares_normal_equation_relative_residual": 4.818984408119125e-16,
+      "records": [
+        {
+          "receiver": 0,
+          "sparse500_relative_l2": 0.013204444041274422,
+          "full2000_relative_l2": 0.01272619002678924
+        },
+        {
+          "receiver": 1,
+          "sparse500_relative_l2": 0.018329910633691354,
+          "full2000_relative_l2": 0.018549343939447942
+        },
+        {
+          "receiver": 2,
+          "sparse500_relative_l2": 0.008854090121051681,
+          "full2000_relative_l2": 0.00888719078227213
+        },
+        {
+          "receiver": 3,
+          "sparse500_relative_l2": 0.02865507997519381,
+          "full2000_relative_l2": 0.02714915215971908
+        },
+        {
+          "receiver": 4,
+          "sparse500_relative_l2": 0.03582055965335109,
+          "full2000_relative_l2": 0.03374024601463709
+        },
+        {
+          "receiver": 5,
+          "sparse500_relative_l2": 0.013282147107615707,
+          "full2000_relative_l2": 0.01249970483557894
+        },
+        {
+          "receiver": 6,
+          "sparse500_relative_l2": 0.010700226923098816,
+          "full2000_relative_l2": 0.01010161708583139
+        },
+        {
+          "receiver": 7,
+          "sparse500_relative_l2": 0.025346107589597114,
+          "full2000_relative_l2": 0.02282671350713482
+        },
+        {
+          "receiver": 8,
+          "sparse500_relative_l2": 0.030447244669315213,
+          "full2000_relative_l2": 0.028184220914426787
+        },
+        {
+          "receiver": 9,
+          "sparse500_relative_l2": 0.01214755441611735,
+          "full2000_relative_l2": 0.012319390375958764
+        },
+        {
+          "receiver": 10,
+          "sparse500_relative_l2": 0.0578366171963431,
+          "full2000_relative_l2": 0.05617782267820202
+        },
+        {
+          "receiver": 11,
+          "sparse500_relative_l2": 0.06167387504290428,
+          "full2000_relative_l2": 0.05836092345273984
+        },
+        {
+          "receiver": 12,
+          "sparse500_relative_l2": 0.05371289100851379,
+          "full2000_relative_l2": 0.05087115971256917
+        },
+        {
+          "receiver": 13,
+          "sparse500_relative_l2": 0.05279663719869737,
+          "full2000_relative_l2": 0.051639024496615005
+        },
+        {
+          "receiver": 14,
+          "sparse500_relative_l2": 0.014871044743182463,
+          "full2000_relative_l2": 0.014919121470529432
+        },
+        {
+          "receiver": 15,
+          "sparse500_relative_l2": 0.03029242849613669,
+          "full2000_relative_l2": 0.02943502390891794
+        },
+        {
+          "receiver": 16,
+          "sparse500_relative_l2": 0.03167873646811907,
+          "full2000_relative_l2": 0.03134461701676166
+        },
+        {
+          "receiver": 17,
+          "sparse500_relative_l2": 0.009808966816006529,
+          "full2000_relative_l2": 0.009659924927372932
+        },
+        {
+          "receiver": 18,
+          "sparse500_relative_l2": 0.011238822805201028,
+          "full2000_relative_l2": 0.010957601348047208
+        },
+        {
+          "receiver": 19,
+          "sparse500_relative_l2": 0.013760186791708269,
+          "full2000_relative_l2": 0.013829458579934544
+        },
+        {
+          "receiver": 20,
+          "sparse500_relative_l2": 0.01775642148821225,
+          "full2000_relative_l2": 0.01588206400121531
+        },
+        {
+          "receiver": 21,
+          "sparse500_relative_l2": 0.03273218514930899,
+          "full2000_relative_l2": 0.027626512896175407
+        },
+        {
+          "receiver": 22,
+          "sparse500_relative_l2": 0.032277031156164385,
+          "full2000_relative_l2": 0.03208776928293061
+        },
+        {
+          "receiver": 23,
+          "sparse500_relative_l2": 0.0516661160806265,
+          "full2000_relative_l2": 0.05269006318090296
+        }
+      ]
+    }
+  },
+  "exact_sparse_target_cubic_full_trace_relative_l2": 0.0005210111346588431,
+  "fourier_projection_vs_truncated_fft_max_absolute_discrepancy": 4.135580766728708e-15
+}

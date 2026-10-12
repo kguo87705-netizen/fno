@@ -1,0 +1,496 @@
+{
+  "status": "completed",
+  "protocol": {
+    "status": "fixed_budget_protocol",
+    "arm": "joint",
+    "time_feature_mode": "sincos",
+    "initial_branch_hash": "072571c3c31b971eed7911aa674686b1380586b04ad3585533d705b62df8ec0f",
+    "trainable_parameters": [
+      "bias",
+      "branch.0.weight",
+      "branch.0.bias",
+      "branch.2.weight",
+      "branch.2.bias",
+      "branch.4.weight",
+      "branch.4.bias",
+      "branch.7.weight",
+      "branch.7.bias",
+      "branch.9.weight",
+      "branch.9.bias",
+      "trunk.0.weight",
+      "trunk.0.bias",
+      "trunk.2.weight",
+      "trunk.2.bias",
+      "trunk.4.weight",
+      "trunk.4.bias"
+    ],
+    "plan_sha256": "82e391182978c218f473d921d1e2d90fff41b6264acba0e8104721f864f151d9",
+    "feature_module_sha256": "695a0a837a4a71dc150fe0f76ce78d7f107de0328bcf320bba8503fe1cff4d74",
+    "training_groups": [
+      "synthetic_workpiece_000"
+    ],
+    "shot": 0,
+    "updates": 4000,
+    "seed": 2,
+    "torch_version": "2.11.0+cu128",
+    "sampling_seed": 19,
+    "field_points_per_update": 32768,
+    "sampling": "torch.randint with replacement, independent uniform x/y/t flat-index draws each update, CPU generator19",
+    "receiver_points_per_update": 12000,
+    "loss": "sampled full-field MSE plus exact500-frame24receiver MSE rescaled su/sr, receiver weight1",
+    "optimizer": "Adam lr0.001",
+    "initial_state_hash": "0e4f79a00acbb821ef1fab27ac09853c860100baae432084d9816cc06bf54ed5",
+    "model_config": {
+      "grid": [
+        256,
+        128
+      ],
+      "latent": 64,
+      "hidden": 128,
+      "branch_channels": [
+        16,
+        32,
+        64
+      ],
+      "trunk_input_channels": 7,
+      "activation": "GELU",
+      "output": "signed scalar normalized residual",
+      "coordinate_order": [
+        "x/Lx",
+        "y/Ly",
+        "t/T",
+        "sx/Lx",
+        "sy/Ly",
+        "time_sin",
+        "time_cos"
+      ]
+    },
+    "data_manifest_sha256": "9972c2aec68c347ba73e1677c182b25542ebc74bb3a5cdcee9b7243548991e42",
+    "homogeneous_sha256": "9d382c08f6dbd90cedb09c2971aaf66c96d60ca69fecbfea41d29822955d88b6",
+    "model_sha256": "c39c7e8f5ed6441173ff43f3d657c48448f639a033ed49d3f5afc362de8ee5e9",
+    "script_sha256": "c9a08757df72df038da32339ee9e038ac223075b027c4bc1d22f412779556db6",
+    "selection": "fixed final4000, evaluation0/400/4000; no validation/test access",
+    "scope": "Paired joint versus initial-frozen branch optimization ablation, training000/source0 only. Same initialization and point order required across arms; no material generalization or physical-gradient/FWI claim."
+  },
+  "references": {
+    "zero": {
+      "split": "train",
+      "groups": 1,
+      "shots": 1,
+      "mean_field_mse": 0.06360812485218048,
+      "mean_receiver_mse": 0.058264028280973434,
+      "mean_total_objective": 0.12187215313315392,
+      "full_field_relative_l2": 0.2524863390360177,
+      "full_trace_relative_l2": 0.24471408985805723,
+      "scatter_field_relative_l2": 1.0,
+      "scatter_trace_relative_l2": 1.0,
+      "regions": {
+        "opposite_boundary": {
+          "scatter_field_relative_l2": 1.0,
+          "energy_sums": {
+            "error": 28191.01742762496,
+            "reference": 28191.01742762496
+          }
+        },
+        "interior": {
+          "scatter_field_relative_l2": 1.0,
+          "energy_sums": {
+            "error": 978788.4268803338,
+            "reference": 978788.4268803338
+          }
+        },
+        "array_side": {
+          "scatter_field_relative_l2": 1.0,
+          "energy_sums": {
+            "error": 35175.97212062064,
+            "reference": 35175.97212062064
+          }
+        }
+      },
+      "energy_sums": {
+        "field_error": 1042155.4164285795,
+        "field_true": 16347702.26747235,
+        "scatter_field_true": 1042155.4164285795,
+        "trace_error": 183.0538488770266,
+        "trace_true": 3056.756990218245,
+        "scatter_trace_true": 183.0538488770266
+      },
+      "records": [
+        {
+          "group_id": "synthetic_workpiece_000",
+          "split": "train",
+          "shot": 0,
+          "field_mse": 0.06360812485218048,
+          "receiver_mse": 0.058264028280973434,
+          "field_error": 1042155.4164285795,
+          "field_true": 16347702.26747235,
+          "scatter_field_true": 1042155.4164285795,
+          "trace_error": 183.0538488770266,
+          "trace_true": 3056.756990218245,
+          "scatter_trace_true": 183.0538488770266
+        }
+      ]
+    },
+    "single_target": {
+      "split": "train",
+      "groups": 1,
+      "shots": 1,
+      "mean_field_mse": 0.0,
+      "mean_receiver_mse": 0.0,
+      "mean_total_objective": 0.0,
+      "full_field_relative_l2": 0.0,
+      "full_trace_relative_l2": 0.00012749832656903113,
+      "scatter_field_relative_l2": 0.0,
+      "scatter_trace_relative_l2": 0.0005210093405041967,
+      "regions": {
+        "opposite_boundary": {
+          "scatter_field_relative_l2": 0.0,
+          "energy_sums": {
+            "error": 0.0,
+            "reference": 28191.01742762496
+          }
+        },
+        "interior": {
+          "scatter_field_relative_l2": 0.0,
+          "energy_sums": {
+            "error": 0.0,
+            "reference": 978788.4268803338
+          }
+        },
+        "array_side": {
+          "scatter_field_relative_l2": 0.0,
+          "energy_sums": {
+            "error": 0.0,
+            "reference": 35175.97212062064
+          }
+        }
+      },
+      "energy_sums": {
+        "field_error": 0.0,
+        "field_true": 16347702.26747235,
+        "scatter_field_true": 1042155.4164285795,
+        "trace_error": 4.9690101436483406e-05,
+        "trace_true": 3056.756990218245,
+        "scatter_trace_true": 183.0538488770266
+      },
+      "records": [
+        {
+          "group_id": "synthetic_workpiece_000",
+          "split": "train",
+          "shot": 0,
+          "field_mse": 0.0,
+          "receiver_mse": 0.0,
+          "field_error": 0.0,
+          "field_true": 16347702.26747235,
+          "scatter_field_true": 1042155.4164285795,
+          "trace_error": 4.9690101436483406e-05,
+          "trace_true": 3056.756990218245,
+          "scatter_trace_true": 183.0538488770266
+        }
+      ]
+    }
+  },
+  "history": [
+    {
+      "update": 0,
+      "metrics": {
+        "split": "train",
+        "groups": 1,
+        "shots": 1,
+        "mean_field_mse": 0.06418269127607346,
+        "mean_receiver_mse": 0.05840550735592842,
+        "mean_total_objective": 0.12258819863200188,
+        "full_field_relative_l2": 0.25362411391895995,
+        "full_trace_relative_l2": 0.24500895055843974,
+        "scatter_field_relative_l2": 1.004506282943015,
+        "scatter_trace_relative_l2": 1.0012049191795762,
+        "regions": {
+          "opposite_boundary": {
+            "scatter_field_relative_l2": 1.0015131720902213,
+            "energy_sums": {
+              "error": 28276.39769784214,
+              "reference": 28191.01742762496
+            }
+          },
+          "interior": {
+            "scatter_field_relative_l2": 1.0046792097932218,
+            "energy_sums": {
+              "error": 987969.7702422397,
+              "reference": 978788.4268803338
+            }
+          },
+          "array_side": {
+            "scatter_field_relative_l2": 1.0020863705060743,
+            "energy_sums": {
+              "error": 35322.90546109306,
+              "reference": 35175.97212062064
+            }
+          }
+        },
+        "energy_sums": {
+          "field_error": 1051569.073401175,
+          "field_true": 16347702.26747235,
+          "scatter_field_true": 1042155.4164285795,
+          "trace_error": 183.49524482695233,
+          "trace_true": 3056.756990218245,
+          "scatter_trace_true": 183.0538488770266
+        },
+        "records": [
+          {
+            "group_id": "synthetic_workpiece_000",
+            "split": "train",
+            "shot": 0,
+            "field_mse": 0.06418269127607346,
+            "receiver_mse": 0.05840550735592842,
+            "field_error": 1051569.073401175,
+            "field_true": 16347702.26747235,
+            "scatter_field_true": 1042155.4164285795,
+            "trace_error": 183.49524482695233,
+            "trace_true": 3056.756990218245,
+            "scatter_trace_true": 183.0538488770266
+          }
+        ]
+      }
+    },
+    {
+      "update": 400,
+      "metrics": {
+        "split": "train",
+        "groups": 1,
+        "shots": 1,
+        "mean_field_mse": 0.06366579979658127,
+        "mean_receiver_mse": 0.05805167555809021,
+        "mean_total_objective": 0.12171747535467148,
+        "full_field_relative_l2": 0.25260078972388744,
+        "full_trace_relative_l2": 0.24426749820994204,
+        "scatter_field_relative_l2": 1.0004532945754878,
+        "scatter_trace_relative_l2": 0.9981750472628108,
+        "regions": {
+          "opposite_boundary": {
+            "scatter_field_relative_l2": 1.0000826609109104,
+            "energy_sums": {
+              "error": 28195.678210609396,
+              "reference": 28191.01742762496
+            }
+          },
+          "interior": {
+            "scatter_field_relative_l2": 1.0004749385113616,
+            "energy_sums": {
+              "error": 979718.3762991023,
+              "reference": 978788.4268803338
+            }
+          },
+          "array_side": {
+            "scatter_field_relative_l2": 1.000147969757508,
+            "energy_sums": {
+              "error": 35186.38285092986,
+              "reference": 35175.97212062064
+            }
+          }
+        },
+        "energy_sums": {
+          "field_error": 1043100.4373606415,
+          "field_true": 16347702.26747235,
+          "scatter_field_true": 1042155.4164285795,
+          "trace_error": 182.38632928405167,
+          "trace_true": 3056.756990218245,
+          "scatter_trace_true": 183.0538488770266
+        },
+        "records": [
+          {
+            "group_id": "synthetic_workpiece_000",
+            "split": "train",
+            "shot": 0,
+            "field_mse": 0.06366579979658127,
+            "receiver_mse": 0.05805167555809021,
+            "field_error": 1043100.4373606415,
+            "field_true": 16347702.26747235,
+            "scatter_field_true": 1042155.4164285795,
+            "trace_error": 182.38632928405167,
+            "trace_true": 3056.756990218245,
+            "scatter_trace_true": 183.0538488770266
+          }
+        ]
+      }
+    },
+    {
+      "update": 4000,
+      "metrics": {
+        "split": "train",
+        "groups": 1,
+        "shots": 1,
+        "mean_field_mse": 0.06412814557552338,
+        "mean_receiver_mse": 0.05604120343923569,
+        "mean_total_objective": 0.12016934901475906,
+        "full_field_relative_l2": 0.2535163236645673,
+        "full_trace_relative_l2": 0.23999336141397298,
+        "scatter_field_relative_l2": 1.0040793677490911,
+        "scatter_trace_relative_l2": 0.9807092086654167,
+        "regions": {
+          "opposite_boundary": {
+            "scatter_field_relative_l2": 0.9999472772351882,
+            "energy_sums": {
+              "error": 28188.044889223962,
+              "reference": 28191.01742762496
+            }
+          },
+          "interior": {
+            "scatter_field_relative_l2": 1.0039095706245715,
+            "energy_sums": {
+              "error": 986456.6723721738,
+              "reference": 978788.4268803338
+            }
+          },
+          "array_side": {
+            "scatter_field_relative_l2": 1.01207656760145,
+            "energy_sums": {
+              "error": 36030.712317506914,
+              "reference": 35175.97212062064
+            }
+          }
+        },
+        "energy_sums": {
+          "field_error": 1050675.4295789045,
+          "field_true": 16347702.26747235,
+          "scatter_field_true": 1042155.4164285795,
+          "trace_error": 176.05946235004794,
+          "trace_true": 3056.756990218245,
+          "scatter_trace_true": 183.0538488770266
+        },
+        "records": [
+          {
+            "group_id": "synthetic_workpiece_000",
+            "split": "train",
+            "shot": 0,
+            "field_mse": 0.06412814557552338,
+            "receiver_mse": 0.05604120343923569,
+            "field_error": 1050675.4295789045,
+            "field_true": 16347702.26747235,
+            "scatter_field_true": 1042155.4164285795,
+            "trace_error": 176.05946235004794,
+            "trace_true": 3056.756990218245,
+            "scatter_trace_true": 183.0538488770266
+          }
+        ]
+      }
+    }
+  ],
+  "final_training": {
+    "split": "train",
+    "groups": 1,
+    "shots": 1,
+    "mean_field_mse": 0.06412814557552338,
+    "mean_receiver_mse": 0.05604120343923569,
+    "mean_total_objective": 0.12016934901475906,
+    "full_field_relative_l2": 0.2535163236645673,
+    "full_trace_relative_l2": 0.23999336141397298,
+    "scatter_field_relative_l2": 1.0040793677490911,
+    "scatter_trace_relative_l2": 0.9807092086654167,
+    "regions": {
+      "opposite_boundary": {
+        "scatter_field_relative_l2": 0.9999472772351882,
+        "energy_sums": {
+          "error": 28188.044889223962,
+          "reference": 28191.01742762496
+        }
+      },
+      "interior": {
+        "scatter_field_relative_l2": 1.0039095706245715,
+        "energy_sums": {
+          "error": 986456.6723721738,
+          "reference": 978788.4268803338
+        }
+      },
+      "array_side": {
+        "scatter_field_relative_l2": 1.01207656760145,
+        "energy_sums": {
+          "error": 36030.712317506914,
+          "reference": 35175.97212062064
+        }
+      }
+    },
+    "energy_sums": {
+      "field_error": 1050675.4295789045,
+      "field_true": 16347702.26747235,
+      "scatter_field_true": 1042155.4164285795,
+      "trace_error": 176.05946235004794,
+      "trace_true": 3056.756990218245,
+      "scatter_trace_true": 183.0538488770266
+    },
+    "records": [
+      {
+        "group_id": "synthetic_workpiece_000",
+        "split": "train",
+        "shot": 0,
+        "field_mse": 0.06412814557552338,
+        "receiver_mse": 0.05604120343923569,
+        "field_error": 1050675.4295789045,
+        "field_true": 16347702.26747235,
+        "scatter_field_true": 1042155.4164285795,
+        "trace_error": 176.05946235004794,
+        "trace_true": 3056.756990218245,
+        "scatter_trace_true": 183.0538488770266
+      }
+    ]
+  },
+  "material_response_training_only": {
+    "field": {
+      "relative_l2": 1.000001345917953,
+      "norm_ratio": 0.0005990609701128873,
+      "cosine": -0.0019471838328179725,
+      "energy_sums": {
+        "error": 1042158.221727324,
+        "predicted": 0.3740025307582397,
+        "reference": 1042155.4164140663,
+        "dot": -1.2156553634068648
+      }
+    },
+    "trace": {
+      "relative_l2": 0.9998695392727213,
+      "norm_ratio": 0.0006868735783714606,
+      "cosine": 0.19026516530787638,
+      "energy_sums": {
+        "error": 183.0060892815402,
+        "predicted": 8.636394784912894e-05,
+        "reference": 183.05384884246578,
+        "dot": 0.023922962436719167
+      }
+    },
+    "opposite_boundary": {
+      "relative_l2": 0.9999975204377411,
+      "norm_ratio": 0.00041446114542335964,
+      "cosine": 0.006189840069506824,
+      "energy_sums": {
+        "error": 28190.877627374226,
+        "predicted": 0.00484259774976707,
+        "reference": 28191.017429966614,
+        "dot": 0.07232259506833463
+      }
+    },
+    "interior": {
+      "relative_l2": 1.0000028411475317,
+      "norm_ratio": 0.0005854789257768908,
+      "cosine": -0.004559957094727107,
+      "energy_sums": {
+        "error": 978793.9886368407,
+        "predicted": 0.33551455128730107,
+        "reference": 978788.4268642938,
+        "dot": -2.613128997762976
+      }
+    },
+    "array_side": {
+      "relative_l2": 0.9999628055004213,
+      "norm_ratio": 0.0009780018487826054,
+      "cosine": 0.03851940742060658,
+      "energy_sums": {
+        "error": 35173.35546310908,
+        "predicted": 0.033645381721171555,
+        "reference": 35175.97211980594,
+        "dot": 1.3251510392877766
+      }
+    }
+  },
+  "sampled_indices_sha256": "9ab04d1c1e9be159490f78582356b9ebfb8ddbad7f36b6ff0919a5b00146788c",
+  "elapsed_seconds": 26.9119967000006,
+  "final_branch_hash": "a6f1a9a6a7e24df2dfab47711487ef254738bfd7e5ded317af788cfc9ffd7773"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "planned_not_run",
+  "purpose": "Separate scalar material contrast sensitivity from free-pixel recovery difficulty after fixed35 observation control",
+  "case": 1,
+  "data_access": "Author case1 development only; no operator validation/test or independent final test",
+  "observations": ["released measurement1", "frozen same-stencil truth observation"],
+  "geometry": "Fixed known defect support from author material1<0.5; diagnostic oracle geometry, not practical blind inversion",
+  "parameterization": "gamma=1 outside support, gamma=a inside support, original ghost/source/receiver handling",
+  "contrast_values": [0.00001, 0.0001, 0.001, 0.01, 0.05, 0.1, 0.3, 0.7, 1.0],
+  "forward": "Unchanged four shots,24 receivers,2000 steps,dt30ns; same discrete stencil and published source",
+  "metrics": ["correct time cost", "full waveform relative L2", "scalar contrast", "truth projection representation error"],
+  "selection": "All listed contrasts evaluated and reported, no truth-selected optimizer stopping; no network or regularization change",
+  "interpretation": "Known geometry reduces the parameter space; success cannot be claimed as full-field FWI or experimental recovery. Follow-up optimization and physical independent reference require separate frozen protocols."
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "saved_artifacts": "Both final checkpoints and arm logs independently reassembled after post-save step assertion correction",
+  "initial": "Same coverage300 state and predictions",
+  "final": "Both final models reload and metrics match saved arm evaluations",
+  "optimizer": "Stateful final step400;reset final step100 as preregistered",
+  "updates": 200,
+  "physical_calls": 0,
+  "raw_sha256": "0fa9f618609bc4a3f6de4bb6b27f3edf5e3c71d8082eefb42a423a841953b873",
+  "limits": "One initialization;development states;no physical Jacobian or final independent test"
+}

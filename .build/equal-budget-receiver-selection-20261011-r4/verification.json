@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": [
+    "input hashes",
+    "3 physical targets",
+    "2 network forwards",
+    "60 noise/method rows finite",
+    "choices frozen before target observations",
+    "raw outputs saved",
+    "no training"
+  ],
+  "new_physical_calls": 3,
+  "new_network_forwards": 2,
+  "training_updates": 0,
+  "scope": "source0, known center support, discrete material hypothesis discrimination; no blind reconstruction or acquisition savings"
+}

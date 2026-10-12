@@ -1,0 +1,56 @@
+{
+  "status": "planned_not_run",
+  "purpose": "Check whether using all existing training-material diversity helps the fitted-versus-validation gap, before architecture changes.",
+  "data_access": [
+    "train",
+    "validation"
+  ],
+  "test_access": false,
+  "training_workpieces": [
+    "synthetic_workpiece_000",
+    "synthetic_workpiece_001",
+    "synthetic_workpiece_002",
+    "synthetic_workpiece_003",
+    "synthetic_workpiece_008",
+    "synthetic_workpiece_009",
+    "synthetic_workpiece_010",
+    "synthetic_workpiece_011",
+    "synthetic_workpiece_016",
+    "synthetic_workpiece_017",
+    "synthetic_workpiece_018",
+    "synthetic_workpiece_019"
+  ],
+  "shot": 0,
+  "validation": "same six development validation workpieces, source0 only",
+  "model": "BasicFNO eight channels with two zero channels, width4 layers4 modes16/8/64 padding0",
+  "seed": 2,
+  "initial_weights": "same seed2 eight-channel initialization, from scratch",
+  "target": "FD(gamma)-FD(1)",
+  "normalization": "unchanged original12 training groups all-shots RMS, no validation recomputation",
+  "receiver_loss_weight": 1,
+  "optimizer": "Adam lr0.001",
+  "updates": 4800,
+  "exposures_per_training_workpiece": 400,
+  "sample_order": "stable manifest train-group order, repeat400 times",
+  "evaluation_updates": [
+    0,
+    1200,
+    2400,
+    4800
+  ],
+  "selection": "fixed final4800, no validation checkpoint selection or early stop",
+  "references": [
+    "zero scattering",
+    "fixed normalized residual mean computed from these12 training workpieces source0, reused unchanged on validation"
+  ],
+  "metrics": [
+    "train and validation full/scatter field and trace relativeL2 with all records",
+    "supervised training objective vs shared mean optimum",
+    "validation material-versus-homogeneous finite response: norm, alignment, error",
+    "opposite2 rows, interior2..125 and array-side2 rows field and response errors"
+  ],
+  "gate": "Do not use validation amplitude alone as success; require accurate scattering and aligned material response before local physical-gradient and new independent test evaluation.",
+  "comparability": "Material count and total updates both increase;400 exposures per source-material pair are preserved. This tests a practical data-diversity expansion, not an isolated causal estimate of sample count or a guarantee of improved generalization.",
+  "scope": "One source, one seed, scalar synthetic physics; validation is already-used development data. No old test, real-data, speedup or FWI claims.",
+  "data_manifest_sha256": "9972c2aec68c347ba73e1677c182b25542ebc74bb3a5cdcee9b7243548991e42"
+}

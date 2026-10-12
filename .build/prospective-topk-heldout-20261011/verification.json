@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "checks": "frozen protocol, 20 finite proxy records, 6 fresh physical top-k rechecks, no full-grid physical benchmark",
+  "physical_calls": 12,
+  "network_forwards": 20,
+  "no_final_test": true
+}

@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "updates_per_arm": 800,
+  "exposures_per_workpiece": 400,
+  "paired_initial_hash_equal": true,
+  "final_model_reload_max_metric_difference": [
+    0.0,
+    0.0
+  ],
+  "constant_input_predictions_identical": true,
+  "quadratic_mean_oracle_excess_loss_identity": "passed",
+  "pair_response_energy_identity": "passed",
+  "Adam_state_steps_and_finiteness": "passed",
+  "seven_original_files_manifest_and_homogeneous_hashes": "unchanged",
+  "scope": "Two fitted training workpieces, same shot; no validation/test, local physical-gradient or FWI evidence.",
+  "prior_trial_hashes_unchanged": 18,
+  "syntax": "passed",
+  "vault_link_targets_resolved": 33,
+  "figure_visual_review": "completed",
+  "figure_copy_hash_match": true,
+  "regions_partition_energy_identity": "passed",
+  "mean_target_parameter_gradient_check_relative_error": 0.0003705172993880512,
+  "next_protocol_status": "planned_not_run",
+  "documentation_and_main_plan_updated": true
+}

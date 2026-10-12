@@ -1,0 +1,44 @@
+{
+  "status": "numerical_smoke_only",
+  "device": "cuda",
+  "dtype": "float64",
+  "grid": [
+    64,
+    32
+  ],
+  "sources": 2,
+  "receivers": 17,
+  "steps": 420,
+  "repeat_forward_max_abs_error": 0.0,
+  "directional_autograd": 9.208957862938405e-07,
+  "directional_central_difference": {
+    "0.02": 9.209957875717153e-07,
+    "0.01": 9.210576240099204e-07
+  },
+  "relative_directional_errors": {
+    "0.02": 0.00010859130790166582,
+    "0.01": 0.00017573944683930084
+  },
+  "loss_history": [
+    6.609332965295927e-05,
+    5.161551349395321e-05,
+    4.46285643885164e-05,
+    3.592945022645751e-05,
+    3.0591839906747145e-05,
+    2.4851564696055324e-05,
+    2.0699693759194616e-05,
+    1.695424796393627e-05,
+    1.3660744514721193e-05,
+    1.1408971650265473e-05,
+    9.260193548868994e-06,
+    7.534808172999181e-06,
+    6.608714411958115e-06
+  ],
+  "initial_loss": 6.609332965295927e-05,
+  "final_loss": 6.608714411958115e-06,
+  "material_min": 0.5418809652328491,
+  "material_max": 1.0,
+  "mean_reconstructed_inside_defect": 0.6799511909484863,
+  "mean_reconstructed_outside_defect": 0.9440021514892578,
+  "reference_note": "Observed and inverse data use the same grid; inverse crime remains."
+}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "checks": "candidate count, finite traces, rank metrics, and input hashes",
+  "physical_calls": 11,
+  "network_forwards": 10,
+  "no_independent_final_test": true
+}

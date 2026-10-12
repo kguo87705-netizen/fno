@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "all96_updates": "formulas exactly recomputed",
+  "all_metrics": "exact cached recomputation",
+  "all12_final_predictions": "bit identical physical regeneration",
+  "first_update": "prior single-step parity",
+  "inputs_dependencies": "SHA unchanged",
+  "raw_sha256": "414a0f1aa6869fbec0ed2683dee8294cc419ae14ea224848204294e0fbef779e"
+}

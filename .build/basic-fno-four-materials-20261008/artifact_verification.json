@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "updates": 1600,
+  "exposures_per_training_workpiece": 400,
+  "same_eight_channel_initialization": "passed",
+  "frozen_mean_recomputed_from_four_training_workpieces_only": "passed",
+  "quadratic_training_mean_identity": "passed",
+  "group_disjointness": "passed",
+  "final_reload_max_metric_differences": {
+    "train": 0.0,
+    "validation": 0.0
+  },
+  "fixed_mean_references_recomputed": "passed",
+  "region_and_material_response_energy_identities": "passed",
+  "Adam_steps_and_finite_states": "passed",
+  "seven_original_files_and_data_hashes": "unchanged",
+  "scope": "Four fitted training materials and six development validation materials, source0 only, one seed; no test or physical-gradient/FWI evaluation.",
+  "prior_trial_artifact_hashes_unchanged": 13,
+  "syntax": "passed",
+  "vault_link_targets_resolved": 35,
+  "figure_visual_review": "completed",
+  "figure_copy_hash_match": true,
+  "documentation_and_main_plan_updated": true,
+  "next_protocol_status": "planned_not_run"
+}

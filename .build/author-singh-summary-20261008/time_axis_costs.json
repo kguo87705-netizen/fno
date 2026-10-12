@@ -1,0 +1,50 @@
+{
+  "1": {
+    "initial": {
+      "released_axis2": 3.3375873679380996e-12,
+      "last_axis_time": 3.677988903022511e-12
+    },
+    "final": {
+      "released_axis2": 1.065420971932407e-12,
+      "last_axis_time": 1.2554573266404523e-12
+    },
+    "corrected_time_cost_final_over_initial": 0.34134342428514075,
+    "model_updates_changed": false
+  },
+  "2": {
+    "initial": {
+      "released_axis2": 6.732533801290241e-12,
+      "last_axis_time": 7.160925064725321e-12
+    },
+    "final": {
+      "released_axis2": 1.3563000549055015e-12,
+      "last_axis_time": 1.5577293144622417e-12
+    },
+    "corrected_time_cost_final_over_initial": 0.21753185522574564,
+    "model_updates_changed": false
+  },
+  "3": {
+    "initial": {
+      "released_axis2": 8.414611021856366e-12,
+      "last_axis_time": 9.0446547820755e-12
+    },
+    "final": {
+      "released_axis2": 1.7364386838136792e-12,
+      "last_axis_time": 1.9409014326288165e-12
+    },
+    "corrected_time_cost_final_over_initial": 0.21459099096576384,
+    "model_updates_changed": false
+  },
+  "4": {
+    "initial": {
+      "released_axis2": 6.856695766721543e-12,
+      "last_axis_time": 7.341920474357444e-12
+    },
+    "final": {
+      "released_axis2": 1.49353153542503e-12,
+      "last_axis_time": 1.70091013756285e-12
+    },
+    "corrected_time_cost_final_over_initial": 0.23167101080752464,
+    "model_updates_changed": false
+  }
+}

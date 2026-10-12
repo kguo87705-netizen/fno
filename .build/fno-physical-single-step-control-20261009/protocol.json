@@ -1,0 +1,102 @@
+{
+  "status": "fixed_before_update",
+  "plan": {
+    "status": "planned_not_run",
+    "question": "Can one fixed physical scalar correction reduce frozen surrogate recovery bias, and does neural initialization add value over linear lookup?",
+    "output_directory": ".build/fno-physical-single-step-control-20261009",
+    "targets": [
+      0.35,
+      0.45,
+      0.55,
+      0.65
+    ],
+    "observations": "Reuse frozen new-contrast observations; now development/diagnostic data, not untouched final test",
+    "methods": [
+      "uncorrected width8 grid estimate followed by one physical update",
+      "train-only linear grid estimate followed by one physical update",
+      "fixed a=.5 followed by same one physical update"
+    ],
+    "fixed": "Same geometry/source0, observations, physical float64 stencil, objective, epsilon, max step and number of updates. No fitted bias methods promoted.",
+    "primary_factor": "Initial scalar estimate supplied by frozen FNO, train-only linear or fixed background-reference contrast",
+    "update": "At a0 compute physical F(a0), F(a0+0.002), F(a0-0.002). J=(Fplus-Fminus)/0.004, r=F(a0)-d. delta=-<J,r>time/<J,J>time. Clamp delta to[-0.02,0.02], clamp a1 to[.3,.7], then compute F(a1). Exactly one step, no line search, acceptance selection, truth stopping or iteration tuning.",
+    "precision": "a0 from frozen grid values, physical update endpoints and a1 use float64; record actual a and endpoints. Same original coefficients promoted float64.",
+    "report": "All4 targets and3 initializations, even increases. Record raw/clipped delta, true cost before/after, full/scatter receiver errors, material error after completing step, slope norm and boundary flags.",
+    "references": [
+      "no-update starting estimate",
+      "same physical grid optimum from prior cache",
+      "linear lookup initialization under identical update budget",
+      "fixed .5 direct-physical start, explicitly different starting estimate"
+    ],
+    "cost_accounting": "Four physical calls per target/initialization,48 calls; original and linear201-point lookup costs are prior recorded first-stage costs and must remain separate. Shared/cached calls reported; no inference of full inversion amortization from one-step timing.",
+    "decision": {
+      "both_FNO_and_linear_correct": "Supports hybrid physical verification/correction; if quality comparable, no evidence neural first stage is needed for this task.",
+      "FNO_correct_linear_not": "Only one-step known-support evidence; require new frozen validation and full cost before advantage claim.",
+      "cost_decreases_but_material_worsens": "Do not label recovery success; revisit physical objective/material relationship.",
+      "updates_increase_cost_or_boundary": "Report failure; separately preregister optimizer/step diagnostic, no automatic retuning."
+    },
+    "budget": "48 float64 FD calls, estimated under1min to2min,cap5min,no network training/download, fresh directory, OOM stop.",
+    "limits": "Single known-support scalar Gauss-Newton step on used prospective-validation observations. Not blind FWI, final testing, complete optimization or same-quality total-cost advantage.",
+    "frozen_sha256": {
+      ".build\\fno-frozen-new-contrast-validation-20261009\\raw.pt": "10a717aa2e16573d4beaa665d77e773a46cd3fedc75c7a23478e6401b9c53af2",
+      ".build\\fno-frozen-new-contrast-validation-20261009\\summary.json": "f4e31dabfea5b30b4073383963965f939c978d144016461f0b548226d367877f",
+      ".build\\fno-frozen-new-contrast-validation-20261009\\observations.pt": "03d21574983adfee9253cfff3b1536dd6d71ebc8a0fafc98efc646f4481ae9c8",
+      ".build\\fno-frozen-new-contrast-validation-20261009\\protocol.json": "05fc558bf9b7108992ac989b125acd589150567e34d28d123779911e8ebc4d5a",
+      "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\discrete_reference.py": "744df2da2f15abed6934a78e600b9d1aa94fc3dd87d87ba48f41839bec7b0aaf",
+      "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_frozen_contrast_validation.py": "6ab90f26ce68f9378f5b8d60ec1f28dfaaf085cfe49fddc5074242a859023dad"
+    }
+  },
+  "plan_sha256": "426473b9693a7024daf95ac3ab53f231917ec1965bc3937800dff364a3700a3d",
+  "script_sha256": "6783c10028943b2bfdb27ce4b7eee6598f2c7890cd9998d263bf83bda9e565b2",
+  "frozen_sha256": {
+    ".build/fno-local-contrast-20261009/final.pt": "4389f119e54011fba8ac181fd090da60a9df5f87d580a0dce60e110cfbc3cf86",
+    ".build/fno-width8-control-20261009/final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+    ".build/fno-width8-control-20261009/comparison.json": "614e0a9b0c007a39858005f2325b9d5bc350ca52e0fd8d51d04905d641fd4432",
+    ".build/fno-local-contrast-20261009/data_manifest.json": "281ac315c43066fae6d75457c42f3800d087192bf15022b86307d999acb4da69",
+    ".build/fno-local-contrast-20261009/references.json": "77573d1a890dc22e8cd2f403f98a2f9f7f7cc6dcbb3736fd1f90522728a96d82",
+    ".build/fno-local-contrast-20261009/contrast_03.pt": "07b6c6bcf1aff23887e7fa1e10f7407c3f30f4e64e33905c2d95cb7ffc8a6906",
+    ".build/fno-local-contrast-20261009/contrast_05.pt": "baf16dcfb73599e8172e31919e052811e21ba09e543bb7a191ced73aee4c9c30",
+    ".build/fno-local-contrast-20261009/contrast_07.pt": "44d76f12fd90866012dec14e6881d113ee591ca8c60abac0fc1d10bce61fe3ba",
+    ".build/fno-local-contrast-20261009/contrast_04.pt": "5e86d1634ce196cdc51dace9cb76d3725a39b9702235b6e8182d1a4415c5e863",
+    ".build/fno-local-contrast-20261009/contrast_06.pt": "a60417869bdfd89ef640c0b425718a9cb25f832dba699700208a77df50cb16d1",
+    ".build/operator-pilot-v3-20261008/homogeneous.pt": "9d382c08f6dbd90cedb09c2971aaf66c96d60ca69fecbfea41d29822955d88b6",
+    ".build/operator-pilot-v3-20261008/synthetic_workpiece_000.pt": "eba5bed176c50f379d3ab4da194aae92529e0ecd648d18eabc352bc1d2a41f82",
+    "Research_Direction/Author_Baseline_Singh_Zenodo14616677/data_casestudy/source.h5": "67d94afee4a19becde3f081424510f2a2433f7dd27d301abdf1954fe6f168c9c",
+    "Research_Direction/Author_Baseline_Singh_Zenodo14616677/settings2D.csv": "4fb9e8fdb8fa2fb97502e605f31351601e115463fa1800913473699d9f4ee398",
+    ".build\\fno-contrast-precision-control-20261009\\summary.json": "86712736a08b06ef9e47c5a3d9246a9d635232b83ca1b82a3a9fe2a86eea5889",
+    ".build\\fno-contrast-precision-control-20261009\\raw.pt": "de90bad92a1a44dc91b0e35b2caa4437056eadff3bdd35d2a02238409417c1b4",
+    ".build\\fno-width8-control-20261009\\final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+    ".build\\fno-local-contrast-20261009\\contrast_03.pt": "07b6c6bcf1aff23887e7fa1e10f7407c3f30f4e64e33905c2d95cb7ffc8a6906",
+    ".build\\fno-local-contrast-20261009\\contrast_04.pt": "5e86d1634ce196cdc51dace9cb76d3725a39b9702235b6e8182d1a4415c5e863",
+    ".build\\fno-local-contrast-20261009\\contrast_05.pt": "baf16dcfb73599e8172e31919e052811e21ba09e543bb7a191ced73aee4c9c30",
+    ".build\\fno-local-contrast-20261009\\contrast_06.pt": "a60417869bdfd89ef640c0b425718a9cb25f832dba699700208a77df50cb16d1",
+    ".build\\fno-local-contrast-20261009\\contrast_07.pt": "44d76f12fd90866012dec14e6881d113ee591ca8c60abac0fc1d10bce61fe3ba",
+    ".build\\fno-scalar-grid-recovery-20261009\\raw.pt": "f71ad75179170a8869e122ad5537a7487716e43c1386dc643ba7c00bcb166083",
+    ".build\\fno-scalar-grid-recovery-20261009\\summary.json": "1dbd3e2cebb109f443b83c42116fc403aa7be82bc57062fdac78823be5b40f0c",
+    ".build\\fno-scalar-grid-recovery-20261009\\protocol.json": "ac370e16329956214287d7eb43c433396d6bfcc5f53f97b1446ec56fe4b598bc",
+    ".build\\fno-training-affine-bias-control-20261009\\affine.pt": "0b1e66ff7ee21fe79ab1b84a3246f573c2c3bfbe9920692db591c5e2ecc19998",
+    ".build\\fno-training-affine-bias-control-20261009\\summary.json": "7b3ddd8992063c05c2a2a3929bd9930ed403ad290b47bee7f172f82c667b040e",
+    ".build\\fno-training-affine-bias-control-20261009\\protocol.json": "7fac8b4b14e029213d1866c8ac9cd34d6aac58a3caeec95e544f25cb17a76b7f",
+    ".build\\fno-training-bias-control-20261009\\calibration.pt": "b093d5c5a5196ad6635dfd259b65a314dafb1de874aaafcb237111b9ab2b75da",
+    ".build\\fno-local-contrast-20261009\\data_manifest.json": "281ac315c43066fae6d75457c42f3800d087192bf15022b86307d999acb4da69",
+    ".build\\fno-frozen-new-contrast-validation-20261009\\raw.pt": "10a717aa2e16573d4beaa665d77e773a46cd3fedc75c7a23478e6401b9c53af2",
+    ".build\\fno-frozen-new-contrast-validation-20261009\\summary.json": "f4e31dabfea5b30b4073383963965f939c978d144016461f0b548226d367877f",
+    ".build\\fno-frozen-new-contrast-validation-20261009\\observations.pt": "03d21574983adfee9253cfff3b1536dd6d71ebc8a0fafc98efc646f4481ae9c8",
+    ".build\\fno-frozen-new-contrast-validation-20261009\\protocol.json": "05fc558bf9b7108992ac989b125acd589150567e34d28d123779911e8ebc4d5a",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\discrete_reference.py": "744df2da2f15abed6934a78e600b9d1aa94fc3dd87d87ba48f41839bec7b0aaf",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_frozen_contrast_validation.py": "6ab90f26ce68f9378f5b8d60ec1f28dfaaf085cfe49fddc5074242a859023dad"
+  },
+  "dependencies": {
+    "basic_fno.py": "acf21cd017e7bb399d1184d312212db67023adaa7c8ca008ff8a60081210737a",
+    "run_fno_local_contrast.py": "579d0b03d157c73cd54b3c2495994eaeb9f7e6b200d6cced94a6b67e32c30530",
+    "time_feature_input.py": "5d18c16a80304c2ac8027dbdef5b3bcb3c9dd40450e6361dddb39b84fdc86f39",
+    "operator_data.py": "43c1c3f67f7abe6a91a95886c4121fd6f34031e81f29dd46db1f2d19c82617ca",
+    "time_reconstruction.py": "d749b8f5c6aa379187a8d1486c0249b1d79630a9ecd638e7af63ce1cf7d2aaf2",
+    "discrete_reference.py": "744df2da2f15abed6934a78e600b9d1aa94fc3dd87d87ba48f41839bec7b0aaf",
+    "FiniteDifferencePyTorchConv.py": "ffa51af0896fa2ddc0ef8e705d4f88f3dc9cc61df96b780eef1ad25cac1fde9f",
+    "Utilities.py": "20931a36069c795d367d36bcf81df1875b10ba8459718dcd442377a184c101e3",
+    "run_reduced_material_scan.py": "b48630e557fb7c99e7e881f2c1adb32216311077386f5fe71af4693bc12a1108"
+  },
+  "execution": "float64 promoted original coefficients; four CPU threads; cache shared scalar states only within this run",
+  "GPU": "NVIDIA GeForce RTX 5070",
+  "torch": "2.11.0+cu128"
+}

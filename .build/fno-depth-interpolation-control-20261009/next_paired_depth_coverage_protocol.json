@@ -1,0 +1,68 @@
+{
+  "status": "planned_not_run",
+  "question": "Does local depth training coverage, rather than merely more updates, repair the frozen FNO response within a fixed budget?",
+  "output_directory": ".build/fno-paired-depth-coverage-control-20261009",
+  "arms": {
+    "nominal_repeat": [
+      0,
+      0,
+      0
+    ],
+    "depth_coverage": [
+      -2,
+      0,
+      2
+    ]
+  },
+  "initialization": "Both arms load the identical original width8 final state_dict; verify identical parameter hashes and predictions at update0. Reset Adam in both arms; do not reuse old optimizer momentum.",
+  "fixed": "Same model architecture, a=.5, source0, stored physical labels, IEEE policy, training wavefield/trace scales, field+receiver loss, Adam lr.001,300 total updates per arm, same index cycle0/1/2, no augmentation.",
+  "only_main_change": "Training geometry distribution: three copies of nominal state versus -2/0/+2. Each arm300 exposures,100 per slot; nominal exposure counts differ as intended distribution intervention.",
+  "training_data": "Reuse prior three physical states from depth audit raw.pt; no new physical training labels. Validation +/-1 from interpolation raw.pt is never included in gradient updates.",
+  "validation_role": "Previously used diagnostic development states, not fresh final testing. Purpose is controlled learning mechanism, not independent generalization certification.",
+  "evaluation_updates": [
+    0,
+    150,
+    300
+  ],
+  "primary_update": 300,
+  "stop_rule": "Run exactly300 per arm; final300 primary. No best checkpoint selection, validation early stopping, truth-informed clipping or threshold changes. Preserve both intermediate states and failures.",
+  "metrics": [
+    "Separate train/dev complete/scattered field/receiver errors for every state",
+    "Dev +/-1 finite geometry receiver response error/norm ratio/cosine",
+    "Actual updates,exposures,losses,gradient finiteness,state hashes,reload parity,per-arm time and peak memory",
+    "Nominal contrasts .3/.7 at updates0/300 as descriptive forgetting checks only; no training or stopping based on these"
+  ],
+  "baselines": [
+    "Unchanged original width8",
+    "Frozen train-only depth linear direct and snapshot versions",
+    "Nominal repeated-training arm (more-updates control)",
+    "Nearest depth and zero scatter retained"
+  ],
+  "causal_screen": "At final300 coverage arm must have lower scatter field and receiver error on both dev states and lower dev response relative error than nominal-repeat arm; also meet inherited both-state20% errors and response20%/cos.90 screens. Improvement without absolute screen is partial evidence only.",
+  "neural_utility_gate": "Separately compare coverage arm to frozen depth linear baselines on both errors and response plus accounted preparation/training/inference costs. Passing coverage screen alone does not establish neural superiority or total inversion cost benefit.",
+  "decisions": {
+    "coverage_repairs_and_repeat_does_not": "Supports local geometry coverage as a cause within identical architecture/start/budget; keep simple interpolation unless neural benefit is separately demonstrated.",
+    "both_repair_similarly": "More updates/nominal fitting may suffice, coverage-specific mechanism not established.",
+    "coverage_improves_but_fails_screens": "Partial coverage effect; no automatic more epochs. Inspect train fit and representation before a new budget.",
+    "neither_repairs": "This300-step intervention does not establish a repair; distinguish training fit from dev response, not capacity conclusion.",
+    "controls_fail": "Inconclusive; stop implementation interpretation."
+  },
+  "budget": "600 total optimizer updates; estimated4-6min, cap8min for paired training/evaluation, no downloads or data regeneration; stop on OOM/nonfinite, no grid/mode/precision reduction. Separate fixed-state reload verification allowed.",
+  "scope": "Local fixed-shape/source0 depth family at a=.5; supplied geometry forward task, no blind localization, material inversion, physical material Jacobian or independent final test.",
+  "frozen_sha256": {
+    ".build\\fno-frozen-depth-shift-audit-20261009-r2\\raw.pt": "246c5fbd657fb8b03337832ee3081f2db6011798fa925c3763d9f0c9e032b061",
+    ".build\\fno-depth-interpolation-control-20261009\\raw.pt": "1f0f1dd54042cc812a8f3ef768e1435354d848f0a57e076856432912ef15da7d",
+    ".build\\fno-depth-interpolation-control-20261009\\summary.json": "82af871baea63216be452906d42f0ae03d37424f7dedc3b4d7c7c6ad74f29a9d",
+    ".build\\fno-depth-interpolation-control-20261009\\verification.json": "0644b2e5c81a85deeaae330d65f9d18c49a7cb08f127f3a6151b5c052bc22cf3",
+    ".build\\fno-depth-interpolation-control-20261009\\references.pt": "2bf461f8697e4693d5f235f59320e58b31f376e33fe8995b542a4f45f4736b0e",
+    ".build\\fno-depth-interpolation-control-20261009\\reference_commit.json": "07bcaded29c391e7fcd7771fedf6a8539961ebeb15a99e1ac810bff43835ffb5",
+    ".build\\fno-width8-control-20261009\\final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+    ".build\\fno-local-contrast-20261009\\data_manifest.json": "281ac315c43066fae6d75457c42f3800d087192bf15022b86307d999acb4da69",
+    ".build\\fno-local-contrast-20261009\\contrast_03.pt": "07b6c6bcf1aff23887e7fa1e10f7407c3f30f4e64e33905c2d95cb7ffc8a6906",
+    ".build\\fno-local-contrast-20261009\\contrast_07.pt": "44d76f12fd90866012dec14e6881d113ee591ca8c60abac0fc1d10bce61fe3ba",
+    ".build\\operator-pilot-v3-20261008\\homogeneous.pt": "9d382c08f6dbd90cedb09c2971aaf66c96d60ca69fecbfea41d29822955d88b6",
+    "C:\\Users\\Administrator\\Desktop\\大二下\\大三课程\\文献阅读\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_receiver_loss_control.py": "50e645a04cdd4695b808db3326e3c87a0a4ea96bfe606c37d83d1c1c4df6a039",
+    "C:\\Users\\Administrator\\Desktop\\大二下\\大三课程\\文献阅读\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\time_feature_input.py": "5d18c16a80304c2ac8027dbdef5b3bcb3c9dd40450e6361dddb39b84fdc86f39",
+    "C:\\Users\\Administrator\\Desktop\\大二下\\大三课程\\文献阅读\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\basic_fno.py": "acf21cd017e7bb399d1184d312212db67023adaa7c8ca008ff8a60081210737a"
+  }
+}

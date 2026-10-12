@@ -1,0 +1,86 @@
+{
+  "status": "passed_with_accounting_correction",
+  "hash_checks": [
+    {
+      "path": "D:\\下载\\FNO_Research_Workspace\\.build\\same-quality-cost-audit-20261011\\two_stage_topk_protocol.json",
+      "exists": true,
+      "sha256": "b3acbd76b5adb948c1c03c95322adbc2fb05756ffd328e413b52e41bfa94abe5"
+    },
+    {
+      "path": "D:\\下载\\FNO_Research_Workspace\\.build\\fno-frozen-depth-shift-audit-20261009-r2\\state_0.pt",
+      "exists": true,
+      "sha256": "4a35b835ea601b37617a9ed4aa4082fb142d04247ccaf8845776ad71a86b569b"
+    },
+    {
+      "path": "D:\\下载\\FNO_Research_Workspace\\.build\\fno-frozen-depth-shift-audit-20261009-r2\\state_2.pt",
+      "exists": true,
+      "sha256": "083ee6e78c6bb0f744879bce3cb70dd642ac2e1a26f8b66a10eefd7df74b97c9"
+    },
+    {
+      "path": "D:\\下载\\FNO_Research_Workspace\\.build\\fno-lowfreq-field-control-r2-20261011\\loss_original_update400.pt",
+      "exists": true,
+      "sha256": "8b59728c9ab6c72d08d6f8d12fae34ad8300df26640997dd85953c0908aa9a2b"
+    },
+    {
+      "path": "D:\\下载\\FNO_Research_Workspace\\.build\\operator-pilot-v3-20261008\\homogeneous.pt",
+      "exists": true,
+      "sha256": "9d382c08f6dbd90cedb09c2971aaf66c96d60ca69fecbfea41d29822955d88b6"
+    },
+    {
+      "path": "D:\\下载\\FNO_Research_Workspace\\.build\\fno-local-contrast-20261009\\contrast_03.pt",
+      "exists": true,
+      "sha256": "07b6c6bcf1aff23887e7fa1e10f7407c3f30f4e64e33905c2d95cb7ffc8a6906"
+    },
+    {
+      "path": "D:\\下载\\FNO_Research_Workspace\\.build\\fno-local-contrast-20261009\\contrast_07.pt",
+      "exists": true,
+      "sha256": "44d76f12fd90866012dec14e6881d113ee591ca8c60abac0fc1d10bce61fe3ba"
+    },
+    {
+      "path": "D:\\下载\\FNO_Research_Workspace\\.build\\fno-local-contrast-20261009\\data_manifest.json",
+      "exists": true,
+      "sha256": "281ac315c43066fae6d75457c42f3800d087192bf15022b86307d999acb4da69"
+    },
+    {
+      "path": "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_fno_local_contrast.py",
+      "exists": true,
+      "sha256": "579d0b03d157c73cd54b3c2495994eaeb9f7e6b200d6cced94a6b67e32c30530"
+    },
+    {
+      "path": "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_frozen_depth_shift.py",
+      "exists": true,
+      "sha256": "ffb0aa8c5ecd01ee879e90d1b78f4cd784f2cc50d2841026a8730ec7031c253e"
+    },
+    {
+      "path": "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\basic_fno.py",
+      "exists": true,
+      "sha256": "acf21cd017e7bb399d1184d312212db67023adaa7c8ca008ff8a60081210737a"
+    },
+    {
+      "path": "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\FiniteDifferencePyTorchConv.py",
+      "exists": true,
+      "sha256": "ffa51af0896fa2ddc0ef8e705d4f88f3dc9cc61df96b780eef1ad25cac1fde9f"
+    },
+    {
+      "path": "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\settings2D.csv",
+      "exists": true,
+      "sha256": "4fb9e8fdb8fa2fb97502e605f31351601e115463fa1800913473699d9f4ee398"
+    },
+    {
+      "path": "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\data_casestudy\\source.h5",
+      "exists": true,
+      "sha256": "67d94afee4a19becde3f081424510f2a2433f7dd27d301abdf1954fe6f168c9c"
+    },
+    {
+      "path": "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_two_stage_topk_verification_20261011.py",
+      "exists": true,
+      "sha256": "f3874af83b9033e7b8fbb5da336a783d970003cb0201091cdbef17163b30b139"
+    }
+  ],
+  "summary_finite": true,
+  "topk_membership_checked": true,
+  "protocol_budget_physical_calls": 30,
+  "actual_benchmark_physical_calls": 32,
+  "budget_note": "protocol budget 30 vs actual 32 because target+20 grid+5 centers+6 rechecks=32; no truth-based stopping; preserve as accounting mismatch",
+  "no_final_test": true
+}

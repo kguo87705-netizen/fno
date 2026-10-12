@@ -1,0 +1,762 @@
+{
+  "schema_version": 1,
+  "scope": "Synthetic I/O pilot on the released scalar density-scaling solver. Four author cases excluded; all shots and future versions of a workpiece must share its split. No FNO trained.",
+  "seed": 20261008,
+  "grid_physical": [
+    256,
+    128
+  ],
+  "grid_padded": [
+    258,
+    130
+  ],
+  "steps": 2000,
+  "dt_seconds": 3e-08,
+  "snapshot_stride": 4,
+  "source_file_sha256": "67d94afee4a19becde3f081424510f2a2433f7dd27d301abdf1954fe6f168c9c",
+  "solver_sha256": "ffa51af0896fa2ddc0ef8e705d4f88f3dc9cc61df96b780eef1ad25cac1fde9f",
+  "material_quantity": "dimensionless density scaling gamma",
+  "wave_quantity": "author scalar wave variable; absolute experimental calibration not established",
+  "records": [
+    {
+      "group_id": "synthetic_workpiece_000",
+      "split": "train",
+      "file": "synthetic_workpiece_000.pt",
+      "defects": [
+        {
+          "x_m": 0.031281823002192975,
+          "y_m": 0.03629481593078667,
+          "axis_x_m": 0.006965594462249671,
+          "axis_y_m": 0.0031898383767438943,
+          "gamma": 0.6048060185139736
+        }
+      ],
+      "gamma_sha256": "07c994703be4748d703a837fac4b0d6622e90be541c8344f48eaf0460cb38d74",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014137710572623053
+    },
+    {
+      "group_id": "synthetic_workpiece_001",
+      "split": "train",
+      "file": "synthetic_workpiece_001.pt",
+      "defects": [
+        {
+          "x_m": 0.0260744125784116,
+          "y_m": 0.02108121442740624,
+          "axis_x_m": 0.003719037570039438,
+          "axis_y_m": 0.0048115914301930796,
+          "gamma": 0.6155033340504669
+        },
+        {
+          "x_m": 0.07505316832838878,
+          "y_m": 0.025548566181686078,
+          "axis_x_m": 0.0045221858394677425,
+          "axis_y_m": 0.0022808020432359983,
+          "gamma": 0.4240485113544026
+        }
+      ],
+      "gamma_sha256": "5b43ad62177ce69b737ee59b6f0d2f8228e32ecd5d787c9a8df3ca110c7f9b7a",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014123401346135838
+    },
+    {
+      "group_id": "synthetic_workpiece_002",
+      "split": "train",
+      "file": "synthetic_workpiece_002.pt",
+      "defects": [
+        {
+          "x_m": 0.03726764044674649,
+          "y_m": 0.024938078347947132,
+          "axis_x_m": 0.003244244882230049,
+          "axis_y_m": 0.003997289170870482,
+          "gamma": 0.5383940261775402
+        }
+      ],
+      "gamma_sha256": "ca96299a295b5be40aaf8d09aade7ce9c3d9a9877dff3b4c1330c608ea2af3bd",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014135844338872912
+    },
+    {
+      "group_id": "synthetic_workpiece_003",
+      "split": "train",
+      "file": "synthetic_workpiece_003.pt",
+      "defects": [
+        {
+          "x_m": 0.032656969426652055,
+          "y_m": 0.03342575748598583,
+          "axis_x_m": 0.003413176517265459,
+          "axis_y_m": 0.002569346010465939,
+          "gamma": 0.5186915262615229
+        },
+        {
+          "x_m": 0.05809481977586863,
+          "y_m": 0.01825277432092385,
+          "axis_x_m": 0.006098085882707389,
+          "axis_y_m": 0.004977279628406153,
+          "gamma": 0.5817727937732982
+        }
+      ],
+      "gamma_sha256": "acee1fca8ff11807ca075506f3ed424c619a395d090824319b117a6b408e5806",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014115489483412453
+    },
+    {
+      "group_id": "synthetic_workpiece_004",
+      "split": "validation",
+      "file": "synthetic_workpiece_004.pt",
+      "defects": [
+        {
+          "x_m": 0.057850651047245634,
+          "y_m": 0.017208484873067396,
+          "axis_x_m": 0.005412315607950712,
+          "axis_y_m": 0.002459184683660811,
+          "gamma": 0.6092511327002652
+        }
+      ],
+      "gamma_sha256": "e895c9c7e33cd61871ba394582de9346760c561d490e3e907f8df15c8d09f556",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014122648601305831
+    },
+    {
+      "group_id": "synthetic_workpiece_005",
+      "split": "validation",
+      "file": "synthetic_workpiece_005.pt",
+      "defects": [
+        {
+          "x_m": 0.041855572168721336,
+          "y_m": 0.031806797440618366,
+          "axis_x_m": 0.005587703397568754,
+          "axis_y_m": 0.004221603649630704,
+          "gamma": 0.5081498879656347
+        },
+        {
+          "x_m": 0.06994575297867539,
+          "y_m": 0.02627133183364637,
+          "axis_x_m": 0.0037877630452018696,
+          "axis_y_m": 0.0037182433573615154,
+          "gamma": 0.53442778139567
+        }
+      ],
+      "gamma_sha256": "b24fc70e3266e7bdb349edc2ec9d0c53456f138de488aa1f52b13b337c7d008d",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014112179573665583
+    },
+    {
+      "group_id": "synthetic_workpiece_006",
+      "split": "test",
+      "file": "synthetic_workpiece_006.pt",
+      "defects": [
+        {
+          "x_m": 0.06240601248972251,
+          "y_m": 0.0184252594261418,
+          "axis_x_m": 0.005503119693741223,
+          "axis_y_m": 0.00498880822975575,
+          "gamma": 0.4178900578497527
+        }
+      ],
+      "gamma_sha256": "128194cfcddfc0d120c2144914bd12311f655814b423709725521146cf388479",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014100857986204458
+    },
+    {
+      "group_id": "synthetic_workpiece_007",
+      "split": "test",
+      "file": "synthetic_workpiece_007.pt",
+      "defects": [
+        {
+          "x_m": 0.03643620480627559,
+          "y_m": 0.015365070948208161,
+          "axis_x_m": 0.0030866041746073617,
+          "axis_y_m": 0.0032903244566967007,
+          "gamma": 0.39778800551437404
+        },
+        {
+          "x_m": 0.0723007845913231,
+          "y_m": 0.0230705030094802,
+          "axis_x_m": 0.003313541576107126,
+          "axis_y_m": 0.0030344653307753985,
+          "gamma": 0.3158622041321884
+        }
+      ],
+      "gamma_sha256": "72d7a582f12b61044c541b12b6f3a376b92854e2b40ff7b43ab231b42339d16c",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014127824739970285
+    },
+    {
+      "group_id": "synthetic_workpiece_008",
+      "split": "train",
+      "file": "synthetic_workpiece_008.pt",
+      "defects": [
+        {
+          "x_m": 0.03278456182573065,
+          "y_m": 0.025583034576447866,
+          "axis_x_m": 0.006971387128090809,
+          "axis_y_m": 0.0029137054434097342,
+          "gamma": 0.3438350180074891
+        }
+      ],
+      "gamma_sha256": "7c25a98f55ca3267eacfe616bf1ee8a0f8497d314131d09c71f7ba3628d29a2e",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.01408638736320038
+    },
+    {
+      "group_id": "synthetic_workpiece_009",
+      "split": "train",
+      "file": "synthetic_workpiece_009.pt",
+      "defects": [
+        {
+          "x_m": 0.035726039168323544,
+          "y_m": 0.02201346896681399,
+          "axis_x_m": 0.00522206044998193,
+          "axis_y_m": 0.004961793996244686,
+          "gamma": 0.3526055752094731
+        },
+        {
+          "x_m": 0.06791437972473888,
+          "y_m": 0.014512196215348714,
+          "axis_x_m": 0.0040671619002594275,
+          "axis_y_m": 0.0043712285861698345,
+          "gamma": 0.3598425536952912
+        }
+      ],
+      "gamma_sha256": "fa4afe4caab7f2424528c2fa3a60c6850f45630ba99b7e3a3dc94cda0a687353",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.013983908120407477
+    },
+    {
+      "group_id": "synthetic_workpiece_010",
+      "split": "train",
+      "file": "synthetic_workpiece_010.pt",
+      "defects": [
+        {
+          "x_m": 0.04032104130384652,
+          "y_m": 0.02475083754022267,
+          "axis_x_m": 0.003151189121295742,
+          "axis_y_m": 0.004944956887235936,
+          "gamma": 0.6332991092351636
+        }
+      ],
+      "gamma_sha256": "03ae8405af96f771159f60aa30d2e9393b3670dd3225f0b3499635fe68d99514",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014130808715694597
+    },
+    {
+      "group_id": "synthetic_workpiece_011",
+      "split": "train",
+      "file": "synthetic_workpiece_011.pt",
+      "defects": [
+        {
+          "x_m": 0.025708548184605214,
+          "y_m": 0.032778503600228936,
+          "axis_x_m": 0.0036592535360164243,
+          "axis_y_m": 0.003704979204297035,
+          "gamma": 0.5615426257074019
+        },
+        {
+          "x_m": 0.05823184295885664,
+          "y_m": 0.020913268685030934,
+          "axis_x_m": 0.0037304522316850028,
+          "axis_y_m": 0.0020555140199989626,
+          "gamma": 0.5989833354003046
+        }
+      ],
+      "gamma_sha256": "432c703384e693fe47a71470ba336b038e99b4324aa3a60b1d4be0a1f0776287",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014166293797514547
+    },
+    {
+      "group_id": "synthetic_workpiece_012",
+      "split": "validation",
+      "file": "synthetic_workpiece_012.pt",
+      "defects": [
+        {
+          "x_m": 0.02809815846179565,
+          "y_m": 0.01658614163982817,
+          "axis_x_m": 0.003272017553770767,
+          "axis_y_m": 0.004449342233446944,
+          "gamma": 0.6045850040864322
+        }
+      ],
+      "gamma_sha256": "d496a91c4664a43ea44fbfdeea8b29b760a2eed4ea850eddaeecb22944137bd1",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014142971512591977
+    },
+    {
+      "group_id": "synthetic_workpiece_013",
+      "split": "validation",
+      "file": "synthetic_workpiece_013.pt",
+      "defects": [
+        {
+          "x_m": 0.03180250139858801,
+          "y_m": 0.016366306073497382,
+          "axis_x_m": 0.006018125630024338,
+          "axis_y_m": 0.004252398578018906,
+          "gamma": 0.5412916878579278
+        },
+        {
+          "x_m": 0.06619344172330041,
+          "y_m": 0.03541019345085956,
+          "axis_x_m": 0.004527702412559027,
+          "axis_y_m": 0.004345144720458516,
+          "gamma": 0.49874093283694376
+        }
+      ],
+      "gamma_sha256": "dc4c1a9a5eeeda79f7910b6645e4e16d4e7697be7a38fa7212ff3ddfb945047e",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014093297222529642
+    },
+    {
+      "group_id": "synthetic_workpiece_014",
+      "split": "test",
+      "file": "synthetic_workpiece_014.pt",
+      "defects": [
+        {
+          "x_m": 0.027122708415036036,
+          "y_m": 0.019806668988439264,
+          "axis_x_m": 0.0065061440931595705,
+          "axis_y_m": 0.002915200450840724,
+          "gamma": 0.40438085209342955
+        }
+      ],
+      "gamma_sha256": "22f8ccd5c1bdc85fafabdf72612bc29ba7f9b53f0eabd2afe7bcfb9ce907e41a",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.01415823953945869
+    },
+    {
+      "group_id": "synthetic_workpiece_015",
+      "split": "test",
+      "file": "synthetic_workpiece_015.pt",
+      "defects": [
+        {
+          "x_m": 0.04134726023654347,
+          "y_m": 0.02089274853897926,
+          "axis_x_m": 0.004760425059086724,
+          "axis_y_m": 0.0032947173925246343,
+          "gamma": 0.5945745372027299
+        },
+        {
+          "x_m": 0.07061639492130703,
+          "y_m": 0.01704458040120241,
+          "axis_x_m": 0.0033663605034833545,
+          "axis_y_m": 0.003100970370264562,
+          "gamma": 0.43091770465770246
+        }
+      ],
+      "gamma_sha256": "4d0791c58492be7d1a97b7bc3aa8c6e02298b296d65be3eb534e447890395947",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.01410272281223084
+    },
+    {
+      "group_id": "synthetic_workpiece_016",
+      "split": "train",
+      "file": "synthetic_workpiece_016.pt",
+      "defects": [
+        {
+          "x_m": 0.05212361542666232,
+          "y_m": 0.016223899316097565,
+          "axis_x_m": 0.0064380478515845534,
+          "axis_y_m": 0.0036416157808381294,
+          "gamma": 0.5829800322894116
+        }
+      ],
+      "gamma_sha256": "ff27c6c2b0fc6269ae871a661d7b89c483bbb60ff54a3850ece06005a848e528",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014099914618218986
+    },
+    {
+      "group_id": "synthetic_workpiece_017",
+      "split": "train",
+      "file": "synthetic_workpiece_017.pt",
+      "defects": [
+        {
+          "x_m": 0.04048674497978549,
+          "y_m": 0.02093171416071584,
+          "axis_x_m": 0.003274066315543053,
+          "axis_y_m": 0.0023536696642995,
+          "gamma": 0.32429682887739975
+        },
+        {
+          "x_m": 0.060622598627531395,
+          "y_m": 0.036344882586698525,
+          "axis_x_m": 0.005905018817412887,
+          "axis_y_m": 0.004046630140619801,
+          "gamma": 0.6442155978021192
+        }
+      ],
+      "gamma_sha256": "79c379197621ece9fd1b6be1273aaa797f84f73b31c2b17bdbd2f386c4499437",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014110559831089501
+    },
+    {
+      "group_id": "synthetic_workpiece_018",
+      "split": "train",
+      "file": "synthetic_workpiece_018.pt",
+      "defects": [
+        {
+          "x_m": 0.057384961550733575,
+          "y_m": 0.026816021765995374,
+          "axis_x_m": 0.004670268298578867,
+          "axis_y_m": 0.0025193619527695615,
+          "gamma": 0.49100208074785795
+        }
+      ],
+      "gamma_sha256": "3f6e7e1da84b934a4069e993ad85f6e1dcf3f4dcecf43184f7e98059db18d72e",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014106523827112197
+    },
+    {
+      "group_id": "synthetic_workpiece_019",
+      "split": "train",
+      "file": "synthetic_workpiece_019.pt",
+      "defects": [
+        {
+          "x_m": 0.029003947323633244,
+          "y_m": 0.02324485439859896,
+          "axis_x_m": 0.005120351670338422,
+          "axis_y_m": 0.002167179130872789,
+          "gamma": 0.4712259958670134
+        },
+        {
+          "x_m": 0.059497056985270406,
+          "y_m": 0.020340045604738323,
+          "axis_x_m": 0.004586638265957213,
+          "axis_y_m": 0.002785465004066001,
+          "gamma": 0.6237441045941297
+        }
+      ],
+      "gamma_sha256": "2ada97681b02b99c4799f1df8970f20c42453bf37a89020716aeb208ace3b011",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014131094392545451
+    },
+    {
+      "group_id": "synthetic_workpiece_020",
+      "split": "validation",
+      "file": "synthetic_workpiece_020.pt",
+      "defects": [
+        {
+          "x_m": 0.04701284602638438,
+          "y_m": 0.014390335644994279,
+          "axis_x_m": 0.004589332500565591,
+          "axis_y_m": 0.004018984786114678,
+          "gamma": 0.4452365195577353
+        }
+      ],
+      "gamma_sha256": "fd4c569f1a75d4bb06d8495a35662a84b038340006c3cbb1cd5c9cbefd3d1ba5",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014114943455823965
+    },
+    {
+      "group_id": "synthetic_workpiece_021",
+      "split": "validation",
+      "file": "synthetic_workpiece_021.pt",
+      "defects": [
+        {
+          "x_m": 0.04276324066878863,
+          "y_m": 0.030007944373331534,
+          "axis_x_m": 0.006419604502687746,
+          "axis_y_m": 0.0020108273440795836,
+          "gamma": 0.5786932578637216
+        },
+        {
+          "x_m": 0.07326874765783599,
+          "y_m": 0.01575087229105316,
+          "axis_x_m": 0.006114786630241636,
+          "axis_y_m": 0.0024342468488815464,
+          "gamma": 0.5287341322050665
+        }
+      ],
+      "gamma_sha256": "f37cbe38a88cfc24255c564a8d639659f83b3ac711fba30634a10fddcac9fd02",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014155172391073839
+    },
+    {
+      "group_id": "synthetic_workpiece_022",
+      "split": "test",
+      "file": "synthetic_workpiece_022.pt",
+      "defects": [
+        {
+          "x_m": 0.04885393438339718,
+          "y_m": 0.014225932814072802,
+          "axis_x_m": 0.005819743775234237,
+          "axis_y_m": 0.0021984284822583596,
+          "gamma": 0.40393217682978966
+        }
+      ],
+      "gamma_sha256": "ea8f462a6d9b12ec45bb4493c8ff4c3f5d6c0fdaff35361ea6c672fcea2ef6a5",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014143701862037596
+    },
+    {
+      "group_id": "synthetic_workpiece_023",
+      "split": "test",
+      "file": "synthetic_workpiece_023.pt",
+      "defects": [
+        {
+          "x_m": 0.03731492689994789,
+          "y_m": 0.022683329324163434,
+          "axis_x_m": 0.0032453228654491786,
+          "axis_y_m": 0.004319596378972156,
+          "gamma": 0.44067203825948825
+        },
+        {
+          "x_m": 0.07018434796895756,
+          "y_m": 0.03576184866663212,
+          "axis_x_m": 0.005688340515859609,
+          "axis_y_m": 0.0028568827838050957,
+          "gamma": 0.40132864017916736
+        }
+      ],
+      "gamma_sha256": "b7c60801efe81e42ac1cbbf6e7fb863b67e84c783d0aa4bf90a3f14f3609fbd7",
+      "traces_shape": [
+        4,
+        24,
+        2000
+      ],
+      "wavefield_shape": [
+        4,
+        256,
+        128,
+        500
+      ],
+      "linear_temporal_interpolation_relative_error": 0.014105553811843266
+    }
+  ],
+  "normalization": {
+    "fit_split": "train",
+    "trace_mean": 0,
+    "wavefield_mean": 0,
+    "trace_rms": 0.25594272720229144,
+    "wavefield_rms": 0.15921596709548344
+  },
+  "compression_warning": "Stored sparse snapshots are for interface testing. Full 2000-step traces retained; time compression must pass waveform, phase and gradient checks before FWI use."
+}

@@ -1,0 +1,28 @@
+{
+  "epochs": 20,
+  "updates": 960,
+  "seed": 2,
+  "learning_rate": 0.001,
+  "receiver_loss_weight": 1.0,
+  "target": "defect_minus_homogeneous",
+  "scales": {
+    "fit_split": "train",
+    "trace_mean": 0,
+    "wavefield_mean": 0,
+    "trace_rms": 0.25594272720229144,
+    "wavefield_rms": 0.15921596709548344
+  },
+  "normalization_changed": false,
+  "primary_comparison": "final epoch20, no checkpoint selection",
+  "data_access": [
+    "train",
+    "validation"
+  ],
+  "test_unloaded": true,
+  "control": ".build\\basic-fno-multi-control-20261008",
+  "data_manifest_sha256": "9972c2aec68c347ba73e1677c182b25542ebc74bb3a5cdcee9b7243548991e42",
+  "control_checkpoint_sha256": "fd6e6f4a257e1f7efd3000194fb1465045b4086c721762ad9525c280935a1107",
+  "script_sha256": "02e2f814217d75a374fbc39e73afa32c784713045e0217bd25f98d14a3793bc8",
+  "basis": "fixed homogeneous FD snapshots and full traces; material-independent",
+  "scope": "One seed synthetic scalar model; no physical-gradient or inverse evaluation."
+}

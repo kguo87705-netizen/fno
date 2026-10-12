@@ -1,0 +1,39 @@
+{
+  "status": "planned_not_run",
+  "purpose": "Check temporal-coordinate representation after ordinary DeepONet single-material400 failed; one changed factor, same seven-channel architecture.",
+  "training_groups": [
+    "synthetic_workpiece_000"
+  ],
+  "shot": 0,
+  "data_access": [
+    "train"
+  ],
+  "test_access": false,
+  "validation_access": false,
+  "model": "Same BasicDeepONet branch, seven-channel trunk: five canonical coordinates plus two matched zero or physical0.5MHz sin/cos channels.",
+  "arms": [
+    "zero",
+    "sincos"
+  ],
+  "seed": 2,
+  "initialization": "identical seven-channel initial state hash in both arms, from scratch; old five-channel model not causal control",
+  "target": "FD(gamma)-FD(1)",
+  "normalization": "unchanged original training RMS",
+  "receiver_loss_weight": 1,
+  "optimizer": "Adam lr0.001",
+  "updates_per_arm": 400,
+  "field_points_per_update": 32768,
+  "sampling_seed": 19,
+  "sampling": "same CPU torch.randint with replacement sequence in both arms",
+  "receiver_points_per_update": 12000,
+  "selection": "fixed final400, no early stop or validation selection",
+  "metrics": [
+    "full-grid scatter and full field relativeL2",
+    "cubic reconstructed2000-step scatter and full traces",
+    "regional interior/boundary error",
+    "training-only homogeneous material counterfactual response",
+    "finite states, activation/gradient diagnostics"
+  ],
+  "scope": "Training feasibility only, no architecture superiority, material generalization, physical gradient or FWI claim",
+  "data_manifest_sha256": "9972c2aec68c347ba73e1677c182b25542ebc74bb3a5cdcee9b7243548991e42"
+}

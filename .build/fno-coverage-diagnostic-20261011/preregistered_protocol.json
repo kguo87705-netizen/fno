@@ -1,0 +1,34 @@
+{
+  "status": "planned_not_run",
+  "experiment": "spatial_temporal_error_coverage_diagnostic",
+  "models": {
+    "original_fno": "D:\\下载\\FNO_Research_Workspace\\.build\\fno-width8-control-20261009\\final.pt",
+    "coverage300": "D:\\下载\\FNO_Research_Workspace\\.build\\fno-paired-depth-coverage-recovery-r2-20261009\\depth_coverage_update300.pt",
+    "material_replay400": "D:\\下载\\FNO_Research_Workspace\\.build\\fno-matched-material-replay-20261009\\material_replay_update400.pt",
+    "adam_reset400": "D:\\下载\\FNO_Research_Workspace\\.build\\fno-adam-state-control-20261010\\loss_reset_update400.pt"
+  },
+  "states": [
+    "depth-2",
+    "depth0",
+    "depth2",
+    "depth-1",
+    "depth1",
+    "contrast03",
+    "contrast07"
+  ],
+  "fixed": "No updates or physical calls;field residual split y/x boundary/interior regions;receiver residual split FFT low<10%,mid10-40%,high>40%.",
+  "budget": {
+    "forward": 28,
+    "backward": 0,
+    "optimizer": 0,
+    "physical": 0,
+    "seconds_cap": 120
+  },
+  "interpretation": "Region and frequency concentration are diagnostics, not causal tests or capacity proof.",
+  "frozen_sha256": {
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-width8-control-20261009\\final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-paired-depth-coverage-recovery-r2-20261009\\depth_coverage_update300.pt": "6460eb36126572887b07d40f16d9347bd9ce49e51abfe6b655d05da15802e660",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-matched-material-replay-20261009\\material_replay_update400.pt": "d705c291872243e42ed9a37d027195d2f2725ab542c22067973c7fa414239217",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-adam-state-control-20261010\\loss_reset_update400.pt": "18f17c1ad321a189c257bb2c55b8f326572682c8d9bf82958665f6ced282ef64"
+  }
+}

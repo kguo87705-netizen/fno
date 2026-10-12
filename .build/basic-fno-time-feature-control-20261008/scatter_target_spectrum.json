@@ -1,0 +1,673 @@
+{
+  "scope": "Descriptive full-FFT rectangular target-energy mask, not the exact learned Hermitian rFFT output or a strict FNO error bound; local branches and nonlinearities produce additional frequencies.",
+  "target": "FD(gamma)-FD(1)",
+  "modes": [
+    16,
+    8,
+    64
+  ],
+  "mask": "x[-16,15],y[-8,7],t[-63,63]",
+  "test_unloaded": true,
+  "summary": {
+    "train": {
+      "shots": 48,
+      "joint_retained_energy_fraction": 0.9615530993490259,
+      "temporal_retained_energy_fraction": 0.9978208489038599
+    },
+    "validation": {
+      "shots": 24,
+      "joint_retained_energy_fraction": 0.9586519266911278,
+      "temporal_retained_energy_fraction": 0.9978483296638067
+    }
+  },
+  "records": [
+    {
+      "group_id": "synthetic_workpiece_000",
+      "split": "train",
+      "shot": 0,
+      "energy": 1042155.4164285795,
+      "joint_retained_energy_fraction": 0.9549521207809448,
+      "temporal_retained_energy_fraction": 0.9984042048454285,
+      "ideal_linear_joint_truncation_relative_l2": 0.21224485675524665
+    },
+    {
+      "group_id": "synthetic_workpiece_000",
+      "split": "train",
+      "shot": 1,
+      "energy": 1210646.9700020098,
+      "joint_retained_energy_fraction": 0.9576926827430725,
+      "temporal_retained_energy_fraction": 0.9982439875602722,
+      "ideal_linear_joint_truncation_relative_l2": 0.20568742610312252
+    },
+    {
+      "group_id": "synthetic_workpiece_000",
+      "split": "train",
+      "shot": 2,
+      "energy": 603104.3952331238,
+      "joint_retained_energy_fraction": 0.9557093381881714,
+      "temporal_retained_energy_fraction": 0.9978641867637634,
+      "ideal_linear_joint_truncation_relative_l2": 0.21045346709386523
+    },
+    {
+      "group_id": "synthetic_workpiece_000",
+      "split": "train",
+      "shot": 3,
+      "energy": 525423.5264522766,
+      "joint_retained_energy_fraction": 0.9559007883071899,
+      "temporal_retained_energy_fraction": 0.9973827600479126,
+      "ideal_linear_joint_truncation_relative_l2": 0.2099981230697314
+    },
+    {
+      "group_id": "synthetic_workpiece_001",
+      "split": "train",
+      "shot": 0,
+      "energy": 1499680.0639784713,
+      "joint_retained_energy_fraction": 0.9612609148025513,
+      "temporal_retained_energy_fraction": 0.9969850778579712,
+      "ideal_linear_joint_truncation_relative_l2": 0.19682247127157185
+    },
+    {
+      "group_id": "synthetic_workpiece_001",
+      "split": "train",
+      "shot": 1,
+      "energy": 1688296.2945412444,
+      "joint_retained_energy_fraction": 0.9671158790588379,
+      "temporal_retained_energy_fraction": 0.9970913529396057,
+      "ideal_linear_joint_truncation_relative_l2": 0.18133979414668505
+    },
+    {
+      "group_id": "synthetic_workpiece_001",
+      "split": "train",
+      "shot": 2,
+      "energy": 2366096.7549672923,
+      "joint_retained_energy_fraction": 0.9663087725639343,
+      "temporal_retained_energy_fraction": 0.9979552626609802,
+      "ideal_linear_joint_truncation_relative_l2": 0.18355170235131482
+    },
+    {
+      "group_id": "synthetic_workpiece_001",
+      "split": "train",
+      "shot": 3,
+      "energy": 2043468.2786322953,
+      "joint_retained_energy_fraction": 0.9672333598136902,
+      "temporal_retained_energy_fraction": 0.9978044033050537,
+      "ideal_linear_joint_truncation_relative_l2": 0.1810155799546266
+    },
+    {
+      "group_id": "synthetic_workpiece_002",
+      "split": "train",
+      "shot": 0,
+      "energy": 723336.5486121618,
+      "joint_retained_energy_fraction": 0.9676947593688965,
+      "temporal_retained_energy_fraction": 0.998209536075592,
+      "ideal_linear_joint_truncation_relative_l2": 0.17973658679051274
+    },
+    {
+      "group_id": "synthetic_workpiece_002",
+      "split": "train",
+      "shot": 1,
+      "energy": 831535.3511903863,
+      "joint_retained_energy_fraction": 0.9724539518356323,
+      "temporal_retained_energy_fraction": 0.9978151917457581,
+      "ideal_linear_joint_truncation_relative_l2": 0.16597002188457913
+    },
+    {
+      "group_id": "synthetic_workpiece_002",
+      "split": "train",
+      "shot": 2,
+      "energy": 843683.5207619403,
+      "joint_retained_energy_fraction": 0.9752394556999207,
+      "temporal_retained_energy_fraction": 0.9974444508552551,
+      "ideal_linear_joint_truncation_relative_l2": 0.1573548356425037
+    },
+    {
+      "group_id": "synthetic_workpiece_002",
+      "split": "train",
+      "shot": 3,
+      "energy": 547319.2620850444,
+      "joint_retained_energy_fraction": 0.9693652391433716,
+      "temporal_retained_energy_fraction": 0.9975236058235168,
+      "ideal_linear_joint_truncation_relative_l2": 0.1750278859400079
+    },
+    {
+      "group_id": "synthetic_workpiece_003",
+      "split": "train",
+      "shot": 0,
+      "energy": 1526275.382409892,
+      "joint_retained_energy_fraction": 0.9574444890022278,
+      "temporal_retained_energy_fraction": 0.9982286691665649,
+      "ideal_linear_joint_truncation_relative_l2": 0.20628987129224793
+    },
+    {
+      "group_id": "synthetic_workpiece_003",
+      "split": "train",
+      "shot": 1,
+      "energy": 1863717.1725424097,
+      "joint_retained_energy_fraction": 0.9575188755989075,
+      "temporal_retained_energy_fraction": 0.9980176687240601,
+      "ideal_linear_joint_truncation_relative_l2": 0.20610949614487084
+    },
+    {
+      "group_id": "synthetic_workpiece_003",
+      "split": "train",
+      "shot": 2,
+      "energy": 1551572.0440687384,
+      "joint_retained_energy_fraction": 0.9587110877037048,
+      "temporal_retained_energy_fraction": 0.9976023435592651,
+      "ideal_linear_joint_truncation_relative_l2": 0.20319673298627408
+    },
+    {
+      "group_id": "synthetic_workpiece_003",
+      "split": "train",
+      "shot": 3,
+      "energy": 1495399.9082669965,
+      "joint_retained_energy_fraction": 0.9599661231040955,
+      "temporal_retained_energy_fraction": 0.9978626370429993,
+      "ideal_linear_joint_truncation_relative_l2": 0.20008467431541213
+    },
+    {
+      "group_id": "synthetic_workpiece_008",
+      "split": "train",
+      "shot": 0,
+      "energy": 3299299.3046947215,
+      "joint_retained_energy_fraction": 0.9668208360671997,
+      "temporal_retained_energy_fraction": 0.9978829622268677,
+      "ideal_linear_joint_truncation_relative_l2": 0.1821514862217717
+    },
+    {
+      "group_id": "synthetic_workpiece_008",
+      "split": "train",
+      "shot": 1,
+      "energy": 3546397.726621909,
+      "joint_retained_energy_fraction": 0.9634705185890198,
+      "temporal_retained_energy_fraction": 0.9978805184364319,
+      "ideal_linear_joint_truncation_relative_l2": 0.19112687255061814
+    },
+    {
+      "group_id": "synthetic_workpiece_008",
+      "split": "train",
+      "shot": 2,
+      "energy": 2871445.025266253,
+      "joint_retained_energy_fraction": 0.9692862629890442,
+      "temporal_retained_energy_fraction": 0.9974632859230042,
+      "ideal_linear_joint_truncation_relative_l2": 0.17525335092646818
+    },
+    {
+      "group_id": "synthetic_workpiece_008",
+      "split": "train",
+      "shot": 3,
+      "energy": 2180529.008458099,
+      "joint_retained_energy_fraction": 0.9666910171508789,
+      "temporal_retained_energy_fraction": 0.997365415096283,
+      "ideal_linear_joint_truncation_relative_l2": 0.18250748710428594
+    },
+    {
+      "group_id": "synthetic_workpiece_009",
+      "split": "train",
+      "shot": 0,
+      "energy": 3622578.3854722297,
+      "joint_retained_energy_fraction": 0.9619137644767761,
+      "temporal_retained_energy_fraction": 0.997505784034729,
+      "ideal_linear_joint_truncation_relative_l2": 0.19515695099899433
+    },
+    {
+      "group_id": "synthetic_workpiece_009",
+      "split": "train",
+      "shot": 1,
+      "energy": 3793529.8290163176,
+      "joint_retained_energy_fraction": 0.9635411500930786,
+      "temporal_retained_energy_fraction": 0.9981589913368225,
+      "ideal_linear_joint_truncation_relative_l2": 0.19094200665888422
+    },
+    {
+      "group_id": "synthetic_workpiece_009",
+      "split": "train",
+      "shot": 2,
+      "energy": 3631894.4479670227,
+      "joint_retained_energy_fraction": 0.958153486251831,
+      "temporal_retained_energy_fraction": 0.9977251291275024,
+      "ideal_linear_joint_truncation_relative_l2": 0.20456420446443935
+    },
+    {
+      "group_id": "synthetic_workpiece_009",
+      "split": "train",
+      "shot": 3,
+      "energy": 3872835.150155252,
+      "joint_retained_energy_fraction": 0.9588576555252075,
+      "temporal_retained_energy_fraction": 0.9979380965232849,
+      "ideal_linear_joint_truncation_relative_l2": 0.20283575738708517
+    },
+    {
+      "group_id": "synthetic_workpiece_010",
+      "split": "train",
+      "shot": 0,
+      "energy": 505907.9531534635,
+      "joint_retained_energy_fraction": 0.9689120650291443,
+      "temporal_retained_energy_fraction": 0.997874915599823,
+      "ideal_linear_joint_truncation_relative_l2": 0.17631771031537277
+    },
+    {
+      "group_id": "synthetic_workpiece_010",
+      "split": "train",
+      "shot": 1,
+      "energy": 426483.775594636,
+      "joint_retained_energy_fraction": 0.9618122577667236,
+      "temporal_retained_energy_fraction": 0.9976915717124939,
+      "ideal_linear_joint_truncation_relative_l2": 0.19541684224568867
+    },
+    {
+      "group_id": "synthetic_workpiece_010",
+      "split": "train",
+      "shot": 2,
+      "energy": 434304.97593700275,
+      "joint_retained_energy_fraction": 0.96364825963974,
+      "temporal_retained_energy_fraction": 0.997498631477356,
+      "ideal_linear_joint_truncation_relative_l2": 0.19066132371369923
+    },
+    {
+      "group_id": "synthetic_workpiece_010",
+      "split": "train",
+      "shot": 3,
+      "energy": 404689.5438105158,
+      "joint_retained_energy_fraction": 0.9653192162513733,
+      "temporal_retained_energy_fraction": 0.9976089000701904,
+      "ideal_linear_joint_truncation_relative_l2": 0.18622777383791791
+    },
+    {
+      "group_id": "synthetic_workpiece_011",
+      "split": "train",
+      "shot": 0,
+      "energy": 1068225.692438455,
+      "joint_retained_energy_fraction": 0.9596903920173645,
+      "temporal_retained_energy_fraction": 0.9979950189590454,
+      "ideal_linear_joint_truncation_relative_l2": 0.20077252795797412
+    },
+    {
+      "group_id": "synthetic_workpiece_011",
+      "split": "train",
+      "shot": 1,
+      "energy": 1099556.7011570502,
+      "joint_retained_energy_fraction": 0.9615285992622375,
+      "temporal_retained_energy_fraction": 0.9979998469352722,
+      "ideal_linear_joint_truncation_relative_l2": 0.1961412774959989
+    },
+    {
+      "group_id": "synthetic_workpiece_011",
+      "split": "train",
+      "shot": 2,
+      "energy": 1110044.1225138365,
+      "joint_retained_energy_fraction": 0.9585926532745361,
+      "temporal_retained_energy_fraction": 0.9979579448699951,
+      "ideal_linear_joint_truncation_relative_l2": 0.2034879522857898
+    },
+    {
+      "group_id": "synthetic_workpiece_011",
+      "split": "train",
+      "shot": 3,
+      "energy": 865710.227720526,
+      "joint_retained_energy_fraction": 0.9582884311676025,
+      "temporal_retained_energy_fraction": 0.9979217648506165,
+      "ideal_linear_joint_truncation_relative_l2": 0.20423410301024034
+    },
+    {
+      "group_id": "synthetic_workpiece_016",
+      "split": "train",
+      "shot": 0,
+      "energy": 703507.9560624198,
+      "joint_retained_energy_fraction": 0.959388792514801,
+      "temporal_retained_energy_fraction": 0.9978460669517517,
+      "ideal_linear_joint_truncation_relative_l2": 0.20152222578464882
+    },
+    {
+      "group_id": "synthetic_workpiece_016",
+      "split": "train",
+      "shot": 1,
+      "energy": 772822.5602763622,
+      "joint_retained_energy_fraction": 0.9627214670181274,
+      "temporal_retained_energy_fraction": 0.9978542327880859,
+      "ideal_linear_joint_truncation_relative_l2": 0.1930764951563824
+    },
+    {
+      "group_id": "synthetic_workpiece_016",
+      "split": "train",
+      "shot": 2,
+      "energy": 883422.4969484024,
+      "joint_retained_energy_fraction": 0.962464451789856,
+      "temporal_retained_energy_fraction": 0.9977469444274902,
+      "ideal_linear_joint_truncation_relative_l2": 0.19374093065262188
+    },
+    {
+      "group_id": "synthetic_workpiece_016",
+      "split": "train",
+      "shot": 3,
+      "energy": 699979.5795436788,
+      "joint_retained_energy_fraction": 0.961390495300293,
+      "temporal_retained_energy_fraction": 0.9978376030921936,
+      "ideal_linear_joint_truncation_relative_l2": 0.1964930143789011
+    },
+    {
+      "group_id": "synthetic_workpiece_017",
+      "split": "train",
+      "shot": 0,
+      "energy": 1835920.8853477081,
+      "joint_retained_energy_fraction": 0.9565135836601257,
+      "temporal_retained_energy_fraction": 0.9977977871894836,
+      "ideal_linear_joint_truncation_relative_l2": 0.20853396927089424
+    },
+    {
+      "group_id": "synthetic_workpiece_017",
+      "split": "train",
+      "shot": 1,
+      "energy": 2253459.762297184,
+      "joint_retained_energy_fraction": 0.9603410959243774,
+      "temporal_retained_energy_fraction": 0.9980347156524658,
+      "ideal_linear_joint_truncation_relative_l2": 0.19914543448350142
+    },
+    {
+      "group_id": "synthetic_workpiece_017",
+      "split": "train",
+      "shot": 2,
+      "energy": 1924458.503901194,
+      "joint_retained_energy_fraction": 0.9602007269859314,
+      "temporal_retained_energy_fraction": 0.9979763031005859,
+      "ideal_linear_joint_truncation_relative_l2": 0.19949755139867908
+    },
+    {
+      "group_id": "synthetic_workpiece_017",
+      "split": "train",
+      "shot": 3,
+      "energy": 1850378.4444202306,
+      "joint_retained_energy_fraction": 0.9562204480171204,
+      "temporal_retained_energy_fraction": 0.9977259635925293,
+      "ideal_linear_joint_truncation_relative_l2": 0.20923563745901327
+    },
+    {
+      "group_id": "synthetic_workpiece_018",
+      "split": "train",
+      "shot": 0,
+      "energy": 832496.9982380032,
+      "joint_retained_energy_fraction": 0.9539579153060913,
+      "temporal_retained_energy_fraction": 0.997536838054657,
+      "ideal_linear_joint_truncation_relative_l2": 0.21457419391415336
+    },
+    {
+      "group_id": "synthetic_workpiece_018",
+      "split": "train",
+      "shot": 1,
+      "energy": 824598.4042599051,
+      "joint_retained_energy_fraction": 0.9606282711029053,
+      "temporal_retained_energy_fraction": 0.9979507327079773,
+      "ideal_linear_joint_truncation_relative_l2": 0.1984231057540798
+    },
+    {
+      "group_id": "synthetic_workpiece_018",
+      "split": "train",
+      "shot": 2,
+      "energy": 1209547.3742001355,
+      "joint_retained_energy_fraction": 0.9656647443771362,
+      "temporal_retained_energy_fraction": 0.99812251329422,
+      "ideal_linear_joint_truncation_relative_l2": 0.18529774856393633
+    },
+    {
+      "group_id": "synthetic_workpiece_018",
+      "split": "train",
+      "shot": 3,
+      "energy": 917264.9756027192,
+      "joint_retained_energy_fraction": 0.9626646041870117,
+      "temporal_retained_energy_fraction": 0.9978618025779724,
+      "ideal_linear_joint_truncation_relative_l2": 0.19322369371531092
+    },
+    {
+      "group_id": "synthetic_workpiece_019",
+      "split": "train",
+      "shot": 0,
+      "energy": 1592002.6420556125,
+      "joint_retained_energy_fraction": 0.9550745487213135,
+      "temporal_retained_energy_fraction": 0.9981487989425659,
+      "ideal_linear_joint_truncation_relative_l2": 0.21195624850116243
+    },
+    {
+      "group_id": "synthetic_workpiece_019",
+      "split": "train",
+      "shot": 1,
+      "energy": 1695288.4043440106,
+      "joint_retained_energy_fraction": 0.9521934986114502,
+      "temporal_retained_energy_fraction": 0.9980747103691101,
+      "ideal_linear_joint_truncation_relative_l2": 0.21864697891475612
+    },
+    {
+      "group_id": "synthetic_workpiece_019",
+      "split": "train",
+      "shot": 2,
+      "energy": 1447728.4455551615,
+      "joint_retained_energy_fraction": 0.9571290612220764,
+      "temporal_retained_energy_fraction": 0.997783362865448,
+      "ideal_linear_joint_truncation_relative_l2": 0.20705298543591102
+    },
+    {
+      "group_id": "synthetic_workpiece_019",
+      "split": "train",
+      "shot": 3,
+      "energy": 1115109.6944761858,
+      "joint_retained_energy_fraction": 0.9559463858604431,
+      "temporal_retained_energy_fraction": 0.997854471206665,
+      "ideal_linear_joint_truncation_relative_l2": 0.20988952841806302
+    },
+    {
+      "group_id": "synthetic_workpiece_004",
+      "split": "validation",
+      "shot": 0,
+      "energy": 504655.1941867868,
+      "joint_retained_energy_fraction": 0.9549224376678467,
+      "temporal_retained_energy_fraction": 0.9975671768188477,
+      "ideal_linear_joint_truncation_relative_l2": 0.2123147718180563
+    },
+    {
+      "group_id": "synthetic_workpiece_004",
+      "split": "validation",
+      "shot": 1,
+      "energy": 543885.6408694047,
+      "joint_retained_energy_fraction": 0.9558290839195251,
+      "temporal_retained_energy_fraction": 0.9977430701255798,
+      "ideal_linear_joint_truncation_relative_l2": 0.2101687799852177
+    },
+    {
+      "group_id": "synthetic_workpiece_004",
+      "split": "validation",
+      "shot": 2,
+      "energy": 653463.1707250839,
+      "joint_retained_energy_fraction": 0.9593755602836609,
+      "temporal_retained_energy_fraction": 0.9978934526443481,
+      "ideal_linear_joint_truncation_relative_l2": 0.20155505380996805
+    },
+    {
+      "group_id": "synthetic_workpiece_004",
+      "split": "validation",
+      "shot": 3,
+      "energy": 630084.8789481896,
+      "joint_retained_energy_fraction": 0.9549931287765503,
+      "temporal_retained_energy_fraction": 0.998079240322113,
+      "ideal_linear_joint_truncation_relative_l2": 0.21214822936675598
+    },
+    {
+      "group_id": "synthetic_workpiece_005",
+      "split": "validation",
+      "shot": 0,
+      "energy": 1766770.636068895,
+      "joint_retained_energy_fraction": 0.9598626494407654,
+      "temporal_retained_energy_fraction": 0.9978034496307373,
+      "ideal_linear_joint_truncation_relative_l2": 0.20034308213470867
+    },
+    {
+      "group_id": "synthetic_workpiece_005",
+      "split": "validation",
+      "shot": 1,
+      "energy": 1931470.6885855254,
+      "joint_retained_energy_fraction": 0.9616204500198364,
+      "temporal_retained_energy_fraction": 0.9979068040847778,
+      "ideal_linear_joint_truncation_relative_l2": 0.1959069931885117
+    },
+    {
+      "group_id": "synthetic_workpiece_005",
+      "split": "validation",
+      "shot": 2,
+      "energy": 1777168.3932310864,
+      "joint_retained_energy_fraction": 0.9639710187911987,
+      "temporal_retained_energy_fraction": 0.9979268312454224,
+      "ideal_linear_joint_truncation_relative_l2": 0.18981301643670612
+    },
+    {
+      "group_id": "synthetic_workpiece_005",
+      "split": "validation",
+      "shot": 3,
+      "energy": 1818990.2667707242,
+      "joint_retained_energy_fraction": 0.9653962254524231,
+      "temporal_retained_energy_fraction": 0.997646689414978,
+      "ideal_linear_joint_truncation_relative_l2": 0.18602089814743103
+    },
+    {
+      "group_id": "synthetic_workpiece_012",
+      "split": "validation",
+      "shot": 0,
+      "energy": 363620.8021222905,
+      "joint_retained_energy_fraction": 0.9549540281295776,
+      "temporal_retained_energy_fraction": 0.9978811144828796,
+      "ideal_linear_joint_truncation_relative_l2": 0.21224036343358998
+    },
+    {
+      "group_id": "synthetic_workpiece_012",
+      "split": "validation",
+      "shot": 1,
+      "energy": 445599.73680821474,
+      "joint_retained_energy_fraction": 0.9575879573822021,
+      "temporal_retained_energy_fraction": 0.9978564977645874,
+      "ideal_linear_joint_truncation_relative_l2": 0.20594184280470507
+    },
+    {
+      "group_id": "synthetic_workpiece_012",
+      "split": "validation",
+      "shot": 2,
+      "energy": 495916.6168473066,
+      "joint_retained_energy_fraction": 0.9578484296798706,
+      "temporal_retained_energy_fraction": 0.9978148937225342,
+      "ideal_linear_joint_truncation_relative_l2": 0.20530847600654337
+    },
+    {
+      "group_id": "synthetic_workpiece_012",
+      "split": "validation",
+      "shot": 3,
+      "energy": 476459.188565863,
+      "joint_retained_energy_fraction": 0.9588924050331116,
+      "temporal_retained_energy_fraction": 0.997532308101654,
+      "ideal_linear_joint_truncation_relative_l2": 0.2027500800662935
+    },
+    {
+      "group_id": "synthetic_workpiece_013",
+      "split": "validation",
+      "shot": 0,
+      "energy": 1949971.6545324237,
+      "joint_retained_energy_fraction": 0.9539201259613037,
+      "temporal_retained_energy_fraction": 0.9978941082954407,
+      "ideal_linear_joint_truncation_relative_l2": 0.21466223244599011
+    },
+    {
+      "group_id": "synthetic_workpiece_013",
+      "split": "validation",
+      "shot": 1,
+      "energy": 2218852.885418648,
+      "joint_retained_energy_fraction": 0.9589632749557495,
+      "temporal_retained_energy_fraction": 0.9976352453231812,
+      "ideal_linear_joint_truncation_relative_l2": 0.20257523304750383
+    },
+    {
+      "group_id": "synthetic_workpiece_013",
+      "split": "validation",
+      "shot": 2,
+      "energy": 2463257.713054101,
+      "joint_retained_energy_fraction": 0.9566354751586914,
+      "temporal_retained_energy_fraction": 0.998154878616333,
+      "ideal_linear_joint_truncation_relative_l2": 0.2082415060484067
+    },
+    {
+      "group_id": "synthetic_workpiece_013",
+      "split": "validation",
+      "shot": 3,
+      "energy": 2145990.37732134,
+      "joint_retained_energy_fraction": 0.9566214084625244,
+      "temporal_retained_energy_fraction": 0.9979240298271179,
+      "ideal_linear_joint_truncation_relative_l2": 0.2082752782676705
+    },
+    {
+      "group_id": "synthetic_workpiece_020",
+      "split": "validation",
+      "shot": 0,
+      "energy": 1123089.0810017735,
+      "joint_retained_energy_fraction": 0.9570609331130981,
+      "temporal_retained_energy_fraction": 0.9978677034378052,
+      "ideal_linear_joint_truncation_relative_l2": 0.2072174386650454
+    },
+    {
+      "group_id": "synthetic_workpiece_020",
+      "split": "validation",
+      "shot": 1,
+      "energy": 1360187.935125305,
+      "joint_retained_energy_fraction": 0.956527054309845,
+      "temporal_retained_energy_fraction": 0.9980646967887878,
+      "ideal_linear_joint_truncation_relative_l2": 0.2085016683150402
+    },
+    {
+      "group_id": "synthetic_workpiece_020",
+      "split": "validation",
+      "shot": 2,
+      "energy": 1067385.242428096,
+      "joint_retained_energy_fraction": 0.9568375945091248,
+      "temporal_retained_energy_fraction": 0.997821569442749,
+      "ideal_linear_joint_truncation_relative_l2": 0.2077556388906815
+    },
+    {
+      "group_id": "synthetic_workpiece_020",
+      "split": "validation",
+      "shot": 3,
+      "energy": 1236012.5877323186,
+      "joint_retained_energy_fraction": 0.9566095471382141,
+      "temporal_retained_energy_fraction": 0.9975901246070862,
+      "ideal_linear_joint_truncation_relative_l2": 0.20830375143473986
+    },
+    {
+      "group_id": "synthetic_workpiece_021",
+      "split": "validation",
+      "shot": 0,
+      "energy": 1439593.7057930678,
+      "joint_retained_energy_fraction": 0.9571506381034851,
+      "temporal_retained_energy_fraction": 0.9975464344024658,
+      "ideal_linear_joint_truncation_relative_l2": 0.20700087414432553
+    },
+    {
+      "group_id": "synthetic_workpiece_021",
+      "split": "validation",
+      "shot": 1,
+      "energy": 1694207.058170334,
+      "joint_retained_energy_fraction": 0.9611020684242249,
+      "temporal_retained_energy_fraction": 0.9979203939437866,
+      "ideal_linear_joint_truncation_relative_l2": 0.19722558549989183
+    },
+    {
+      "group_id": "synthetic_workpiece_021",
+      "split": "validation",
+      "shot": 2,
+      "energy": 1932817.0358937676,
+      "joint_retained_energy_fraction": 0.9607272744178772,
+      "temporal_retained_energy_fraction": 0.9980066418647766,
+      "ideal_linear_joint_truncation_relative_l2": 0.19817347345727884
+    },
+    {
+      "group_id": "synthetic_workpiece_021",
+      "split": "validation",
+      "shot": 3,
+      "energy": 1562625.6591120204,
+      "joint_retained_energy_fraction": 0.9578562378883362,
+      "temporal_retained_energy_fraction": 0.9977673888206482,
+      "ideal_linear_joint_truncation_relative_l2": 0.20528945932917214
+    }
+  ]
+}

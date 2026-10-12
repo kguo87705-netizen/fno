@@ -1,0 +1,6 @@
+import sys,torch,pandas as pd
+sys.path.insert(0,'Research_Direction/Author_Baseline_Singh_Zenodo14616677'); from run_fno_local_contrast import physical_setup
+solver,_,template,shape,rx,ry,device=physical_setup(); nx,ny,n=shape; root='Research_Direction/Author_Baseline_Singh_Zenodo14616677'; force_all=torch.tensor(pd.read_hdf(root+'/data_casestudy/source.h5').values).reshape(4,1,nx+3,ny+3,n).clone().to(device); mask=torch.load('.build/fno-frozen-depth-shift-audit-20261009-r2/state_0.pt',weights_only=True)['gamma']<.99; mat=torch.where(mask,torch.full_like(mask,.5,dtype=template['gamma'].dtype),torch.ones_like(template['gamma'])); gamma=torch.ones(1,1,nx+3,ny+3,device=device); gamma[0,0,1:-1,1:-1]=mat.to(device); trs=[]
+for si in [0,1,2,3]:
+ z=torch.zeros_like(gamma); w=solver.forwardNSteps(z,z.clone(),gamma,force_all[si:si+1],nx,ny,n,1,device); tr=w[:,rx,ry,1:].cpu().clone(); trs.append(tr[0].clone()); print('fresh',si,torch.sqrt(torch.mean(tr**2)).item())
+x=torch.stack(trs); y=torch.load('.build/tx-action-material-scan-20261011-r2/full_tx__gamma_0.50.pt',weights_only=False)['traces_full']; print('maxdiff',torch.max(torch.abs(x-y)).item(),[torch.max(torch.abs(x[i]-y[i])).item() for i in range(4)])

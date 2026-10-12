@@ -1,0 +1,47 @@
+{
+  "status": "planned_not_run",
+  "purpose": "compare FNO against simple nominal secant at the same observable residual reduction; development only",
+  "cases": [
+    [
+      -1,
+      0.465
+    ],
+    [
+      -1,
+      0.535
+    ],
+    [
+      1,
+      0.465
+    ],
+    [
+      1,
+      0.535
+    ]
+  ],
+  "known_support": true,
+  "initial_a": 0.5,
+  "max_proposals": 6,
+  "clip": 0.02,
+  "accept": "strict physical squared receiver residual decrease",
+  "stop": "relative receiver residual <= initial relative residual * .001; threshold is prospective for this new development batch, not a final-test acceptance threshold",
+  "methods": [
+    "frozen_r2_direction",
+    "nominal_secant"
+  ],
+  "timing": "synchronize CUDA at boundaries; include initial solve, all accepted/rejected proposals, input encoding and response generation; separately charge model load, observations and historical offline cost; distinguish per-case direction and shared direction reuse",
+  "budget": {
+    "max_physical_calls": 56,
+    "network_calls": 8,
+    "training": 0
+  },
+  "report": [
+    "full and scatter receiver errors",
+    "final parameter error only after stopping",
+    "reached tolerance or censored at cap",
+    "actual online wall time and calls",
+    "rejected steps",
+    "no amortization count unless incremental offline cost and positive matched-quality savings both known"
+  ],
+  "scope": "known support and reused depths; not blind inversion, not full traditional adjoint FWI comparison"
+}

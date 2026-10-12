@@ -1,0 +1,250 @@
+{
+  "status": "completed",
+  "scope": "No exact local Jacobian or networkAD claim;this is converged central finite-difference evidence along one known-support direction. Not unseen geometry or independent test;only perturbed material labels newly generated.",
+  "elapsed_seconds": 18.840755599994736,
+  "calls": {
+    "physical": 8,
+    "network_forwards": 16
+  },
+  "stability": {
+    "-1": {
+      "field": {
+        "relative_l2": NaN,
+        "amplitude_ratio": NaN,
+        "cosine": NaN
+      },
+      "trace": {
+        "relative_l2": NaN,
+        "amplitude_ratio": NaN,
+        "cosine": NaN
+      }
+    },
+    "-1:width8_control": {
+      "field": {
+        "relative_l2": NaN,
+        "amplitude_ratio": NaN,
+        "cosine": NaN
+      },
+      "trace": {
+        "relative_l2": NaN,
+        "amplitude_ratio": NaN,
+        "cosine": NaN
+      }
+    },
+    "-1:joint_loss_r2": {
+      "field": {
+        "relative_l2": NaN,
+        "amplitude_ratio": NaN,
+        "cosine": NaN
+      },
+      "trace": {
+        "relative_l2": NaN,
+        "amplitude_ratio": NaN,
+        "cosine": NaN
+      }
+    },
+    "1": {
+      "field": {
+        "relative_l2": NaN,
+        "amplitude_ratio": NaN,
+        "cosine": NaN
+      },
+      "trace": {
+        "relative_l2": NaN,
+        "amplitude_ratio": NaN,
+        "cosine": NaN
+      }
+    },
+    "1:width8_control": {
+      "field": {
+        "relative_l2": NaN,
+        "amplitude_ratio": NaN,
+        "cosine": NaN
+      },
+      "trace": {
+        "relative_l2": NaN,
+        "amplitude_ratio": NaN,
+        "cosine": NaN
+      }
+    },
+    "1:joint_loss_r2": {
+      "field": {
+        "relative_l2": NaN,
+        "amplitude_ratio": NaN,
+        "cosine": NaN
+      },
+      "trace": {
+        "relative_l2": NaN,
+        "amplitude_ratio": NaN,
+        "cosine": NaN
+      }
+    }
+  },
+  "gates": {
+    "physical_fd_stable_2pct": {
+      "-1": false,
+      "1": false
+    },
+    "network_fd_stable_2pct": {
+      "-1:width8_control": false,
+      "-1:joint_loss_r2": false,
+      "1:width8_control": false,
+      "1:joint_loss_r2": false
+    },
+    "screen": {
+      "-1": false,
+      "1": false,
+      "-1:width8_control": false,
+      "-1:joint_loss_r2": false,
+      "1:width8_control": false,
+      "1:joint_loss_r2": false
+    }
+  },
+  "rows": [
+    {
+      "depth": -1,
+      "model": "width8_control",
+      "eps": 0.002,
+      "space": "field",
+      "relative_l2": NaN,
+      "amplitude_ratio": NaN,
+      "cosine": NaN
+    },
+    {
+      "depth": -1,
+      "model": "width8_control",
+      "eps": 0.002,
+      "space": "trace",
+      "relative_l2": NaN,
+      "amplitude_ratio": NaN,
+      "cosine": NaN
+    },
+    {
+      "depth": -1,
+      "model": "width8_control",
+      "eps": 0.001,
+      "space": "field",
+      "relative_l2": NaN,
+      "amplitude_ratio": NaN,
+      "cosine": NaN
+    },
+    {
+      "depth": -1,
+      "model": "width8_control",
+      "eps": 0.001,
+      "space": "trace",
+      "relative_l2": NaN,
+      "amplitude_ratio": NaN,
+      "cosine": NaN
+    },
+    {
+      "depth": -1,
+      "model": "joint_loss_r2",
+      "eps": 0.002,
+      "space": "field",
+      "relative_l2": NaN,
+      "amplitude_ratio": NaN,
+      "cosine": NaN
+    },
+    {
+      "depth": -1,
+      "model": "joint_loss_r2",
+      "eps": 0.002,
+      "space": "trace",
+      "relative_l2": NaN,
+      "amplitude_ratio": NaN,
+      "cosine": NaN
+    },
+    {
+      "depth": -1,
+      "model": "joint_loss_r2",
+      "eps": 0.001,
+      "space": "field",
+      "relative_l2": NaN,
+      "amplitude_ratio": NaN,
+      "cosine": NaN
+    },
+    {
+      "depth": -1,
+      "model": "joint_loss_r2",
+      "eps": 0.001,
+      "space": "trace",
+      "relative_l2": NaN,
+      "amplitude_ratio": NaN,
+      "cosine": NaN
+    },
+    {
+      "depth": 1,
+      "model": "width8_control",
+      "eps": 0.002,
+      "space": "field",
+      "relative_l2": NaN,
+      "amplitude_ratio": NaN,
+      "cosine": NaN
+    },
+    {
+      "depth": 1,
+      "model": "width8_control",
+      "eps": 0.002,
+      "space": "trace",
+      "relative_l2": NaN,
+      "amplitude_ratio": NaN,
+      "cosine": NaN
+    },
+    {
+      "depth": 1,
+      "model": "width8_control",
+      "eps": 0.001,
+      "space": "field",
+      "relative_l2": NaN,
+      "amplitude_ratio": NaN,
+      "cosine": NaN
+    },
+    {
+      "depth": 1,
+      "model": "width8_control",
+      "eps": 0.001,
+      "space": "trace",
+      "relative_l2": NaN,
+      "amplitude_ratio": NaN,
+      "cosine": NaN
+    },
+    {
+      "depth": 1,
+      "model": "joint_loss_r2",
+      "eps": 0.002,
+      "space": "field",
+      "relative_l2": NaN,
+      "amplitude_ratio": NaN,
+      "cosine": NaN
+    },
+    {
+      "depth": 1,
+      "model": "joint_loss_r2",
+      "eps": 0.002,
+      "space": "trace",
+      "relative_l2": NaN,
+      "amplitude_ratio": NaN,
+      "cosine": NaN
+    },
+    {
+      "depth": 1,
+      "model": "joint_loss_r2",
+      "eps": 0.001,
+      "space": "field",
+      "relative_l2": NaN,
+      "amplitude_ratio": NaN,
+      "cosine": NaN
+    },
+    {
+      "depth": 1,
+      "model": "joint_loss_r2",
+      "eps": 0.001,
+      "space": "trace",
+      "relative_l2": NaN,
+      "amplitude_ratio": NaN,
+      "cosine": NaN
+    }
+  ],
+  "decision": "reference_unstable"
+}

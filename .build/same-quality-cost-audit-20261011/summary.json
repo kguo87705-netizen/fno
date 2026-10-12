@@ -1,0 +1,169 @@
+{
+  "scope": "12 repeatedly used development cases, scalar known support; descriptive not prospective success",
+  "rows": [
+    {
+      "case": "-1:0.48",
+      "fno_final_full_error": 0.0,
+      "nominal_final_full_error": 2.9591654561921414e-06,
+      "fno_parameter_error": 0.0,
+      "nominal_parameter_error": 1.5931325051954381e-06,
+      "fno_calls": 4,
+      "nominal_calls": 4,
+      "fno_fixed3_cost_estimate": 4.092001899975003,
+      "nominal_fixed3_cost_estimate": 3.696096799976658,
+      "nominal_reaches_fno_final_quality_within_saved_budget": false
+    },
+    {
+      "case": "-1:0.52",
+      "fno_final_full_error": 0.0,
+      "nominal_final_full_error": 3.6805669821605626e-06,
+      "fno_parameter_error": 0.0,
+      "nominal_parameter_error": 3.352749063934013e-06,
+      "fno_calls": 4,
+      "nominal_calls": 4,
+      "fno_fixed3_cost_estimate": 4.092001899975003,
+      "nominal_fixed3_cost_estimate": 3.696096799976658,
+      "nominal_reaches_fno_final_quality_within_saved_budget": false
+    },
+    {
+      "case": "1:0.48",
+      "fno_final_full_error": 3.0678936771599475e-06,
+      "nominal_final_full_error": 0.0,
+      "fno_parameter_error": 5.253437174168596e-08,
+      "nominal_parameter_error": 9.340503925869825e-09,
+      "fno_calls": 4,
+      "nominal_calls": 4,
+      "fno_fixed3_cost_estimate": 4.092001899975003,
+      "nominal_fixed3_cost_estimate": 3.696096799976658,
+      "nominal_reaches_fno_final_quality_within_saved_budget": true
+    },
+    {
+      "case": "1:0.52",
+      "fno_final_full_error": 4.357824114100566e-06,
+      "nominal_final_full_error": 6.24950177445756e-06,
+      "fno_parameter_error": 4.4054816789040885e-06,
+      "nominal_parameter_error": 6.192043948471948e-06,
+      "fno_calls": 4,
+      "nominal_calls": 4,
+      "fno_fixed3_cost_estimate": 4.092001899975003,
+      "nominal_fixed3_cost_estimate": 3.696096799976658,
+      "nominal_reaches_fno_final_quality_within_saved_budget": false
+    },
+    {
+      "case": "-1:0.44",
+      "fno_final_full_error": 0.0,
+      "nominal_final_full_error": 0.0,
+      "fno_parameter_error": 5.551115123125783e-17,
+      "nominal_parameter_error": 5.551115123125783e-17,
+      "fno_calls": 4,
+      "nominal_calls": 4,
+      "fno_fixed3_cost_estimate": 4.092001899975003,
+      "nominal_fixed3_cost_estimate": 3.696096799976658,
+      "nominal_reaches_fno_final_quality_within_saved_budget": true
+    },
+    {
+      "case": "-1:0.56",
+      "fno_final_full_error": 0.0007914614431265699,
+      "nominal_final_full_error": 0.0019885386275721546,
+      "fno_parameter_error": 0.000927159242244735,
+      "nominal_parameter_error": 0.002327258425990797,
+      "fno_calls": 4,
+      "nominal_calls": 4,
+      "fno_fixed3_cost_estimate": 4.092001899975003,
+      "nominal_fixed3_cost_estimate": 3.696096799976658,
+      "nominal_reaches_fno_final_quality_within_saved_budget": false
+    },
+    {
+      "case": "1:0.44",
+      "fno_final_full_error": 0.0,
+      "nominal_final_full_error": 0.0,
+      "fno_parameter_error": 5.551115123125783e-17,
+      "nominal_parameter_error": 5.551115123125783e-17,
+      "fno_calls": 4,
+      "nominal_calls": 4,
+      "fno_fixed3_cost_estimate": 4.092001899975003,
+      "nominal_fixed3_cost_estimate": 3.696096799976658,
+      "nominal_reaches_fno_final_quality_within_saved_budget": true
+    },
+    {
+      "case": "1:0.56",
+      "fno_final_full_error": 0.001800154533791554,
+      "nominal_final_full_error": 0.0020770926610255863,
+      "fno_parameter_error": 0.002176913293948979,
+      "nominal_parameter_error": 0.0025113065606660046,
+      "fno_calls": 4,
+      "nominal_calls": 4,
+      "fno_fixed3_cost_estimate": 4.092001899975003,
+      "nominal_fixed3_cost_estimate": 3.696096799976658,
+      "nominal_reaches_fno_final_quality_within_saved_budget": false
+    },
+    {
+      "case": "-1:0.53",
+      "fno_final_full_error": 2.252441222733323e-06,
+      "nominal_final_full_error": 5.0196269144469805e-05,
+      "fno_parameter_error": 1.1755259194945467e-06,
+      "nominal_parameter_error": 5.650117776201391e-05,
+      "fno_calls": 4,
+      "nominal_calls": 4,
+      "fno_fixed3_cost_estimate": 4.092001899975003,
+      "nominal_fixed3_cost_estimate": 3.696096799976658,
+      "nominal_reaches_fno_final_quality_within_saved_budget": false
+    },
+    {
+      "case": "-1:0.57",
+      "fno_final_full_error": 0.008475985408851893,
+      "nominal_final_full_error": 0.008475985408851893,
+      "fno_parameter_error": 0.009999999999999898,
+      "nominal_parameter_error": 0.009999999999999898,
+      "fno_calls": 4,
+      "nominal_calls": 4,
+      "fno_fixed3_cost_estimate": 4.092001899975003,
+      "nominal_fixed3_cost_estimate": 3.696096799976658,
+      "nominal_reaches_fno_final_quality_within_saved_budget": true
+    },
+    {
+      "case": "1:0.53",
+      "fno_final_full_error": 4.96332243605382e-05,
+      "nominal_final_full_error": 6.491649524095712e-05,
+      "fno_parameter_error": 5.755758789882659e-05,
+      "nominal_parameter_error": 7.53499129424462e-05,
+      "fno_calls": 4,
+      "nominal_calls": 4,
+      "fno_fixed3_cost_estimate": 4.092001899975003,
+      "nominal_fixed3_cost_estimate": 3.696096799976658,
+      "nominal_reaches_fno_final_quality_within_saved_budget": false
+    },
+    {
+      "case": "1:0.57",
+      "fno_final_full_error": 0.008202050150428195,
+      "nominal_final_full_error": 0.008202050150428195,
+      "fno_parameter_error": 0.009999999999999898,
+      "nominal_parameter_error": 0.009999999999999898,
+      "fno_calls": 4,
+      "nominal_calls": 4,
+      "fno_fixed3_cost_estimate": 4.092001899975003,
+      "nominal_fixed3_cost_estimate": 3.696096799976658,
+      "nominal_reaches_fno_final_quality_within_saved_budget": true
+    }
+  ],
+  "fno_lower_final_waveform_error_cases": 7,
+  "equal_cases": 4,
+  "fixed3_extra_fno_response_cost_seconds": 0.39590509999834467,
+  "fixed3_proxy_estimate": 4.092001899975003,
+  "fixed3_nominal_estimate": 3.696096799976658,
+  "break_even_cases": null,
+  "reason": "Fixed3 costs higher for FNO versus nominal. Quality differs; tighter tolerances often censor baseline at step3. No extrapolation of missing baseline trajectories. Complete incremental offline cost unknown.",
+  "corrections": {
+    "center_physical_calls": 17,
+    "center_old_count": 19,
+    "center_verification": "no saved waveforms and no numerical replay; earlier passed label insufficient",
+    "timing_protocol": "written after measurements; not preregistered",
+    "timing_scope": "physical includes whole-field generation; FNO includes encoding, reconstruction and CPU transfer; not receiver-only optimized solver comparison",
+    "partial_offline_record_seconds": {
+      "width8_training_evaluation": 532.9938059000124,
+      "material_replay_arm": 65.64595659999941,
+      "r2_original_arm": 66.4055214
+    },
+    "partial_offline_sum_is_not_total": true
+  }
+}

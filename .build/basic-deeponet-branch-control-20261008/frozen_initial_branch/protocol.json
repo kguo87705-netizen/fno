@@ -1,0 +1,62 @@
+{
+  "status": "fixed_budget_protocol",
+  "arm": "frozen_initial_branch",
+  "time_feature_mode": "sincos",
+  "initial_branch_hash": "072571c3c31b971eed7911aa674686b1380586b04ad3585533d705b62df8ec0f",
+  "trainable_parameters": [
+    "bias",
+    "trunk.0.weight",
+    "trunk.0.bias",
+    "trunk.2.weight",
+    "trunk.2.bias",
+    "trunk.4.weight",
+    "trunk.4.bias"
+  ],
+  "plan_sha256": "82e391182978c218f473d921d1e2d90fff41b6264acba0e8104721f864f151d9",
+  "feature_module_sha256": "695a0a837a4a71dc150fe0f76ce78d7f107de0328bcf320bba8503fe1cff4d74",
+  "training_groups": [
+    "synthetic_workpiece_000"
+  ],
+  "shot": 0,
+  "updates": 4000,
+  "seed": 2,
+  "torch_version": "2.11.0+cu128",
+  "sampling_seed": 19,
+  "field_points_per_update": 32768,
+  "sampling": "torch.randint with replacement, independent uniform x/y/t flat-index draws each update, CPU generator19",
+  "receiver_points_per_update": 12000,
+  "loss": "sampled full-field MSE plus exact500-frame24receiver MSE rescaled su/sr, receiver weight1",
+  "optimizer": "Adam lr0.001",
+  "initial_state_hash": "0e4f79a00acbb821ef1fab27ac09853c860100baae432084d9816cc06bf54ed5",
+  "model_config": {
+    "grid": [
+      256,
+      128
+    ],
+    "latent": 64,
+    "hidden": 128,
+    "branch_channels": [
+      16,
+      32,
+      64
+    ],
+    "trunk_input_channels": 7,
+    "activation": "GELU",
+    "output": "signed scalar normalized residual",
+    "coordinate_order": [
+      "x/Lx",
+      "y/Ly",
+      "t/T",
+      "sx/Lx",
+      "sy/Ly",
+      "time_sin",
+      "time_cos"
+    ]
+  },
+  "data_manifest_sha256": "9972c2aec68c347ba73e1677c182b25542ebc74bb3a5cdcee9b7243548991e42",
+  "homogeneous_sha256": "9d382c08f6dbd90cedb09c2971aaf66c96d60ca69fecbfea41d29822955d88b6",
+  "model_sha256": "c39c7e8f5ed6441173ff43f3d657c48448f639a033ed49d3f5afc362de8ee5e9",
+  "script_sha256": "c9a08757df72df038da32339ee9e038ac223075b027c4bc1d22f412779556db6",
+  "selection": "fixed final4000, evaluation0/400/4000; no validation/test access",
+  "scope": "Paired joint versus initial-frozen branch optimization ablation, training000/source0 only. Same initialization and point order required across arms; no material generalization or physical-gradient/FWI claim."
+}

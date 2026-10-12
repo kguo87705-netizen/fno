@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "gradients": "Finite complete real/imag coordinates;Gram symmetric positive semidefinite within tolerance",
+  "summaries": "Exact recomputation from saved sufficient sums",
+  "parameters": "Before/after hash unchanged",
+  "regions": "Energy partition checked",
+  "dependencies": "SHA unchanged",
+  "raw_sha256": "a3d335e6a4cf701256ac910242638ce739083fe1c27aa0445fe7b52e1884b4dd",
+  "limits": "No independent gradient FD test or physical material derivative validation"
+}

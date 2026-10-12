@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "nine_frozen_files": "SHA unchanged",
+  "code_and_initialization": "SHA and seed reconstruction passed",
+  "input_encoding": "bit identical",
+  "references": "exact recomputed",
+  "final_metrics": "exact reload",
+  "example_prediction": "bit identical",
+  "optimizer_steps": 1200,
+  "exposures": [
+    400,
+    400,
+    400
+  ],
+  "scope": "Same known synthetic geometry/source0 contrast interpolation; no unseen-geometry, independent final-test or proxy-FWI claim"
+}

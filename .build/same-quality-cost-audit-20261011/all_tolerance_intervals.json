@@ -1,0 +1,1897 @@
+[
+  {
+    "case": "-1:0.48",
+    "tolerance_open_interval": [
+      0.0,
+      2.9591654561921414e-06
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": null,
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "-1:0.48",
+    "tolerance_open_interval": [
+      2.9591654561921414e-06,
+      0.00015737543021647103
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": [
+        2.7720725999824936,
+        3,
+        2
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "-1:0.48",
+    "tolerance_open_interval": [
+      0.00015737543021647103,
+      0.018780754202222825
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": [
+        1.848048399988329,
+        2,
+        1
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "-1:0.52",
+    "tolerance_open_interval": [
+      0.0,
+      1.6887031289510822e-06
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": null,
+      "physical_frozen": null,
+      "physical_recomputed": null
+    }
+  },
+  {
+    "case": "-1:0.52",
+    "tolerance_open_interval": [
+      1.6887031289510822e-06,
+      2.5667377013833233e-06
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": null,
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": null
+    }
+  },
+  {
+    "case": "-1:0.52",
+    "tolerance_open_interval": [
+      2.5667377013833233e-06,
+      3.6805669821605626e-06
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": null,
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "-1:0.52",
+    "tolerance_open_interval": [
+      3.6805669821605626e-06,
+      4.584944565397368e-06
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "-1:0.52",
+    "tolerance_open_interval": [
+      4.584944565397368e-06,
+      1.0254668044071295e-05
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "-1:0.52",
+    "tolerance_open_interval": [
+      1.0254668044071295e-05,
+      4.8607258756639044e-05
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        4.620120999970823,
+        5,
+        2
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "-1:0.52",
+    "tolerance_open_interval": [
+      4.8607258756639044e-05,
+      0.0002732444406812415
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": [
+        2.7720725999824936,
+        3,
+        2
+      ],
+      "physical_frozen": [
+        4.620120999970823,
+        5,
+        2
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "-1:0.52",
+    "tolerance_open_interval": [
+      0.0002732444406812415,
+      0.0007923402553766116
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": [
+        2.7720725999824936,
+        3,
+        2
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "-1:0.52",
+    "tolerance_open_interval": [
+      0.0007923402553766116,
+      0.018274873160077917
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": [
+        1.848048399988329,
+        2,
+        1
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "1:0.48",
+    "tolerance_open_interval": [
+      0.0,
+      3.0678936771599475e-06
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": null,
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "1:0.48",
+    "tolerance_open_interval": [
+      3.0678936771599475e-06,
+      4.304205679587455e-06
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "1:0.48",
+    "tolerance_open_interval": [
+      4.304205679587455e-06,
+      5.931761281093403e-06
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": [
+        2.7720725999824936,
+        3,
+        2
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "1:0.48",
+    "tolerance_open_interval": [
+      5.931761281093403e-06,
+      0.0004433085257184834
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        3.1679776999808382,
+        3,
+        2
+      ],
+      "nominal_secant": [
+        2.7720725999824936,
+        3,
+        2
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "1:0.48",
+    "tolerance_open_interval": [
+      0.0004433085257184834,
+      0.00045340235623354667
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        3.1679776999808382,
+        3,
+        2
+      ],
+      "nominal_secant": [
+        1.848048399988329,
+        2,
+        1
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "1:0.48",
+    "tolerance_open_interval": [
+      0.00045340235623354667,
+      0.018264006129153916
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": [
+        1.848048399988329,
+        2,
+        1
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "1:0.52",
+    "tolerance_open_interval": [
+      1.761028632249739e-06,
+      1.92888339748889e-06
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": null,
+      "nominal_secant": null,
+      "physical_frozen": null,
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "1:0.52",
+    "tolerance_open_interval": [
+      1.92888339748889e-06,
+      1.9440856268810916e-06
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": null,
+      "nominal_secant": null,
+      "physical_frozen": null,
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "1:0.52",
+    "tolerance_open_interval": [
+      1.9440856268810916e-06,
+      4.357824114100566e-06
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": null,
+      "nominal_secant": null,
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "1:0.52",
+    "tolerance_open_interval": [
+      4.357824114100566e-06,
+      6.24950177445756e-06
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": null,
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "1:0.52",
+    "tolerance_open_interval": [
+      6.24950177445756e-06,
+      9.00579260754897e-06
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "1:0.52",
+    "tolerance_open_interval": [
+      9.00579260754897e-06,
+      5.8282297186256e-05
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        4.620120999970823,
+        5,
+        2
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "1:0.52",
+    "tolerance_open_interval": [
+      5.8282297186256e-05,
+      7.388777796745943e-05
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        3.1679776999808382,
+        3,
+        2
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        4.620120999970823,
+        5,
+        2
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "1:0.52",
+    "tolerance_open_interval": [
+      7.388777796745943e-05,
+      0.00027690139697807533
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        3.1679776999808382,
+        3,
+        2
+      ],
+      "nominal_secant": [
+        2.7720725999824936,
+        3,
+        2
+      ],
+      "physical_frozen": [
+        4.620120999970823,
+        5,
+        2
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "1:0.52",
+    "tolerance_open_interval": [
+      0.00027690139697807533,
+      0.0009003871146478608
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        3.1679776999808382,
+        3,
+        2
+      ],
+      "nominal_secant": [
+        2.7720725999824936,
+        3,
+        2
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "1:0.52",
+    "tolerance_open_interval": [
+      0.0009003871146478608,
+      0.001004715602849254
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": [
+        2.7720725999824936,
+        3,
+        2
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "1:0.52",
+    "tolerance_open_interval": [
+      0.001004715602849254,
+      0.017736765809323558
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": [
+        1.848048399988329,
+        2,
+        1
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "-1:0.44",
+    "tolerance_open_interval": [
+      0.0,
+      0.01994365791596922
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "-1:0.44",
+    "tolerance_open_interval": [
+      0.01994365791596922,
+      0.039235994979629936
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        3.1679776999808382,
+        3,
+        2
+      ],
+      "nominal_secant": [
+        2.7720725999824936,
+        3,
+        2
+      ],
+      "physical_frozen": [
+        4.620120999970823,
+        5,
+        2
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "-1:0.44",
+    "tolerance_open_interval": [
+      0.039235994979629936,
+      0.05790328379506418
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": [
+        1.848048399988329,
+        2,
+        1
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "-1:0.56",
+    "tolerance_open_interval": [
+      0.0002453284137063013,
+      0.0007914614431265699
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": null,
+      "nominal_secant": null,
+      "physical_frozen": null,
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "-1:0.56",
+    "tolerance_open_interval": [
+      0.0007914614431265699,
+      0.001359610204704101
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": null,
+      "physical_frozen": null,
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "-1:0.56",
+    "tolerance_open_interval": [
+      0.001359610204704101,
+      0.0019885386275721546
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": null,
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "-1:0.56",
+    "tolerance_open_interval": [
+      0.0019885386275721546,
+      0.01729846732493972
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "-1:0.56",
+    "tolerance_open_interval": [
+      0.01729846732493972,
+      0.035076850703700195
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        3.1679776999808382,
+        3,
+        2
+      ],
+      "nominal_secant": [
+        2.7720725999824936,
+        3,
+        2
+      ],
+      "physical_frozen": [
+        4.620120999970823,
+        5,
+        2
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "-1:0.56",
+    "tolerance_open_interval": [
+      0.035076850703700195,
+      0.053342750687549984
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": [
+        1.848048399988329,
+        2,
+        1
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "1:0.44",
+    "tolerance_open_interval": [
+      0.0,
+      0.019480985161663713
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "1:0.44",
+    "tolerance_open_interval": [
+      0.019480985161663713,
+      0.03828611076323806
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        3.1679776999808382,
+        3,
+        2
+      ],
+      "nominal_secant": [
+        2.7720725999824936,
+        3,
+        2
+      ],
+      "physical_frozen": [
+        4.620120999970823,
+        5,
+        2
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "1:0.44",
+    "tolerance_open_interval": [
+      0.03828611076323806,
+      0.056448406838120524
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": [
+        1.848048399988329,
+        2,
+        1
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "1:0.56",
+    "tolerance_open_interval": [
+      0.00024360494648998808,
+      0.0013471478805395806
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": null,
+      "nominal_secant": null,
+      "physical_frozen": null,
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "1:0.56",
+    "tolerance_open_interval": [
+      0.0013471478805395806,
+      0.001800154533791554
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": null,
+      "nominal_secant": null,
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "1:0.56",
+    "tolerance_open_interval": [
+      0.001800154533791554,
+      0.0020770926610255863
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": null,
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "1:0.56",
+    "tolerance_open_interval": [
+      0.0020770926610255863,
+      0.016747194968851773
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "1:0.56",
+    "tolerance_open_interval": [
+      0.016747194968851773,
+      0.03397518219218122
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        3.1679776999808382,
+        3,
+        2
+      ],
+      "nominal_secant": [
+        2.7720725999824936,
+        3,
+        2
+      ],
+      "physical_frozen": [
+        4.620120999970823,
+        5,
+        2
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "1:0.56",
+    "tolerance_open_interval": [
+      0.03397518219218122,
+      0.05170143759718341
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": [
+        1.848048399988329,
+        2,
+        1
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "-1:0.53",
+    "tolerance_open_interval": [
+      2.252441222733323e-06,
+      5.243178664506995e-06
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": null,
+      "physical_frozen": null,
+      "physical_recomputed": null
+    }
+  },
+  {
+    "case": "-1:0.53",
+    "tolerance_open_interval": [
+      5.243178664506995e-06,
+      1.5928725858251798e-05
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": null,
+      "physical_frozen": null,
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "-1:0.53",
+    "tolerance_open_interval": [
+      1.5928725858251798e-05,
+      5.0196269144469805e-05
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": null,
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "-1:0.53",
+    "tolerance_open_interval": [
+      5.0196269144469805e-05,
+      6.515048544213695e-05
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "-1:0.53",
+    "tolerance_open_interval": [
+      6.515048544213695e-05,
+      6.651928323590808e-05
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "-1:0.53",
+    "tolerance_open_interval": [
+      6.651928323590808e-05,
+      0.00034308932035052603
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        3.1679776999808382,
+        3,
+        2
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "-1:0.53",
+    "tolerance_open_interval": [
+      0.00034308932035052603,
+      0.0006313413228441749
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        3.1679776999808382,
+        3,
+        2
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        4.620120999970823,
+        5,
+        2
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "-1:0.53",
+    "tolerance_open_interval": [
+      0.0006313413228441749,
+      0.008946927016574718
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        3.1679776999808382,
+        3,
+        2
+      ],
+      "nominal_secant": [
+        2.7720725999824936,
+        3,
+        2
+      ],
+      "physical_frozen": [
+        4.620120999970823,
+        5,
+        2
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "-1:0.53",
+    "tolerance_open_interval": [
+      0.008946927016574718,
+      0.0272255304367878
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": [
+        1.848048399988329,
+        2,
+        1
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "-1:0.57",
+    "tolerance_open_interval": [
+      0.008475985408851893,
+      0.025777868470024827
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "-1:0.57",
+    "tolerance_open_interval": [
+      0.025777868470024827,
+      0.04355262604704299
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        3.1679776999808382,
+        3,
+        2
+      ],
+      "nominal_secant": [
+        2.7720725999824936,
+        3,
+        2
+      ],
+      "physical_frozen": [
+        4.620120999970823,
+        5,
+        2
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "-1:0.57",
+    "tolerance_open_interval": [
+      0.04355262604704299,
+      0.061807044490588665
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": [
+        1.848048399988329,
+        2,
+        1
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "1:0.53",
+    "tolerance_open_interval": [
+      2.9808919374379414e-06,
+      1.670037799785064e-05
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": null,
+      "nominal_secant": null,
+      "physical_frozen": null,
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "1:0.53",
+    "tolerance_open_interval": [
+      1.670037799785064e-05,
+      4.96332243605382e-05
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": null,
+      "nominal_secant": null,
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "1:0.53",
+    "tolerance_open_interval": [
+      4.96332243605382e-05,
+      6.491649524095712e-05
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": null,
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "1:0.53",
+    "tolerance_open_interval": [
+      6.491649524095712e-05,
+      6.552870301197127e-05
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "1:0.53",
+    "tolerance_open_interval": [
+      6.552870301197127e-05,
+      0.0003453588904730295
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "1:0.53",
+    "tolerance_open_interval": [
+      0.0003453588904730295,
+      0.0006253942396259267
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        4.620120999970823,
+        5,
+        2
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "1:0.53",
+    "tolerance_open_interval": [
+      0.0006253942396259267,
+      0.0007146267805510369
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        3.1679776999808382,
+        3,
+        2
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        4.620120999970823,
+        5,
+        2
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "1:0.53",
+    "tolerance_open_interval": [
+      0.0007146267805510369,
+      0.008673641131091233
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        3.1679776999808382,
+        3,
+        2
+      ],
+      "nominal_secant": [
+        2.7720725999824936,
+        3,
+        2
+      ],
+      "physical_frozen": [
+        4.620120999970823,
+        5,
+        2
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "1:0.53",
+    "tolerance_open_interval": [
+      0.008673641131091233,
+      0.02641314834526814
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": [
+        1.848048399988329,
+        2,
+        1
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  },
+  {
+    "case": "1:0.57",
+    "tolerance_open_interval": [
+      0.008202050150428195,
+      0.024951695272225016
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        4.092001899975003,
+        4,
+        3
+      ],
+      "nominal_secant": [
+        3.696096799976658,
+        4,
+        3
+      ],
+      "physical_frozen": [
+        5.544145199964987,
+        6,
+        3
+      ],
+      "physical_recomputed": [
+        9.240241999941645,
+        10,
+        3
+      ]
+    }
+  },
+  {
+    "case": "1:0.57",
+    "tolerance_open_interval": [
+      0.024951695272225016,
+      0.04217583198285432
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        3.1679776999808382,
+        3,
+        2
+      ],
+      "nominal_secant": [
+        2.7720725999824936,
+        3,
+        2
+      ],
+      "physical_frozen": [
+        4.620120999970823,
+        5,
+        2
+      ],
+      "physical_recomputed": [
+        6.468169399959152,
+        7,
+        2
+      ]
+    }
+  },
+  {
+    "case": "1:0.57",
+    "tolerance_open_interval": [
+      0.04217583198285432,
+      0.05989118298320457
+    ],
+    "component_cost_estimates_seconds_calls_iteration": {
+      "fno_frozen": [
+        2.2439534999866737,
+        2,
+        1
+      ],
+      "nominal_secant": [
+        1.848048399988329,
+        2,
+        1
+      ],
+      "physical_frozen": [
+        3.696096799976658,
+        4,
+        1
+      ],
+      "physical_recomputed": [
+        3.696096799976658,
+        4,
+        1
+      ]
+    }
+  }
+]

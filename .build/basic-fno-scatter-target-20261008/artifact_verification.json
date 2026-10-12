@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "actual_updates": 400,
+  "final_checkpoint_reload_metrics_match": true,
+  "old_normalization_preserved": true,
+  "original_sources_and_prior_artifact_hashes_unchanged": true,
+  "known_zero_exact_residual_tests": "passed",
+  "syntax": "passed",
+  "vault_links_and_figure_copies": "passed",
+  "figure_visual_review": "completed",
+  "scope": "Synthetic scalar model, one seed, no test, physical-gradient, real-data or FWI validation."
+}

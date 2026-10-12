@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "all_metrics_and_steps": "exact recomputation",
+  "all12_post_update_physical_predictions": "bit identical regenerated",
+  "inputs_dependencies": "SHA unchanged",
+  "raw_sha256": "9ae30f1bea7b3258c98c0d12d43f2b54fdbd0d16fc7f05290fc3e937a731069f",
+  "limitation": "Same stencil; no independent physics or network Jacobian test"
+}

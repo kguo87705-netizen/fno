@@ -1,0 +1,46 @@
+{
+  "status": "planned_not_run",
+  "data_access": [
+    "train",
+    "validation"
+  ],
+  "test_access": false,
+  "input_channels": 8,
+  "common_six_channels": [
+    "gamma",
+    "x/Lx",
+    "y/Ly",
+    "t/T",
+    "sx/Lx",
+    "sy/Ly"
+  ],
+  "additional_channels_control": "zeros",
+  "additional_channels_experiment": "sin(2*pi*500000*t), cos(2*pi*500000*t)",
+  "frequency_selected_from": "fixed released source configuration, not validation fit",
+  "paired_initial_state_hash_must_match": true,
+  "width": 4,
+  "layers": 4,
+  "modes": [
+    16,
+    8,
+    64
+  ],
+  "padding": 0,
+  "target": "FD(gamma)-FD(1)",
+  "normalization": "same full-field train-only RMS scales, no residual rescaling",
+  "receiver_loss_weight": 1,
+  "Adam_learning_rate": 0.001,
+  "seed": 2,
+  "train_groups": 12,
+  "validation_groups": 6,
+  "epochs": 20,
+  "updates_per_arm": 960,
+  "sample_orders": "reuse recorded 20 epochs from matched control",
+  "selection": "fixed final epoch, no validation checkpoint selection",
+  "metrics": [
+    "validation scatter field and receiver relative L2",
+    "full field and receiver relative L2",
+    "material secant response L2, norm ratio, cosine"
+  ],
+  "comparison_warning": "Both new arms use eight channels; six-channel historical run is context only, not causal control."
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checks": [
+    "9 tasks success",
+    "true source-index loops",
+    "per-source shape 24x2000",
+    "finite outputs",
+    "relative source-file checks",
+    "0 network forwards",
+    "0 training updates"
+  ],
+  "physical_calls": 24,
+  "scope": "true transmit source selection, scalar finite-difference, not final test"
+}

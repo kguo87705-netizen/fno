@@ -1,0 +1,8 @@
+{
+  "class": "AssertionError",
+  "error": "",
+  "elapsed_seconds": 158.5872920999991,
+  "arm": "loss_reset",
+  "completed_updates_current_arm": 100,
+  "cost_scope": "Keep all previous arm records too;no automatic rerun"
+}

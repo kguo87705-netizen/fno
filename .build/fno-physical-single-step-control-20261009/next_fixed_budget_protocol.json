@@ -1,0 +1,57 @@
+{
+  "status": "planned_not_run",
+  "question": "Does surrogate initialization retain a cost/quality advantage once the direct physical scalar baseline gets a fixed sufficient iteration budget?",
+  "output_directory": ".build/fno-physical-fixed-budget-control-20261009",
+  "targets": [
+    0.35,
+    0.45,
+    0.55,
+    0.65
+  ],
+  "data_role": "Same now-used development observations, not independent final test",
+  "initializations": [
+    "frozen original width8 grid-selected a",
+    "frozen train-only linear grid-selected a",
+    "fixed .5"
+  ],
+  "fixed": "Same one-step formula, float64 physics, epsilon.002, max absolute step.02, bounds[.3,.7], observations and known support.",
+  "primary_change_from_prior": "Exactly8 physical updates per initialization rather than1; all3 methods get the identical update budget.",
+  "evaluation_updates": [
+    0,
+    1,
+    2,
+    4,
+    8
+  ],
+  "selection": "Run all8 updates; final8 is primary result. No stopping or selection from material truth, objective tolerance or best iterate; all cost increases and clips preserved.",
+  "cache_policy": "Separate physical cache per target/initialization; reuse the previous F(a1) as the next center only within its own trajectory. No cross-method/cross-target sharing for timing; logical4 calls/update reported alongside actual unique calls.",
+  "references": [
+    "unchanged initial estimate",
+    "direct .5 physical route with same8-update budget",
+    "old full201-point physical grid as diagnostic reference only, not new solver call cost"
+  ],
+  "metrics": [
+    "full trajectories of a,cost,raw/clipped delta",
+    "material errors scored after fixed updates, full/scatter receiver errors",
+    "per-route actual physical calls,cache hits,times",
+    "first-stage201-candidate original/linear lookup times and network offline training532.99sec separately; prior training-data generation unknown",
+    "quality versus total accounted calls/time at predeclared updates0/1/2/4/8; do not choose a stopping update based on these labels"
+  ],
+  "decision": {
+    "all_routes_recover_similarly": "Current known-support scalar task offers no neural necessity evidence; favor simplest verified pipeline and preregister a new geometry/parameter axis only if it creates a meaningful operator problem.",
+    "surrogate_routes_only_recover": "Initialization benefit at fixed8 steps; require full cost accounting/new validation before neural advantage, and compare linear first.",
+    "fixed05_still_clip_limited": "Report optimizer budget limitation, not identifiability failure; no automatic extra updates.",
+    "material_worsens_despite_cost_decrease": "No recovery-success claim; audit model/objective mismatch.",
+    "late_roundoff_plateau": "Report numerical plateau and label/reference precision, not best-iterate recovery."
+  },
+  "budget": "At most384 logical float64 FD calls, actual within-trajectory cache may reduce calls. Estimated3-5min,cap10min,no training/download,fresh directory,OOM stop.",
+  "limits": "Known support scalar optimization; does not validate blind imaging, unknown geometry, noise robustness or an independent final test. Single-run route timings are descriptive, not a formal benchmark.",
+  "frozen_sha256": {
+    ".build\\fno-physical-single-step-control-20261009\\raw.pt": "9ae30f1bea7b3258c98c0d12d43f2b54fdbd0d16fc7f05290fc3e937a731069f",
+    ".build\\fno-physical-single-step-control-20261009\\summary.json": "a1adf528aa623ff4f4c4d5e0448f399b0112a8c60f300090d27f04520007c039",
+    ".build\\fno-physical-single-step-control-20261009\\protocol.json": "3f72dd9775ea8e7e0e214c1dff4190616d2197cde7c336fd22db32aa4ef213ab",
+    ".build\\fno-frozen-new-contrast-validation-20261009\\observations.pt": "03d21574983adfee9253cfff3b1536dd6d71ebc8a0fafc98efc646f4481ae9c8",
+    ".build\\fno-frozen-new-contrast-validation-20261009\\summary.json": "f4e31dabfea5b30b4073383963965f939c978d144016461f0b548226d367877f",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_physical_single_step.py": "6783c10028943b2bfdb27ce4b7eee6598f2c7890cd9998d263bf83bda9e565b2"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "original_source_files_unchanged": 7,
+  "python_syntax": "passed",
+  "group_split": {
+    "train": 12,
+    "validation": 6,
+    "test": 6
+  },
+  "prefix_material_and_split_preserved": true,
+  "checkpoint_manifest_and_scale_match": true,
+  "training_updates": 288,
+  "test_unique_shots": 24,
+  "gradient_precision_max_relative_difference": 0.0001620406901527982,
+  "vault_links_and_figure_copy": "passed",
+  "figure_visual_review": "completed",
+  "scope": "Artifact consistency and synthetic experiment verification; no real-data or elastic-wave validation."
+}

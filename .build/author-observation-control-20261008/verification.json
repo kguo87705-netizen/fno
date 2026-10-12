@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "seven_author_files": "unchanged",
+  "inputs_and_downloaded_generation_sources": "SHA verified",
+  "same_solver_truth_observation": "bit_identical",
+  "arms": {
+    "released_uniform": {
+      "endpoint_reload": "bit_identical",
+      "max_metric_difference": 0,
+      "finite_adam_steps": 35
+    },
+    "released_near_truth": {
+      "endpoint_reload": "bit_identical",
+      "max_metric_difference": 0,
+      "finite_adam_steps": 35
+    },
+    "self_consistent_uniform": {
+      "endpoint_reload": "bit_identical",
+      "max_metric_difference": 0,
+      "finite_adam_steps": 35
+    },
+    "self_consistent_near_truth": {
+      "endpoint_reload": "bit_identical",
+      "max_metric_difference": 0,
+      "finite_adam_steps": 35
+    }
+  },
+  "scope": "Case1 fixed35 development; no validation/test, independent-physics or general reconstruction claim."
+}

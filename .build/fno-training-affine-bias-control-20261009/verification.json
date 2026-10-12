@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "OLS_and_metrics": "exactly recomputed",
+  "training_commit": "SHA passed before development load",
+  "zero_slope": "exact constant bias reproduction",
+  "frozen_files": "SHA unchanged",
+  "raw_sha256": "91a5eca50484ae8b5825ff2382fb5b843e4c990d2caad7aa932bea40fccf44db",
+  "limitation": "No exact objective AD available; response and objective derivatives are finite differences only"
+}

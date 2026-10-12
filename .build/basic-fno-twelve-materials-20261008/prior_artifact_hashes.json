@@ -1,0 +1,15 @@
+{
+  ".build\\basic-fno-four-materials-20261008\\protocol.json": "e226cc0fd07acc132293fdc61e7f4fde6dd756d74577686a9ead915293ab18fd",
+  ".build\\basic-fno-four-materials-20261008\\comparison.json": "6ec1092c9631c5c94aa8bf6b29ecce3fe45848ed7f1616f45f65fce722064f05",
+  ".build\\basic-fno-four-materials-20261008\\final.pt": "94b2fc8e7f1b7f51761452ee6ab5b7052bd0250968f3ba5d787aa469e63ccf76",
+  ".build\\basic-fno-four-materials-20261008\\training_mean.pt": "e0c8f79c4668c180c05d6218935942470d104a0007e4ac23c6d841e410cefdba",
+  ".build\\basic-fno-four-materials-20261008\\material_response.json": "3f0396cae7e59a8bfe7599af3d2ddc9241ab64d217a470be374f93fe5d3a176e",
+  ".build\\basic-fno-four-materials-20261008\\summary.json": "fd58047d53805b45a86477810af27249fa781237be4b98395dc944a8e1cf000c",
+  ".build\\basic-fno-four-materials-20261008\\artifact_verification.json": "55fbbf32ba46cf1210db7475d8000d9a20452c4731b2c6a1f4709a02d7e7ad54",
+  ".build\\basic-fno-four-materials-20261008\\four_materials_validation.png": "7c8ef4f34052917355dcd32a23e9b71fc15e51149f2bba7424dd85d07d381be0",
+  ".build\\basic-fno-four-materials-20261008\\next_twelve_materials_protocol.json": "8a4959cbeafa2bb7dba84476d7643faa5098a10251b2b33d93ff03e0ae9715bf",
+  "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_four_materials.py": "71743e05cd2fe29d8706d3c4df9c2ae5e42accda460ed3fdff0114b587898150",
+  "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\audit_four_material_response.py": "854fbf40939d0e8324e581233671b46545fff0880e3a5fe960c6b7c9ee460d41",
+  "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\verify_four_materials.py": "a53967b7f1e710ddd1a23f39e5ca80e167d0e5bb17c28c9a3da889e3b83b66af",
+  "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\summarize_four_materials.py": "b84e75e967fbb4acbdc5fe54fe6e3e607ec09f356f609f881a3714395e9725e3"
+}

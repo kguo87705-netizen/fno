@@ -1,0 +1,41 @@
+{
+  "status": "completed",
+  "device": "cuda",
+  "torch": "2.11.0+cu128",
+  "warmup": 1,
+  "single_physical_seconds": [
+    1.06246960000135,
+    1.0016753999952925,
+    0.9151558000012301,
+    0.9240241999941645,
+    0.9069257000082871
+  ],
+  "single_network_prediction_seconds": [
+    0.19627650000620633,
+    0.1945797000080347,
+    0.1913702000019839,
+    0.19041870000364725,
+    0.19124600000213832
+  ],
+  "paired_direction_timings": [
+    {
+      "physical_two_calls_seconds": 1.8175080999935744,
+      "network_two_forwards_seconds": 0.39590509999834467
+    },
+    {
+      "physical_two_calls_seconds": 1.8162021999887656,
+      "network_two_forwards_seconds": 0.39659869999741204
+    },
+    {
+      "physical_two_calls_seconds": 1.8117286000051536,
+      "network_two_forwards_seconds": 0.3833581999933813
+    }
+  ],
+  "summary": {
+    "median_physical_seconds": 0.9240241999941645,
+    "median_network_seconds": 0.1913702000019839,
+    "median_physical_pair_seconds": 1.8162021999887656,
+    "median_network_pair_seconds": 0.39590509999834467
+  },
+  "scope": "center depth known support source0; timing only, not end-to-end training or full inversion"
+}

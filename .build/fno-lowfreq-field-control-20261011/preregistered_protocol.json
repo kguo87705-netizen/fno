@@ -1,0 +1,48 @@
+{
+  "status": "planned_not_run",
+  "experiment": "low_frequency_full_field_loss_control",
+  "question": "Does a fixed low-frequency full-field term reduce broad low-frequency field error while preserving receiver/material/geometry responses?",
+  "initial_checkpoint": "D:\\下载\\FNO_Research_Workspace\\.build\\fno-matched-material-replay-20261009\\material_replay_update400.pt",
+  "arms": {
+    "loss_original": [
+      "depth-2",
+      "depth0",
+      "depth2",
+      "contrast03",
+      "contrast07"
+    ],
+    "loss_lowfreq": [
+      "depth-2",
+      "depth0",
+      "depth2",
+      "contrast03",
+      "contrast07"
+    ]
+  },
+  "losses": {
+    "loss_original": "field_mse + receiver_mse",
+    "loss_lowfreq": "field_mse + receiver_mse + 0.5*lowpass10pct_field_mse"
+  },
+  "fixed": "Same material replay400 state/Adam400, slot exposure20 each,100 updates,IEEE,architecture,inputs,normalization and evaluations. Only fixed low-frequency field term changes.",
+  "budget": {
+    "updates": 200,
+    "forward_calls": 28,
+    "backward_calls": 200,
+    "optimizer_updates": 200,
+    "physical_calls": 0,
+    "wall_seconds_cap": 240
+  },
+  "success": "Lowfreq arm improves both development-depth full-field scatter errors by >=20%, while receiver scatter and material wide response do not exceed1.1x original and geometry response remains <=20%,cosine>=.9.",
+  "failure": "No field improvement or receiver/material/geometry guardrail failure.",
+  "inconclusive": "Mixed gains below20%,one initialization,or budget failure.",
+  "scope": "Development states only; no final independent test,local Jacobian,material recovery,blind detection or total cost claim.",
+  "frozen_sha256": {
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-matched-material-replay-20261009\\material_replay_update400.pt": "d705c291872243e42ed9a37d027195d2f2725ab542c22067973c7fa414239217",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-matched-material-replay-20261009\\summary.json": "26091b8b4f2c04b7003e59bf20ead64a5c7c526473d704da020cb344e4182711",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-matched-material-replay-20261009\\verification.json": "06ce3eb54646954af65f6dc3ce1151e36b8483cc9f5bf830af814e223a71d626",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-coverage-diagnostic-20261011\\summary.json": "122002ed12d8336c4db490935ae219e4f6d27a16a8d4412f6d2978c72e290cbd",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-coverage-diagnostic-20261011\\verification.json": "3c88267824f454832ed3fb091d314a5b1888657101037dfa8659381c6195e9cd",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_adam_state_control.py": "c3b01ee5d10f010b7548662e08f67866b79c5efa98252ec8d0b96ef3d06d2c0c"
+  },
+  "output_directory": "D:\\下载\\FNO_Research_Workspace\\.build\\fno-lowfreq-field-control-20261011"
+}

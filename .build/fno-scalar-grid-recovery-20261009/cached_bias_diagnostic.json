@@ -1,0 +1,35 @@
+{
+  "status": "exploratory_post_run_no_new_forward_calls",
+  "formula": "delta=-<J,e>_time/<J,J>_time, e=proxy_at_target-observation; local Gauss-Newton approximation, not recovered a",
+  "records": [
+    {
+      "method": "width8",
+      "target": 0.4000000059604645,
+      "linearized_bias_prediction_delta_a": 0.001307089927243686,
+      "observed_coarse_delta_a": 0.0,
+      "residual_energy_fraction_projected_on_tangent": 0.0038928635250261427
+    },
+    {
+      "method": "width8",
+      "target": 0.6000000238418579,
+      "linearized_bias_prediction_delta_a": -0.009883408463718856,
+      "observed_coarse_delta_a": -0.010000050067901611,
+      "residual_energy_fraction_projected_on_tangent": 0.285656842328306
+    },
+    {
+      "method": "piecewise_linear",
+      "target": 0.4000000059604645,
+      "linearized_bias_prediction_delta_a": 0.010361218841353466,
+      "observed_coarse_delta_a": 0.009999990463256836,
+      "residual_energy_fraction_projected_on_tangent": 0.2093489431586602
+    },
+    {
+      "method": "piecewise_linear",
+      "target": 0.6000000238418579,
+      "linearized_bias_prediction_delta_a": 0.006694764875839513,
+      "observed_coarse_delta_a": 0.009999990463256836,
+      "residual_energy_fraction_projected_on_tangent": 0.22781100591837702
+    }
+  ],
+  "limitation": "Uses development target to diagnose error after completed selection; cannot use this as an oracle correction in deployment"
+}

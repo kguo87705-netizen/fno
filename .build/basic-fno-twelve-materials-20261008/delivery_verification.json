@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "prior_four_material_files_and_scripts_checked": 13,
+  "train_validation_data_file_hashes_checked": 18,
+  "old_test_files_read": 0,
+  "updated_vault_notes_checked": 7,
+  "wikilinks_checked": 91,
+  "missing_links": [],
+  "image_copy_sha256_matches": 3,
+  "image_visual_review": "All three figures actually viewed; DeepONet title overlap repaired and final image re-viewed.",
+  "fno_final_updates": 4800,
+  "deeponet_final_updates": 400,
+  "models_reloaded_and_metrics_recomputed": "passed",
+  "next_time_feature_protocol": "planned_not_run",
+  "scope": "No independent final test, physical derivative or surrogate FWI claim."
+}

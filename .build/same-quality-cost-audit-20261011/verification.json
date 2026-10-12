@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checks": [
+    "12 cases",
+    "equal four physical calls for FNO and nominal",
+    "finite component estimates",
+    "all tolerance intervals enumerated",
+    "input hashes unchanged"
+  ],
+  "no_physical_or_network_calls": true
+}

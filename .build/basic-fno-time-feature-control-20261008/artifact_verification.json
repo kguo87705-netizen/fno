@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "paired_initial_weights_equal": true,
+  "legacy_six_channel_initialization_preserved": true,
+  "orders_match_twenty_permutations": true,
+  "updates_per_arm": 960,
+  "validation_shots_recomputed_per_arm": 24,
+  "checkpoint_reload_max_metric_difference": [
+    0.0,
+    0.0
+  ],
+  "known_zero_and_exact_linear_residual_checks": "passed",
+  "input_frequency_unit_circle_and_material_autograd_checks": "passed",
+  "material_response_energy_identity": "passed",
+  "data_manifest_homogeneous_and_seven_original_source_hashes": "unchanged",
+  "scope": "No test reads, physical gradient, real data or inverse evaluation.",
+  "prior_artifact_hashes_unchanged": 38,
+  "syntax": "passed",
+  "vault_link_targets_resolved": 32,
+  "figure_visual_review": "completed",
+  "figure_copy_hash_match": true,
+  "documentation_and_plan_updated": true,
+  "next_diagnostic_status": "planned_not_run"
+}

@@ -1,0 +1,109 @@
+{
+  "status": "frozen_before_training",
+  "plan": {
+    "status": "planned_not_run",
+    "experiment": "adam_state_reset_control",
+    "question": "Does resetting Adam moments improve the local descent trajectory while preserving material and geometry responses?",
+    "initial_checkpoint": "D:\\下载\\FNO_Research_Workspace\\.build\\fno-paired-depth-coverage-recovery-r2-20261009\\depth_coverage_update300.pt",
+    "arms": {
+      "loss_stateful": [
+        "depth-2",
+        "depth0",
+        "depth2",
+        "contrast03",
+        "contrast07"
+      ],
+      "loss_reset": [
+        "depth-2",
+        "depth0",
+        "depth2",
+        "contrast03",
+        "contrast07"
+      ]
+    },
+    "optimizer": {
+      "loss_stateful": "restore checkpoint Adam step300 moments",
+      "loss_reset": "fresh Adam lr=.001,step0,moments zero"
+    },
+    "fixed": "Same state_dict, material replay data, slot exposure20 each,100 updates,field+receiver loss,IEEE,architecture,inputs,normalization and evaluation. Only Adam state initialization changes.",
+    "budget": {
+      "updates": 200,
+      "forward_calls": 28,
+      "backward_calls": 200,
+      "optimizer_updates": 200,
+      "physical_calls": 0,
+      "wall_seconds_cap": 240
+    },
+    "success": "Reset arm improves both development-depth full-field scatter by >=20% versus stateful while geometry response remains <=20%, cosine>=.9, and material wide response does not exceed 1.1x stateful.",
+    "failure": "Reset does not improve field,or violates geometry/material guardrails.",
+    "inconclusive": "Mixed gains below20%,one initialization,or budget failure.",
+    "scope": "Development states; not final test,local Jacobian,material recovery,blind detection or total inversion cost.",
+    "frozen_sha256": {
+      "D:\\下载\\FNO_Research_Workspace\\.build\\fno-paired-depth-coverage-recovery-r2-20261009\\depth_coverage_update300.pt": "6460eb36126572887b07d40f16d9347bd9ce49e51abfe6b655d05da15802e660",
+      "D:\\下载\\FNO_Research_Workspace\\.build\\fno-matched-material-replay-20261009\\material_replay_update400.pt": "d705c291872243e42ed9a37d027195d2f2725ab542c22067973c7fa414239217",
+      "D:\\下载\\FNO_Research_Workspace\\.build\\fno-adam-direction-audit-20261010\\summary.json": "bd0ef99339ae4f37331f9935117204489e4834e93982a9419b84f22e19b1fba9",
+      "D:\\下载\\FNO_Research_Workspace\\.build\\fno-adam-direction-audit-20261010\\verification.json": "ebe4c2e549d041a49bb57d685de6ca6e1a38d88af3b89d0b811b99926536b37a",
+      "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_loss_ablation.py": "96ed7ab770bc749b598f816babdfb1b1e1697fe7937246c8938c9324202d15d8"
+    },
+    "output_directory": "D:\\下载\\FNO_Research_Workspace\\.build\\fno-adam-state-control-20261010"
+  },
+  "plan_sha256": "222e3821ff017353d5e7b3115e52c5988359557d0a9aa2d4aa609be87078e6bc",
+  "script_sha256": "c3b01ee5d10f010b7548662e08f67866b79c5efa98252ec8d0b96ef3d06d2c0c",
+  "frozen_sha256": {
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-paired-depth-coverage-recovery-r2-20261009\\depth_coverage_update300.pt": "6460eb36126572887b07d40f16d9347bd9ce49e51abfe6b655d05da15802e660",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-matched-material-replay-20261009\\material_replay_update400.pt": "d705c291872243e42ed9a37d027195d2f2725ab542c22067973c7fa414239217",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-adam-direction-audit-20261010\\summary.json": "bd0ef99339ae4f37331f9935117204489e4834e93982a9419b84f22e19b1fba9",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-adam-direction-audit-20261010\\verification.json": "ebe4c2e549d041a49bb57d685de6ca6e1a38d88af3b89d0b811b99926536b37a",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_loss_ablation.py": "96ed7ab770bc749b598f816babdfb1b1e1697fe7937246c8938c9324202d15d8",
+    ".build\\fno-frozen-depth-shift-audit-20261009-r2\\raw.pt": "246c5fbd657fb8b03337832ee3081f2db6011798fa925c3763d9f0c9e032b061",
+    ".build\\fno-depth-interpolation-control-20261009\\raw.pt": "1f0f1dd54042cc812a8f3ef768e1435354d848f0a57e076856432912ef15da7d",
+    ".build\\fno-depth-interpolation-control-20261009\\summary.json": "82af871baea63216be452906d42f0ae03d37424f7dedc3b4d7c7c6ad74f29a9d",
+    ".build\\fno-depth-interpolation-control-20261009\\verification.json": "0644b2e5c81a85deeaae330d65f9d18c49a7cb08f127f3a6151b5c052bc22cf3",
+    ".build\\fno-depth-interpolation-control-20261009\\references.pt": "2bf461f8697e4693d5f235f59320e58b31f376e33fe8995b542a4f45f4736b0e",
+    ".build\\fno-depth-interpolation-control-20261009\\reference_commit.json": "07bcaded29c391e7fcd7771fedf6a8539961ebeb15a99e1ac810bff43835ffb5",
+    ".build\\fno-width8-control-20261009\\final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+    ".build\\fno-local-contrast-20261009\\data_manifest.json": "281ac315c43066fae6d75457c42f3800d087192bf15022b86307d999acb4da69",
+    ".build\\fno-local-contrast-20261009\\contrast_03.pt": "07b6c6bcf1aff23887e7fa1e10f7407c3f30f4e64e33905c2d95cb7ffc8a6906",
+    ".build\\fno-local-contrast-20261009\\contrast_07.pt": "44d76f12fd90866012dec14e6881d113ee591ca8c60abac0fc1d10bce61fe3ba",
+    ".build\\operator-pilot-v3-20261008\\homogeneous.pt": "9d382c08f6dbd90cedb09c2971aaf66c96d60ca69fecbfea41d29822955d88b6",
+    "C:\\Users\\Administrator\\Desktop\\大二下\\大三课程\\文献阅读\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_receiver_loss_control.py": "50e645a04cdd4695b808db3326e3c87a0a4ea96bfe606c37d83d1c1c4df6a039",
+    "C:\\Users\\Administrator\\Desktop\\大二下\\大三课程\\文献阅读\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\time_feature_input.py": "5d18c16a80304c2ac8027dbdef5b3bcb3c9dd40450e6361dddb39b84fdc86f39",
+    "C:\\Users\\Administrator\\Desktop\\大二下\\大三课程\\文献阅读\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\basic_fno.py": "acf21cd017e7bb399d1184d312212db67023adaa7c8ca008ff8a60081210737a",
+    ".build\\fno-paired-depth-coverage-control-20261009\\protocol.json": "a6756982abe6dec39a17cf498f365b13518e853d4f941fe36651c30fb7aa7f0a",
+    ".build\\fno-paired-depth-coverage-control-20261009\\failure.json": "045126695c8286ebe22d290fc209c1e2126a017e49ae39095f4e5331550ffa70",
+    ".build\\fno-paired-depth-coverage-control-20261009\\save_failure_audit.json": "93c15d09926e4421511c7cc29437b451bc762f0387b59fa274c07c0152831fd2",
+    ".build\\fno-paired-depth-coverage-control-20261009\\nominal_repeat_progress.pt": "164293bf8d1e622b2c862fb1694153ddf4a927d9683ce7cf5628c02f28da635e",
+    ".build\\fno-paired-depth-coverage-control-20261009\\nominal_repeat_update150.pt": "70ba976bc8c1718aae9aa01a96ab72fe4e32cb6abafc2abceed35e4b53aa2da0",
+    ".build\\fno-paired-depth-coverage-control-20261009\\nominal_repeat_update300.pt": "723102f808ea52e755026c95faf5aa0b063736e6e76d19779be1800a94d024b1",
+    ".build\\fno-paired-depth-coverage-control-20261009\\save_diagnostic\\checkpoint150.pt": "b91719595ebe9c945962bd98a62531825b2d3a250fbbb8e69d0b271e7cf9f5c8",
+    "C:\\Users\\Administrator\\Desktop\\大二下\\大三课程\\文献阅读\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_paired_depth_coverage.py": "2e37bed83a91c499b01f2fd50b31eca7cbc3590d8ebd05d5922c4b900e590296",
+    "C:\\Users\\Administrator\\Desktop\\大二下\\大三课程\\文献阅读\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_frozen_depth_shift.py": "ffb0aa8c5ecd01ee879e90d1b78f4cd784f2cc50d2841026a8730ec7031c253e",
+    "C:\\Users\\Administrator\\Desktop\\大二下\\大三课程\\文献阅读\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_depth_interpolation.py": "d29259d347b08035c2e7333c0621a48e47527f555b6d4e6336a202da95df7bc3",
+    "C:\\Users\\Administrator\\Desktop\\大二下\\大三课程\\文献阅读\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_fno_local_contrast.py": "579d0b03d157c73cd54b3c2495994eaeb9f7e6b200d6cced94a6b67e32c30530",
+    "C:\\Users\\Administrator\\Desktop\\大二下\\大三课程\\文献阅读\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\time_reconstruction.py": "d749b8f5c6aa379187a8d1486c0249b1d79630a9ecd638e7af63ce1cf7d2aaf2",
+    "C:\\Users\\Administrator\\Desktop\\大二下\\大三课程\\文献阅读\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\train_multiworkpiece_control.py": "81a81d3536dbc1175eaee2795581247d54a200dcf08367f5cdab84df305a5464",
+    "C:\\Users\\Administrator\\Desktop\\大二下\\大三课程\\文献阅读\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_reduced_material_scan.py": "b48630e557fb7c99e7e881f2c1adb32216311077386f5fe71af4693bc12a1108",
+    "C:\\Users\\Administrator\\Desktop\\大二下\\大三课程\\文献阅读\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_contrast_derivative_audit.py": "f89db13917f3e66a1b0c3702200c27ef49d2babe23ed04a99956bad9b44fd265",
+    "C:\\Users\\Administrator\\Desktop\\大二下\\大三课程\\文献阅读\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\operator_data.py": "43c1c3f67f7abe6a91a95886c4121fd6f34031e81f29dd46db1f2d19c82617ca",
+    ".build\\fno-paired-depth-coverage-recovery-20261009\\nominal_repeat_update300.pt": "345ac6691173d7bd4cde20e9cfd2bf9aa6cde3cc5a1d481476252f106352c3da",
+    ".build\\fno-paired-depth-coverage-recovery-20261009\\nominal_repeat_results.pt": "987cdca8a75a46b2519ed14bb7bfceda86f1e2996d47c94f8a9773663d961913",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_paired_depth_recovery.py": "40b1fb25d386f0d274a9b39c39b519b42f42e0b53f3eb059169f0e0358d7d744"
+  },
+  "dependencies": {
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_paired_depth_coverage.py": "2e37bed83a91c499b01f2fd50b31eca7cbc3590d8ebd05d5922c4b900e590296",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_paired_depth_recovery.py": "40b1fb25d386f0d274a9b39c39b519b42f42e0b53f3eb059169f0e0358d7d744",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_frozen_depth_shift.py": "ffb0aa8c5ecd01ee879e90d1b78f4cd784f2cc50d2841026a8730ec7031c253e",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_fno_local_contrast.py": "579d0b03d157c73cd54b3c2495994eaeb9f7e6b200d6cced94a6b67e32c30530",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\discrete_reference.py": "744df2da2f15abed6934a78e600b9d1aa94fc3dd87d87ba48f41839bec7b0aaf",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\time_reconstruction.py": "d749b8f5c6aa379187a8d1486c0249b1d79630a9ecd638e7af63ce1cf7d2aaf2",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\time_feature_input.py": "5d18c16a80304c2ac8027dbdef5b3bcb3c9dd40450e6361dddb39b84fdc86f39",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\basic_fno.py": "acf21cd017e7bb399d1184d312212db67023adaa7c8ca008ff8a60081210737a",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_receiver_loss_control.py": "50e645a04cdd4695b808db3326e3c87a0a4ea96bfe606c37d83d1c1c4df6a039",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\operator_data.py": "43c1c3f67f7abe6a91a95886c4121fd6f34031e81f29dd46db1f2d19c82617ca",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\train_multiworkpiece_control.py": "81a81d3536dbc1175eaee2795581247d54a200dcf08367f5cdab84df305a5464"
+  },
+  "gpu": "NVIDIA GeForce RTX 5070",
+  "torch": "2.11.0+cu128",
+  "storage": "D drive;CPU fsync temporary writes,reload tensor equality before commit",
+  "timing": "Clock starts before setup;includes both training,evaluations,safe writes and final model reload/replay;protocol SHA preflight separately."
+}

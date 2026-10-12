@@ -1,0 +1,175 @@
+{
+  "rows": [
+    {
+      "case": "-1:0.48",
+      "method": "fno_frozen",
+      "full_relative_l2": 0.0,
+      "scatter_relative_l2": 0.0,
+      "parameter_error": 0.0,
+      "rejections": 2,
+      "calls": 4,
+      "seconds": 4.207365499998559
+    },
+    {
+      "case": "-1:0.48",
+      "method": "nominal_secant",
+      "full_relative_l2": 2.9591654561921414e-06,
+      "scatter_relative_l2": 8.615920113095602e-06,
+      "parameter_error": 1.5931325051954381e-06,
+      "rejections": 1,
+      "calls": 4,
+      "seconds": 4.078818699999829
+    },
+    {
+      "case": "-1:0.48",
+      "method": "physical_frozen",
+      "full_relative_l2": 0.0,
+      "scatter_relative_l2": 0.0,
+      "parameter_error": 0.0,
+      "rejections": 2,
+      "calls": 6,
+      "seconds": 6.279642999994394
+    },
+    {
+      "case": "-1:0.48",
+      "method": "physical_recomputed",
+      "full_relative_l2": 0.0,
+      "scatter_relative_l2": 0.0,
+      "parameter_error": 0.0,
+      "rejections": 2,
+      "calls": 10,
+      "seconds": 10.32025870000507
+    },
+    {
+      "case": "-1:0.52",
+      "method": "fno_frozen",
+      "full_relative_l2": 0.0,
+      "scatter_relative_l2": 0.0,
+      "parameter_error": 0.0,
+      "rejections": 2,
+      "calls": 4,
+      "seconds": 4.24766180000006
+    },
+    {
+      "case": "-1:0.52",
+      "method": "nominal_secant",
+      "full_relative_l2": 3.6805669821605626e-06,
+      "scatter_relative_l2": 1.1805162176541024e-05,
+      "parameter_error": 3.352749063934013e-06,
+      "rejections": 0,
+      "calls": 4,
+      "seconds": 4.072255099999893
+    },
+    {
+      "case": "-1:0.52",
+      "method": "physical_frozen",
+      "full_relative_l2": 1.6887031289510822e-06,
+      "scatter_relative_l2": 5.416397637082896e-06,
+      "parameter_error": 3.591412398584737e-07,
+      "rejections": 0,
+      "calls": 6,
+      "seconds": 5.280091699998593
+    },
+    {
+      "case": "-1:0.52",
+      "method": "physical_recomputed",
+      "full_relative_l2": 2.5667377013833233e-06,
+      "scatter_relative_l2": 8.232632357008523e-06,
+      "parameter_error": 8.463261891300533e-08,
+      "rejections": 0,
+      "calls": 10,
+      "seconds": 9.902590199999395
+    },
+    {
+      "case": "1:0.48",
+      "method": "fno_frozen",
+      "full_relative_l2": 3.0678936771599475e-06,
+      "scatter_relative_l2": 9.091549580660437e-06,
+      "parameter_error": 5.253437174168596e-08,
+      "rejections": 0,
+      "calls": 4,
+      "seconds": 3.8513994999957504
+    },
+    {
+      "case": "1:0.48",
+      "method": "nominal_secant",
+      "full_relative_l2": 0.0,
+      "scatter_relative_l2": 0.0,
+      "parameter_error": 9.340503925869825e-09,
+      "rejections": 0,
+      "calls": 4,
+      "seconds": 4.147780100000091
+    },
+    {
+      "case": "1:0.48",
+      "method": "physical_frozen",
+      "full_relative_l2": 0.0,
+      "scatter_relative_l2": 0.0,
+      "parameter_error": 0.0,
+      "rejections": 2,
+      "calls": 6,
+      "seconds": 6.139087699993979
+    },
+    {
+      "case": "1:0.48",
+      "method": "physical_recomputed",
+      "full_relative_l2": 0.0,
+      "scatter_relative_l2": 0.0,
+      "parameter_error": 0.0,
+      "rejections": 2,
+      "calls": 10,
+      "seconds": 10.066627100000915
+    },
+    {
+      "case": "1:0.52",
+      "method": "fno_frozen",
+      "full_relative_l2": 4.357824114100566e-06,
+      "scatter_relative_l2": 1.4226135204900294e-05,
+      "parameter_error": 4.4054816789040885e-06,
+      "rejections": 0,
+      "calls": 4,
+      "seconds": 4.060448899996118
+    },
+    {
+      "case": "1:0.52",
+      "method": "nominal_secant",
+      "full_relative_l2": 6.24950177445756e-06,
+      "scatter_relative_l2": 2.040152490758508e-05,
+      "parameter_error": 6.192043948471948e-06,
+      "rejections": 0,
+      "calls": 4,
+      "seconds": 3.9956946999955107
+    },
+    {
+      "case": "1:0.52",
+      "method": "physical_frozen",
+      "full_relative_l2": 1.9440856268810916e-06,
+      "scatter_relative_l2": 6.346475730496984e-06,
+      "parameter_error": 3.0382908822179644e-07,
+      "rejections": 0,
+      "calls": 6,
+      "seconds": 6.008749900000112
+    },
+    {
+      "case": "1:0.52",
+      "method": "physical_recomputed",
+      "full_relative_l2": 1.761028632249739e-06,
+      "scatter_relative_l2": 5.7488853992576e-06,
+      "parameter_error": 1.1370402952515235e-08,
+      "rejections": 0,
+      "calls": 10,
+      "seconds": 10.002755000001343
+    }
+  ],
+  "actual_calls": 100,
+  "data_generation_calls": 4,
+  "online_calls": 96,
+  "timing_note": "sequential single run, cached FNO direction and loading excluded; no total-cost speedup claim",
+  "scope": "nearby scalar development diagnostic; clipping .02 matches target offset and can yield exact first-step answer",
+  "historical_corrections": [
+    "Previous 4-vs-10 counted target generation as per-route initial call while reusing initial trace; not online measured counts.",
+    "Previous update loop unconditionally accepted candidates.",
+    "Previous verification checked shapes/hashes, not numerical replay.",
+    "Material response relative-L2 screen remains failed; successful scalar contraction does not waive it."
+  ]
+}

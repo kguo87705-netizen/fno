@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "arms": {
+    "released_uniform": {
+      "initial_fields": "bit_identical_to_free_pixels",
+      "endpoints": "metrics_exact",
+      "final_prediction": "bit_identical",
+      "finite_adam_steps": 35
+    },
+    "released_near_truth": {
+      "initial_fields": "bit_identical_to_free_pixels",
+      "endpoints": "metrics_exact",
+      "final_prediction": "bit_identical",
+      "finite_adam_steps": 35
+    },
+    "self_consistent_uniform": {
+      "initial_fields": "bit_identical_to_free_pixels",
+      "endpoints": "metrics_exact",
+      "final_prediction": "bit_identical",
+      "finite_adam_steps": 35
+    },
+    "self_consistent_near_truth": {
+      "initial_fields": "bit_identical_to_free_pixels",
+      "endpoints": "metrics_exact",
+      "final_prediction": "bit_identical",
+      "finite_adam_steps": 35
+    }
+  },
+  "sources_and_hashes": "passed",
+  "gradient_audit": "passed",
+  "scope": "Known geometry is diagnostic oracle information; success cannot be claimed as blind FWI, geometry recovery or final generalization"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "wikilinks": "All5 edited files resolved",
+  "image": "copy SHA matches",
+  "tables": "Generated from verified summary",
+  "evidence_hashes": {
+    ".build\\fno-frozen-depth-shift-audit-20261009-r2\\raw.pt": "246c5fbd657fb8b03337832ee3081f2db6011798fa925c3763d9f0c9e032b061",
+    ".build\\fno-frozen-depth-shift-audit-20261009-r2\\summary.json": "59badb22a80ee30a808e2af1e86e0d5fa7416dafe7711a039f4def5540838ac7",
+    ".build\\fno-frozen-depth-shift-audit-20261009-r2\\response_decomposition.json": "a150900db6be70184c2f472f7a04571987423e8597b050a123f06b382da3c944",
+    ".build\\fno-frozen-depth-shift-audit-20261009-r2\\verification.json": "29d44cefa51293b32d013015165601c7cecf59112d29e2210cc01c981b1b61c9",
+    ".build\\fno-width8-control-20261009\\final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20",
+    ".build\\fno-local-contrast-20261009\\contrast_05.pt": "baf16dcfb73599e8172e31919e052811e21ba09e543bb7a191ced73aee4c9c30"
+  },
+  "native_Obsidian_rendering": "not performed",
+  "files_sha256": {
+    "PINO超声成像知识库\\05实践与复习\\冻结FNO深度平移审查与几何响应 2026-10-09.md": "e8545e7d279ed3bd7a8fc99c0616142e6bf3dc657999aedeb41e1f4a22dfb81b",
+    "PINO超声成像知识库\\00导航\\FNO与超声全波形反演科研计划 2026-10-07.md": "f8eac79b3e041fc5ec51b44ae9979d49d75f8d4317af94a226cda7eae1908a87",
+    "PINO超声成像知识库\\00导航\\相控阵FWI与神经算子后续执行路线 2026-10-08.md": "6de8bdafa11a279fc1d2a6bbf200e0f8740219c7f4c01c28146cda4afae96000",
+    "PINO超声成像知识库\\04专题\\相控阵FWI与神经算子阶段总结及知识梳理 2026-10-08.md": "a6c520f84d86e6cf599fc81361301520cf4d76c9c1594b2bc860fd246482a735",
+    "PINO超声成像知识库\\05实践与复习\\固定八步物理更新与初始化收益审查 2026-10-09.md": "84538de63f8fa3dc26c13d1198baee01d90f8cb5f49ca5c915a59dcca4b22e03"
+  }
+}

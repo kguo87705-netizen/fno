@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "prior_artifact_integrity": {
+    "prior_artifact_hashes.json": 8,
+    "fixed400_artifact_hashes.json": 12
+  },
+  "seven_author_files": "unchanged",
+  "training000_serialized_data_integrity": "unchanged",
+  "matched_initial_state_and_full_sampling_sequence_both_budgets": "passed",
+  "all_four_final_checkpoint_reload_and_metric_audits": "passed",
+  "resume400_prefix_checks": "passed",
+  "figure_visual_review": "actually viewed, labels and scales readable",
+  "figure_copy_sha256": "matched",
+  "updated_notes": 4,
+  "wikilinks_checked": 80,
+  "missing_links": [],
+  "syntax_checks": 7,
+  "next_protocol": "branch-freeze paired4000, planned_not_run",
+  "results": {
+    "400": {
+      "zero": {
+        "scatter_field_relative_l2": 1.0000048633411267,
+        "scatter_trace_relative_l2": 0.999993681994148
+      },
+      "sincos": {
+        "scatter_field_relative_l2": 1.0004519427292569,
+        "scatter_trace_relative_l2": 0.9981750176449452
+      }
+    },
+    "4000": {
+      "zero": {
+        "scatter_field_relative_l2": 1.0000075448189947,
+        "scatter_trace_relative_l2": 0.9999850025800877
+      },
+      "sincos": {
+        "scatter_field_relative_l2": 1.004077456849276,
+        "scatter_trace_relative_l2": 0.9807115035070815
+      }
+    }
+  },
+  "scope": "Only training000/source0 loaded; no validation/test, physical derivatives or surrogate FWI."
+}

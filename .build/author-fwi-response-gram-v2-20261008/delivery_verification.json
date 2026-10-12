@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "notes_and_links": 5,
+  "scripts_compiled": 3,
+  "behavioral_verification": "verification.json passed; Gram, original solver parity and self-consistent gradient",
+  "plot_copy": "SHA identical",
+  "plot_visual_review": "viewed, readable",
+  "scope": "Case1 development only; no independent reconstruction or test claim"
+}

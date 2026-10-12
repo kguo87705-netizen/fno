@@ -1,0 +1,10 @@
+{
+  ".build\\basic-deeponet-single-20261008\\artifact_verification.json": "b415e80a8b5cd2edbae7e79f3899bff19867c9a21c63fffa1e42153b7539776b",
+  ".build\\basic-deeponet-single-20261008\\comparison.json": "605ec435781d11b5bf330a07cca82895f999e677bbf367a929fd73563ad137cc",
+  ".build\\basic-deeponet-single-20261008\\deeponet_single_training.png": "576097392766b4f07c4e48fe08b0d0d2d6b675f5421272cae553602bea1d7e8e",
+  ".build\\basic-deeponet-single-20261008\\final.pt": "b6f1fb2db7033005cbdd972578639b03c3861b2d834ab6244b8a0df1201de055",
+  ".build\\basic-deeponet-single-20261008\\next_time_feature_protocol.json": "b5a8eb7e07e07b567cf453d46acec9f9543e03d1aeb4869449d6044237e2eeeb",
+  ".build\\basic-deeponet-single-20261008\\optimization_audit.json": "4eaf01c17f022e33a66e0b6a84bbcaa12c1f9b510963fb350153326e3fe18ee5",
+  ".build\\basic-deeponet-single-20261008\\protocol.json": "248164552f9e147b2395da73e79ca7130d84c3c190d8261f50faa67c70a6a586",
+  ".build\\basic-deeponet-single-20261008\\training_example.pt": "6b81a1a6f566a83fa90931791c502081b886112e7be53935a1121bbbb5a9148a"
+}

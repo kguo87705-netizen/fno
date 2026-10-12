@@ -1,0 +1,65 @@
+{
+  "plan": {
+    "status": "planned_not_run",
+    "experiment": "heldout_support_candidate_ranking",
+    "purpose": "symmetric replication of heldout support candidate ranking at a=.47",
+    "target": {
+      "depth_row": 3,
+      "material": 0.47,
+      "role": "new development diagnostic; not final test"
+    },
+    "candidate_depth_rows": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "candidate_materials": [
+      0.47,
+      0.53
+    ],
+    "methods": [
+      "frozen_R2_receiver_prediction",
+      "nominal_physical_secant_reference",
+      "full_physical_candidate_ranking",
+      "zero_scatter"
+    ],
+    "metrics": [
+      "Spearman rank",
+      "Kendall rank",
+      "top1",
+      "top3",
+      "physical_acceptance_calls_after_proxy_screen",
+      "full_receiver_relative_l2",
+      "scatter_receiver_relative_l2"
+    ],
+    "budget": {
+      "physical_calls": 24,
+      "network_forwards": 24,
+      "training_updates": 0,
+      "wall_seconds": 300
+    },
+    "truth_policy": "target used only to generate observation and posthoc statistics; no target-based threshold or early stopping",
+    "scope": "known support shape but heldout support row, source0, scalar density; not blind defect identification or final test",
+    "success_rule": "freeze before run: R2 top3 contains physical top1 and proxy screening reduces required physical candidates relative to full grid without worse final candidate quality; otherwise route fails"
+  },
+  "status": "frozen_before_generation",
+  "hashes": {
+    ".build\\same-quality-cost-audit-20261011\\heldout_support_candidate_ranking_symmetry_protocol.json": "4125cfd5c05a839e7c39eeec67cfd7f0863a12baa6e202feea65edd8597b662d",
+    ".build\\fno-lowfreq-field-control-r2-20261011\\loss_original_update400.pt": "8b59728c9ab6c72d08d6f8d12fae34ad8300df26640997dd85953c0908aa9a2b",
+    ".build\\operator-pilot-v3-20261008\\homogeneous.pt": "9d382c08f6dbd90cedb09c2971aaf66c96d60ca69fecbfea41d29822955d88b6",
+    ".build\\fno-frozen-depth-shift-audit-20261009-r2\\state_0.pt": "4a35b835ea601b37617a9ed4aa4082fb142d04247ccaf8845776ad71a86b569b",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_fno_local_contrast.py": "579d0b03d157c73cd54b3c2495994eaeb9f7e6b200d6cced94a6b67e32c30530",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_frozen_depth_shift.py": "ffb0aa8c5ecd01ee879e90d1b78f4cd784f2cc50d2841026a8730ec7031c253e",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\basic_fno.py": "acf21cd017e7bb399d1184d312212db67023adaa7c8ca008ff8a60081210737a",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\FiniteDifferencePyTorchConv.py": "ffa51af0896fa2ddc0ef8e705d4f88f3dc9cc61df96b780eef1ad25cac1fde9f",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\settings2D.csv": "4fb9e8fdb8fa2fb97502e605f31351601e115463fa1800913473699d9f4ee398",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\data_casestudy\\source.h5": "67d94afee4a19becde3f081424510f2a2433f7dd27d301abdf1954fe6f168c9c",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_heldout_support_candidate_ranking_symmetry_r2_20261011.py": "02136b1bc19e7f2ca9a96607bcdfe45a6970421cbcc94dd8dee1442ce6a0ffc7"
+  },
+  "physical_calls_expected": 16,
+  "network_forwards_expected": 10,
+  "truth_policy": "target shift/material used only for observation generation and posthoc metrics; no threshold tuning",
+  "scope": "known support shape but heldout support row, source0, scalar density; not blind defect identification or final test"
+}

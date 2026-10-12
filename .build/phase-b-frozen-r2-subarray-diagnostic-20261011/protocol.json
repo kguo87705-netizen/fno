@@ -1,0 +1,34 @@
+{
+  "status": "frozen_before_run",
+  "experiment": "phase_b_frozen_r2_subarray_diagnostic",
+  "source": "source0",
+  "actions": [
+    "full_aperture",
+    "left_half",
+    "right_half"
+  ],
+  "materials": [
+    "low_contrast",
+    "high_contrast"
+  ],
+  "network_forwards": 6,
+  "physical_calls": 0,
+  "training_updates": 0,
+  "purpose": "diagnose frozen R2 observable scatter prediction across three receiver subarrays; no training or inversion",
+  "input_hashes": {
+    ".build\\phase-a-array-interface-20261011-r2\\protocol.json": "ff8fe3d1c8f2e54220829d619a2a2d59f8ab6b3222d43792deae1f1309d9819a",
+    ".build\\phase-a-array-interface-20261011-r2\\array_actions.json": "7c0cfe8954e36388785414b0aab02e04cb148d505d5747f54ef5a2a76f538175",
+    ".build\\phase-a-array-interface-20261011-r2\\input_manifest.json": "1f09204dbee31c82fffc20c1d5d643ecc947414e7e80b4bc51b2a2d9b670c51f",
+    ".build\\phase-a-array-interface-20261011-r2\\run_summary.json": "d4c760dc5d40a733f061c55da7bd0e94726a4765ed486650cf2ae472fb9cbeb8",
+    ".build\\phase-a-array-interface-20261011-r2\\ledger.json": "5e911e57892f524727bc32f0d2b1bdf6585252eccb2ed3aa2c9e9b014af950bd",
+    ".build\\phase-a-array-interface-20261011-r2\\verification.json": "f2af39119c1deab53cb3d9c51d405f881251feee0be317b4d19115147e6f0e31",
+    ".build\\fno-frozen-depth-shift-audit-20261009-r2\\state_0.pt": "4a35b835ea601b37617a9ed4aa4082fb142d04247ccaf8845776ad71a86b569b",
+    ".build\\fno-lowfreq-field-control-r2-20261011\\loss_original_update400.pt": "8b59728c9ab6c72d08d6f8d12fae34ad8300df26640997dd85953c0908aa9a2b",
+    ".build\\operator-pilot-v3-20261008\\homogeneous.pt": "9d382c08f6dbd90cedb09c2971aaf66c96d60ca69fecbfea41d29822955d88b6",
+    ".build\\fno-local-contrast-20261009\\data_manifest.json": "281ac315c43066fae6d75457c42f3800d087192bf15022b86307d999acb4da69",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\basic_fno.py": "acf21cd017e7bb399d1184d312212db67023adaa7c8ca008ff8a60081210737a",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\time_feature_input.py": "5d18c16a80304c2ac8027dbdef5b3bcb3c9dd40450e6361dddb39b84fdc86f39",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\time_reconstruction.py": "d749b8f5c6aa379187a8d1486c0249b1d79630a9ecd638e7af63ce1cf7d2aaf2"
+  },
+  "scope": "same scalar finite-difference stage-A outputs; not generalization or final test"
+}

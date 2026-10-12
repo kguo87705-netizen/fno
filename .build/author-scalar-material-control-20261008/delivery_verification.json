@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "four_endpoints": "bit identical and exact metrics",
+  "scalar_bounds_and_36_material_errors": "passed",
+  "35_clipped_gradients_per_arm": "passed",
+  "scripts_compiled": 2,
+  "notes_and_links": 5,
+  "figure": "actually viewed; vault copy bit identical",
+  "next_fno_protocol": "planned_not_run",
+  "scope": "known-geometry case1, no independent physics or operator test"
+}

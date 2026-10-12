@@ -1,0 +1,48 @@
+{
+  "status": "fixed_before_forward_evaluation",
+  "prior_plan": {
+    "status": "planned_not_run",
+    "purpose": "Separate scalar material contrast sensitivity from free-pixel recovery difficulty after fixed35 observation control",
+    "case": 1,
+    "data_access": "Author case1 development only; no operator validation/test or independent final test",
+    "observations": [
+      "released measurement1",
+      "frozen same-stencil truth observation"
+    ],
+    "geometry": "Fixed known defect support from author material1<0.5; diagnostic oracle geometry, not practical blind inversion",
+    "parameterization": "gamma=1 outside support, gamma=a inside support, original ghost/source/receiver handling",
+    "contrast_values": [
+      1e-05,
+      0.0001,
+      0.001,
+      0.01,
+      0.05,
+      0.1,
+      0.3,
+      0.7,
+      1.0
+    ],
+    "forward": "Unchanged four shots,24 receivers,2000 steps,dt30ns; same discrete stencil and published source",
+    "metrics": [
+      "correct time cost",
+      "full waveform relative L2",
+      "scalar contrast",
+      "truth projection representation error"
+    ],
+    "selection": "All listed contrasts evaluated and reported, no truth-selected optimizer stopping; no network or regularization change",
+    "interpretation": "Known geometry reduces the parameter space; success cannot be claimed as full-field FWI or experimental recovery. Follow-up optimization and physical independent reference require separate frozen protocols."
+  },
+  "prior_plan_sha256": "13b93eb4a6f2670b4a10cac9d13fb27c740773606806e96c36b10cb0e66ee4a6",
+  "script_sha256": "b48630e557fb7c99e7e881f2c1adb32216311077386f5fe71af4693bc12a1108",
+  "frozen_observations_sha256": "011a1b367c066abdfe012488711ec8b0e95a77af15d888701e9825cf9871e9cb",
+  "reference_sha256": "744df2da2f15abed6934a78e600b9d1aa94fc3dd87d87ba48f41839bec7b0aaf",
+  "input_hashes": {
+    "settings2D.csv": "4fb9e8fdb8fa2fb97502e605f31351601e115463fa1800913473699d9f4ee398",
+    "data_casestudy/source.h5": "67d94afee4a19becde3f081424510f2a2433f7dd27d301abdf1954fe6f168c9c",
+    "data_casestudy/measurement1.h5": "707805f4bbac3a1b890684bbb8dbd8e07ae2608b5f84bbe4b9cd8ffa66fc0616",
+    "data_casestudy/material1.h5": "b6251c0404d9abfc13af6a6728250e7005422ca5892216744c5d9ccd35e94194"
+  },
+  "dtype": "float32 same as frozen observations",
+  "optimization_steps": 0,
+  "scope": "Case1 known-geometry development scan; no operator validation/test or blind reconstruction."
+}

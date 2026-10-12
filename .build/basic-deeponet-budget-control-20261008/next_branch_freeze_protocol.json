@@ -1,0 +1,43 @@
+{
+  "status": "planned_not_run",
+  "purpose": "Test joint branch/trunk optimization as a single-material fitting hypothesis; not operator generalization.",
+  "data_access": [
+    "train"
+  ],
+  "validation_access": false,
+  "test_access": false,
+  "training_groups": [
+    "synthetic_workpiece_000"
+  ],
+  "shot": 0,
+  "model": "Same seven-channel TimeFeatureDeepONet, fixed0.5MHz sincos",
+  "arms": [
+    "joint",
+    "frozen_initial_branch"
+  ],
+  "seed": 2,
+  "initialization": "Both from identical seed2 seven-channel initial state, from scratch; frozen branch remains at initial weights throughout",
+  "target": "FD(gamma)-FD(1)",
+  "normalization": "unchanged original training scales",
+  "receiver_loss_weight": 1,
+  "optimizer": "Adam lr0.001, only requires_grad parameters; trunk and scalar bias trained in both arms",
+  "updates_per_arm": 4000,
+  "field_points_per_update": 32768,
+  "sampling_seed": 19,
+  "receiver_points_per_update": 12000,
+  "evaluation_updates": [
+    0,
+    400,
+    4000
+  ],
+  "selection": "fixed final4000, no early stop or validation selection",
+  "metrics": [
+    "full-grid and full/scatter receiver errors",
+    "region errors",
+    "frozen branch hashes and finite state/gradient audits",
+    "matching initialization and point stream",
+    "training-only material response counterfactual"
+  ],
+  "scope": "Constant material encoding diagnostic at training000 only. Cannot prove trunk capacity limitation if both arms fail, and frozen branch is not a learned new-material operator.",
+  "data_manifest_sha256": "9972c2aec68c347ba73e1677c182b25542ebc74bb3a5cdcee9b7243548991e42"
+}

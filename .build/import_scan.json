@@ -1,0 +1,44 @@
+[
+  {
+    "id": "P08",
+    "source": "/Users/akong/Downloads/1-s2.0-S0041624X25002896-main.pdf",
+    "pages": 16,
+    "min_page_chars": 878
+  },
+  {
+    "id": "P10",
+    "source": "/Users/akong/Downloads/1-s2.0-S0041624X23001026-main.pdf",
+    "pages": 12,
+    "min_page_chars": 1656
+  },
+  {
+    "id": "P07",
+    "source": "/Users/akong/Downloads/Dual-Stage_Fourier_Neural_Operator_Mitigating_Spectral_Bias_for_Enhanced_Ultrasonic_Guided_Wave_Corrosion_Imaging.pdf",
+    "pages": 4,
+    "min_page_chars": 3607
+  },
+  {
+    "id": "P05",
+    "source": "/Users/akong/Downloads/1-s2.0-S0963869526001301-main.pdf",
+    "pages": 16,
+    "min_page_chars": 1286
+  },
+  {
+    "id": "P03",
+    "source": "/Users/akong/Downloads/1-s2.0-S0963869525002786-main.pdf",
+    "pages": 9,
+    "min_page_chars": 556
+  },
+  {
+    "id": "P01",
+    "source": "/Users/akong/Downloads/1-s2.0-S0888327026003365-main.pdf",
+    "pages": 17,
+    "min_page_chars": 855
+  },
+  {
+    "id": "P02",
+    "source": "/Users/akong/Downloads/1-s2.0-S0952197626002757-main.pdf",
+    "pages": 14,
+    "min_page_chars": 602
+  }
+]

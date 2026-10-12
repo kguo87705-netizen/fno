@@ -1,0 +1,28 @@
+{
+  "seed": 2,
+  "state_hash": "c4ec925c28948ec4912a8395f3ff22ae5126bd6db3c52c74442b638f8a2ef5b6",
+  "config": {
+    "width": 8,
+    "modes": [
+      16,
+      8,
+      64
+    ],
+    "layers": 4,
+    "input_channels": 8,
+    "output_channels": 1,
+    "padding": 0
+  },
+  "counts": {
+    "stored_elements": 8389129,
+    "real_parameters": 16777737
+  },
+  "width4_counts": {
+    "stored_elements": 2097317,
+    "real_parameters": 4194469
+  },
+  "device": "cuda",
+  "cuda_name": "NVIDIA GeForce RTX 5070",
+  "input_parity": "three training inputs bit identical to canonical encoding",
+  "initialization_limit": "Different dimensions; same seed does not match initial predictions or isolate initialization."
+}

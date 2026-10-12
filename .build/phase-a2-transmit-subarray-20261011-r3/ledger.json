@@ -1,0 +1,147 @@
+{
+  "status": "completed",
+  "entries": [
+    {
+      "run_id": "full_tx__background",
+      "action": "full_tx",
+      "material": "background",
+      "source_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "physical_calls": 4,
+      "network_forwards": 0,
+      "training_updates": 0,
+      "physical_seconds": 4.259223499990185,
+      "status": "completed"
+    },
+    {
+      "run_id": "full_tx__gamma_048",
+      "action": "full_tx",
+      "material": "gamma_048",
+      "source_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "physical_calls": 4,
+      "network_forwards": 0,
+      "training_updates": 0,
+      "physical_seconds": 3.9524146000039764,
+      "status": "completed"
+    },
+    {
+      "run_id": "full_tx__gamma_052",
+      "action": "full_tx",
+      "material": "gamma_052",
+      "source_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "physical_calls": 4,
+      "network_forwards": 0,
+      "training_updates": 0,
+      "physical_seconds": 4.011573800002225,
+      "status": "completed"
+    },
+    {
+      "run_id": "left_tx__background",
+      "action": "left_tx",
+      "material": "background",
+      "source_indices": [
+        0,
+        1
+      ],
+      "physical_calls": 2,
+      "network_forwards": 0,
+      "training_updates": 0,
+      "physical_seconds": 1.9731133000022965,
+      "status": "completed"
+    },
+    {
+      "run_id": "left_tx__gamma_048",
+      "action": "left_tx",
+      "material": "gamma_048",
+      "source_indices": [
+        0,
+        1
+      ],
+      "physical_calls": 2,
+      "network_forwards": 0,
+      "training_updates": 0,
+      "physical_seconds": 1.9676760000002105,
+      "status": "completed"
+    },
+    {
+      "run_id": "left_tx__gamma_052",
+      "action": "left_tx",
+      "material": "gamma_052",
+      "source_indices": [
+        0,
+        1
+      ],
+      "physical_calls": 2,
+      "network_forwards": 0,
+      "training_updates": 0,
+      "physical_seconds": 2.3223654000030365,
+      "status": "completed"
+    },
+    {
+      "run_id": "right_tx__background",
+      "action": "right_tx",
+      "material": "background",
+      "source_indices": [
+        2,
+        3
+      ],
+      "physical_calls": 2,
+      "network_forwards": 0,
+      "training_updates": 0,
+      "physical_seconds": 3.07706350000808,
+      "status": "completed"
+    },
+    {
+      "run_id": "right_tx__gamma_048",
+      "action": "right_tx",
+      "material": "gamma_048",
+      "source_indices": [
+        2,
+        3
+      ],
+      "physical_calls": 2,
+      "network_forwards": 0,
+      "training_updates": 0,
+      "physical_seconds": 2.8252020999934757,
+      "status": "completed"
+    },
+    {
+      "run_id": "right_tx__gamma_052",
+      "action": "right_tx",
+      "material": "gamma_052",
+      "source_indices": [
+        2,
+        3
+      ],
+      "physical_calls": 2,
+      "network_forwards": 0,
+      "training_updates": 0,
+      "physical_seconds": 2.2806572999979835,
+      "status": "completed"
+    }
+  ],
+  "totals": {
+    "physical_calls": 9,
+    "network_forwards": 0,
+    "training_updates": 0
+  },
+  "unknowns": [
+    "separate solver vs postprocess time",
+    "hardware transmit time",
+    "training cost"
+  ]
+}

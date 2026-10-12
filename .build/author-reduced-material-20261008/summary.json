@@ -1,0 +1,134 @@
+{
+  "status": "completed",
+  "records": [
+    {
+      "contrast": 1e-05,
+      "physical_material_half_mse": 0.0,
+      "released": {
+        "cost": 1.7712645586365205e-12,
+        "waveform_relative_l2": 0.5155089982421759
+      },
+      "self_consistent": {
+        "cost": 0.0,
+        "waveform_relative_l2": 0.0
+      }
+    },
+    {
+      "contrast": 0.0001,
+      "physical_material_half_mse": 4.189911612106911e-11,
+      "released": {
+        "cost": 1.7711874718620568e-12,
+        "waveform_relative_l2": 0.5154977887416725
+      },
+      "self_consistent": {
+        "cost": 4.557246119332805e-19,
+        "waveform_relative_l2": 0.00025163357151724517
+      }
+    },
+    {
+      "contrast": 0.001,
+      "physical_material_half_mse": 5.069793029832681e-09,
+      "released": {
+        "cost": 1.7704650679545297e-12,
+        "waveform_relative_l2": 0.5153925730277079
+      },
+      "self_consistent": {
+        "cost": 5.211214036282433e-17,
+        "waveform_relative_l2": 0.0026908153944322356
+      }
+    },
+    {
+      "contrast": 0.01,
+      "physical_material_half_mse": 5.162389697943581e-07,
+      "released": {
+        "cost": 1.7662973948034955e-12,
+        "waveform_relative_l2": 0.514784828429849
+      },
+      "self_consistent": {
+        "cost": 3.505281316061918e-15,
+        "waveform_relative_l2": 0.022067853237569972
+      }
+    },
+    {
+      "contrast": 0.05,
+      "physical_material_half_mse": 1.2926652743772138e-05,
+      "released": {
+        "cost": 1.7791533220637423e-12,
+        "waveform_relative_l2": 0.516654137222307
+      },
+      "self_consistent": {
+        "cost": 4.79881840645055e-14,
+        "waveform_relative_l2": 0.08165053173483924
+      }
+    },
+    {
+      "contrast": 0.1,
+      "physical_material_half_mse": 5.1716950110858306e-05,
+      "released": {
+        "cost": 1.8422769820086726e-12,
+        "waveform_relative_l2": 0.5257442764808606
+      },
+      "self_consistent": {
+        "cost": 1.4587686798534644e-13,
+        "waveform_relative_l2": 0.14235761543229106
+      }
+    },
+    {
+      "contrast": 0.3,
+      "physical_material_half_mse": 0.0004655146040022373,
+      "released": {
+        "cost": 2.3052540779056052e-12,
+        "waveform_relative_l2": 0.5881352042474373
+      },
+      "self_consistent": {
+        "cost": 7.168732296149172e-13,
+        "waveform_relative_l2": 0.31557448233940794
+      }
+    },
+    {
+      "contrast": 0.7,
+      "physical_material_half_mse": 0.0025345650501549244,
+      "released": {
+        "cost": 3.219259060716073e-12,
+        "waveform_relative_l2": 0.6950103600155062
+      },
+      "self_consistent": {
+        "cost": 1.7702585274406712e-12,
+        "waveform_relative_l2": 0.49586140777687127
+      }
+    },
+    {
+      "contrast": 1.0,
+      "physical_material_half_mse": 0.00517262564972043,
+      "released": {
+        "cost": 3.677988469341642e-12,
+        "waveform_relative_l2": 0.742874714585241
+      },
+      "self_consistent": {
+        "cost": 2.285477579758166e-12,
+        "waveform_relative_l2": 0.5634070305981499
+      }
+    }
+  ],
+  "elapsed_seconds": 7.962297000005492,
+  "support_physical_cells": 339,
+  "truth_defect_values": [
+    9.999999747378752e-06
+  ],
+  "truth_reference": {
+    "physical_material_half_mse": 0.0,
+    "released": {
+      "cost": 1.7712645586365205e-12,
+      "waveform_relative_l2": 0.5155089982421759
+    },
+    "self_consistent": {
+      "cost": 0.0,
+      "waveform_relative_l2": 0.0
+    }
+  },
+  "best_sampled": {
+    "released": 0.01,
+    "self_consistent": 1e-05
+  },
+  "interpretation": "Sampled minima only; no continuous optimum, geometry inference or full-field FWI claim."
+}

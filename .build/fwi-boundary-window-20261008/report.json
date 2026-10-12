@@ -1,0 +1,90 @@
+{
+  "description": "Same-grid forward boundary diagnostic. Side boundaries move from x=0,100 mm to x=-50,150 mm; bottom from y=50 to100 mm. The y=0 reflecting top is retained. Original source and receiver weights are zero-padded without refitting.",
+  "sigma_x_mm": 3.0,
+  "sigma_y_mm": 0.8,
+  "dt_seconds": 4e-08,
+  "device": "cuda",
+  "windows": {
+    "0_to_8us": {
+      "background_boundary_difference_rmse": 1.051817204788454e-06,
+      "background_cross_grid_rmse_reflecting": 6.491350559037005e-06,
+      "background_cross_grid_rmse_expanded": 6.503044758281854e-06,
+      "defects": {
+        "shallow": {
+          "signal_rmse_reflecting": 4.7280833792889476e-05,
+          "signal_rmse_expanded": 4.7280833792889476e-05,
+          "signal_boundary_difference_rmse": 2.7784865853442833e-19
+        },
+        "original": {
+          "signal_rmse_reflecting": 2.3434424397977697e-06,
+          "signal_rmse_expanded": 2.343442439797768e-06,
+          "signal_boundary_difference_rmse": 8.808471811433034e-20
+        },
+        "deep": {
+          "signal_rmse_reflecting": 1.6763051640895442e-15,
+          "signal_rmse_expanded": 1.6763051355501698e-15,
+          "signal_boundary_difference_rmse": 7.912855631779136e-20
+        }
+      }
+    },
+    "8_to_12us": {
+      "background_boundary_difference_rmse": 4.946590437952026e-05,
+      "background_cross_grid_rmse_reflecting": 1.0096011247226642e-05,
+      "background_cross_grid_rmse_expanded": 7.611689538680309e-06,
+      "defects": {
+        "shallow": {
+          "signal_rmse_reflecting": 7.391164358041073e-05,
+          "signal_rmse_expanded": 7.389040269041785e-05,
+          "signal_boundary_difference_rmse": 2.690090013290229e-07
+        },
+        "original": {
+          "signal_rmse_reflecting": 7.134766874284657e-05,
+          "signal_rmse_expanded": 7.134767072282935e-05,
+          "signal_boundary_difference_rmse": 5.582974552092225e-11
+        },
+        "deep": {
+          "signal_rmse_reflecting": 1.234705287516753e-05,
+          "signal_rmse_expanded": 1.2347052875167527e-05,
+          "signal_boundary_difference_rmse": 2.2566745654513044e-19
+        }
+      }
+    },
+    "12_to_16p8us": {
+      "background_boundary_difference_rmse": 6.204036930877812e-05,
+      "background_cross_grid_rmse_reflecting": 1.2517211174450282e-05,
+      "background_cross_grid_rmse_expanded": 1.8734512547792895e-06,
+      "defects": {
+        "shallow": {
+          "signal_rmse_reflecting": 3.5121855572463555e-05,
+          "signal_rmse_expanded": 2.969331552454034e-05,
+          "signal_boundary_difference_rmse": 1.8156149204496567e-05
+        },
+        "original": {
+          "signal_rmse_reflecting": 5.20363965383787e-05,
+          "signal_rmse_expanded": 5.091372361870089e-05,
+          "signal_boundary_difference_rmse": 8.44839305334023e-06
+        },
+        "deep": {
+          "signal_rmse_reflecting": 6.409161648821492e-05,
+          "signal_rmse_expanded": 6.401152284182335e-05,
+          "signal_boundary_difference_rmse": 4.96477882579459e-07
+        }
+      }
+    }
+  },
+  "defect_energy_after_12us": {
+    "shallow": {
+      "reflecting": 0.12968596725320775,
+      "expanded": 0.09628291833729488
+    },
+    "original": {
+      "reflecting": 0.3891049003121845,
+      "expanded": 0.3787874318712048
+    },
+    "deep": {
+      "reflecting": 0.9700004423069645,
+      "expanded": 0.9699275812140616
+    }
+  },
+  "limit": "Expanded material changes the specimen boundary problem; it is not an absorber, an independent solver, or validation of real-array performance."
+}

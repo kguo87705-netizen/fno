@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "scientific_status": "FNO finite difference convergence unresolved",
+  "note": "PINO超声成像知识库/04专题/有限孔径FWI神经算子证据审查与最小实验 2026-10-09.md",
+  "wikilinks_resolved": 6,
+  "plot": "visually inspected; vault copy SHA identical",
+  "native_Obsidian_render": "not checked",
+  "follow_up": "next_precision_protocol.json, planned_not_run",
+  "verification_threads": 4
+}

@@ -1,0 +1,632 @@
+{
+  "routes": [
+    {
+      "case": "-1:0.53",
+      "method": "fno_frozen",
+      "final_a": 0.5299988244740805,
+      "final_full_error": 2.252441222733323e-06,
+      "final_scatter_error": null,
+      "parameter_error": 1.1755259194945467e-06,
+      "online_physical_calls": 4,
+      "seconds": 4.069415499994648,
+      "trajectory": [
+        {
+          "a_before": 0.5,
+          "proposal": 0.52,
+          "step": 0.02,
+          "before": 0.0272255304367878,
+          "after": 0.008946927016574718,
+          "accepted": true,
+          "calls_so_far": 2
+        },
+        {
+          "a_before": 0.52,
+          "proposal": 0.5299252269932179,
+          "step": 0.009925226993217856,
+          "before": 0.008946927016574718,
+          "after": 6.651928323590808e-05,
+          "accepted": true,
+          "calls_so_far": 3
+        },
+        {
+          "a_before": 0.5299252269932179,
+          "proposal": 0.5299988244740805,
+          "step": 7.359748086271607e-05,
+          "before": 6.651928323590808e-05,
+          "after": 2.252441222733323e-06,
+          "accepted": true,
+          "calls_so_far": 4
+        }
+      ]
+    },
+    {
+      "case": "-1:0.53",
+      "method": "nominal_secant",
+      "final_a": 0.529943498822238,
+      "final_full_error": 5.0196269144469805e-05,
+      "final_scatter_error": null,
+      "parameter_error": 5.650117776201391e-05,
+      "online_physical_calls": 4,
+      "seconds": 3.9808080999937374,
+      "trajectory": [
+        {
+          "a_before": 0.5,
+          "proposal": 0.52,
+          "step": 0.02,
+          "before": 0.0272255304367878,
+          "after": 0.008946927016574718,
+          "accepted": true,
+          "calls_so_far": 2
+        },
+        {
+          "a_before": 0.52,
+          "proposal": 0.5292896040486368,
+          "step": 0.009289604048636765,
+          "before": 0.008946927016574718,
+          "after": 0.0006313413228441749,
+          "accepted": true,
+          "calls_so_far": 3
+        },
+        {
+          "a_before": 0.5292896040486368,
+          "proposal": 0.529943498822238,
+          "step": 0.0006538947736012638,
+          "before": 0.0006313413228441749,
+          "after": 5.0196269144469805e-05,
+          "accepted": true,
+          "calls_so_far": 4
+        }
+      ]
+    },
+    {
+      "case": "-1:0.53",
+      "method": "physical_frozen",
+      "final_a": 0.5299821473063309,
+      "final_full_error": 1.5928725858251798e-05,
+      "final_scatter_error": null,
+      "parameter_error": 1.7852693669162534e-05,
+      "online_physical_calls": 6,
+      "seconds": 5.9705780999938725,
+      "trajectory": [
+        {
+          "a_before": 0.5,
+          "proposal": 0.52,
+          "step": 0.02,
+          "before": 0.0272255304367878,
+          "after": 0.008946927016574718,
+          "accepted": true,
+          "calls_so_far": 4
+        },
+        {
+          "a_before": 0.52,
+          "proposal": 0.5296139419045807,
+          "step": 0.009613941904580687,
+          "before": 0.008946927016574718,
+          "after": 0.00034308932035052603,
+          "accepted": true,
+          "calls_so_far": 5
+        },
+        {
+          "a_before": 0.5296139419045807,
+          "proposal": 0.5299821473063309,
+          "step": 0.000368205401750147,
+          "before": 0.00034308932035052603,
+          "after": 1.5928725858251798e-05,
+          "accepted": true,
+          "calls_so_far": 6
+        }
+      ]
+    },
+    {
+      "case": "-1:0.53",
+      "method": "physical_recomputed",
+      "final_a": 0.5299999272535714,
+      "final_full_error": 5.243178664506995e-06,
+      "final_scatter_error": null,
+      "parameter_error": 7.274642865873204e-08,
+      "online_physical_calls": 10,
+      "seconds": 9.806476300000213,
+      "trajectory": [
+        {
+          "a_before": 0.5,
+          "proposal": 0.52,
+          "step": 0.02,
+          "before": 0.0272255304367878,
+          "after": 0.008946927016574718,
+          "accepted": true,
+          "calls_so_far": 4
+        },
+        {
+          "a_before": 0.52,
+          "proposal": 0.5299269904403807,
+          "step": 0.009926990440380661,
+          "before": 0.008946927016574718,
+          "after": 6.515048544213695e-05,
+          "accepted": true,
+          "calls_so_far": 7
+        },
+        {
+          "a_before": 0.5299269904403807,
+          "proposal": 0.5299999272535714,
+          "step": 7.293681319060361e-05,
+          "before": 6.515048544213695e-05,
+          "after": 5.243178664506995e-06,
+          "accepted": true,
+          "calls_so_far": 10
+        }
+      ]
+    },
+    {
+      "case": "-1:0.57",
+      "method": "fno_frozen",
+      "final_a": 0.56,
+      "final_full_error": 0.008475985408851893,
+      "final_scatter_error": null,
+      "parameter_error": 0.009999999999999898,
+      "online_physical_calls": 4,
+      "seconds": 3.938018300003023,
+      "trajectory": [
+        {
+          "a_before": 0.5,
+          "proposal": 0.52,
+          "step": 0.02,
+          "before": 0.061807044490588665,
+          "after": 0.04355262604704299,
+          "accepted": true,
+          "calls_so_far": 2
+        },
+        {
+          "a_before": 0.52,
+          "proposal": 0.54,
+          "step": 0.02,
+          "before": 0.04355262604704299,
+          "after": 0.025777868470024827,
+          "accepted": true,
+          "calls_so_far": 3
+        },
+        {
+          "a_before": 0.54,
+          "proposal": 0.56,
+          "step": 0.02,
+          "before": 0.025777868470024827,
+          "after": 0.008475985408851893,
+          "accepted": true,
+          "calls_so_far": 4
+        }
+      ]
+    },
+    {
+      "case": "-1:0.57",
+      "method": "nominal_secant",
+      "final_a": 0.56,
+      "final_full_error": 0.008475985408851893,
+      "final_scatter_error": null,
+      "parameter_error": 0.009999999999999898,
+      "online_physical_calls": 4,
+      "seconds": 4.0674699999945005,
+      "trajectory": [
+        {
+          "a_before": 0.5,
+          "proposal": 0.52,
+          "step": 0.02,
+          "before": 0.061807044490588665,
+          "after": 0.04355262604704299,
+          "accepted": true,
+          "calls_so_far": 2
+        },
+        {
+          "a_before": 0.52,
+          "proposal": 0.54,
+          "step": 0.02,
+          "before": 0.04355262604704299,
+          "after": 0.025777868470024827,
+          "accepted": true,
+          "calls_so_far": 3
+        },
+        {
+          "a_before": 0.54,
+          "proposal": 0.56,
+          "step": 0.02,
+          "before": 0.025777868470024827,
+          "after": 0.008475985408851893,
+          "accepted": true,
+          "calls_so_far": 4
+        }
+      ]
+    },
+    {
+      "case": "-1:0.57",
+      "method": "physical_frozen",
+      "final_a": 0.56,
+      "final_full_error": 0.008475985408851893,
+      "final_scatter_error": null,
+      "parameter_error": 0.009999999999999898,
+      "online_physical_calls": 6,
+      "seconds": 5.939489600001252,
+      "trajectory": [
+        {
+          "a_before": 0.5,
+          "proposal": 0.52,
+          "step": 0.02,
+          "before": 0.061807044490588665,
+          "after": 0.04355262604704299,
+          "accepted": true,
+          "calls_so_far": 4
+        },
+        {
+          "a_before": 0.52,
+          "proposal": 0.54,
+          "step": 0.02,
+          "before": 0.04355262604704299,
+          "after": 0.025777868470024827,
+          "accepted": true,
+          "calls_so_far": 5
+        },
+        {
+          "a_before": 0.54,
+          "proposal": 0.56,
+          "step": 0.02,
+          "before": 0.025777868470024827,
+          "after": 0.008475985408851893,
+          "accepted": true,
+          "calls_so_far": 6
+        }
+      ]
+    },
+    {
+      "case": "-1:0.57",
+      "method": "physical_recomputed",
+      "final_a": 0.56,
+      "final_full_error": 0.008475985408851893,
+      "final_scatter_error": null,
+      "parameter_error": 0.009999999999999898,
+      "online_physical_calls": 10,
+      "seconds": 9.965640700000222,
+      "trajectory": [
+        {
+          "a_before": 0.5,
+          "proposal": 0.52,
+          "step": 0.02,
+          "before": 0.061807044490588665,
+          "after": 0.04355262604704299,
+          "accepted": true,
+          "calls_so_far": 4
+        },
+        {
+          "a_before": 0.52,
+          "proposal": 0.54,
+          "step": 0.02,
+          "before": 0.04355262604704299,
+          "after": 0.025777868470024827,
+          "accepted": true,
+          "calls_so_far": 7
+        },
+        {
+          "a_before": 0.54,
+          "proposal": 0.56,
+          "step": 0.02,
+          "before": 0.025777868470024827,
+          "after": 0.008475985408851893,
+          "accepted": true,
+          "calls_so_far": 10
+        }
+      ]
+    },
+    {
+      "case": "1:0.53",
+      "method": "fno_frozen",
+      "final_a": 0.5299424424121012,
+      "final_full_error": 4.96332243605382e-05,
+      "final_scatter_error": null,
+      "parameter_error": 5.755758789882659e-05,
+      "online_physical_calls": 4,
+      "seconds": 4.0105586999998195,
+      "trajectory": [
+        {
+          "a_before": 0.5,
+          "proposal": 0.52,
+          "step": 0.02,
+          "before": 0.02641314834526814,
+          "after": 0.008673641131091233,
+          "accepted": true,
+          "calls_so_far": 2
+        },
+        {
+          "a_before": 0.52,
+          "proposal": 0.5292739733958131,
+          "step": 0.009273973395813076,
+          "before": 0.008673641131091233,
+          "after": 0.0006253942396259267,
+          "accepted": true,
+          "calls_so_far": 3
+        },
+        {
+          "a_before": 0.5292739733958131,
+          "proposal": 0.5299424424121012,
+          "step": 0.0006684690162881657,
+          "before": 0.0006253942396259267,
+          "after": 4.96332243605382e-05,
+          "accepted": true,
+          "calls_so_far": 4
+        }
+      ]
+    },
+    {
+      "case": "1:0.53",
+      "method": "nominal_secant",
+      "final_a": 0.5299246500870576,
+      "final_full_error": 6.491649524095712e-05,
+      "final_scatter_error": null,
+      "parameter_error": 7.53499129424462e-05,
+      "online_physical_calls": 4,
+      "seconds": 3.9862261999951443,
+      "trajectory": [
+        {
+          "a_before": 0.5,
+          "proposal": 0.52,
+          "step": 0.02,
+          "before": 0.02641314834526814,
+          "after": 0.008673641131091233,
+          "accepted": true,
+          "calls_so_far": 2
+        },
+        {
+          "a_before": 0.52,
+          "proposal": 0.529170440002895,
+          "step": 0.009170440002894978,
+          "before": 0.008673641131091233,
+          "after": 0.0007146267805510369,
+          "accepted": true,
+          "calls_so_far": 3
+        },
+        {
+          "a_before": 0.529170440002895,
+          "proposal": 0.5299246500870576,
+          "step": 0.0007542100841625716,
+          "before": 0.0007146267805510369,
+          "after": 6.491649524095712e-05,
+          "accepted": true,
+          "calls_so_far": 4
+        }
+      ]
+    },
+    {
+      "case": "1:0.53",
+      "method": "physical_frozen",
+      "final_a": 0.5299807264464373,
+      "final_full_error": 1.670037799785064e-05,
+      "final_scatter_error": null,
+      "parameter_error": 1.927355356268201e-05,
+      "online_physical_calls": 6,
+      "seconds": 6.172883599996567,
+      "trajectory": [
+        {
+          "a_before": 0.5,
+          "proposal": 0.52,
+          "step": 0.02,
+          "before": 0.02641314834526814,
+          "after": 0.008673641131091233,
+          "accepted": true,
+          "calls_so_far": 4
+        },
+        {
+          "a_before": 0.52,
+          "proposal": 0.5295989788843728,
+          "step": 0.009598978884372791,
+          "before": 0.008673641131091233,
+          "after": 0.0003453588904730295,
+          "accepted": true,
+          "calls_so_far": 5
+        },
+        {
+          "a_before": 0.5295989788843728,
+          "proposal": 0.5299807264464373,
+          "step": 0.0003817475620645011,
+          "before": 0.0003453588904730295,
+          "after": 1.670037799785064e-05,
+          "accepted": true,
+          "calls_so_far": 6
+        }
+      ]
+    },
+    {
+      "case": "1:0.53",
+      "method": "physical_recomputed",
+      "final_a": 0.5300000143990743,
+      "final_full_error": 2.9808919374379414e-06,
+      "final_scatter_error": null,
+      "parameter_error": 1.4399074266258083e-08,
+      "online_physical_calls": 10,
+      "seconds": 10.052019100010511,
+      "trajectory": [
+        {
+          "a_before": 0.5,
+          "proposal": 0.52,
+          "step": 0.02,
+          "before": 0.02641314834526814,
+          "after": 0.008673641131091233,
+          "accepted": true,
+          "calls_so_far": 4
+        },
+        {
+          "a_before": 0.52,
+          "proposal": 0.5299239452209797,
+          "step": 0.009923945220979712,
+          "before": 0.008673641131091233,
+          "after": 6.552870301197127e-05,
+          "accepted": true,
+          "calls_so_far": 7
+        },
+        {
+          "a_before": 0.5299239452209797,
+          "proposal": 0.5300000143990743,
+          "step": 7.606917809451451e-05,
+          "before": 6.552870301197127e-05,
+          "after": 2.9808919374379414e-06,
+          "accepted": true,
+          "calls_so_far": 10
+        }
+      ]
+    },
+    {
+      "case": "1:0.57",
+      "method": "fno_frozen",
+      "final_a": 0.56,
+      "final_full_error": 0.008202050150428195,
+      "final_scatter_error": null,
+      "parameter_error": 0.009999999999999898,
+      "online_physical_calls": 4,
+      "seconds": 3.9582323000067845,
+      "trajectory": [
+        {
+          "a_before": 0.5,
+          "proposal": 0.52,
+          "step": 0.02,
+          "before": 0.05989118298320457,
+          "after": 0.04217583198285432,
+          "accepted": true,
+          "calls_so_far": 2
+        },
+        {
+          "a_before": 0.52,
+          "proposal": 0.54,
+          "step": 0.02,
+          "before": 0.04217583198285432,
+          "after": 0.024951695272225016,
+          "accepted": true,
+          "calls_so_far": 3
+        },
+        {
+          "a_before": 0.54,
+          "proposal": 0.56,
+          "step": 0.02,
+          "before": 0.024951695272225016,
+          "after": 0.008202050150428195,
+          "accepted": true,
+          "calls_so_far": 4
+        }
+      ]
+    },
+    {
+      "case": "1:0.57",
+      "method": "nominal_secant",
+      "final_a": 0.56,
+      "final_full_error": 0.008202050150428195,
+      "final_scatter_error": null,
+      "parameter_error": 0.009999999999999898,
+      "online_physical_calls": 4,
+      "seconds": 3.9936913999990793,
+      "trajectory": [
+        {
+          "a_before": 0.5,
+          "proposal": 0.52,
+          "step": 0.02,
+          "before": 0.05989118298320457,
+          "after": 0.04217583198285432,
+          "accepted": true,
+          "calls_so_far": 2
+        },
+        {
+          "a_before": 0.52,
+          "proposal": 0.54,
+          "step": 0.02,
+          "before": 0.04217583198285432,
+          "after": 0.024951695272225016,
+          "accepted": true,
+          "calls_so_far": 3
+        },
+        {
+          "a_before": 0.54,
+          "proposal": 0.56,
+          "step": 0.02,
+          "before": 0.024951695272225016,
+          "after": 0.008202050150428195,
+          "accepted": true,
+          "calls_so_far": 4
+        }
+      ]
+    },
+    {
+      "case": "1:0.57",
+      "method": "physical_frozen",
+      "final_a": 0.56,
+      "final_full_error": 0.008202050150428195,
+      "final_scatter_error": null,
+      "parameter_error": 0.009999999999999898,
+      "online_physical_calls": 6,
+      "seconds": 6.031486400010181,
+      "trajectory": [
+        {
+          "a_before": 0.5,
+          "proposal": 0.52,
+          "step": 0.02,
+          "before": 0.05989118298320457,
+          "after": 0.04217583198285432,
+          "accepted": true,
+          "calls_so_far": 4
+        },
+        {
+          "a_before": 0.52,
+          "proposal": 0.54,
+          "step": 0.02,
+          "before": 0.04217583198285432,
+          "after": 0.024951695272225016,
+          "accepted": true,
+          "calls_so_far": 5
+        },
+        {
+          "a_before": 0.54,
+          "proposal": 0.56,
+          "step": 0.02,
+          "before": 0.024951695272225016,
+          "after": 0.008202050150428195,
+          "accepted": true,
+          "calls_so_far": 6
+        }
+      ]
+    },
+    {
+      "case": "1:0.57",
+      "method": "physical_recomputed",
+      "final_a": 0.56,
+      "final_full_error": 0.008202050150428195,
+      "final_scatter_error": null,
+      "parameter_error": 0.009999999999999898,
+      "online_physical_calls": 10,
+      "seconds": 10.124626399992849,
+      "trajectory": [
+        {
+          "a_before": 0.5,
+          "proposal": 0.52,
+          "step": 0.02,
+          "before": 0.05989118298320457,
+          "after": 0.04217583198285432,
+          "accepted": true,
+          "calls_so_far": 4
+        },
+        {
+          "a_before": 0.52,
+          "proposal": 0.54,
+          "step": 0.02,
+          "before": 0.04217583198285432,
+          "after": 0.024951695272225016,
+          "accepted": true,
+          "calls_so_far": 7
+        },
+        {
+          "a_before": 0.54,
+          "proposal": 0.56,
+          "step": 0.02,
+          "before": 0.024951695272225016,
+          "after": 0.008202050150428195,
+          "accepted": true,
+          "calls_so_far": 10
+        }
+      ]
+    }
+  ],
+  "actual_physical_calls": 100,
+  "observation_calls": 4,
+  "seconds": 107.9881466000079,
+  "scope": "known support, non-grid-aligned larger scalar perturbations, source0, reused development depths; no independent final test"
+}

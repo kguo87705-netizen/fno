@@ -1,0 +1,46 @@
+{
+  "status": "fixed_budget_protocol",
+  "training_groups": [
+    "synthetic_workpiece_000"
+  ],
+  "shot": 0,
+  "updates": 400,
+  "seed": 2,
+  "torch_version": "2.11.0+cu128",
+  "sampling_seed": 19,
+  "field_points_per_update": 32768,
+  "sampling": "torch.randint with replacement, independent uniform x/y/t flat-index draws each update, CPU generator19",
+  "receiver_points_per_update": 12000,
+  "loss": "sampled full-field MSE plus exact500-frame24receiver MSE rescaled su/sr, receiver weight1",
+  "optimizer": "Adam lr0.001",
+  "initial_state_hash": "956d9f22b3d39199840498d6065c256098b3a0e4b6f92013711096264b55ef4a",
+  "model_config": {
+    "grid": [
+      256,
+      128
+    ],
+    "latent": 64,
+    "hidden": 128,
+    "branch_channels": [
+      16,
+      32,
+      64
+    ],
+    "trunk_input_channels": 5,
+    "activation": "GELU",
+    "output": "signed scalar normalized residual",
+    "coordinate_order": [
+      "x/Lx",
+      "y/Ly",
+      "t/T",
+      "sx/Lx",
+      "sy/Ly"
+    ]
+  },
+  "data_manifest_sha256": "9972c2aec68c347ba73e1677c182b25542ebc74bb3a5cdcee9b7243548991e42",
+  "homogeneous_sha256": "9d382c08f6dbd90cedb09c2971aaf66c96d60ca69fecbfea41d29822955d88b6",
+  "model_sha256": "c39c7e8f5ed6441173ff43f3d657c48448f639a033ed49d3f5afc362de8ee5e9",
+  "script_sha256": "380f34b99917b771ca4f5f02705bdf2414af28c35078701ce0c0a09539185535",
+  "selection": "fixed final400, only initial/final evaluation; no validation/test access",
+  "scope": "Single fitted training material/source, feasibility only. Sampled field loss differs from previous full-grid FNO updates; no architecture-causal or generalization claim."
+}

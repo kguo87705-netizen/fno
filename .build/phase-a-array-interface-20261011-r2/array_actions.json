@@ -1,0 +1,85 @@
+{
+  "source_count_in_force": 1,
+  "active_source_rule": "existing generate uses force[0:1]; tx_elements therefore fixed to [0]",
+  "receiver_count": 24,
+  "actions": {
+    "full_aperture": {
+      "name": "full_aperture",
+      "tx_elements": [
+        0
+      ],
+      "rx_elements": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "source_mode": "source0",
+      "receive_mode": "selected_rx"
+    },
+    "left_half": {
+      "name": "left_half",
+      "tx_elements": [
+        0
+      ],
+      "rx_elements": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "source_mode": "source0",
+      "receive_mode": "selected_rx"
+    },
+    "right_half": {
+      "name": "right_half",
+      "tx_elements": [
+        0
+      ],
+      "rx_elements": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "source_mode": "source0",
+      "receive_mode": "selected_rx"
+    }
+  }
+}

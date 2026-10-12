@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "saved_summary": "Exact raw recomputation",
+  "optimizer_updates": 0,
+  "physical_calls": 0,
+  "protocol_sha256": "52d20e888475b85887ce4f522c9f9dfd0f85d55b4a73060e610c88998ed977e1",
+  "limits": "No finite-difference or physical derivative validation;one final state per arm"
+}

@@ -1,0 +1,34 @@
+{
+  "status": "planned_not_run",
+  "experiment": "frozen_adam_preconditioned_direction_audit",
+  "question": "Do final Adam moments rotate the descent direction away from current field/receiver gradients?",
+  "checkpoints": {
+    "loss_original": "D:\\下载\\FNO_Research_Workspace\\.build\\fno-loss-ablation-20261010\\loss_original_update400.pt",
+    "loss_field_only": "D:\\下载\\FNO_Research_Workspace\\.build\\fno-loss-ablation-20261010\\loss_field_only_update400.pt"
+  },
+  "states": [
+    "depth-2",
+    "depth0",
+    "depth2",
+    "contrast03",
+    "contrast07"
+  ],
+  "fixed": "No updates, no physical calls;reconstruct Adam step400 with beta1=.9,beta2=.999,eps=1e-8 in PyTorch complex real view;compare current field,receiver,total gradients to descent direction.",
+  "budget": {
+    "forward": 10,
+    "backward": 20,
+    "optimizer": 0,
+    "physical": 0,
+    "seconds_cap": 120
+  },
+  "interpretation": "cos(-gradient,adam_descent)>0 means alignment with that objective descent;negative means local opposition. This is optimizer evidence,not material Jacobian or capacity proof.",
+  "frozen_sha256": {
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-loss-ablation-20261010\\loss_original_update400.pt": "d705c291872243e42ed9a37d027195d2f2725ab542c22067973c7fa414239217",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-loss-ablation-20261010\\loss_field_only_update400.pt": "3c0a6cab5cc577e98f8a838f969bf17336d3cdf142cd9335696391d5d048e3ad",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-loss-ablation-20261010\\summary.json": "04af5ac976b4629f11728326c7776a26958e31661600ee365f09cf5acd4e87dc",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-loss-ablation-20261010\\verification.json": "b2abe68cbf3d72b8234dabc141eb230ae88b2b22cac636b9cd27cf599545112e",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_loss_ablation.py": "96ed7ab770bc749b598f816babdfb1b1e1697fe7937246c8938c9324202d15d8"
+  },
+  "script_sha256": "10082ac287e43646bc02a1da785fa95b8350b1632d73074ec3e87e127d1ea16c",
+  "protocol_sha256": "f17229d39febd718e93742afe8acf6e34853f5c6e006327f70f9e726a8ac8a6c"
+}

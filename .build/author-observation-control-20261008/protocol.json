@@ -1,0 +1,35 @@
+{
+  "status": "fixed_before_training",
+  "case": 1,
+  "arms": [
+    [
+      "released",
+      "uniform"
+    ],
+    [
+      "released",
+      "near_truth"
+    ],
+    [
+      "self_consistent",
+      "uniform"
+    ],
+    [
+      "self_consistent",
+      "near_truth"
+    ]
+  ],
+  "updates_per_arm": 35,
+  "evaluation": "every saved state; fixed final35 main result, no truth-based stopping",
+  "initialization": "uniform gamma1 or .95*truth+.05; near_truth diagnostic only",
+  "optimizer": "Adam lr.02, scaled cost1e12, gradient clip1e-5, mask and bounds same as existing reference",
+  "observation": "released measurement1 or frozen ref.traces(truth) from identical float32 stencil",
+  "scope": "Case1 development observation-consistency/initialization comparison. No independent-physics, final-test or quantitative reconstruction success guarantee.",
+  "script_sha256": "9f90ee2546b0b884649e449c1cc179d903a627acbac539cae0a96cdb8c948658",
+  "input_hashes": {
+    "settings2D.csv": "4fb9e8fdb8fa2fb97502e605f31351601e115463fa1800913473699d9f4ee398",
+    "data_casestudy/source.h5": "67d94afee4a19becde3f081424510f2a2433f7dd27d301abdf1954fe6f168c9c",
+    "data_casestudy/measurement1.h5": "707805f4bbac3a1b890684bbb8dbd8e07ae2608b5f84bbe4b9cd8ffa66fc0616",
+    "data_casestudy/material1.h5": "b6251c0404d9abfc13af6a6728250e7005422ca5892216744c5d9ccd35e94194"
+  }
+}

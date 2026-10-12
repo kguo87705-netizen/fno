@@ -1,0 +1,30 @@
+{
+  "scope": "Same supervised train workpiece 000, shot0, fixed400 updates, same raw initial FNO, old scales and receiver weight1.",
+  "zero_scatter_predictor": {
+    "scatter_field_relative_l2": 1.0,
+    "scatter_trace_relative_l2": 1.0,
+    "full_field_relative_l2": 0.25248631834983826,
+    "full_trace_relative_l2": 0.24471408128738403
+  },
+  "direct_target": {
+    "scatter_field_relative_l2": 1.5295419577468696,
+    "scatter_trace_relative_l2": 0.2828136413468267,
+    "full_field_relative_l2": 0.38618841767311096,
+    "full_trace_relative_l2": 0.06920848041772842
+  },
+  "scatter_target": {
+    "update": 400,
+    "scatter_field_relative_l2": 0.5811223387718201,
+    "scatter_trace_relative_l2": 0.08079645037651062,
+    "full_field_relative_l2": 0.14672544598579407,
+    "full_trace_relative_l2": 0.019772028550505638,
+    "homogeneous_field_relative_l2": 0.25248631834983826,
+    "homogeneous_trace_relative_l2": 0.24471408128738403,
+    "full_trace_norm_ratio": 0.9990580677986145,
+    "full_trace_zero_lag_correlation": 0.9998047947883606,
+    "scatter_field_normalized_mse": 0.021480664610862732,
+    "receiver_normalized_mse": 0.00039424316491931677,
+    "total_training_loss": 0.021874908357858658
+  },
+  "caution": "Low full-wave error can follow from fixed homogeneous base alone. Judge learning by scatter error, not the base signal."
+}

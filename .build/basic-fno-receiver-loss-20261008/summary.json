@@ -1,0 +1,117 @@
+{
+  "group_id": "synthetic_workpiece_000",
+  "shot": 0,
+  "split": "train",
+  "homogeneous_full_trace_relative_l2": 0.24471408128738403,
+  "models": [
+    {
+      "label": "field_only",
+      "final_metrics": {
+        "update": 400,
+        "field_relative_l2": 0.18051542341709137,
+        "trace_relative_l2": 0.6413650512695312,
+        "trace_norm_ratio": 0.6392630338668823,
+        "trace_zero_lag_correlation": 0.7800451517105103,
+        "normalized_field_mse": 0.03251362591981888
+      },
+      "boundary": {
+        "group_id": "synthetic_workpiece_000",
+        "shot": 0,
+        "split": "train",
+        "receiver_y_rows": [
+          127
+        ],
+        "regions": {
+          "whole_grid": {
+            "relative_l2": 0.18051541898283693,
+            "fraction_of_whole_grid_error_energy": 1.0,
+            "grid_cell_fraction": 1.0
+          },
+          "first_two_y_rows": {
+            "relative_l2": 0.4989905773326133,
+            "fraction_of_whole_grid_error_energy": 0.21121852903093796,
+            "grid_cell_fraction": 0.015625
+          },
+          "last_two_y_rows": {
+            "relative_l2": 0.4975640590731658,
+            "fraction_of_whole_grid_error_energy": 0.23066140130551108,
+            "grid_cell_fraction": 0.015625
+          },
+          "interior_y_rows": {
+            "relative_l2": 0.13894832591340803,
+            "fraction_of_whole_grid_error_energy": 0.5581201283266058,
+            "grid_cell_fraction": 0.96875
+          }
+        },
+        "receiver_sparse_field_relative_l2": 0.6413460373878479,
+        "caution": "Descriptive localization on one fitted training shot; not a causal boundary ablation or gradient audit."
+      },
+      "receiver_spectrum": {
+        "spectral_amplitude_relative_l2": 0.5178404450416565,
+        "reference_energy_weighted_wrapped_phase_rms_degrees": 35.087947845458984,
+        "phase_reference_amplitude_threshold_fraction": 0.01,
+        "phase_included_reference_energy_fraction": 0.9989855885505676,
+        "dominant_reference_frequency_MHz": 0.4166666666666667,
+        "reference_energy_below_1p05MHz_fraction": 0.9989733099937439,
+        "prediction_norm_ratio": 0.6392630338668823,
+        "caution": "Wrapped full-record spectral phase is not travel-time error; weak predicted amplitude makes phase less informative. No time shift fitted."
+      }
+    },
+    {
+      "label": "field_plus_receiver",
+      "final_metrics": {
+        "update": 400,
+        "field_relative_l2": 0.38618841767311096,
+        "trace_relative_l2": 0.06920848041772842,
+        "trace_norm_ratio": 0.9649120569229126,
+        "trace_zero_lag_correlation": 0.998155951499939,
+        "normalized_field_mse": 0.14881110191345215,
+        "receiver_normalized_mse": 0.004762658383697271,
+        "total_training_loss": 0.15357376635074615
+      },
+      "boundary": {
+        "group_id": "synthetic_workpiece_000",
+        "shot": 0,
+        "split": "train",
+        "receiver_y_rows": [
+          127
+        ],
+        "regions": {
+          "whole_grid": {
+            "relative_l2": 0.3861884297122397,
+            "fraction_of_whole_grid_error_energy": 1.0,
+            "grid_cell_fraction": 1.0
+          },
+          "first_two_y_rows": {
+            "relative_l2": 0.9958618718295453,
+            "fraction_of_whole_grid_error_energy": 0.18381274709089498,
+            "grid_cell_fraction": 0.015625
+          },
+          "last_two_y_rows": {
+            "relative_l2": 0.42964608793732156,
+            "fraction_of_whole_grid_error_energy": 0.03757757382631953,
+            "grid_cell_fraction": 0.015625
+          },
+          "interior_y_rows": {
+            "relative_l2": 0.3511027962814227,
+            "fraction_of_whole_grid_error_energy": 0.7786095316844406,
+            "grid_cell_fraction": 0.96875
+          }
+        },
+        "receiver_sparse_field_relative_l2": 0.06996962428092957,
+        "caution": "Descriptive localization on one fitted training shot; not a causal boundary ablation or gradient audit."
+      },
+      "receiver_spectrum": {
+        "spectral_amplitude_relative_l2": 0.059440724551677704,
+        "reference_energy_weighted_wrapped_phase_rms_degrees": 1.7737385034561157,
+        "phase_reference_amplitude_threshold_fraction": 0.01,
+        "phase_included_reference_energy_fraction": 0.9989855885505676,
+        "dominant_reference_frequency_MHz": 0.4166666666666667,
+        "reference_energy_below_1p05MHz_fraction": 0.9989733099937439,
+        "prediction_norm_ratio": 0.9649121165275574,
+        "caution": "Wrapped full-record spectral phase is not travel-time error; weak predicted amplitude makes phase less informative. No time shift fitted."
+      }
+    }
+  ],
+  "scope": "One supervised training shot, fixed 400 updates. No validation/test prediction or material-gradient comparison."
+}

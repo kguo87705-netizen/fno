@@ -1,0 +1,307 @@
+{
+  "status": "completed",
+  "models": {
+    "loss_original": [
+      {
+        "state": "depth-2",
+        "field_receiver": {
+          "field_vs_adam": {
+            "gradient_norm": 0.09502698481082916,
+            "adam_descent_norm": 281.53045654296875,
+            "dot_gradient_descent": 0.10533440113067627,
+            "cos_gradient_descent": 0.003937294466378901,
+            "cos_negative_gradient_descent": -0.003937294466378901
+          },
+          "receiver_vs_adam": {
+            "gradient_norm": 0.0521559901535511,
+            "adam_descent_norm": 281.53045654296875,
+            "dot_gradient_descent": 0.13936865329742432,
+            "cos_gradient_descent": 0.009491514690702819,
+            "cos_negative_gradient_descent": -0.009491514690702819
+          },
+          "total_vs_adam": {
+            "gradient_norm": 0.09087948501110077,
+            "adam_descent_norm": 281.53045654296875,
+            "dot_gradient_descent": 0.2447022944688797,
+            "cos_gradient_descent": 0.009564159267752254,
+            "cos_negative_gradient_descent": -0.009564159267752254
+          }
+        },
+        "field_loss": 0.025245802477002144,
+        "receiver_loss": 0.0014514736831188202,
+        "real_coordinates": 16777737
+      },
+      {
+        "state": "depth0",
+        "field_receiver": {
+          "field_vs_adam": {
+            "gradient_norm": 0.03575385361909866,
+            "adam_descent_norm": 281.53045654296875,
+            "dot_gradient_descent": -0.017965197563171387,
+            "cos_gradient_descent": -0.0017847761554249464,
+            "cos_negative_gradient_descent": 0.0017847761554249464
+          },
+          "receiver_vs_adam": {
+            "gradient_norm": 0.061474669724702835,
+            "adam_descent_norm": 281.53045654296875,
+            "dot_gradient_descent": 0.02228695899248123,
+            "cos_gradient_descent": 0.0012877430813505069,
+            "cos_negative_gradient_descent": -0.0012877430813505069
+          },
+          "total_vs_adam": {
+            "gradient_norm": 0.08802024275064468,
+            "adam_descent_norm": 281.53045654296875,
+            "dot_gradient_descent": 0.004321731626987457,
+            "cos_gradient_descent": 0.00017440135217085118,
+            "cos_negative_gradient_descent": -0.00017440135217085118
+          }
+        },
+        "field_loss": 0.005212315823882818,
+        "receiver_loss": 0.0008287775563076138,
+        "real_coordinates": 16777737
+      },
+      {
+        "state": "depth2",
+        "field_receiver": {
+          "field_vs_adam": {
+            "gradient_norm": 0.06314379721879959,
+            "adam_descent_norm": 281.53045654296875,
+            "dot_gradient_descent": -0.05110645666718483,
+            "cos_gradient_descent": -0.002874879801776159,
+            "cos_negative_gradient_descent": 0.002874879801776159
+          },
+          "receiver_vs_adam": {
+            "gradient_norm": 0.04213086515665054,
+            "adam_descent_norm": 281.53045654296875,
+            "dot_gradient_descent": 0.08874304592609406,
+            "cos_gradient_descent": 0.007481842624577961,
+            "cos_negative_gradient_descent": -0.007481842624577961
+          },
+          "total_vs_adam": {
+            "gradient_norm": 0.07622816413640976,
+            "adam_descent_norm": 281.53045654296875,
+            "dot_gradient_descent": 0.0376356840133667,
+            "cos_gradient_descent": 0.0017537148057761086,
+            "cos_negative_gradient_descent": -0.0017537148057761086
+          }
+        },
+        "field_loss": 0.02382494881749153,
+        "receiver_loss": 0.001268563442863524,
+        "real_coordinates": 16777737
+      },
+      {
+        "state": "contrast03",
+        "field_receiver": {
+          "field_vs_adam": {
+            "gradient_norm": 0.046535786241292953,
+            "adam_descent_norm": 281.53045654296875,
+            "dot_gradient_descent": -0.07276946306228638,
+            "cos_gradient_descent": -0.005554394599015836,
+            "cos_negative_gradient_descent": 0.005554394599015836
+          },
+          "receiver_vs_adam": {
+            "gradient_norm": 0.06517156958580017,
+            "adam_descent_norm": 281.53045654296875,
+            "dot_gradient_descent": 0.05438799411058426,
+            "cos_gradient_descent": 0.002964281725383987,
+            "cos_negative_gradient_descent": -0.002964281725383987
+          },
+          "total_vs_adam": {
+            "gradient_norm": 0.08729568123817444,
+            "adam_descent_norm": 281.53045654296875,
+            "dot_gradient_descent": -0.018381547182798386,
+            "cos_gradient_descent": -0.0007479351094310231,
+            "cos_negative_gradient_descent": 0.0007479351094310231
+          }
+        },
+        "field_loss": 0.014458747580647469,
+        "receiver_loss": 0.00041574184433557093,
+        "real_coordinates": 16777737
+      },
+      {
+        "state": "contrast07",
+        "field_receiver": {
+          "field_vs_adam": {
+            "gradient_norm": 0.028629833832383156,
+            "adam_descent_norm": 281.53045654296875,
+            "dot_gradient_descent": -0.01332799531519413,
+            "cos_gradient_descent": -0.0016535625181244911,
+            "cos_negative_gradient_descent": 0.0016535625181244911
+          },
+          "receiver_vs_adam": {
+            "gradient_norm": 0.03528919070959091,
+            "adam_descent_norm": 281.53045654296875,
+            "dot_gradient_descent": -0.007956495508551598,
+            "cos_gradient_descent": -0.0008008565623343445,
+            "cos_negative_gradient_descent": 0.0008008565623343445
+          },
+          "total_vs_adam": {
+            "gradient_norm": 0.04656854271888733,
+            "adam_descent_norm": 281.53045654296875,
+            "dot_gradient_descent": -0.021284641698002815,
+            "cos_gradient_descent": -0.0016234851163025436,
+            "cos_negative_gradient_descent": 0.0016234851163025436
+          }
+        },
+        "field_loss": 0.003727387171238661,
+        "receiver_loss": 0.0007132448954507709,
+        "real_coordinates": 16777737
+      }
+    ],
+    "loss_field_only": [
+      {
+        "state": "depth-2",
+        "field_receiver": {
+          "field_vs_adam": {
+            "gradient_norm": 0.07750178873538971,
+            "adam_descent_norm": 264.8934326171875,
+            "dot_gradient_descent": 0.13371577858924866,
+            "cos_gradient_descent": 0.006513279875177587,
+            "cos_negative_gradient_descent": -0.006513279875177587
+          },
+          "receiver_vs_adam": {
+            "gradient_norm": 0.28391358256340027,
+            "adam_descent_norm": 264.8934326171875,
+            "dot_gradient_descent": 0.10586080700159073,
+            "cos_gradient_descent": 0.0014075954014656797,
+            "cos_negative_gradient_descent": -0.0014075954014656797
+          },
+          "total_vs_adam": {
+            "gradient_norm": 0.2617250084877014,
+            "adam_descent_norm": 264.8934326171875,
+            "dot_gradient_descent": 0.23957788944244385,
+            "cos_gradient_descent": 0.003455654549370315,
+            "cos_negative_gradient_descent": -0.003455654549370315
+          }
+        },
+        "field_loss": 0.023669807240366936,
+        "receiver_loss": 0.02776280604302883,
+        "real_coordinates": 16777737
+      },
+      {
+        "state": "depth0",
+        "field_receiver": {
+          "field_vs_adam": {
+            "gradient_norm": 0.04854174703359604,
+            "adam_descent_norm": 264.8934326171875,
+            "dot_gradient_descent": -0.029731372371315956,
+            "cos_gradient_descent": -0.0023122157889389604,
+            "cos_negative_gradient_descent": 0.0023122157889389604
+          },
+          "receiver_vs_adam": {
+            "gradient_norm": 0.30155739188194275,
+            "adam_descent_norm": 264.8934326171875,
+            "dot_gradient_descent": -0.0386870801448822,
+            "cos_gradient_descent": -0.00048431150220099234,
+            "cos_negative_gradient_descent": 0.00048431150220099234
+          },
+          "total_vs_adam": {
+            "gradient_norm": 0.3390035331249237,
+            "adam_descent_norm": 264.8934326171875,
+            "dot_gradient_descent": -0.06841779500246048,
+            "cos_gradient_descent": -0.0007618924287099898,
+            "cos_negative_gradient_descent": 0.0007618924287099898
+          }
+        },
+        "field_loss": 0.004241015296429396,
+        "receiver_loss": 0.0213121697306633,
+        "real_coordinates": 16777737
+      },
+      {
+        "state": "depth2",
+        "field_receiver": {
+          "field_vs_adam": {
+            "gradient_norm": 0.04629674181342125,
+            "adam_descent_norm": 264.8934326171875,
+            "dot_gradient_descent": -0.040697939693927765,
+            "cos_gradient_descent": -0.0033185686383088637,
+            "cos_negative_gradient_descent": 0.0033185686383088637
+          },
+          "receiver_vs_adam": {
+            "gradient_norm": 0.22051826119422913,
+            "adam_descent_norm": 264.8934326171875,
+            "dot_gradient_descent": -0.0485076867043972,
+            "cos_gradient_descent": -0.0008304142888031068,
+            "cos_negative_gradient_descent": 0.0008304142888031068
+          },
+          "total_vs_adam": {
+            "gradient_norm": 0.1900884211063385,
+            "adam_descent_norm": 264.8934326171875,
+            "dot_gradient_descent": -0.08920664340257645,
+            "cos_gradient_descent": -0.0017716190592326794,
+            "cos_negative_gradient_descent": 0.0017716190592326794
+          }
+        },
+        "field_loss": 0.02258552983403206,
+        "receiver_loss": 0.015106487087905407,
+        "real_coordinates": 16777737
+      },
+      {
+        "state": "contrast03",
+        "field_receiver": {
+          "field_vs_adam": {
+            "gradient_norm": 0.04355946555733681,
+            "adam_descent_norm": 264.8934326171875,
+            "dot_gradient_descent": -0.08094864338636398,
+            "cos_gradient_descent": -0.0070154549644181104,
+            "cos_negative_gradient_descent": 0.0070154549644181104
+          },
+          "receiver_vs_adam": {
+            "gradient_norm": 0.40776464343070984,
+            "adam_descent_norm": 264.8934326171875,
+            "dot_gradient_descent": -0.011420635506510735,
+            "cos_gradient_descent": -0.00010573274656207046,
+            "cos_negative_gradient_descent": 0.00010573274656207046
+          },
+          "total_vs_adam": {
+            "gradient_norm": 0.43499624729156494,
+            "adam_descent_norm": 264.8934326171875,
+            "dot_gradient_descent": -0.09237027168273926,
+            "cos_gradient_descent": -0.0008016328753354689,
+            "cos_negative_gradient_descent": 0.0008016328753354689
+          }
+        },
+        "field_loss": 0.011298361234366894,
+        "receiver_loss": 0.030798014253377914,
+        "real_coordinates": 16777737
+      },
+      {
+        "state": "contrast07",
+        "field_receiver": {
+          "field_vs_adam": {
+            "gradient_norm": 0.018164999783039093,
+            "adam_descent_norm": 264.8934326171875,
+            "dot_gradient_descent": -0.019052883610129356,
+            "cos_gradient_descent": -0.003959625626133241,
+            "cos_negative_gradient_descent": 0.003959625626133241
+          },
+          "receiver_vs_adam": {
+            "gradient_norm": 0.13601450622081757,
+            "adam_descent_norm": 264.8934326171875,
+            "dot_gradient_descent": -0.028859632089734077,
+            "cos_gradient_descent": -0.0008010034191415082,
+            "cos_negative_gradient_descent": 0.0008010034191415082
+          },
+          "total_vs_adam": {
+            "gradient_norm": 0.13005292415618896,
+            "adam_descent_norm": 264.8934326171875,
+            "dot_gradient_descent": -0.04791268706321716,
+            "cos_gradient_descent": -0.001390782493075174,
+            "cos_negative_gradient_descent": 0.001390782493075174
+          }
+        },
+        "field_loss": 0.003501215251162648,
+        "receiver_loss": 0.011239517480134964,
+        "real_coordinates": 16777737
+      }
+    ]
+  },
+  "elapsed_seconds": 18.482318599999417,
+  "calls": {
+    "forward": 10,
+    "backward": 20,
+    "optimizer": 0,
+    "physical": 0
+  },
+  "scope": "Adam step400 moments reconstructed exactly in real/imag view; current objective gradients; no update or physical derivative."
+}

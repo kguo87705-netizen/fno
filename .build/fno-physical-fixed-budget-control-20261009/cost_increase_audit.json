@@ -1,0 +1,93 @@
+[
+  {
+    "method": "width8",
+    "target": 0.3499999940395355,
+    "update": 2,
+    "absolute_increase": 8.862391110908118e-20,
+    "previous_cost": 3.7242776200086316e-11
+  },
+  {
+    "method": "width8",
+    "target": 0.3499999940395355,
+    "update": 4,
+    "absolute_increase": 7.080238882215716e-20,
+    "previous_cost": 3.724277621790784e-11
+  },
+  {
+    "method": "width8",
+    "target": 0.3499999940395355,
+    "update": 6,
+    "absolute_increase": 7.080238882215716e-20,
+    "previous_cost": 3.724277621790784e-11
+  },
+  {
+    "method": "width8",
+    "target": 0.3499999940395355,
+    "update": 8,
+    "absolute_increase": 7.080238882215716e-20,
+    "previous_cost": 3.724277621790784e-11
+  },
+  {
+    "method": "piecewise_linear",
+    "target": 0.3499999940395355,
+    "update": 6,
+    "absolute_increase": 7.080238882215716e-20,
+    "previous_cost": 3.724277621790784e-11
+  },
+  {
+    "method": "piecewise_linear",
+    "target": 0.3499999940395355,
+    "update": 8,
+    "absolute_increase": 7.080238882215716e-20,
+    "previous_cost": 3.724277621790784e-11
+  },
+  {
+    "method": "width8",
+    "target": 0.44999998807907104,
+    "update": 5,
+    "absolute_increase": 2.4907742072709405e-19,
+    "previous_cost": 1.190641825307155e-10
+  },
+  {
+    "method": "fixed05",
+    "target": 0.44999998807907104,
+    "update": 6,
+    "absolute_increase": 7.159061569020747e-19,
+    "previous_cost": 1.1906418252043996e-10
+  },
+  {
+    "method": "width8",
+    "target": 0.550000011920929,
+    "update": 5,
+    "absolute_increase": 4.804641106392755e-20,
+    "previous_cost": 1.9518251276685998e-11
+  },
+  {
+    "method": "width8",
+    "target": 0.6499999761581421,
+    "update": 5,
+    "absolute_increase": 1.5387498098046986e-20,
+    "previous_cost": 3.6081427399345735e-11
+  },
+  {
+    "method": "width8",
+    "target": 0.6499999761581421,
+    "update": 7,
+    "absolute_increase": 1.0748653713213121e-19,
+    "previous_cost": 3.6081427307246696e-11
+  },
+  {
+    "method": "piecewise_linear",
+    "target": 0.6499999761581421,
+    "update": 6,
+    "absolute_increase": 1.0748653713213121e-19,
+    "previous_cost": 3.6081427307246696e-11
+  },
+  {
+    "method": "piecewise_linear",
+    "target": 0.6499999761581421,
+    "update": 8,
+    "absolute_increase": 1.0748653713213121e-19,
+    "previous_cost": 3.6081427307246696e-11
+  }
+]

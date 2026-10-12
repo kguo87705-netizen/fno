@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "both_arms_updates": 960,
+  "initial_weights_identical": true,
+  "orders_twenty_permutations_of_48": "passed",
+  "field_only_first_six_epochs_exactly_reproduced": true,
+  "final_checkpoint_reload_all_validation_metrics_match": true,
+  "train_validation_grouping_and_records": "passed",
+  "material_response_energy_identity": "passed",
+  "known_zero_linear_signal_checks": "passed",
+  "original_sources_and_prior_artifact_hashes_unchanged": true,
+  "syntax_vault_links_and_asset_copy": "passed",
+  "figure_visual_review": "completed",
+  "scope": "One seed, fixed 20 epochs, synthetic scalar train/validation. No independent test, physical-gradient or real-data validation."
+}

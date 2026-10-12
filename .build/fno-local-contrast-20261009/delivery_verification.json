@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "physical_targets_recomputed": 5,
+  "final_reload": "exact metrics and bit-identical example",
+  "training": "1200 steps, 400 exposures per material",
+  "scripts_compiled": 2,
+  "notes_links_and_math": 5,
+  "figure": "actually viewed, vault copy bit identical",
+  "next_width_protocol": "planned_not_run; nine frozen file hashes recorded",
+  "scope": "fixed geometry contrast interpolation, no independent test or proxy FWI"
+}

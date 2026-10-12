@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": [
+    "4 checkpoint predictions reproduce saved full-field hashes and trace bits",
+    "both spatial-axis partitions conserve error energy",
+    "one-sided FFT Parseval energy matches time-domain energy",
+    "all captured prior file hashes unchanged",
+    "comparisons recomputed from cached raw.pt,not previous decision flags"
+  ],
+  "limitations": [
+    "No training or new physical labels",
+    "Does not retroactively prove unrecorded prior checks",
+    "Old historical hashes and missing failure records not recoverable by this audit"
+  ]
+}

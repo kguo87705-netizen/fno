@@ -1,0 +1,103 @@
+{
+  "description": "Forward-only sampling ablation. Each source profile sums to one and each receiver averages with weights summing to one; same scalar PDE, dt, domain and defect.",
+  "fixed_centers": "Physical x=index*(0.1/64) m and y=0.05/32 m; bilinear and Gaussian schemes evaluate weights on cell-centered grids.",
+  "gaussian_sigma_y_mm": 0.8,
+  "cases": {
+    "indexed": {
+      "1x_vs_2x": {
+        "homogeneous_raw_rmse": 0.00016277085770085683,
+        "homogeneous_after_gain_and_lag_rmse": 0.00012899160090624372,
+        "best_lag_samples": -2,
+        "defect_raw_rmse": 0.00016414297945886895,
+        "fine_defect_signal_rmse": 5.600091029327466e-05
+      },
+      "2x_vs_4x": {
+        "homogeneous_raw_rmse": 6.662599947105912e-05,
+        "homogeneous_after_gain_and_lag_rmse": 5.291818144120486e-05,
+        "best_lag_samples": -1,
+        "defect_raw_rmse": 6.743088984930544e-05,
+        "fine_defect_signal_rmse": 6.0750000819796724e-05
+      }
+    },
+    "bilinear": {
+      "1x_vs_2x": {
+        "homogeneous_raw_rmse": 0.00013237818225659396,
+        "homogeneous_after_gain_and_lag_rmse": 0.0001042395526622783,
+        "best_lag_samples": -2,
+        "defect_raw_rmse": 0.0001344982742447226,
+        "fine_defect_signal_rmse": 6.497619336301528e-05
+      },
+      "2x_vs_4x": {
+        "homogeneous_raw_rmse": 5.7414213740316254e-05,
+        "homogeneous_after_gain_and_lag_rmse": 4.628927922482306e-05,
+        "best_lag_samples": -1,
+        "defect_raw_rmse": 5.8437414577716296e-05,
+        "fine_defect_signal_rmse": 6.587684153009686e-05
+      }
+    },
+    "gaussian_source_only_1p5mm": {
+      "1x_vs_2x": {
+        "homogeneous_raw_rmse": 0.0001032401415928567,
+        "homogeneous_after_gain_and_lag_rmse": 8.268290290252486e-05,
+        "best_lag_samples": -2,
+        "defect_raw_rmse": 0.00010448147416376045,
+        "fine_defect_signal_rmse": 5.6035527061777646e-05
+      },
+      "2x_vs_4x": {
+        "homogeneous_raw_rmse": 3.537016347491963e-05,
+        "homogeneous_after_gain_and_lag_rmse": 3.4186031665532414e-05,
+        "best_lag_samples": -1,
+        "defect_raw_rmse": 3.6451877844458644e-05,
+        "fine_defect_signal_rmse": 5.800894358446946e-05
+      }
+    },
+    "gaussian_receiver_only_1p5mm": {
+      "1x_vs_2x": {
+        "homogeneous_raw_rmse": 0.00010354294261372056,
+        "homogeneous_after_gain_and_lag_rmse": 8.36118615485672e-05,
+        "best_lag_samples": -2,
+        "defect_raw_rmse": 0.00010483550246472794,
+        "fine_defect_signal_rmse": 5.564541097246796e-05
+      },
+      "2x_vs_4x": {
+        "homogeneous_raw_rmse": 3.532554621531983e-05,
+        "homogeneous_after_gain_and_lag_rmse": 3.4574250075100044e-05,
+        "best_lag_samples": -1,
+        "defect_raw_rmse": 3.6435808058980594e-05,
+        "fine_defect_signal_rmse": 5.756159122429738e-05
+      }
+    },
+    "gaussian_both_1p5mm": {
+      "1x_vs_2x": {
+        "homogeneous_raw_rmse": 5.587840815429907e-05,
+        "homogeneous_after_gain_and_lag_rmse": 4.851041878056283e-05,
+        "best_lag_samples": -1,
+        "defect_raw_rmse": 5.849944779328039e-05,
+        "fine_defect_signal_rmse": 5.5720964473595256e-05
+      },
+      "2x_vs_4x": {
+        "homogeneous_raw_rmse": 1.4796377863090363e-05,
+        "homogeneous_after_gain_and_lag_rmse": 1.4745047531667143e-05,
+        "best_lag_samples": 0,
+        "defect_raw_rmse": 1.6795732252200025e-05,
+        "fine_defect_signal_rmse": 5.5089099641620164e-05
+      }
+    },
+    "gaussian_both_3mm": {
+      "1x_vs_2x": {
+        "homogeneous_raw_rmse": 9.4392972645981e-06,
+        "homogeneous_after_gain_and_lag_rmse": 9.280248850525102e-06,
+        "best_lag_samples": 0,
+        "defect_raw_rmse": 1.4043625710838173e-05,
+        "fine_defect_signal_rmse": 4.459024332107045e-05
+      },
+      "2x_vs_4x": {
+        "homogeneous_raw_rmse": 2.420960207075e-06,
+        "homogeneous_after_gain_and_lag_rmse": 2.400672346144246e-06,
+        "best_lag_samples": 0,
+        "defect_raw_rmse": 5.48988087087691e-06,
+        "fine_defect_signal_rmse": 4.366650972598606e-05
+      }
+    }
+  }
+}

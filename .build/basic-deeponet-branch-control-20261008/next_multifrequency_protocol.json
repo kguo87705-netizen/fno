@@ -1,0 +1,45 @@
+{
+  "status": "planned_not_run",
+  "purpose": "Test multiband temporal representation after branch-freeze and per-receiver temporal-basis diagnostics; in-sample fitting only.",
+  "data_access": [
+    "train"
+  ],
+  "validation_access": false,
+  "test_access": false,
+  "training_groups": [
+    "synthetic_workpiece_000"
+  ],
+  "shot": 0,
+  "model": "Same CNN branch frozen at seed2 initialization in both arms; trunk131 inputs: canonical five coordinates plus126 matched zero or sin/cos features k1..63.",
+  "arms": [
+    "zero126",
+    "fourier126"
+  ],
+  "seed": 2,
+  "initialization": "Both share new131-input seed2 initial weights from scratch; old7-input models are historical, not causal controls",
+  "target": "FD(gamma)-FD(1)",
+  "normalization": "unchanged original training scales",
+  "receiver_loss_weight": 1,
+  "optimizer": "Adam lr0.001, trunk and scalar bias only",
+  "updates_per_arm": 4000,
+  "field_points_per_update": 32768,
+  "sampling_seed": 19,
+  "receiver_points_per_update": 12000,
+  "evaluation_updates": [
+    0,
+    400,
+    4000
+  ],
+  "selection": "fixed final4000, no early stop or validation selection",
+  "metrics": [
+    "full-grid full/scatter field and receivers",
+    "regional errors",
+    "branch hashes and frozen-state/optimizer selection",
+    "matched initialization and sampled point sequence",
+    "training-only material counterfactual",
+    "activation/gradient and finite-state audit"
+  ],
+  "scope": "Training000/source0 only. Per-receiver projection oracle is not achievable network error or material generalization. Freeze branch at initial weights in both arms; change only whether extra126 features are active. No validation/test, physics-gradient or FWI claims.",
+  "data_manifest_sha256": "9972c2aec68c347ba73e1677c182b25542ebc74bb3a5cdcee9b7243548991e42",
+  "time_features": "sin/cos(2*pi*k*time_seconds/T), k1..63, T=60us, phase computedfloat64 then input precision; frequencies16.6667kHz..1.05MHz"
+}

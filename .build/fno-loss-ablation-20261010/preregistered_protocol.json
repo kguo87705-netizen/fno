@@ -1,0 +1,50 @@
+{
+  "status": "frozen_before_training",
+  "experiment": "matched_material_geometry_loss_ablation",
+  "output_directory": "D:\\下载\\FNO_Research_Workspace\\.build\\fno-loss-ablation-20261010",
+  "initial_checkpoint": "D:\\下载\\FNO_Research_Workspace\\.build\\fno-paired-depth-coverage-recovery-r2-20261009\\depth_coverage_update300.pt",
+  "question": "With identical replay exposure, does removing receiver loss improve full-field proxy without sacrificing receiver/material sensitivity?",
+  "arms": {
+    "loss_original": [
+      "depth-2",
+      "depth0",
+      "depth2",
+      "contrast03",
+      "contrast07"
+    ],
+    "loss_field_only": [
+      "depth-2",
+      "depth0",
+      "depth2",
+      "contrast03",
+      "contrast07"
+    ]
+  },
+  "receiver_weights": {
+    "loss_original": 1.0,
+    "loss_field_only": 0.0
+  },
+  "fixed": "Same coverage300 state and Adam step300;same material/geometry slot order,20 each,100 updates,lr=.001,architecture,IEEE,inputs,normalization,source and evaluations. Only receiver-loss multiplier changes.",
+  "budget": {
+    "updates": 200,
+    "physical_calls": 0,
+    "wall_seconds_cap": 240,
+    "evaluation": [
+      0,
+      100
+    ]
+  },
+  "success": "Field-only improves both development depth scattered-field errors by >=20% versus original while geometry response remains <=20% and cosine>=.9; report receiver/material changes separately.",
+  "failure": "Field-only does not improve field,or geometry guardrail fails;do not add capacity.",
+  "inconclusive": "Mixed improvements below20%,budget failure,or receiver/material tradeoff cannot be interpreted.",
+  "scope": "Used development states only;not independent final test,material recovery,local Jacobian,blind defect identification or total inversion cost.",
+  "frozen_sha256": {
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-paired-depth-coverage-recovery-r2-20261009\\depth_coverage_update300.pt": "6460eb36126572887b07d40f16d9347bd9ce49e51abfe6b655d05da15802e660",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-matched-material-replay-20261009\\material_replay_update400.pt": "d705c291872243e42ed9a37d027195d2f2725ab542c22067973c7fa414239217",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-frozen-loss-gradient-audit-20261009\\summary.json": "209912def545ddea7dafefc1f43374aeb05f16cceb765e95a0a83a0461d4432c",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-frozen-loss-gradient-audit-20261009\\verification.json": "f64a4f2a1aa347974a55e7b0a18d25442c5aa597898f2e99927ec3910c9d8109",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-matched-material-replay-20261009\\summary.json": "26091b8b4f2c04b7003e59bf20ead64a5c7c526473d704da020cb344e4182711",
+    "D:\\下载\\FNO_Research_Workspace\\.build\\fno-matched-material-replay-20261009\\verification.json": "06ce3eb54646954af65f6dc3ce1151e36b8483cc9f5bf830af814e223a71d626",
+    "D:\\下载\\FNO_Research_Workspace\\Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_matched_material_replay.py": "072003ea63d2f055e507dd2ba471a2b0e3df876fa0fdc440507be7a09bf5ec50"
+  }
+}

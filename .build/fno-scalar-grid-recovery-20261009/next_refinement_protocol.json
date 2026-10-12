@@ -1,0 +1,43 @@
+{
+  "status": "planned_not_run",
+  "question": "Separate coarse-grid quantization from persistent scalar proxy bias before expanding geometry or training",
+  "output_directory": ".build/fno-scalar-grid-refinement-20261009",
+  "unique_primary_change": "Grid step0.01 to0.002 inside common predeclared windows derived only from previous objective-selected candidates",
+  "windows": {
+    "0.4000000059604645": {
+      "coarse_low_index": 9,
+      "coarse_high_index": 12,
+      "grid_formula": "float32(0.30+j*0.002) for integer j=45..60 inclusive",
+      "points": 16
+    },
+    "0.6000000238418579": {
+      "coarse_low_index": 28,
+      "coarse_high_index": 32,
+      "grid_formula": "float32(0.30+j*0.002) for integer j=140..160 inclusive",
+      "points": 21
+    }
+  },
+  "methods": [
+    "width8 IEEE float32",
+    "train-only piecewise linear IEEE float32",
+    "same float64 physical reference"
+  ],
+  "fixed": "Same two development observations, known geometry, models, interpolation, cost, IEEE policy and selection rule. No new training.",
+  "selection": "All methods use identical candidate window for each observation. Minimize observed-data cost, ties lower a. Score against material only after selection.",
+  "metrics": "Save all objective curves, selected a, contrast error, physical material MSE, true FD cost and full/scatter receiver errors, same as coarse protocol. Also compare shifts between grids and cached local-bias prediction without using it for selection.",
+  "baseline": "Physical grid and frozen train-only linear; constant predictor remains uninformative",
+  "budget": "37 distinct candidates per method,111 forward calls, estimated1-3min, no training/download,10-minute cap and stop on OOM. Fresh directory only.",
+  "decision": {
+    "proxy_minimum_inside_and_persistent_bias": "Value residual bias supported. Define only a training-data-derived calibration/control, never subtract test residual; retain linear baseline.",
+    "coarse_difference_disappears": "Coarse quantization explained ranking; do not claim precision beyond0.002, then separately plan one geometry axis.",
+    "minimum_at_window_edge": "Local refinement inconclusive; report and separately preregister expansion, no automatic window tuning.",
+    "physical_reference_not_near_target": "Stop surrogate recovery interpretation and audit reference."
+  },
+  "limits": "Development-only known-geometry scalar diagnostic. No new success threshold or blind recovery/speedup claim.",
+  "frozen_sha256": {
+    ".build\\fno-scalar-grid-recovery-20261009\\raw.pt": "f71ad75179170a8869e122ad5537a7487716e43c1386dc643ba7c00bcb166083",
+    ".build\\fno-scalar-grid-recovery-20261009\\summary.json": "1dbd3e2cebb109f443b83c42116fc403aa7be82bc57062fdac78823be5b40f0c",
+    ".build\\fno-scalar-grid-recovery-20261009\\protocol.json": "ac370e16329956214287d7eb43c433396d6bfcc5f53f97b1446ec56fe4b598bc",
+    ".build\\fno-width8-control-20261009\\final.pt": "f70bc0d4730283f190d81ac9e516e9f1dd95dac9eb778b4f385f4425a8a13b20"
+  }
+}
