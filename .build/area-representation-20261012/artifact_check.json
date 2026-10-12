@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "json_and_arrays_parse": true,
+  "report_numbers_checked": true,
+  "navigation_link": true,
+  "next_wave_protocol_planned_only": true,
+  "native_obsidian_preview": false,
+  "report_sha256": "425e909c14dbac82e3dc6e6fa7b720dc5af364c9acd355c1145f342e728a6c47"
+}

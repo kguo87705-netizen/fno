@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "input_hashes": true,
+  "arrays_finite_and_bounded": true,
+  "saved_coarse_fractions": 15,
+  "independent_quad_cells": 60,
+  "geometry_gate_pass": true,
+  "wave_grid_convergence_checked": false,
+  "fraction_archive_sha256": "32f0d7314076ddec5fa157865870d5292a03e587c7dfcb56c72662a24696946e"
+}

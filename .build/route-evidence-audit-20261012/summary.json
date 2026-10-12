@@ -1,0 +1,97 @@
+{
+  "status": "completed",
+  "input_hashes_verified": true,
+  "physical_calls": 0,
+  "network_forwards": 0,
+  "training_updates": 0,
+  "fixed_pair_metrics": [
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "mae": 0.0002448040576426622
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "mae": 0.00025026903838622347
+    },
+    {
+      "pair": [
+        0,
+        3
+      ],
+      "mae": 0.00026390993388881155
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "mae": 0.00023521496641217533
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "mae": 0.0002485401324913346
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "mae": 0.000245213092109596
+    }
+  ],
+  "best_fixed_pair_retrospective": [
+    1,
+    2
+  ],
+  "best_fixed_pair_mae": 0.00023521496641217533,
+  "truth_informed_oracle_mae": {
+    "per_observation": 0.00019476146336014607,
+    "per_geometry_material": 0.0002160058684467306,
+    "per_geometry": 0.0002160058684467306
+  },
+  "oracle_per_geometry_relative_headroom": 0.08166613824982538,
+  "original_bias_variance": [
+    {
+      "policy": "fixed_left",
+      "mean_mse": 6.292941158310188e-08,
+      "bias_squared_fraction": 0.9638277080107334,
+      "mean_bias_squared": 6.065311053260518e-08,
+      "mean_variance": 2.2763010504966976e-09
+    },
+    {
+      "policy": "fixed_right",
+      "mean_mse": 6.310046336601537e-08,
+      "bias_squared_fraction": 0.9634565554383162,
+      "mean_bias_squared": 6.079455508118282e-08,
+      "mean_variance": 2.3059082848325365e-09
+    },
+    {
+      "policy": "physics_selected",
+      "mean_mse": 6.917499521098581e-08,
+      "bias_squared_fraction": 0.9751162583756708,
+      "mean_bias_squared": 6.745366250329143e-08,
+      "mean_variance": 1.7213327076943841e-09
+    },
+    {
+      "policy": "full_four_source",
+      "mean_mse": 6.371029279673569e-08,
+      "bias_squared_fraction": 0.9834207227384476,
+      "mean_bias_squared": 6.265402218804392e-08,
+      "mean_variance": 1.0562706086917615e-09
+    }
+  ],
+  "max_noiseless_projection_identity_error": 6.478107980600889e-17,
+  "all_estimates_in_true_segments": true,
+  "original_left_right_estimates_reproduced": true,
+  "provenance_limit": "Older R2 cost-boundary folder has only protocol/summary/verification, no saved target/predictions/checkpoint hashes: historical recorded result, not independently waveform-reverified in this audit.",
+  "elapsed_seconds": 9.32727189999423
+}

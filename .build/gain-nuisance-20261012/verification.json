@@ -1,0 +1,67 @@
+{
+  "status": "passed",
+  "input_hashes": true,
+  "full_space_gain_fit_max_abs": 1.1102230246251565e-14,
+  "full_space_relative_score_max_abs": 1.043081283569336e-06,
+  "full_space_state_decisions_match": true,
+  "saved_pair_decisions_and_rates_match": true,
+  "array_shapes": {
+    "observations": [
+      4,
+      1000,
+      5,
+      4,
+      4
+    ],
+    "coordinates": [
+      4,
+      4,
+      4
+    ],
+    "gains": [
+      5,
+      4
+    ],
+    "source_scores": [
+      4,
+      1000,
+      5,
+      3,
+      4,
+      4
+    ],
+    "fitted_gain": [
+      4,
+      1000,
+      5,
+      4,
+      4
+    ],
+    "decisions": [
+      4,
+      1000,
+      5,
+      3,
+      7
+    ],
+    "material_errors": [
+      4,
+      1000,
+      5,
+      3,
+      7
+    ],
+    "position_errors": [
+      4,
+      1000,
+      5,
+      3,
+      7
+    ],
+    "bootstrap": [
+      10000,
+      10
+    ]
+  },
+  "new_physical_calls": 0
+}

@@ -1,0 +1,222 @@
+{
+  "status": "completed",
+  "entries": [
+    {
+      "label": "one_step_y_invariant",
+      "role": "operator_validation",
+      "status": "completed",
+      "steps": 1,
+      "seconds": 0.08832499998970889
+    },
+    {
+      "label": "homogeneous_r1",
+      "role": "homogeneous_reference",
+      "status": "completed",
+      "Nx": 255,
+      "steps": 534,
+      "seconds": 0.0032190000056289136
+    },
+    {
+      "label": "binary_r1_phase0",
+      "role": "interface_wave",
+      "status": "completed",
+      "Nx": 255,
+      "steps": 534,
+      "method": "binary",
+      "phase": 0,
+      "seconds": 0.003217500023311004
+    },
+    {
+      "label": "binary_r1_phase1",
+      "role": "interface_wave",
+      "status": "completed",
+      "Nx": 255,
+      "steps": 534,
+      "method": "binary",
+      "phase": 1,
+      "seconds": 0.003192100004525855
+    },
+    {
+      "label": "arithmetic_r1_phase0",
+      "role": "interface_wave",
+      "status": "completed",
+      "Nx": 255,
+      "steps": 534,
+      "method": "arithmetic",
+      "phase": 0,
+      "seconds": 0.0031719999969936907
+    },
+    {
+      "label": "arithmetic_r1_phase1",
+      "role": "interface_wave",
+      "status": "completed",
+      "Nx": 255,
+      "steps": 534,
+      "method": "arithmetic",
+      "phase": 1,
+      "seconds": 0.003280499979155138
+    },
+    {
+      "label": "reciprocal_r1_phase0",
+      "role": "interface_wave",
+      "status": "completed",
+      "Nx": 255,
+      "steps": 534,
+      "method": "reciprocal",
+      "phase": 0,
+      "seconds": 0.0031630000157747418
+    },
+    {
+      "label": "reciprocal_r1_phase1",
+      "role": "interface_wave",
+      "status": "completed",
+      "Nx": 255,
+      "steps": 534,
+      "method": "reciprocal",
+      "phase": 1,
+      "seconds": 0.0031445999920833856
+    },
+    {
+      "label": "homogeneous_r2",
+      "role": "homogeneous_reference",
+      "status": "completed",
+      "Nx": 510,
+      "steps": 1068,
+      "seconds": 0.007364299992332235
+    },
+    {
+      "label": "binary_r2_phase0",
+      "role": "interface_wave",
+      "status": "completed",
+      "Nx": 510,
+      "steps": 1068,
+      "method": "binary",
+      "phase": 0,
+      "seconds": 0.007344700017711148
+    },
+    {
+      "label": "binary_r2_phase1",
+      "role": "interface_wave",
+      "status": "completed",
+      "Nx": 510,
+      "steps": 1068,
+      "method": "binary",
+      "phase": 1,
+      "seconds": 0.007318400021176785
+    },
+    {
+      "label": "arithmetic_r2_phase0",
+      "role": "interface_wave",
+      "status": "completed",
+      "Nx": 510,
+      "steps": 1068,
+      "method": "arithmetic",
+      "phase": 0,
+      "seconds": 0.010560199996689335
+    },
+    {
+      "label": "arithmetic_r2_phase1",
+      "role": "interface_wave",
+      "status": "completed",
+      "Nx": 510,
+      "steps": 1068,
+      "method": "arithmetic",
+      "phase": 1,
+      "seconds": 0.009040200005983934
+    },
+    {
+      "label": "reciprocal_r2_phase0",
+      "role": "interface_wave",
+      "status": "completed",
+      "Nx": 510,
+      "steps": 1068,
+      "method": "reciprocal",
+      "phase": 0,
+      "seconds": 0.007306399988010526
+    },
+    {
+      "label": "reciprocal_r2_phase1",
+      "role": "interface_wave",
+      "status": "completed",
+      "Nx": 510,
+      "steps": 1068,
+      "method": "reciprocal",
+      "phase": 1,
+      "seconds": 0.00744359998498112
+    },
+    {
+      "label": "homogeneous_r4",
+      "role": "homogeneous_reference",
+      "status": "completed",
+      "Nx": 1020,
+      "steps": 2136,
+      "seconds": 0.01636409998172894
+    },
+    {
+      "label": "binary_r4_phase0",
+      "role": "interface_wave",
+      "status": "completed",
+      "Nx": 1020,
+      "steps": 2136,
+      "method": "binary",
+      "phase": 0,
+      "seconds": 0.016335899999830872
+    },
+    {
+      "label": "binary_r4_phase1",
+      "role": "interface_wave",
+      "status": "completed",
+      "Nx": 1020,
+      "steps": 2136,
+      "method": "binary",
+      "phase": 1,
+      "seconds": 0.0160899999900721
+    },
+    {
+      "label": "arithmetic_r4_phase0",
+      "role": "interface_wave",
+      "status": "completed",
+      "Nx": 1020,
+      "steps": 2136,
+      "method": "arithmetic",
+      "phase": 0,
+      "seconds": 0.01647860000957735
+    },
+    {
+      "label": "arithmetic_r4_phase1",
+      "role": "interface_wave",
+      "status": "completed",
+      "Nx": 1020,
+      "steps": 2136,
+      "method": "arithmetic",
+      "phase": 1,
+      "seconds": 0.02022379997652024
+    },
+    {
+      "label": "reciprocal_r4_phase0",
+      "role": "interface_wave",
+      "status": "completed",
+      "Nx": 1020,
+      "steps": 2136,
+      "method": "reciprocal",
+      "phase": 0,
+      "seconds": 0.020515399985015392
+    },
+    {
+      "label": "reciprocal_r4_phase1",
+      "role": "interface_wave",
+      "status": "completed",
+      "Nx": 1020,
+      "steps": 2136,
+      "method": "reciprocal",
+      "phase": 1,
+      "seconds": 0.01567389999399893
+    }
+  ],
+  "physical_tasks_attempted": 22,
+  "network_forwards": 0,
+  "training_updates": 0,
+  "wall_seconds": 0.32855919998837635,
+  "physical_compute_seconds": 0.2887731999508105,
+  "total_grid_time_steps": 26167
+}

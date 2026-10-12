@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "input_hashes": true,
+  "operator_check": {
+    "max_abs": 0.0,
+    "status": "passed"
+  },
+  "homogeneous_reference_pass": true,
+  "boundary_window_pass": true,
+  "saved_arrays_match": true,
+  "physical_tasks": 22,
+  "failed_physical_tasks": 0,
+  "artifact_sha256": {
+    "traces.npz": "d0ec4f2cc238ac6d0fb8c61f7416634a08f069065cb4dc3f48669e4e57e56f33",
+    "native_traces.npz": "5612092d57ac824075f5cf8bfdad416c14dfc1e0c75ed75644aa4569f39c7fe5",
+    "materials.npz": "de953048146e6e6ed16f8ac2eb742428205db798ebf67c2582cf9fc2a41443bb",
+    "summary.json": "9d4e7279db0e98a9d621855d9bee8596df654ce26c8cd200103935a4c5cce771"
+  }
+}

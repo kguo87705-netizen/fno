@@ -1,0 +1,14 @@
+{
+  "input_hashes": true,
+  "waveform_hashes": true,
+  "replay_bit_equal": true,
+  "full_likelihood_posterior_max_abs": 1.724476117459517e-11,
+  "reduced_likelihood_max_abs": 0.0,
+  "posterior_normalization_max_abs": 2.220446049250313e-16,
+  "fixed_decisions_match": true,
+  "truth_free_policy_permutation_invariant": true,
+  "physical_attempts": 18,
+  "failed_physical_calls": 0,
+  "status": "passed",
+  "scope": "hashes, fresh replays, Gaussian sufficient statistics, posterior decisions, saved arrays; scientific gate separate"
+}

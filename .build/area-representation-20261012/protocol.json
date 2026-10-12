@@ -1,0 +1,47 @@
+{
+  "status": "frozen_before_evaluation",
+  "question": "Does analytic cell area representation remove certified geometry aliases while conserving area and agreeing under nested refinement?",
+  "candidate_geometry": "three prior centers and all 12 certified axis aliases, development only",
+  "grid": [
+    255,
+    127
+  ],
+  "domain_m": [
+    0.1,
+    0.05
+  ],
+  "representation": "exact branch-split ellipse/rectangle integration in node-centered Voronoi control cells, clipped at domain",
+  "refinements": [
+    1,
+    3,
+    9
+  ],
+  "reason_for_odd_refinement": "nested control-cell boundaries allow exact area aggregation",
+  "checks": {
+    "relative_area_error_max": 1e-10,
+    "nested_aggregate_fraction_max_abs": 1e-08,
+    "independent_quad_fraction_max_abs": 1e-08,
+    "all_12_aliases_change_fraction_and_float32_material": true
+  },
+  "independent_reference": "scipy adaptive numerical integration, up to 20 boundary cells per base geometry, preselected evenly by index",
+  "independent_quad": {
+    "epsabs": 1e-18,
+    "epsrel": 1e-11,
+    "limit": 200
+  },
+  "material_probe": "gamma32 = 1+(0.5-1)*area_fraction32; diagnostic only, no forward solver use",
+  "scientific_limit": "representation convergence only; no wave-grid convergence, acoustic effective-medium validation, continuous inverse precision or active acquisition benefit",
+  "physical_calls": 0,
+  "network_forwards": 0,
+  "training_updates": 0,
+  "wall_seconds_cap": 180,
+  "input_sha256": {
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\check_area_representation_20261012.py": "c0fdc07a411f65e787cc273932c78d564dd0703fe83ba2c3db5bb902f08c2449",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\ellipse_area_fraction.py": "deb4f1a8064f2d3cf014ead46bd2a672f868a54ef7b437694e89eafbb8b51dc7",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_tx_design_value_20261012.py": "1685eef0132aab5bdc9812a4c55d8a0244c760ad7ab39e4c1465010fa4527be8",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\settings2D.csv": "4fb9e8fdb8fa2fb97502e605f31351601e115463fa1800913473699d9f4ee398",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\FiniteDifferencePyTorchConv.py": "ffa51af0896fa2ddc0ef8e705d4f88f3dc9cc61df96b780eef1ad25cac1fde9f",
+    ".build\\geometry-rasterization-audit-20261012-r2\\summary.json": "07953188cc6b21b55fd65aabf6d3581a57468428a2cabb97cad0ebb54db3b2df",
+    ".build\\geometry-rasterization-audit-20261012-r2\\protocol.json": "21cfa4548a0537347027163215f8b3baa02b7335d8425652e9716f81dc3ac16a"
+  }
+}

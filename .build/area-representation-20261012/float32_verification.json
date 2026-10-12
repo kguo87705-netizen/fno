@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "scope": "posthoc float32 material probe, no wave solver",
+  "float32_material_area_max_relative_error": 2.0312791749404626e-09,
+  "distinct_float32_material_arrays": 15,
+  "physical_calls": 0
+}

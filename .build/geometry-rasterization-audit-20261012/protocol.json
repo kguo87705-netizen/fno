@@ -1,0 +1,58 @@
+{
+  "status": "frozen_before_audit",
+  "question": "Can distinct continuous ellipse coordinates produce exactly the same discrete material and therefore identical forward distributions?",
+  "motivation": "exploratory center mask preflight already found x+.01 cell and y+.1 cell aliasing; not held-out discovery",
+  "centers": [
+    0.038,
+    0.05,
+    0.062
+  ],
+  "center_y": 0.028,
+  "ellipse_axes": [
+    0.006,
+    0.003
+  ],
+  "gamma": 0.5,
+  "axes": [
+    "x",
+    "y"
+  ],
+  "grid": [
+    255,
+    127
+  ],
+  "spacing_m": [
+    0.0003921568627450981,
+    0.00039370078740157485
+  ],
+  "dtype": "original torch float32 binary mask",
+  "scan_positive_fractions": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    0.5,
+    1.0
+  ],
+  "scan_negative_fractions": [
+    -0.0001,
+    -0.001,
+    -0.01,
+    -0.1,
+    -0.5,
+    -1.0
+  ],
+  "plateau_search": "nearest ideal float64 ellipse/grid crossing used only to bracket; test original float32 mask; 60 bisections; endpoints classified by actual original mask",
+  "certificate": "axis offsets at 80 percent of positive/negative first-change bisection lower bounds; same mask and same full padded gamma tensor",
+  "no_continuous_resolution_claim": "plateau is representation aliasing, not acoustic resolution; no CRLB or physical identifiability bound inferred",
+  "physical_calls": 0,
+  "network_forwards": 0,
+  "training_updates": 0,
+  "wall_seconds_cap": 60,
+  "input_sha256": {
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\audit_geometry_rasterization_20261012.py": "a9dd795738573c76eac4c51acdf429a48ea8c0f7aed84f14bf6f360895ad12bc",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_tx_design_value_20261012.py": "1685eef0132aab5bdc9812a4c55d8a0244c760ad7ab39e4c1465010fa4527be8",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\settings2D.csv": "4fb9e8fdb8fa2fb97502e605f31351601e115463fa1800913473699d9f4ee398",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\FiniteDifferencePyTorchConv.py": "ffa51af0896fa2ddc0ef8e705d4f88f3dc9cc61df96b780eef1ad25cac1fde9f"
+  }
+}

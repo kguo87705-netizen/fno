@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "interior_masks_checked": 246,
+  "all_equal": true,
+  "scope": "41 interior samples per axis at three centers; not a continuous-interval proof beyond crossing bracket",
+  "new_physical_calls": 0
+}

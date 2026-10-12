@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "independent_travel_time_reference_max_abs": 1.1102230246251565e-15,
+  "saved_metric_recalculation": true,
+  "coarse_base_all_three_representations_equal": true,
+  "coarse_binary_material_alias": true,
+  "coarse_improvement_gate_feasibility": "base phase is both binary worst phase and identical across all representations; 20% worst-phase improvement is impossible on this frozen pair; retain this limitation and use independent shift-error gate",
+  "new_physical_calls": 0
+}

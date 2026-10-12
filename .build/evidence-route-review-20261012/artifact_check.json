@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "json_parse": true,
+  "report_claims_and_plan_status_checked": true,
+  "navigation_link": true,
+  "native_obsidian_preview": false,
+  "new_physical_calls": 0,
+  "report_sha256": "6435c928cbce892760834fb80a3ae7fbfeaf8f1e3fedb0f69555efbb6e1ccc1f"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "verified",
+  "candidate_coordinates": 15,
+  "unique_material_masks": 3,
+  "duplicate_coordinates": 12,
+  "groups": {
+    "4793f67c7ce4dcd82e311de1e27159e9c398af5886fb3d1b8470f10d7749c850": [
+      "mask_0",
+      "certificate_mask_0_x_-1",
+      "certificate_mask_0_x_1",
+      "certificate_mask_0_y_-1",
+      "certificate_mask_0_y_1"
+    ],
+    "501d027ae322b92a83d8b1ecc2673c7c97b81e222990daa0a3e1f7e9c8116c74": [
+      "mask_1",
+      "certificate_mask_1_x_-1",
+      "certificate_mask_1_x_1",
+      "certificate_mask_1_y_-1",
+      "certificate_mask_1_y_1"
+    ],
+    "68fb8f4f4710be1a45a1d899abd88ace4b684d696f116718ee3b45654a86a605": [
+      "mask_2",
+      "certificate_mask_2_x_-1",
+      "certificate_mask_2_x_1",
+      "certificate_mask_2_y_-1",
+      "certificate_mask_2_y_1"
+    ]
+  },
+  "interpretation": "detect and report indistinguishable labels before candidate inversion; hypothetical deduplication only, no measured physical-call savings"
+}

@@ -1,0 +1,640 @@
+{
+  "status": "completed",
+  "primary_fixed12": {
+    "assume_unit_gain": {
+      "error_by_gain": [
+        0.0085,
+        0.4955,
+        0.495,
+        0.01925,
+        0.019
+      ],
+      "worst_error": 0.4955
+    },
+    "profile_per_source_gain": {
+      "error_by_gain": [
+        0.009,
+        0.009,
+        0.00875,
+        0.009,
+        0.009
+      ],
+      "worst_error": 0.009
+    },
+    "oracle_true_gain": {
+      "error_by_gain": [
+        0.0085,
+        0.00875,
+        0.0085,
+        0.0085,
+        0.0085
+      ],
+      "worst_error": 0.00875
+    }
+  },
+  "metrics": {
+    "nominal": {
+      "assume_unit_gain": {
+        "[0, 1]": {
+          "material_error": 0.018,
+          "position_error": 0.0
+        },
+        "[0, 2]": {
+          "material_error": 0.01725,
+          "position_error": 0.0
+        },
+        "[0, 3]": {
+          "material_error": 0.02225,
+          "position_error": 0.0
+        },
+        "[1, 2]": {
+          "material_error": 0.0085,
+          "position_error": 0.0
+        },
+        "[1, 3]": {
+          "material_error": 0.01625,
+          "position_error": 0.0
+        },
+        "[2, 3]": {
+          "material_error": 0.0155,
+          "position_error": 0.0
+        },
+        "[0, 1, 2, 3]": {
+          "material_error": 0.00125,
+          "position_error": 0.0
+        }
+      },
+      "profile_per_source_gain": {
+        "[0, 1]": {
+          "material_error": 0.01875,
+          "position_error": 0.0
+        },
+        "[0, 2]": {
+          "material_error": 0.017,
+          "position_error": 0.0
+        },
+        "[0, 3]": {
+          "material_error": 0.02225,
+          "position_error": 0.0
+        },
+        "[1, 2]": {
+          "material_error": 0.009,
+          "position_error": 0.0
+        },
+        "[1, 3]": {
+          "material_error": 0.017,
+          "position_error": 0.0
+        },
+        "[2, 3]": {
+          "material_error": 0.017,
+          "position_error": 0.0
+        },
+        "[0, 1, 2, 3]": {
+          "material_error": 0.00125,
+          "position_error": 0.0
+        }
+      },
+      "oracle_true_gain": {
+        "[0, 1]": {
+          "material_error": 0.018,
+          "position_error": 0.0
+        },
+        "[0, 2]": {
+          "material_error": 0.01725,
+          "position_error": 0.0
+        },
+        "[0, 3]": {
+          "material_error": 0.02225,
+          "position_error": 0.0
+        },
+        "[1, 2]": {
+          "material_error": 0.0085,
+          "position_error": 0.0
+        },
+        "[1, 3]": {
+          "material_error": 0.01625,
+          "position_error": 0.0
+        },
+        "[2, 3]": {
+          "material_error": 0.0155,
+          "position_error": 0.0
+        },
+        "[0, 1, 2, 3]": {
+          "material_error": 0.00125,
+          "position_error": 0.0
+        }
+      }
+    },
+    "common_low": {
+      "assume_unit_gain": {
+        "[0, 1]": {
+          "material_error": 0.33475,
+          "position_error": 0.0
+        },
+        "[0, 2]": {
+          "material_error": 0.31175,
+          "position_error": 0.0
+        },
+        "[0, 3]": {
+          "material_error": 0.02625,
+          "position_error": 0.0
+        },
+        "[1, 2]": {
+          "material_error": 0.4955,
+          "position_error": 0.0
+        },
+        "[1, 3]": {
+          "material_error": 0.32875,
+          "position_error": 0.0
+        },
+        "[2, 3]": {
+          "material_error": 0.3075,
+          "position_error": 0.0
+        },
+        "[0, 1, 2, 3]": {
+          "material_error": 0.347,
+          "position_error": 0.0
+        }
+      },
+      "profile_per_source_gain": {
+        "[0, 1]": {
+          "material_error": 0.019,
+          "position_error": 0.0
+        },
+        "[0, 2]": {
+          "material_error": 0.017,
+          "position_error": 0.0
+        },
+        "[0, 3]": {
+          "material_error": 0.0225,
+          "position_error": 0.0
+        },
+        "[1, 2]": {
+          "material_error": 0.009,
+          "position_error": 0.0
+        },
+        "[1, 3]": {
+          "material_error": 0.017,
+          "position_error": 0.0
+        },
+        "[2, 3]": {
+          "material_error": 0.017,
+          "position_error": 0.0
+        },
+        "[0, 1, 2, 3]": {
+          "material_error": 0.00125,
+          "position_error": 0.0
+        }
+      },
+      "oracle_true_gain": {
+        "[0, 1]": {
+          "material_error": 0.018,
+          "position_error": 0.0
+        },
+        "[0, 2]": {
+          "material_error": 0.01725,
+          "position_error": 0.0
+        },
+        "[0, 3]": {
+          "material_error": 0.02225,
+          "position_error": 0.0
+        },
+        "[1, 2]": {
+          "material_error": 0.00875,
+          "position_error": 0.0
+        },
+        "[1, 3]": {
+          "material_error": 0.01625,
+          "position_error": 0.0
+        },
+        "[2, 3]": {
+          "material_error": 0.01625,
+          "position_error": 0.0
+        },
+        "[0, 1, 2, 3]": {
+          "material_error": 0.00125,
+          "position_error": 0.0
+        }
+      }
+    },
+    "common_high": {
+      "assume_unit_gain": {
+        "[0, 1]": {
+          "material_error": 0.3325,
+          "position_error": 0.0
+        },
+        "[0, 2]": {
+          "material_error": 0.31175,
+          "position_error": 0.0
+        },
+        "[0, 3]": {
+          "material_error": 0.025,
+          "position_error": 0.0
+        },
+        "[1, 2]": {
+          "material_error": 0.495,
+          "position_error": 0.0
+        },
+        "[1, 3]": {
+          "material_error": 0.32325,
+          "position_error": 0.0
+        },
+        "[2, 3]": {
+          "material_error": 0.2955,
+          "position_error": 0.0
+        },
+        "[0, 1, 2, 3]": {
+          "material_error": 0.33625,
+          "position_error": 0.0
+        }
+      },
+      "profile_per_source_gain": {
+        "[0, 1]": {
+          "material_error": 0.01825,
+          "position_error": 0.0
+        },
+        "[0, 2]": {
+          "material_error": 0.017,
+          "position_error": 0.0
+        },
+        "[0, 3]": {
+          "material_error": 0.02175,
+          "position_error": 0.0
+        },
+        "[1, 2]": {
+          "material_error": 0.00875,
+          "position_error": 0.0
+        },
+        "[1, 3]": {
+          "material_error": 0.017,
+          "position_error": 0.0
+        },
+        "[2, 3]": {
+          "material_error": 0.017,
+          "position_error": 0.0
+        },
+        "[0, 1, 2, 3]": {
+          "material_error": 0.00125,
+          "position_error": 0.0
+        }
+      },
+      "oracle_true_gain": {
+        "[0, 1]": {
+          "material_error": 0.018,
+          "position_error": 0.0
+        },
+        "[0, 2]": {
+          "material_error": 0.017,
+          "position_error": 0.0
+        },
+        "[0, 3]": {
+          "material_error": 0.0215,
+          "position_error": 0.0
+        },
+        "[1, 2]": {
+          "material_error": 0.0085,
+          "position_error": 0.0
+        },
+        "[1, 3]": {
+          "material_error": 0.01625,
+          "position_error": 0.0
+        },
+        "[2, 3]": {
+          "material_error": 0.0155,
+          "position_error": 0.0
+        },
+        "[0, 1, 2, 3]": {
+          "material_error": 0.00125,
+          "position_error": 0.0
+        }
+      }
+    },
+    "alternating": {
+      "assume_unit_gain": {
+        "[0, 1]": {
+          "material_error": 0.293,
+          "position_error": 0.0
+        },
+        "[0, 2]": {
+          "material_error": 0.31175,
+          "position_error": 0.0
+        },
+        "[0, 3]": {
+          "material_error": 0.0355,
+          "position_error": 0.0
+        },
+        "[1, 2]": {
+          "material_error": 0.01925,
+          "position_error": 0.0
+        },
+        "[1, 3]": {
+          "material_error": 0.32325,
+          "position_error": 0.0
+        },
+        "[2, 3]": {
+          "material_error": 0.28825,
+          "position_error": 0.0
+        },
+        "[0, 1, 2, 3]": {
+          "material_error": 0.00125,
+          "position_error": 0.0
+        }
+      },
+      "profile_per_source_gain": {
+        "[0, 1]": {
+          "material_error": 0.01875,
+          "position_error": 0.0
+        },
+        "[0, 2]": {
+          "material_error": 0.017,
+          "position_error": 0.0
+        },
+        "[0, 3]": {
+          "material_error": 0.02225,
+          "position_error": 0.0
+        },
+        "[1, 2]": {
+          "material_error": 0.009,
+          "position_error": 0.0
+        },
+        "[1, 3]": {
+          "material_error": 0.017,
+          "position_error": 0.0
+        },
+        "[2, 3]": {
+          "material_error": 0.017,
+          "position_error": 0.0
+        },
+        "[0, 1, 2, 3]": {
+          "material_error": 0.00125,
+          "position_error": 0.0
+        }
+      },
+      "oracle_true_gain": {
+        "[0, 1]": {
+          "material_error": 0.018,
+          "position_error": 0.0
+        },
+        "[0, 2]": {
+          "material_error": 0.01725,
+          "position_error": 0.0
+        },
+        "[0, 3]": {
+          "material_error": 0.022,
+          "position_error": 0.0
+        },
+        "[1, 2]": {
+          "material_error": 0.0085,
+          "position_error": 0.0
+        },
+        "[1, 3]": {
+          "material_error": 0.01625,
+          "position_error": 0.0
+        },
+        "[2, 3]": {
+          "material_error": 0.01575,
+          "position_error": 0.0
+        },
+        "[0, 1, 2, 3]": {
+          "material_error": 0.00125,
+          "position_error": 0.0
+        }
+      }
+    },
+    "alternating_reverse": {
+      "assume_unit_gain": {
+        "[0, 1]": {
+          "material_error": 0.2885,
+          "position_error": 0.0
+        },
+        "[0, 2]": {
+          "material_error": 0.31175,
+          "position_error": 0.0
+        },
+        "[0, 3]": {
+          "material_error": 0.035,
+          "position_error": 0.0
+        },
+        "[1, 2]": {
+          "material_error": 0.019,
+          "position_error": 0.0
+        },
+        "[1, 3]": {
+          "material_error": 0.32875,
+          "position_error": 0.0
+        },
+        "[2, 3]": {
+          "material_error": 0.271,
+          "position_error": 0.0
+        },
+        "[0, 1, 2, 3]": {
+          "material_error": 0.00125,
+          "position_error": 0.0
+        }
+      },
+      "profile_per_source_gain": {
+        "[0, 1]": {
+          "material_error": 0.019,
+          "position_error": 0.0
+        },
+        "[0, 2]": {
+          "material_error": 0.017,
+          "position_error": 0.0
+        },
+        "[0, 3]": {
+          "material_error": 0.02225,
+          "position_error": 0.0
+        },
+        "[1, 2]": {
+          "material_error": 0.009,
+          "position_error": 0.0
+        },
+        "[1, 3]": {
+          "material_error": 0.017,
+          "position_error": 0.0
+        },
+        "[2, 3]": {
+          "material_error": 0.017,
+          "position_error": 0.0
+        },
+        "[0, 1, 2, 3]": {
+          "material_error": 0.00125,
+          "position_error": 0.0
+        }
+      },
+      "oracle_true_gain": {
+        "[0, 1]": {
+          "material_error": 0.018,
+          "position_error": 0.0
+        },
+        "[0, 2]": {
+          "material_error": 0.017,
+          "position_error": 0.0
+        },
+        "[0, 3]": {
+          "material_error": 0.02225,
+          "position_error": 0.0
+        },
+        "[1, 2]": {
+          "material_error": 0.0085,
+          "position_error": 0.0
+        },
+        "[1, 3]": {
+          "material_error": 0.01625,
+          "position_error": 0.0
+        },
+        "[2, 3]": {
+          "material_error": 0.01575,
+          "position_error": 0.0
+        },
+        "[0, 1, 2, 3]": {
+          "material_error": 0.00125,
+          "position_error": 0.0
+        }
+      }
+    }
+  },
+  "contrasts": [
+    {
+      "pattern": "nominal",
+      "comparison": "unit_minus_profile",
+      "difference": -0.0005,
+      "simultaneous_lower": -0.00175,
+      "simultaneous_upper": 0.0
+    },
+    {
+      "pattern": "nominal",
+      "comparison": "profile_minus_oracle",
+      "difference": 0.0005,
+      "simultaneous_lower": 0.0,
+      "simultaneous_upper": 0.00175
+    },
+    {
+      "pattern": "common_low",
+      "comparison": "unit_minus_profile",
+      "difference": 0.4865,
+      "simultaneous_lower": 0.48100000000000004,
+      "simultaneous_upper": 0.49125
+    },
+    {
+      "pattern": "common_low",
+      "comparison": "profile_minus_oracle",
+      "difference": 0.00025,
+      "simultaneous_lower": -0.001,
+      "simultaneous_upper": 0.0015
+    },
+    {
+      "pattern": "common_high",
+      "comparison": "unit_minus_profile",
+      "difference": 0.48625,
+      "simultaneous_lower": 0.48075,
+      "simultaneous_upper": 0.491
+    },
+    {
+      "pattern": "common_high",
+      "comparison": "profile_minus_oracle",
+      "difference": 0.00025,
+      "simultaneous_lower": 0.0,
+      "simultaneous_upper": 0.00125
+    },
+    {
+      "pattern": "alternating",
+      "comparison": "unit_minus_profile",
+      "difference": 0.01025,
+      "simultaneous_lower": 0.0049993749999999995,
+      "simultaneous_upper": 0.01625
+    },
+    {
+      "pattern": "alternating",
+      "comparison": "profile_minus_oracle",
+      "difference": 0.0005,
+      "simultaneous_lower": 0.0,
+      "simultaneous_upper": 0.00175
+    },
+    {
+      "pattern": "alternating_reverse",
+      "comparison": "unit_minus_profile",
+      "difference": 0.01,
+      "simultaneous_lower": 0.00425,
+      "simultaneous_upper": 0.01625
+    },
+    {
+      "pattern": "alternating_reverse",
+      "comparison": "profile_minus_oracle",
+      "difference": 0.0005,
+      "simultaneous_lower": 0.0,
+      "simultaneous_upper": 0.00175
+    }
+  ],
+  "diagnosis": [
+    {
+      "source": 0,
+      "material_by_location": [
+        {
+          "material_distance": 2.9232549561820163,
+          "gain_direction_cosine": -0.00810569319111461,
+          "material_distance_after_gain_projection": 2.92315892237291
+        },
+        {
+          "material_distance": 2.779015491550052,
+          "gain_direction_cosine": 0.0007185624257698412,
+          "material_distance_after_gain_projection": 2.779014774102702
+        }
+      ],
+      "minimum_cross_location_distance": 6746.991742567449
+    },
+    {
+      "source": 1,
+      "material_by_location": [
+        {
+          "material_distance": 3.6790004290177527,
+          "gain_direction_cosine": -0.05590609290947515,
+          "material_distance_after_gain_projection": 3.67324658782651
+        },
+        {
+          "material_distance": 2.743354387795807,
+          "gain_direction_cosine": -0.06189585638967755,
+          "material_distance_after_gain_projection": 2.7380943165655602
+        }
+      ],
+      "minimum_cross_location_distance": 8065.008683101461
+    },
+    {
+      "source": 2,
+      "material_by_location": [
+        {
+          "material_distance": 2.7698809498519483,
+          "gain_direction_cosine": -0.058809339022399876,
+          "material_distance_after_gain_projection": 2.7650869314339612
+        },
+        {
+          "material_distance": 3.6717300947191394,
+          "gain_direction_cosine": -0.055182960229841635,
+          "material_distance_after_gain_projection": 3.666135331080489
+        }
+      ],
+      "minimum_cross_location_distance": 8137.318449682891
+    },
+    {
+      "source": 3,
+      "material_by_location": [
+        {
+          "material_distance": 2.7939178215735643,
+          "gain_direction_cosine": 0.0077690526183025466,
+          "material_distance_after_gain_projection": 2.7938335024057928
+        },
+        {
+          "material_distance": 2.9304677758611777,
+          "gain_direction_cosine": -0.011497035814809717,
+          "material_distance_after_gain_projection": 2.9302740921602117
+        }
+      ],
+      "minimum_cross_location_distance": 6752.462888154651
+    }
+  ],
+  "unit_gain_failure": true,
+  "simple_fit_adequate": true,
+  "fitted_gain_mae_primary": 3.658691546507903e-05,
+  "interpretation": "synthetic source amplitude stress only; no physical, active-selection or neural performance claim",
+  "limits": "same four discrete hypotheses and exact matched waveforms; 4000 paired noise draws reused across five gain patterns; profile score is not calibrated posterior"
+}

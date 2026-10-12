@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "report_numbers_checked": true,
+  "json_and_arrays_parse": true,
+  "figure_opened_and_visually_checked": true,
+  "navigation_link": true,
+  "native_obsidian_preview": false,
+  "report_sha256": "913cc854343b23b71f66a57eddeda51f66204c9d74a0587b619449e7e3c30532",
+  "figure_sha256": "5888091f7f071f7b3706a5d3f18b4cc11ae0d8e7db641470e891dc4637b72805"
+}

@@ -1,0 +1,72 @@
+{
+  "status": "completed",
+  "input_hashes_verified": {
+    "active-second-shot-20261012": true,
+    "gain-nuisance-20261012": true,
+    "geometry-rasterization-audit-20261012-r2": true,
+    "area-representation-20261012": true
+  },
+  "frozen_evidence_sha256": {
+    ".build\\active-second-shot-20261012\\protocol.json": "635f0976697dd4b958fe2f6e85e603059340b0279dd53195131b0ff298609f13",
+    ".build\\active-second-shot-20261012\\summary.json": "cc2f4b3a0f987a85c81cafebedc9c34a460374d62ec1c31edf538ad5b0c5e808",
+    ".build\\active-second-shot-20261012\\verification.json": "921e09c2b2d796f9bd1112448cc8a9316e2016c0995b7bf6ba7d267278ed90e9",
+    ".build\\active-second-shot-20261012\\ledger.json": "ecf91e64b5cff7e7f7515542b1f4c2b6f4ff350f72fb912d49c6227e147ee372",
+    ".build\\gain-nuisance-20261012\\protocol.json": "bc14e95d671dd066fa6225471663ba337e48cb584f1a604a868557e70bae8a3c",
+    ".build\\gain-nuisance-20261012\\summary.json": "fa307da1cef89257d4aaa2728350d2f2b44ede629163465746f752bcf25741ae",
+    ".build\\gain-nuisance-20261012\\verification.json": "69a0046d327bcc1fc9cf4d7520e13466efd3184b45533c609bbe4bfd3633a21a",
+    ".build\\gain-nuisance-20261012\\ledger.json": "f8dfb95bf95e2f1c24d898824b51d9c86e1c72e198a916310c48ee077268c67d",
+    ".build\\geometry-rasterization-audit-20261012-r2\\protocol.json": "21cfa4548a0537347027163215f8b3baa02b7335d8425652e9716f81dc3ac16a",
+    ".build\\geometry-rasterization-audit-20261012-r2\\summary.json": "07953188cc6b21b55fd65aabf6d3581a57468428a2cabb97cad0ebb54db3b2df",
+    ".build\\geometry-rasterization-audit-20261012-r2\\verification.json": "1a1cd16878dad360edde327701cb12463be49f6715344e7df1392939674cddf7",
+    ".build\\geometry-rasterization-audit-20261012-r2\\ledger.json": "78827d272ccda9b408a04402dd41804b76d72a9af1f8048a83417a942647cbc7",
+    ".build\\area-representation-20261012\\protocol.json": "7daf0a0d00e18887c031b4b060f3416f3c2489466412c98fe07619598114e938",
+    ".build\\area-representation-20261012\\summary.json": "b7e44090e0864dea49fa4546352fb15e5ab10cb1ebe0bc24ed9f51bc9245fd54",
+    ".build\\area-representation-20261012\\verification.json": "e04659835c5bcec87d7fa6a3c7036ac04d2dd0e6975d291a7244142cc41a6b4d",
+    ".build\\area-representation-20261012\\ledger.json": "ecfe7b8182cd781135365d80e3cebf4df16d4aac93dcbdcd5f8e7bea543fd243",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\FiniteDifferencePyTorchConv.py": "ffa51af0896fa2ddc0ef8e705d4f88f3dc9cc61df96b780eef1ad25cac1fde9f",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\ellipse_area_fraction.py": "deb4f1a8064f2d3cf014ead46bd2a672f868a54ef7b437694e89eafbb8b51dc7"
+  },
+  "active_recomputed": {
+    "errors_by_method": [
+      60,
+      55,
+      86,
+      39,
+      63,
+      67,
+      33,
+      214
+    ],
+    "fixed12": 39,
+    "adaptive": 33,
+    "helped": 15,
+    "harmed": 9,
+    "main_simultaneous_lower": -0.0015
+  },
+  "profile_gain_independently_recomputed_counts": [
+    36,
+    36,
+    35,
+    36,
+    36
+  ],
+  "rasterization_recomputed": {
+    "labels": 15,
+    "unique_masks": 3
+  },
+  "area_recomputed": {
+    "labels": 15,
+    "unique_float32_materials": 15
+  },
+  "coefficient_order_example": {
+    "fraction": 0.5,
+    "arithmetic_gamma": 0.75,
+    "inverse_of_arithmetic_gamma": 1.3333333333333333,
+    "arithmetic_inverse_gamma": 1.5,
+    "relative_inverse_difference": 0.1111111111111111,
+    "interpretation": "algebraic noncommutation, not an observed waveform error"
+  },
+  "new_physical_calls": 0,
+  "network_forwards": 0,
+  "training_updates": 0
+}

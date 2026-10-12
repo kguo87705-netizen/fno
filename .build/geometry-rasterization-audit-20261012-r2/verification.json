@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "certificates": 12,
+  "saved_masks_equal": true,
+  "original_mask_same_and_changed_bisection_endpoints": true,
+  "input_hashes": true,
+  "forward_calls_not_needed": "identical padded material, source, grid and initial state give identical deterministic solver input; no forward pass executed"
+}

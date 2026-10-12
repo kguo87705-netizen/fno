@@ -1,0 +1,9 @@
+{
+  "original_files_preserved": true,
+  "repair_script": "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\audit_geometry_rasterization_20261012_r2.py",
+  "new_physical_calls": 0,
+  "analysis_outputs": "completed before stdout failure",
+  "process_seconds": 2.2055686,
+  "error": "TypeError in stdout summary: duplicate x keyword",
+  "process_status": "failed"
+}

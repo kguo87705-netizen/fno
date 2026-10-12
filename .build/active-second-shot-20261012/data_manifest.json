@@ -1,0 +1,32 @@
+{
+  "records": [
+    {
+      "file": "state_0.pt",
+      "sha256": "1cc9bd3000831345cc0559394bdd875816aadb7317bda52b4af9081eeae77bd9"
+    },
+    {
+      "file": "state_1.pt",
+      "sha256": "38c981e8b492a5a6111b71bed4b18d74e929b687491910b258875a9066febc50"
+    },
+    {
+      "file": "state_2.pt",
+      "sha256": "f683451ecebb8c5e5971919097e6efcfcfcc781643318e5dc1eb3a21f02b24f9"
+    },
+    {
+      "file": "state_3.pt",
+      "sha256": "037cc19269282616a8b36d81234bf102b67acdb7b7b8ad455a0923feeaf50f29"
+    }
+  ],
+  "replays": [
+    {
+      "state": 0,
+      "source": 1,
+      "bit_equal": true
+    },
+    {
+      "state": 3,
+      "source": 3,
+      "bit_equal": true
+    }
+  ]
+}

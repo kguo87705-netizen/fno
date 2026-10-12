@@ -1,0 +1,137 @@
+{
+  "status": "completed",
+  "entries": [
+    {
+      "state": 0,
+      "source": 0,
+      "role": "dictionary",
+      "status": "completed",
+      "seconds": 0.9196322999778204
+    },
+    {
+      "state": 0,
+      "source": 1,
+      "role": "dictionary",
+      "status": "completed",
+      "seconds": 0.8107185000262689
+    },
+    {
+      "state": 0,
+      "source": 2,
+      "role": "dictionary",
+      "status": "completed",
+      "seconds": 0.7955307000083849
+    },
+    {
+      "state": 0,
+      "source": 3,
+      "role": "dictionary",
+      "status": "completed",
+      "seconds": 0.7831161000067368
+    },
+    {
+      "state": 1,
+      "source": 0,
+      "role": "dictionary",
+      "status": "completed",
+      "seconds": 0.7927595000073779
+    },
+    {
+      "state": 1,
+      "source": 1,
+      "role": "dictionary",
+      "status": "completed",
+      "seconds": 0.7908666000002995
+    },
+    {
+      "state": 1,
+      "source": 2,
+      "role": "dictionary",
+      "status": "completed",
+      "seconds": 0.8039849000051618
+    },
+    {
+      "state": 1,
+      "source": 3,
+      "role": "dictionary",
+      "status": "completed",
+      "seconds": 0.7878989000164438
+    },
+    {
+      "state": 2,
+      "source": 0,
+      "role": "dictionary",
+      "status": "completed",
+      "seconds": 0.790624499990372
+    },
+    {
+      "state": 2,
+      "source": 1,
+      "role": "dictionary",
+      "status": "completed",
+      "seconds": 0.7805727000231855
+    },
+    {
+      "state": 2,
+      "source": 2,
+      "role": "dictionary",
+      "status": "completed",
+      "seconds": 0.7895409999764524
+    },
+    {
+      "state": 2,
+      "source": 3,
+      "role": "dictionary",
+      "status": "completed",
+      "seconds": 0.8031281000003219
+    },
+    {
+      "state": 3,
+      "source": 0,
+      "role": "dictionary",
+      "status": "completed",
+      "seconds": 0.7899529999995138
+    },
+    {
+      "state": 3,
+      "source": 1,
+      "role": "dictionary",
+      "status": "completed",
+      "seconds": 0.79033889999846
+    },
+    {
+      "state": 3,
+      "source": 2,
+      "role": "dictionary",
+      "status": "completed",
+      "seconds": 0.7823869999847375
+    },
+    {
+      "state": 3,
+      "source": 3,
+      "role": "dictionary",
+      "status": "completed",
+      "seconds": 0.7872311000246555
+    },
+    {
+      "state": 0,
+      "source": 1,
+      "role": "replay",
+      "status": "completed",
+      "seconds": 0.8108149000036065
+    },
+    {
+      "state": 3,
+      "source": 3,
+      "role": "replay",
+      "status": "completed",
+      "seconds": 0.7926082999911159
+    }
+  ],
+  "physical_calls_attempted": 18,
+  "network_forwards": 0,
+  "training_updates": 0,
+  "physics_seconds_including_preparation": 16.33367749999161,
+  "total_wall_seconds": 22.738434800005052,
+  "solver_and_extract_seconds": 14.401707000040915
+}

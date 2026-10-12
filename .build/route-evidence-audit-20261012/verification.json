@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checks": [
+    "original source and all waveform hashes",
+    "original 1800 left/right estimates reproduced within 2e-12",
+    "MSE equals bias squared plus variance",
+    "noiseless error explained by exact segment projection identity"
+  ],
+  "scientific_scope": "secondary exploratory audit; no changed original gate; oracle not deployable"
+}

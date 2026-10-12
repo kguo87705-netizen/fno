@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "profile_fit_independently_recomputed": true,
+  "profile_score_algebra_max_abs": 3.650784492492676e-07,
+  "primary_classifications_reproduced": true,
+  "bootstrap_quantiles_reproduced": true,
+  "gain_mae_reproduced": true,
+  "new_physical_calls": 0
+}

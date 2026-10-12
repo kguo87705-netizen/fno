@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "kind": "posthoc_saved_data_verification_and_theoretical_diagnostic_not_a_new_gate",
+  "no_new_physical_calls": 0,
+  "no_network_forwards": 0,
+  "no_training_updates": 0,
+  "fixed_metrics_and_saved_bootstrap_reproduced": true,
+  "paired_main_baseline": {
+    "fixed_errors": 39,
+    "adaptive_errors": 33,
+    "fixed_wrong_adaptive_right": 15,
+    "fixed_right_adaptive_wrong": 9,
+    "exact_one_sided_mcnemar_p": 0.15372812747955322,
+    "bonferroni_threshold": 0.008333333333333333
+  },
+  "known_location_theory": {
+    "assumptions": "posthoc analytic Gaussian equal-prior binary material classification, location supplied; cannot replace frozen unknown-location policy or gate",
+    "fixed_pairs": [
+      {
+        "pair": [
+          0,
+          1
+        ],
+        "known_location_equal_prior_gaussian_risk": 0.0174196695549311
+      },
+      {
+        "pair": [
+          0,
+          2
+        ],
+        "known_location_equal_prior_gaussian_risk": 0.016341886958790464
+      },
+      {
+        "pair": [
+          0,
+          3
+        ],
+        "known_location_equal_prior_gaussian_risk": 0.021661707936063306
+      },
+      {
+        "pair": [
+          1,
+          2
+        ],
+        "known_location_equal_prior_gaussian_risk": 0.010806493849139537
+      },
+      {
+        "pair": [
+          1,
+          3
+        ],
+        "known_location_equal_prior_gaussian_risk": 0.01640960073482766
+      },
+      {
+        "pair": [
+          2,
+          3
+        ],
+        "known_location_equal_prior_gaussian_risk": 0.016999689747108936
+      }
+    ],
+    "best_second_by_location": [
+      0,
+      2
+    ],
+    "ideal_common_first_expected_error": 0.010180462150972765,
+    "expected_gain_vs_fixed12": 0.0006260316981667718
+  },
+  "gate_saturation": {
+    "observed_fixed12_error": 0.00975,
+    "required_absolute_reduction": 0.01,
+    "absolute_gate_impossible_even_if_zero_adaptive_error": true,
+    "interpretation": "observed baseline leaves less than one percentage point of error; frozen gate unchanged; no general impossibility claim"
+  },
+  "seconds": 0.03043519999482669
+}

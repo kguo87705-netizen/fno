@@ -1,0 +1,108 @@
+{
+  "status": "completed",
+  "scientific_gate_pass": false,
+  "gates": {
+    "finest_area_reflection": true,
+    "finest_area_difference": true,
+    "coarse_area_difference": false,
+    "coarse_area_vs_binary": false
+  },
+  "metrics": [
+    {
+      "factor": 1,
+      "methods": {
+        "binary": {
+          "reflection_relative_l2_by_phase": [
+            0.12087694521102864,
+            0.11034629458380123
+          ],
+          "shift_difference_relative_l2": 1.0
+        },
+        "arithmetic": {
+          "reflection_relative_l2_by_phase": [
+            0.12087694521102864,
+            0.12211171876658994
+          ],
+          "shift_difference_relative_l2": 0.6997944907454442
+        },
+        "reciprocal": {
+          "reflection_relative_l2_by_phase": [
+            0.12087694521102864,
+            0.1161654706435655
+          ],
+          "shift_difference_relative_l2": 0.5714362990369185
+        }
+      }
+    },
+    {
+      "factor": 2,
+      "methods": {
+        "binary": {
+          "reflection_relative_l2_by_phase": [
+            0.07123518735792016,
+            0.10334508003641472
+          ],
+          "shift_difference_relative_l2": 11.658891503404186
+        },
+        "arithmetic": {
+          "reflection_relative_l2_by_phase": [
+            0.03986289700946099,
+            0.0392995785256338
+          ],
+          "shift_difference_relative_l2": 0.08756423544291499
+        },
+        "reciprocal": {
+          "reflection_relative_l2_by_phase": [
+            0.020955080429398382,
+            0.02105224108948872
+          ],
+          "shift_difference_relative_l2": 0.07691282086353425
+        }
+      }
+    },
+    {
+      "factor": 4,
+      "methods": {
+        "binary": {
+          "reflection_relative_l2_by_phase": [
+            0.04054938462164031,
+            0.037980234645866
+          ],
+          "shift_difference_relative_l2": 5.360699015261327
+        },
+        "arithmetic": {
+          "reflection_relative_l2_by_phase": [
+            0.012222068286756791,
+            0.011367866373792303
+          ],
+          "shift_difference_relative_l2": 0.06662582591970675
+        },
+        "reciprocal": {
+          "reflection_relative_l2_by_phase": [
+            0.006664466781169823,
+            0.006709577899582083
+          ],
+          "shift_difference_relative_l2": 0.012012879757380506
+        }
+      }
+    }
+  ],
+  "coarse_worst_phase_area_reflection_improvement": -0.010215128727861345,
+  "homogeneous_reference_relative_l2": [
+    0.02185857509119272,
+    0.005400812084027324,
+    0.0013086410082843267
+  ],
+  "operator_check": {
+    "max_abs": 0.0,
+    "status": "passed"
+  },
+  "exact_shift_difference_l2": 0.018604556148169405,
+  "exact_base_reflection_l2": 1.2810780511197055,
+  "sharp_initial_state_alias_phase_difference_l2": 3.5693012416240944e-121,
+  "earliest_boundary_return_s": {
+    "left": 1.8333333333333336e-05,
+    "right": 2.6666666666666667e-05
+  },
+  "interpretation": "independent 1D sharp-interface displacement benchmark, fixed phases and window; no 2D or inverse accuracy claim"
+}

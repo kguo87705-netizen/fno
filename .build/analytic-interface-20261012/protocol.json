@@ -1,0 +1,136 @@
+{
+  "plan": {
+    "status": "selected_not_run",
+    "question": "Does the proposed arithmetic area-mixed coefficient improve small-interface-shift wave accuracy against an independent analytic solution, compared with binary and reciprocal mixing?",
+    "why_replaces_previous_step": "independent exact reference and competing mixing law replace same-solver two-grid self-comparison; original 2D plan preserved but not selected for execution",
+    "continuous_pde": "gamma*u_tt = c^2 * d_x(gamma*d_x(u)); flux gamma*d_x(u) and u continuous at interface",
+    "analytic_derivation": {
+      "matching": "1+R=T; gamma_left*(1-R)=gamma_right*T",
+      "R_displacement": 0.3333333333333333,
+      "T_displacement": 1.3333333333333333,
+      "left_solution": "G(x-c*t)+R*G(2*xi-x-c*t)",
+      "right_solution": "T*G(x-c*t)",
+      "scope": "displacement for this scalar PDE, not a pressure reflection formula"
+    },
+    "domain_m": [
+      0,
+      0.1
+    ],
+    "c_m_s": 6000.0,
+    "gamma_left": 1.0,
+    "gamma_right": 0.5,
+    "interface_positions_m": [
+      0.05,
+      0.05001540392637253
+    ],
+    "initial_rightgoing_gaussian": {
+      "center_m": 0.015,
+      "sigma_m": 0.0015,
+      "amplitude": 1.0,
+      "initial_states": "exact piecewise analytic field at t=-dt and t=0; zero external forcing"
+    },
+    "receiver_m": 0.025,
+    "reflected_trace_window_s": [
+      8e-06,
+      1.2e-05
+    ],
+    "grids": [
+      {
+        "Nx": 255,
+        "dt_s": 3e-08,
+        "N": 534,
+        "factor": 1
+      },
+      {
+        "Nx": 510,
+        "dt_s": 1.5e-08,
+        "N": 1068,
+        "factor": 2
+      },
+      {
+        "Nx": 1020,
+        "dt_s": 7.5e-09,
+        "N": 2136,
+        "factor": 4
+      }
+    ],
+    "boundary": "unchanged reflecting ghost-cell rule; fixed reflection window precedes boundary returns, verify travel times before execution",
+    "representations": [
+      "binary point sample gamma",
+      "arithmetic gamma=1+(0.5-1)*right_material_fraction",
+      "reciprocal gamma=1/((1-fraction)/1+fraction/0.5)"
+    ],
+    "strong_simple_baselines": "fixed-grid binary with phase-aware labels; same-grid reciprocal mixture; finest-grid binary reference with measured extra cost; analytic solution evaluation only",
+    "observation": "same physical receiver via linear nodal interpolation, common coarse time samples; no fitted gain, delay, truth-driven window or noise inflation",
+    "discretization": "1D restriction of existing harmonic-face coefficient and gamma mass update; single-step check against y-invariant 2D operator before main simulations",
+    "primary_metrics": [
+      "relative reflected trace error versus exact analytic reference, separately by representation/grid/phase",
+      "shifted-minus-base wave error normalized by exact shifted-minus-base wave norm",
+      "elapsed time, grid steps and memory"
+    ],
+    "screening_gates": {
+      "finest_area_reflection_max_relative_error": 0.05,
+      "finest_area_shift_difference_relative_error": 0.1,
+      "coarse_area_shift_difference_relative_error": 0.2,
+      "coarse_area_worst_phase_reflection_improvement_over_binary_at_least": 0.2,
+      "threshold_status": "engineering screen, not instrument requirement or publication standard"
+    },
+    "decisions": {
+      "linear_area_pass": "retain only as candidate for later 2D validation; not proof of 2D inverse resolution",
+      "reciprocal_beats_linear": "inspect interface mass/flux consistency; do not automatically transfer arbitrary coefficient smoothing into inversion",
+      "all_coarse_models_fail_but_refined_binary_passes": "retain grid-defined baseline and quantify refinement cost; no neural necessity established",
+      "reference_or_operator_validation_fails": "inconclusive implementation test, preserve and count failures"
+    },
+    "budget": {
+      "main_1d_wave_solves": 18,
+      "homogeneous_1d_reference_solves": 3,
+      "short_2d_operator_checks": 1,
+      "total_physical_tasks_max": 22,
+      "wall_seconds_cap": 180,
+      "training_updates": 0,
+      "network_forwards": 0
+    },
+    "execution_requirements": "freeze code hash before any solve; count all attempts and short checks; no automatic changes to phases, windows or thresholds",
+    "expected_time_to_next_stage": {
+      "stage": "retain or reject arithmetic area-mixed coefficient for a later 2D candidate pipeline",
+      "implementation_minutes": [
+        15,
+        25
+      ],
+      "verification_and_report_minutes": [
+        15,
+        35
+      ],
+      "total_active_work_minutes": [
+        30,
+        60
+      ],
+      "if_implementation_discrepancy_minutes": [
+        60,
+        120
+      ],
+      "solver_estimate": "seconds to a few minutes for 1D; not measured yet",
+      "not_covered": "2D localization accuracy, external measurement, scientific novelty or publication-ready conclusions"
+    }
+  },
+  "status": "frozen_before_any_physical_task",
+  "input_sha256": {
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_analytic_interface_20261012.py": "daf741043675945dfa04e9dc0e8a2a66a176672fa3a7f0ebd8c43212f39b8597",
+    ".build\\evidence-route-review-20261012\\selected_minimal_experiment.json": "046fc67e5a6a2d58e0f0cc5f4dc7cbeff05f2c28bbc9e0b486211c7c9c555ed5",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\FiniteDifferencePyTorchConv.py": "ffa51af0896fa2ddc0ef8e705d4f88f3dc9cc61df96b780eef1ad25cac1fde9f",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\ellipse_area_fraction.py": "deb4f1a8064f2d3cf014ead46bd2a672f868a54ef7b437694e89eafbb8b51dc7",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\run_tx_design_value_20261012.py": "1685eef0132aab5bdc9812a4c55d8a0244c760ad7ab39e4c1465010fa4527be8"
+  },
+  "implementation": {
+    "main_dtype": "numpy float64",
+    "operator_check_dtype": "torch and numpy float32",
+    "float32_operator_max_abs_tolerance": 2e-06,
+    "homogeneous_reference_finest_relative_l2_max": 0.05,
+    "binary_interface_convention": "node x >= xi belongs to right material",
+    "gamma_ghosts": "ones, matching original padded material convention",
+    "sample": "output at (step+1)*dt, downsample native fine traces at factor-1::factor",
+    "reflection_window": "8e-6 <= common output time <= 12e-6",
+    "initial_state": "piecewise analytic sharp-interface field for all methods; residual initial difference between alias phases reported",
+    "performance_scope": "1D float64 benchmark; no GPU speed or 2D accuracy claim"
+  }
+}

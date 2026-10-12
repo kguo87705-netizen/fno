@@ -1,0 +1,462 @@
+{
+  "status": "completed",
+  "geometry_gate_pass": true,
+  "max_area_relative_error": 1.1983064934863873e-16,
+  "max_nested_fraction_abs": 7.971401316808624e-14,
+  "max_independent_quadrature_fraction_abs": 3.3543914174094525e-14,
+  "aliases_changed": 12,
+  "aliases_checked": 12,
+  "records": [
+    {
+      "center_index": 0,
+      "label": "base",
+      "geometry": {
+        "x": 0.038,
+        "y": 0.028,
+        "a": 0.006,
+        "b": 0.003
+      },
+      "refinement": [
+        {
+          "factor": 1,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 0.0
+        },
+        {
+          "factor": 3,
+          "area_relative_error": 0.0,
+          "nested_fraction_max_abs": 5.181965967437918e-14
+        },
+        {
+          "factor": 9,
+          "area_relative_error": 0.0,
+          "nested_fraction_max_abs": 4.418687638008123e-14
+        }
+      ],
+      "fraction_max_change_vs_base": 0.0,
+      "float32_material_changed_cells": 0,
+      "binary_changed_cells": 0
+    },
+    {
+      "center_index": 0,
+      "label": "x_-1",
+      "geometry": {
+        "x": 0.0379951695561409,
+        "y": 0.028,
+        "a": 0.006,
+        "b": 0.003
+      },
+      "refinement": [
+        {
+          "factor": 1,
+          "area_relative_error": 0.0,
+          "nested_fraction_max_abs": 0.0
+        },
+        {
+          "factor": 3,
+          "area_relative_error": 0.0,
+          "nested_fraction_max_abs": 3.530509218307998e-14
+        },
+        {
+          "factor": 9,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 4.418687638008123e-14
+        }
+      ],
+      "fraction_max_change_vs_base": 0.012317631840704113,
+      "float32_material_changed_cells": 90,
+      "binary_changed_cells": 0
+    },
+    {
+      "center_index": 0,
+      "label": "x_1",
+      "geometry": {
+        "x": 0.0380184153676033,
+        "y": 0.028,
+        "a": 0.006,
+        "b": 0.003
+      },
+      "refinement": [
+        {
+          "factor": 1,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 0.0
+        },
+        {
+          "factor": 3,
+          "area_relative_error": 0.0,
+          "nested_fraction_max_abs": 3.9745984281580604e-14
+        },
+        {
+          "factor": 9,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 4.529709940470639e-14
+        }
+      ],
+      "fraction_max_change_vs_base": 0.04695918738842253,
+      "float32_material_changed_cells": 91,
+      "binary_changed_cells": 0
+    },
+    {
+      "center_index": 0,
+      "label": "y_-1",
+      "geometry": {
+        "x": 0.038,
+        "y": 0.027992839938402177,
+        "a": 0.006,
+        "b": 0.003
+      },
+      "refinement": [
+        {
+          "factor": 1,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 0.0
+        },
+        {
+          "factor": 3,
+          "area_relative_error": 0.0,
+          "nested_fraction_max_abs": 3.8746783559417963e-14
+        },
+        {
+          "factor": 9,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 4.418687638008123e-14
+        }
+      ],
+      "fraction_max_change_vs_base": 0.018186556458471448,
+      "float32_material_changed_cells": 94,
+      "binary_changed_cells": 0
+    },
+    {
+      "center_index": 0,
+      "label": "y_1",
+      "geometry": {
+        "x": 0.038,
+        "y": 0.028001789575815204,
+        "a": 0.006,
+        "b": 0.003
+      },
+      "refinement": [
+        {
+          "factor": 1,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 0.0
+        },
+        {
+          "factor": 3,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 5.2208237732997986e-14
+        },
+        {
+          "factor": 9,
+          "area_relative_error": 0.0,
+          "nested_fraction_max_abs": 4.418687638008123e-14
+        }
+      ],
+      "fraction_max_change_vs_base": 0.004545522570616689,
+      "float32_material_changed_cells": 90,
+      "binary_changed_cells": 0
+    },
+    {
+      "center_index": 1,
+      "label": "base",
+      "geometry": {
+        "x": 0.05,
+        "y": 0.028,
+        "a": 0.006,
+        "b": 0.003
+      },
+      "refinement": [
+        {
+          "factor": 1,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 0.0
+        },
+        {
+          "factor": 3,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 3.530509218307998e-14
+        },
+        {
+          "factor": 9,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 4.873879078104437e-14
+        }
+      ],
+      "fraction_max_change_vs_base": 0.0,
+      "float32_material_changed_cells": 0,
+      "binary_changed_cells": 0
+    },
+    {
+      "center_index": 1,
+      "label": "x_-1",
+      "geometry": {
+        "x": 0.04998459726572037,
+        "y": 0.028,
+        "a": 0.006,
+        "b": 0.003
+      },
+      "refinement": [
+        {
+          "factor": 1,
+          "area_relative_error": 0.0,
+          "nested_fraction_max_abs": 0.0
+        },
+        {
+          "factor": 3,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 3.530509218307998e-14
+        },
+        {
+          "factor": 9,
+          "area_relative_error": 0.0,
+          "nested_fraction_max_abs": 4.418687638008123e-14
+        }
+      ],
+      "fraction_max_change_vs_base": 0.03927697241306982,
+      "float32_material_changed_cells": 92,
+      "binary_changed_cells": 0
+    },
+    {
+      "center_index": 1,
+      "label": "x_1",
+      "geometry": {
+        "x": 0.05001540392637253,
+        "y": 0.028,
+        "a": 0.006,
+        "b": 0.003
+      },
+      "refinement": [
+        {
+          "factor": 1,
+          "area_relative_error": 0.0,
+          "nested_fraction_max_abs": 0.0
+        },
+        {
+          "factor": 3,
+          "area_relative_error": 0.0,
+          "nested_fraction_max_abs": 3.530509218307998e-14
+        },
+        {
+          "factor": 9,
+          "area_relative_error": 0.0,
+          "nested_fraction_max_abs": 4.418687638008123e-14
+        }
+      ],
+      "fraction_max_change_vs_base": 0.039280012249938434,
+      "float32_material_changed_cells": 92,
+      "binary_changed_cells": 0
+    },
+    {
+      "center_index": 1,
+      "label": "y_-1",
+      "geometry": {
+        "x": 0.05,
+        "y": 0.027997049516439436,
+        "a": 0.006,
+        "b": 0.003
+      },
+      "refinement": [
+        {
+          "factor": 1,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 0.0
+        },
+        {
+          "factor": 3,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 3.530509218307998e-14
+        },
+        {
+          "factor": 9,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 4.851674617611934e-14
+        }
+      ],
+      "fraction_max_change_vs_base": 0.007494228243835499,
+      "float32_material_changed_cells": 94,
+      "binary_changed_cells": 0
+    },
+    {
+      "center_index": 1,
+      "label": "y_1",
+      "geometry": {
+        "x": 0.05,
+        "y": 0.02805132550597191,
+        "a": 0.006,
+        "b": 0.003
+      },
+      "refinement": [
+        {
+          "factor": 1,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 0.0
+        },
+        {
+          "factor": 3,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 3.530509218307998e-14
+        },
+        {
+          "factor": 9,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 4.618527782440651e-14
+        }
+      ],
+      "fraction_max_change_vs_base": 0.13036678516864775,
+      "float32_material_changed_cells": 98,
+      "binary_changed_cells": 0
+    },
+    {
+      "center_index": 2,
+      "label": "base",
+      "geometry": {
+        "x": 0.062,
+        "y": 0.028,
+        "a": 0.006,
+        "b": 0.003
+      },
+      "refinement": [
+        {
+          "factor": 1,
+          "area_relative_error": 0.0,
+          "nested_fraction_max_abs": 0.0
+        },
+        {
+          "factor": 3,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 5.362377208939506e-14
+        },
+        {
+          "factor": 9,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 7.971401316808624e-14
+        }
+      ],
+      "fraction_max_change_vs_base": 0.0,
+      "float32_material_changed_cells": 0,
+      "binary_changed_cells": 0
+    },
+    {
+      "center_index": 2,
+      "label": "x_-1",
+      "geometry": {
+        "x": 0.061981588804721835,
+        "y": 0.028,
+        "a": 0.006,
+        "b": 0.003
+      },
+      "refinement": [
+        {
+          "factor": 1,
+          "area_relative_error": 0.0,
+          "nested_fraction_max_abs": 0.0
+        },
+        {
+          "factor": 3,
+          "area_relative_error": 0.0,
+          "nested_fraction_max_abs": 5.3290705182007514e-14
+        },
+        {
+          "factor": 9,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 7.971401316808624e-14
+        }
+      ],
+      "fraction_max_change_vs_base": 0.04694854795932091,
+      "float32_material_changed_cells": 91,
+      "binary_changed_cells": 0
+    },
+    {
+      "center_index": 2,
+      "label": "x_1",
+      "geometry": {
+        "x": 0.062004831635951996,
+        "y": 0.028,
+        "a": 0.006,
+        "b": 0.003
+      },
+      "refinement": [
+        {
+          "factor": 1,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 0.0
+        },
+        {
+          "factor": 3,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 5.417888360170764e-14
+        },
+        {
+          "factor": 9,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 7.971401316808624e-14
+        }
+      ],
+      "fraction_max_change_vs_base": 0.012320671677590767,
+      "float32_material_changed_cells": 90,
+      "binary_changed_cells": 0
+    },
+    {
+      "center_index": 2,
+      "label": "y_-1",
+      "geometry": {
+        "x": 0.062,
+        "y": 0.027992838448286057,
+        "a": 0.006,
+        "b": 0.003
+      },
+      "refinement": [
+        {
+          "factor": 1,
+          "area_relative_error": 0.0,
+          "nested_fraction_max_abs": 0.0
+        },
+        {
+          "factor": 3,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 5.484501741648273e-14
+        },
+        {
+          "factor": 9,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 7.971401316808624e-14
+        }
+      ],
+      "fraction_max_change_vs_base": 0.018190341353418238,
+      "float32_material_changed_cells": 94,
+      "binary_changed_cells": 0
+    },
+    {
+      "center_index": 2,
+      "label": "y_1",
+      "geometry": {
+        "x": 0.062,
+        "y": 0.028001791065931318,
+        "a": 0.006,
+        "b": 0.003
+      },
+      "refinement": [
+        {
+          "factor": 1,
+          "area_relative_error": 0.0,
+          "nested_fraction_max_abs": 0.0
+        },
+        {
+          "factor": 3,
+          "area_relative_error": 0.0,
+          "nested_fraction_max_abs": 5.3512749786932545e-14
+        },
+        {
+          "factor": 9,
+          "area_relative_error": 1.1983064934863873e-16,
+          "nested_fraction_max_abs": 7.971401316808624e-14
+        }
+      ],
+      "fraction_max_change_vs_base": 0.00454930746554516,
+      "float32_material_changed_cells": 90,
+      "binary_changed_cells": 0
+    }
+  ],
+  "conclusion": "geometry representation checks only; solver-grid wave convergence remains untested"
+}

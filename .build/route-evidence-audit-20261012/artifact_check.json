@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checks": [
+    "JSON parsing",
+    "all six fixed MAEs rederived from saved estimates",
+    "geometry oracle independently recomputed",
+    "selected experiment remains planned_not_run"
+  ],
+  "report_sha256": "5f35dce0ffbc6964adc37a05567a1d1608acb1d6ec35b4c729b685cf64c964c2"
+}

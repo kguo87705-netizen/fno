@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "raw_waveform_hashes": true,
+  "raw_wave_to_saved_gain_dictionary_distance_max_abs": 8.003553375601768e-11,
+  "all_15_area_arrays_recomputed_max_abs": 0.0,
+  "new_physical_calls": 0,
+  "network_forwards": 0,
+  "training_updates": 0
+}

@@ -1,0 +1,95 @@
+{
+  "status": "planned_not_run",
+  "question": "Does replacing binary masks by analytic area fractions produce a nonzero small-position wave response consistent under one fixed threefold grid refinement?",
+  "interpretation": "canonical solver benchmark, changed smooth source rather than transplanting incompatible historical HDF5 forcing; two-level consistency screen, not demonstrated asymptotic convergence or real localization",
+  "domain_m": [
+    0.1,
+    0.05
+  ],
+  "c_m_s": 6000.0,
+  "rho": 2700.0,
+  "geometry": {
+    "x": 0.05,
+    "y": 0.028,
+    "a": 0.006,
+    "b": 0.003
+  },
+  "gamma_inside": 0.5,
+  "x_shift_m": 1.540392637252308e-05,
+  "representations": [
+    "original binary ellipse",
+    "gamma = 1 + (0.5 - 1) * analytic occupied area fraction"
+  ],
+  "grids": [
+    {
+      "Nx": 255,
+      "Ny": 127,
+      "dt": 3e-08,
+      "N": 2000
+    },
+    {
+      "Nx": 765,
+      "Ny": 381,
+      "dt": 1e-08,
+      "N": 6000
+    }
+  ],
+  "source": {
+    "center_m": [
+      0.045,
+      0.045
+    ],
+    "spatial_sigma_m": 0.001,
+    "force_amplitude": 1000000000000.0,
+    "force_formula": "amplitude*exp(-((x-xs)^2+(y-ys)^2)/(2*sigma^2))*(1-2*v^2)*exp(-v^2), v=pi*f0*(t-t0)",
+    "f0_hz": 500000.0,
+    "t0_s": 6e-06,
+    "sample_time": "force for step i sampled at i*dt; output at (i+1)*dt",
+    "units_scope": "canonical numerical source, no instrument amplitude calibration"
+  },
+  "receivers": {
+    "x_m": [
+      0.03,
+      0.035,
+      0.04,
+      0.045,
+      0.05,
+      0.055,
+      0.06,
+      0.065,
+      0.07
+    ],
+    "y_m": 0.045,
+    "operator": "bilinear interpolation of nodal displacement at identical physical coordinates; fine output sampled every third step"
+  },
+  "boundary": "unchanged FiniteDifference.forward ghost-cell reflection",
+  "storage": "stream receiver traces only, no full 4D field or force history on refined grid",
+  "preflight": "coarse 32-step streaming recorder must match existing forwardNSteps receiver extraction, both calls counted; fresh zero states each solve",
+  "primary_checks": {
+    "coarse_fine_base_wave_relative_l2_max": 0.05,
+    "coarse_fine_shift_difference_relative_l2_max": 0.2,
+    "difference_normalizer": "norm of refined shifted-minus-base trace; never normalize by base wave for this metric",
+    "no_fitted_time_alignment_or_gain": true,
+    "coarse_area_shift_response_must_be_nonzero": true,
+    "replay": "coarse area base bit equal"
+  },
+  "noise_or_training": "none; assess deterministic numerical response only",
+  "budget": {
+    "main_source_solves": 8,
+    "fresh_replay": 1,
+    "short_stream_validation_calls": 2,
+    "physical_calls_max": 11,
+    "wall_seconds_cap": 600,
+    "network_forwards": 0,
+    "training_updates": 0
+  },
+  "decision": "fail or unstable difference -> do not start continuous inverse experiment; pass -> evidence only for this step and benchmark, require further grids and observation-model validation before physical resolution claims",
+  "input_sha256": {
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\ellipse_area_fraction.py": "deb4f1a8064f2d3cf014ead46bd2a672f868a54ef7b437694e89eafbb8b51dc7",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\FiniteDifferencePyTorchConv.py": "ffa51af0896fa2ddc0ef8e705d4f88f3dc9cc61df96b780eef1ad25cac1fde9f",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\settings2D.csv": "4fb9e8fdb8fa2fb97502e605f31351601e115463fa1800913473699d9f4ee398",
+    ".build\\area-representation-20261012\\summary.json": "b7e44090e0864dea49fa4546352fb15e5ab10cb1ebe0bc24ed9f51bc9245fd54",
+    ".build\\geometry-rasterization-audit-20261012-r2\\summary.json": "07953188cc6b21b55fd65aabf6d3581a57468428a2cabb97cad0ebb54db3b2df"
+  },
+  "execution_guard": "freeze implementation hash and all generated source/receiver definitions before first physical solve; preserve failures and count retries"
+}

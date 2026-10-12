@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "json_parse": true,
+  "saved_array_shapes": true,
+  "note_numbers": true,
+  "navigation_link": true,
+  "native_obsidian_preview": false,
+  "report_sha256": "2d05cc8ae56f091c5e5ebcad8c7f76c8bde1e7f389c456dcc9ad50732fc13f7b",
+  "local_only": true
+}

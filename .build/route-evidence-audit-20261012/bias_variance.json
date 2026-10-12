@@ -1,0 +1,578 @@
+[
+  {
+    "geometry": "left_deep",
+    "gamma": 0.46,
+    "policy": "fixed_left",
+    "bias_squared": 8.985504365641389e-08,
+    "variance": 1.383747647964052e-09,
+    "mse": 9.123879130437796e-08
+  },
+  {
+    "geometry": "left_deep",
+    "gamma": 0.46,
+    "policy": "fixed_right",
+    "bias_squared": 6.074043073948149e-08,
+    "variance": 3.2080962570352784e-09,
+    "mse": 6.394852699651678e-08
+  },
+  {
+    "geometry": "left_deep",
+    "gamma": 0.46,
+    "policy": "physics_selected",
+    "bias_squared": 8.985504365641389e-08,
+    "variance": 1.383747647964052e-09,
+    "mse": 9.123879130437796e-08
+  },
+  {
+    "geometry": "left_deep",
+    "gamma": 0.46,
+    "policy": "full_four_source",
+    "bias_squared": 7.972442189327472e-08,
+    "variance": 8.426995588218826e-10,
+    "mse": 8.05671214520966e-08
+  },
+  {
+    "geometry": "left_deep",
+    "gamma": 0.5,
+    "policy": "fixed_left",
+    "bias_squared": 8.59279875856109e-08,
+    "variance": 1.4873387039574007e-09,
+    "mse": 8.74153262895683e-08
+  },
+  {
+    "geometry": "left_deep",
+    "gamma": 0.5,
+    "policy": "fixed_right",
+    "bias_squared": 4.657836916081264e-08,
+    "variance": 3.310638022223873e-09,
+    "mse": 4.988900718303651e-08
+  },
+  {
+    "geometry": "left_deep",
+    "gamma": 0.5,
+    "policy": "physics_selected",
+    "bias_squared": 8.59279875856109e-08,
+    "variance": 1.4873387039574007e-09,
+    "mse": 8.74153262895683e-08
+  },
+  {
+    "geometry": "left_deep",
+    "gamma": 0.5,
+    "policy": "full_four_source",
+    "bias_squared": 7.151773626654765e-08,
+    "variance": 1.2053513904389175e-09,
+    "mse": 7.272308765698655e-08
+  },
+  {
+    "geometry": "left_deep",
+    "gamma": 0.54,
+    "policy": "fixed_left",
+    "bias_squared": 7.921990234105177e-08,
+    "variance": 1.6513731628134802e-09,
+    "mse": 8.087127550386525e-08
+  },
+  {
+    "geometry": "left_deep",
+    "gamma": 0.54,
+    "policy": "fixed_right",
+    "bias_squared": 4.183717102633597e-08,
+    "variance": 4.110549640115588e-09,
+    "mse": 4.594772066645155e-08
+  },
+  {
+    "geometry": "left_deep",
+    "gamma": 0.54,
+    "policy": "physics_selected",
+    "bias_squared": 7.921990234105177e-08,
+    "variance": 1.6513731628134802e-09,
+    "mse": 8.087127550386525e-08
+  },
+  {
+    "geometry": "left_deep",
+    "gamma": 0.54,
+    "policy": "full_four_source",
+    "bias_squared": 6.524215313171867e-08,
+    "variance": 1.0009746949242078e-09,
+    "mse": 6.62431278266429e-08
+  },
+  {
+    "geometry": "right_deep",
+    "gamma": 0.46,
+    "policy": "fixed_left",
+    "bias_squared": 5.104770347208589e-08,
+    "variance": 2.5932766063282507e-09,
+    "mse": 5.3640980078414145e-08
+  },
+  {
+    "geometry": "right_deep",
+    "gamma": 0.46,
+    "policy": "fixed_right",
+    "bias_squared": 9.228806681673365e-08,
+    "variance": 1.6427258392220718e-09,
+    "mse": 9.393079265595572e-08
+  },
+  {
+    "geometry": "right_deep",
+    "gamma": 0.46,
+    "policy": "physics_selected",
+    "bias_squared": 9.228806681673365e-08,
+    "variance": 1.6427258392220718e-09,
+    "mse": 9.393079265595572e-08
+  },
+  {
+    "geometry": "right_deep",
+    "gamma": 0.46,
+    "policy": "full_four_source",
+    "bias_squared": 7.739407885643332e-08,
+    "variance": 8.723903954172669e-10,
+    "mse": 7.826646925185057e-08
+  },
+  {
+    "geometry": "right_deep",
+    "gamma": 0.5,
+    "policy": "fixed_left",
+    "bias_squared": 4.4457940355946664e-08,
+    "variance": 3.067437247147668e-09,
+    "mse": 4.752537760309434e-08
+  },
+  {
+    "geometry": "right_deep",
+    "gamma": 0.5,
+    "policy": "fixed_right",
+    "bias_squared": 8.649973302626644e-08,
+    "variance": 1.9242852471251577e-09,
+    "mse": 8.84240182733916e-08
+  },
+  {
+    "geometry": "right_deep",
+    "gamma": 0.5,
+    "policy": "physics_selected",
+    "bias_squared": 8.649973302626644e-08,
+    "variance": 1.9242852471251577e-09,
+    "mse": 8.84240182733916e-08
+  },
+  {
+    "geometry": "right_deep",
+    "gamma": 0.5,
+    "policy": "full_four_source",
+    "bias_squared": 7.082903947431826e-08,
+    "variance": 1.2948007050997616e-09,
+    "mse": 7.212384017941804e-08
+  },
+  {
+    "geometry": "right_deep",
+    "gamma": 0.54,
+    "policy": "fixed_left",
+    "bias_squared": 3.814647492759643e-08,
+    "variance": 3.794863027238438e-09,
+    "mse": 4.1941337954834867e-08
+  },
+  {
+    "geometry": "right_deep",
+    "gamma": 0.54,
+    "policy": "fixed_right",
+    "bias_squared": 8.251679170780314e-08,
+    "variance": 1.4999318345172713e-09,
+    "mse": 8.401672354232043e-08
+  },
+  {
+    "geometry": "right_deep",
+    "gamma": 0.54,
+    "policy": "physics_selected",
+    "bias_squared": 8.251679170780314e-08,
+    "variance": 1.4999318345172713e-09,
+    "mse": 8.401672354232043e-08
+  },
+  {
+    "geometry": "right_deep",
+    "gamma": 0.54,
+    "policy": "full_four_source",
+    "bias_squared": 6.539627546535304e-08,
+    "variance": 1.214634447828151e-09,
+    "mse": 6.661090991318118e-08
+  },
+  {
+    "geometry": "left_shallow",
+    "gamma": 0.46,
+    "policy": "fixed_left",
+    "bias_squared": 5.6656022434672687e-08,
+    "variance": 1.0927406154772237e-09,
+    "mse": 5.774876305014991e-08
+  },
+  {
+    "geometry": "left_shallow",
+    "gamma": 0.46,
+    "policy": "fixed_right",
+    "bias_squared": 5.1500566242464465e-08,
+    "variance": 2.4964753288065857e-09,
+    "mse": 5.399704157127105e-08
+  },
+  {
+    "geometry": "left_shallow",
+    "gamma": 0.46,
+    "policy": "physics_selected",
+    "bias_squared": 5.6656022434672687e-08,
+    "variance": 1.0927406154772237e-09,
+    "mse": 5.774876305014991e-08
+  },
+  {
+    "geometry": "left_shallow",
+    "gamma": 0.46,
+    "policy": "full_four_source",
+    "bias_squared": 5.4967208722666235e-08,
+    "variance": 7.190173299929348e-10,
+    "mse": 5.568622605265916e-08
+  },
+  {
+    "geometry": "left_shallow",
+    "gamma": 0.5,
+    "policy": "fixed_left",
+    "bias_squared": 5.900928943448541e-08,
+    "variance": 1.4713237707855197e-09,
+    "mse": 6.048061320527093e-08
+  },
+  {
+    "geometry": "left_shallow",
+    "gamma": 0.5,
+    "policy": "fixed_right",
+    "bias_squared": 5.166141471685535e-08,
+    "variance": 2.7314966391557346e-09,
+    "mse": 5.4392911356011075e-08
+  },
+  {
+    "geometry": "left_shallow",
+    "gamma": 0.5,
+    "policy": "physics_selected",
+    "bias_squared": 5.900928943448541e-08,
+    "variance": 1.4713237707855197e-09,
+    "mse": 6.048061320527093e-08
+  },
+  {
+    "geometry": "left_shallow",
+    "gamma": 0.5,
+    "policy": "full_four_source",
+    "bias_squared": 5.657979259658105e-08,
+    "variance": 1.0959750228536829e-09,
+    "mse": 5.767576761943474e-08
+  },
+  {
+    "geometry": "left_shallow",
+    "gamma": 0.54,
+    "policy": "fixed_left",
+    "bias_squared": 5.8092460751875376e-08,
+    "variance": 1.5925987084062383e-09,
+    "mse": 5.968505946028162e-08
+  },
+  {
+    "geometry": "left_shallow",
+    "gamma": 0.54,
+    "policy": "fixed_right",
+    "bias_squared": 5.657882072020534e-08,
+    "variance": 3.344227110553608e-09,
+    "mse": 5.992304783075895e-08
+  },
+  {
+    "geometry": "left_shallow",
+    "gamma": 0.54,
+    "policy": "physics_selected",
+    "bias_squared": 5.8092460751875376e-08,
+    "variance": 1.5925987084062383e-09,
+    "mse": 5.968505946028162e-08
+  },
+  {
+    "geometry": "left_shallow",
+    "gamma": 0.54,
+    "policy": "full_four_source",
+    "bias_squared": 5.759859819418611e-08,
+    "variance": 1.15680288367513e-09,
+    "mse": 5.875540107786123e-08
+  },
+  {
+    "geometry": "right_shallow",
+    "gamma": 0.46,
+    "policy": "fixed_left",
+    "bias_squared": 5.811530845848399e-08,
+    "variance": 2.9975402278704946e-09,
+    "mse": 6.111284868635448e-08
+  },
+  {
+    "geometry": "right_shallow",
+    "gamma": 0.46,
+    "policy": "fixed_right",
+    "bias_squared": 5.5583038603453087e-08,
+    "variance": 1.1484613668652598e-09,
+    "mse": 5.6731499970318345e-08
+  },
+  {
+    "geometry": "right_shallow",
+    "gamma": 0.46,
+    "policy": "physics_selected",
+    "bias_squared": 5.5583038603453087e-08,
+    "variance": 1.1484613668652598e-09,
+    "mse": 5.6731499970318345e-08
+  },
+  {
+    "geometry": "right_shallow",
+    "gamma": 0.46,
+    "policy": "full_four_source",
+    "bias_squared": 5.638154881729855e-08,
+    "variance": 9.41804334471986e-10,
+    "mse": 5.732335315177054e-08
+  },
+  {
+    "geometry": "right_shallow",
+    "gamma": 0.5,
+    "policy": "fixed_left",
+    "bias_squared": 5.274180554329407e-08,
+    "variance": 2.8804684375757666e-09,
+    "mse": 5.562227398086983e-08
+  },
+  {
+    "geometry": "right_shallow",
+    "gamma": 0.5,
+    "policy": "fixed_right",
+    "bias_squared": 5.716066933782995e-08,
+    "variance": 1.3878958938836912e-09,
+    "mse": 5.8548565231713626e-08
+  },
+  {
+    "geometry": "right_shallow",
+    "gamma": 0.5,
+    "policy": "physics_selected",
+    "bias_squared": 5.716066933782995e-08,
+    "variance": 1.3878958938836912e-09,
+    "mse": 5.8548565231713626e-08
+  },
+  {
+    "geometry": "right_shallow",
+    "gamma": 0.5,
+    "policy": "full_four_source",
+    "bias_squared": 5.5734360105269344e-08,
+    "variance": 9.382295173846246e-10,
+    "mse": 5.667258962265396e-08
+  },
+  {
+    "geometry": "right_shallow",
+    "gamma": 0.54,
+    "policy": "fixed_left",
+    "bias_squared": 4.719240591802619e-08,
+    "variance": 3.3995455862362094e-09,
+    "mse": 5.05919515042624e-08
+  },
+  {
+    "geometry": "right_shallow",
+    "gamma": 0.54,
+    "policy": "fixed_right",
+    "bias_squared": 5.725977487820051e-08,
+    "variance": 1.3382304530494786e-09,
+    "mse": 5.859800533124999e-08
+  },
+  {
+    "geometry": "right_shallow",
+    "gamma": 0.54,
+    "policy": "physics_selected",
+    "bias_squared": 5.725977487820051e-08,
+    "variance": 1.3382304530494786e-09,
+    "mse": 5.859800533124999e-08
+  },
+  {
+    "geometry": "right_shallow",
+    "gamma": 0.54,
+    "policy": "full_four_source",
+    "bias_squared": 5.3934963522177744e-08,
+    "variance": 8.960846297299253e-10,
+    "mse": 5.4831048151907675e-08
+  },
+  {
+    "geometry": "center_small",
+    "gamma": 0.46,
+    "policy": "fixed_left",
+    "bias_squared": 7.348194637830601e-08,
+    "variance": 2.3525610807498324e-09,
+    "mse": 7.583450745905583e-08
+  },
+  {
+    "geometry": "center_small",
+    "gamma": 0.46,
+    "policy": "fixed_right",
+    "bias_squared": 6.465419553296258e-08,
+    "variance": 2.5816821269098715e-09,
+    "mse": 6.723587765987244e-08
+  },
+  {
+    "geometry": "center_small",
+    "gamma": 0.46,
+    "policy": "physics_selected",
+    "bias_squared": 6.465419553296258e-08,
+    "variance": 2.5816821269098715e-09,
+    "mse": 6.723587765987244e-08
+  },
+  {
+    "geometry": "center_small",
+    "gamma": 0.46,
+    "policy": "full_four_source",
+    "bias_squared": 6.89278213926868e-08,
+    "variance": 1.2665799655369599e-09,
+    "mse": 7.019440135822373e-08
+  },
+  {
+    "geometry": "center_small",
+    "gamma": 0.5,
+    "policy": "fixed_left",
+    "bias_squared": 6.360809848535081e-08,
+    "variance": 2.580895662678418e-09,
+    "mse": 6.618899414802923e-08
+  },
+  {
+    "geometry": "center_small",
+    "gamma": 0.5,
+    "policy": "fixed_right",
+    "bias_squared": 5.967749623134358e-08,
+    "variance": 3.0549657866971405e-09,
+    "mse": 6.273246201804071e-08
+  },
+  {
+    "geometry": "center_small",
+    "gamma": 0.5,
+    "policy": "physics_selected",
+    "bias_squared": 5.967749623134358e-08,
+    "variance": 3.0549657866971405e-09,
+    "mse": 6.273246201804071e-08
+  },
+  {
+    "geometry": "center_small",
+    "gamma": 0.5,
+    "policy": "full_four_source",
+    "bias_squared": 6.159569504663591e-08,
+    "variance": 1.4875596791450183e-09,
+    "mse": 6.308325472578091e-08
+  },
+  {
+    "geometry": "center_small",
+    "gamma": 0.54,
+    "policy": "fixed_left",
+    "bias_squared": 6.06226483202296e-08,
+    "variance": 2.791316893950883e-09,
+    "mse": 6.341396521418048e-08
+  },
+  {
+    "geometry": "center_small",
+    "gamma": 0.54,
+    "policy": "fixed_right",
+    "bias_squared": 6.172619474617187e-08,
+    "variance": 2.760803793622315e-09,
+    "mse": 6.448699853979419e-08
+  },
+  {
+    "geometry": "center_small",
+    "gamma": 0.54,
+    "policy": "physics_selected",
+    "bias_squared": 6.172619474617187e-08,
+    "variance": 2.760803793622315e-09,
+    "mse": 6.448699853979419e-08
+  },
+  {
+    "geometry": "center_small",
+    "gamma": 0.54,
+    "policy": "full_four_source",
+    "bias_squared": 6.118209320730285e-08,
+    "variance": 1.4488836505978797e-09,
+    "mse": 6.26309768579007e-08
+  },
+  {
+    "geometry": "center_large",
+    "gamma": 0.46,
+    "policy": "fixed_left",
+    "bias_squared": 6.419385612183638e-08,
+    "variance": 1.7022167552042568e-09,
+    "mse": 6.589607287704063e-08
+  },
+  {
+    "geometry": "center_large",
+    "gamma": 0.46,
+    "policy": "fixed_right",
+    "bias_squared": 6.460168621567314e-08,
+    "variance": 1.6263442035415017e-09,
+    "mse": 6.622803041921466e-08
+  },
+  {
+    "geometry": "center_large",
+    "gamma": 0.46,
+    "policy": "physics_selected",
+    "bias_squared": 6.460168621567314e-08,
+    "variance": 1.6263442035415017e-09,
+    "mse": 6.622803041921466e-08
+  },
+  {
+    "geometry": "center_large",
+    "gamma": 0.46,
+    "policy": "full_four_source",
+    "bias_squared": 6.439904382996978e-08,
+    "variance": 8.338874084893548e-10,
+    "mse": 6.523293123845914e-08
+  },
+  {
+    "geometry": "center_large",
+    "gamma": 0.5,
+    "policy": "fixed_left",
+    "bias_squared": 5.978819765753753e-08,
+    "variance": 1.7574703586496013e-09,
+    "mse": 6.154566801618714e-08
+  },
+  {
+    "geometry": "center_large",
+    "gamma": 0.5,
+    "policy": "fixed_right",
+    "bias_squared": 5.591817175605586e-08,
+    "variance": 1.4048816747295832e-09,
+    "mse": 5.732305343078545e-08
+  },
+  {
+    "geometry": "center_large",
+    "gamma": 0.5,
+    "policy": "physics_selected",
+    "bias_squared": 5.591817175605586e-08,
+    "variance": 1.4048816747295832e-09,
+    "mse": 5.732305343078545e-08
+  },
+  {
+    "geometry": "center_large",
+    "gamma": 0.5,
+    "policy": "full_four_source",
+    "bias_squared": 5.7822229569090617e-08,
+    "variance": 6.353504593462527e-10,
+    "mse": 5.845758002843686e-08
+  },
+  {
+    "geometry": "center_large",
+    "gamma": 0.54,
+    "policy": "fixed_left",
+    "bias_squared": 4.959889774408971e-08,
+    "variance": 2.3767044159068135e-09,
+    "mse": 5.1975602159996524e-08
+  },
+  {
+    "geometry": "center_large",
+    "gamma": 0.54,
+    "policy": "fixed_right",
+    "bias_squared": 4.751940000264195e-08,
+    "variance": 1.9346579089316508e-09,
+    "mse": 4.945405791157359e-08
+  },
+  {
+    "geometry": "center_large",
+    "gamma": 0.54,
+    "policy": "physics_selected",
+    "bias_squared": 4.751940000264195e-08,
+    "variance": 1.9346579089316508e-09,
+    "mse": 4.945405791157359e-08
+  },
+  {
+    "geometry": "center_large",
+    "gamma": 0.54,
+    "policy": "full_four_source",
+    "bias_squared": 4.8545339293279667e-08,
+    "variance": 1.1618448826977652e-09,
+    "mse": 4.9707184175977436e-08
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "status": "exploratory_reanalysis_before_calculation",
+  "input_sha256": {
+    ".build\\tx-design-value-20261012\\protocol.json": "460f52716c349f8a991d2d09f2855039f35c30f3e0cc8d735341ca72add84812",
+    ".build\\tx-design-value-20261012\\data_manifest.json": "97318938dc295c172ef7e32b1c395caaae1db0acf8a09328bd81de6621c3c9f4",
+    ".build\\tx-design-value-20261012\\parameter_estimates.npz": "2b9cd6865e8e1d7793bfd11ffe607a6e00679f1e2bb9a4cb46d092188540acc4",
+    ".build\\tx-design-value-20261012\\summary.json": "741d97bcebb466c43c5852aa495f7fe9c0ece03913eb5e8e7adb1dea5195459c",
+    "Research_Direction\\Author_Baseline_Singh_Zenodo14616677\\audit_route_evidence_20261012.py": "268410f8d725c26ad639c63f99c071000a0a90a7c248ead2b47fe94e50199a94"
+  },
+  "comparisons": "all six fixed two-source pairs; original sensitivity policy; noiseless interpolation projection; bias/variance; truth-informed oracle ceiling",
+  "primary_reanalysis_noise_fraction": 0.01,
+  "physical_calls": 0,
+  "network_forwards": 0,
+  "training_updates": 0,
+  "disclosure": "Retrospective development-set audit. Best pair and oracle selected using evaluation labels are not deployable or independent test results."
+}
