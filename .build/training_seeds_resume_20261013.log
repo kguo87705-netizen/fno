@@ -1,0 +1,287 @@
+RESUME_SEED 2
+Number of sensors: 24
+1
+INITIAL {"method": "transfer", "case": 1, "lr": 0.0005, "seconds": 15.212342499999977}
+Epoch: 0/4		Cost function: 3.2409982E-12		MSE: 4.0722117E-03		Elapsed time: 2.479143
+Epoch: 2/4		Cost function: 1.4734353E-12		MSE: 3.6438205E-04		Elapsed time: 1.999717
+Epoch: 4/4		Cost function: 1.4752377E-12		MSE: 3.1942601E-04		Elapsed time: 1.997923
+Total elapsed time: 10.451009
+FINAL {"method": "transfer", "case": 1, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.0006539030845431242, "initial_mse": 0.008336303063234135, "fit_seconds": 10.451056700000208, "initial_ready_seconds": 15.212342499999977, "post5_forward_seconds": 0.003238199999941571, "post5_mse": 0.0005242785681888194, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+2
+INITIAL {"method": "transfer", "case": 2, "lr": 0.0005, "seconds": 12.785337199999958}
+Epoch: 0/4		Cost function: 3.2600669E-12		MSE: 3.4191506E-03		Elapsed time: 2.053671
+Epoch: 2/4		Cost function: 2.7362583E-12		MSE: 2.4455553E-03		Elapsed time: 1.997523
+Epoch: 4/4		Cost function: 2.2072645E-12		MSE: 1.6472468E-03		Elapsed time: 2.004137
+Total elapsed time: 10.038582
+FINAL {"method": "transfer", "case": 2, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.00337211054283725, "initial_mse": 0.006999408919374147, "fit_seconds": 10.03862960000015, "initial_ready_seconds": 12.785337199999958, "post5_forward_seconds": 0.0026816999998118263, "post5_mse": 0.0030652240680003225, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+3
+INITIAL {"method": "transfer", "case": 3, "lr": 0.0005, "seconds": 12.825579199999993}
+Epoch: 0/4		Cost function: 7.1736202E-12		MSE: 1.7332975E-02		Elapsed time: 2.054050
+Epoch: 2/4		Cost function: 5.8520719E-12		MSE: 1.6496157E-02		Elapsed time: 2.000733
+Epoch: 4/4		Cost function: 5.5362646E-12		MSE: 1.5134464E-02		Elapsed time: 2.291318
+Total elapsed time: 10.524630
+FINAL {"method": "transfer", "case": 3, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.030982053665423864, "initial_mse": 0.0354826607657274, "fit_seconds": 10.52467949999982, "initial_ready_seconds": 12.825579199999993, "post5_forward_seconds": 0.0027266999995845254, "post5_mse": 0.02893753220931909, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+4
+INITIAL {"method": "transfer", "case": 4, "lr": 0.0005, "seconds": 14.1645053000002}
+Epoch: 0/4		Cost function: 7.0393509E-12		MSE: 1.5985629E-02		Elapsed time: 2.037358
+Epoch: 2/4		Cost function: 5.2025541E-12		MSE: 1.2049259E-02		Elapsed time: 1.979601
+Epoch: 4/4		Cost function: 4.6114727E-12		MSE: 1.1270608E-02		Elapsed time: 1.996756
+Total elapsed time: 9.966312
+FINAL {"method": "transfer", "case": 4, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.023072277939438494, "initial_mse": 0.03272448403856182, "fit_seconds": 9.966361799999959, "initial_ready_seconds": 14.1645053000002, "post5_forward_seconds": 0.0027986000000055355, "post5_mse": 0.022194204746285334, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+1
+INITIAL {"method": "transfer", "case": 1, "lr": 0.0005, "seconds": 12.399712300000374}
+Epoch: 0/4		Cost function: 1.9396984E-12		MSE: 1.6501793E-03		Elapsed time: 2.019721
+Epoch: 2/4		Cost function: 1.5046644E-12		MSE: 3.6057440E-04		Elapsed time: 1.978901
+Epoch: 4/4		Cost function: 1.4701571E-12		MSE: 3.4384243E-04		Elapsed time: 1.987146
+Total elapsed time: 9.961876
+FINAL {"method": "transfer", "case": 1, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.0007038864603299074, "initial_mse": 0.0033781135249839724, "fit_seconds": 9.961922699999832, "initial_ready_seconds": 12.399712300000374, "post5_forward_seconds": 0.0026982999997926527, "post5_mse": 0.0006426513237935766, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+2
+INITIAL {"method": "transfer", "case": 2, "lr": 0.0005, "seconds": 12.476868000000195}
+Epoch: 0/4		Cost function: 4.0678008E-12		MSE: 4.2287284E-03		Elapsed time: 2.048937
+Epoch: 2/4		Cost function: 2.4850356E-12		MSE: 2.6090529E-03		Elapsed time: 2.032468
+Epoch: 4/4		Cost function: 2.3204949E-12		MSE: 1.1735657E-03		Elapsed time: 2.015456
+Total elapsed time: 10.090130
+FINAL {"method": "transfer", "case": 2, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.0024024291398454696, "initial_mse": 0.008656711063760425, "fit_seconds": 10.090177500000209, "initial_ready_seconds": 12.476868000000195, "post5_forward_seconds": 0.0027097000001958804, "post5_mse": 0.002060688160370651, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+3
+INITIAL {"method": "transfer", "case": 3, "lr": 0.0005, "seconds": 12.485263699999905}
+Epoch: 0/4		Cost function: 6.8336855E-12		MSE: 1.5192711E-02		Elapsed time: 2.011474
+Epoch: 2/4		Cost function: 5.5101995E-12		MSE: 1.5391547E-02		Elapsed time: 1.995277
+Epoch: 4/4		Cost function: 4.9934744E-12		MSE: 1.4234084E-02		Elapsed time: 1.983248
+Total elapsed time: 9.977778
+FINAL {"method": "transfer", "case": 3, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.029138865855105806, "initial_mse": 0.031101289628543527, "fit_seconds": 9.977825699999812, "initial_ready_seconds": 12.485263699999905, "post5_forward_seconds": 0.0029773999999633816, "post5_mse": 0.028178823970647717, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+4
+INITIAL {"method": "transfer", "case": 4, "lr": 0.0005, "seconds": 12.314647200000309}
+Epoch: 0/4		Cost function: 5.5328008E-12		MSE: 1.3696104E-02		Elapsed time: 2.015756
+Epoch: 2/4		Cost function: 4.5807225E-12		MSE: 1.0660581E-02		Elapsed time: 1.970962
+Epoch: 4/4		Cost function: 4.1273807E-12		MSE: 9.4028441E-03		Elapsed time: 1.964019
+Total elapsed time: 9.873365
+FINAL {"method": "transfer", "case": 4, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.019248742055902185, "initial_mse": 0.028037560743821875, "fit_seconds": 9.873410400000012, "initial_ready_seconds": 12.314647200000309, "post5_forward_seconds": 0.002706899999793677, "post5_mse": 0.018882893744427694, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+PAIRED_FINISHED 186.97760558128357
+RESUME_SEED 3
+TRAIN_TRACE {"group": "control", "epoch": 1, "validation": 0.008517195470631123, "training": 0.009323390200734138}
+Epoch: 0/99	Training Cost: 9.323390E-03	 Validation Cost: 8.517195E-03	Elapsed time: 0.540436 	 Input per sec: 37.007150
+TRAIN_TRACE {"group": "control", "epoch": 11, "validation": 0.005441214889287949, "training": 0.004752371925860643}
+Epoch: 10/99	Training Cost: 4.752372E-03	 Validation Cost: 5.441215E-03	Elapsed time: 2.062146 	 Input per sec: 9.698632
+TRAIN_TRACE {"group": "control", "epoch": 21, "validation": 0.005018732510507107, "training": 0.00349804712459445}
+Epoch: 20/99	Training Cost: 3.498047E-03	 Validation Cost: 5.018733E-03	Elapsed time: 2.080361 	 Input per sec: 9.613717
+TRAIN_TRACE {"group": "control", "epoch": 31, "validation": 0.00454131281003356, "training": 0.0027001346461474895}
+Epoch: 30/99	Training Cost: 2.700135E-03	 Validation Cost: 4.541313E-03	Elapsed time: 2.071931 	 Input per sec: 9.652832
+TRAIN_TRACE {"group": "control", "epoch": 41, "validation": 0.0052333129569888115, "training": 0.0019075146410614252}
+Epoch: 40/99	Training Cost: 1.907515E-03	 Validation Cost: 5.233313E-03	Elapsed time: 2.048220 	 Input per sec: 9.764578
+TRAIN_TRACE {"group": "control", "epoch": 51, "validation": 0.004745644051581621, "training": 0.0016320428112521768}
+Epoch: 50/99	Training Cost: 1.632043E-03	 Validation Cost: 4.745644E-03	Elapsed time: 2.053092 	 Input per sec: 9.741406
+TRAIN_TRACE {"group": "control", "epoch": 61, "validation": 0.004914140794426203, "training": 0.0013254955410957336}
+Epoch: 60/99	Training Cost: 1.325496E-03	 Validation Cost: 4.914141E-03	Elapsed time: 2.050267 	 Input per sec: 9.754829
+TRAIN_TRACE {"group": "control", "epoch": 71, "validation": 0.005461472552269697, "training": 0.0010699364356696606}
+Epoch: 70/99	Training Cost: 1.069936E-03	 Validation Cost: 5.461473E-03	Elapsed time: 2.046314 	 Input per sec: 9.773672
+TRAIN_TRACE {"group": "control", "epoch": 81, "validation": 0.004379891324788332, "training": 0.001044750795699656}
+Epoch: 80/99	Training Cost: 1.044751E-03	 Validation Cost: 4.379891E-03	Elapsed time: 2.044119 	 Input per sec: 9.784164
+TRAIN_TRACE {"group": "control", "epoch": 91, "validation": 0.004780659452080727, "training": 0.00085805868729949}
+Epoch: 90/99	Training Cost: 8.580587E-04	 Validation Cost: 4.780659E-03	Elapsed time: 2.040423 	 Input per sec: 9.801888
+TRAIN_TRACE {"group": "control", "epoch": 100, "validation": 0.004500397946685553, "training": 0.0008043241687119007}
+TRAIN_FINISHED {"group": "control", "seconds": 24.486317199999576, "epochs": 100, "training_loss": 0.0008043241687119007, "validation_loss": 0.004500397946685553, "convergence": {"last10_mean": 0.0047301406040787695, "previous10_mean": 0.004691572906449437, "relative_change": 0.008220632695766934, "last10_cv": 0.05764165234699457, "late_plateau": true}}
+TRAIN_TRACE {"group": "experiment", "epoch": 1, "validation": 0.004487663973122835, "training": 0.006983691826462746}
+Epoch: 0/99	Training Cost: 6.983692E-03	 Validation Cost: 4.487664E-03	Elapsed time: 0.208221 	 Input per sec: 96.051653
+TRAIN_TRACE {"group": "experiment", "epoch": 11, "validation": 0.003497770754620433, "training": 0.003556211479008198}
+Epoch: 10/99	Training Cost: 3.556211E-03	 Validation Cost: 3.497771E-03	Elapsed time: 2.049164 	 Input per sec: 9.760079
+TRAIN_TRACE {"group": "experiment", "epoch": 21, "validation": 0.0051340279169380665, "training": 0.002650252776220441}
+Epoch: 20/99	Training Cost: 2.650253E-03	 Validation Cost: 5.134028E-03	Elapsed time: 2.039034 	 Input per sec: 9.808565
+TRAIN_TRACE {"group": "experiment", "epoch": 31, "validation": 0.0029068863950669765, "training": 0.002070024376735091}
+Epoch: 30/99	Training Cost: 2.070024E-03	 Validation Cost: 2.906886E-03	Elapsed time: 2.040668 	 Input per sec: 9.800714
+TRAIN_TRACE {"group": "experiment", "epoch": 41, "validation": 0.0029822634533047676, "training": 0.0016920616617426276}
+Epoch: 40/99	Training Cost: 1.692062E-03	 Validation Cost: 2.982263E-03	Elapsed time: 2.041130 	 Input per sec: 9.798494
+TRAIN_TRACE {"group": "experiment", "epoch": 51, "validation": 0.0028337358962744474, "training": 0.0015267902053892612}
+Epoch: 50/99	Training Cost: 1.526790E-03	 Validation Cost: 2.833736E-03	Elapsed time: 2.043462 	 Input per sec: 9.787312
+TRAIN_TRACE {"group": "experiment", "epoch": 61, "validation": 0.002797414781525731, "training": 0.0011065918952226639}
+Epoch: 60/99	Training Cost: 1.106592E-03	 Validation Cost: 2.797415E-03	Elapsed time: 2.038680 	 Input per sec: 9.810271
+TRAIN_TRACE {"group": "experiment", "epoch": 71, "validation": 0.002741148928180337, "training": 0.0010691288625821471}
+Epoch: 70/99	Training Cost: 1.069129E-03	 Validation Cost: 2.741149E-03	Elapsed time: 2.042879 	 Input per sec: 9.790103
+TRAIN_TRACE {"group": "experiment", "epoch": 81, "validation": 0.0026143596041947603, "training": 0.0009087083162739873}
+Epoch: 80/99	Training Cost: 9.087083E-04	 Validation Cost: 2.614360E-03	Elapsed time: 2.040319 	 Input per sec: 9.802388
+TRAIN_TRACE {"group": "experiment", "epoch": 91, "validation": 0.0028144782409071922, "training": 0.000783644849434495}
+Epoch: 90/99	Training Cost: 7.836448E-04	 Validation Cost: 2.814478E-03	Elapsed time: 2.038177 	 Input per sec: 9.812690
+TRAIN_TRACE {"group": "experiment", "epoch": 100, "validation": 0.00262611941434443, "training": 0.0007337292772717774}
+TRAIN_FINISHED {"group": "experiment", "seconds": 22.330815799999982, "epochs": 100, "training_loss": 0.0007337292772717774, "validation_loss": 0.00262611941434443, "convergence": {"last10_mean": 0.0027467707637697457, "previous10_mean": 0.0027103910222649576, "relative_change": 0.01342232216899359, "last10_cv": 0.03828108287856964, "late_plateau": true}}
+Number of sensors: 24
+1
+INITIAL {"method": "transfer", "case": 1, "lr": 0.0005, "seconds": 12.736765900000137}
+Epoch: 0/4		Cost function: 4.6061002E-12		MSE: 5.9261830E-03		Elapsed time: 2.985680
+Epoch: 2/4		Cost function: 1.6446719E-12		MSE: 9.4814296E-04		Elapsed time: 2.531047
+Epoch: 4/4		Cost function: 1.4958557E-12		MSE: 4.6360111E-04		Elapsed time: 2.568276
+Total elapsed time: 13.168431
+FINAL {"method": "transfer", "case": 1, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.0009490466897134725, "initial_mse": 0.01213160245847302, "fit_seconds": 13.168465499999911, "initial_ready_seconds": 12.736765900000137, "post5_forward_seconds": 0.0024738000001889304, "post5_mse": 0.0008072482817436208, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+2
+INITIAL {"method": "transfer", "case": 2, "lr": 0.0005, "seconds": 12.43352350000032}
+Epoch: 0/4		Cost function: 3.3144037E-12		MSE: 3.3087898E-03		Elapsed time: 2.027989
+Epoch: 2/4		Cost function: 2.6743167E-12		MSE: 2.0903246E-03		Elapsed time: 1.986530
+Epoch: 4/4		Cost function: 2.1774798E-12		MSE: 1.2874084E-03		Elapsed time: 1.989557
+Total elapsed time: 10.003936
+FINAL {"method": "transfer", "case": 2, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.0026354786778772198, "initial_mse": 0.006773486977297029, "fit_seconds": 10.003985400000147, "initial_ready_seconds": 12.43352350000032, "post5_forward_seconds": 0.0032796000000416825, "post5_mse": 0.0027388496414046826, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+3
+INITIAL {"method": "transfer", "case": 3, "lr": 0.0005, "seconds": 12.517700600000353}
+Epoch: 0/4		Cost function: 8.2754177E-12		MSE: 1.9949969E-02		Elapsed time: 2.015158
+Epoch: 2/4		Cost function: 5.7645078E-12		MSE: 1.4227801E-02		Elapsed time: 1.991675
+Epoch: 4/4		Cost function: 5.3085821E-12		MSE: 1.2137996E-02		Elapsed time: 1.987767
+Total elapsed time: 10.005826
+FINAL {"method": "transfer", "case": 3, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.02484792645356477, "initial_mse": 0.04083996851824793, "fit_seconds": 10.005872799999906, "initial_ready_seconds": 12.517700600000353, "post5_forward_seconds": 0.002724700000271696, "post5_mse": 0.024830060618508083, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+4
+INITIAL {"method": "transfer", "case": 4, "lr": 0.0005, "seconds": 12.393760799999654}
+Epoch: 0/4		Cost function: 7.3013262E-12		MSE: 1.7663544E-02		Elapsed time: 2.028315
+Epoch: 2/4		Cost function: 5.5755851E-12		MSE: 1.1038095E-02		Elapsed time: 2.065273
+Epoch: 4/4		Cost function: 4.3519285E-12		MSE: 9.4774412E-03		Elapsed time: 1.989802
+Total elapsed time: 10.053261
+FINAL {"method": "transfer", "case": 4, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.01940145142026508, "initial_mse": 0.03615937690267657, "fit_seconds": 10.053339499999765, "initial_ready_seconds": 12.393760799999654, "post5_forward_seconds": 0.002732899999955407, "post5_mse": 0.017126045837875633, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+1
+INITIAL {"method": "transfer", "case": 1, "lr": 0.0005, "seconds": 12.228501399999914}
+Epoch: 0/4		Cost function: 2.2879795E-12		MSE: 2.5077842E-03		Elapsed time: 2.017033
+Epoch: 2/4		Cost function: 1.5153612E-12		MSE: 4.6018205E-04		Elapsed time: 1.987671
+Epoch: 4/4		Cost function: 1.4840932E-12		MSE: 3.6743583E-04		Elapsed time: 2.089321
+Total elapsed time: 10.060079
+FINAL {"method": "transfer", "case": 1, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.0007521849994217107, "initial_mse": 0.005133733156552855, "fit_seconds": 10.060124199999791, "initial_ready_seconds": 12.228501399999914, "post5_forward_seconds": 0.0026619999998729327, "post5_mse": 0.0006248313575797032, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+2
+INITIAL {"method": "transfer", "case": 2, "lr": 0.0005, "seconds": 13.653395399999681}
+Epoch: 0/4		Cost function: 3.9480580E-12		MSE: 6.0306666E-03		Elapsed time: 2.359070
+Epoch: 2/4		Cost function: 3.7664880E-12		MSE: 3.7334587E-03		Elapsed time: 2.289170
+Epoch: 4/4		Cost function: 2.2907928E-12		MSE: 1.4384491E-03		Elapsed time: 2.516921
+Total elapsed time: 11.859439
+FINAL {"method": "transfer", "case": 2, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.002944676670308709, "initial_mse": 0.012345492017165538, "fit_seconds": 11.85950099999991, "initial_ready_seconds": 13.653395399999681, "post5_forward_seconds": 0.0036431999997148523, "post5_mse": 0.0027657480191283623, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+3
+INITIAL {"method": "transfer", "case": 3, "lr": 0.0005, "seconds": 13.78854629999978}
+Epoch: 0/4		Cost function: 6.1766490E-12		MSE: 1.7168067E-02		Elapsed time: 2.617677
+Epoch: 2/4		Cost function: 5.1189799E-12		MSE: 1.3281205E-02		Elapsed time: 2.365961
+Epoch: 4/4		Cost function: 4.5915043E-12		MSE: 1.2686685E-02		Elapsed time: 2.160593
+Total elapsed time: 11.929678
+FINAL {"method": "transfer", "case": 3, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.025971155002456843, "initial_mse": 0.03514508029539666, "fit_seconds": 11.929731499999889, "initial_ready_seconds": 13.78854629999978, "post5_forward_seconds": 0.0031386999999085674, "post5_mse": 0.025115400331434775, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+4
+INITIAL {"method": "transfer", "case": 4, "lr": 0.0005, "seconds": 13.388126499999998}
+Epoch: 0/4		Cost function: 6.6543073E-12		MSE: 1.7339567E-02		Elapsed time: 2.031052
+Epoch: 2/4		Cost function: 5.0624713E-12		MSE: 1.2149390E-02		Elapsed time: 2.014230
+Epoch: 4/4		Cost function: 4.5813145E-12		MSE: 1.1120682E-02		Elapsed time: 1.986547
+Total elapsed time: 10.056147
+FINAL {"method": "transfer", "case": 4, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.02276536188217204, "initial_mse": 0.03549616186374095, "fit_seconds": 10.056187500000306, "initial_ready_seconds": 13.388126499999998, "post5_forward_seconds": 0.002520600000025297, "post5_mse": 0.021894573667107658, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+PAIRED_FINISHED 238.74666357040405
+RESUME_SEED 4
+TRAIN_TRACE {"group": "control", "epoch": 1, "validation": 0.008433558978140354, "training": 0.010028761811554432}
+Epoch: 0/99	Training Cost: 1.002876E-02	 Validation Cost: 8.433559E-03	Elapsed time: 0.482840 	 Input per sec: 41.421555
+TRAIN_TRACE {"group": "control", "epoch": 11, "validation": 0.00497015006840229, "training": 0.004145849030464888}
+Epoch: 10/99	Training Cost: 4.145849E-03	 Validation Cost: 4.970150E-03	Elapsed time: 2.039229 	 Input per sec: 9.807628
+TRAIN_TRACE {"group": "control", "epoch": 21, "validation": 0.00425186799839139, "training": 0.003319330047816038}
+Epoch: 20/99	Training Cost: 3.319330E-03	 Validation Cost: 4.251868E-03	Elapsed time: 2.037202 	 Input per sec: 9.817385
+TRAIN_TRACE {"group": "control", "epoch": 31, "validation": 0.004123637918382883, "training": 0.0024201939813792706}
+Epoch: 30/99	Training Cost: 2.420194E-03	 Validation Cost: 4.123638E-03	Elapsed time: 2.043665 	 Input per sec: 9.786337
+TRAIN_TRACE {"group": "control", "epoch": 41, "validation": 0.004616577178239822, "training": 0.0018085705814883113}
+Epoch: 40/99	Training Cost: 1.808571E-03	 Validation Cost: 4.616577E-03	Elapsed time: 2.058189 	 Input per sec: 9.717281
+TRAIN_TRACE {"group": "control", "epoch": 51, "validation": 0.004537101835012436, "training": 0.0013695205561816692}
+Epoch: 50/99	Training Cost: 1.369521E-03	 Validation Cost: 4.537102E-03	Elapsed time: 2.053216 	 Input per sec: 9.740816
+TRAIN_TRACE {"group": "control", "epoch": 61, "validation": 0.004114639479666948, "training": 0.0010299213463440537}
+Epoch: 60/99	Training Cost: 1.029921E-03	 Validation Cost: 4.114639E-03	Elapsed time: 2.040679 	 Input per sec: 9.800661
+TRAIN_TRACE {"group": "control", "epoch": 71, "validation": 0.004333460237830877, "training": 0.0009095548302866518}
+Epoch: 70/99	Training Cost: 9.095548E-04	 Validation Cost: 4.333460E-03	Elapsed time: 2.037059 	 Input per sec: 9.818077
+TRAIN_TRACE {"group": "control", "epoch": 81, "validation": 0.0043816035613417625, "training": 0.0008463785634376109}
+Epoch: 80/99	Training Cost: 8.463786E-04	 Validation Cost: 4.381604E-03	Elapsed time: 2.050104 	 Input per sec: 9.755605
+TRAIN_TRACE {"group": "control", "epoch": 91, "validation": 0.004214796703308821, "training": 0.0006805822486057878}
+Epoch: 90/99	Training Cost: 6.805822E-04	 Validation Cost: 4.214797E-03	Elapsed time: 2.037899 	 Input per sec: 9.814031
+TRAIN_TRACE {"group": "control", "epoch": 100, "validation": 0.004282377660274506, "training": 0.0005743721267208457}
+TRAIN_FINISHED {"group": "control", "seconds": 24.75935890000028, "epochs": 100, "training_loss": 0.0005743721267208457, "validation_loss": 0.004282377660274506, "convergence": {"last10_mean": 0.004355108505114913, "previous10_mean": 0.004451620485633611, "relative_change": -0.02168019058007394, "last10_cv": 0.03274209709019124, "late_plateau": true}}
+TRAIN_TRACE {"group": "experiment", "epoch": 1, "validation": 0.0044875978492200375, "training": 0.007480249274522066}
+Epoch: 0/99	Training Cost: 7.480249E-03	 Validation Cost: 4.487598E-03	Elapsed time: 0.210046 	 Input per sec: 95.217057
+TRAIN_TRACE {"group": "experiment", "epoch": 11, "validation": 0.0031427741050720215, "training": 0.0036869740579277277}
+Epoch: 10/99	Training Cost: 3.686974E-03	 Validation Cost: 3.142774E-03	Elapsed time: 2.038941 	 Input per sec: 9.809016
+TRAIN_TRACE {"group": "experiment", "epoch": 21, "validation": 0.0028260780964046717, "training": 0.0027300112415105104}
+Epoch: 20/99	Training Cost: 2.730011E-03	 Validation Cost: 2.826078E-03	Elapsed time: 2.039343 	 Input per sec: 9.807081
+TRAIN_TRACE {"group": "experiment", "epoch": 31, "validation": 0.003053434891626239, "training": 0.0023315108846873045}
+Epoch: 30/99	Training Cost: 2.331511E-03	 Validation Cost: 3.053435E-03	Elapsed time: 2.043903 	 Input per sec: 9.785198
+TRAIN_TRACE {"group": "experiment", "epoch": 41, "validation": 0.002534976229071617, "training": 0.0015263413079082966}
+Epoch: 40/99	Training Cost: 1.526341E-03	 Validation Cost: 2.534976E-03	Elapsed time: 2.041251 	 Input per sec: 9.797911
+TRAIN_TRACE {"group": "experiment", "epoch": 51, "validation": 0.0025559160858392715, "training": 0.0012187717948108912}
+Epoch: 50/99	Training Cost: 1.218772E-03	 Validation Cost: 2.555916E-03	Elapsed time: 2.040443 	 Input per sec: 9.801792
+TRAIN_TRACE {"group": "experiment", "epoch": 61, "validation": 0.002492592204362154, "training": 0.0010192195186391473}
+Epoch: 60/99	Training Cost: 1.019220E-03	 Validation Cost: 2.492592E-03	Elapsed time: 2.039735 	 Input per sec: 9.805194
+TRAIN_TRACE {"group": "experiment", "epoch": 71, "validation": 0.00276263989508152, "training": 0.000978178926743567}
+Epoch: 70/99	Training Cost: 9.781789E-04	 Validation Cost: 2.762640E-03	Elapsed time: 2.082721 	 Input per sec: 9.602823
+TRAIN_TRACE {"group": "experiment", "epoch": 81, "validation": 0.0026160511188209057, "training": 0.0007942582597024739}
+Epoch: 80/99	Training Cost: 7.942583E-04	 Validation Cost: 2.616051E-03	Elapsed time: 2.039684 	 Input per sec: 9.805440
+TRAIN_TRACE {"group": "experiment", "epoch": 91, "validation": 0.0026714750565588474, "training": 0.0007001440972089767}
+Epoch: 90/99	Training Cost: 7.001441E-04	 Validation Cost: 2.671475E-03	Elapsed time: 2.045229 	 Input per sec: 9.778854
+TRAIN_TRACE {"group": "experiment", "epoch": 100, "validation": 0.002675523515790701, "training": 0.000630128663033247}
+TRAIN_FINISHED {"group": "experiment", "seconds": 22.314513100000113, "epochs": 100, "training_loss": 0.000630128663033247, "validation_loss": 0.002675523515790701, "convergence": {"last10_mean": 0.002670240611769259, "previous10_mean": 0.0026707293232902884, "relative_change": -0.00018298803879810213, "last10_cv": 0.04873915937052345, "late_plateau": true}}
+Number of sensors: 24
+1
+INITIAL {"method": "transfer", "case": 1, "lr": 0.0005, "seconds": 12.702487900000051}
+Epoch: 0/4		Cost function: 2.0386739E-12		MSE: 1.1626978E-03		Elapsed time: 2.915576
+Epoch: 2/4		Cost function: 1.4906318E-12		MSE: 3.0672035E-04		Elapsed time: 2.695768
+Epoch: 4/4		Cost function: 1.4737180E-12		MSE: 3.8596592E-04		Elapsed time: 2.733048
+Total elapsed time: 13.827479
+FINAL {"method": "transfer", "case": 1, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.0007901182589001974, "initial_mse": 0.002380181180125579, "fit_seconds": 13.827524499999981, "initial_ready_seconds": 12.702487900000051, "post5_forward_seconds": 0.0028046000002177607, "post5_mse": 0.0006693987516149749, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+2
+INITIAL {"method": "transfer", "case": 2, "lr": 0.0005, "seconds": 13.716835700000047}
+Epoch: 0/4		Cost function: 3.9193562E-12		MSE: 4.9527152E-03		Elapsed time: 2.777581
+Epoch: 2/4		Cost function: 2.5011085E-12		MSE: 2.1679632E-03		Elapsed time: 2.578902
+Epoch: 4/4		Cost function: 2.0093690E-12		MSE: 1.1854746E-03		Elapsed time: 2.609446
+Total elapsed time: 13.134221
+FINAL {"method": "transfer", "case": 2, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.0024268078438047184, "initial_mse": 0.010138798380824076, "fit_seconds": 13.134276000000227, "initial_ready_seconds": 13.716835700000047, "post5_forward_seconds": 0.0035986000002594665, "post5_mse": 0.0022949619516085514, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+3
+INITIAL {"method": "transfer", "case": 3, "lr": 0.0005, "seconds": 14.478264699999727}
+Epoch: 0/4		Cost function: 6.4458057E-12		MSE: 1.5929870E-02		Elapsed time: 2.266318
+Epoch: 2/4		Cost function: 5.7405166E-12		MSE: 1.5168688E-02		Elapsed time: 1.989108
+Epoch: 4/4		Cost function: 5.5658746E-12		MSE: 1.4758295E-02		Elapsed time: 2.003094
+Total elapsed time: 10.384487
+FINAL {"method": "transfer", "case": 3, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.030211988875420533, "initial_mse": 0.03261034500766728, "fit_seconds": 10.384532500000205, "initial_ready_seconds": 14.478264699999727, "post5_forward_seconds": 0.002716700000291894, "post5_mse": 0.02987999194718401, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+4
+INITIAL {"method": "transfer", "case": 4, "lr": 0.0005, "seconds": 12.360974200000328}
+Epoch: 0/4		Cost function: 6.9627056E-12		MSE: 1.8033024E-02		Elapsed time: 2.071932
+Epoch: 2/4		Cost function: 5.8990647E-12		MSE: 1.2122416E-02		Elapsed time: 2.044017
+Epoch: 4/4		Cost function: 4.8171272E-12		MSE: 1.1404149E-02		Elapsed time: 1.981521
+Total elapsed time: 10.072748
+FINAL {"method": "transfer", "case": 4, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.023345654713096436, "initial_mse": 0.03691575267466837, "fit_seconds": 10.07279329999983, "initial_ready_seconds": 12.360974200000328, "post5_forward_seconds": 0.0026477000001250417, "post5_mse": 0.022769992172056545, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+1
+INITIAL {"method": "transfer", "case": 1, "lr": 0.0005, "seconds": 12.225626000000375}
+Epoch: 0/4		Cost function: 2.2440712E-12		MSE: 1.7534660E-03		Elapsed time: 2.034251
+Epoch: 2/4		Cost function: 1.5924603E-12		MSE: 6.7608268E-04		Elapsed time: 1.998030
+Epoch: 4/4		Cost function: 1.4784695E-12		MSE: 4.0796021E-04		Elapsed time: 1.988315
+Total elapsed time: 10.010431
+FINAL {"method": "transfer", "case": 1, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.0008351430838029127, "initial_mse": 0.0035895539615641075, "fit_seconds": 10.01047860000017, "initial_ready_seconds": 12.225626000000375, "post5_forward_seconds": 0.0027283999997962383, "post5_mse": 0.0007432645586929846, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+2
+INITIAL {"method": "transfer", "case": 2, "lr": 0.0005, "seconds": 12.276453799999672}
+Epoch: 0/4		Cost function: 4.7061070E-12		MSE: 3.5248266E-03		Elapsed time: 2.017691
+Epoch: 2/4		Cost function: 2.2637872E-12		MSE: 1.6317901E-03		Elapsed time: 1.958510
+Epoch: 4/4		Cost function: 1.9756031E-12		MSE: 1.0052619E-03		Elapsed time: 1.963936
+Total elapsed time: 9.852685
+FINAL {"method": "transfer", "case": 2, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.0020578909187805965, "initial_mse": 0.007215740101327482, "fit_seconds": 9.852730300000076, "initial_ready_seconds": 12.276453799999672, "post5_forward_seconds": 0.0026427000002513523, "post5_mse": 0.0019071190574372766, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+3
+INITIAL {"method": "transfer", "case": 3, "lr": 0.0005, "seconds": 12.367951400000038}
+Epoch: 0/4		Cost function: 6.5285242E-12		MSE: 1.6352111E-02		Elapsed time: 1.991312
+Epoch: 2/4		Cost function: 5.3675805E-12		MSE: 1.3614972E-02		Elapsed time: 1.976215
+Epoch: 4/4		Cost function: 4.6350623E-12		MSE: 1.3353066E-02		Elapsed time: 1.986324
+Total elapsed time: 9.916204
+FINAL {"method": "transfer", "case": 3, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.027335315193053104, "initial_mse": 0.033474720405195627, "fit_seconds": 9.916250700000091, "initial_ready_seconds": 12.367951400000038, "post5_forward_seconds": 0.002637899999626825, "post5_mse": 0.028713176242532567, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+Number of sensors: 24
+4
+INITIAL {"method": "transfer", "case": 4, "lr": 0.0005, "seconds": 12.287063200000375}
+Epoch: 0/4		Cost function: 5.8188111E-12		MSE: 1.3111319E-02		Elapsed time: 1.992039
+Epoch: 2/4		Cost function: 4.8601843E-12		MSE: 1.2056272E-02		Elapsed time: 1.961744
+Epoch: 4/4		Cost function: 4.6117771E-12		MSE: 1.2400310E-02		Elapsed time: 1.962132
+Total elapsed time: 9.861733
+FINAL {"method": "transfer", "case": 4, "updates": 5, "actual_initial_lr": 0.0005, "material_mse": 0.025384909749916036, "initial_mse": 0.026840433065572225, "fit_seconds": 9.861773399999947, "initial_ready_seconds": 12.287063200000375, "post5_forward_seconds": 0.002504700000372395, "post5_mse": 0.02344672422943351, "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"}
+PAIRED_FINISHED 238.239741563797
+ALL_SEEDS_FINISHED 1070.948800086975

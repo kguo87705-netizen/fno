@@ -1,0 +1,12 @@
+{
+  "case": 4,
+  "cutoff_hz": 350000,
+  "epochs": 35,
+  "lowpass_steps": 15,
+  "fullband_steps": 20,
+  "material_mse": 0.06256996831223795,
+  "inner_mse": 0.06213406305058198,
+  "fit_seconds": 151.1497292999993,
+  "last_preupdate_author_cost": 1.7784583484711791e-12,
+  "case_wall_seconds": 153.9162648000056
+}

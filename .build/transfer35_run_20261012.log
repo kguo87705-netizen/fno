@@ -1,0 +1,105 @@
+RUN case=1 remaining=1800.0s
+Number of sensors: 24
+1
+Epoch: 0/34		Cost function: 1.5478625E-12		MSE: 5.7537225E-04		Elapsed time: 2.097959
+Epoch: 2/34		Cost function: 1.5108943E-12		MSE: 5.0902396E-04		Elapsed time: 1.711335
+CHECKPOINT {"case": 1, "step": 5, "material_mse": 0.0005221916653948918, "fit_seconds": 8.955338700000084, "used_lr": 0.000372677996249965, "next_lr": 0.0003535533905932738, "max_difference_from_prior_post5": 0.0}
+Epoch: 4/34		Cost function: 1.4802545E-12		MSE: 3.1634836E-04		Elapsed time: 1.737608
+Epoch: 6/34		Cost function: 1.4673826E-12		MSE: 2.3919315E-04		Elapsed time: 1.706827
+Epoch: 8/34		Cost function: 1.4605528E-12		MSE: 3.3987506E-04		Elapsed time: 1.707600
+CHECKPOINT {"case": 1, "step": 10, "material_mse": 0.0006350484537567864, "fit_seconds": 17.543557200000123, "used_lr": 0.0002988071523335984, "next_lr": 0.0002886751345948129}
+Epoch: 10/34		Cost function: 1.4545613E-12		MSE: 3.1021566E-04		Elapsed time: 1.702397
+Epoch: 12/34		Cost function: 1.4495998E-12		MSE: 2.4361283E-04		Elapsed time: 1.711687
+Epoch: 14/34		Cost function: 1.4404040E-12		MSE: 2.7135058E-04		Elapsed time: 1.716678
+Epoch: 16/34		Cost function: 1.4298528E-12		MSE: 3.1364674E-04		Elapsed time: 1.711492
+Epoch: 18/34		Cost function: 1.4190983E-12		MSE: 3.1378350E-04		Elapsed time: 1.716261
+CHECKPOINT {"case": 1, "step": 20, "material_mse": 0.0006918731663762201, "fit_seconds": 34.70575629999985, "used_lr": 0.0002282177322938192, "next_lr": 0.00022360679774997898}
+Epoch: 20/34		Cost function: 1.4071334E-12		MSE: 3.3797402E-04		Elapsed time: 1.726249
+Epoch: 22/34		Cost function: 1.3991782E-12		MSE: 4.1144690E-04		Elapsed time: 1.734173
+Epoch: 24/34		Cost function: 1.3907545E-12		MSE: 4.3377856E-04		Elapsed time: 1.754763
+Epoch: 26/34		Cost function: 1.3821151E-12		MSE: 5.0947745E-04		Elapsed time: 1.719160
+Epoch: 28/34		Cost function: 1.3736876E-12		MSE: 5.4726657E-04		Elapsed time: 1.718210
+Epoch: 30/34		Cost function: 1.3667182E-12		MSE: 5.7618960E-04		Elapsed time: 1.716305
+Epoch: 32/34		Cost function: 1.3574428E-12		MSE: 6.3919800E-04		Elapsed time: 1.713056
+CHECKPOINT {"case": 1, "step": 35, "material_mse": 0.0015464765523327904, "fit_seconds": 60.630950499999926, "used_lr": 0.0001790287185098582, "next_lr": 0.0001767766952966369}
+Epoch: 34/34		Cost function: 1.3466151E-12		MSE: 7.1820855E-04		Elapsed time: 1.787752
+Total elapsed time: 60.657461
+RUN case=2 remaining=1724.4s
+Number of sensors: 24
+2
+Epoch: 0/34		Cost function: 3.7583222E-12		MSE: 3.0301260E-03		Elapsed time: 2.237058
+Epoch: 2/34		Cost function: 2.2058384E-12		MSE: 1.6689813E-03		Elapsed time: 1.801863
+CHECKPOINT {"case": 2, "step": 5, "material_mse": 0.0023277172247367947, "fit_seconds": 9.44560760000013, "used_lr": 0.000372677996249965, "next_lr": 0.0003535533905932738, "max_difference_from_prior_post5": 0.0}
+Epoch: 4/34		Cost function: 2.2557258E-12		MSE: 1.6996362E-03		Elapsed time: 1.825882
+Epoch: 6/34		Cost function: 1.9253926E-12		MSE: 8.7683013E-04		Elapsed time: 1.809260
+Epoch: 8/34		Cost function: 1.8308822E-12		MSE: 1.0096371E-03		Elapsed time: 1.796506
+CHECKPOINT {"case": 2, "step": 10, "material_mse": 0.0019098465768466314, "fit_seconds": 18.47821460000023, "used_lr": 0.0002988071523335984, "next_lr": 0.0002886751345948129}
+Epoch: 10/34		Cost function: 1.8922708E-12		MSE: 9.3294348E-04		Elapsed time: 1.791775
+Epoch: 12/34		Cost function: 1.7181426E-12		MSE: 8.1441685E-04		Elapsed time: 1.801608
+Epoch: 14/34		Cost function: 1.7009852E-12		MSE: 7.8178511E-04		Elapsed time: 1.963115
+Epoch: 16/34		Cost function: 1.6659316E-12		MSE: 7.7146397E-04		Elapsed time: 1.796793
+Epoch: 18/34		Cost function: 1.6395761E-12		MSE: 7.0874754E-04		Elapsed time: 1.771857
+CHECKPOINT {"case": 2, "step": 20, "material_mse": 0.001397989948862151, "fit_seconds": 36.76623890000019, "used_lr": 0.0002282177322938192, "next_lr": 0.00022360679774997898}
+Epoch: 20/34		Cost function: 1.6342654E-12		MSE: 6.8290601E-04		Elapsed time: 1.778133
+Epoch: 22/34		Cost function: 1.6468230E-12		MSE: 6.2497513E-04		Elapsed time: 1.763721
+Epoch: 24/34		Cost function: 1.6369649E-12		MSE: 6.3004991E-04		Elapsed time: 1.791675
+Epoch: 26/34		Cost function: 1.6325371E-12		MSE: 6.0744036E-04		Elapsed time: 1.801627
+Epoch: 28/34		Cost function: 1.6268293E-12		MSE: 5.7189260E-04		Elapsed time: 1.810501
+Epoch: 30/34		Cost function: 1.6335452E-12		MSE: 6.0253480E-04		Elapsed time: 1.793545
+Epoch: 32/34		Cost function: 1.6271596E-12		MSE: 6.0746091E-04		Elapsed time: 1.814860
+CHECKPOINT {"case": 2, "step": 35, "material_mse": 0.0012340620124285484, "fit_seconds": 63.69062000000031, "used_lr": 0.0001790287185098582, "next_lr": 0.0001767766952966369}
+Epoch: 34/34		Cost function: 1.6203048E-12		MSE: 5.9318327E-04		Elapsed time: 1.843938
+Total elapsed time: 63.725623
+RUN case=3 remaining=1647.0s
+Number of sensors: 24
+3
+Epoch: 0/34		Cost function: 6.8270376E-12		MSE: 1.7106865E-02		Elapsed time: 2.122783
+Epoch: 2/34		Cost function: 5.8480738E-12		MSE: 1.6935105E-02		Elapsed time: 1.887547
+CHECKPOINT {"case": 3, "step": 5, "material_mse": 0.03311386118937376, "fit_seconds": 9.971078900000066, "used_lr": 0.000372677996249965, "next_lr": 0.0003535533905932738, "max_difference_from_prior_post5": 0.0}
+Epoch: 4/34		Cost function: 5.6082907E-12		MSE: 1.6756419E-02		Elapsed time: 1.943460
+Epoch: 6/34		Cost function: 5.5322977E-12		MSE: 1.6036270E-02		Elapsed time: 1.876975
+Epoch: 8/34		Cost function: 5.4488640E-12		MSE: 1.6070668E-02		Elapsed time: 1.896082
+CHECKPOINT {"case": 3, "step": 10, "material_mse": 0.03312223553759844, "fit_seconds": 19.54549820000011, "used_lr": 0.0002988071523335984, "next_lr": 0.0002886751345948129}
+Epoch: 10/34		Cost function: 5.3408415E-12		MSE: 1.6179925E-02		Elapsed time: 1.879825
+Epoch: 12/34		Cost function: 5.2515535E-12		MSE: 1.6312500E-02		Elapsed time: 1.895766
+Epoch: 14/34		Cost function: 5.1199778E-12		MSE: 1.5861819E-02		Elapsed time: 1.887623
+Epoch: 16/34		Cost function: 4.9649356E-12		MSE: 1.5299005E-02		Elapsed time: 1.892784
+Epoch: 18/34		Cost function: 4.8183727E-12		MSE: 1.4831576E-02		Elapsed time: 1.972629
+CHECKPOINT {"case": 3, "step": 20, "material_mse": 0.02965275054928255, "fit_seconds": 38.601112000000285, "used_lr": 0.0002282177322938192, "next_lr": 0.00022360679774997898}
+Epoch: 20/34		Cost function: 4.6639932E-12		MSE: 1.4485112E-02		Elapsed time: 1.902997
+Epoch: 22/34		Cost function: 4.5386446E-12		MSE: 1.4149683E-02		Elapsed time: 1.909091
+Epoch: 24/34		Cost function: 4.4528760E-12		MSE: 1.3842161E-02		Elapsed time: 1.888064
+Epoch: 26/34		Cost function: 4.3617800E-12		MSE: 1.3686506E-02		Elapsed time: 1.885821
+Epoch: 28/34		Cost function: 4.2674206E-12		MSE: 1.3517948E-02		Elapsed time: 1.887943
+Epoch: 30/34		Cost function: 4.1563766E-12		MSE: 1.3226248E-02		Elapsed time: 1.903945
+Epoch: 32/34		Cost function: 4.0261527E-12		MSE: 1.3088363E-02		Elapsed time: 1.929846
+CHECKPOINT {"case": 3, "step": 35, "material_mse": 0.027421031860078375, "fit_seconds": 67.22450710000021, "used_lr": 0.0001790287185098582, "next_lr": 0.0001767766952966369}
+Epoch: 34/34		Cost function: 3.9134004E-12		MSE: 1.3363732E-02		Elapsed time: 1.945001
+Total elapsed time: 67.282622
+RUN case=4 remaining=1566.8s
+Number of sensors: 24
+4
+Epoch: 0/34		Cost function: 6.4057856E-12		MSE: 1.5714556E-02		Elapsed time: 2.788771
+Epoch: 2/34		Cost function: 4.9877572E-12		MSE: 1.3567395E-02		Elapsed time: 2.432757
+CHECKPOINT {"case": 4, "step": 5, "material_mse": 0.021123291094238186, "fit_seconds": 12.531098800000109, "used_lr": 0.000372677996249965, "next_lr": 0.0003535533905932738, "max_difference_from_prior_post5": 0.0}
+Epoch: 4/34		Cost function: 4.3452715E-12		MSE: 1.0991806E-02		Elapsed time: 2.461709
+Epoch: 6/34		Cost function: 4.0057840E-12		MSE: 9.7399456E-03		Elapsed time: 2.453286
+Epoch: 8/34		Cost function: 3.7719415E-12		MSE: 9.0964008E-03		Elapsed time: 2.517188
+CHECKPOINT {"case": 4, "step": 10, "material_mse": 0.01753655983157066, "fit_seconds": 24.85163509999984, "used_lr": 0.0002988071523335984, "next_lr": 0.0002886751345948129}
+Epoch: 10/34		Cost function: 3.5455566E-12		MSE: 8.5664578E-03		Elapsed time: 2.458673
+Epoch: 12/34		Cost function: 3.2935378E-12		MSE: 8.2058525E-03		Elapsed time: 3.764871
+Epoch: 14/34		Cost function: 3.1403161E-12		MSE: 7.9472177E-03		Elapsed time: 3.470993
+Epoch: 16/34		Cost function: 3.0425493E-12		MSE: 7.8503909E-03		Elapsed time: 2.774302
+Epoch: 18/34		Cost function: 2.9863499E-12		MSE: 7.8204814E-03		Elapsed time: 3.122178
+CHECKPOINT {"case": 4, "step": 20, "material_mse": 0.016363786378598894, "fit_seconds": 55.015009700000064, "used_lr": 0.0002282177322938192, "next_lr": 0.00022360679774997898}
+Epoch: 20/34		Cost function: 2.9306158E-12		MSE: 7.9935687E-03		Elapsed time: 3.006472
+Epoch: 22/34		Cost function: 2.9209593E-12		MSE: 8.0612339E-03		Elapsed time: 2.701358
+Epoch: 24/34		Cost function: 2.8713956E-12		MSE: 8.2340501E-03		Elapsed time: 2.808873
+Epoch: 26/34		Cost function: 2.8503372E-12		MSE: 8.3472449E-03		Elapsed time: 2.608294
+Epoch: 28/34		Cost function: 2.8153352E-12		MSE: 8.4803794E-03		Elapsed time: 2.653271
+Epoch: 30/34		Cost function: 2.7921393E-12		MSE: 8.4359795E-03		Elapsed time: 2.629099
+Epoch: 32/34		Cost function: 2.7740054E-12		MSE: 8.4004737E-03		Elapsed time: 2.783654
+CHECKPOINT {"case": 4, "step": 35, "material_mse": 0.017246898597305764, "fit_seconds": 95.41413629999988, "used_lr": 0.0001790287185098582, "next_lr": 0.0001767766952966369}
+Epoch: 34/34		Cost function: 2.7558416E-12		MSE: 8.4440084E-03		Elapsed time: 2.686057
+Total elapsed time: 95.441565
+TOTAL_COMPUTE_SECONDS 341.066

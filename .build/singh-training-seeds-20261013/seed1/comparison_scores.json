@@ -1,0 +1,4458 @@
+{
+  "convention": "Owner-defined, not an industry standard",
+  "region": "physical 256x128, ghost cells excluded",
+  "connectivity": 8,
+  "background": "Chebyshev distance greater than 2 pixels from truth defects",
+  "selection": "Maximum detected count under pooled FPR cap; ties: lowest FPR, then highest threshold",
+  "defect_recall_cutoff": 0.5,
+  "scan": {
+    "author800": [
+      {
+        "threshold": 0.1,
+        "false_alarm_fraction": 0.003684580709101953,
+        "detected_total": 7,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          3
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d2",
+          "case4:right_circle_d4"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              1.0
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              1.0,
+              0.9908536585365854
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0002218700475435816
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8870636550308009
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.010896320850700712
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.8492307692307692,
+              0.9024390243902439,
+              0.7608695652173914,
+              0.0,
+              0.0
+            ],
+            "detected": [
+              false,
+              true,
+              true,
+              true,
+              false,
+              false
+            ],
+            "false_alarm_fraction": 0.003947198136404814
+          }
+        }
+      },
+      {
+        "threshold": 0.15,
+        "false_alarm_fraction": 0.0031890405703507143,
+        "detected_total": 7,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          3
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d2",
+          "case4:right_circle_d4"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              1.0
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9919028340080972,
+              0.9847560975609756
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.00012678288431061807
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8726899383983573
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.009550690866126227
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.8153846153846154,
+              0.9024390243902439,
+              0.717391304347826,
+              0.0,
+              0.0
+            ],
+            "detected": [
+              false,
+              true,
+              true,
+              true,
+              false,
+              false
+            ],
+            "false_alarm_fraction": 0.003364824640869678
+          }
+        }
+      },
+      {
+        "threshold": 0.2,
+        "false_alarm_fraction": 0.0029972185811566864,
+        "detected_total": 7,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          3
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d2",
+          "case4:right_circle_d4"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9970501474926253
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9757085020242915,
+              0.9817073170731707
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 6.339144215530903e-05
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8603696098562629
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.008927106239128294
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.8061538461538461,
+              0.9024390243902439,
+              0.6739130434782609,
+              0.0,
+              0.0
+            ],
+            "detected": [
+              false,
+              true,
+              true,
+              true,
+              false,
+              false
+            ],
+            "false_alarm_fraction": 0.0032677623916138217
+          }
+        }
+      },
+      {
+        "threshold": 0.25,
+        "false_alarm_fraction": 0.002765433677547236,
+        "detected_total": 7,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          3
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d2",
+          "case4:right_circle_d4"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9970501474926253
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.97165991902834,
+              0.9725609756097561
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8521560574948666
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.008237881125077949
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.7830769230769231,
+              0.8414634146341463,
+              0.6521739130434783,
+              0.0,
+              0.0
+            ],
+            "detected": [
+              false,
+              true,
+              true,
+              true,
+              false,
+              false
+            ],
+            "false_alarm_fraction": 0.0030736378931021094
+          }
+        }
+      },
+      {
+        "threshold": 0.3,
+        "false_alarm_fraction": 0.0026295597685347997,
+        "detected_total": 7,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          3
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d2",
+          "case4:right_circle_d4"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9970501474926253
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9554655870445344,
+              0.9664634146341463
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8501026694045175
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.007745577472184843
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.7723076923076924,
+              0.8292682926829268,
+              0.5869565217391305,
+              0.0,
+              0.0
+            ],
+            "detected": [
+              false,
+              true,
+              true,
+              true,
+              false,
+              false
+            ],
+            "false_alarm_fraction": 0.003008929726931539
+          }
+        }
+      },
+      {
+        "threshold": 0.35,
+        "false_alarm_fraction": 0.00246970811087311,
+        "detected_total": 7,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          3
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d2",
+          "case4:right_circle_d4"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9941002949852508
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.937246963562753,
+              0.9603658536585366
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8439425051334702
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.007187633332239325
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.7461538461538462,
+              0.8170731707317073,
+              0.5652173913043478,
+              0.0,
+              0.0
+            ],
+            "detected": [
+              false,
+              true,
+              true,
+              true,
+              false,
+              false
+            ],
+            "false_alarm_fraction": 0.0029118674776756827
+          }
+        }
+      },
+      {
+        "threshold": 0.4,
+        "false_alarm_fraction": 0.002357811950509927,
+        "detected_total": 7,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          3
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d2",
+          "case4:right_circle_d4"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9911504424778761
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.917004048582996,
+              0.9451219512195121
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8357289527720739
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0067937904099248415
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.7307692307692307,
+              0.8170731707317073,
+              0.5434782608695652,
+              0.0,
+              0.0
+            ],
+            "detected": [
+              false,
+              true,
+              true,
+              true,
+              false,
+              false
+            ],
+            "false_alarm_fraction": 0.002847159311505112
+          }
+        }
+      },
+      {
+        "threshold": 0.45,
+        "false_alarm_fraction": 0.0022219380414974905,
+        "detected_total": 7,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          3
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d2",
+          "case4:right_circle_d4"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9882005899705014
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.902834008097166,
+              0.9359756097560976
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8295687885010267
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.006301486757031737
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.7215384615384616,
+              0.8170731707317073,
+              0.5217391304347826,
+              0.0,
+              0.0
+            ],
+            "detected": [
+              false,
+              true,
+              true,
+              true,
+              false,
+              false
+            ],
+            "false_alarm_fraction": 0.0027824511453345413
+          }
+        }
+      },
+      {
+        "threshold": 0.5,
+        "false_alarm_fraction": 0.0021100418811343074,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2",
+          "case4:right_circle_d4"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9823008849557522
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.8927125506072875,
+              0.9176829268292683
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.813141683778234
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.005907643834717253
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.7169230769230769,
+              0.8048780487804879,
+              0.45652173913043476,
+              0.0,
+              0.0
+            ],
+            "detected": [
+              false,
+              true,
+              true,
+              false,
+              false,
+              false
+            ],
+            "false_alarm_fraction": 0.0027177429791639704
+          }
+        }
+      },
+      {
+        "threshold": 0.55,
+        "false_alarm_fraction": 0.0020301160523034626,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2",
+          "case4:right_circle_d4"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9793510324483776
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.8846153846153846,
+              0.9146341463414634
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8090349075975359
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.005677902130033805
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.7092307692307692,
+              0.7804878048780488,
+              0.43478260869565216,
+              0.0,
+              0.0
+            ],
+            "detected": [
+              false,
+              true,
+              true,
+              false,
+              false,
+              false
+            ],
+            "false_alarm_fraction": 0.002620680729908114
+          }
+        }
+      },
+      {
+        "threshold": 0.6,
+        "false_alarm_fraction": 0.0019661753892387863,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2",
+          "case4:right_circle_d4"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.976401179941003
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.868421052631579,
+              0.9024390243902439
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8028747433264887
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.005448160425350356
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.6907692307692308,
+              0.7317073170731707,
+              0.41304347826086957,
+              0.0,
+              0.0
+            ],
+            "detected": [
+              false,
+              true,
+              true,
+              false,
+              false,
+              false
+            ],
+            "false_alarm_fraction": 0.002588326646822829
+          }
+        }
+      },
+      {
+        "threshold": 0.65,
+        "false_alarm_fraction": 0.0018542792288756035,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2",
+          "case4:right_circle_d4"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9646017699115044
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.8522267206477733,
+              0.8841463414634146
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.7926078028747433
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.00508713774656208
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.6815384615384615,
+              0.7317073170731707,
+              0.3695652173913043,
+              0.0,
+              0.0
+            ],
+            "detected": [
+              false,
+              true,
+              true,
+              false,
+              false,
+              false
+            ],
+            "false_alarm_fraction": 0.002491264397566973
+          }
+        }
+      },
+      {
+        "threshold": 0.7,
+        "false_alarm_fraction": 0.001782345982927843,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2",
+          "case4:right_circle_d4"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.943952802359882
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.8319838056680162,
+              0.875
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.7823408624229979
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0048245757983524235
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.6553846153846153,
+              0.7195121951219512,
+              0.34782608695652173,
+              0.0,
+              0.0
+            ],
+            "detected": [
+              false,
+              true,
+              true,
+              false,
+              false,
+              false
+            ],
+            "false_alarm_fraction": 0.0024589103144816876
+          }
+        }
+      },
+      {
+        "threshold": 0.75,
+        "false_alarm_fraction": 0.0017423830685124205,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2",
+          "case4:right_circle_d4"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9380530973451328
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.819838056680162,
+              0.850609756097561
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.7782340862422998
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.004693294824247596
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.6430769230769231,
+              0.7073170731707317,
+              0.34782608695652173,
+              0.0,
+              0.0
+            ],
+            "detected": [
+              false,
+              true,
+              true,
+              false,
+              false,
+              false
+            ],
+            "false_alarm_fraction": 0.0024265562313964023
+          }
+        }
+      },
+      {
+        "threshold": 0.8,
+        "false_alarm_fraction": 0.001558553662201477,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2",
+          "case4:right_circle_d4"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9262536873156342
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.7995951417004049,
+              0.823170731707317
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.75564681724846
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.00400406971019725
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.6184615384615385,
+              0.7073170731707317,
+              0.30434782608695654,
+              0.0,
+              0.0
+            ],
+            "detected": [
+              false,
+              true,
+              true,
+              false,
+              false,
+              false
+            ],
+            "false_alarm_fraction": 0.0023618480652258314
+          }
+        }
+      },
+      {
+        "threshold": 0.85,
+        "false_alarm_fraction": 0.0014386649189552095,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2",
+          "case4:right_circle_d4"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9085545722713865
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.7672064777327935,
+              0.7957317073170732
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.7351129363449692
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.00367586727493518
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.5938461538461538,
+              0.6463414634146342,
+              0.21739130434782608,
+              0.0,
+              0.0
+            ],
+            "detected": [
+              false,
+              true,
+              true,
+              false,
+              false,
+              false
+            ],
+            "false_alarm_fraction": 0.0022000776497994048
+          }
+        }
+      },
+      {
+        "threshold": 0.9,
+        "false_alarm_fraction": 0.0013107835928258577,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2",
+          "case4:right_circle_d4"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.8731563421828908
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.7388663967611336,
+              0.7469512195121951
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.7125256673511293
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0032492041090944894
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.556923076923077,
+              0.5975609756097561,
+              0.15217391304347827,
+              0.0,
+              0.0
+            ],
+            "detected": [
+              false,
+              true,
+              true,
+              false,
+              false,
+              false
+            ],
+            "false_alarm_fraction": 0.0021030154005435486
+          }
+        }
+      }
+    ],
+    "control": [
+      {
+        "threshold": 0.1,
+        "false_alarm_fraction": 0.0068336583650372455,
+        "detected_total": 7,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          3
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              1.0
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              1.0,
+              0.9847560975609756
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 9.508716323296356e-05
+          },
+          "3": {
+            "recalls": [
+              0.025078369905956112,
+              0.0,
+              0.8726899383983573
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.019298303193409694
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.6738461538461539,
+              0.036585365853658534,
+              0.6521739130434783,
+              0.0,
+              0.975609756097561
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              true,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.008541477934515335
+          }
+        }
+      },
+      {
+        "threshold": 0.15,
+        "false_alarm_fraction": 0.004843505227149205,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              1.0
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              1.0,
+              0.975609756097561
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.01567398119122257,
+              0.0,
+              0.8685831622176592
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.014440907151531065
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.6553846153846153,
+              0.024390243902439025,
+              0.41304347826086957,
+              0.0,
+              0.975609756097561
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.00537077779215737
+          }
+        }
+      },
+      {
+        "threshold": 0.2,
+        "false_alarm_fraction": 0.004004284024425334,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              1.0
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              1.0,
+              0.9634146341463414
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.007836990595611285,
+              0.0,
+              0.8624229979466119
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.012077849617644163
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.6384615384615384,
+              0.0,
+              0.32608695652173914,
+              0.0,
+              0.9634146341463414
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.004303093050342953
+          }
+        }
+      },
+      {
+        "threshold": 0.25,
+        "false_alarm_fraction": 0.0033169218964800664,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              1.0
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9979757085020243,
+              0.9542682926829268
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8521560574948666
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.009846073057862089
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.6323076923076923,
+              0.0,
+              0.1956521739130435,
+              0.0,
+              0.926829268292683
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.003720719554807817
+          }
+        }
+      },
+      {
+        "threshold": 0.3,
+        "false_alarm_fraction": 0.0028373669234949966,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              1.0
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9979757085020243,
+              0.9420731707317073
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8459958932238193
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.008303521612130361
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.6230769230769231,
+              0.0,
+              0.15217391304347827,
+              0.0,
+              0.926829268292683
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.003300116474699107
+          }
+        }
+      },
+      {
+        "threshold": 0.35,
+        "false_alarm_fraction": 0.0024217526135746027,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9970501474926253
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9959514170040485,
+              0.9298780487804879
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8439425051334702
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.006859430896977255
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.6061538461538462,
+              0.0,
+              0.13043478260869565,
+              0.0,
+              0.9146341463414634
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.003041283810016824
+          }
+        }
+      },
+      {
+        "threshold": 0.4,
+        "false_alarm_fraction": 0.002142012212666645,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9911504424778761
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9939271255060729,
+              0.9146341463414634
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8316221765913757
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.006006104565295874
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.5907692307692308,
+              0.0,
+              0.043478260869565216,
+              0.0,
+              0.9024390243902439
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.002750097062249256
+          }
+        }
+      },
+      {
+        "threshold": 0.45,
+        "false_alarm_fraction": 0.0018702643946417723,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9911504424778761
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9838056680161943,
+              0.9024390243902439
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8213552361396304
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.00508713774656208
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.5692307692307692,
+              0.0,
+              0.021739130434782608,
+              0.0,
+              0.8414634146341463
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0025559725637375437
+          }
+        }
+      },
+      {
+        "threshold": 0.5,
+        "false_alarm_fraction": 0.001638479491032322,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9882005899705014
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.979757085020243,
+              0.8780487804878049
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8069815195071869
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.00443073287603794
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.5584615384615385,
+              0.0,
+              0.0,
+              0.0,
+              0.8048780487804879
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0022647858159699752
+          }
+        }
+      },
+      {
+        "threshold": 0.55,
+        "false_alarm_fraction": 0.001398702004539787,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9823008849557522
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9757085020242915,
+              0.8536585365853658
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8069815195071869
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.003643047031408973
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.5461538461538461,
+              0.0,
+              0.0,
+              0.0,
+              0.8048780487804879
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0020706613174582634
+          }
+        }
+      },
+      {
+        "threshold": 0.6,
+        "false_alarm_fraction": 0.0011509319351641677,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9734513274336283
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9736842105263158,
+              0.8292682926829268
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8008213552361396
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.002822540943253799
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.5292307692307693,
+              0.0,
+              0.0,
+              0.0,
+              0.8048780487804879
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.001876536818946551
+          }
+        }
+      },
+      {
+        "threshold": 0.65,
+        "false_alarm_fraction": 0.0010070654432686467,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9528023598820059
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9696356275303644,
+              0.8201219512195121
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.7967145790554415
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0022645968033082804
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.5138461538461538,
+              0.0,
+              0.0,
+              0.0,
+              0.7804878048780488
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0018441827358612658
+          }
+        }
+      },
+      {
+        "threshold": 0.7,
+        "false_alarm_fraction": 0.0008392212027238722,
+        "detected_total": 5,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:cross",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9469026548672567
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9453441295546559,
+              0.7987804878048781
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.7802874743326489
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0016738324198365552
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.49846153846153846,
+              0.0,
+              0.0,
+              0.0,
+              0.7439024390243902
+            ],
+            "detected": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0017471204866054096
+          }
+        }
+      },
+      {
+        "threshold": 0.75,
+        "false_alarm_fraction": 0.0006473992135298443,
+        "detected_total": 5,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:cross",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9351032448377581
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9210526315789473,
+              0.774390243902439
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.7597535934291582
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0011158882798910368
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.48,
+              0.0,
+              0.0,
+              0.0,
+              0.6951219512195121
+            ],
+            "detected": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.001520641905008412
+          }
+        }
+      },
+      {
+        "threshold": 0.8,
+        "false_alarm_fraction": 0.0005115253045174078,
+        "detected_total": 5,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:cross",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9203539823008849
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.8947368421052632,
+              0.7378048780487805
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.7433264887063655
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0007220453575765533
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.4676923076923077,
+              0.0,
+              0.0,
+              0.0,
+              0.6707317073170732
+            ],
+            "detected": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0013588714895819852
+          }
+        }
+      },
+      {
+        "threshold": 0.85,
+        "false_alarm_fraction": 0.0003836439783880559,
+        "detected_total": 5,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:cross",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9144542772861357
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.8744939271255061,
+              0.7012195121951219
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.7145790554414785
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.00039384292231448356
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.44769230769230767,
+              0.0,
+              0.0,
+              0.0,
+              0.6463414634146342
+            ],
+            "detected": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.001164746991070273
+          }
+        }
+      },
+      {
+        "threshold": 0.9,
+        "false_alarm_fraction": 0.0002957255666741264,
+        "detected_total": 5,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:cross",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.8731563421828908
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.8502024291497976,
+              0.6646341463414634
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.675564681724846
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.00022974170468344874
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.4123076923076923,
+              0.0,
+              0.0,
+              0.0,
+              0.5487804878048781
+            ],
+            "detected": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0009706224925585609
+          }
+        }
+      }
+    ],
+    "experiment": [
+      {
+        "threshold": 0.1,
+        "false_alarm_fraction": 0.005075290130758656,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              1.0
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9979757085020243,
+              0.948170731707317
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.001584786053882726
+          },
+          "3": {
+            "recalls": [
+              0.2084639498432602,
+              0.0,
+              0.9034907597535934
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.005776362860612426
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.6307692307692307,
+              0.0,
+              0.13043478260869565,
+              0.0,
+              0.7926829268292683
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.013232819981881713
+          }
+        }
+      },
+      {
+        "threshold": 0.15,
+        "false_alarm_fraction": 0.0033329070622462355,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              1.0
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9979757085020243,
+              0.926829268292683
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0005388272583201268
+          },
+          "3": {
+            "recalls": [
+              0.19905956112852666,
+              0.0,
+              0.8891170431211499
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.004463553119564147
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.6123076923076923,
+              0.0,
+              0.0,
+              0.0,
+              0.7804878048780488
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.008541477934515335
+          }
+        }
+      },
+      {
+        "threshold": 0.2,
+        "false_alarm_fraction": 0.0026055820198855463,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              1.0
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9979757085020243,
+              0.9176829268292683
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0004120443740095087
+          },
+          "3": {
+            "recalls": [
+              0.1896551724137931,
+              0.0,
+              0.8747433264887063
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.003577406544356559
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.5938461538461538,
+              0.0,
+              0.0,
+              0.0,
+              0.7317073170731707
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.006600232949398214
+          }
+        }
+      },
+      {
+        "threshold": 0.25,
+        "false_alarm_fraction": 0.0021020492982512227,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              1.0
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9959514170040485,
+              0.9146341463414634
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0003169572107765452
+          },
+          "3": {
+            "recalls": [
+              0.1833855799373041,
+              0.0,
+              0.86652977412731
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0031507433785158685
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.5784615384615385,
+              0.0,
+              0.0,
+              0.0,
+              0.7195121951219512
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.005079591044389802
+          }
+        }
+      },
+      {
+        "threshold": 0.3,
+        "false_alarm_fraction": 0.0017423830685124205,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              1.0
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9878542510121457,
+              0.9085365853658537
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0002218700475435816
+          },
+          "3": {
+            "recalls": [
+              0.1724137931034483,
+              0.0,
+              0.8542094455852156
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0025927992385703503
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.563076923076923,
+              0.0,
+              0.0,
+              0.0,
+              0.7195121951219512
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.004270738967257668
+          }
+        }
+      },
+      {
+        "threshold": 0.35,
+        "false_alarm_fraction": 0.001398702004539787,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9970501474926253
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9838056680161943,
+              0.899390243902439
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.00012678288431061807
+          },
+          "3": {
+            "recalls": [
+              0.16300940438871472,
+              0.0,
+              0.8439425051334702
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0023958777774131085
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.5507692307692308,
+              0.0,
+              0.0,
+              0.0,
+              0.7073170731707317
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0031707001423579655
+          }
+        }
+      },
+      {
+        "threshold": 0.4,
+        "false_alarm_fraction": 0.0011908948495795901,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9970501474926253
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9757085020242915,
+              0.8780487804878049
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 9.508716323296356e-05
+          },
+          "3": {
+            "recalls": [
+              0.15987460815047022,
+              0.0,
+              0.8357289527720739
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0023302372903606944
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.5430769230769231,
+              0.0,
+              0.0,
+              0.0,
+              0.6951219512195121
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0024265562313964023
+          }
+        }
+      },
+      {
+        "threshold": 0.45,
+        "false_alarm_fraction": 0.0010310431919179001,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9970501474926253
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.97165991902834,
+              0.875
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.15047021943573669,
+              0.0,
+              0.8275154004106776
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0021989563162558667
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.5338461538461539,
+              0.0,
+              0.0,
+              0.0,
+              0.6829268292682927
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0020059531512876924
+          }
+        }
+      },
+      {
+        "threshold": 0.5,
+        "false_alarm_fraction": 0.0008711915342562102,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9941002949852508
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9676113360323887,
+              0.8658536585365854
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.14576802507836992,
+              0.0,
+              0.813141683778234
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.002100495585677246
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.5261538461538462,
+              0.0,
+              0.0,
+              0.0,
+              0.6585365853658537
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0014559337388378414
+          }
+        }
+      },
+      {
+        "threshold": 0.55,
+        "false_alarm_fraction": 0.0007433102081268583,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9911504424778761
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.951417004048583,
+              0.8628048780487805
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.1426332288401254,
+              0.0,
+              0.8028747433264887
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0019692146115724177
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.5169230769230769,
+              0.0,
+              0.0,
+              0.0,
+              0.6585365853658537
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.001067684741814417
+          }
+        }
+      },
+      {
+        "threshold": 0.6,
+        "false_alarm_fraction": 0.0006154288819975063,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9882005899705014
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9412955465587044,
+              0.8475609756097561
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.13322884012539185,
+              0.0,
+              0.7946611909650924
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.001805113393941383
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.5076923076923077,
+              0.0,
+              0.0,
+              0.0,
+              0.6585365853658537
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.000711789827876278
+          }
+        }
+      },
+      {
+        "threshold": 0.65,
+        "false_alarm_fraction": 0.0005275104702835769,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9852507374631269
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9129554655870445,
+              0.8292682926829268
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.13009404388714735,
+              0.0,
+              0.7802874743326489
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0016738324198365552
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.5030769230769231,
+              0.0,
+              0.0,
+              0.0,
+              0.6341463414634146
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.00048531124627928043
+          }
+        }
+      },
+      {
+        "threshold": 0.7,
+        "false_alarm_fraction": 0.00047156239010198535,
+        "detected_total": 5,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:cross",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9705014749262537
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.8846153846153846,
+              0.801829268292683
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.1206896551724138,
+              0.0,
+              0.7618069815195072
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0015753716892579343
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.4846153846153846,
+              0.0,
+              0.0,
+              0.0,
+              0.6341463414634146
+            ],
+            "detected": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.000355894913938139
+          }
+        }
+      },
+      {
+        "threshold": 0.75,
+        "false_alarm_fraction": 0.0004156143099203939,
+        "detected_total": 5,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:cross",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9557522123893806
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.8643724696356275,
+              0.7896341463414634
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.11442006269592477,
+              0.0,
+              0.757700205338809
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0015425514457317274
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.4753846153846154,
+              0.0,
+              0.0,
+              0.0,
+              0.6097560975609756
+            ],
+            "detected": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0001617704154264268
+          }
+        }
+      },
+      {
+        "threshold": 0.8,
+        "false_alarm_fraction": 0.0003436810639726334,
+        "detected_total": 5,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:cross",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.943952802359882
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.8380566801619433,
+              0.7591463414634146
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.10658307210031348,
+              0.0,
+              0.7330595482546202
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0013128097410482786
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.45692307692307693,
+              0.0,
+              0.0,
+              0.0,
+              0.573170731707317
+            ],
+            "detected": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 9.70622492558561e-05
+          }
+        }
+      },
+      {
+        "threshold": 0.85,
+        "false_alarm_fraction": 0.0002877329837910419,
+        "detected_total": 5,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:cross",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9262536873156342
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.8016194331983806,
+              0.725609756097561
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.09717868338557993,
+              0.0,
+              0.7084188911704312
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0011487085234172438
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.44769230769230767,
+              0.0,
+              0.0,
+              0.0,
+              0.5609756097560976
+            ],
+            "detected": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 3.2354083085285365e-05
+          }
+        }
+      },
+      {
+        "threshold": 0.9,
+        "false_alarm_fraction": 0.00022379232072636593,
+        "detected_total": 5,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:cross",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.8967551622418879
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.7408906882591093,
+              0.6798780487804879
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.08620689655172414,
+              0.0,
+              0.6694045174537988
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.000918966818733795
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.42,
+              0.0,
+              0.0,
+              0.0,
+              0.524390243902439
+            ],
+            "detected": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          }
+        }
+      }
+    ]
+  },
+  "working_points": {
+    "author800": {
+      "0.01": {
+        "threshold": 0.45,
+        "false_alarm_fraction": 0.0022219380414974905,
+        "detected_total": 7,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          3
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d2",
+          "case4:right_circle_d4"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9882005899705014
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.902834008097166,
+              0.9359756097560976
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8295687885010267
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.006301486757031737
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.7215384615384616,
+              0.8170731707317073,
+              0.5217391304347826,
+              0.0,
+              0.0
+            ],
+            "detected": [
+              false,
+              true,
+              true,
+              true,
+              false,
+              false
+            ],
+            "false_alarm_fraction": 0.0027824511453345413
+          }
+        }
+      },
+      "0.005": {
+        "threshold": 0.45,
+        "false_alarm_fraction": 0.0022219380414974905,
+        "detected_total": 7,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          3
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d2",
+          "case4:right_circle_d4"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9882005899705014
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.902834008097166,
+              0.9359756097560976
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.8295687885010267
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.006301486757031737
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.7215384615384616,
+              0.8170731707317073,
+              0.5217391304347826,
+              0.0,
+              0.0
+            ],
+            "detected": [
+              false,
+              true,
+              true,
+              true,
+              false,
+              false
+            ],
+            "false_alarm_fraction": 0.0027824511453345413
+          }
+        }
+      }
+    },
+    "control": {
+      "0.01": {
+        "threshold": 0.1,
+        "false_alarm_fraction": 0.0068336583650372455,
+        "detected_total": 7,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          3
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              1.0
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              1.0,
+              0.9847560975609756
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 9.508716323296356e-05
+          },
+          "3": {
+            "recalls": [
+              0.025078369905956112,
+              0.0,
+              0.8726899383983573
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.019298303193409694
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.6738461538461539,
+              0.036585365853658534,
+              0.6521739130434783,
+              0.0,
+              0.975609756097561
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              true,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.008541477934515335
+          }
+        }
+      },
+      "0.005": {
+        "threshold": 0.65,
+        "false_alarm_fraction": 0.0010070654432686467,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9528023598820059
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9696356275303644,
+              0.8201219512195121
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.0,
+              0.0,
+              0.7967145790554415
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0022645968033082804
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.5138461538461538,
+              0.0,
+              0.0,
+              0.0,
+              0.7804878048780488
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0018441827358612658
+          }
+        }
+      }
+    },
+    "experiment": {
+      "0.01": {
+        "threshold": 0.65,
+        "false_alarm_fraction": 0.0005275104702835769,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9852507374631269
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9129554655870445,
+              0.8292682926829268
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.13009404388714735,
+              0.0,
+              0.7802874743326489
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0016738324198365552
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.5030769230769231,
+              0.0,
+              0.0,
+              0.0,
+              0.6341463414634146
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.00048531124627928043
+          }
+        }
+      },
+      "0.005": {
+        "threshold": 0.65,
+        "false_alarm_fraction": 0.0005275104702835769,
+        "detected_total": 6,
+        "detected_per_case": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "total_defects": 12,
+        "thin_slit_recall": 0.0,
+        "missed_defects": [
+          "case3:left_ellipse",
+          "case3:thin_slit",
+          "case4:left_circle_d6",
+          "case4:central_circle_d4",
+          "case4:central_circle_d3",
+          "case4:central_circle_d2"
+        ],
+        "cases": {
+          "1": {
+            "recalls": [
+              0.9852507374631269
+            ],
+            "detected": [
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "2": {
+            "recalls": [
+              0.9129554655870445,
+              0.8292682926829268
+            ],
+            "detected": [
+              true,
+              true
+            ],
+            "false_alarm_fraction": 0.0
+          },
+          "3": {
+            "recalls": [
+              0.13009404388714735,
+              0.0,
+              0.7802874743326489
+            ],
+            "detected": [
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.0016738324198365552
+          },
+          "4": {
+            "recalls": [
+              0.0,
+              0.5030769230769231,
+              0.0,
+              0.0,
+              0.0,
+              0.6341463414634146
+            ],
+            "detected": [
+              false,
+              true,
+              false,
+              false,
+              false,
+              true
+            ],
+            "false_alarm_fraction": 0.00048531124627928043
+          }
+        }
+      }
+    }
+  },
+  "material_mse": {
+    "author800": [
+      0.0005221916653948918,
+      0.0023277172247367947,
+      0.03311386118937376,
+      0.021123291094238186
+    ],
+    "control": [
+      0.0007414853606866267,
+      0.0018195941418539632,
+      0.030735568020997434,
+      0.02122619507812382
+    ],
+    "experiment": [
+      0.0006618896775329485,
+      0.002119784731583943,
+      0.02665018330509235,
+      0.021869521854481877
+    ]
+  },
+  "timings": {
+    "control": {
+      "training": {
+        "seconds": 25.571072400000048,
+        "epochs": 100,
+        "training_loss": 0.0008309899130836129,
+        "validation_loss": 0.004349895287305117,
+        "convergence": {
+          "last10_mean": 0.00435404283925891,
+          "previous10_mean": 0.004297421360388398,
+          "relative_change": 0.013175687027672373,
+          "last10_cv": 0.04291181627674009,
+          "late_plateau": true
+        }
+      },
+      "transfer": [
+        {
+          "method": "transfer",
+          "case": 1,
+          "updates": 5,
+          "actual_initial_lr": 0.0005,
+          "material_mse": 0.0007692482201934771,
+          "initial_mse": 0.003469365519883941,
+          "fit_seconds": 31.149266500000067,
+          "initial_ready_seconds": 14.039801600000374,
+          "post5_forward_seconds": 0.0026646000001164794,
+          "post5_mse": 0.0007414853606866267,
+          "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+        },
+        {
+          "method": "transfer",
+          "case": 2,
+          "updates": 5,
+          "actual_initial_lr": 0.0005,
+          "material_mse": 0.002095453925916448,
+          "initial_mse": 0.005302405987366586,
+          "fit_seconds": 10.94028359999993,
+          "initial_ready_seconds": 14.336414299999888,
+          "post5_forward_seconds": 0.002680699999928038,
+          "post5_mse": 0.0018195941418539632,
+          "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+        },
+        {
+          "method": "transfer",
+          "case": 3,
+          "updates": 5,
+          "actual_initial_lr": 0.0005,
+          "material_mse": 0.030828203296658557,
+          "initial_mse": 0.04344099057069917,
+          "fit_seconds": 14.4246705999999,
+          "initial_ready_seconds": 12.397574900000109,
+          "post5_forward_seconds": 0.0027331999999660184,
+          "post5_mse": 0.030735568020997434,
+          "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+        },
+        {
+          "method": "transfer",
+          "case": 4,
+          "updates": 5,
+          "actual_initial_lr": 0.0005,
+          "material_mse": 0.022924017821739074,
+          "initial_mse": 0.03030355458626587,
+          "fit_seconds": 11.605567399999927,
+          "initial_ready_seconds": 12.728965099999641,
+          "post5_forward_seconds": 0.041317399999570625,
+          "post5_mse": 0.02122619507812382,
+          "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+        }
+      ]
+    },
+    "experiment": {
+      "training": {
+        "seconds": 23.00594140000021,
+        "epochs": 100,
+        "training_loss": 0.0005143564194440842,
+        "validation_loss": 0.0027244808152318,
+        "convergence": {
+          "last10_mean": 0.002777211950160563,
+          "previous10_mean": 0.0027720181504264476,
+          "relative_change": 0.0018736528594938719,
+          "last10_cv": 0.027920341417703637,
+          "late_plateau": true
+        }
+      },
+      "transfer": [
+        {
+          "method": "transfer",
+          "case": 1,
+          "updates": 5,
+          "actual_initial_lr": 0.0005,
+          "material_mse": 0.0006143131116968972,
+          "initial_mse": 0.003922853642013323,
+          "fit_seconds": 14.483244800000193,
+          "initial_ready_seconds": 12.584679000000051,
+          "post5_forward_seconds": 0.0027436000000307104,
+          "post5_mse": 0.0006618896775329485,
+          "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+        },
+        {
+          "method": "transfer",
+          "case": 2,
+          "updates": 5,
+          "actual_initial_lr": 0.0005,
+          "material_mse": 0.002624991658332158,
+          "initial_mse": 0.01065276674131881,
+          "fit_seconds": 18.914866399999937,
+          "initial_ready_seconds": 12.35071710000011,
+          "post5_forward_seconds": 0.042514500000379485,
+          "post5_mse": 0.002119784731583943,
+          "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+        },
+        {
+          "method": "transfer",
+          "case": 3,
+          "updates": 5,
+          "actual_initial_lr": 0.0005,
+          "material_mse": 0.026607156613650103,
+          "initial_mse": 0.0333915225732925,
+          "fit_seconds": 12.248763800000233,
+          "initial_ready_seconds": 13.632295699999759,
+          "post5_forward_seconds": 0.0026856999998017272,
+          "post5_mse": 0.02665018330509235,
+          "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+        },
+        {
+          "method": "transfer",
+          "case": 4,
+          "updates": 5,
+          "actual_initial_lr": 0.0005,
+          "material_mse": 0.022065625933698506,
+          "initial_mse": 0.026006774083570043,
+          "fit_seconds": 15.668880000000172,
+          "initial_ready_seconds": 15.236774499999683,
+          "post5_forward_seconds": 0.0028598000003512425,
+          "post5_mse": 0.021869521854481877,
+          "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+        }
+      ]
+    },
+    "paired_wall_seconds": 287.4308340549469
+  }
+}

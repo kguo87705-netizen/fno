@@ -20,3 +20,8 @@ Thumbs.db
 # Per-device Obsidian window state; retain shared settings and plugins.
 **/.obsidian/workspace*.json
 **/.obsidian/cache/
+
+# Generated coverage-training waveforms: keep locally; regenerate with committed scripts.
+/.build/singh-coverage-paired-20261012/control/data/
+/.build/singh-coverage-paired-20261012/experiment/data/
+/.build/singh-coverage-paired-20261012/pilot/

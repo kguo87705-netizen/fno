@@ -1,0 +1,9 @@
+{
+  "case": 1,
+  "step": 5,
+  "material_mse": 0.0005221916653948918,
+  "fit_seconds": 8.955338700000084,
+  "used_lr": 0.000372677996249965,
+  "next_lr": 0.0003535533905932738,
+  "max_difference_from_prior_post5": 0.0
+}

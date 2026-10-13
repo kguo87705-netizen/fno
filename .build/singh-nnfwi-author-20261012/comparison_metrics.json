@@ -1,0 +1,74 @@
+[
+  {
+    "conventional": {
+      "case": 1,
+      "material_mse": 0.02196479204447299,
+      "inner_mse": 0.019750109528532244,
+      "final_time_integral_cost": 1.2554573266404523e-12,
+      "historical_wall_seconds": 84.93598270000075
+    },
+    "nn": {
+      "case": 1,
+      "updates": 35,
+      "initial_lr": 0.001,
+      "material_mse": 0.010621717266008732,
+      "inner_mse": 0.010875279070509128,
+      "final_time_integral_cost": 1.3464857484199455e-12,
+      "fit_seconds": 76.41352170001483
+    }
+  },
+  {
+    "conventional": {
+      "case": 2,
+      "material_mse": 0.041482643984109835,
+      "inner_mse": 0.039905788783357446,
+      "final_time_integral_cost": 1.5577293144622417e-12,
+      "historical_wall_seconds": 86.83277369999996
+    },
+    "nn": {
+      "case": 2,
+      "updates": 35,
+      "initial_lr": 0.001,
+      "material_mse": 0.004587637117935911,
+      "inner_mse": 0.004697153264608297,
+      "final_time_integral_cost": 1.7125084987232309e-12,
+      "fit_seconds": 76.0491743000166
+    }
+  },
+  {
+    "conventional": {
+      "case": 3,
+      "material_mse": 0.08167912211949543,
+      "inner_mse": 0.07890810849910325,
+      "final_time_integral_cost": 1.9409014326288165e-12,
+      "historical_wall_seconds": 86.74213929999678
+    },
+    "nn": {
+      "case": 3,
+      "updates": 35,
+      "initial_lr": 0.001,
+      "material_mse": 0.05824810817088889,
+      "inner_mse": 0.05963860794099761,
+      "final_time_integral_cost": 2.346757987589654e-12,
+      "fit_seconds": 69.24850849999348
+    }
+  },
+  {
+    "conventional": {
+      "case": 4,
+      "material_mse": 0.06016953113597659,
+      "inner_mse": 0.05890154873021994,
+      "final_time_integral_cost": 1.70091013756285e-12,
+      "historical_wall_seconds": 81.7757844000007
+    },
+    "nn": {
+      "case": 4,
+      "updates": 35,
+      "initial_lr": 0.001,
+      "material_mse": 0.008595736226616614,
+      "inner_mse": 0.008800933779332996,
+      "final_time_integral_cost": 1.5651644477004956e-12,
+      "fit_seconds": 70.20265740001923
+    }
+  }
+]

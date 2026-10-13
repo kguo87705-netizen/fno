@@ -1,0 +1,14 @@
+{
+  "method": "transfer",
+  "case": 3,
+  "updates": 5,
+  "actual_initial_lr": 0.0005,
+  "material_mse": 0.03430238898029188,
+  "initial_mse": 0.03501979130907895,
+  "fit_seconds": 21.3900036,
+  "initial_ready_seconds": 12.48358230000008,
+  "post5_forward_seconds": 0.002322000000049229,
+  "post5_mse": 0.03311386118937376,
+  "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)",
+  "case_wall_seconds": 33.90563640000005
+}

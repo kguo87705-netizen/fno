@@ -1,0 +1,8 @@
+PILOT_GENERATION_START
+Number of sensors: 24
+0
+4.430564800000411
+PILOT_GENERATION_SECONDS 8.008386299999984
+PILOT_TRAINING_START 200 repeated samples; timing only
+Epoch: 0/0	Training Cost: 3.216975E-03	 Validation Cost: 1.975964E-03	Elapsed time: 0.611104 	 Input per sec: 32.727664
+PILOT_RESULT {"generation_one_seconds": 8.008386299999984, "training_one_epoch_200_with_load_seconds": 3.800944499999787, "pilot_wall_seconds": 11.811397552490234, "training_timing_note": "Same generated sample repeated 200 times; discard timing weights; epoch=1", "device": "cuda"}

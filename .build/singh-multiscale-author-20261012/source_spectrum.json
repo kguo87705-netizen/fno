@@ -1,0 +1,15 @@
+{
+  "dt": 3e-08,
+  "peak_hz": 500000.00000000006,
+  "frequency_resolution_hz": 16666.666666666668,
+  "cutoffs": {
+    "250000": {
+      "energy_fraction_below_cutoff": 0.03896085803796641,
+      "max_relative_amplitude_below_cutoff": 0.45328677679410606
+    },
+    "350000": {
+      "energy_fraction_below_cutoff": 0.169855395994388,
+      "max_relative_amplitude_below_cutoff": 0.779929510447013
+    }
+  }
+}

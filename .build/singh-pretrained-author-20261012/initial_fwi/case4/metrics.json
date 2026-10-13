@@ -1,0 +1,12 @@
+{
+  "method": "initial_fwi",
+  "case": 4,
+  "updates": 35,
+  "actual_initial_lr": 0.05,
+  "material_mse": 0.04583091049664756,
+  "initial_mse": 0.032169572250110634,
+  "fit_seconds": 63.47867240000005,
+  "initial_ready_seconds": 1.8359734000000572,
+  "post5_forward_seconds": 0,
+  "case_wall_seconds": 65.32882710000013
+}

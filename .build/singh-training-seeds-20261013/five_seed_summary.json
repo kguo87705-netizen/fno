@@ -1,0 +1,810 @@
+{
+  "seed_mapping": "seed0..4 -> Torch initialization 30..34; sample order and split seeds fixed at 2",
+  "details": [
+    {
+      "seed": 0,
+      "init_seed": 30,
+      "control": {
+        "detected": 5,
+        "slit": 0.0,
+        "case3_fpr": 0.00617020578292691,
+        "threshold": 0.65
+      },
+      "experiment": {
+        "detected": 9,
+        "slit": 0.0,
+        "case3_fpr": 0.007778397715711051,
+        "threshold": 0.2
+      }
+    },
+    {
+      "seed": 1,
+      "init_seed": 31,
+      "control": {
+        "detected": 7,
+        "slit": 0.0,
+        "case3_fpr": 0.019298303193409694,
+        "threshold": 0.1
+      },
+      "experiment": {
+        "detected": 6,
+        "slit": 0.0,
+        "case3_fpr": 0.0016738324198365552,
+        "threshold": 0.65
+      }
+    },
+    {
+      "seed": 2,
+      "init_seed": 32,
+      "control": {
+        "detected": 6,
+        "slit": 0.0,
+        "case3_fpr": 0.002855361186780006,
+        "threshold": 0.65
+      },
+      "experiment": {
+        "detected": 7,
+        "slit": 0.038461538461538464,
+        "case3_fpr": 0.003905608979618629,
+        "threshold": 0.55
+      }
+    },
+    {
+      "seed": 3,
+      "init_seed": 33,
+      "control": {
+        "detected": 7,
+        "slit": 0.0,
+        "case3_fpr": 0.002986642160884834,
+        "threshold": 0.5
+      },
+      "experiment": {
+        "detected": 8,
+        "slit": 0.26153846153846155,
+        "case3_fpr": 0.01371886179395451,
+        "threshold": 0.1
+      }
+    },
+    {
+      "seed": 4,
+      "init_seed": 34,
+      "control": {
+        "detected": 6,
+        "slit": 0.0,
+        "case3_fpr": 0.00551380091240277,
+        "threshold": 0.2
+      },
+      "experiment": {
+        "detected": 6,
+        "slit": 0.05384615384615385,
+        "case3_fpr": 0.01145426499064623,
+        "threshold": 0.25
+      }
+    }
+  ],
+  "aggregate": {
+    "control": {
+      "mse_mean": [
+        0.0006772787383782562,
+        0.0024731238935833274,
+        0.029676075399454382,
+        0.0212678720577034
+      ],
+      "0.01": {
+        "counts": [
+          5,
+          7,
+          6,
+          7,
+          6
+        ],
+        "mean": 6.2,
+        "min": 5,
+        "max": 7,
+        "slit_recalls": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "slit_mean": 0.0,
+        "fpr_per_case_mean": [
+          0.0,
+          1.901743264659271e-05,
+          0.0073648626472808424,
+          0.003151287692506795
+        ],
+        "case4_hole_hits": [
+          0,
+          2,
+          1,
+          0,
+          3
+        ]
+      },
+      "0.005": {
+        "counts": [
+          5,
+          6,
+          6,
+          7,
+          6
+        ],
+        "mean": 6.0,
+        "min": 5,
+        "max": 7,
+        "slit_recalls": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "slit_mean": 0.0,
+        "fpr_per_case_mean": [
+          0.0,
+          0.0,
+          0.00395812136926056,
+          0.0018118286527759805
+        ],
+        "case4_hole_hits": [
+          0,
+          2,
+          0,
+          0,
+          3
+        ]
+      }
+    },
+    "experiment": {
+      "mse_mean": [
+        0.0007057984358091173,
+        0.0021679357108209465,
+        0.027086040010536196,
+        0.021450958116214364
+      ],
+      "0.01": {
+        "counts": [
+          9,
+          6,
+          7,
+          8,
+          6
+        ],
+        "mean": 7.2,
+        "min": 6,
+        "max": 9,
+        "slit_recalls": [
+          0.0,
+          0.0,
+          0.038461538461538464,
+          0.26153846153846155,
+          0.05384615384615385
+        ],
+        "slit_mean": 0.07076923076923078,
+        "fpr_per_case_mean": [
+          8.077293485352138e-05,
+          0.000329635499207607,
+          0.007706193179953395,
+          0.004574867348259351
+        ],
+        "case4_hole_hits": [
+          0,
+          2,
+          2,
+          2,
+          5
+        ]
+      },
+      "0.005": {
+        "counts": [
+          9,
+          6,
+          7,
+          7,
+          6
+        ],
+        "mean": 7.0,
+        "min": 6,
+        "max": 9,
+        "slit_recalls": [
+          0.0,
+          0.0,
+          0.038461538461538464,
+          0.2,
+          0.05384615384615385
+        ],
+        "slit_mean": 0.05846153846153847,
+        "fpr_per_case_mean": [
+          4.970642144832085e-05,
+          4.437400950871633e-05,
+          0.006472152023368013,
+          0.003306587291316164
+        ],
+        "case4_hole_hits": [
+          0,
+          2,
+          2,
+          1,
+          5
+        ]
+      }
+    }
+  },
+  "decision": {
+    "status": "不稳健",
+    "mean_difference": 1.0,
+    "wins": 3
+  },
+  "timing": {
+    "seeds": {
+      "1": {
+        "control": {
+          "training": {
+            "seconds": 25.571072400000048,
+            "epochs": 100,
+            "training_loss": 0.0008309899130836129,
+            "validation_loss": 0.004349895287305117,
+            "convergence": {
+              "last10_mean": 0.00435404283925891,
+              "previous10_mean": 0.004297421360388398,
+              "relative_change": 0.013175687027672373,
+              "last10_cv": 0.04291181627674009,
+              "late_plateau": true
+            }
+          },
+          "transfer": [
+            {
+              "method": "transfer",
+              "case": 1,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.0007692482201934771,
+              "initial_mse": 0.003469365519883941,
+              "fit_seconds": 31.149266500000067,
+              "initial_ready_seconds": 14.039801600000374,
+              "post5_forward_seconds": 0.0026646000001164794,
+              "post5_mse": 0.0007414853606866267,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 2,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.002095453925916448,
+              "initial_mse": 0.005302405987366586,
+              "fit_seconds": 10.94028359999993,
+              "initial_ready_seconds": 14.336414299999888,
+              "post5_forward_seconds": 0.002680699999928038,
+              "post5_mse": 0.0018195941418539632,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 3,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.030828203296658557,
+              "initial_mse": 0.04344099057069917,
+              "fit_seconds": 14.4246705999999,
+              "initial_ready_seconds": 12.397574900000109,
+              "post5_forward_seconds": 0.0027331999999660184,
+              "post5_mse": 0.030735568020997434,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 4,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.022924017821739074,
+              "initial_mse": 0.03030355458626587,
+              "fit_seconds": 11.605567399999927,
+              "initial_ready_seconds": 12.728965099999641,
+              "post5_forward_seconds": 0.041317399999570625,
+              "post5_mse": 0.02122619507812382,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            }
+          ]
+        },
+        "experiment": {
+          "training": {
+            "seconds": 23.00594140000021,
+            "epochs": 100,
+            "training_loss": 0.0005143564194440842,
+            "validation_loss": 0.0027244808152318,
+            "convergence": {
+              "last10_mean": 0.002777211950160563,
+              "previous10_mean": 0.0027720181504264476,
+              "relative_change": 0.0018736528594938719,
+              "last10_cv": 0.027920341417703637,
+              "late_plateau": true
+            }
+          },
+          "transfer": [
+            {
+              "method": "transfer",
+              "case": 1,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.0006143131116968972,
+              "initial_mse": 0.003922853642013323,
+              "fit_seconds": 14.483244800000193,
+              "initial_ready_seconds": 12.584679000000051,
+              "post5_forward_seconds": 0.0027436000000307104,
+              "post5_mse": 0.0006618896775329485,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 2,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.002624991658332158,
+              "initial_mse": 0.01065276674131881,
+              "fit_seconds": 18.914866399999937,
+              "initial_ready_seconds": 12.35071710000011,
+              "post5_forward_seconds": 0.042514500000379485,
+              "post5_mse": 0.002119784731583943,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 3,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.026607156613650103,
+              "initial_mse": 0.0333915225732925,
+              "fit_seconds": 12.248763800000233,
+              "initial_ready_seconds": 13.632295699999759,
+              "post5_forward_seconds": 0.0026856999998017272,
+              "post5_mse": 0.02665018330509235,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 4,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.022065625933698506,
+              "initial_mse": 0.026006774083570043,
+              "fit_seconds": 15.668880000000172,
+              "initial_ready_seconds": 15.236774499999683,
+              "post5_forward_seconds": 0.0028598000003512425,
+              "post5_mse": 0.021869521854481877,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            }
+          ]
+        },
+        "paired_wall_seconds": 287.4308340549469
+      },
+      "2": {
+        "control": {
+          "training": {
+            "seconds": 24.35833479999974,
+            "epochs": 100,
+            "training_loss": 0.0006768312305212021,
+            "validation_loss": 0.004776230081915855,
+            "convergence": {
+              "last10_mean": 0.004566067317500711,
+              "previous10_mean": 0.004606736451387405,
+              "relative_change": -0.008828187658628944,
+              "last10_cv": 0.04659750490795419,
+              "late_plateau": true
+            }
+          },
+          "transfer": [
+            {
+              "method": "transfer",
+              "case": 1,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.0006539030845431242,
+              "initial_mse": 0.008336303063234135,
+              "fit_seconds": 10.451056700000208,
+              "initial_ready_seconds": 15.212342499999977,
+              "post5_forward_seconds": 0.003238199999941571,
+              "post5_mse": 0.0005242785681888194,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 2,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.00337211054283725,
+              "initial_mse": 0.006999408919374147,
+              "fit_seconds": 10.03862960000015,
+              "initial_ready_seconds": 12.785337199999958,
+              "post5_forward_seconds": 0.0026816999998118263,
+              "post5_mse": 0.0030652240680003225,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 3,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.030982053665423864,
+              "initial_mse": 0.0354826607657274,
+              "fit_seconds": 10.52467949999982,
+              "initial_ready_seconds": 12.825579199999993,
+              "post5_forward_seconds": 0.0027266999995845254,
+              "post5_mse": 0.02893753220931909,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 4,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.023072277939438494,
+              "initial_mse": 0.03272448403856182,
+              "fit_seconds": 9.966361799999959,
+              "initial_ready_seconds": 14.1645053000002,
+              "post5_forward_seconds": 0.0027986000000055355,
+              "post5_mse": 0.022194204746285334,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            }
+          ]
+        },
+        "experiment": {
+          "training": {
+            "seconds": 22.511460599999737,
+            "epochs": 100,
+            "training_loss": 0.0005161995068192482,
+            "validation_loss": 0.00257050059735775,
+            "convergence": {
+              "last10_mean": 0.002718423353508115,
+              "previous10_mean": 0.0027177823008969425,
+              "relative_change": 0.00023587342185605074,
+              "last10_cv": 0.041730378616778044,
+              "late_plateau": true
+            }
+          },
+          "transfer": [
+            {
+              "method": "transfer",
+              "case": 1,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.0007038864603299074,
+              "initial_mse": 0.0033781135249839724,
+              "fit_seconds": 9.961922699999832,
+              "initial_ready_seconds": 12.399712300000374,
+              "post5_forward_seconds": 0.0026982999997926527,
+              "post5_mse": 0.0006426513237935766,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 2,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.0024024291398454696,
+              "initial_mse": 0.008656711063760425,
+              "fit_seconds": 10.090177500000209,
+              "initial_ready_seconds": 12.476868000000195,
+              "post5_forward_seconds": 0.0027097000001958804,
+              "post5_mse": 0.002060688160370651,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 3,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.029138865855105806,
+              "initial_mse": 0.031101289628543527,
+              "fit_seconds": 9.977825699999812,
+              "initial_ready_seconds": 12.485263699999905,
+              "post5_forward_seconds": 0.0029773999999633816,
+              "post5_mse": 0.028178823970647717,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 4,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.019248742055902185,
+              "initial_mse": 0.028037560743821875,
+              "fit_seconds": 9.873410400000012,
+              "initial_ready_seconds": 12.314647200000309,
+              "post5_forward_seconds": 0.002706899999793677,
+              "post5_mse": 0.018882893744427694,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            }
+          ]
+        },
+        "paired_wall_seconds": 186.97760558128357
+      },
+      "3": {
+        "control": {
+          "training": {
+            "seconds": 24.486317199999576,
+            "epochs": 100,
+            "training_loss": 0.0008043241687119007,
+            "validation_loss": 0.004500397946685553,
+            "convergence": {
+              "last10_mean": 0.0047301406040787695,
+              "previous10_mean": 0.004691572906449437,
+              "relative_change": 0.008220632695766934,
+              "last10_cv": 0.05764165234699457,
+              "late_plateau": true
+            }
+          },
+          "transfer": [
+            {
+              "method": "transfer",
+              "case": 1,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.0009490466897134725,
+              "initial_mse": 0.01213160245847302,
+              "fit_seconds": 13.168465499999911,
+              "initial_ready_seconds": 12.736765900000137,
+              "post5_forward_seconds": 0.0024738000001889304,
+              "post5_mse": 0.0008072482817436208,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 2,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.0026354786778772198,
+              "initial_mse": 0.006773486977297029,
+              "fit_seconds": 10.003985400000147,
+              "initial_ready_seconds": 12.43352350000032,
+              "post5_forward_seconds": 0.0032796000000416825,
+              "post5_mse": 0.0027388496414046826,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 3,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.02484792645356477,
+              "initial_mse": 0.04083996851824793,
+              "fit_seconds": 10.005872799999906,
+              "initial_ready_seconds": 12.517700600000353,
+              "post5_forward_seconds": 0.002724700000271696,
+              "post5_mse": 0.024830060618508083,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 4,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.01940145142026508,
+              "initial_mse": 0.03615937690267657,
+              "fit_seconds": 10.053339499999765,
+              "initial_ready_seconds": 12.393760799999654,
+              "post5_forward_seconds": 0.002732899999955407,
+              "post5_mse": 0.017126045837875633,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            }
+          ]
+        },
+        "experiment": {
+          "training": {
+            "seconds": 22.330815799999982,
+            "epochs": 100,
+            "training_loss": 0.0007337292772717774,
+            "validation_loss": 0.00262611941434443,
+            "convergence": {
+              "last10_mean": 0.0027467707637697457,
+              "previous10_mean": 0.0027103910222649576,
+              "relative_change": 0.01342232216899359,
+              "last10_cv": 0.03828108287856964,
+              "late_plateau": true
+            }
+          },
+          "transfer": [
+            {
+              "method": "transfer",
+              "case": 1,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.0007521849994217107,
+              "initial_mse": 0.005133733156552855,
+              "fit_seconds": 10.060124199999791,
+              "initial_ready_seconds": 12.228501399999914,
+              "post5_forward_seconds": 0.0026619999998729327,
+              "post5_mse": 0.0006248313575797032,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 2,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.002944676670308709,
+              "initial_mse": 0.012345492017165538,
+              "fit_seconds": 11.85950099999991,
+              "initial_ready_seconds": 13.653395399999681,
+              "post5_forward_seconds": 0.0036431999997148523,
+              "post5_mse": 0.0027657480191283623,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 3,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.025971155002456843,
+              "initial_mse": 0.03514508029539666,
+              "fit_seconds": 11.929731499999889,
+              "initial_ready_seconds": 13.78854629999978,
+              "post5_forward_seconds": 0.0031386999999085674,
+              "post5_mse": 0.025115400331434775,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 4,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.02276536188217204,
+              "initial_mse": 0.03549616186374095,
+              "fit_seconds": 10.056187500000306,
+              "initial_ready_seconds": 13.388126499999998,
+              "post5_forward_seconds": 0.002520600000025297,
+              "post5_mse": 0.021894573667107658,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            }
+          ]
+        },
+        "paired_wall_seconds": 238.74616360664368
+      },
+      "4": {
+        "control": {
+          "training": {
+            "seconds": 24.75935890000028,
+            "epochs": 100,
+            "training_loss": 0.0005743721267208457,
+            "validation_loss": 0.004282377660274506,
+            "convergence": {
+              "last10_mean": 0.004355108505114913,
+              "previous10_mean": 0.004451620485633611,
+              "relative_change": -0.02168019058007394,
+              "last10_cv": 0.03274209709019124,
+              "late_plateau": true
+            }
+          },
+          "transfer": [
+            {
+              "method": "transfer",
+              "case": 1,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.0007901182589001974,
+              "initial_mse": 0.002380181180125579,
+              "fit_seconds": 13.827524499999981,
+              "initial_ready_seconds": 12.702487900000051,
+              "post5_forward_seconds": 0.0028046000002177607,
+              "post5_mse": 0.0006693987516149749,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 2,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.0024268078438047184,
+              "initial_mse": 0.010138798380824076,
+              "fit_seconds": 13.134276000000227,
+              "initial_ready_seconds": 13.716835700000047,
+              "post5_forward_seconds": 0.0035986000002594665,
+              "post5_mse": 0.0022949619516085514,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 3,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.030211988875420533,
+              "initial_mse": 0.03261034500766728,
+              "fit_seconds": 10.384532500000205,
+              "initial_ready_seconds": 14.478264699999727,
+              "post5_forward_seconds": 0.002716700000291894,
+              "post5_mse": 0.02987999194718401,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 4,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.023345654713096436,
+              "initial_mse": 0.03691575267466837,
+              "fit_seconds": 10.07279329999983,
+              "initial_ready_seconds": 12.360974200000328,
+              "post5_forward_seconds": 0.0026477000001250417,
+              "post5_mse": 0.022769992172056545,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            }
+          ]
+        },
+        "experiment": {
+          "training": {
+            "seconds": 22.314513100000113,
+            "epochs": 100,
+            "training_loss": 0.000630128663033247,
+            "validation_loss": 0.002675523515790701,
+            "convergence": {
+              "last10_mean": 0.002670240611769259,
+              "previous10_mean": 0.0026707293232902884,
+              "relative_change": -0.00018298803879810213,
+              "last10_cv": 0.04873915937052345,
+              "late_plateau": true
+            }
+          },
+          "transfer": [
+            {
+              "method": "transfer",
+              "case": 1,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.0008351430838029127,
+              "initial_mse": 0.0035895539615641075,
+              "fit_seconds": 10.01047860000017,
+              "initial_ready_seconds": 12.225626000000375,
+              "post5_forward_seconds": 0.0027283999997962383,
+              "post5_mse": 0.0007432645586929846,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 2,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.0020578909187805965,
+              "initial_mse": 0.007215740101327482,
+              "fit_seconds": 9.852730300000076,
+              "initial_ready_seconds": 12.276453799999672,
+              "post5_forward_seconds": 0.0026427000002513523,
+              "post5_mse": 0.0019071190574372766,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 3,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.027335315193053104,
+              "initial_mse": 0.033474720405195627,
+              "fit_seconds": 9.916250700000091,
+              "initial_ready_seconds": 12.367951400000038,
+              "post5_forward_seconds": 0.002637899999626825,
+              "post5_mse": 0.028713176242532567,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            },
+            {
+              "method": "transfer",
+              "case": 4,
+              "updates": 5,
+              "actual_initial_lr": 0.0005,
+              "material_mse": 0.025384909749916036,
+              "initial_mse": 0.026840433065572225,
+              "fit_seconds": 9.861773399999947,
+              "initial_ready_seconds": 12.287063200000375,
+              "post5_forward_seconds": 0.002504700000372395,
+              "post5_mse": 0.02344672422943351,
+              "saved_field_note": "Author gammaPred precedes optimizer step 5 (four updates reflected)"
+            }
+          ]
+        },
+        "paired_wall_seconds": 238.23924160003662
+      }
+    },
+    "wall_seconds": 1070.9477984905243,
+    "failures": 1
+  }
+}

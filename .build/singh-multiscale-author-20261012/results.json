@@ -1,0 +1,98 @@
+[
+  {
+    "case": 1,
+    "cutoff_hz": 250000,
+    "epochs": 35,
+    "lowpass_steps": 15,
+    "fullband_steps": 20,
+    "material_mse": 0.023148021499161033,
+    "inner_mse": 0.021995786195231192,
+    "fit_seconds": 73.6716180999938,
+    "last_preupdate_author_cost": 1.2405474867846489e-12,
+    "case_wall_seconds": 79.02006260000053
+  },
+  {
+    "case": 2,
+    "cutoff_hz": 250000,
+    "epochs": 35,
+    "lowpass_steps": 15,
+    "fullband_steps": 20,
+    "material_mse": 0.03329634460388492,
+    "inner_mse": 0.03263817562901727,
+    "fit_seconds": 75.1019699999888,
+    "last_preupdate_author_cost": 1.9308968486619893e-12,
+    "case_wall_seconds": 77.40056829998503
+  },
+  {
+    "case": 3,
+    "cutoff_hz": 250000,
+    "epochs": 35,
+    "lowpass_steps": 15,
+    "fullband_steps": 20,
+    "material_mse": 0.14426322884517823,
+    "inner_mse": 0.1436714805501285,
+    "fit_seconds": 71.75496689998545,
+    "last_preupdate_author_cost": 4.464842991852569e-12,
+    "case_wall_seconds": 74.02254999999423
+  },
+  {
+    "case": 4,
+    "cutoff_hz": 250000,
+    "epochs": 35,
+    "lowpass_steps": 15,
+    "fullband_steps": 20,
+    "material_mse": 0.07463780118237,
+    "inner_mse": 0.07438609311161579,
+    "fit_seconds": 73.4532892999996,
+    "last_preupdate_author_cost": 2.254107924620774e-12,
+    "case_wall_seconds": 75.68427180001163
+  },
+  {
+    "case": 1,
+    "cutoff_hz": 350000,
+    "epochs": 35,
+    "lowpass_steps": 15,
+    "fullband_steps": 20,
+    "material_mse": 0.021301203091691756,
+    "inner_mse": 0.019959062469893204,
+    "fit_seconds": 82.67817739999737,
+    "last_preupdate_author_cost": 1.13926262087366e-12,
+    "case_wall_seconds": 85.15554619999602
+  },
+  {
+    "case": 2,
+    "cutoff_hz": 350000,
+    "epochs": 35,
+    "lowpass_steps": 15,
+    "fullband_steps": 20,
+    "material_mse": 0.02938440135553766,
+    "inner_mse": 0.02881512912997687,
+    "fit_seconds": 89.65667520000716,
+    "last_preupdate_author_cost": 1.769890657643547e-12,
+    "case_wall_seconds": 91.84736339998199
+  },
+  {
+    "case": 3,
+    "cutoff_hz": 350000,
+    "epochs": 35,
+    "lowpass_steps": 15,
+    "fullband_steps": 20,
+    "material_mse": 0.11375130535444784,
+    "inner_mse": 0.11172854923863783,
+    "fit_seconds": 107.83728750000591,
+    "last_preupdate_author_cost": 2.3427308270401737e-12,
+    "case_wall_seconds": 109.80778090000967
+  },
+  {
+    "case": 4,
+    "cutoff_hz": 350000,
+    "epochs": 35,
+    "lowpass_steps": 15,
+    "fullband_steps": 20,
+    "material_mse": 0.06256996831223795,
+    "inner_mse": 0.06213406305058198,
+    "fit_seconds": 151.1497292999993,
+    "last_preupdate_author_cost": 1.7784583484711791e-12,
+    "case_wall_seconds": 153.9162648000056
+  }
+]

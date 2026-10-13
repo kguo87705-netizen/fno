@@ -1,0 +1,185 @@
+RUN fc=250000 case=1 remaining=1800.0s
+Number of sensors: 24
+1
+Epoch: 0/34	Cost function: 2.220E-13	MSE: 5.052E-03	Elapsed time: 2.840128
+Epoch: 2/34	Cost function: 1.332E-13	MSE: 8.167E-03	Elapsed time: 2.062792
+Epoch: 4/34	Cost function: 1.088E-13	MSE: 1.088E-02	Elapsed time: 2.093296
+Epoch: 6/34	Cost function: 8.064E-14	MSE: 1.261E-02	Elapsed time: 2.201425
+Epoch: 8/34	Cost function: 6.376E-14	MSE: 1.446E-02	Elapsed time: 2.043590
+Epoch: 10/34	Cost function: 5.646E-14	MSE: 1.583E-02	Elapsed time: 2.065583
+Epoch: 12/34	Cost function: 5.157E-14	MSE: 1.633E-02	Elapsed time: 2.072363
+Epoch: 14/34	Cost function: 4.606E-14	MSE: 1.629E-02	Elapsed time: 2.117854
+Epoch: 16/34	Cost function: 3.311E-12	MSE: 1.549E-02	Elapsed time: 2.068589
+Epoch: 18/34	Cost function: 2.399E-12	MSE: 1.484E-02	Elapsed time: 2.070413
+Epoch: 20/34	Cost function: 2.070E-12	MSE: 1.445E-02	Elapsed time: 2.072037
+Epoch: 22/34	Cost function: 1.882E-12	MSE: 1.406E-02	Elapsed time: 2.157244
+Epoch: 24/34	Cost function: 1.696E-12	MSE: 1.361E-02	Elapsed time: 2.046418
+Epoch: 26/34	Cost function: 1.551E-12	MSE: 1.310E-02	Elapsed time: 2.061291
+Epoch: 28/34	Cost function: 1.431E-12	MSE: 1.255E-02	Elapsed time: 2.074677
+Epoch: 30/34	Cost function: 1.322E-12	MSE: 1.204E-02	Elapsed time: 2.086555
+Epoch: 32/34	Cost function: 1.266E-12	MSE: 1.161E-02	Elapsed time: 2.081506
+Epoch: 34/34	Cost function: 1.241E-12	MSE: 1.131E-02	Elapsed time: 2.061227
+FINAL {"case": 1, "cutoff_hz": 250000, "epochs": 35, "lowpass_steps": 15, "fullband_steps": 20, "material_mse": 0.023148021499161033, "inner_mse": 0.021995786195231192, "fit_seconds": 73.6716180999938, "last_preupdate_author_cost": 1.2405474867846489e-12}
+DONE {"case": 1, "cutoff_hz": 250000, "epochs": 35, "lowpass_steps": 15, "fullband_steps": 20, "material_mse": 0.023148021499161033, "inner_mse": 0.021995786195231192, "fit_seconds": 73.6716180999938, "last_preupdate_author_cost": 1.2405474867846489e-12, "case_wall_seconds": 79.02006260000053}
+RUN fc=250000 case=2 remaining=1720.9s
+Number of sensors: 24
+2
+Epoch: 0/34	Cost function: 3.365E-13	MSE: 1.128E-02	Elapsed time: 2.375647
+Epoch: 2/34	Cost function: 2.133E-13	MSE: 1.274E-02	Elapsed time: 2.171776
+Epoch: 4/34	Cost function: 1.572E-13	MSE: 1.507E-02	Elapsed time: 2.115451
+Epoch: 6/34	Cost function: 1.186E-13	MSE: 1.766E-02	Elapsed time: 2.198450
+Epoch: 8/34	Cost function: 9.160E-14	MSE: 2.005E-02	Elapsed time: 2.197283
+Epoch: 10/34	Cost function: 7.501E-14	MSE: 2.079E-02	Elapsed time: 2.421744
+Epoch: 12/34	Cost function: 6.134E-14	MSE: 2.024E-02	Elapsed time: 2.392249
+Epoch: 14/34	Cost function: 5.493E-14	MSE: 1.904E-02	Elapsed time: 2.183260
+Epoch: 16/34	Cost function: 4.613E-12	MSE: 1.802E-02	Elapsed time: 2.112576
+Epoch: 18/34	Cost function: 4.016E-12	MSE: 1.747E-02	Elapsed time: 2.011707
+Epoch: 20/34	Cost function: 3.133E-12	MSE: 1.739E-02	Elapsed time: 2.003756
+Epoch: 22/34	Cost function: 2.904E-12	MSE: 1.724E-02	Elapsed time: 2.034110
+Epoch: 24/34	Cost function: 2.512E-12	MSE: 1.704E-02	Elapsed time: 2.010409
+Epoch: 26/34	Cost function: 2.382E-12	MSE: 1.696E-02	Elapsed time: 2.031113
+Epoch: 28/34	Cost function: 2.256E-12	MSE: 1.672E-02	Elapsed time: 2.076066
+Epoch: 30/34	Cost function: 2.062E-12	MSE: 1.648E-02	Elapsed time: 2.044108
+Epoch: 32/34	Cost function: 1.903E-12	MSE: 1.636E-02	Elapsed time: 2.068494
+Epoch: 34/34	Cost function: 1.931E-12	MSE: 1.626E-02	Elapsed time: 1.980543
+FINAL {"case": 2, "cutoff_hz": 250000, "epochs": 35, "lowpass_steps": 15, "fullband_steps": 20, "material_mse": 0.03329634460388492, "inner_mse": 0.03263817562901727, "fit_seconds": 75.1019699999888, "last_preupdate_author_cost": 1.9308968486619893e-12}
+DONE {"case": 2, "cutoff_hz": 250000, "epochs": 35, "lowpass_steps": 15, "fullband_steps": 20, "material_mse": 0.03329634460388492, "inner_mse": 0.03263817562901727, "fit_seconds": 75.1019699999888, "last_preupdate_author_cost": 1.9308968486619893e-12, "case_wall_seconds": 77.40056829998503}
+RUN fc=250000 case=3 remaining=1643.5s
+Number of sensors: 24
+3
+Epoch: 0/34	Cost function: 6.025E-13	MSE: 1.792E-02	Elapsed time: 2.069755
+Epoch: 2/34	Cost function: 4.548E-13	MSE: 2.012E-02	Elapsed time: 2.035881
+Epoch: 4/34	Cost function: 3.644E-13	MSE: 2.550E-02	Elapsed time: 1.980649
+Epoch: 6/34	Cost function: 2.959E-13	MSE: 3.289E-02	Elapsed time: 2.032807
+Epoch: 8/34	Cost function: 2.465E-13	MSE: 4.071E-02	Elapsed time: 2.010736
+Epoch: 10/34	Cost function: 2.037E-13	MSE: 4.778E-02	Elapsed time: 1.959640
+Epoch: 12/34	Cost function: 1.660E-13	MSE: 5.412E-02	Elapsed time: 1.999589
+Epoch: 14/34	Cost function: 1.368E-13	MSE: 5.902E-02	Elapsed time: 2.030975
+Epoch: 16/34	Cost function: 7.855E-12	MSE: 6.266E-02	Elapsed time: 2.058336
+Epoch: 18/34	Cost function: 7.378E-12	MSE: 6.576E-02	Elapsed time: 2.047692
+Epoch: 20/34	Cost function: 6.918E-12	MSE: 6.794E-02	Elapsed time: 1.976233
+Epoch: 22/34	Cost function: 6.484E-12	MSE: 6.971E-02	Elapsed time: 1.964826
+Epoch: 24/34	Cost function: 6.217E-12	MSE: 7.079E-02	Elapsed time: 2.031992
+Epoch: 26/34	Cost function: 5.775E-12	MSE: 7.134E-02	Elapsed time: 1.996284
+Epoch: 28/34	Cost function: 5.280E-12	MSE: 7.131E-02	Elapsed time: 2.040052
+Epoch: 30/34	Cost function: 4.906E-12	MSE: 7.114E-02	Elapsed time: 2.218083
+Epoch: 32/34	Cost function: 4.613E-12	MSE: 7.090E-02	Elapsed time: 2.112813
+Epoch: 34/34	Cost function: 4.465E-12	MSE: 7.047E-02	Elapsed time: 2.076857
+FINAL {"case": 3, "cutoff_hz": 250000, "epochs": 35, "lowpass_steps": 15, "fullband_steps": 20, "material_mse": 0.14426322884517823, "inner_mse": 0.1436714805501285, "fit_seconds": 71.75496689998545, "last_preupdate_author_cost": 4.464842991852569e-12}
+DONE {"case": 3, "cutoff_hz": 250000, "epochs": 35, "lowpass_steps": 15, "fullband_steps": 20, "material_mse": 0.14426322884517823, "inner_mse": 0.1436714805501285, "fit_seconds": 71.75496689998545, "last_preupdate_author_cost": 4.464842991852569e-12, "case_wall_seconds": 74.02254999999423}
+RUN fc=250000 case=4 remaining=1569.5s
+Number of sensors: 24
+4
+Epoch: 0/34	Cost function: 4.098E-13	MSE: 1.521E-02	Elapsed time: 2.433404
+Epoch: 2/34	Cost function: 2.658E-13	MSE: 1.834E-02	Elapsed time: 2.167864
+Epoch: 4/34	Cost function: 1.856E-13	MSE: 2.460E-02	Elapsed time: 2.092774
+Epoch: 6/34	Cost function: 1.498E-13	MSE: 2.985E-02	Elapsed time: 2.082534
+Epoch: 8/34	Cost function: 1.254E-13	MSE: 3.262E-02	Elapsed time: 2.077285
+Epoch: 10/34	Cost function: 1.076E-13	MSE: 3.426E-02	Elapsed time: 2.096568
+Epoch: 12/34	Cost function: 9.663E-14	MSE: 3.565E-02	Elapsed time: 2.112428
+Epoch: 14/34	Cost function: 8.396E-14	MSE: 3.666E-02	Elapsed time: 2.099067
+Epoch: 16/34	Cost function: 6.624E-12	MSE: 3.719E-02	Elapsed time: 2.078757
+Epoch: 18/34	Cost function: 5.127E-12	MSE: 3.750E-02	Elapsed time: 2.116389
+Epoch: 20/34	Cost function: 4.168E-12	MSE: 3.805E-02	Elapsed time: 2.123825
+Epoch: 22/34	Cost function: 3.832E-12	MSE: 3.860E-02	Elapsed time: 2.070050
+Epoch: 24/34	Cost function: 3.507E-12	MSE: 3.878E-02	Elapsed time: 2.094482
+Epoch: 26/34	Cost function: 3.345E-12	MSE: 3.893E-02	Elapsed time: 2.431968
+Epoch: 28/34	Cost function: 3.000E-12	MSE: 3.855E-02	Elapsed time: 2.158404
+Epoch: 30/34	Cost function: 2.725E-12	MSE: 3.798E-02	Elapsed time: 1.959368
+Epoch: 32/34	Cost function: 2.465E-12	MSE: 3.726E-02	Elapsed time: 1.925540
+Epoch: 34/34	Cost function: 2.254E-12	MSE: 3.646E-02	Elapsed time: 1.947948
+FINAL {"case": 4, "cutoff_hz": 250000, "epochs": 35, "lowpass_steps": 15, "fullband_steps": 20, "material_mse": 0.07463780118237, "inner_mse": 0.07438609311161579, "fit_seconds": 73.4532892999996, "last_preupdate_author_cost": 2.254107924620774e-12}
+DONE {"case": 4, "cutoff_hz": 250000, "epochs": 35, "lowpass_steps": 15, "fullband_steps": 20, "material_mse": 0.07463780118237, "inner_mse": 0.07438609311161579, "fit_seconds": 73.4532892999996, "last_preupdate_author_cost": 2.254107924620774e-12, "case_wall_seconds": 75.68427180001163}
+RUN fc=350000 case=1 remaining=1493.7s
+Number of sensors: 24
+1
+Epoch: 0/34	Cost function: 5.123E-13	MSE: 5.006E-03	Elapsed time: 2.797427
+Epoch: 2/34	Cost function: 3.411E-13	MSE: 6.755E-03	Elapsed time: 2.356650
+Epoch: 4/34	Cost function: 2.773E-13	MSE: 8.968E-03	Elapsed time: 2.381150
+Epoch: 6/34	Cost function: 2.328E-13	MSE: 1.067E-02	Elapsed time: 2.167549
+Epoch: 8/34	Cost function: 2.007E-13	MSE: 1.193E-02	Elapsed time: 2.877192
+Epoch: 10/34	Cost function: 1.733E-13	MSE: 1.276E-02	Elapsed time: 2.461621
+Epoch: 12/34	Cost function: 1.554E-13	MSE: 1.323E-02	Elapsed time: 2.392659
+Epoch: 14/34	Cost function: 1.424E-13	MSE: 1.327E-02	Elapsed time: 2.472000
+Epoch: 16/34	Cost function: 2.583E-12	MSE: 1.271E-02	Elapsed time: 2.334225
+Epoch: 18/34	Cost function: 1.862E-12	MSE: 1.236E-02	Elapsed time: 2.314831
+Epoch: 20/34	Cost function: 1.685E-12	MSE: 1.220E-02	Elapsed time: 2.375558
+Epoch: 22/34	Cost function: 1.543E-12	MSE: 1.199E-02	Elapsed time: 2.308667
+Epoch: 24/34	Cost function: 1.410E-12	MSE: 1.171E-02	Elapsed time: 2.270432
+Epoch: 26/34	Cost function: 1.323E-12	MSE: 1.140E-02	Elapsed time: 2.301737
+Epoch: 28/34	Cost function: 1.271E-12	MSE: 1.128E-02	Elapsed time: 2.248115
+Epoch: 30/34	Cost function: 1.256E-12	MSE: 1.104E-02	Elapsed time: 2.269062
+Epoch: 32/34	Cost function: 1.179E-12	MSE: 1.071E-02	Elapsed time: 2.226927
+Epoch: 34/34	Cost function: 1.139E-12	MSE: 1.041E-02	Elapsed time: 2.241570
+FINAL {"case": 1, "cutoff_hz": 350000, "epochs": 35, "lowpass_steps": 15, "fullband_steps": 20, "material_mse": 0.021301203091691756, "inner_mse": 0.019959062469893204, "fit_seconds": 82.67817739999737, "last_preupdate_author_cost": 1.13926262087366e-12}
+DONE {"case": 1, "cutoff_hz": 350000, "epochs": 35, "lowpass_steps": 15, "fullband_steps": 20, "material_mse": 0.021301203091691756, "inner_mse": 0.019959062469893204, "fit_seconds": 82.67817739999737, "last_preupdate_author_cost": 1.13926262087366e-12, "case_wall_seconds": 85.15554619999602}
+RUN fc=350000 case=2 remaining=1408.4s
+Number of sensors: 24
+2
+Epoch: 0/34	Cost function: 1.189E-12	MSE: 1.138E-02	Elapsed time: 2.992200
+Epoch: 2/34	Cost function: 7.520E-13	MSE: 1.326E-02	Elapsed time: 2.623896
+Epoch: 4/34	Cost function: 5.384E-13	MSE: 1.635E-02	Elapsed time: 2.734362
+Epoch: 6/34	Cost function: 4.383E-13	MSE: 1.731E-02	Elapsed time: 2.966241
+Epoch: 8/34	Cost function: 3.342E-13	MSE: 1.706E-02	Elapsed time: 2.701951
+Epoch: 10/34	Cost function: 2.636E-13	MSE: 1.695E-02	Elapsed time: 2.629604
+Epoch: 12/34	Cost function: 2.218E-13	MSE: 1.692E-02	Elapsed time: 2.674554
+Epoch: 14/34	Cost function: 1.954E-13	MSE: 1.663E-02	Elapsed time: 2.636764
+Epoch: 16/34	Cost function: 3.799E-12	MSE: 1.651E-02	Elapsed time: 2.671741
+Epoch: 18/34	Cost function: 3.172E-12	MSE: 1.640E-02	Elapsed time: 2.445668
+Epoch: 20/34	Cost function: 2.573E-12	MSE: 1.615E-02	Elapsed time: 2.347413
+Epoch: 22/34	Cost function: 2.272E-12	MSE: 1.579E-02	Elapsed time: 2.335068
+Epoch: 24/34	Cost function: 1.992E-12	MSE: 1.540E-02	Elapsed time: 2.367079
+Epoch: 26/34	Cost function: 1.832E-12	MSE: 1.499E-02	Elapsed time: 2.352760
+Epoch: 28/34	Cost function: 1.684E-12	MSE: 1.475E-02	Elapsed time: 2.331895
+Epoch: 30/34	Cost function: 1.864E-12	MSE: 1.467E-02	Elapsed time: 2.354484
+Epoch: 32/34	Cost function: 1.788E-12	MSE: 1.452E-02	Elapsed time: 2.391353
+Epoch: 34/34	Cost function: 1.770E-12	MSE: 1.435E-02	Elapsed time: 2.321726
+FINAL {"case": 2, "cutoff_hz": 350000, "epochs": 35, "lowpass_steps": 15, "fullband_steps": 20, "material_mse": 0.02938440135553766, "inner_mse": 0.02881512912997687, "fit_seconds": 89.65667520000716, "last_preupdate_author_cost": 1.769890657643547e-12}
+DONE {"case": 2, "cutoff_hz": 350000, "epochs": 35, "lowpass_steps": 15, "fullband_steps": 20, "material_mse": 0.02938440135553766, "inner_mse": 0.02881512912997687, "fit_seconds": 89.65667520000716, "last_preupdate_author_cost": 1.769890657643547e-12, "case_wall_seconds": 91.84736339998199}
+RUN fc=350000 case=3 remaining=1316.4s
+Number of sensors: 24
+3
+Epoch: 0/34	Cost function: 1.537E-12	MSE: 1.780E-02	Elapsed time: 3.230590
+Epoch: 2/34	Cost function: 1.121E-12	MSE: 1.972E-02	Elapsed time: 2.024050
+Epoch: 4/34	Cost function: 9.008E-13	MSE: 2.425E-02	Elapsed time: 2.122493
+Epoch: 6/34	Cost function: 7.638E-13	MSE: 2.893E-02	Elapsed time: 3.100177
+Epoch: 8/34	Cost function: 6.681E-13	MSE: 3.342E-02	Elapsed time: 3.502381
+Epoch: 10/34	Cost function: 5.856E-13	MSE: 3.804E-02	Elapsed time: 3.494194
+Epoch: 12/34	Cost function: 5.121E-13	MSE: 4.233E-02	Elapsed time: 2.829120
+Epoch: 14/34	Cost function: 4.554E-13	MSE: 4.594E-02	Elapsed time: 3.265664
+Epoch: 16/34	Cost function: 5.408E-12	MSE: 4.898E-02	Elapsed time: 3.109185
+Epoch: 18/34	Cost function: 4.862E-12	MSE: 5.143E-02	Elapsed time: 3.482246
+Epoch: 20/34	Cost function: 4.096E-12	MSE: 5.316E-02	Elapsed time: 3.490964
+Epoch: 22/34	Cost function: 3.735E-12	MSE: 5.461E-02	Elapsed time: 2.665465
+Epoch: 24/34	Cost function: 3.535E-12	MSE: 5.549E-02	Elapsed time: 3.338021
+Epoch: 26/34	Cost function: 3.356E-12	MSE: 5.577E-02	Elapsed time: 2.698086
+Epoch: 28/34	Cost function: 2.913E-12	MSE: 5.556E-02	Elapsed time: 3.157638
+Epoch: 30/34	Cost function: 2.726E-12	MSE: 5.535E-02	Elapsed time: 3.831134
+Epoch: 32/34	Cost function: 2.534E-12	MSE: 5.540E-02	Elapsed time: 3.359991
+Epoch: 34/34	Cost function: 2.343E-12	MSE: 5.557E-02	Elapsed time: 3.589253
+FINAL {"case": 3, "cutoff_hz": 350000, "epochs": 35, "lowpass_steps": 15, "fullband_steps": 20, "material_mse": 0.11375130535444784, "inner_mse": 0.11172854923863783, "fit_seconds": 107.83728750000591, "last_preupdate_author_cost": 2.3427308270401737e-12}
+DONE {"case": 3, "cutoff_hz": 350000, "epochs": 35, "lowpass_steps": 15, "fullband_steps": 20, "material_mse": 0.11375130535444784, "inner_mse": 0.11172854923863783, "fit_seconds": 107.83728750000591, "last_preupdate_author_cost": 2.3427308270401737e-12, "case_wall_seconds": 109.80778090000967}
+RUN fc=350000 case=4 remaining=1206.5s
+Number of sensors: 24
+4
+Epoch: 0/34	Cost function: 1.275E-12	MSE: 1.523E-02	Elapsed time: 4.906053
+Epoch: 2/34	Cost function: 8.317E-13	MSE: 1.770E-02	Elapsed time: 4.671953
+Epoch: 4/34	Cost function: 6.089E-13	MSE: 2.177E-02	Elapsed time: 5.256006
+Epoch: 6/34	Cost function: 4.879E-13	MSE: 2.587E-02	Elapsed time: 4.604689
+Epoch: 8/34	Cost function: 4.160E-13	MSE: 2.890E-02	Elapsed time: 3.770993
+Epoch: 10/34	Cost function: 3.589E-13	MSE: 3.048E-02	Elapsed time: 4.539531
+Epoch: 12/34	Cost function: 3.176E-13	MSE: 3.129E-02	Elapsed time: 4.075243
+Epoch: 14/34	Cost function: 2.813E-13	MSE: 3.155E-02	Elapsed time: 4.039244
+Epoch: 16/34	Cost function: 4.550E-12	MSE: 3.146E-02	Elapsed time: 4.442010
+Epoch: 18/34	Cost function: 3.625E-12	MSE: 3.158E-02	Elapsed time: 4.219268
+Epoch: 20/34	Cost function: 3.153E-12	MSE: 3.167E-02	Elapsed time: 4.611721
+Epoch: 22/34	Cost function: 2.688E-12	MSE: 3.147E-02	Elapsed time: 4.156459
+Epoch: 24/34	Cost function: 2.410E-12	MSE: 3.132E-02	Elapsed time: 4.244607
+Epoch: 26/34	Cost function: 2.311E-12	MSE: 3.109E-02	Elapsed time: 4.350218
+Epoch: 28/34	Cost function: 2.065E-12	MSE: 3.084E-02	Elapsed time: 3.829226
+Epoch: 30/34	Cost function: 1.936E-12	MSE: 3.074E-02	Elapsed time: 4.611011
+Epoch: 32/34	Cost function: 1.901E-12	MSE: 3.063E-02	Elapsed time: 4.847892
+Epoch: 34/34	Cost function: 1.778E-12	MSE: 3.056E-02	Elapsed time: 4.140814
+FINAL {"case": 4, "cutoff_hz": 350000, "epochs": 35, "lowpass_steps": 15, "fullband_steps": 20, "material_mse": 0.06256996831223795, "inner_mse": 0.06213406305058198, "fit_seconds": 151.1497292999993, "last_preupdate_author_cost": 1.7784583484711791e-12}
+DONE {"case": 4, "cutoff_hz": 350000, "epochs": 35, "lowpass_steps": 15, "fullband_steps": 20, "material_mse": 0.06256996831223795, "inner_mse": 0.06213406305058198, "fit_seconds": 151.1497292999993, "last_preupdate_author_cost": 1.7784583484711791e-12, "case_wall_seconds": 153.9162648000056}
+TOTAL_COMPUTE_SECONDS 747.657

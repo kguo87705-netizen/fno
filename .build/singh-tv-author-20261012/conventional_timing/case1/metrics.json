@@ -1,0 +1,14 @@
+{
+  "case": 1,
+  "k": 0.0,
+  "tv_lambda": 0.0,
+  "J0": 3.3375873679380996e-12,
+  "TV_ref": 1824.9935324301105,
+  "material_mse": 0.02196479204447299,
+  "inner_mse": 0.019750109528532244,
+  "final_time_integral_cost": 1.255457218220235e-12,
+  "final_tv": 1354.0302734375,
+  "fit_seconds": 85.15028260002146,
+  "max_difference_from_historical": 0.0,
+  "case_wall_seconds": 90.48497960000532
+}

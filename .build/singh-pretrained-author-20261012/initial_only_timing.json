@@ -1,0 +1,30 @@
+[
+  {
+    "case": 1,
+    "inference_seconds": 1.3808070000000043,
+    "initial_online_seconds": 1.6591223000000355,
+    "max_difference": 0.0,
+    "excludes": "saved initial adjoint-gradient generation and offline pretraining; no FWI iterations"
+  },
+  {
+    "case": 2,
+    "inference_seconds": 0.002321500000107335,
+    "initial_online_seconds": 0.03250479999996969,
+    "max_difference": 0.0,
+    "excludes": "saved initial adjoint-gradient generation and offline pretraining; no FWI iterations"
+  },
+  {
+    "case": 3,
+    "inference_seconds": 0.0021678000000520115,
+    "initial_online_seconds": 0.023500599999806582,
+    "max_difference": 0.0,
+    "excludes": "saved initial adjoint-gradient generation and offline pretraining; no FWI iterations"
+  },
+  {
+    "case": 4,
+    "inference_seconds": 0.0021759999999630963,
+    "initial_online_seconds": 0.02356710000003659,
+    "max_difference": 0.0,
+    "excludes": "saved initial adjoint-gradient generation and offline pretraining; no FWI iterations"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "case": 3,
+  "updates": 35,
+  "initial_lr": 0.001,
+  "material_mse": 0.05824810817088889,
+  "inner_mse": 0.05963860794099761,
+  "final_time_integral_cost": 2.346757987589654e-12,
+  "fit_seconds": 69.24850849999348
+}

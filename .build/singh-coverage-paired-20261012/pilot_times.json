@@ -1,0 +1,7 @@
+{
+  "generation_one_seconds": 8.008386299999984,
+  "training_one_epoch_200_with_load_seconds": 3.800944499999787,
+  "pilot_wall_seconds": 11.811397552490234,
+  "training_timing_note": "Same generated sample repeated 200 times; discard timing weights; epoch=1",
+  "device": "cuda"
+}

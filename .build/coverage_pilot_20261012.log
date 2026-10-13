@@ -1,0 +1,17 @@
+PILOT_GENERATION_START
+Number of sensors: 24
+Traceback (most recent call last):
+  File "D:\下载\FNO_Research_Workspace\Research_Direction\Author_Baseline_Singh_Zenodo14616677\run_coverage_pilot_20261012.py", line 31, in <module>
+    with torch.no_grad():exec(compile(gen,'author_generate_pilot','exec'),{'__file__':str(AUTHOR/'GenerateMeasurementDataTrain.py'),'__name__':'__main__'})
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "author_generate_pilot", line 79, in <module>
+  File "D:\下载\FNO_Research_Workspace\Research_Direction\Author_Baseline_Singh_Zenodo14616677\singh_zenodo\singh_zenodo\Utilities.py", line 77, in getSource
+    f_sourcesin(x, y, t, sourceLocationsx[iSource], sourceLocationsy[iSource])).unsqueeze(0)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\下载\FNO_Research_Workspace\Research_Direction\Author_Baseline_Singh_Zenodo14616677\singh_zenodo\singh_zenodo\Utilities.py", line 65, in <lambda>
+    f_sourcesin = lambda x, y, t, i, j: diracx(x, dx, i) * diracy(y, dy, j) * sourcesin(t)
+                                        ^^^^^^^^^^^^^^^^
+  File "D:\下载\FNO_Research_Workspace\Research_Direction\Author_Baseline_Singh_Zenodo14616677\singh_zenodo\singh_zenodo\Utilities.py", line 6, in diracx
+    x = x * 0
+        ~~^~~
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 3.93 GiB for an array with shape (513, 257, 4000) and data type float64
