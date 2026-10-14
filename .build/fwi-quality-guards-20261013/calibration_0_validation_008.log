@@ -1,0 +1,5 @@
+STEP validation_008 30 0 10 cost 2.190390663986408e-12
+STEP validation_008 30 0 20 cost 6.882784273076759e-13
+STEP validation_008 30 0 30 cost 2.852014956665483e-13
+STEP validation_008 30 0 35 cost 2.1471821716467776e-13
+INVERSION_RESULT {"case": "validation_008", "seed": 30, "epoch": 0, "updates": 35, "initial_cost": 1.077149341943695e-10, "final_cost": 2.028712484461459e-13, "relative_cost_reduction": 0.998116591260409, "material_mse": 0.011827065734375643, "fit_seconds": 72.64077729999917, "wall_seconds": 75.64177400000335, "peak_allocated_bytes": 9628777472, "physical_forward_calls": 36, "physical_adjoint_calls": 35, "initial_gradient_calls": "shared preprocessing in T1; one forward+one adjoint per geometry"}

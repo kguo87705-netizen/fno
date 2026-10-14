@@ -1,0 +1,14 @@
+{
+  "failure_count": 1,
+  "ids": [
+    "test_023",
+    "validation_011",
+    "validation_015"
+  ],
+  "minima_m": [
+    0.005254258224120865,
+    0.009938154949138696,
+    0.004878209120561795
+  ],
+  "reason": "raster distance check underestimates continuous edge extent"
+}

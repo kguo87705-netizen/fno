@@ -1,0 +1,84 @@
+{
+  "base_commit": "137095a",
+  "frozen_at_utc": "2026-10-13T12:05:27Z",
+  "status": "preregistered before any test inversion or outcome",
+  "decision_timing": "Primary endpoint chosen by owner after validation descriptions, before any test outcomes",
+  "primary": "Each defect detected iff within-defect abnormal pixel fraction >=0.5; pooled detection rate for holes 2/3/4/6 mm and for slits 1/2/3 cells separately",
+  "secondary": "Mean within-defect abnormal pixel fraction for every type; descriptive only; report discordant direction",
+  "main_rule": "epoch100 versus native epoch0 paired by training seed and geometry: pooled hole OR slit detection rate lower by >=0.10 on average and same direction in >=4/5 seeds",
+  "floor": "If epoch0 pooled slit detection rate <0.10, slit arm cannot test; use holes only",
+  "evidence": "Exploratory only: eight defects/type; no formal H2 decision. Formal requires full test with >=30/type.",
+  "interpretation": "A/B/C tests initialization effects; prior-strength trend only on the epoch axis. B/C are different distributions, not ordered strength.",
+  "groups": {
+    "A": "native expanded epoch0",
+    "B": "existing ellipse200 epoch100 weights",
+    "C": "existing expanded200 epoch100 weights"
+  },
+  "seeds": [
+    30,
+    31,
+    32,
+    33,
+    34
+  ],
+  "thresholds": {
+    "A": {
+      "0.01": 0.45,
+      "0.005": 0.45
+    },
+    "B": {
+      "0.01": 0.2,
+      "0.005": 0.2
+    },
+    "C": {
+      "0.01": 0.6,
+      "0.005": 0.6
+    }
+  },
+  "threshold_selection_seed": 30,
+  "threshold_policy": "Frozen validation bank; never retune per test, seed, or intermediate step; report actual FPR even above target",
+  "settings": {
+    "structure": "author Unet [1,16,32,64,128], kernel2, BN train with batch1",
+    "input": "same normalized initial gradient from fine observations and coarse solver",
+    "updates": 35,
+    "optimizer": "Adam",
+    "lr": 0.0005,
+    "weight_decay": 0,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "scheduler": "(0.2*epoch+1)^(-0.5)",
+    "clip": 5e-05,
+    "costScaling": 10000000000.0,
+    "gamma_min": 1e-05,
+    "snapshots": [
+      0,
+      5,
+      10,
+      20,
+      35
+    ],
+    "Nx": 255,
+    "Ny": 127,
+    "Nt": 2000,
+    "dt": 3e-08,
+    "source_batch": 4,
+    "precision": "float32",
+    "deterministic_algorithms": true
+  },
+  "runtime_limit_seconds": 25200,
+  "expected_seconds": [
+    19080.0,
+    21240.0
+  ],
+  "failures_stop": 2,
+  "T3": false,
+  "gradient_gate": false,
+  "limitations": [
+    "One blank material/acquisition reference; all existing blank files identical, not independent.",
+    "No noise; fine and coarse share solver family.",
+    "Pretraining inputs/materials on coarse grid; historical training observations use 510x254 refinement, new observations511x255; distribution difference."
+  ]
+}

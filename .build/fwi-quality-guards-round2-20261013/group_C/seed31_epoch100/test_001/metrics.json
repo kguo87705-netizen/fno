@@ -1,0 +1,24 @@
+{
+  "case": "test_001",
+  "seed": 31,
+  "epoch": 100,
+  "updates": 35,
+  "initial_cost": 4.5337657239574725e-12,
+  "final_cost": 9.256458446960103e-13,
+  "relative_cost_reduction": 0.7958328901282476,
+  "material_mse": 0.0052412857265524415,
+  "fit_seconds": 73.1336467000001,
+  "wall_seconds": 76.25142960000085,
+  "peak_allocated_bytes": 9628777472,
+  "physical_forward_calls": 36,
+  "physical_adjoint_calls": 35,
+  "initial_gradient_calls": "shared preprocessing in T1; one forward+one adjoint per geometry",
+  "initialization": "expanded",
+  "saved_material_steps": [
+    0,
+    5,
+    10,
+    20,
+    35
+  ]
+}

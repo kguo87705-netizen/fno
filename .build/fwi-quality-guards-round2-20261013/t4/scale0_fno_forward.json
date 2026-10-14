@@ -1,0 +1,41 @@
+{
+  "scale": 0,
+  "Nx": 255,
+  "Ny": 127,
+  "Nt": 2000,
+  "dt": 3e-08,
+  "kind": "fno_forward",
+  "sources": 4,
+  "source_execution": "four sequential single-source R2 evaluations",
+  "precision": "float32/complex64",
+  "device": "NVIDIA GeForce RTX 5070",
+  "warmup": 3,
+  "repetitions": 10,
+  "output_frames": 500,
+  "applicability": "timing only; different output storage/frame counts, no quality-qualified FWI acceleration claim",
+  "modes": [
+    16,
+    8,
+    64
+  ],
+  "width": 8,
+  "layers": 4,
+  "input_channels": 8,
+  "output": "full field500 fixed frames over60us; spatial grid refined, modes fixed",
+  "parameter_count": 8389129,
+  "status": "ok",
+  "seconds": [
+    0.6141624000010779,
+    0.6185384999989765,
+    0.6141611999992165,
+    0.6156028999976115,
+    0.613754499994684,
+    0.6131842999966466,
+    0.6115027000050759,
+    0.6157707999955164,
+    0.6171122999949148,
+    0.611492800002452
+  ],
+  "median_seconds": 0.6141618000001472,
+  "peak_allocated_bytes": 3754040320
+}

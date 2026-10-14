@@ -1,0 +1,1373 @@
+{
+  "A": [
+    {
+      "seed": 30,
+      "all": {
+        "initial": 0,
+        "final": 64,
+        "recovered_final": 64,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "holes": {
+        "initial": 0,
+        "final": 32,
+        "recovered_final": 32,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "slits": {
+        "initial": 0,
+        "final": 24,
+        "recovered_final": 24,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "0": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "1": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "2": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "3": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "4": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "5": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "6": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "7": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      }
+    },
+    {
+      "seed": 31,
+      "all": {
+        "initial": 0,
+        "final": 64,
+        "recovered_final": 64,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "holes": {
+        "initial": 0,
+        "final": 32,
+        "recovered_final": 32,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "slits": {
+        "initial": 0,
+        "final": 24,
+        "recovered_final": 24,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "0": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "1": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "2": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "3": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "4": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "5": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "6": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "7": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      }
+    },
+    {
+      "seed": 32,
+      "all": {
+        "initial": 0,
+        "final": 64,
+        "recovered_final": 64,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "holes": {
+        "initial": 0,
+        "final": 32,
+        "recovered_final": 32,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "slits": {
+        "initial": 0,
+        "final": 24,
+        "recovered_final": 24,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "0": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "1": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "2": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "3": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "4": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "5": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "6": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "7": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      }
+    },
+    {
+      "seed": 33,
+      "all": {
+        "initial": 13,
+        "final": 64,
+        "recovered_final": 51,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "holes": {
+        "initial": 11,
+        "final": 32,
+        "recovered_final": 21,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "slits": {
+        "initial": 0,
+        "final": 24,
+        "recovered_final": 24,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "0": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "1": {
+        "initial": 4,
+        "final": 8,
+        "recovered_final": 4,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "2": {
+        "initial": 4,
+        "final": 8,
+        "recovered_final": 4,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "3": {
+        "initial": 3,
+        "final": 8,
+        "recovered_final": 5,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "4": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "5": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "6": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "7": {
+        "initial": 2,
+        "final": 8,
+        "recovered_final": 6,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      }
+    },
+    {
+      "seed": 34,
+      "all": {
+        "initial": 9,
+        "final": 64,
+        "recovered_final": 55,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "holes": {
+        "initial": 7,
+        "final": 32,
+        "recovered_final": 25,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "slits": {
+        "initial": 1,
+        "final": 24,
+        "recovered_final": 23,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "0": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "1": {
+        "initial": 2,
+        "final": 8,
+        "recovered_final": 6,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "2": {
+        "initial": 3,
+        "final": 8,
+        "recovered_final": 5,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "3": {
+        "initial": 2,
+        "final": 8,
+        "recovered_final": 6,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "4": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "5": {
+        "initial": 1,
+        "final": 8,
+        "recovered_final": 7,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "6": {
+        "initial": 0,
+        "final": 8,
+        "recovered_final": 8,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "7": {
+        "initial": 1,
+        "final": 8,
+        "recovered_final": 7,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      }
+    }
+  ],
+  "B": [
+    {
+      "seed": 30,
+      "all": {
+        "initial": 47,
+        "final": 61,
+        "recovered_final": 14,
+        "lost_final": 0,
+        "never_at_saved_steps": 3,
+        "transient_only": 0
+      },
+      "holes": {
+        "initial": 27,
+        "final": 30,
+        "recovered_final": 3,
+        "lost_final": 0,
+        "never_at_saved_steps": 2,
+        "transient_only": 0
+      },
+      "slits": {
+        "initial": 14,
+        "final": 23,
+        "recovered_final": 9,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "0": {
+        "initial": 4,
+        "final": 7,
+        "recovered_final": 3,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "1": {
+        "initial": 8,
+        "final": 8,
+        "recovered_final": 0,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "2": {
+        "initial": 8,
+        "final": 8,
+        "recovered_final": 0,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "3": {
+        "initial": 7,
+        "final": 7,
+        "recovered_final": 0,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "4": {
+        "initial": 2,
+        "final": 7,
+        "recovered_final": 5,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "5": {
+        "initial": 6,
+        "final": 8,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "6": {
+        "initial": 6,
+        "final": 8,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "7": {
+        "initial": 6,
+        "final": 8,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      }
+    },
+    {
+      "seed": 31,
+      "all": {
+        "initial": 46,
+        "final": 62,
+        "recovered_final": 16,
+        "lost_final": 0,
+        "never_at_saved_steps": 2,
+        "transient_only": 0
+      },
+      "holes": {
+        "initial": 26,
+        "final": 31,
+        "recovered_final": 5,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "slits": {
+        "initial": 14,
+        "final": 23,
+        "recovered_final": 9,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "0": {
+        "initial": 4,
+        "final": 8,
+        "recovered_final": 4,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "1": {
+        "initial": 7,
+        "final": 8,
+        "recovered_final": 1,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "2": {
+        "initial": 8,
+        "final": 8,
+        "recovered_final": 0,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "3": {
+        "initial": 7,
+        "final": 7,
+        "recovered_final": 0,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "4": {
+        "initial": 3,
+        "final": 8,
+        "recovered_final": 5,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "5": {
+        "initial": 6,
+        "final": 8,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "6": {
+        "initial": 5,
+        "final": 7,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "7": {
+        "initial": 6,
+        "final": 8,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      }
+    },
+    {
+      "seed": 32,
+      "all": {
+        "initial": 42,
+        "final": 60,
+        "recovered_final": 18,
+        "lost_final": 0,
+        "never_at_saved_steps": 4,
+        "transient_only": 0
+      },
+      "holes": {
+        "initial": 23,
+        "final": 30,
+        "recovered_final": 7,
+        "lost_final": 0,
+        "never_at_saved_steps": 2,
+        "transient_only": 0
+      },
+      "slits": {
+        "initial": 13,
+        "final": 22,
+        "recovered_final": 9,
+        "lost_final": 0,
+        "never_at_saved_steps": 2,
+        "transient_only": 0
+      },
+      "0": {
+        "initial": 3,
+        "final": 7,
+        "recovered_final": 4,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "1": {
+        "initial": 7,
+        "final": 8,
+        "recovered_final": 1,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "2": {
+        "initial": 6,
+        "final": 8,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "3": {
+        "initial": 7,
+        "final": 7,
+        "recovered_final": 0,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "4": {
+        "initial": 4,
+        "final": 8,
+        "recovered_final": 4,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "5": {
+        "initial": 6,
+        "final": 7,
+        "recovered_final": 1,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "6": {
+        "initial": 3,
+        "final": 7,
+        "recovered_final": 4,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "7": {
+        "initial": 6,
+        "final": 8,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      }
+    },
+    {
+      "seed": 33,
+      "all": {
+        "initial": 39,
+        "final": 60,
+        "recovered_final": 21,
+        "lost_final": 0,
+        "never_at_saved_steps": 4,
+        "transient_only": 0
+      },
+      "holes": {
+        "initial": 21,
+        "final": 30,
+        "recovered_final": 9,
+        "lost_final": 0,
+        "never_at_saved_steps": 2,
+        "transient_only": 0
+      },
+      "slits": {
+        "initial": 13,
+        "final": 22,
+        "recovered_final": 9,
+        "lost_final": 0,
+        "never_at_saved_steps": 2,
+        "transient_only": 0
+      },
+      "0": {
+        "initial": 1,
+        "final": 7,
+        "recovered_final": 6,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "1": {
+        "initial": 6,
+        "final": 8,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "2": {
+        "initial": 8,
+        "final": 8,
+        "recovered_final": 0,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "3": {
+        "initial": 6,
+        "final": 7,
+        "recovered_final": 1,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "4": {
+        "initial": 4,
+        "final": 6,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 2,
+        "transient_only": 0
+      },
+      "5": {
+        "initial": 5,
+        "final": 8,
+        "recovered_final": 3,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "6": {
+        "initial": 4,
+        "final": 8,
+        "recovered_final": 4,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "7": {
+        "initial": 5,
+        "final": 8,
+        "recovered_final": 3,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      }
+    },
+    {
+      "seed": 34,
+      "all": {
+        "initial": 44,
+        "final": 62,
+        "recovered_final": 18,
+        "lost_final": 0,
+        "never_at_saved_steps": 2,
+        "transient_only": 0
+      },
+      "holes": {
+        "initial": 25,
+        "final": 32,
+        "recovered_final": 7,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "slits": {
+        "initial": 13,
+        "final": 22,
+        "recovered_final": 9,
+        "lost_final": 0,
+        "never_at_saved_steps": 2,
+        "transient_only": 0
+      },
+      "0": {
+        "initial": 3,
+        "final": 8,
+        "recovered_final": 5,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "1": {
+        "initial": 7,
+        "final": 8,
+        "recovered_final": 1,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "2": {
+        "initial": 8,
+        "final": 8,
+        "recovered_final": 0,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "3": {
+        "initial": 7,
+        "final": 8,
+        "recovered_final": 1,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "4": {
+        "initial": 2,
+        "final": 6,
+        "recovered_final": 4,
+        "lost_final": 0,
+        "never_at_saved_steps": 2,
+        "transient_only": 0
+      },
+      "5": {
+        "initial": 6,
+        "final": 8,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "6": {
+        "initial": 5,
+        "final": 8,
+        "recovered_final": 3,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "7": {
+        "initial": 6,
+        "final": 8,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      }
+    }
+  ],
+  "C": [
+    {
+      "seed": 30,
+      "all": {
+        "initial": 40,
+        "final": 60,
+        "recovered_final": 20,
+        "lost_final": 0,
+        "never_at_saved_steps": 4,
+        "transient_only": 0
+      },
+      "holes": {
+        "initial": 24,
+        "final": 31,
+        "recovered_final": 7,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "slits": {
+        "initial": 11,
+        "final": 21,
+        "recovered_final": 10,
+        "lost_final": 0,
+        "never_at_saved_steps": 3,
+        "transient_only": 0
+      },
+      "0": {
+        "initial": 4,
+        "final": 7,
+        "recovered_final": 3,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "1": {
+        "initial": 7,
+        "final": 8,
+        "recovered_final": 1,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "2": {
+        "initial": 7,
+        "final": 8,
+        "recovered_final": 1,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "3": {
+        "initial": 6,
+        "final": 8,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "4": {
+        "initial": 2,
+        "final": 7,
+        "recovered_final": 5,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "5": {
+        "initial": 5,
+        "final": 7,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "6": {
+        "initial": 4,
+        "final": 7,
+        "recovered_final": 3,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "7": {
+        "initial": 5,
+        "final": 8,
+        "recovered_final": 3,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      }
+    },
+    {
+      "seed": 31,
+      "all": {
+        "initial": 35,
+        "final": 59,
+        "recovered_final": 24,
+        "lost_final": 0,
+        "never_at_saved_steps": 5,
+        "transient_only": 0
+      },
+      "holes": {
+        "initial": 20,
+        "final": 30,
+        "recovered_final": 10,
+        "lost_final": 0,
+        "never_at_saved_steps": 2,
+        "transient_only": 0
+      },
+      "slits": {
+        "initial": 11,
+        "final": 21,
+        "recovered_final": 10,
+        "lost_final": 0,
+        "never_at_saved_steps": 3,
+        "transient_only": 0
+      },
+      "0": {
+        "initial": 2,
+        "final": 7,
+        "recovered_final": 5,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "1": {
+        "initial": 5,
+        "final": 8,
+        "recovered_final": 3,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "2": {
+        "initial": 6,
+        "final": 8,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "3": {
+        "initial": 7,
+        "final": 7,
+        "recovered_final": 0,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "4": {
+        "initial": 2,
+        "final": 7,
+        "recovered_final": 5,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "5": {
+        "initial": 4,
+        "final": 7,
+        "recovered_final": 3,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "6": {
+        "initial": 5,
+        "final": 7,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "7": {
+        "initial": 4,
+        "final": 8,
+        "recovered_final": 4,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      }
+    },
+    {
+      "seed": 32,
+      "all": {
+        "initial": 33,
+        "final": 61,
+        "recovered_final": 28,
+        "lost_final": 0,
+        "never_at_saved_steps": 3,
+        "transient_only": 0
+      },
+      "holes": {
+        "initial": 19,
+        "final": 30,
+        "recovered_final": 11,
+        "lost_final": 0,
+        "never_at_saved_steps": 2,
+        "transient_only": 0
+      },
+      "slits": {
+        "initial": 9,
+        "final": 23,
+        "recovered_final": 14,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "0": {
+        "initial": 3,
+        "final": 7,
+        "recovered_final": 4,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "1": {
+        "initial": 6,
+        "final": 8,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "2": {
+        "initial": 6,
+        "final": 8,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "3": {
+        "initial": 4,
+        "final": 7,
+        "recovered_final": 3,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "4": {
+        "initial": 2,
+        "final": 7,
+        "recovered_final": 5,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "5": {
+        "initial": 3,
+        "final": 8,
+        "recovered_final": 5,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "6": {
+        "initial": 4,
+        "final": 8,
+        "recovered_final": 4,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "7": {
+        "initial": 5,
+        "final": 8,
+        "recovered_final": 3,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      }
+    },
+    {
+      "seed": 33,
+      "all": {
+        "initial": 39,
+        "final": 61,
+        "recovered_final": 22,
+        "lost_final": 0,
+        "never_at_saved_steps": 3,
+        "transient_only": 0
+      },
+      "holes": {
+        "initial": 22,
+        "final": 31,
+        "recovered_final": 9,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "slits": {
+        "initial": 13,
+        "final": 22,
+        "recovered_final": 9,
+        "lost_final": 0,
+        "never_at_saved_steps": 2,
+        "transient_only": 0
+      },
+      "0": {
+        "initial": 3,
+        "final": 7,
+        "recovered_final": 4,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "1": {
+        "initial": 6,
+        "final": 8,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "2": {
+        "initial": 7,
+        "final": 8,
+        "recovered_final": 1,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "3": {
+        "initial": 6,
+        "final": 8,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "4": {
+        "initial": 2,
+        "final": 7,
+        "recovered_final": 5,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "5": {
+        "initial": 5,
+        "final": 7,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "6": {
+        "initial": 6,
+        "final": 8,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "7": {
+        "initial": 4,
+        "final": 8,
+        "recovered_final": 4,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      }
+    },
+    {
+      "seed": 34,
+      "all": {
+        "initial": 34,
+        "final": 63,
+        "recovered_final": 29,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "holes": {
+        "initial": 22,
+        "final": 32,
+        "recovered_final": 10,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "slits": {
+        "initial": 7,
+        "final": 23,
+        "recovered_final": 16,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "0": {
+        "initial": 3,
+        "final": 8,
+        "recovered_final": 5,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "1": {
+        "initial": 7,
+        "final": 8,
+        "recovered_final": 1,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "2": {
+        "initial": 6,
+        "final": 8,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "3": {
+        "initial": 6,
+        "final": 8,
+        "recovered_final": 2,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "4": {
+        "initial": 1,
+        "final": 8,
+        "recovered_final": 7,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "5": {
+        "initial": 2,
+        "final": 7,
+        "recovered_final": 5,
+        "lost_final": 0,
+        "never_at_saved_steps": 1,
+        "transient_only": 0
+      },
+      "6": {
+        "initial": 4,
+        "final": 8,
+        "recovered_final": 4,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      },
+      "7": {
+        "initial": 5,
+        "final": 8,
+        "recovered_final": 3,
+        "lost_final": 0,
+        "never_at_saved_steps": 0,
+        "transient_only": 0
+      }
+    }
+  ]
+}

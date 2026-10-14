@@ -1,0 +1,6 @@
+{
+  "scale1_fno_forward": "torch.OutOfMemoryError during no-grad forward",
+  "scale1_fno_backward": "torch.AcceleratorError: CUDA out of memory in grad-enabled forward before backward; traceback line y=model(x), GELU",
+  "scale2_fno": "not attempted after two failures",
+  "modification": "none; unchanged R2 structure"
+}

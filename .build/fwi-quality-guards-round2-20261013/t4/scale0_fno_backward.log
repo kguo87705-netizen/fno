@@ -1,0 +1,14 @@
+WARMUP 0 fno_backward 1
+WARMUP 0 fno_backward 2
+WARMUP 0 fno_backward 3
+TIMING 0 fno_backward 1 1.6904
+TIMING 0 fno_backward 2 1.7228
+TIMING 0 fno_backward 3 1.703
+TIMING 0 fno_backward 4 1.7027
+TIMING 0 fno_backward 5 1.7057
+TIMING 0 fno_backward 6 1.6963
+TIMING 0 fno_backward 7 1.6997
+TIMING 0 fno_backward 8 1.6936
+TIMING 0 fno_backward 9 1.7045
+TIMING 0 fno_backward 10 1.6939
+T4_RESULT {"scale": 0, "Nx": 255, "Ny": 127, "Nt": 2000, "dt": 3e-08, "kind": "fno_backward", "sources": 4, "source_execution": "four sequential single-source R2 evaluations", "precision": "float32/complex64", "device": "NVIDIA GeForce RTX 5070", "warmup": 3, "repetitions": 10, "output_frames": 500, "applicability": "timing only; different output storage/frame counts, no quality-qualified FWI acceleration claim", "modes": [16, 8, 64], "width": 8, "layers": 4, "input_channels": 8, "output": "full field500 fixed frames over60us; spatial grid refined, modes fixed", "parameter_count": 8389129, "status": "ok", "seconds": [1.6904366000017035, 1.7228442999985418, 1.7030123000004096, 1.7026819999955478, 1.7056521999984398, 1.6963123000023188, 1.6996708000006038, 1.693639400000393, 1.704486900001939, 1.693917299999157], "median_seconds": 1.7011763999980758, "peak_allocated_bytes": 8079548416}

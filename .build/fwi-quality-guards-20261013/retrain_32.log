@@ -1,0 +1,11 @@
+Epoch: 0/99	Training Cost: 6.957572E-03	 Validation Cost: 4.645759E-03	Elapsed time: 0.517823 	 Input per sec: 38.623259
+Epoch: 10/99	Training Cost: 3.568099E-03	 Validation Cost: 3.212177E-03	Elapsed time: 2.210329 	 Input per sec: 9.048428
+Epoch: 20/99	Training Cost: 2.669207E-03	 Validation Cost: 2.713670E-03	Elapsed time: 2.155142 	 Input per sec: 9.280131
+Epoch: 30/99	Training Cost: 1.737072E-03	 Validation Cost: 2.644954E-03	Elapsed time: 2.185250 	 Input per sec: 9.152272
+Epoch: 40/99	Training Cost: 1.350032E-03	 Validation Cost: 2.791362E-03	Elapsed time: 2.187140 	 Input per sec: 9.144361
+Epoch: 50/99	Training Cost: 1.047742E-03	 Validation Cost: 2.730115E-03	Elapsed time: 2.214136 	 Input per sec: 9.032868
+Epoch: 60/99	Training Cost: 8.741918E-04	 Validation Cost: 2.762485E-03	Elapsed time: 2.233488 	 Input per sec: 8.954605
+Epoch: 70/99	Training Cost: 7.542697E-04	 Validation Cost: 2.629268E-03	Elapsed time: 2.206423 	 Input per sec: 9.064447
+Epoch: 80/99	Training Cost: 6.125809E-04	 Validation Cost: 2.726796E-03	Elapsed time: 2.253781 	 Input per sec: 8.873976
+Epoch: 90/99	Training Cost: 5.751001E-04	 Validation Cost: 2.616611E-03	Elapsed time: 2.370259 	 Input per sec: 8.437898
+RETRAIN_RESULT {"seed": 32, "seconds": 26.15911049999704, "exact_match": true, "max_abs_difference": 0.0, "reference": ".build\\singh-training-seeds-20261013\\seed2\\experiment\\model_Unet_200"}

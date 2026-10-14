@@ -1,0 +1,151 @@
+{
+  "base_commit": "137095a22d3ab8c4bd06c31cd073d25f9793f79d",
+  "start_unix": 1791881104.349744,
+  "deadline_unix": 1791909904.349744,
+  "first_round_only": true,
+  "forbidden": [
+    "test inversion",
+    "T3",
+    "FNO training"
+  ],
+  "geometry": {
+    "validation": 20,
+    "test": 60,
+    "blank_validation": 5,
+    "blank_test": 5,
+    "defects_per_board": 4,
+    "types": [
+      "hole2mm",
+      "hole3mm",
+      "hole4mm",
+      "hole6mm",
+      "slit1grid",
+      "slit2grid",
+      "slit3grid",
+      "ellipse"
+    ]
+  },
+  "fine": {
+    "Nx": 511,
+    "Ny": 255,
+    "Nt": 4000,
+    "dt": 1.5e-08
+  },
+  "coarse": {
+    "Nx": 255,
+    "Ny": 127,
+    "Nt": 2000,
+    "dt": 3e-08
+  },
+  "initialization_seeds": [
+    30,
+    31,
+    32,
+    33,
+    34
+  ],
+  "calibration_seed": 30,
+  "feasibility_ids": [
+    "validation_000",
+    "validation_001",
+    "validation_002",
+    "validation_003"
+  ],
+  "feasibility": {
+    "cost_reduction": 0.5,
+    "required_seed_passes": 4,
+    "total_seeds": 5,
+    "aggregation": "mean relative reduction across four fixed geometries per seed"
+  },
+  "H2": {
+    "primary": "epoch0 vs epoch100; either pooled small-hole or slit recall falls >=0.10 on average and drops in >=4/5 paired seeds",
+    "slit_floor": "epoch0 mean slit recall <0.10 -> slit cannot test H2; use holes only",
+    "secondary": "epoch10/30 monotonicity descriptive only; not primary gate",
+    "status": "not evaluated in first round",
+    "recall_definition_clarification": "Before second-round independent test: choose mean per-defect pixel recall (historical slit metric) or defect detection rate; both retained; no first-round H2 decision"
+  },
+  "inverse": {
+    "epochs": 35,
+    "lr": 0.0005,
+    "optimizer": "Adam",
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0,
+    "beta_schedule": 0.2,
+    "alpha": -0.5,
+    "gradient_clip": 5e-05,
+    "costScaling": 10000000000.0,
+    "BN": "train batch1",
+    "gamma_min": 1e-05
+  },
+  "FNO": {
+    "width": 8,
+    "modes": [
+      16,
+      8,
+      64
+    ],
+    "layers": 4,
+    "input_channels": 8,
+    "output_frames": 500,
+    "time_sampling": "fixed 500 samples over 60 us, independent of physical Nt",
+    "precision": "float32/complex64",
+    "warmup": 3,
+    "repetitions": 10
+  },
+  "failure_limit_per_task": 2,
+  "concurrency_tolerance": {
+    "atol": 1e-07,
+    "rtol": 1e-05
+  },
+  "supplement_20261013": {
+    "timestamp_unix": 1791885327.0395844,
+    "snapshots": [
+      0,
+      5,
+      10,
+      20,
+      35
+    ],
+    "past_or_inflight_no_rerun": true,
+    "B_group": "existing control200 100epoch weights, paired seed30..34; no retraining",
+    "first_round_B_calibration": true,
+    "interpretation": "A/B/C only initialization affects missed defects; prior strength claims only epoch axis",
+    "gradient_gate": "record only: unseen gamma and intermediate inversion states, gradient cosine plus real physical loss descent; R2 scalar support family ineligible; await advisor role decision"
+  },
+  "B_verified_sources": [
+    {
+      "seed": 30,
+      "path": ".build\\singh-coverage-100epochs-20261013\\control\\model_Unet_200",
+      "epochs": 100,
+      "tensors": 143
+    },
+    {
+      "seed": 31,
+      "path": ".build\\singh-training-seeds-20261013\\seed1\\control\\model_Unet_200",
+      "epochs": 100,
+      "tensors": 143
+    },
+    {
+      "seed": 32,
+      "path": ".build\\singh-training-seeds-20261013\\seed2\\control\\model_Unet_200",
+      "epochs": 100,
+      "tensors": 143
+    },
+    {
+      "seed": 33,
+      "path": ".build\\singh-training-seeds-20261013\\seed3\\control\\model_Unet_200",
+      "epochs": 100,
+      "tensors": 143
+    },
+    {
+      "seed": 34,
+      "path": ".build\\singh-training-seeds-20261013\\seed4\\control\\model_Unet_200",
+      "epochs": 100,
+      "tensors": 143
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+[
+  {
+    "name": "continuous_geometry_correction",
+    "seconds": 24.742156744003296,
+    "returncode": 0
+  },
+  {
+    "name": "runtime_probe",
+    "seconds": 86.69647645950317,
+    "returncode": 0
+  },
+  {
+    "name": "benchmark_0_physical_forward",
+    "seconds": 15.737549781799316,
+    "returncode": 0
+  },
+  {
+    "name": "benchmark_0_physical_forward_adjoint",
+    "seconds": 30.5294132232666,
+    "returncode": 0
+  },
+  {
+    "name": "benchmark_0_fno_forward",
+    "seconds": 4.602166652679443,
+    "returncode": 0
+  },
+  {
+    "name": "benchmark_0_fno_forward_backward",
+    "seconds": 8.315711498260498,
+    "returncode": 0
+  },
+  {
+    "name": "benchmark_1_physical_forward",
+    "seconds": 2.676123857498169,
+    "returncode": 0
+  },
+  {
+    "name": "benchmark_1_physical_forward_adjoint",
+    "seconds": 2.845841407775879,
+    "returncode": 0
+  },
+  {
+    "name": "retrain_30",
+    "seconds": 30.6949303150177,
+    "returncode": 0
+  },
+  {
+    "name": "retrain_31",
+    "seconds": 27.539236545562744,
+    "returncode": 0
+  },
+  {
+    "name": "retrain_32",
+    "seconds": 28.314886808395386,
+    "returncode": 0
+  },
+  {
+    "name": "retrain_33",
+    "seconds": 28.461546182632446,
+    "returncode": 0
+  },
+  {
+    "name": "retrain_34",
+    "seconds": 27.208805322647095,
+    "returncode": 0
+  },
+  {
+    "name": "feasibility_30_validation_001",
+    "seconds": 86.17026138305664,
+    "returncode": 0
+  },
+  {
+    "name": "feasibility_30_validation_002",
+    "seconds": 82.96618747711182,
+    "returncode": 0
+  },
+  {
+    "name": "feasibility_30_validation_003",
+    "seconds": 78.30331635475159,
+    "returncode": 0
+  },
+  {
+    "name": "feasibility_31_validation_000",
+    "seconds": 85.06566786766052,
+    "returncode": 0
+  },
+  {
+    "name": "feasibility_31_validation_001",
+    "seconds": 77.04528403282166,
+    "returncode": 0
+  },
+  {
+    "name": "feasibility_31_validation_002",
+    "seconds": 79.00063514709473,
+    "returncode": 0
+  },
+  {
+    "name": "feasibility_31_validation_003",
+    "seconds": 82.9927887916565,
+    "returncode": 0
+  },
+  {
+    "name": "feasibility_32_validation_000",
+    "seconds": 82.61687803268433,
+    "returncode": 0
+  },
+  {
+    "name": "feasibility_32_validation_001",
+    "seconds": 81.08532404899597,
+    "returncode": 0
+  },
+  {
+    "name": "feasibility_32_validation_002",
+    "seconds": 77.18597865104675,
+    "returncode": 0
+  },
+  {
+    "name": "feasibility_32_validation_003",
+    "seconds": 81.08328485488892,
+    "returncode": 0
+  },
+  {
+    "name": "feasibility_33_validation_000",
+    "seconds": 79.86316418647766,
+    "returncode": 0
+  },
+  {
+    "name": "feasibility_33_validation_001",
+    "seconds": 81.30625200271606,
+    "returncode": 0
+  },
+  {
+    "name": "feasibility_33_validation_002",
+    "seconds": 81.96201515197754,
+    "returncode": 0
+  },
+  {
+    "name": "feasibility_33_validation_003",
+    "seconds": 79.69237804412842,
+    "returncode": 0
+  },
+  {
+    "name": "feasibility_34_validation_000",
+    "seconds": 82.57077717781067,
+    "returncode": 0
+  },
+  {
+    "name": "feasibility_34_validation_001",
+    "seconds": 80.08370471000671,
+    "returncode": 0
+  },
+  {
+    "name": "feasibility_34_validation_002",
+    "seconds": 76.41938281059265,
+    "returncode": 0
+  },
+  {
+    "name": "feasibility_34_validation_003",
+    "seconds": 74.85027170181274,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_004",
+    "seconds": 75.98627543449402,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_005",
+    "seconds": 75.52993512153625,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_006",
+    "seconds": 77.00306701660156,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_007",
+    "seconds": 78.70892763137817,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_008",
+    "seconds": 77.68846035003662,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_009",
+    "seconds": 75.44549489021301,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_010",
+    "seconds": 77.04477882385254,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_011",
+    "seconds": 79.37126088142395,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_012",
+    "seconds": 77.99150943756104,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_013",
+    "seconds": 81.65039300918579,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_014",
+    "seconds": 83.68027830123901,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_015",
+    "seconds": 74.90484118461609,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_016",
+    "seconds": 76.20324969291687,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_017",
+    "seconds": 76.05521035194397,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_018",
+    "seconds": 78.96447110176086,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_019",
+    "seconds": 76.93323874473572,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_020",
+    "seconds": 84.90191555023193,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_021",
+    "seconds": 79.53926515579224,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_022",
+    "seconds": 84.94834494590759,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_023",
+    "seconds": 89.45341944694519,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_0_validation_024",
+    "seconds": 81.20468139648438,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_000",
+    "seconds": 81.89048337936401,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_001",
+    "seconds": 82.33717322349548,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_002",
+    "seconds": 80.24417304992676,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_003",
+    "seconds": 79.38920187950134,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_004",
+    "seconds": 80.46490788459778,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_005",
+    "seconds": 77.79963159561157,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_006",
+    "seconds": 71.88318276405334,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_007",
+    "seconds": 68.07903575897217,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_008",
+    "seconds": 69.408940076828,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_009",
+    "seconds": 68.19054532051086,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_010",
+    "seconds": 68.68685531616211,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_011",
+    "seconds": 68.38345122337341,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_012",
+    "seconds": 68.09792351722717,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_013",
+    "seconds": 68.56382942199707,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_014",
+    "seconds": 69.39220857620239,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_015",
+    "seconds": 68.34739518165588,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_016",
+    "seconds": 68.45013570785522,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_017",
+    "seconds": 68.23312830924988,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_018",
+    "seconds": 68.87538766860962,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_019",
+    "seconds": 68.58404922485352,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_020",
+    "seconds": 68.93003559112549,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_021",
+    "seconds": 69.46704936027527,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_022",
+    "seconds": 68.39844632148743,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_023",
+    "seconds": 68.24815154075623,
+    "returncode": 0
+  },
+  {
+    "name": "calibration_100_validation_024",
+    "seconds": 68.24645686149597,
+    "returncode": 0
+  },
+  {
+    "name": "freeze_thresholds",
+    "seconds": 3.3488059043884277,
+    "returncode": 0
+  }
+]

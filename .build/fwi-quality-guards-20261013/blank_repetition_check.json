@@ -1,0 +1,19 @@
+{
+  "ids": [
+    "validation_020",
+    "validation_021",
+    "validation_022",
+    "validation_023",
+    "validation_024",
+    "test_060",
+    "test_061",
+    "test_062",
+    "test_063",
+    "test_064"
+  ],
+  "identical_observations": true,
+  "identical_initial_gradients": true,
+  "independent_blank_geometries": 1,
+  "note": "No noise and fixed acquisition: duplicate blank reference, not ten independent observations",
+  "two_completed_blank_predictions_bitwise_equal": true
+}

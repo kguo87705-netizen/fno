@@ -1,0 +1,5 @@
+STEP test_044 34 100 10 cost 1.6209942459502469e-12
+STEP test_044 34 100 20 cost 7.521637392787772e-13
+STEP test_044 34 100 30 cost 2.5168232840704075e-13
+STEP test_044 34 100 35 cost 1.8857010679503017e-13
+INVERSION_RESULT {"case": "test_044", "seed": 34, "epoch": 100, "updates": 35, "initial_cost": 4.01876882466512e-12, "final_cost": 1.7363552002463978e-13, "relative_cost_reduction": 0.9567938521472161, "material_mse": 0.004484142367993582, "fit_seconds": 71.20725680000032, "wall_seconds": 74.22916059999989, "peak_allocated_bytes": 9628777472, "physical_forward_calls": 36, "physical_adjoint_calls": 35, "initial_gradient_calls": "shared preprocessing in T1; one forward+one adjoint per geometry", "initialization": "expanded", "saved_material_steps": [0, 5, 10, 20, 35]}

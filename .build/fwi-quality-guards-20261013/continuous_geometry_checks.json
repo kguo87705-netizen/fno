@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "corrected_ids": [
+    "test_023",
+    "validation_011",
+    "validation_015"
+  ],
+  "minima_m": [
+    0.005254258224120865,
+    0.010093267447357817,
+    0.005019849523567776
+  ],
+  "originals_preserved": true
+}

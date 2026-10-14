@@ -1,0 +1,7 @@
+{
+  "seed": 33,
+  "seconds": 26.257927499998914,
+  "exact_match": true,
+  "max_abs_difference": 0.0,
+  "reference": ".build\\singh-training-seeds-20261013\\seed3\\experiment\\model_Unet_200"
+}

@@ -1,0 +1,15 @@
+{
+  "scale": 1,
+  "Nx": 511,
+  "Ny": 255,
+  "Nt": 4000,
+  "dt": 1.5e-08,
+  "kind": "physical_forward",
+  "device": "NVIDIA GeForce RTX 5070",
+  "output_frames": 4000,
+  "precision": "float32/complex64",
+  "warmup": 3,
+  "repetitions": 10,
+  "status": "OOM",
+  "error": "CUDA out of memory. Tried to allocate 7.91 GiB. GPU 0 has a total capacity of 11.94 GiB of which 2.49 GiB is free. Of the allocated memory 7.91 GiB is allocated by PyTorch, and 13.38 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)"
+}

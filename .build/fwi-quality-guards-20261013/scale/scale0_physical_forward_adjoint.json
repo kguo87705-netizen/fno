@@ -1,0 +1,28 @@
+{
+  "scale": 0,
+  "Nx": 255,
+  "Ny": 127,
+  "Nt": 2000,
+  "dt": 3e-08,
+  "kind": "physical_forward_adjoint",
+  "device": "NVIDIA GeForce RTX 5070",
+  "output_frames": 2000,
+  "precision": "float32/complex64",
+  "warmup": 3,
+  "repetitions": 10,
+  "status": "ok",
+  "seconds": [
+    2.0936370999988867,
+    2.1430667000022368,
+    2.244314600000507,
+    2.1461072000020067,
+    2.2035046000019065,
+    2.3102574000004097,
+    2.2500476999994135,
+    2.120335100000375,
+    2.165497599999071,
+    2.177229900000384
+  ],
+  "median_seconds": 2.1713637499997276,
+  "peak_allocated_bytes": 9583077888
+}

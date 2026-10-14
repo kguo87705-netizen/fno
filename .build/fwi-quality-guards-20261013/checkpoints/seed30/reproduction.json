@@ -1,0 +1,7 @@
+{
+  "seed": 30,
+  "seconds": 28.407984499997838,
+  "exact_match": true,
+  "max_abs_difference": 0.0,
+  "reference": ".build\\singh-coverage-100epochs-20261013\\experiment\\model_Unet_200"
+}

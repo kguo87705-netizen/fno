@@ -1,0 +1,9 @@
+{
+  "status": "completed and verified; stopped",
+  "seconds": 7748.7156682014465,
+  "scale_stopped": true,
+  "test_inversions": 0,
+  "T3_started": false,
+  "B_calibration": true,
+  "wall_including_setup_seconds": 8439.12511396408
+}

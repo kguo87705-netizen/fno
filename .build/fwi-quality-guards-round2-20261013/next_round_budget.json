@@ -1,0 +1,21 @@
+{
+  "measured_end_to_end_seconds_per_inversion": 75.65857647058823,
+  "p90_worker_plus_mean_overhead": 83.79570409529236,
+  "remaining_defective_boards": 44,
+  "reuse_completed_16_plus_one_blank": true,
+  "full_ABC": {
+    "inversions": 660,
+    "mean_hours": 13.870739019607843,
+    "p90_hours": 15.3625457508036
+  },
+  "primary_AC_only": {
+    "inversions": 440,
+    "mean_hours": 9.247159346405228,
+    "p90_hours": 10.241697167202402
+  },
+  "example_ten_new_blank_conditions": {
+    "inversions": 150,
+    "mean_hours": 3.1524406862745096
+  },
+  "status": "cost estimate only; no next round authorized or started"
+}

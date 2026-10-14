@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "D:\下载\FNO_Research_Workspace\Research_Direction\FWI_Quality_Guards\benchmark_round2.py", line 58, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--scale',type=int,required=True);p.add_argument('--kind',required=True);a=p.parse_args();run(a.scale,a.kind)
+                                                                                                                                         ^^^^^^^^^^^^^^^^^^^
+  File "D:\下载\FNO_Research_Workspace\Research_Direction\FWI_Quality_Guards\benchmark_round2.py", line 47, in run
+    operation();print('WARMUP',scale,kind,i+1,flush=True)
+    ^^^^^^^^^^^
+  File "D:\下载\FNO_Research_Workspace\Research_Direction\FWI_Quality_Guards\benchmark_round2.py", line 41, in operation
+    x.grad=None;y=model(x);loss=y.square().mean();loss.backward();del y,loss
+                  ^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\下载\FNO_Research_Workspace\Research_Direction\Author_Baseline_Singh_Zenodo14616677\basic_fno.py", line 37, in forward
+    if i<len(self.spectral)-1:x=F.gelu(x)
+                                ^^^^^^^^^
+torch.AcceleratorError: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+

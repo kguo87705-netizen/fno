@@ -1,0 +1,6 @@
+{
+  "status": "stopped after two OOMs",
+  "scale": 1,
+  "kind": "physical_forward_adjoint",
+  "oom_count": 2
+}

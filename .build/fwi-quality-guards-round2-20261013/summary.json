@@ -1,0 +1,754 @@
+{
+  "evidence": "实验验证（仅本轮数值观察；探索性，不作H2正式判定）",
+  "summary": {
+    "A": {
+      "material_mse": {
+        "mean": 0.006905790692476566,
+        "range": [
+          0.006318717680068555,
+          0.008433568644247137
+        ]
+      },
+      "defective_material_mse": {
+        "mean": 0.007068927273543885,
+        "range": [
+          0.006419215015362247,
+          0.008587508024973033
+        ]
+      },
+      "detected": {
+        "mean": 64.0,
+        "range": [
+          64.0,
+          64.0
+        ]
+      },
+      "false_alarm": {
+        "mean": 0.0019290143332904009,
+        "range": [
+          0.0013082117426263594,
+          0.002997295258422418
+        ]
+      },
+      "blank_false_alarm": {
+        "mean": 0.00150146484375,
+        "range": [
+          0.0,
+          0.00750732421875
+        ]
+      },
+      "holes": {
+        "mean": 1.0,
+        "range": [
+          1.0,
+          1.0
+        ]
+      },
+      "slits": {
+        "mean": 1.0,
+        "range": [
+          1.0,
+          1.0
+        ]
+      },
+      "types": {
+        "0": {
+          "detection": {
+            "mean": 1.0,
+            "range": [
+              1.0,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.9766666666666668,
+            "range": [
+              0.962797619047619,
+              0.99375
+            ]
+          }
+        },
+        "1": {
+          "detection": {
+            "mean": 1.0,
+            "range": [
+              1.0,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.9783103999175428,
+            "range": [
+              0.9695449391877964,
+              0.9861111111111112
+            ]
+          }
+        },
+        "2": {
+          "detection": {
+            "mean": 1.0,
+            "range": [
+              1.0,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.9805024977960622,
+            "range": [
+              0.9771341463414633,
+              0.9847744637084925
+            ]
+          }
+        },
+        "3": {
+          "detection": {
+            "mean": 1.0,
+            "range": [
+              1.0,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.9728516156038977,
+            "range": [
+              0.96928594131269,
+              0.9755371918998824
+            ]
+          }
+        },
+        "4": {
+          "detection": {
+            "mean": 1.0,
+            "range": [
+              1.0,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.9375162291530579,
+            "range": [
+              0.9238927455039987,
+              0.9535353535353536
+            ]
+          }
+        },
+        "5": {
+          "detection": {
+            "mean": 1.0,
+            "range": [
+              1.0,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.9734651067250695,
+            "range": [
+              0.9709205802938787,
+              0.9766797832633349
+            ]
+          }
+        },
+        "6": {
+          "detection": {
+            "mean": 1.0,
+            "range": [
+              1.0,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.9962784567054754,
+            "range": [
+              0.9932441764584622,
+              0.9987244897959184
+            ]
+          }
+        },
+        "7": {
+          "detection": {
+            "mean": 1.0,
+            "range": [
+              1.0,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.9825729723499185,
+            "range": [
+              0.975621692988472,
+              0.990245031628955
+            ]
+          }
+        }
+      }
+    },
+    "B": {
+      "material_mse": {
+        "mean": 0.0028257450850229684,
+        "range": [
+          0.0020374676272776927,
+          0.0032828584063396113
+        ]
+      },
+      "defective_material_mse": {
+        "mean": 0.0029703896599316973,
+        "range": [
+          0.0021310968003099787,
+          0.0034646322461115145
+        ]
+      },
+      "detected": {
+        "mean": 61.0,
+        "range": [
+          60.0,
+          62.0
+        ]
+      },
+      "false_alarm": {
+        "mean": 0.0018874312314853998,
+        "range": [
+          0.0007341441424865223,
+          0.0032880089790060536
+        ]
+      },
+      "blank_false_alarm": {
+        "mean": 0.00224609375,
+        "range": [
+          0.0,
+          0.005615234375
+        ]
+      },
+      "holes": {
+        "mean": 0.95625,
+        "range": [
+          0.9375,
+          1.0
+        ]
+      },
+      "slits": {
+        "mean": 0.9333333333333333,
+        "range": [
+          0.9166666666666666,
+          0.9583333333333334
+        ]
+      },
+      "types": {
+        "0": {
+          "detection": {
+            "mean": 0.925,
+            "range": [
+              0.875,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.9163690476190476,
+            "range": [
+              0.8625,
+              1.0
+            ]
+          }
+        },
+        "1": {
+          "detection": {
+            "mean": 1.0,
+            "range": [
+              1.0,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.9927020202020203,
+            "range": [
+              0.9831439393939394,
+              1.0
+            ]
+          }
+        },
+        "2": {
+          "detection": {
+            "mean": 1.0,
+            "range": [
+              1.0,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.9844732588892153,
+            "range": [
+              0.9695672935645019,
+              1.0
+            ]
+          }
+        },
+        "3": {
+          "detection": {
+            "mean": 0.9,
+            "range": [
+              0.875,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.8956014399549567,
+            "range": [
+              0.8653881182569707,
+              0.9986263736263736
+            ]
+          }
+        },
+        "4": {
+          "detection": {
+            "mean": 0.875,
+            "range": [
+              0.75,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.8665579710144927,
+            "range": [
+              0.75,
+              1.0
+            ]
+          }
+        },
+        "5": {
+          "detection": {
+            "mean": 0.975,
+            "range": [
+              0.875,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.954248690099913,
+            "range": [
+              0.9080882352941176,
+              0.9920212765957447
+            ]
+          }
+        },
+        "6": {
+          "detection": {
+            "mean": 0.95,
+            "range": [
+              0.875,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.9492743965230044,
+            "range": [
+              0.891637089618456,
+              0.9936224489795918
+            ]
+          }
+        },
+        "7": {
+          "detection": {
+            "mean": 1.0,
+            "range": [
+              1.0,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.9894782766707351,
+            "range": [
+              0.9822541382667965,
+              0.9967218435572867
+            ]
+          }
+        }
+      }
+    },
+    "C": {
+      "material_mse": {
+        "mean": 0.0023151734668605956,
+        "range": [
+          0.0021585806783722917,
+          0.0024088932679493234
+        ]
+      },
+      "defective_material_mse": {
+        "mean": 0.002430622459400627,
+        "range": [
+          0.002265562873662799,
+          0.0025462702920932565
+        ]
+      },
+      "detected": {
+        "mean": 60.8,
+        "range": [
+          59.0,
+          63.0
+        ]
+      },
+      "false_alarm": {
+        "mean": 0.00010561371874367514,
+        "range": [
+          4.783896667831975e-05,
+          0.00018951590645642055
+        ]
+      },
+      "blank_false_alarm": {
+        "mean": 0.0,
+        "range": [
+          0.0,
+          0.0
+        ]
+      },
+      "holes": {
+        "mean": 0.9625,
+        "range": [
+          0.9375,
+          1.0
+        ]
+      },
+      "slits": {
+        "mean": 0.9166666666666666,
+        "range": [
+          0.875,
+          0.9583333333333334
+        ]
+      },
+      "types": {
+        "0": {
+          "detection": {
+            "mean": 0.9,
+            "range": [
+              0.875,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.8000595238095238,
+            "range": [
+              0.7782738095238095,
+              0.8205357142857144
+            ]
+          }
+        },
+        "1": {
+          "detection": {
+            "mean": 1.0,
+            "range": [
+              1.0,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.9641048237476809,
+            "range": [
+              0.9309948979591838,
+              0.9803661616161616
+            ]
+          }
+        },
+        "2": {
+          "detection": {
+            "mean": 1.0,
+            "range": [
+              1.0,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.9306971789597414,
+            "range": [
+              0.9057816632383191,
+              0.9513297090802233
+            ]
+          }
+        },
+        "3": {
+          "detection": {
+            "mean": 0.95,
+            "range": [
+              0.875,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.8892278088614713,
+            "range": [
+              0.8345556807669245,
+              0.9330812682949808
+            ]
+          }
+        },
+        "4": {
+          "detection": {
+            "mean": 0.9,
+            "range": [
+              0.875,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.8919685990338164,
+            "range": [
+              0.8611111111111112,
+              0.9876207729468599
+            ]
+          }
+        },
+        "5": {
+          "detection": {
+            "mean": 0.9,
+            "range": [
+              0.875,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.9090168673336502,
+            "range": [
+              0.8814415427358335,
+              0.9810216429401428
+            ]
+          }
+        },
+        "6": {
+          "detection": {
+            "mean": 0.95,
+            "range": [
+              0.875,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.9171721518285585,
+            "range": [
+              0.8521053547539974,
+              0.9805870662791871
+            ]
+          }
+        },
+        "7": {
+          "detection": {
+            "mean": 1.0,
+            "range": [
+              1.0,
+              1.0
+            ]
+          },
+          "pixel": {
+            "mean": 0.9618355997561107,
+            "range": [
+              0.9497414068380108,
+              0.9699793332571849
+            ]
+          }
+        }
+      }
+    }
+  },
+  "paired": {
+    "A_B": [
+      {
+        "seed": 30,
+        "left_win": 3,
+        "left_loss": 0,
+        "tie": 61,
+        "board_win": 3,
+        "board_loss": 0,
+        "board_tie": 13
+      },
+      {
+        "seed": 31,
+        "left_win": 2,
+        "left_loss": 0,
+        "tie": 62,
+        "board_win": 2,
+        "board_loss": 0,
+        "board_tie": 14
+      },
+      {
+        "seed": 32,
+        "left_win": 4,
+        "left_loss": 0,
+        "tie": 60,
+        "board_win": 3,
+        "board_loss": 0,
+        "board_tie": 13
+      },
+      {
+        "seed": 33,
+        "left_win": 4,
+        "left_loss": 0,
+        "tie": 60,
+        "board_win": 4,
+        "board_loss": 0,
+        "board_tie": 12
+      },
+      {
+        "seed": 34,
+        "left_win": 2,
+        "left_loss": 0,
+        "tie": 62,
+        "board_win": 2,
+        "board_loss": 0,
+        "board_tie": 14
+      }
+    ],
+    "A_C": [
+      {
+        "seed": 30,
+        "left_win": 4,
+        "left_loss": 0,
+        "tie": 60,
+        "board_win": 4,
+        "board_loss": 0,
+        "board_tie": 12
+      },
+      {
+        "seed": 31,
+        "left_win": 5,
+        "left_loss": 0,
+        "tie": 59,
+        "board_win": 5,
+        "board_loss": 0,
+        "board_tie": 11
+      },
+      {
+        "seed": 32,
+        "left_win": 3,
+        "left_loss": 0,
+        "tie": 61,
+        "board_win": 3,
+        "board_loss": 0,
+        "board_tie": 13
+      },
+      {
+        "seed": 33,
+        "left_win": 3,
+        "left_loss": 0,
+        "tie": 61,
+        "board_win": 3,
+        "board_loss": 0,
+        "board_tie": 13
+      },
+      {
+        "seed": 34,
+        "left_win": 1,
+        "left_loss": 0,
+        "tie": 63,
+        "board_win": 1,
+        "board_loss": 0,
+        "board_tie": 15
+      }
+    ],
+    "B_C": [
+      {
+        "seed": 30,
+        "left_win": 3,
+        "left_loss": 2,
+        "tie": 59,
+        "board_win": 3,
+        "board_loss": 2,
+        "board_tie": 11
+      },
+      {
+        "seed": 31,
+        "left_win": 3,
+        "left_loss": 0,
+        "tie": 61,
+        "board_win": 3,
+        "board_loss": 0,
+        "board_tie": 13
+      },
+      {
+        "seed": 32,
+        "left_win": 1,
+        "left_loss": 2,
+        "tie": 61,
+        "board_win": 1,
+        "board_loss": 2,
+        "board_tie": 13
+      },
+      {
+        "seed": 33,
+        "left_win": 1,
+        "left_loss": 2,
+        "tie": 61,
+        "board_win": 1,
+        "board_loss": 2,
+        "board_tie": 13
+      },
+      {
+        "seed": 34,
+        "left_win": 1,
+        "left_loss": 2,
+        "tie": 61,
+        "board_win": 1,
+        "board_loss": 2,
+        "board_tie": 13
+      }
+    ]
+  },
+  "exploratory_pattern": {
+    "holes": {
+      "epoch0_minus_epoch100": [
+        0.03125,
+        0.0625,
+        0.0625,
+        0.03125,
+        0.0
+      ],
+      "mean_drop": 0.0375,
+      "directions_decline": 4,
+      "floor_unable_to_test": false,
+      "threshold_pattern": false,
+      "secondary_pixel_drop": [
+        0.05963323903547135,
+        0.09364057624570743,
+        0.09092158704339592,
+        0.09075462395517564,
+        0.0703522794774395
+      ],
+      "secondary_mean_drop": 0.08106046115143797,
+      "discordant_mean_direction": false
+    },
+    "slits": {
+      "epoch0_minus_epoch100": [
+        0.125,
+        0.125,
+        0.04166666666666663,
+        0.08333333333333337,
+        0.04166666666666663
+      ],
+      "mean_drop": 0.08333333333333333,
+      "directions_decline": 5,
+      "floor_unable_to_test": false,
+      "threshold_pattern": false,
+      "secondary_pixel_drop": [
+        0.0887734919825387,
+        0.09471265656759709,
+        0.020765717627112545,
+        0.07112400874538904,
+        0.039794415723326426
+      ],
+      "secondary_mean_drop": 0.06303405812919276,
+      "discordant_mean_direction": false
+    }
+  },
+  "run_seconds": 19292.936999999998,
+  "failure_count": 0,
+  "thresholds": {
+    "A": {
+      "0.01": 0.45,
+      "0.005": 0.45
+    },
+    "B": {
+      "0.01": 0.2,
+      "0.005": 0.2
+    },
+    "C": {
+      "0.01": 0.6,
+      "0.005": 0.6
+    }
+  },
+  "limitation": "Eight defects/type, five dependent repeats per geometry; Wilson intervals reported separately by seed, do not treat320 correlated defects as320 independent samples. Only one independent blank reference; its validation counterpart is identical."
+}

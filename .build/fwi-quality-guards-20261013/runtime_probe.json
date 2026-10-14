@@ -1,0 +1,22 @@
+{
+  "serial": {
+    "case": "validation_000",
+    "seed": 30,
+    "epoch": 0,
+    "updates": 35,
+    "initial_cost": 1.1237911295980396e-10,
+    "final_cost": 9.240983087251131e-14,
+    "relative_cost_reduction": 0.999177695672811,
+    "material_mse": 0.005056938622478655,
+    "fit_seconds": 78.27192300000024,
+    "wall_seconds": 82.31400880000001,
+    "peak_allocated_bytes": 9628777472,
+    "physical_forward_calls": 36,
+    "physical_adjoint_calls": 35,
+    "initial_gradient_calls": "shared preprocessing in T1; one forward+one adjoint per geometry"
+  },
+  "mean_gpu_percent": 35.99305555555556,
+  "peak_device_memory_mib": 11015.0,
+  "sample_count": 156,
+  "concurrency_status": "not safe: measured two-process peak exceeds device budget"
+}

@@ -1,0 +1,30 @@
+{
+  "mean_measured_case_seconds": 75.35183116463743,
+  "p90_case_seconds": 82.57077717781067,
+  "unique_inversions_measured": 91,
+  "H2_AC_primary": {
+    "methods": 2,
+    "seeds": 5,
+    "cases": 65,
+    "inversions": 650,
+    "hours": 13.605191738059535,
+    "p90_hours": 14.908612545993593
+  },
+  "ABC_test": {
+    "methods": 3,
+    "seeds": 5,
+    "cases": 65,
+    "inversions": 975,
+    "hours": 20.407787607089304,
+    "p90_hours": 22.36291881899039
+  },
+  "suggested_block": {
+    "defective": 16,
+    "blank": 1,
+    "inversions": 255,
+    "hours": 5.337421374161818,
+    "p90_hours": 5.848763383428255,
+    "proposed_budget_hours": 7
+  },
+  "references_later": "author800/conventional/initial+conventional/CNNGamma need their own new-geometry timing; not measured this round; blank duplicates not independent observations"
+}

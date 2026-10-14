@@ -1,0 +1,2051 @@
+{
+  "status": "completed; stopped",
+  "started_utc": "2026-10-13T12:08:51Z",
+  "elapsed_seconds": 19292.936999999998,
+  "completed": 255,
+  "planned": 255,
+  "current": null,
+  "failures": [],
+  "finished": [
+    {
+      "case": "test_001",
+      "seed": 30,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 80.18422860000283,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed30_epoch0\\test_001\\metrics.json"
+    },
+    {
+      "case": "test_001",
+      "seed": 30,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 75.44999290000123,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed30_epoch100\\test_001\\metrics.json"
+    },
+    {
+      "case": "test_001",
+      "seed": 30,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 76.13466650000191,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed30_epoch100\\test_001\\metrics.json"
+    },
+    {
+      "case": "test_001",
+      "seed": 31,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 77.28326940000261,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed31_epoch0\\test_001\\metrics.json"
+    },
+    {
+      "case": "test_001",
+      "seed": 31,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 77.68510270000115,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed31_epoch100\\test_001\\metrics.json"
+    },
+    {
+      "case": "test_001",
+      "seed": 31,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 76.25142960000085,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed31_epoch100\\test_001\\metrics.json"
+    },
+    {
+      "case": "test_001",
+      "seed": 32,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 75.86157679999451,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed32_epoch0\\test_001\\metrics.json"
+    },
+    {
+      "case": "test_001",
+      "seed": 32,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 76.82483850000426,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed32_epoch100\\test_001\\metrics.json"
+    },
+    {
+      "case": "test_001",
+      "seed": 32,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 76.097385699999,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed32_epoch100\\test_001\\metrics.json"
+    },
+    {
+      "case": "test_001",
+      "seed": 33,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 76.6618559999988,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed33_epoch0\\test_001\\metrics.json"
+    },
+    {
+      "case": "test_001",
+      "seed": 33,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 77.52765170000202,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed33_epoch100\\test_001\\metrics.json"
+    },
+    {
+      "case": "test_001",
+      "seed": 33,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 78.07858730000589,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed33_epoch100\\test_001\\metrics.json"
+    },
+    {
+      "case": "test_001",
+      "seed": 34,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 83.4232073000021,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed34_epoch0\\test_001\\metrics.json"
+    },
+    {
+      "case": "test_001",
+      "seed": 34,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 84.77280669999891,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed34_epoch100\\test_001\\metrics.json"
+    },
+    {
+      "case": "test_001",
+      "seed": 34,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 79.26978099999542,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed34_epoch100\\test_001\\metrics.json"
+    },
+    {
+      "case": "test_009",
+      "seed": 30,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 96.03827230000024,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed30_epoch0\\test_009\\metrics.json"
+    },
+    {
+      "case": "test_009",
+      "seed": 30,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 77.27206840000144,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed30_epoch100\\test_009\\metrics.json"
+    },
+    {
+      "case": "test_009",
+      "seed": 30,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 93.99112420000165,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed30_epoch100\\test_009\\metrics.json"
+    },
+    {
+      "case": "test_009",
+      "seed": 31,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 89.48735869999655,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed31_epoch0\\test_009\\metrics.json"
+    },
+    {
+      "case": "test_009",
+      "seed": 31,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 86.08607480000501,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed31_epoch100\\test_009\\metrics.json"
+    },
+    {
+      "case": "test_009",
+      "seed": 31,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 79.84600030000001,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed31_epoch100\\test_009\\metrics.json"
+    },
+    {
+      "case": "test_009",
+      "seed": 32,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 78.4358116000003,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed32_epoch0\\test_009\\metrics.json"
+    },
+    {
+      "case": "test_009",
+      "seed": 32,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 81.79656499999692,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed32_epoch100\\test_009\\metrics.json"
+    },
+    {
+      "case": "test_009",
+      "seed": 32,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 84.16399810000439,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed32_epoch100\\test_009\\metrics.json"
+    },
+    {
+      "case": "test_009",
+      "seed": 33,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 76.70012139999744,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed33_epoch0\\test_009\\metrics.json"
+    },
+    {
+      "case": "test_009",
+      "seed": 33,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 75.44588449999719,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed33_epoch100\\test_009\\metrics.json"
+    },
+    {
+      "case": "test_009",
+      "seed": 33,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 81.64908750000177,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed33_epoch100\\test_009\\metrics.json"
+    },
+    {
+      "case": "test_009",
+      "seed": 34,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 80.98248450000392,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed34_epoch0\\test_009\\metrics.json"
+    },
+    {
+      "case": "test_009",
+      "seed": 34,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 85.51879740000004,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed34_epoch100\\test_009\\metrics.json"
+    },
+    {
+      "case": "test_009",
+      "seed": 34,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 85.21849099999963,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed34_epoch100\\test_009\\metrics.json"
+    },
+    {
+      "case": "test_012",
+      "seed": 30,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 76.13701220000075,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed30_epoch0\\test_012\\metrics.json"
+    },
+    {
+      "case": "test_012",
+      "seed": 30,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 78.11646609999298,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed30_epoch100\\test_012\\metrics.json"
+    },
+    {
+      "case": "test_012",
+      "seed": 30,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 75.5027076999977,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed30_epoch100\\test_012\\metrics.json"
+    },
+    {
+      "case": "test_012",
+      "seed": 31,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 75.78071859999909,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed31_epoch0\\test_012\\metrics.json"
+    },
+    {
+      "case": "test_012",
+      "seed": 31,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 74.9800213999988,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed31_epoch100\\test_012\\metrics.json"
+    },
+    {
+      "case": "test_012",
+      "seed": 31,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 81.27153939999698,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed31_epoch100\\test_012\\metrics.json"
+    },
+    {
+      "case": "test_012",
+      "seed": 32,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 74.14316490000056,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed32_epoch0\\test_012\\metrics.json"
+    },
+    {
+      "case": "test_012",
+      "seed": 32,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 73.75057350000134,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed32_epoch100\\test_012\\metrics.json"
+    },
+    {
+      "case": "test_012",
+      "seed": 32,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 74.13710390000051,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed32_epoch100\\test_012\\metrics.json"
+    },
+    {
+      "case": "test_012",
+      "seed": 33,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 73.06164169999829,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed33_epoch0\\test_012\\metrics.json"
+    },
+    {
+      "case": "test_012",
+      "seed": 33,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 83.33203689999937,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed33_epoch100\\test_012\\metrics.json"
+    },
+    {
+      "case": "test_012",
+      "seed": 33,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 80.23010119999526,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed33_epoch100\\test_012\\metrics.json"
+    },
+    {
+      "case": "test_012",
+      "seed": 34,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 78.49545139999827,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed34_epoch0\\test_012\\metrics.json"
+    },
+    {
+      "case": "test_012",
+      "seed": 34,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 84.27904249999847,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed34_epoch100\\test_012\\metrics.json"
+    },
+    {
+      "case": "test_012",
+      "seed": 34,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 79.6806213000018,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed34_epoch100\\test_012\\metrics.json"
+    },
+    {
+      "case": "test_016",
+      "seed": 30,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 73.88726100000349,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed30_epoch0\\test_016\\metrics.json"
+    },
+    {
+      "case": "test_016",
+      "seed": 30,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 78.25436360000458,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed30_epoch100\\test_016\\metrics.json"
+    },
+    {
+      "case": "test_016",
+      "seed": 30,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 78.59914639999624,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed30_epoch100\\test_016\\metrics.json"
+    },
+    {
+      "case": "test_016",
+      "seed": 31,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 75.46718959999998,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed31_epoch0\\test_016\\metrics.json"
+    },
+    {
+      "case": "test_016",
+      "seed": 31,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 73.76807489999919,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed31_epoch100\\test_016\\metrics.json"
+    },
+    {
+      "case": "test_016",
+      "seed": 31,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 75.3055353000018,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed31_epoch100\\test_016\\metrics.json"
+    },
+    {
+      "case": "test_016",
+      "seed": 32,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 77.85666849999689,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed32_epoch0\\test_016\\metrics.json"
+    },
+    {
+      "case": "test_016",
+      "seed": 32,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 72.62521630000265,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed32_epoch100\\test_016\\metrics.json"
+    },
+    {
+      "case": "test_016",
+      "seed": 32,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 73.3195160000032,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed32_epoch100\\test_016\\metrics.json"
+    },
+    {
+      "case": "test_016",
+      "seed": 33,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 73.5024712999948,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed33_epoch0\\test_016\\metrics.json"
+    },
+    {
+      "case": "test_016",
+      "seed": 33,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 73.54468590000033,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed33_epoch100\\test_016\\metrics.json"
+    },
+    {
+      "case": "test_016",
+      "seed": 33,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 75.37121160000243,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed33_epoch100\\test_016\\metrics.json"
+    },
+    {
+      "case": "test_016",
+      "seed": 34,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 72.39800629999809,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed34_epoch0\\test_016\\metrics.json"
+    },
+    {
+      "case": "test_016",
+      "seed": 34,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 76.67614480000339,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed34_epoch100\\test_016\\metrics.json"
+    },
+    {
+      "case": "test_016",
+      "seed": 34,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 78.11555159999989,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed34_epoch100\\test_016\\metrics.json"
+    },
+    {
+      "case": "test_017",
+      "seed": 30,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 76.36993839999923,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed30_epoch0\\test_017\\metrics.json"
+    },
+    {
+      "case": "test_017",
+      "seed": 30,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 76.7392361999955,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed30_epoch100\\test_017\\metrics.json"
+    },
+    {
+      "case": "test_017",
+      "seed": 30,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 76.69149689999904,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed30_epoch100\\test_017\\metrics.json"
+    },
+    {
+      "case": "test_017",
+      "seed": 31,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 75.92913580000459,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed31_epoch0\\test_017\\metrics.json"
+    },
+    {
+      "case": "test_017",
+      "seed": 31,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 76.4986693000028,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed31_epoch100\\test_017\\metrics.json"
+    },
+    {
+      "case": "test_017",
+      "seed": 31,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 78.18278089999512,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed31_epoch100\\test_017\\metrics.json"
+    },
+    {
+      "case": "test_017",
+      "seed": 32,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 74.16270280000026,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed32_epoch0\\test_017\\metrics.json"
+    },
+    {
+      "case": "test_017",
+      "seed": 32,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 78.73523340000247,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed32_epoch100\\test_017\\metrics.json"
+    },
+    {
+      "case": "test_017",
+      "seed": 32,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 72.96752010000637,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed32_epoch100\\test_017\\metrics.json"
+    },
+    {
+      "case": "test_017",
+      "seed": 33,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 74.27338730000338,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed33_epoch0\\test_017\\metrics.json"
+    },
+    {
+      "case": "test_017",
+      "seed": 33,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 76.56318289999763,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed33_epoch100\\test_017\\metrics.json"
+    },
+    {
+      "case": "test_017",
+      "seed": 33,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 75.67956359999516,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed33_epoch100\\test_017\\metrics.json"
+    },
+    {
+      "case": "test_017",
+      "seed": 34,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 75.68324839999696,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed34_epoch0\\test_017\\metrics.json"
+    },
+    {
+      "case": "test_017",
+      "seed": 34,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 77.31015370000387,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed34_epoch100\\test_017\\metrics.json"
+    },
+    {
+      "case": "test_017",
+      "seed": 34,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 76.33496919999743,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed34_epoch100\\test_017\\metrics.json"
+    },
+    {
+      "case": "test_023",
+      "seed": 30,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 76.14723909999884,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed30_epoch0\\test_023\\metrics.json"
+    },
+    {
+      "case": "test_023",
+      "seed": 30,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 75.19922989999759,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed30_epoch100\\test_023\\metrics.json"
+    },
+    {
+      "case": "test_023",
+      "seed": 30,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 76.16745689999516,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed30_epoch100\\test_023\\metrics.json"
+    },
+    {
+      "case": "test_023",
+      "seed": 31,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 74.32004890000098,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed31_epoch0\\test_023\\metrics.json"
+    },
+    {
+      "case": "test_023",
+      "seed": 31,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 76.7481351000024,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed31_epoch100\\test_023\\metrics.json"
+    },
+    {
+      "case": "test_023",
+      "seed": 31,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 75.97265750000224,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed31_epoch100\\test_023\\metrics.json"
+    },
+    {
+      "case": "test_023",
+      "seed": 32,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 76.91577460000553,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed32_epoch0\\test_023\\metrics.json"
+    },
+    {
+      "case": "test_023",
+      "seed": 32,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 72.95536880000145,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed32_epoch100\\test_023\\metrics.json"
+    },
+    {
+      "case": "test_023",
+      "seed": 32,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 79.49690360000386,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed32_epoch100\\test_023\\metrics.json"
+    },
+    {
+      "case": "test_023",
+      "seed": 33,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 78.19470939999883,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed33_epoch0\\test_023\\metrics.json"
+    },
+    {
+      "case": "test_023",
+      "seed": 33,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 76.57588769999711,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed33_epoch100\\test_023\\metrics.json"
+    },
+    {
+      "case": "test_023",
+      "seed": 33,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 77.04879730000539,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed33_epoch100\\test_023\\metrics.json"
+    },
+    {
+      "case": "test_023",
+      "seed": 34,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 77.06906889999664,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed34_epoch0\\test_023\\metrics.json"
+    },
+    {
+      "case": "test_023",
+      "seed": 34,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 84.24508920000517,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed34_epoch100\\test_023\\metrics.json"
+    },
+    {
+      "case": "test_023",
+      "seed": 34,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 82.74911350000184,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed34_epoch100\\test_023\\metrics.json"
+    },
+    {
+      "case": "test_038",
+      "seed": 30,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 75.91805370000657,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed30_epoch0\\test_038\\metrics.json"
+    },
+    {
+      "case": "test_038",
+      "seed": 30,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 76.30864440000005,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed30_epoch100\\test_038\\metrics.json"
+    },
+    {
+      "case": "test_038",
+      "seed": 30,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 83.68528150000202,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed30_epoch100\\test_038\\metrics.json"
+    },
+    {
+      "case": "test_038",
+      "seed": 31,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 81.33899059999385,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed31_epoch0\\test_038\\metrics.json"
+    },
+    {
+      "case": "test_038",
+      "seed": 31,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 82.61570650000067,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed31_epoch100\\test_038\\metrics.json"
+    },
+    {
+      "case": "test_038",
+      "seed": 31,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 73.42177210000227,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed31_epoch100\\test_038\\metrics.json"
+    },
+    {
+      "case": "test_038",
+      "seed": 32,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 74.9351372999954,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed32_epoch0\\test_038\\metrics.json"
+    },
+    {
+      "case": "test_038",
+      "seed": 32,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 74.55896460000076,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed32_epoch100\\test_038\\metrics.json"
+    },
+    {
+      "case": "test_038",
+      "seed": 32,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 72.97510749999492,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed32_epoch100\\test_038\\metrics.json"
+    },
+    {
+      "case": "test_038",
+      "seed": 33,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 73.66510430000199,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed33_epoch0\\test_038\\metrics.json"
+    },
+    {
+      "case": "test_038",
+      "seed": 33,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 74.80397549999907,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed33_epoch100\\test_038\\metrics.json"
+    },
+    {
+      "case": "test_038",
+      "seed": 33,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 80.39819119999447,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed33_epoch100\\test_038\\metrics.json"
+    },
+    {
+      "case": "test_038",
+      "seed": 34,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 75.97355840000091,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed34_epoch0\\test_038\\metrics.json"
+    },
+    {
+      "case": "test_038",
+      "seed": 34,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 74.74219740000262,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed34_epoch100\\test_038\\metrics.json"
+    },
+    {
+      "case": "test_038",
+      "seed": 34,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 78.04344349999883,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed34_epoch100\\test_038\\metrics.json"
+    },
+    {
+      "case": "test_040",
+      "seed": 30,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 77.95522570000321,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed30_epoch0\\test_040\\metrics.json"
+    },
+    {
+      "case": "test_040",
+      "seed": 30,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 76.99944169999799,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed30_epoch100\\test_040\\metrics.json"
+    },
+    {
+      "case": "test_040",
+      "seed": 30,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 74.63833950000117,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed30_epoch100\\test_040\\metrics.json"
+    },
+    {
+      "case": "test_040",
+      "seed": 31,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 73.76512329999969,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed31_epoch0\\test_040\\metrics.json"
+    },
+    {
+      "case": "test_040",
+      "seed": 31,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 74.75007089999417,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed31_epoch100\\test_040\\metrics.json"
+    },
+    {
+      "case": "test_040",
+      "seed": 31,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 75.36077400000067,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed31_epoch100\\test_040\\metrics.json"
+    },
+    {
+      "case": "test_040",
+      "seed": 32,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 73.74032499999885,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed32_epoch0\\test_040\\metrics.json"
+    },
+    {
+      "case": "test_040",
+      "seed": 32,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 75.44744050000008,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed32_epoch100\\test_040\\metrics.json"
+    },
+    {
+      "case": "test_040",
+      "seed": 32,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 73.44797909999761,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed32_epoch100\\test_040\\metrics.json"
+    },
+    {
+      "case": "test_040",
+      "seed": 33,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 74.94927820000157,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed33_epoch0\\test_040\\metrics.json"
+    },
+    {
+      "case": "test_040",
+      "seed": 33,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 76.17321869999432,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed33_epoch100\\test_040\\metrics.json"
+    },
+    {
+      "case": "test_040",
+      "seed": 33,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 76.9333542999957,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed33_epoch100\\test_040\\metrics.json"
+    },
+    {
+      "case": "test_040",
+      "seed": 34,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 75.55013609999878,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed34_epoch0\\test_040\\metrics.json"
+    },
+    {
+      "case": "test_040",
+      "seed": 34,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 75.96303900000203,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed34_epoch100\\test_040\\metrics.json"
+    },
+    {
+      "case": "test_040",
+      "seed": 34,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 76.99900409999827,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed34_epoch100\\test_040\\metrics.json"
+    },
+    {
+      "case": "test_044",
+      "seed": 30,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 79.39158510000561,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed30_epoch0\\test_044\\metrics.json"
+    },
+    {
+      "case": "test_044",
+      "seed": 30,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 76.38963810000132,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed30_epoch100\\test_044\\metrics.json"
+    },
+    {
+      "case": "test_044",
+      "seed": 30,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 74.88024540000333,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed30_epoch100\\test_044\\metrics.json"
+    },
+    {
+      "case": "test_044",
+      "seed": 31,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 73.67670750000252,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed31_epoch0\\test_044\\metrics.json"
+    },
+    {
+      "case": "test_044",
+      "seed": 31,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 75.03817639999761,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed31_epoch100\\test_044\\metrics.json"
+    },
+    {
+      "case": "test_044",
+      "seed": 31,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 75.87701129999914,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed31_epoch100\\test_044\\metrics.json"
+    },
+    {
+      "case": "test_044",
+      "seed": 32,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 99.1393928000034,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed32_epoch0\\test_044\\metrics.json"
+    },
+    {
+      "case": "test_044",
+      "seed": 32,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 99.02766990000237,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed32_epoch100\\test_044\\metrics.json"
+    },
+    {
+      "case": "test_044",
+      "seed": 32,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 77.89689650000219,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed32_epoch100\\test_044\\metrics.json"
+    },
+    {
+      "case": "test_044",
+      "seed": 33,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 73.60738860000129,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed33_epoch0\\test_044\\metrics.json"
+    },
+    {
+      "case": "test_044",
+      "seed": 33,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 72.672673699999,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed33_epoch100\\test_044\\metrics.json"
+    },
+    {
+      "case": "test_044",
+      "seed": 33,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 73.58491689999937,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed33_epoch100\\test_044\\metrics.json"
+    },
+    {
+      "case": "test_044",
+      "seed": 34,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 74.88906049999787,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed34_epoch0\\test_044\\metrics.json"
+    },
+    {
+      "case": "test_044",
+      "seed": 34,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 74.08656150000024,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed34_epoch100\\test_044\\metrics.json"
+    },
+    {
+      "case": "test_044",
+      "seed": 34,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 74.22916059999989,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed34_epoch100\\test_044\\metrics.json"
+    },
+    {
+      "case": "test_046",
+      "seed": 30,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 75.01394459999574,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed30_epoch0\\test_046\\metrics.json"
+    },
+    {
+      "case": "test_046",
+      "seed": 30,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 74.69267519999994,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed30_epoch100\\test_046\\metrics.json"
+    },
+    {
+      "case": "test_046",
+      "seed": 30,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 74.359349499995,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed30_epoch100\\test_046\\metrics.json"
+    },
+    {
+      "case": "test_046",
+      "seed": 31,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 79.5873075999989,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed31_epoch0\\test_046\\metrics.json"
+    },
+    {
+      "case": "test_046",
+      "seed": 31,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 73.17715279999538,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed31_epoch100\\test_046\\metrics.json"
+    },
+    {
+      "case": "test_046",
+      "seed": 31,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 77.30983430000197,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed31_epoch100\\test_046\\metrics.json"
+    },
+    {
+      "case": "test_046",
+      "seed": 32,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 79.56421799999953,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed32_epoch0\\test_046\\metrics.json"
+    },
+    {
+      "case": "test_046",
+      "seed": 32,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 81.98158569999941,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed32_epoch100\\test_046\\metrics.json"
+    },
+    {
+      "case": "test_046",
+      "seed": 32,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 84.80638420000469,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed32_epoch100\\test_046\\metrics.json"
+    },
+    {
+      "case": "test_046",
+      "seed": 33,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 82.55648790000123,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed33_epoch0\\test_046\\metrics.json"
+    },
+    {
+      "case": "test_046",
+      "seed": 33,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 85.54590019999887,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed33_epoch100\\test_046\\metrics.json"
+    },
+    {
+      "case": "test_046",
+      "seed": 33,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 83.95853629999328,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed33_epoch100\\test_046\\metrics.json"
+    },
+    {
+      "case": "test_046",
+      "seed": 34,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 79.03851279999799,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed34_epoch0\\test_046\\metrics.json"
+    },
+    {
+      "case": "test_046",
+      "seed": 34,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 77.7116124000022,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed34_epoch100\\test_046\\metrics.json"
+    },
+    {
+      "case": "test_046",
+      "seed": 34,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 64.20791660000395,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed34_epoch100\\test_046\\metrics.json"
+    },
+    {
+      "case": "test_047",
+      "seed": 30,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 63.848584699997446,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed30_epoch0\\test_047\\metrics.json"
+    },
+    {
+      "case": "test_047",
+      "seed": 30,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 64.89351600000373,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed30_epoch100\\test_047\\metrics.json"
+    },
+    {
+      "case": "test_047",
+      "seed": 30,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 75.32632849999936,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed30_epoch100\\test_047\\metrics.json"
+    },
+    {
+      "case": "test_047",
+      "seed": 31,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 79.10500499999762,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed31_epoch0\\test_047\\metrics.json"
+    },
+    {
+      "case": "test_047",
+      "seed": 31,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 73.15637740000238,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed31_epoch100\\test_047\\metrics.json"
+    },
+    {
+      "case": "test_047",
+      "seed": 31,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 74.10439000000042,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed31_epoch100\\test_047\\metrics.json"
+    },
+    {
+      "case": "test_047",
+      "seed": 32,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 65.7510248000035,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed32_epoch0\\test_047\\metrics.json"
+    },
+    {
+      "case": "test_047",
+      "seed": 32,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 63.86528790000011,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed32_epoch100\\test_047\\metrics.json"
+    },
+    {
+      "case": "test_047",
+      "seed": 32,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 63.98863350000465,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed32_epoch100\\test_047\\metrics.json"
+    },
+    {
+      "case": "test_047",
+      "seed": 33,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 71.38589849999698,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed33_epoch0\\test_047\\metrics.json"
+    },
+    {
+      "case": "test_047",
+      "seed": 33,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 72.85950049999519,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed33_epoch100\\test_047\\metrics.json"
+    },
+    {
+      "case": "test_047",
+      "seed": 33,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 73.70570329999464,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed33_epoch100\\test_047\\metrics.json"
+    },
+    {
+      "case": "test_047",
+      "seed": 34,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 72.86608159999741,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed34_epoch0\\test_047\\metrics.json"
+    },
+    {
+      "case": "test_047",
+      "seed": 34,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 75.76720009999553,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed34_epoch100\\test_047\\metrics.json"
+    },
+    {
+      "case": "test_047",
+      "seed": 34,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 85.55496030000359,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed34_epoch100\\test_047\\metrics.json"
+    },
+    {
+      "case": "test_048",
+      "seed": 30,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 80.68682589999662,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed30_epoch0\\test_048\\metrics.json"
+    },
+    {
+      "case": "test_048",
+      "seed": 30,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 78.66632309999841,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed30_epoch100\\test_048\\metrics.json"
+    },
+    {
+      "case": "test_048",
+      "seed": 30,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 75.41543850000016,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed30_epoch100\\test_048\\metrics.json"
+    },
+    {
+      "case": "test_048",
+      "seed": 31,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 88.7896086000037,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed31_epoch0\\test_048\\metrics.json"
+    },
+    {
+      "case": "test_048",
+      "seed": 31,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 81.08696380000038,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed31_epoch100\\test_048\\metrics.json"
+    },
+    {
+      "case": "test_048",
+      "seed": 31,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 74.78350959999807,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed31_epoch100\\test_048\\metrics.json"
+    },
+    {
+      "case": "test_048",
+      "seed": 32,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 79.46181670000078,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed32_epoch0\\test_048\\metrics.json"
+    },
+    {
+      "case": "test_048",
+      "seed": 32,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 77.38557359999686,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed32_epoch100\\test_048\\metrics.json"
+    },
+    {
+      "case": "test_048",
+      "seed": 32,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 73.67967430000135,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed32_epoch100\\test_048\\metrics.json"
+    },
+    {
+      "case": "test_048",
+      "seed": 33,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 76.10403879999649,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed33_epoch0\\test_048\\metrics.json"
+    },
+    {
+      "case": "test_048",
+      "seed": 33,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 77.20693500000198,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed33_epoch100\\test_048\\metrics.json"
+    },
+    {
+      "case": "test_048",
+      "seed": 33,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 75.06122460000188,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed33_epoch100\\test_048\\metrics.json"
+    },
+    {
+      "case": "test_048",
+      "seed": 34,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 74.7961634999956,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed34_epoch0\\test_048\\metrics.json"
+    },
+    {
+      "case": "test_048",
+      "seed": 34,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 74.48294170000008,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed34_epoch100\\test_048\\metrics.json"
+    },
+    {
+      "case": "test_048",
+      "seed": 34,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 77.41620559999865,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed34_epoch100\\test_048\\metrics.json"
+    },
+    {
+      "case": "test_049",
+      "seed": 30,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 78.55577649999759,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed30_epoch0\\test_049\\metrics.json"
+    },
+    {
+      "case": "test_049",
+      "seed": 30,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 81.76938929999596,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed30_epoch100\\test_049\\metrics.json"
+    },
+    {
+      "case": "test_049",
+      "seed": 30,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 76.59147919999668,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed30_epoch100\\test_049\\metrics.json"
+    },
+    {
+      "case": "test_049",
+      "seed": 31,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 75.4652378000028,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed31_epoch0\\test_049\\metrics.json"
+    },
+    {
+      "case": "test_049",
+      "seed": 31,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 79.74414100000286,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed31_epoch100\\test_049\\metrics.json"
+    },
+    {
+      "case": "test_049",
+      "seed": 31,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 80.23421609999787,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed31_epoch100\\test_049\\metrics.json"
+    },
+    {
+      "case": "test_049",
+      "seed": 32,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 63.902072099997895,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed32_epoch0\\test_049\\metrics.json"
+    },
+    {
+      "case": "test_049",
+      "seed": 32,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 63.37484769999719,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed32_epoch100\\test_049\\metrics.json"
+    },
+    {
+      "case": "test_049",
+      "seed": 32,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 63.24961359999725,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed32_epoch100\\test_049\\metrics.json"
+    },
+    {
+      "case": "test_049",
+      "seed": 33,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 63.45735489999788,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed33_epoch0\\test_049\\metrics.json"
+    },
+    {
+      "case": "test_049",
+      "seed": 33,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 63.16736259999743,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed33_epoch100\\test_049\\metrics.json"
+    },
+    {
+      "case": "test_049",
+      "seed": 33,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 63.28632320000179,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed33_epoch100\\test_049\\metrics.json"
+    },
+    {
+      "case": "test_049",
+      "seed": 34,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 63.31871010000032,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed34_epoch0\\test_049\\metrics.json"
+    },
+    {
+      "case": "test_049",
+      "seed": 34,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 63.1556636000023,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed34_epoch100\\test_049\\metrics.json"
+    },
+    {
+      "case": "test_049",
+      "seed": 34,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 62.97349590000522,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed34_epoch100\\test_049\\metrics.json"
+    },
+    {
+      "case": "test_055",
+      "seed": 30,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 63.21961939999892,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed30_epoch0\\test_055\\metrics.json"
+    },
+    {
+      "case": "test_055",
+      "seed": 30,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 63.06842999999935,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed30_epoch100\\test_055\\metrics.json"
+    },
+    {
+      "case": "test_055",
+      "seed": 30,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 63.01301229999808,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed30_epoch100\\test_055\\metrics.json"
+    },
+    {
+      "case": "test_055",
+      "seed": 31,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 63.00206079999771,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed31_epoch0\\test_055\\metrics.json"
+    },
+    {
+      "case": "test_055",
+      "seed": 31,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 62.98628940000344,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed31_epoch100\\test_055\\metrics.json"
+    },
+    {
+      "case": "test_055",
+      "seed": 31,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 63.05863490000047,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed31_epoch100\\test_055\\metrics.json"
+    },
+    {
+      "case": "test_055",
+      "seed": 32,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 63.20409839999775,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed32_epoch0\\test_055\\metrics.json"
+    },
+    {
+      "case": "test_055",
+      "seed": 32,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 63.58108630000061,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed32_epoch100\\test_055\\metrics.json"
+    },
+    {
+      "case": "test_055",
+      "seed": 32,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 63.1881679000071,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed32_epoch100\\test_055\\metrics.json"
+    },
+    {
+      "case": "test_055",
+      "seed": 33,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 63.60558840000158,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed33_epoch0\\test_055\\metrics.json"
+    },
+    {
+      "case": "test_055",
+      "seed": 33,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 63.10093480000069,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed33_epoch100\\test_055\\metrics.json"
+    },
+    {
+      "case": "test_055",
+      "seed": 33,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 63.32057540000096,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed33_epoch100\\test_055\\metrics.json"
+    },
+    {
+      "case": "test_055",
+      "seed": 34,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 64.99218209999526,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed34_epoch0\\test_055\\metrics.json"
+    },
+    {
+      "case": "test_055",
+      "seed": 34,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 63.06047170000238,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed34_epoch100\\test_055\\metrics.json"
+    },
+    {
+      "case": "test_055",
+      "seed": 34,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 63.38764649999939,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed34_epoch100\\test_055\\metrics.json"
+    },
+    {
+      "case": "test_057",
+      "seed": 30,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 63.336215000002994,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed30_epoch0\\test_057\\metrics.json"
+    },
+    {
+      "case": "test_057",
+      "seed": 30,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 63.23455819999799,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed30_epoch100\\test_057\\metrics.json"
+    },
+    {
+      "case": "test_057",
+      "seed": 30,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 62.78261900000507,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed30_epoch100\\test_057\\metrics.json"
+    },
+    {
+      "case": "test_057",
+      "seed": 31,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 62.99078010000085,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed31_epoch0\\test_057\\metrics.json"
+    },
+    {
+      "case": "test_057",
+      "seed": 31,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 63.117646600003354,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed31_epoch100\\test_057\\metrics.json"
+    },
+    {
+      "case": "test_057",
+      "seed": 31,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 63.39634400000068,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed31_epoch100\\test_057\\metrics.json"
+    },
+    {
+      "case": "test_057",
+      "seed": 32,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 63.44505589999608,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed32_epoch0\\test_057\\metrics.json"
+    },
+    {
+      "case": "test_057",
+      "seed": 32,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 63.164588400002685,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed32_epoch100\\test_057\\metrics.json"
+    },
+    {
+      "case": "test_057",
+      "seed": 32,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 63.299428199999966,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed32_epoch100\\test_057\\metrics.json"
+    },
+    {
+      "case": "test_057",
+      "seed": 33,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 63.24170310000045,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed33_epoch0\\test_057\\metrics.json"
+    },
+    {
+      "case": "test_057",
+      "seed": 33,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 63.23883339999884,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed33_epoch100\\test_057\\metrics.json"
+    },
+    {
+      "case": "test_057",
+      "seed": 33,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 63.07906329999969,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed33_epoch100\\test_057\\metrics.json"
+    },
+    {
+      "case": "test_057",
+      "seed": 34,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 63.01932320000196,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed34_epoch0\\test_057\\metrics.json"
+    },
+    {
+      "case": "test_057",
+      "seed": 34,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 65.1877616999991,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed34_epoch100\\test_057\\metrics.json"
+    },
+    {
+      "case": "test_057",
+      "seed": 34,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 63.330623200003174,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed34_epoch100\\test_057\\metrics.json"
+    },
+    {
+      "case": "test_058",
+      "seed": 30,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 62.97758829999657,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed30_epoch0\\test_058\\metrics.json"
+    },
+    {
+      "case": "test_058",
+      "seed": 30,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 62.87944199999765,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed30_epoch100\\test_058\\metrics.json"
+    },
+    {
+      "case": "test_058",
+      "seed": 30,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 62.76618650000455,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed30_epoch100\\test_058\\metrics.json"
+    },
+    {
+      "case": "test_058",
+      "seed": 31,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 64.04025929999625,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed31_epoch0\\test_058\\metrics.json"
+    },
+    {
+      "case": "test_058",
+      "seed": 31,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 72.10408920000191,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed31_epoch100\\test_058\\metrics.json"
+    },
+    {
+      "case": "test_058",
+      "seed": 31,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 66.35801789999823,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed31_epoch100\\test_058\\metrics.json"
+    },
+    {
+      "case": "test_058",
+      "seed": 32,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 63.54444030000013,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed32_epoch0\\test_058\\metrics.json"
+    },
+    {
+      "case": "test_058",
+      "seed": 32,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 63.35379030000331,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed32_epoch100\\test_058\\metrics.json"
+    },
+    {
+      "case": "test_058",
+      "seed": 32,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 63.42942420000327,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed32_epoch100\\test_058\\metrics.json"
+    },
+    {
+      "case": "test_058",
+      "seed": 33,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 62.944549399995594,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed33_epoch0\\test_058\\metrics.json"
+    },
+    {
+      "case": "test_058",
+      "seed": 33,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 62.861704299997655,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed33_epoch100\\test_058\\metrics.json"
+    },
+    {
+      "case": "test_058",
+      "seed": 33,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 63.19072790000064,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed33_epoch100\\test_058\\metrics.json"
+    },
+    {
+      "case": "test_058",
+      "seed": 34,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 62.93278719999944,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed34_epoch0\\test_058\\metrics.json"
+    },
+    {
+      "case": "test_058",
+      "seed": 34,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 62.769896900004824,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed34_epoch100\\test_058\\metrics.json"
+    },
+    {
+      "case": "test_058",
+      "seed": 34,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 63.13748530000157,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed34_epoch100\\test_058\\metrics.json"
+    },
+    {
+      "case": "test_060",
+      "seed": 30,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 63.04904919999535,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed30_epoch0\\test_060\\metrics.json"
+    },
+    {
+      "case": "test_060",
+      "seed": 30,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 62.95358750000014,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed30_epoch100\\test_060\\metrics.json"
+    },
+    {
+      "case": "test_060",
+      "seed": 30,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 63.47368140000617,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed30_epoch100\\test_060\\metrics.json"
+    },
+    {
+      "case": "test_060",
+      "seed": 31,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 63.472078700004204,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed31_epoch0\\test_060\\metrics.json"
+    },
+    {
+      "case": "test_060",
+      "seed": 31,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 63.70393689999764,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed31_epoch100\\test_060\\metrics.json"
+    },
+    {
+      "case": "test_060",
+      "seed": 31,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 64.11057820000133,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed31_epoch100\\test_060\\metrics.json"
+    },
+    {
+      "case": "test_060",
+      "seed": 32,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 63.76853729999857,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed32_epoch0\\test_060\\metrics.json"
+    },
+    {
+      "case": "test_060",
+      "seed": 32,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 63.07312459999957,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed32_epoch100\\test_060\\metrics.json"
+    },
+    {
+      "case": "test_060",
+      "seed": 32,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 63.30677889999788,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed32_epoch100\\test_060\\metrics.json"
+    },
+    {
+      "case": "test_060",
+      "seed": 33,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 64.52186710000387,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed33_epoch0\\test_060\\metrics.json"
+    },
+    {
+      "case": "test_060",
+      "seed": 33,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 67.11147690000507,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed33_epoch100\\test_060\\metrics.json"
+    },
+    {
+      "case": "test_060",
+      "seed": 33,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 66.97035400000459,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed33_epoch100\\test_060\\metrics.json"
+    },
+    {
+      "case": "test_060",
+      "seed": 34,
+      "group": "A",
+      "epoch": 0,
+      "wall_seconds": 66.59195550000004,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_A\\seed34_epoch0\\test_060\\metrics.json"
+    },
+    {
+      "case": "test_060",
+      "seed": 34,
+      "group": "B",
+      "epoch": 100,
+      "wall_seconds": 67.07131859999936,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_B\\seed34_epoch100\\test_060\\metrics.json"
+    },
+    {
+      "case": "test_060",
+      "seed": 34,
+      "group": "C",
+      "epoch": 100,
+      "wall_seconds": 66.77662219999911,
+      "metrics": "D:\\下载\\FNO_Research_Workspace\\.build\\fwi-quality-guards-round2-20261013\\group_C\\seed34_epoch100\\test_060\\metrics.json"
+    }
+  ]
+}

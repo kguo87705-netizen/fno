@@ -1,0 +1,16 @@
+{
+  "case": "validation_003",
+  "seed": 34,
+  "epoch": 0,
+  "updates": 35,
+  "initial_cost": 1.1026303203820476e-09,
+  "final_cost": 2.6201951849533223e-13,
+  "relative_cost_reduction": 0.9997623686618697,
+  "material_mse": 0.0076734067417328815,
+  "fit_seconds": 69.79592419999972,
+  "wall_seconds": 72.74435550000271,
+  "peak_allocated_bytes": 9628777472,
+  "physical_forward_calls": 36,
+  "physical_adjoint_calls": 35,
+  "initial_gradient_calls": "shared preprocessing in T1; one forward+one adjoint per geometry"
+}
