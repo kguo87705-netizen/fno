@@ -1,4 +1,4 @@
-"""Literal requested refinement; no gain fit or grid-area compensation."""
+"""Refinement gate; optional geometric source normalization, never fitted."""
 import json
 from pathlib import Path
 import sys
@@ -61,6 +61,11 @@ def main(config_path,run_path):
     r=(1-2*arg**2)*np.exp(-arg**2)
     assert np.allclose(r[::2],old_wave,rtol=1e-11,atol=1e-13)
     wave=waves(fine_cfg,r)['forward_difference']
+    compensation=1.0
+    if cfg.get('source_normalization')=='fixed_2d_integrated_strength':
+        assert cfg['source_reference_dx_m']==coarse_cfg['dx_m']
+        compensation=cfg['source_reference_dx_m']/cfg['fine_dx_m']
+        wave=(wave*compensation).astype(np.float32)
     tx=cfg['gate_transmitter_one_based']
     torch.manual_seed(coarse_cfg['seed']);np.random.seed(coarse_cfg['seed'])
     fine,detail=simulate(fine_cfg,uniform,wave,[tx])
@@ -83,10 +88,11 @@ def main(config_path,run_path):
             'frozen_gain':frozen['gain'],'frozen_lag_s':frozen['lag_s'],'runtime':detail,
             'source_scaling_audit':{
                 'fine_over_coarse_h':cfg['fine_dx_m']/coarse_cfg['dx_m'],
-                'predicted_2d_integrated_source_ratio':cfg['fine_dx_m']/coarse_cfg['dx_m'],
+                'geometric_compensation':compensation,
+                'predicted_2d_integrated_source_ratio':compensation*cfg['fine_dx_m']/coarse_cfg['dx_m'],
                 'fine_spacetime_source_l1':float(np.sum(np.abs(wave.astype(np.float64)))*cfg['fine_dt_s']*cfg['fine_dx_m']**2),
                 'coarse_spacetime_source_l1':float(np.sum(np.abs(coarse_source.astype(np.float64)))*coarse_cfg['dt_s']*coarse_cfg['dx_m']**2),
-                'ricker_same_continuous_definition':True,'no_area_compensation':True,'no_fitting':True}}
+                'ricker_same_continuous_definition':True,'no_area_compensation':compensation==1,'no_fitting':True}}
     report['passed']=report['direct_all_64']['relative_l2_fine_minus_coarse_over_coarse']<cfg['direct_gate_l2_strict_upper']
     report['gate_threshold_strict_upper']=cfg['direct_gate_l2_strict_upper']
     report['downstream_executed']=False
@@ -98,7 +104,7 @@ def main(config_path,run_path):
         f.create_dataset('fine_source',data=wave)
         f.create_dataset('t_output',data=times)
         f.create_dataset('direct_mask',data=mask)
-        f.attrs['source_normalization']='literal frozen forward difference with new h and dt; no area correction'
+        f.attrs['source_normalization']=cfg.get('source_normalization','literal_original_formula')
     report['compute_analysis_save_s']=time.perf_counter()-started
     dump(run/'gate_result.json',report)
     import matplotlib
@@ -108,7 +114,7 @@ def main(config_path,run_path):
     for ax,rx in zip(axes,cfg['diagnostic_receivers_one_based']):
         m=mask[rx-1]
         ax.plot(times[m]*1e6,a[rx-1,m],label='Deepwave h=0.10 mm, frozen calibration')
-        ax.plot(times[m]*1e6,b[rx-1,m],label='Deepwave h=0.05 mm, same source formula')
+        ax.plot(times[m]*1e6,b[rx-1,m],label=f'Deepwave h=0.05 mm, geometric factor {compensation:g}')
         ax.set_ylabel(f'Tx {tx}, Rx {rx}\npressure');ax.set_xlabel('Acquisition time (us)')
     axes[0].legend(fontsize=8)
     fig.suptitle('Uniform-medium gate: same axes; no new amplitude or time alignment')

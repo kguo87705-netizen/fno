@@ -1,0 +1,69 @@
+{
+  "direct_all_64": {
+    "relative_l2_fine_minus_coarse_over_coarse": 0.16501282563191083,
+    "fine_over_coarse_norm_ratio": 1.1161719816146274,
+    "global_pearson": 0.9938480429870509,
+    "mean_trace_pearson": 0.9996313200833582,
+    "samples": 3200
+  },
+  "direct_excluding_self": {
+    "relative_l2_fine_minus_coarse_over_coarse": 0.024770018548714526,
+    "fine_over_coarse_norm_ratio": 1.0002729981159977,
+    "global_pearson": 0.9996933390793307,
+    "mean_trace_pearson": 0.9996775011168176,
+    "samples": 3150
+  },
+  "previous_direct_subset": {
+    "relative_l2_fine_minus_coarse_over_coarse": 0.027886142295796727,
+    "fine_over_coarse_norm_ratio": 1.0025103283464136,
+    "global_pearson": 0.9996152948808059,
+    "mean_trace_pearson": 0.9996289900312219,
+    "samples": 1700
+  },
+  "full_record": {
+    "relative_l2_fine_minus_coarse_over_coarse": 0.16500892194746833,
+    "fine_over_coarse_norm_ratio": 1.1161666576551075,
+    "global_pearson": 0.993848028035422,
+    "mean_trace_pearson": 0.9996312079721328,
+    "samples": 64000
+  },
+  "frozen_gain": 0.9907679913977262,
+  "frozen_lag_s": 0.0,
+  "runtime": {
+    "propagation_copy_s": 0.6220747999996092,
+    "with_prepare_s": 0.6233434000005218,
+    "batch": 3,
+    "shots": 1,
+    "oom": [],
+    "allocated_peak_bytes": 33680384,
+    "reserved_peak_bytes": 44040192,
+    "gpu_samples": [
+      [
+        13480.3623176,
+        1650.0,
+        3.0
+      ],
+      [
+        13480.9199907,
+        1669.0,
+        4.0
+      ]
+    ],
+    "whole_card_peak_mib": 1669.0
+  },
+  "source_scaling_audit": {
+    "fine_over_coarse_h": 0.5,
+    "geometric_compensation": 2.0,
+    "predicted_2d_integrated_source_ratio": 1.0,
+    "fine_spacetime_source_l1": 1.305077420984728e-07,
+    "coarse_spacetime_source_l1": 1.3047802397629546e-07,
+    "ricker_same_continuous_definition": true,
+    "no_area_compensation": false,
+    "no_fitting": true
+  },
+  "passed": false,
+  "gate_threshold_strict_upper": 0.03,
+  "downstream_executed": false,
+  "code_success": true,
+  "compute_analysis_save_s": 1.5632275000007212
+}

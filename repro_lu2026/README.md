@@ -2,6 +2,8 @@
 
 ## 当前进度
 
+- **几何补偿后仍在均匀门槛停止**：全接收L2=0.165013，非自收L2=0.024770；自收道占直达残差能量98.9849%。未改变<0.03门槛，未继续缺陷裁判或消融。见[补偿与残差报告](reports/refinement_compensated_report.md)。
+
 - **加密裁判前置检查未通过**：均匀单炮粗细网格直达L2=0.449616（要求<0.03）；非自收幅度比0.500137。冻结点源公式跨网格改变了总源强，未补偿或拟合，尚不能裁决散射精度。后续三炮缺陷、时间收敛和PML消融未执行。见[本轮报告](reports/refinement_gate_report.md)。
 
 - **M0完成**：MATLAB R2024b、RTX5070、k-Wave1.4.1；所有本次输出在E盘。
@@ -13,6 +15,8 @@
 - M2批量数据、M3加载、M4原版FNO、M5评估尚未执行。
 
 ## 报告
+
+- [几何补偿后的门槛、偏移距及频带诊断](reports/refinement_compensated_report.md)
 
 - [加密前置检查：结果、源强推导与停止原因](reports/refinement_gate_report.md)
 - [加密裁判预注册协议](reports/refinement_protocol.md)
