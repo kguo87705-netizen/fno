@@ -1,0 +1,165 @@
+{
+  "timing": {
+    "stage": "full",
+    "python": "3.12.15 (main, Oct 14 2026, 01:08:45) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "E:\\FNO_research\\envs\\deepwave\\Scripts\\python.exe",
+    "versions": {
+      "torch": "2.11.0+cu128",
+      "deepwave": "0.0.27",
+      "numpy": "2.5.4",
+      "h5py": "3.16.0",
+      "matplotlib": "3.11.2"
+    },
+    "cuda_runtime": "12.8",
+    "code_sha256": "4eb149d4040ff7ba65046aca44a4a42892da14cd8c2d2c786dda3e8aa128ba11",
+    "config_sha256": "8760943b0f3f4fdcc2a78b633b3644d72c8faf57769b160a4d0b7c1f91cbbc07",
+    "gpu": "NVIDIA GeForce RTX 5070",
+    "capability": [
+      12,
+      0
+    ],
+    "torch_arch_list": [
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90",
+      "sm_100",
+      "sm_120"
+    ],
+    "gpu_total_bytes": 12820480000,
+    "propagation_and_copy_s": 2.145498399999269,
+    "batch_shots_used": 64,
+    "oom_attempts": [],
+    "generation_including_input_and_save_s": 2.6268692000003284,
+    "script_start_through_data_save_s": 3.9454981000008047,
+    "output_bytes": 82592192,
+    "torch_peak_allocated_bytes": 488570368,
+    "torch_peak_reserved_bytes": 513802240,
+    "whole_gpu_peak_mib": 2036.0,
+    "gpu_utilization_mean": 79.6
+  },
+  "metrics": {
+    "raw": {
+      "global_relative_l2": 0.9999999996191028,
+      "trace_relative_l2": {
+        "min": 0.9999999992956615,
+        "mean": 1.000000000607121,
+        "median": 1.0000000000077887,
+        "p95": 1.0000000031370269,
+        "max": 1.0000000035330483
+      },
+      "trace_pearson_zero_lag": {
+        "min": -0.2307644422667879,
+        "mean": -0.03485734846987512,
+        "median": -0.0003775334135982078,
+        "p95": 0.03306196069329236,
+        "max": 0.0344751245521787
+      }
+    },
+    "aligned": {
+      "global_relative_l2": 0.5418359616500515,
+      "trace_relative_l2": {
+        "min": 0.5334098962023038,
+        "mean": 0.559782583086569,
+        "median": 0.5525109994964374,
+        "p95": 0.614932758641374,
+        "max": 0.6548219669343156
+      },
+      "trace_pearson_zero_lag": {
+        "min": 0.7664556673320614,
+        "mean": 0.8289665836166294,
+        "median": 0.8338050935875205,
+        "p95": 0.8422719952312278,
+        "max": 0.8459827971624378
+      }
+    },
+    "global_gain": -41736617.0372431,
+    "global_lag_output_samples": -5,
+    "global_lag_s": -1e-07,
+    "raw_peak_absolute_xcorr_signed": {
+      "min": -0.8459827971624382,
+      "mean": -0.1915680812014925,
+      "median": -0.8327513024992435,
+      "p95": 0.8524959382808978,
+      "max": 0.8544714082575031
+    },
+    "raw_peak_xcorr_lag_samples": {
+      "min": -5.0,
+      "mean": -1.171875,
+      "median": -5.0,
+      "p95": 5.0,
+      "max": 5.0
+    },
+    "deepwave_reciprocity": {
+      "global_relative_l2": 2.7237382907005717e-06,
+      "pair_relative_l2": {
+        "min": 1.0046116268187316e-06,
+        "mean": 5.987768434729359e-06,
+        "median": 5.780702682534678e-06,
+        "p95": 1.0484173222467584e-05,
+        "max": 1.3965535317986246e-05
+      },
+      "pair_count": 2016
+    },
+    "kwave_reciprocity": {
+      "global_relative_l2": 1.7588602448284484e-06,
+      "pair_relative_l2": {
+        "min": 7.541251046103054e-07,
+        "mean": 3.897364061175936e-06,
+        "median": 3.7536614200894107e-06,
+        "p95": 6.999667398034379e-06,
+        "max": 8.46143396509665e-06
+      },
+      "pair_count": 2016
+    }
+  },
+  "audit": {
+    "same_float32_source_and_model": true,
+    "source_mat_storage_dtype": "float64",
+    "same_stride": true,
+    "aligned_data_verified": true,
+    "raw_peak_abs": 4.948676579630273e-09,
+    "kwave_peak_abs": 0.2317151129245758,
+    "c_min": 1500.0,
+    "c_max": 5800.0,
+    "inner_dt_and_ratio": [
+      5e-09,
+      1
+    ],
+    "peak_xcorr_abs_mean": 0.8408930973441071,
+    "peak_xcorr_abs_median": 0.8400670512207296,
+    "data_sha256": "b6bcc01b9da90d976b7517a2cca26cc55d91bd29c8d0ea3f6a30f27150a8cbb5"
+  },
+  "process": {
+    "exit_code": 0,
+    "process_wall_s": 8.3036116,
+    "includes_analysis_and_plots": true
+  },
+  "run_dir": "E:\\FNO_research\\results\\deepwave_full_20261019_172629_796",
+  "installed_packages": {
+    "contourpy": "1.4.0",
+    "cycler": "0.12.1",
+    "deepwave": "0.0.27",
+    "filelock": "4.2.4",
+    "fonttools": "4.67.0",
+    "fsspec": "2026.9.0",
+    "h5py": "3.16.0",
+    "Jinja2": "3.1.6",
+    "kiwisolver": "1.5.1",
+    "MarkupSafe": "3.0.4",
+    "matplotlib": "3.11.2",
+    "mpmath": "1.3.0",
+    "networkx": "3.7",
+    "numpy": "2.5.4",
+    "packaging": "26.3",
+    "pillow": "13.0.0",
+    "pip": "25.0.1",
+    "pyparsing": "3.3.3",
+    "python-dateutil": "2.9.0.post0",
+    "setuptools": "81.0.0",
+    "six": "1.17.0",
+    "sympy": "1.14.0",
+    "torch": "2.11.0+cu128",
+    "typing_extensions": "4.16.0"
+  }
+}

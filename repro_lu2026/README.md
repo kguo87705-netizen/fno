@@ -5,11 +5,16 @@
 - **M0完成**：MATLAB R2024b、RTX5070、k-Wave1.4.1；所有本次输出在E盘。
 - **M1完成**：同一EMNIST模型的完整64发射参考FMC已保存。计算及检查点251.64秒，含启动/最终保存260.93秒；全局互易相对L2为1.76e-6，最坏道对8.46e-6。
 - **并行可行性完成**：相同6炮在1/2/3进程下分别24.30/20.71/20.47秒；与参考波形误差均为0。暂推荐2进程，3进程额外收益未证明稳定。
-- **Deepwave未安装**：拟Python3.12.15、PyTorch2.11.0+cu128、Deepwave0.0.27；E盘预留15GiB，等待确认。
-- M2批量数据、M3加载、M4原版FNO、M5评估尚未执行。仓库变更等待清单确认，未推送。
+- **Deepwave对比完成**：Python3.12.15、torch2.11.0+cu128、Deepwave0.0.27均安装在E盘，单炮GPU验证通过；一次64炮传播及回传2.145秒，生成保存2.627秒，整卡峰值2036MiB，无OOM。原始相对L2约1.00，全局幅度+时移标定后0.541836，相关系数均值0.828967，互易性2.72e-6。当前建议训练集仍用k-Wave双进程，先解决物理源等价问题再考虑替换。
+- **原26文件已成功推送**：`713fdc4d6d7ceec9f7c6ba4a0a98e440cda0d1c7`。新增Deepwave报告、代码、配置、图像及状态更新留在本地待清单确认。
+- M2批量数据、M3加载、M4原版FNO、M5评估尚未执行。
 
 ## 报告
 
+- [Deepwave完整对比、预算和建议](reports/deepwave_comparison.md)
+- [Deepwave执行前协议](reports/deepwave_protocol.md)
+- [Deepwave实测数值与环境版本](configs/deepwave_measurements.json)
+- [推送与安装网络阻塞记录](reports/installation_network_block.md)
 - [M0与单次发射](reports/m0_and_single_tx.md)
 - [本轮预注册协议](reports/protocol.md)
 - [完整FMC和互易性](reports/kwave_reference.md)
@@ -31,6 +36,8 @@
 5. `code/analyze_concurrency.m`：读取三个运行目录并与完整参考逐元素比较，输出吞吐量分析；MATLAB调用`analyze_concurrency(reference_run_dir,{group1,group2,group3},out_json,figure_dir)`。
 
 并行工作器使用单炮MAT中的固定c/label/source_wavelet/time作为输入，以保证本轮参考和吞吐量比较完全相同；它不是通用批量模型生成器。上述MAT需先通过单炮脚本生成，或使用本机现有结果。图像分析脚本可能覆盖指定输出目录中的同名PNG，重分析时应提供新的图目录。
+
+6. `code/run_deepwave.ps1`设置项目内缓存，创建唯一结果目录并调用`code/deepwave_compare.py`。先运行`-Stage smoke`，人工核验通过后才运行`-Stage full`，两者均必须传`-ConfigPath E:\FNO_research\repos\fno_light\repro_lu2026\configs\deepwave_comparison.json`。环境解释器固定在配置root下的`envs/deepwave/Scripts/python.exe`，不自动安装或编译。full执行64炮对照和分析，不生成多模型训练集；仅OOM时允许16炮分批。
 
 ## 时间与物理约定
 
