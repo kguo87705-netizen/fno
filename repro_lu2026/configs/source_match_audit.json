@@ -1,0 +1,7 @@
+{
+  "full_run": "E:/FNO_research/results/source_match_full_20261019_174522_792",
+  "single_run": "E:/FNO_research/results/source_match_single_20261019_173928_349",
+  "time_edges_us": [0,8,12,16,20],
+  "frequency_edges_mhz": [0,2.25,3,4,25],
+  "note": "Posthoc diagnostic on saved outputs only; does not change pass/fail metric or calibration."
+}

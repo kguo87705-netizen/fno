@@ -5,12 +5,17 @@
 - **M0完成**：MATLAB R2024b、RTX5070、k-Wave1.4.1；所有本次输出在E盘。
 - **M1完成**：同一EMNIST模型的完整64发射参考FMC已保存。计算及检查点251.64秒，含启动/最终保存260.93秒；全局互易相对L2为1.76e-6，最坏道对8.46e-6。
 - **并行可行性完成**：相同6炮在1/2/3进程下分别24.30/20.71/20.47秒；与参考波形误差均为0。暂推荐2进程，3进程额外收益未证明稳定。
-- **Deepwave对比完成**：Python3.12.15、torch2.11.0+cu128、Deepwave0.0.27均安装在E盘，单炮GPU验证通过；一次64炮传播及回传2.145秒，生成保存2.627秒，整卡峰值2036MiB，无OOM。原始相对L2约1.00，全局幅度+时移标定后0.541836，相关系数均值0.828967，互易性2.72e-6。当前建议训练集仍用k-Wave双进程，先解决物理源等价问题再考虑替换。
-- **原26文件已成功推送**：`713fdc4d6d7ceec9f7c6ba4a0a98e440cda0d1c7`。新增Deepwave报告、代码、配置、图像及状态更新留在本地待清单确认。
+- **Deepwave安装与初次对比完成**：Python3.12.15、torch2.11.0+cu128、Deepwave0.0.27均安装在E盘。初次直接共用Ricker的差异已由后续源匹配诊断进一步分析。
+- **源匹配诊断完成，训练集求解器暂未确定**：推导并验证了时间导数、理论幅度和记录时序修正。均匀单炮未拟合L2=0.03496；冻结均匀校准后完整缺陷平均相关0.98807（>0.95），但散射L2=0.60276（未达到<0.2）。解析导数版本散射L2=0.56986也未通过。没有继续调参，不把Deepwave直接定为训练集求解器，也不将k-Wave视作绝对真值。
+- **已推送的前两轮**：原26文件`713fdc4`；初次Deepwave对比12文件`21e82e4`。本轮源匹配诊断按用户新授权核对清单后自行轻量提交推送，单次小于5MB。
 - M2批量数据、M3加载、M4原版FNO、M5评估尚未执行。
 
 ## 报告
 
+- [源匹配诊断：推导、均匀/缺陷/散射及判据](reports/source_match_report.md)
+- [源匹配执行前协议](reports/source_match_protocol.md)
+- [源匹配测量与审计JSON](configs/source_match_measurements.json)
+- [进度记录](reports/progress_log.md)
 - [Deepwave完整对比、预算和建议](reports/deepwave_comparison.md)
 - [Deepwave执行前协议](reports/deepwave_protocol.md)
 - [Deepwave实测数值与环境版本](configs/deepwave_measurements.json)
@@ -38,6 +43,8 @@
 并行工作器使用单炮MAT中的固定c/label/source_wavelet/time作为输入，以保证本轮参考和吞吐量比较完全相同；它不是通用批量模型生成器。上述MAT需先通过单炮脚本生成，或使用本机现有结果。图像分析脚本可能覆盖指定输出目录中的同名PNG，重分析时应提供新的图目录。
 
 6. `code/run_deepwave.ps1`设置项目内缓存，创建唯一结果目录并调用`code/deepwave_compare.py`。先运行`-Stage smoke`，人工核验通过后才运行`-Stage full`，两者均必须传`-ConfigPath E:\FNO_research\repos\fno_light\repro_lu2026\configs\deepwave_comparison.json`。环境解释器固定在配置root下的`envs/deepwave/Scripts/python.exe`，不自动安装或编译。full执行64炮对照和分析，不生成多模型训练集；仅OOM时允许16炮分批。
+
+7. `code/run_source_match.ps1`和`code/source_match.py`：先使用`source_match_single.json -Stage single`进行均匀单炮源修正与校准，再使用`source_match_full.json -Stage full`做完整两介质对照。参数必须传绝对配置路径。`kwave_homogeneous.json`用于原k-Wave工作器的均匀介质覆盖选项；未提供该选项时旧缺陷模式不变。`code/analyze_source_match.py`读取`source_match_audit.json`，仅分析已有数组，不重新传播；本轮剩余差异未通过判据，不自动启动M2。
 
 ## 时间与物理约定
 

@@ -1,0 +1,45 @@
+{
+  "root": "E:/FNO_research",
+  "base_config": "E:/FNO_research/repos/fno_light/repro_lu2026/configs/deepwave_comparison.json",
+  "kwave_uniform_single": "E:/FNO_research/results/source_match_uniform_single_20261019_173712_226/worker_1/fmc.mat",
+  "source_frequency_hz": 2250000,
+  "source_shift_s": 1.3333333333333334E-06,
+  "primary_variant": "forward_difference",
+  "previous_deepwave_raw": "E:/FNO_research/results/deepwave_full_20261019_172629_796/deepwave_fmc.h5",
+  "calibration": {
+    "min_distance_m": 0.0048,
+    "tx_one_based": 32,
+    "max_lag_steps": 4,
+    "half_window_s": 5E-07,
+    "max_distance_m": 0.0144
+  },
+  "decision": {
+    "max_scattering_l2": 0.2,
+    "min_mean_correlation": 0.95
+  },
+  "plot_receivers_one_based": [
+    32,
+    40,
+    56,
+    64
+  ],
+  "plot_half_window_s": 6.5E-07,
+  "diagnostic_pairs_one_based": [
+    [
+      1,
+      64
+    ],
+    [
+      32,
+      1
+    ],
+    [
+      32,
+      32
+    ],
+    [
+      32,
+      64
+    ]
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "status": "authorized_source_matching_uniform_reference",
+  "seed": 42,
+  "model": {
+    "dataset": "EMNIST letters train",
+    "sample_index_zero_based": 0,
+    "label_shape": [
+      200,
+      200
+    ],
+    "resize_shape": [
+      56,
+      56
+    ],
+    "resize_method": "bilinear",
+    "center_zero_pad": true,
+    "mapping": "c=5800-4300*I/255",
+    "c_background_m_s": 5800,
+    "c_defect_m_s": 1500,
+    "binarize": false,
+    "density_kg_m3": 1000,
+    "density_note": "Constant-density acoustic baseline consistent with the form of Eq.(1); rho=1000 kg/m^3 is the chosen constant, not a steel/water density model.",
+    "geometry_assumption": "Based on Lu Fig.5: the 56-pixel support is 11.2 mm wide on the 0.2 mm label grid; nonzero glyph is smaller; resize-before-padding is an implementation assumption, not a published recipe.",
+    "orientation": "Transpose raw row-major IDX exactly once; reuse verified upright W from preparation."
+  },
+  "grid": {
+    "domain_m": [
+      0.04,
+      0.04
+    ],
+    "shape": [
+      400,
+      400
+    ],
+    "spacing_m": 0.0001,
+    "label_spacing_m": 0.0002,
+    "label_to_sim": "nearest",
+    "cfl": 0.29,
+    "pml_inside": false,
+    "pml_size": 20,
+    "pml_alpha": 2,
+    "boundary": "absorbing on all four sides; no free surface or backwall",
+    "deviation_from_paper": "Paper specifies lateral PML only and does not define top/bottom. This baseline uses external 20-cell PML on all four sides and excludes backwall/free-surface reflection. A future backwall variant is deferred.",
+    "coordinate_convention": "Physical half-open domain [0,40) mm on each axis; node 1 is 0 mm, node 201 is 20 mm. Array centered at nominal domain center 20 mm. Matrix axes are [depth,lateral]."
+  },
+  "array": {
+    "elements": 64,
+    "pitch_m": 0.0006,
+    "first_x_m": 0.0011,
+    "z_m": 0.0002,
+    "element_model": "single grid point",
+    "note": "near-surface row; x=1.1:0.6:38.9 mm",
+    "transmitter_index_one_based": 32,
+    "center_x_m": 0.02
+  },
+  "source": {
+    "wavelet": "Ricker",
+    "frequency_hz": 2250000,
+    "time_shift_s": 1.3333333333333332E-06,
+    "pressure_pa": 1,
+    "mode": "additive",
+    "time_zero_definition": "t=0 is acquisition/sequence start. Ricker analytic peak delayed by 3/f0=1.333333333333333 us; no trace shifting. Store sampled peak time separately. Future measured data need calibrated trigger and transducer delays; not automatically aligned."
+  },
+  "time": {
+    "end_s": 2E-05,
+    "output_dt_s": 2E-08,
+    "output_count": 1000,
+    "output_t0_s": 0,
+    "resampling": "integer stride 4: samples 1,5,...,3997; no interpolation; measure spectral energy above target Nyquist",
+    "internal_dt_s": 5E-09,
+    "internal_count": 4000
+  },
+  "compute": {
+    "data_cast": "gpuArray-single",
+    "cuda_forward_compatibility": true,
+    "plot_sim": false
+  },
+  "output": {
+    "fmc_order": [
+      "transmitter",
+      "receiver",
+      "time"
+    ],
+    "fmc_dtype": "float32",
+    "label_dtype": "float32",
+    "format": "MAT v7.3",
+    "save_raw_internal_time": true
+  },
+  "gates": {
+    "mapping_confirmed": true,
+    "full_fmc_started": true,
+    "benchmark_one_transmit_first": true
+  },
+  "diagnostics": {
+    "record": [
+      "p",
+      "p_final",
+      "p_max_all",
+      "p_min_all"
+    ],
+    "late_time_start_s": 1.5E-05,
+    "boundary_strip_cells": 10,
+    "spectral_tail_warning_ratio": 1E-06,
+    "nvidia_poll_ms": 500,
+    "estimate_overhead_fraction": 0.2,
+    "bscan_db_floor": -60,
+    "figure_dpi": 150
+  },
+  "paths": {
+    "root": "E:\\FNO_research",
+    "matlab_exe": "D:\\matlab\\bin\\matlab.exe",
+    "kwave": "E:\\FNO_research\\toolboxes\\k-wave-v1.4.1\\ucl-bug-k-wave-0f1a70f\\k-Wave",
+    "label_npy": "E:\\FNO_research\\results\\m1_preparation\\label_56.npy",
+    "label_sha256": "20EC826C78949BFED83FBB5E2594DB4829C1C48A446CD1E3B7D1F1CB1DB6E82D",
+    "emnist_images": "E:\\FNO_research\\data\\raw\\emnist\\emnist-letters-train-images-idx3-ubyte.gz",
+    "emnist_labels": "E:\\FNO_research\\data\\raw\\emnist\\emnist-letters-train-labels-idx1-ubyte.gz",
+    "code_root": "E:\\FNO_research\\repos\\fno_light\\repro_lu2026\\code",
+    "single_tx_mat": "E:\\FNO_research\\results\\m1_single_tx_20261019_160322_819\\single_tx.mat"
+  },
+  "benchmark": {
+    "transmitters": [
+      1,
+      13,
+      26,
+      39,
+      52,
+      64
+    ],
+    "process_counts": [
+      1,
+      2,
+      3
+    ],
+    "rounds": 1,
+    "barrier_timeout_s": 180,
+    "poll_ms": 500,
+    "reference_complete": false,
+    "notes": "Same six transmitters once per concurrency level; preliminary throughput, no statistical confidence interval. GPU initialization and a small FFT precede the ready barrier."
+  },
+  "diagnostic": {
+    "uniform_speed_m_s": 5800
+  }
+}

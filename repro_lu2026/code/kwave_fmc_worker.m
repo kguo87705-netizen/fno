@@ -7,6 +7,9 @@ try
     addpath(cfg.paths.kwave); rng(cfg.seed,'twister');
     src=load(cfg.paths.single_tx_mat,'c','label','source_wavelet','t_internal','t_output');
     c=src.c; label=src.label; source_wavelet=src.source_wavelet;
+    if isfield(cfg,'diagnostic') && isfield(cfg.diagnostic,'uniform_speed_m_s')
+        c(:)=cfg.diagnostic.uniform_speed_m_s; label(:)=cfg.diagnostic.uniform_speed_m_s;
+    end
     assert(isequal(size(c),cfg.grid.shape(:)'));
     k=kWaveGrid(size(c,1),cfg.grid.spacing_m,size(c,2),cfg.grid.spacing_m);
     k.setTime(cfg.time.internal_count,cfg.time.internal_dt_s);
