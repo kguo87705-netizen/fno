@@ -1,0 +1,558 @@
+{
+  "results": {
+    "Deepwave coarse": {
+      "all": {
+        "full": {
+          "relative_l2": 0.21445691117956103,
+          "global_pearson": 0.9770558598611286,
+          "trace_pearson_mean": 0.9783426377999999,
+          "trace_pearson_median": 0.978423131353303,
+          "channels": 192,
+          "samples_per_trace": 1000
+        },
+        "late": {
+          "relative_l2": 0.21254262325010934,
+          "global_pearson": 0.9773557945932217,
+          "trace_pearson_mean": 0.9785138008418794,
+          "trace_pearson_median": 0.9786215560283067,
+          "channels": 192,
+          "samples_per_trace": 400
+        }
+      },
+      "off_diagonal": {
+        "full": {
+          "relative_l2": 0.21437297076086204,
+          "global_pearson": 0.977072831693194,
+          "trace_pearson_mean": 0.978348972865163,
+          "trace_pearson_median": 0.9784724096401228,
+          "channels": 189,
+          "samples_per_trace": 1000
+        },
+        "late": {
+          "relative_l2": 0.21244759548342973,
+          "global_pearson": 0.9773748363394824,
+          "trace_pearson_mean": 0.9785207684796308,
+          "trace_pearson_median": 0.9786391281947984,
+          "channels": 189,
+          "samples_per_trace": 400
+        }
+      },
+      "timing": {
+        "defect_s": 0.10372239999924204,
+        "uniform_s": 0.10515970000051311,
+        "pair_s": 0.20888209999975516,
+        "timing_definition": "three-shot GPU propagation and CPU copy; no process startup or file save"
+      },
+      "by_shot_off_diagonal": [
+        {
+          "tx": 1,
+          "relative_l2": 0.22893115069860626
+        },
+        {
+          "tx": 32,
+          "relative_l2": 0.21584328599626307
+        },
+        {
+          "tx": 64,
+          "relative_l2": 0.1818458421583517
+        }
+      ]
+    },
+    "k-Wave dt5": {
+      "all": {
+        "full": {
+          "relative_l2": 0.5399346146732434,
+          "global_pearson": 0.8548554517034185,
+          "trace_pearson_mean": 0.8506905740263088,
+          "trace_pearson_median": 0.8461008957752088,
+          "channels": 192,
+          "samples_per_trace": 1000
+        },
+        "late": {
+          "relative_l2": 0.5619359307297663,
+          "global_pearson": 0.8418807621229722,
+          "trace_pearson_mean": 0.8354313071784462,
+          "trace_pearson_median": 0.8321972745398061,
+          "channels": 192,
+          "samples_per_trace": 400
+        }
+      },
+      "off_diagonal": {
+        "full": {
+          "relative_l2": 0.5394675411346225,
+          "global_pearson": 0.8550819079663952,
+          "trace_pearson_mean": 0.8506954833112114,
+          "trace_pearson_median": 0.846130917755769,
+          "channels": 189,
+          "samples_per_trace": 1000
+        },
+        "late": {
+          "relative_l2": 0.5612753214107635,
+          "global_pearson": 0.8422263260051773,
+          "trace_pearson_mean": 0.8354656964485566,
+          "trace_pearson_median": 0.8318500690802296,
+          "channels": 189,
+          "samples_per_trace": 400
+        }
+      },
+      "timing": {
+        "defect_s": 12.2208091,
+        "uniform_s": 17.0300856,
+        "pair_s": 29.2508947,
+        "timing_definition": "selected transmitter solver times reused from previous runs; excludes gather/save/startup"
+      },
+      "by_shot_off_diagonal": [
+        {
+          "tx": 1,
+          "relative_l2": 0.45912985560938735
+        },
+        {
+          "tx": 32,
+          "relative_l2": 0.5910961457373176
+        },
+        {
+          "tx": 64,
+          "relative_l2": 0.5642155308264553
+        }
+      ]
+    },
+    "k-Wave dt2.5": {
+      "all": {
+        "full": {
+          "relative_l2": 0.16924148313584247,
+          "global_pearson": 0.9858767117913197,
+          "trace_pearson_mean": 0.9850975800313583,
+          "trace_pearson_median": 0.985729641986578,
+          "channels": 192,
+          "samples_per_trace": 1000
+        },
+        "late": {
+          "relative_l2": 0.16997585561172598,
+          "global_pearson": 0.9856467424617785,
+          "trace_pearson_mean": 0.9845608152380246,
+          "trace_pearson_median": 0.98499211934583,
+          "channels": 192,
+          "samples_per_trace": 400
+        }
+      },
+      "off_diagonal": {
+        "full": {
+          "relative_l2": 0.16891008838955965,
+          "global_pearson": 0.985930988010113,
+          "trace_pearson_mean": 0.9851348199007727,
+          "trace_pearson_median": 0.9857786561642158,
+          "channels": 189,
+          "samples_per_trace": 1000
+        },
+        "late": {
+          "relative_l2": 0.16955675127867206,
+          "global_pearson": 0.9857163469320434,
+          "trace_pearson_mean": 0.9846020258014294,
+          "trace_pearson_median": 0.985055554560902,
+          "channels": 189,
+          "samples_per_trace": 400
+        }
+      },
+      "timing": {
+        "defect_s": 24.530807199999998,
+        "uniform_s": 23.2623905,
+        "pair_s": 47.79319769999999,
+        "pair_process_wall_s": 67.1072144,
+        "timing_definition": "MATLAB solver times for three shots; excludes gather/save/startup; process wall also provided"
+      },
+      "by_shot_off_diagonal": [
+        {
+          "tx": 1,
+          "relative_l2": 0.1382655552781867
+        },
+        {
+          "tx": 32,
+          "relative_l2": 0.18271216038505014
+        },
+        {
+          "tx": 64,
+          "relative_l2": 0.18904975799523835
+        }
+      ]
+    },
+    "k-Wave dt1.25": {
+      "all": {
+        "full": {
+          "relative_l2": 0.11506722007276299,
+          "global_pearson": 0.993523083190545,
+          "trace_pearson_mean": 0.9939419831657981,
+          "trace_pearson_median": 0.9942994955225735,
+          "channels": 192,
+          "samples_per_trace": 1000
+        },
+        "late": {
+          "relative_l2": 0.10918383205325828,
+          "global_pearson": 0.9941053533266144,
+          "trace_pearson_mean": 0.9944844512507167,
+          "trace_pearson_median": 0.9947070695755901,
+          "channels": 192,
+          "samples_per_trace": 400
+        }
+      },
+      "off_diagonal": {
+        "full": {
+          "relative_l2": 0.11472658652856017,
+          "global_pearson": 0.9935612026127955,
+          "trace_pearson_mean": 0.9939781787006476,
+          "trace_pearson_median": 0.994345793468042,
+          "channels": 189,
+          "samples_per_trace": 1000
+        },
+        "late": {
+          "relative_l2": 0.10882962778536907,
+          "global_pearson": 0.9941431155661614,
+          "trace_pearson_mean": 0.9945205939690165,
+          "trace_pearson_median": 0.9947185393927082,
+          "channels": 189,
+          "samples_per_trace": 400
+        }
+      },
+      "timing": {
+        "defect_s": 48.6720038,
+        "uniform_s": 46.7603677,
+        "pair_s": 95.4323715,
+        "pair_process_wall_s": 109.96988640000001,
+        "timing_definition": "MATLAB solver times for three shots; excludes gather/save/startup; process wall also provided"
+      },
+      "by_shot_off_diagonal": [
+        {
+          "tx": 1,
+          "relative_l2": 0.12113059194855481
+        },
+        {
+          "tx": 32,
+          "relative_l2": 0.11463983515653953
+        },
+        {
+          "tx": 64,
+          "relative_l2": 0.10238588623714037
+        }
+      ]
+    },
+    "Deepwave PML20": {
+      "all": {
+        "full": {
+          "relative_l2": 0.21452184425970908,
+          "global_pearson": 0.9770407185683632,
+          "trace_pearson_mean": 0.9783279400006805,
+          "trace_pearson_median": 0.9783524625587838,
+          "channels": 192,
+          "samples_per_trace": 1000
+        },
+        "late": {
+          "relative_l2": 0.21260663959229445,
+          "global_pearson": 0.9773406201527087,
+          "trace_pearson_mean": 0.9785011779329028,
+          "trace_pearson_median": 0.9785977778440305,
+          "channels": 192,
+          "samples_per_trace": 400
+        }
+      },
+      "off_diagonal": {
+        "full": {
+          "relative_l2": 0.2144240867357181,
+          "global_pearson": 0.9770607053998419,
+          "trace_pearson_mean": 0.9783363931457887,
+          "trace_pearson_median": 0.978406039497123,
+          "channels": 189,
+          "samples_per_trace": 1000
+        },
+        "late": {
+          "relative_l2": 0.21249634195717743,
+          "global_pearson": 0.9773629571064213,
+          "trace_pearson_mean": 0.9785105316989837,
+          "trace_pearson_median": 0.9786005010420524,
+          "channels": 189,
+          "samples_per_trace": 400
+        }
+      },
+      "timing": {
+        "defect_s": 0.09981509999852278,
+        "uniform_s": 0.0932952999992267,
+        "pair_s": 0.19311039999774948,
+        "timing_definition": "three-shot GPU propagation and CPU copy; no process startup or file save"
+      },
+      "by_shot_off_diagonal": [
+        {
+          "tx": 1,
+          "relative_l2": 0.22904170650271358
+        },
+        {
+          "tx": 32,
+          "relative_l2": 0.21589553927126298
+        },
+        {
+          "tx": 64,
+          "relative_l2": 0.1817604168488179
+        }
+      ]
+    },
+    "k-Wave PML20": {
+      "all": {
+        "full": {
+          "relative_l2": 0.5400160408179384,
+          "global_pearson": 0.8548116263426392,
+          "trace_pearson_mean": 0.8506453778943316,
+          "trace_pearson_median": 0.8460608308483388,
+          "channels": 192,
+          "samples_per_trace": 1000
+        },
+        "late": {
+          "relative_l2": 0.5620217809282027,
+          "global_pearson": 0.8418324232719032,
+          "trace_pearson_mean": 0.8353809963224611,
+          "trace_pearson_median": 0.8321473416781928,
+          "channels": 192,
+          "samples_per_trace": 400
+        }
+      },
+      "off_diagonal": {
+        "full": {
+          "relative_l2": 0.5395489185086281,
+          "global_pearson": 0.8550381383984157,
+          "trace_pearson_mean": 0.8506503165527785,
+          "trace_pearson_median": 0.8460930713844997,
+          "channels": 189,
+          "samples_per_trace": 1000
+        },
+        "late": {
+          "relative_l2": 0.5613611146060734,
+          "global_pearson": 0.8421780673166269,
+          "trace_pearson_mean": 0.8354154150648261,
+          "trace_pearson_median": 0.8317892574737759,
+          "channels": 189,
+          "samples_per_trace": 400
+        }
+      },
+      "timing": {
+        "defect_s": 12.3255,
+        "uniform_s": 12.286294700000001,
+        "pair_s": 24.6117947,
+        "pair_process_wall_s": 37.8547771,
+        "timing_definition": "MATLAB solver times for three shots; excludes gather/save/startup; process wall also provided"
+      },
+      "by_shot_off_diagonal": [
+        {
+          "tx": 1,
+          "relative_l2": 0.45921018841825967
+        },
+        {
+          "tx": 32,
+          "relative_l2": 0.591176560429227
+        },
+        {
+          "tx": 64,
+          "relative_l2": 0.5643028118638627
+        }
+      ]
+    }
+  },
+  "reference_timing": {
+    "defect_s": 0.3854582999992999,
+    "uniform_s": 0.5692216999996162,
+    "pair_s": 0.9546799999989162,
+    "timing_definition": "three-shot GPU propagation and CPU copy; no process startup or file save"
+  },
+  "pml_effect": {
+    "Deepwave PML20": {
+      "change_over_baseline_norm": 0.0027934817708971005,
+      "change_over_ref_norm": 0.0027993916178063747
+    },
+    "k-Wave PML20": {
+      "change_over_baseline_norm": 0.00012915163332732587,
+      "change_over_ref_norm": 0.00012967433027907463
+    }
+  },
+  "kwave_consecutive_changes": {
+    "k-Wave dt5 to k-Wave dt2.5": 0.45596835220415344,
+    "k-Wave dt2.5 to k-Wave dt1.25": 0.11774151574832684
+  },
+  "checks": {
+    "deepwave_model_registration_exact": true,
+    "kwave": {
+      "dt25_defect": {
+        "sha256": "9a6bd105c9166b31a068fa5d834b2701edc3b91c3332b8d76f9a2fec2d970da9",
+        "model_exact": true,
+        "ricker_matches": true,
+        "output_times_match": true
+      },
+      "dt25_uniform": {
+        "sha256": "d3bb5af783f2d0bd7724fbf62e9bdc560054f4bfc071ecfebb3e335419ffcf3b",
+        "model_exact": true,
+        "ricker_matches": true,
+        "output_times_match": true
+      },
+      "dt125_defect": {
+        "sha256": "634d866084bf743e2246d66b463d3fc438456da700ddeca0e5c991b98068523a",
+        "model_exact": true,
+        "ricker_matches": true,
+        "output_times_match": true
+      },
+      "dt125_uniform": {
+        "sha256": "d801f502297a2152cbcb812b53f9c0de5d89fe7cfb28baf44440cb77e292e115",
+        "model_exact": true,
+        "ricker_matches": true,
+        "output_times_match": true
+      },
+      "pml20_defect": {
+        "sha256": "55b86abdfb2f34904b97c7c1ba90a69b0d5c7df9c55f41508019fea2dd1b926c",
+        "model_exact": true,
+        "ricker_matches": true,
+        "output_times_match": true
+      },
+      "pml20_uniform": {
+        "sha256": "f0a823f822dee49c38c32d1e9807bedb998d0643150881c4c86abd22c3cbdc1d",
+        "model_exact": true,
+        "ricker_matches": true,
+        "output_times_match": true
+      }
+    }
+  },
+  "decision": {
+    "coarse_deepwave_offdiag_l2": 0.21437297076086204,
+    "coarse_deepwave_threshold": 0.15,
+    "coarse_deepwave_threshold_pass": false,
+    "kwave_dt5_offdiag_l2": 0.5394675411346225,
+    "deepwave_error_reduction_vs_kwave_dt5": 0.6026211877178242,
+    "fine_budget_triggered": true
+  },
+  "fine_budget": {
+    "method": "22 sequential batches at most 3 shots: measured three-shot defect time times ceil(64/3); one homogeneous reference reusable; no full-64 fine benchmark",
+    "estimated_defect_64_s": 8.480082599984598,
+    "estimated_defect_64_with_margin_s": 10.176099119981517,
+    "samples": {
+      "300": {
+        "propagation_minutes": 42.40041299992299,
+        "with_margin_minutes": 50.88049559990759
+      },
+      "500": {
+        "propagation_minutes": 70.66735499987165,
+        "with_margin_minutes": 84.80082599984598
+      }
+    },
+    "margin_fraction": 0.2,
+    "uniform_64_once_s": 12.522877399991557,
+    "output_float32_bytes_per_sample": 16544000
+  },
+  "kwave_runs": [
+    {
+      "variant": "dt25",
+      "medium": "defect",
+      "directory": "E:\\FNO_research\\results\\adjudication_kwave_dt25_defect_20261019_190923_240",
+      "summary": {
+        "processes": 1,
+        "shots": 3,
+        "startup_s": 7.7798337,
+        "compute_makespan_s": 24.746,
+        "process_wall_s": 36.4195767,
+        "shots_per_s": 0.12123171421643902,
+        "seconds_per_shot": 8.248666666666667,
+        "gpu_peak_whole_card_MiB": 1844.0,
+        "gpu_mean_utilization_percent": 41.604166666666664,
+        "gpu_samples": 48,
+        "output": "E:\\FNO_research\\results\\adjudication_kwave_dt25_defect_20261019_190923_240"
+      },
+      "solver_total_s": 24.530807199999998
+    },
+    {
+      "variant": "dt25",
+      "medium": "uniform",
+      "directory": "E:\\FNO_research\\results\\adjudication_kwave_dt25_uniform_20261019_190959_790",
+      "summary": {
+        "processes": 1,
+        "shots": 3,
+        "startup_s": 4.1006072,
+        "compute_makespan_s": 23.434,
+        "process_wall_s": 30.6876377,
+        "shots_per_s": 0.12801911752154987,
+        "seconds_per_shot": 7.811333333333334,
+        "gpu_peak_whole_card_MiB": 1857.0,
+        "gpu_mean_utilization_percent": 44.955555555555556,
+        "gpu_samples": 45,
+        "output": "E:\\FNO_research\\results\\adjudication_kwave_dt25_uniform_20261019_190959_790"
+      },
+      "solver_total_s": 23.2623905
+    },
+    {
+      "variant": "dt125",
+      "medium": "defect",
+      "directory": "E:\\FNO_research\\results\\adjudication_kwave_dt125_defect_20261019_191030_541",
+      "summary": {
+        "processes": 1,
+        "shots": 3,
+        "startup_s": 3.5917111,
+        "compute_makespan_s": 48.966,
+        "process_wall_s": 55.7557057,
+        "shots_per_s": 0.06126700159294204,
+        "seconds_per_shot": 16.322,
+        "gpu_peak_whole_card_MiB": 1907.0,
+        "gpu_mean_utilization_percent": 46.810526315789474,
+        "gpu_samples": 95,
+        "output": "E:\\FNO_research\\results\\adjudication_kwave_dt125_defect_20261019_191030_541"
+      },
+      "solver_total_s": 48.6720038
+    },
+    {
+      "variant": "dt125",
+      "medium": "uniform",
+      "directory": "E:\\FNO_research\\results\\adjudication_kwave_dt125_uniform_20261019_191126_363",
+      "summary": {
+        "processes": 1,
+        "shots": 3,
+        "startup_s": 4.1001849,
+        "compute_makespan_s": 47.058,
+        "process_wall_s": 54.2141807,
+        "shots_per_s": 0.06375111564452378,
+        "seconds_per_shot": 15.686,
+        "gpu_peak_whole_card_MiB": 1784.0,
+        "gpu_mean_utilization_percent": 44.69565217391305,
+        "gpu_samples": 92,
+        "output": "E:\\FNO_research\\results\\adjudication_kwave_dt125_uniform_20261019_191126_363"
+      },
+      "solver_total_s": 46.7603677
+    },
+    {
+      "variant": "pml20",
+      "medium": "defect",
+      "directory": "E:\\FNO_research\\results\\adjudication_kwave_pml20_defect_20261019_191220_649",
+      "summary": {
+        "processes": 1,
+        "shots": 3,
+        "startup_s": 3.5913861,
+        "compute_makespan_s": 12.435,
+        "process_wall_s": 18.9255934,
+        "shots_per_s": 0.24125452352231602,
+        "seconds_per_shot": 4.1450000000000005,
+        "gpu_peak_whole_card_MiB": 1773.0,
+        "gpu_mean_utilization_percent": 45.833333333333336,
+        "gpu_samples": 24,
+        "output": "E:\\FNO_research\\results\\adjudication_kwave_pml20_defect_20261019_191220_649"
+      },
+      "solver_total_s": 12.3255
+    },
+    {
+      "variant": "pml20",
+      "medium": "uniform",
+      "directory": "E:\\FNO_research\\results\\adjudication_kwave_pml20_uniform_20261019_191239_634",
+      "summary": {
+        "processes": 1,
+        "shots": 3,
+        "startup_s": 3.5905956,
+        "compute_makespan_s": 12.403,
+        "process_wall_s": 18.9291837,
+        "shots_per_s": 0.24187696525034266,
+        "seconds_per_shot": 4.134333333333333,
+        "gpu_peak_whole_card_MiB": 1773.0,
+        "gpu_mean_utilization_percent": 46.583333333333336,
+        "gpu_samples": 24,
+        "output": "E:\\FNO_research\\results\\adjudication_kwave_pml20_uniform_20261019_191239_634"
+      },
+      "solver_total_s": 12.286294700000001
+    }
+  ]
+}

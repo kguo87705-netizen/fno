@@ -10,13 +10,24 @@ try
     if isfield(cfg,'diagnostic') && isfield(cfg.diagnostic,'uniform_speed_m_s')
         c(:)=cfg.diagnostic.uniform_speed_m_s; label(:)=cfg.diagnostic.uniform_speed_m_s;
     end
+    if isfield(cfg,'diagnostic') && isfield(cfg.diagnostic,'top_padding_cells')
+        pad=cfg.diagnostic.top_padding_cells;
+        c=[ones(pad,size(c,2),'like',c)*cfg.model.c_background_m_s;c];
+    end
     assert(isequal(size(c),cfg.grid.shape(:)'));
     k=kWaveGrid(size(c,1),cfg.grid.spacing_m,size(c,2),cfg.grid.spacing_m);
     k.setTime(cfg.time.internal_count,cfg.time.internal_dt_s);
     t_internal=double(k.t_array);
-    assert(isequal(t_internal,src.t_internal));
+    if isfield(cfg,'diagnostic') && isfield(cfg.diagnostic,'regenerate_ricker') && cfg.diagnostic.regenerate_ricker
+        a=pi*cfg.source.frequency_hz*(t_internal-cfg.source.time_shift_s);
+        source_wavelet=cfg.source.pressure_pa*(1-2*a.^2).*exp(-a.^2);
+    else
+        assert(isequal(t_internal,src.t_internal));
+    end
     stride=round(cfg.time.output_dt_s/cfg.time.internal_dt_s);
     t_output=t_internal(1:stride:end);
+    assert(numel(t_output)==cfg.time.output_count);
+    assert(max(abs(t_output-src.t_output))<1e-15);
     medium.sound_speed=c; medium.sound_speed_ref=cfg.model.c_background_m_s;
     medium.density=cfg.model.density_kg_m3;
     xs=cfg.array.center_x_m+((0:cfg.array.elements-1)-(cfg.array.elements-1)/2)*cfg.array.pitch_m;
