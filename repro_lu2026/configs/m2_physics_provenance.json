@@ -1,0 +1,15 @@
+{
+  "files_sha256": {
+    "E:\\FNO_research\\repos\\fno_light\\repro_lu2026\\configs\\pre_m2_throughput.json": "e027a419e042232da73fc18e077d151aec973b0c050111111771545372de0126",
+    "E:\\FNO_research\\repos\\fno_light\\repro_lu2026\\configs\\m1_single_tx.json": "100d95766dbc7be4f64396a7b1a2b61af0bbc269845c723beaa2424749ead8e6",
+    "E:/FNO_research/repos/fno_light/repro_lu2026/configs/source_match_full.json": "b94a016eeaee192cb7338f804f6df6a0d443c27412f29497f0a267f25eee865b",
+    "E:/FNO_research/repos/fno_light/repro_lu2026/configs/deepwave_comparison.json": "8760943b0f3f4fdcc2a78b633b3644d72c8faf57769b160a4d0b7c1f91cbbc07",
+    "E:/FNO_research/results/source_match_single_20261019_173928_349/calibration.json": "711d60538a6ecb2c34e09d50215b581aa506e7e771f9ff50941d613e886383a9",
+    "E:\\FNO_research\\repos\\fno_light\\repro_lu2026\\code\\generate_m2.py": "93f62e6c3641988d2bc69e2fdbb123c7957d81d46afadc91bab5ba2570392d72",
+    "E:\\FNO_research\\repos\\fno_light\\repro_lu2026\\code\\m2_common.py": "698d5b6913e36f3ae0977737c8b9ea73f538cdee2e0edbaaffb2620ea593f681",
+    "E:\\FNO_research\\repos\\fno_light\\repro_lu2026\\code\\source_match.py": "2ce4ae922abc922c431456057dff4580ab7e22c2818d255a30351ce459a51cf6",
+    "E:\\FNO_research\\repos\\fno_light\\repro_lu2026\\code\\deepwave_compare.py": "4eb149d4040ff7ba65046aca44a4a42892da14cd8c2d2c786dda3e8aa128ba11"
+  },
+  "uniform_three_shot_relative_l2_vs_confirmed": 2.7104144054123627e-08,
+  "no_parameter_refit": true
+}

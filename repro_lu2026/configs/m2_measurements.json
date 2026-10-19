@@ -1,0 +1,267 @@
+{
+  "dataset_dir": "E:\\FNO_research\\data\\m2_emnist500_dw005_v1",
+  "samples": 500,
+  "split_counts": {
+    "train": 375,
+    "validation": 40,
+    "test": 85
+  },
+  "letter_counts": {
+    "train": {
+      "A": 14,
+      "B": 15,
+      "C": 14,
+      "D": 15,
+      "E": 14,
+      "F": 15,
+      "G": 15,
+      "H": 14,
+      "I": 14,
+      "J": 15,
+      "K": 14,
+      "L": 14,
+      "M": 15,
+      "N": 15,
+      "O": 14,
+      "P": 15,
+      "Q": 14,
+      "R": 14,
+      "S": 15,
+      "T": 14,
+      "U": 15,
+      "V": 14,
+      "W": 14,
+      "X": 14,
+      "Y": 14,
+      "Z": 15
+    },
+    "validation": {
+      "A": 1,
+      "B": 2,
+      "C": 1,
+      "D": 2,
+      "E": 2,
+      "F": 2,
+      "G": 2,
+      "H": 1,
+      "I": 2,
+      "J": 1,
+      "K": 2,
+      "L": 1,
+      "M": 2,
+      "N": 2,
+      "O": 1,
+      "P": 2,
+      "Q": 1,
+      "R": 2,
+      "S": 1,
+      "T": 1,
+      "U": 2,
+      "V": 1,
+      "W": 1,
+      "X": 1,
+      "Y": 2,
+      "Z": 2
+    },
+    "test": {
+      "A": 3,
+      "B": 3,
+      "C": 4,
+      "D": 4,
+      "E": 4,
+      "F": 3,
+      "G": 3,
+      "H": 3,
+      "I": 3,
+      "J": 3,
+      "K": 3,
+      "L": 3,
+      "M": 4,
+      "N": 4,
+      "O": 3,
+      "P": 3,
+      "Q": 3,
+      "R": 3,
+      "S": 3,
+      "T": 3,
+      "U": 4,
+      "V": 3,
+      "W": 4,
+      "X": 3,
+      "Y": 3,
+      "Z": 3
+    }
+  },
+  "amplitudes": {
+    "train": {
+      "count": 1536000000,
+      "minimum": -0.24541442096233368,
+      "maximum": 0.28267255425453186,
+      "max_abs": 0.28267255425453186,
+      "mean": -7.397177413469835e-09,
+      "std_population": 0.0038924068974372063,
+      "rms": 0.0038924068974442354,
+      "sampled_quantiles": {
+        "0.001": -0.022775573655962944,
+        "0.01": -0.005046263802796602,
+        "0.5": 7.967075532633316e-08,
+        "0.99": 0.0021009857300668955,
+        "0.999": 0.029820647090673447
+      },
+      "sampled_abs_quantiles": {
+        "0.5": 5.486825102707371e-05,
+        "0.9": 0.0003973235725425184,
+        "0.99": 0.009860370308160782,
+        "0.999": 0.03889476880431175
+      },
+      "quantile_samples": 1536000,
+      "quantile_method": "deterministic stratified one sample per 1000-element block, independently seeded per sample; approximate, not full-data exact quantiles"
+    },
+    "validation": {
+      "count": 163840000,
+      "minimum": -0.24541442096233368,
+      "maximum": 0.28267255425453186,
+      "max_abs": 0.28267255425453186,
+      "mean": -8.56530534117065e-09,
+      "std_population": 0.0038920900276144484,
+      "rms": 0.0038920900276238736,
+      "sampled_quantiles": {
+        "0.001": -0.02300509624183178,
+        "0.01": -0.004845521878451109,
+        "0.5": 7.152359415840692e-08,
+        "0.99": 0.002101137535646558,
+        "0.999": 0.029210956767201424
+      },
+      "sampled_abs_quantiles": {
+        "0.5": 5.573073212872259e-05,
+        "0.9": 0.00038874815800227225,
+        "0.99": 0.009936143644154072,
+        "0.999": 0.03927627205848694
+      },
+      "quantile_samples": 163840,
+      "quantile_method": "deterministic stratified one sample per 1000-element block, independently seeded per sample; approximate, not full-data exact quantiles"
+    },
+    "test": {
+      "count": 348160000,
+      "minimum": -0.24541442096233368,
+      "maximum": 0.28267255425453186,
+      "max_abs": 0.28267255425453186,
+      "mean": -5.587878411811962e-09,
+      "std_population": 0.003892159210024723,
+      "rms": 0.003892159210028734,
+      "sampled_quantiles": {
+        "0.001": -0.023345699533820152,
+        "0.01": -0.0050238133408129215,
+        "0.5": 8.805444196013923e-08,
+        "0.99": 0.002101137535646558,
+        "0.999": 0.028520314022898674
+      },
+      "sampled_abs_quantiles": {
+        "0.5": 5.491143383551389e-05,
+        "0.9": 0.0003897614951711148,
+        "0.99": 0.009691490791738033,
+        "0.999": 0.03979603946208954
+      },
+      "quantile_samples": 348160,
+      "quantile_method": "deterministic stratified one sample per 1000-element block, independently seeded per sample; approximate, not full-data exact quantiles"
+    },
+    "all": {
+      "count": 2048000000,
+      "minimum": -0.24541442096233368,
+      "maximum": 0.28267255425453186,
+      "max_abs": 0.28267255425453186,
+      "mean": -7.183046817404061e-09,
+      "std_population": 0.003892339442778377,
+      "rms": 0.003892339442785005,
+      "sampled_quantiles": {
+        "0.001": -0.022775573655962944,
+        "0.01": -0.005023814272135496,
+        "0.5": 8.046220756341427e-08,
+        "0.99": 0.0021009857300668955,
+        "0.999": 0.029513079673051834
+      },
+      "sampled_abs_quantiles": {
+        "0.5": 5.49440665054135e-05,
+        "0.9": 0.0003953103441745043,
+        "0.99": 0.009842476807534695,
+        "0.999": 0.03917650878429413
+      },
+      "quantile_samples": 2048000,
+      "quantile_method": "deterministic stratified one sample per 1000-element block, independently seeded per sample; approximate, not full-data exact quantiles"
+    }
+  },
+  "file_bytes_samples": 8281120000,
+  "file_bytes_uniform": 16562240,
+  "all_h5_bytes": 8297682240,
+  "sum_sample_total_s": 7362.5999185000255,
+  "sum_gpu_s": 7300.39132421875,
+  "uniform_total_s": 15.247111399999994,
+  "sample_time_min_s": 13.915666599998076,
+  "sample_time_max_s": 16.201648500002193,
+  "sample_time_mean_s": 14.725199837000051,
+  "peak_allocated_bytes": 1756991488,
+  "sha256_audited_files": 501,
+  "anomalies": [],
+  "run_events": [
+    {
+      "timestamp": "2026-10-19T23:10:57.200493",
+      "event": "start",
+      "stage": "bulk",
+      "config_sha256": "f5ffae52f494cdeb447852c5dff3565e35fc50246b932fa440199250b056f304",
+      "manifest_sha256": "af86c270f7aaa3c8aefa82e88f10d7eedcc97c1556ebfd09fee89d49cc0d7293",
+      "free_bytes": 677565329408
+    },
+    {
+      "timestamp": "2026-10-20T01:11:20.632517",
+      "event": "complete",
+      "stage": "bulk",
+      "elapsed_s": 7223.4397231
+    },
+    {
+      "timestamp": "2026-10-19T23:07:46.560338",
+      "event": "start",
+      "stage": "pilot",
+      "config_sha256": "f5ffae52f494cdeb447852c5dff3565e35fc50246b932fa440199250b056f304",
+      "manifest_sha256": "af86c270f7aaa3c8aefa82e88f10d7eedcc97c1556ebfd09fee89d49cc0d7293",
+      "free_bytes": 677748039680
+    },
+    {
+      "timestamp": "2026-10-19T23:10:29.722966",
+      "event": "complete",
+      "stage": "pilot",
+      "elapsed_s": 163.20236760000262
+    }
+  ],
+  "pilot_checks": {
+    "passed": true,
+    "count": 10,
+    "finite_shape_amplitude_all_passed": true,
+    "reciprocity_sample": "m2_000000",
+    "reciprocity_relative_l2": 3.237731957851632e-06,
+    "threshold": 0.0001,
+    "elapsed_session_s": 163.19661270000142,
+    "source_reference_max_abs": 0.28267255425453186
+  },
+  "generation_complete": {
+    "samples": 500,
+    "elapsed_session_s": 7223.434162499998,
+    "finished": "2026-10-20T01:11:20.626511",
+    "manifest_sha256": "af86c270f7aaa3c8aefa82e88f10d7eedcc97c1556ebfd09fee89d49cc0d7293"
+  },
+  "audit_wall_s": 26.551124899997376,
+  "manifest_sha256": "af86c270f7aaa3c8aefa82e88f10d7eedcc97c1556ebfd09fee89d49cc0d7293",
+  "no_normalization": true,
+  "uniform_reference": {
+    "file": "samples/uniform.h5",
+    "sha256": "5b534829dd4c829bf1e96b802b4a92660cd7f2263f6acf1819cac632f6f5c93b",
+    "stats": {
+      "count": 4096000,
+      "minimum": -0.24541442096233368,
+      "maximum": 0.28267255425453186,
+      "max_abs": 0.28267255425453186,
+      "sum": -0.031614867192871085,
+      "sum_squares": 61.881232427231005,
+      "rms": 0.003886865415801587
+    }
+  }
+}

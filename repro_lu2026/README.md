@@ -2,6 +2,8 @@
 
 ## 当前进度
 
+- **M2完成（最新）**：Deepwave 0.05mm/2.5ns按冻结清单生成500个EMNIST样本（训练375、验证40、测试85）及1份均匀参考。501个HDF5的SHA256和内容独立审计全部通过，异常/重试0；数据共8.297682GB，生成总跨度123.57分钟，500样本平均14.725秒。原始FMC未归一化，M3尚未开始。见[M2完成报告](reports/m2_completion_report.md)。
+
 - **M2前两项确认完成（最新）**：0.05mm对0.025mm第32炮非对角散射L2=0.090687≤0.10，通过。确认Deepwave0.05mm/2.5ns补偿源强方案；64炮一次批次成功，含保存14.8619秒，300/500样本含20%余量预算89.2/148.6分钟。k-Wave1.25ns的20测试样本预计6.92小时（含余量）。M2尚未开始。见[确认报告](reports/pre_m2_confirmation_report.md)。
 
 - **三炮加密裁判与消融完成（最新结论）**：用户批准均匀门槛排除自收，0.02477通过。散射非对角L2：粗Deepwave 0.21437；k-Wave dt=5/2.5/1.25 ns为0.53947/0.16891/0.11473。PML距离贡献小，粗Deepwave未过0.15；0.05 mm Deepwave作为候选，300/500样本含20%余量外推约50.9/84.8分钟，未开始M2。见[完整裁判报告](reports/adjudication_report.md)。以下门槛失败记录为修正规则前的历史。
@@ -16,9 +18,12 @@
 - **Deepwave安装与初次对比完成**：Python3.12.15、torch2.11.0+cu128、Deepwave0.0.27均安装在E盘。初次直接共用Ricker的差异已由后续源匹配诊断进一步分析。
 - **源匹配诊断完成，训练集求解器暂未确定**：推导并验证了时间导数、理论幅度和记录时序修正。均匀单炮未拟合L2=0.03496；冻结均匀校准后完整缺陷平均相关0.98807（>0.95），但散射L2=0.60276（未达到<0.2）。解析导数版本散射L2=0.56986也未通过。没有继续调参，不把Deepwave直接定为训练集求解器，也不将k-Wave视作绝对真值。
 - **已推送的前两轮**：原26文件`713fdc4`；初次Deepwave对比12文件`21e82e4`。本轮源匹配诊断按用户新授权核对清单后自行轻量提交推送，单次小于5MB。
-- M2批量数据、M3加载、M4原版FNO、M5评估尚未执行。
+- M2批量数据已完成；M3加载、M4原版FNO、M5评估尚未执行。
 
 ## 报告
+
+- [M2数据集完成报告、审计与原始幅度统计](reports/m2_completion_report.md)
+- [M2执行前冻结协议](reports/m2_protocol.md)
 
 - [M2前收敛确认、64炮实测与预算更新](reports/pre_m2_confirmation_report.md)
 
@@ -76,3 +81,5 @@ dt=5ns，内部4000点；输出每4点抽取，1000点覆盖0–19.98μs。t=0�
 9. `code/run_adjudication_deepwave.ps1`、`code/run_adjudication_kwave.ps1`运行本轮固定三炮；`code/analyze_adjudication.py`只分析保存结果。运行方法与输入配置见[裁判报告](reports/adjudication_report.md)。
 
 10. `code/run_pre_m2_convergence.ps1`和`code/run_pre_m2_throughput.ps1`分别执行更细参考检查和通过后的64炮吞吐确认；参数与复现命令见[确认报告](reports/pre_m2_confirmation_report.md)。
+
+11. `code/prepare_m2_manifest.py`冻结500样本划分；`code/run_m2.ps1`调用`generate_m2.py`执行pilot或bulk并支持严格校验后的断点续跑；`code/audit_m2.py`对完成数据重算SHA256及汇总原始幅度；`code/report_m2.py`从审计JSON生成完成报告。固定配置、清单、逐文件账本和统计见`configs/m2_*.json`，运行方法见[M2完成报告](reports/m2_completion_report.md)。数据、日志、环境和原始EMNIST不入Git。

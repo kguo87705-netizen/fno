@@ -1,0 +1,50 @@
+{
+  "root": "E:/FNO_research",
+  "dataset_dir": "E:/FNO_research/data/m2_emnist500_dw005_v1",
+  "confirmed_config": "E:\\FNO_research\\repos\\fno_light\\repro_lu2026\\configs\\pre_m2_throughput.json",
+  "confirmed_sample": "E:/FNO_research/results/pre_m2_throughput_20261019_192118_424/fine_64_fmc.h5",
+  "model_config": "E:\\FNO_research\\repos\\fno_light\\repro_lu2026\\configs\\m1_single_tx.json",
+  "manifest_path": "E:\\FNO_research\\repos\\fno_light\\repro_lu2026\\configs\\m2_split_manifest.json",
+  "seed": 42,
+  "split_counts": {
+    "train": 375,
+    "validation": 40,
+    "test": 85
+  },
+  "raw_dir": "E:\\FNO_research\\data\\raw\\emnist",
+  "minimum_free_bytes": 20000000000,
+  "pilot_count": 10,
+  "batch_shots": 64,
+  "max_consecutive_attempts": 2,
+  "source_reference_dx_m": 0.0001,
+  "dx_m": 5e-05,
+  "dt_s": 2.5e-09,
+  "nt": 8000,
+  "shape": [
+    800,
+    800
+  ],
+  "label_repeat": 4,
+  "pml_cells": 40,
+  "accuracy": 8,
+  "output_dt_s": 2e-08,
+  "output_count": 1000,
+  "amplitude_reference_ratio_bounds": [
+    0.1,
+    10.0
+  ],
+  "reciprocity_max_relative_l2": 0.0001,
+  "figure_samples": [
+    0,
+    4,
+    9
+  ],
+  "figure_tx_one_based": 32,
+  "figure_dpi": 125,
+  "quantile_sample_stride": 1000,
+  "histogram_bins": 2000,
+  "normalization": null,
+  "labels": "c_200 float32 target plus letter_id 1..26 and letter A..Z; label is hard link to c_200",
+  "fmc_storage": "raw full field after frozen gain; no normalization, no homogeneous subtraction",
+  "pilot_auto_continue_authorized": true
+}
