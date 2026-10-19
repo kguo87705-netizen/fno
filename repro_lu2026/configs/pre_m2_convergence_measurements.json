@@ -1,0 +1,148 @@
+{
+  "metrics": {
+    "Deepwave 0.05 mm": {
+      "relative_l2": 0.09068705178086922,
+      "global_pearson": 0.995893897013696,
+      "mean_trace_pearson": 0.9961164488931742
+    },
+    "Deepwave 0.1 mm": {
+      "relative_l2": 0.27621430329814173,
+      "global_pearson": 0.9621427921429756,
+      "mean_trace_pearson": 0.9634841200567672
+    },
+    "k-Wave 1.25 ns": {
+      "relative_l2": 0.1775711960043052,
+      "global_pearson": 0.9845841353994657,
+      "mean_trace_pearson": 0.9854718166404386
+    }
+  },
+  "passed": true,
+  "threshold": 0.1,
+  "timings": {
+    "uniform": {
+      "propagation_copy_s": 1.3191179999994347,
+      "with_prepare_s": 1.3211243999994622,
+      "batch": 1,
+      "shots": 1,
+      "oom": [],
+      "allocated_peak_bytes": 127777280,
+      "reserved_peak_bytes": 148897792,
+      "gpu_samples": [
+        [
+          14498.2731124,
+          1873.0,
+          2.0
+        ],
+        [
+          14498.8296071,
+          1933.0,
+          98.0
+        ],
+        [
+          14499.3861754,
+          1934.0,
+          97.0
+        ]
+      ],
+      "whole_card_peak_mib": 1934.0
+    },
+    "defect": {
+      "propagation_copy_s": 1.2073749000010139,
+      "with_prepare_s": 1.2090186000004906,
+      "batch": 1,
+      "shots": 1,
+      "oom": [],
+      "allocated_peak_bytes": 127697920,
+      "reserved_peak_bytes": 148897792,
+      "gpu_samples": [
+        [
+          14499.5868427,
+          1934.0,
+          97.0
+        ],
+        [
+          14500.14125,
+          1929.0,
+          95.0
+        ],
+        [
+          14500.6956445,
+          1929.0,
+          95.0
+        ]
+      ],
+      "whole_card_peak_mib": 1934.0
+    }
+  },
+  "calibration": {
+    "gain": 0.9907679913977262,
+    "lag_internal_steps": 0,
+    "lag_s": 0.0,
+    "calibration_window_raw_l2": 0.0341797730889143,
+    "calibration_window_aligned_l2": 0.03288654828473862,
+    "receiver_ids": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "samples": 6800,
+    "lag_at_search_edge": false
+  },
+  "channels": 63,
+  "check_grid": 2.5e-05,
+  "no_fit": true,
+  "previous_data_reused": true,
+  "throughput_executed": false,
+  "finer_budget": {
+    "single_sample_64_sequential_s": 77.27199360006489,
+    "samples": {
+      "300": {
+        "minutes": 386.35996800032444,
+        "with_margin_minutes": 463.63196160038933
+      },
+      "500": {
+        "minutes": 643.9332800005408,
+        "with_margin_minutes": 772.7199360006489
+      }
+    },
+    "method": "single-shot defect propagation/copy times 64, no throughput batch or saving benchmark"
+  },
+  "kwave_cross_solver_budget": {
+    "samples": 20,
+    "per_sample_solver_s": 1038.3360810666666,
+    "total_solver_hours": 5.7685337837037025,
+    "with_margin_hours": 6.922240540444443,
+    "method": "previous three-shot defect solver sum /3*64; excludes saving and startup"
+  }
+}

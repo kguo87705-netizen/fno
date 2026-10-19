@@ -2,6 +2,8 @@
 
 ## 当前进度
 
+- **M2前两项确认完成（最新）**：0.05mm对0.025mm第32炮非对角散射L2=0.090687≤0.10，通过。确认Deepwave0.05mm/2.5ns补偿源强方案；64炮一次批次成功，含保存14.8619秒，300/500样本含20%余量预算89.2/148.6分钟。k-Wave1.25ns的20测试样本预计6.92小时（含余量）。M2尚未开始。见[确认报告](reports/pre_m2_confirmation_report.md)。
+
 - **三炮加密裁判与消融完成（最新结论）**：用户批准均匀门槛排除自收，0.02477通过。散射非对角L2：粗Deepwave 0.21437；k-Wave dt=5/2.5/1.25 ns为0.53947/0.16891/0.11473。PML距离贡献小，粗Deepwave未过0.15；0.05 mm Deepwave作为候选，300/500样本含20%余量外推约50.9/84.8分钟，未开始M2。见[完整裁判报告](reports/adjudication_report.md)。以下门槛失败记录为修正规则前的历史。
 
 - **几何补偿后仍在均匀门槛停止**：全接收L2=0.165013，非自收L2=0.024770；自收道占直达残差能量98.9849%。未改变<0.03门槛，未继续缺陷裁判或消融。见[补偿与残差报告](reports/refinement_compensated_report.md)。
@@ -17,6 +19,8 @@
 - M2批量数据、M3加载、M4原版FNO、M5评估尚未执行。
 
 ## 报告
+
+- [M2前收敛确认、64炮实测与预算更新](reports/pre_m2_confirmation_report.md)
 
 - [三炮加密裁判、时间收敛、PML消融及预算](reports/adjudication_report.md)
 - [本轮执行前协议及判据修正](reports/adjudication_protocol.md)
@@ -70,3 +74,5 @@ dt=5ns，内部4000点；输出每4点抽取，1000点覆盖0–19.98μs。t=0�
 8. `code/run_refinement_gate.ps1`与`code/refinement_gate.py`仅执行冻结源的加密均匀单炮检查；运行方式见[报告](reports/refinement_gate_report.md)。不会自动继续缺陷传播。
 
 9. `code/run_adjudication_deepwave.ps1`、`code/run_adjudication_kwave.ps1`运行本轮固定三炮；`code/analyze_adjudication.py`只分析保存结果。运行方法与输入配置见[裁判报告](reports/adjudication_report.md)。
+
+10. `code/run_pre_m2_convergence.ps1`和`code/run_pre_m2_throughput.ps1`分别执行更细参考检查和通过后的64炮吞吐确认；参数与复现命令见[确认报告](reports/pre_m2_confirmation_report.md)。

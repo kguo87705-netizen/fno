@@ -1,0 +1,12 @@
+{
+  "failed_run": "E:/FNO_research/results/pre_m2_throughput_20261019_192046_698",
+  "error": "OSError errno 9 Bad file descriptor: fsync on read-only handle on Windows",
+  "failed_process_wall_s": 16.849325,
+  "propagation_and_hdf5_close_completed": true,
+  "fine_fmc_preserved": true,
+  "repair": "Open own saved HDF5 r+b for fsync; persist propagation checkpoint before save",
+  "retry_run": "E:\\FNO_research\\results\\pre_m2_throughput_20261019_192118_424",
+  "retry_process_wall_s": 16.8397399,
+  "retry_succeeded": true,
+  "scientific_parameters_changed": false
+}
