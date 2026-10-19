@@ -1,0 +1,33 @@
+{
+  "root": "E:/FNO_research",
+  "previous_config": "E:/FNO_research/repos/fno_light/repro_lu2026/configs/source_match_full.json",
+  "coarse_data": "E:/FNO_research/results/source_match_full_20261019_174522_792/source_matched_fmc.h5",
+  "coarse_data_sha256": "e0dd0a63e4d0eafe7e3e9a4a43374dd5b8a6d270a0c6bcf8256a3199828192ef",
+  "frozen_calibration": "E:/FNO_research/results/source_match_single_20261019_173928_349/calibration.json",
+  "transmitters_one_based": [1,32,64],
+  "gate_transmitter_one_based": 32,
+  "fine_dx_m": 0.00005,
+  "fine_dt_s": 2.5e-9,
+  "fine_nt": 8000,
+  "fine_shape": [800,800],
+  "fine_pml_cells": 40,
+  "fine_label_repeat": 4,
+  "accuracy": 8,
+  "output_dt_s": 2e-8,
+  "output_nt": 1000,
+  "direct_half_window_s": 5e-7,
+  "direct_gate_l2_strict_upper": 0.03,
+  "diagnostic_receivers_one_based": [32,40,56,64],
+  "kwave_time_steps_s": [5e-9,2.5e-9,1.25e-9],
+  "pml_variant_array_depth_cells": 20,
+  "late_window_s": [1.2e-5,2e-5],
+  "decision": {
+    "coarse_deepwave_max_scattering_l2": 0.15,
+    "note": "Keep the user's clearly-better requirement; report absolute and relative error differences without inventing an additional numerical threshold."
+  },
+  "fit_new_gain_or_lag": false,
+  "modify_source_after_failed_gate": false,
+  "batch_shots": 3,
+  "oom_fallback_shots": 1,
+  "figure_dpi": 140
+}

@@ -1,0 +1,68 @@
+{
+  "direct_all_64": {
+    "relative_l2_fine_minus_coarse_over_coarse": 0.449615944165946,
+    "fine_over_coarse_norm_ratio": 0.5580861433475233,
+    "global_pearson": 0.9938480548792546,
+    "mean_trace_pearson": 0.9996313191830112,
+    "samples": 3200
+  },
+  "direct_excluding_self": {
+    "relative_l2_fine_minus_coarse_over_coarse": 0.5001699909694463,
+    "fine_over_coarse_norm_ratio": 0.5001367394431467,
+    "global_pearson": 0.999693338320092,
+    "mean_trace_pearson": 0.9996775002664283,
+    "samples": 3150
+  },
+  "previous_direct_subset": {
+    "relative_l2_fine_minus_coarse_over_coarse": 0.49913132740283916,
+    "fine_over_coarse_norm_ratio": 0.5012551589876548,
+    "global_pearson": 0.9996152971158137,
+    "mean_trace_pearson": 0.9996289913368085,
+    "samples": 1700
+  },
+  "full_record": {
+    "relative_l2_fine_minus_coarse_over_coarse": 0.4496185277114539,
+    "fine_over_coarse_norm_ratio": 0.5580834847805017,
+    "global_pearson": 0.9938480404604104,
+    "mean_trace_pearson": 0.9996312072408897,
+    "samples": 64000
+  },
+  "frozen_gain": 0.9907679913977262,
+  "frozen_lag_s": 0.0,
+  "runtime": {
+    "propagation_copy_s": 0.595720799999981,
+    "with_prepare_s": 0.597186299999521,
+    "batch": 3,
+    "shots": 1,
+    "oom": [],
+    "allocated_peak_bytes": 33680384,
+    "reserved_peak_bytes": 44040192,
+    "gpu_samples": [
+      [
+        13078.4109051,
+        1649.0,
+        2.0
+      ],
+      [
+        13078.9657307,
+        1670.0,
+        4.0
+      ]
+    ],
+    "whole_card_peak_mib": 1670.0
+  },
+  "source_scaling_audit": {
+    "fine_over_coarse_h": 0.5,
+    "predicted_2d_integrated_source_ratio": 0.5,
+    "fine_spacetime_source_l1": 6.52538710492364e-08,
+    "coarse_spacetime_source_l1": 1.3047802397629546e-07,
+    "ricker_same_continuous_definition": true,
+    "no_area_compensation": true,
+    "no_fitting": true
+  },
+  "passed": false,
+  "gate_threshold_strict_upper": 0.03,
+  "downstream_executed": false,
+  "code_success": true,
+  "compute_analysis_save_s": 1.6076187999988178
+}
