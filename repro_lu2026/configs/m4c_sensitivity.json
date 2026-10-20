@@ -1,0 +1,31 @@
+{
+  "checkpoint": "E:\\FNO_research\\results\\m4b_train_20261020_132524\\best.pt",
+  "best_epoch": 463,
+  "best_val_l1": 0.024828397216796874,
+  "splits": {
+    "train": {
+      "samples": 375,
+      "pred_cross_sample_std_ms": 0.09729126840829849,
+      "true_cross_sample_std_ms": 74.12059020996094,
+      "ratio_pred_over_true": 0.0013126078480042067,
+      "mean_spatial_corr_with_training_mean_image": 0.8575095782279968,
+      "val_l1_normalized_true_pairing": 0.025212712585926056,
+      "val_l1_normalized_shuffled_pairing": 0.025218287482857704,
+      "l1_change_when_shuffled": 5.574896931648254e-06,
+      "mae_ms_true_pairing": 54.20732116699219,
+      "mae_ms_shuffled_pairing": 54.21930694580078
+    },
+    "validation": {
+      "samples": 40,
+      "pred_cross_sample_std_ms": 0.08560803532600403,
+      "true_cross_sample_std_ms": 72.13011169433594,
+      "ratio_pred_over_true": 0.00118685571552673,
+      "mean_spatial_corr_with_training_mean_image": 0.8575139433145523,
+      "val_l1_normalized_true_pairing": 0.02482839673757553,
+      "val_l1_normalized_shuffled_pairing": 0.024829991161823273,
+      "l1_change_when_shuffled": 1.5944242477416992e-06,
+      "mae_ms_true_pairing": 53.381046295166016,
+      "mae_ms_shuffled_pairing": 53.384464263916016
+    }
+  }
+}

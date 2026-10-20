@@ -1,4 +1,4 @@
-"""M4b diagnostics: separate "not enough iterations" from "not enough data".
+﻿"""M4b diagnostics: separate "not enough iterations" from "not enough data".
 
 Evaluates the saved M4 and M4b best checkpoints on the training and validation splits
 (never the test split), adds defect-region metrics, compares against two learned-free
@@ -40,6 +40,8 @@ def collect(model, loader, dev):
 
 def suite(pred_n, true_n, norm, ssim_win):
     """Overall and defect-region metrics, all in m/s."""
+    pred_n = pred_n.float().cpu()
+    true_n = true_n.float().cpu()
     pm = m4.to_ms(pred_n, norm)
     tm = m4.to_ms(true_n, norm)
     diff = pm - tm

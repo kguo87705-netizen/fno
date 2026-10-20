@@ -78,8 +78,22 @@ class FNO2d(nn.Module):
         super().__init__()
         self.c = c
         self.lift = nn.Linear(c['in_channels'] + 2, c['width'])
-        self.t_resample = nn.Linear(c['t_in'], c['t_out'])
-        self.r_resample = nn.Linear(c['r_in'], c['r_out'])
+        # T/R grid mapping. 'dense' is the M4/M4b definition; 'local' and 'interp' are
+        # the M4c ablation variants and change nothing else in the network.
+        self.mapping = c.get('mapping', 'dense')
+        if self.mapping == 'dense':
+            self.t_resample = nn.Linear(c['t_in'], c['t_out'])
+            self.r_resample = nn.Linear(c['r_in'], c['r_out'])
+        elif self.mapping == 'local':
+            # T: 1000 -> 200 with kernel 8, stride 5, padding 2 (a local operator, not a
+            # full linear mix over all arrival times).
+            self.t_conv = nn.Conv2d(c['width'], c['width'], (8, 1), stride=(5, 1), padding=(2, 0))
+            # R: 64 -> 200 by linear interpolation, then a small learnable 1x3 convolution.
+            self.r_post = nn.Conv2d(c['width'], c['width'], (1, 3), padding=(0, 1))
+        elif self.mapping == 'interp':
+            pass
+        else:
+            raise ValueError(f"unknown mapping {self.mapping}")
         self.layers = nn.ModuleList([FourierLayer(c['width'], c['modes']) for _ in range(c['n_layers'])])
         self.project = nn.Sequential(
             nn.Linear(c['width'], c['q_hidden']), nn.GELU(),
@@ -94,8 +108,17 @@ class FNO2d(nn.Module):
         h = torch.cat([x, t, r], dim=1)                     # (B, C+2, T, R)
         h = self.lift(h.permute(0, 2, 3, 1))                # (B, T, R, width)
         h = h.permute(0, 3, 1, 2)                           # (B, width, T, R)
-        h = self.t_resample(h.permute(0, 1, 3, 2)).permute(0, 1, 3, 2)  # T: 1000 -> 200
-        h = self.r_resample(h)                              # R: 64 -> 200
+        if self.mapping == 'dense':
+            h = self.t_resample(h.permute(0, 1, 3, 2)).permute(0, 1, 3, 2)  # T: 1000 -> 200
+            h = self.r_resample(h)                                      # R: 64 -> 200
+        elif self.mapping == 'local':
+            h = self.t_conv(h)                                          # T: 1000 -> 200
+            h = F.interpolate(h, scale_factor=(1.0, self.c['r_out'] / self.c['r_in']),
+                              mode='bilinear', align_corners=False)     # R: 64 -> 200
+            h = self.r_post(h)
+        else:
+            h = F.interpolate(h, size=(self.c['t_out'], self.c['r_out']),
+                              mode='bilinear', align_corners=False)
         for layer in self.layers:
             h = layer(h)
         return self.project(h.permute(0, 2, 3, 1)).permute(0, 3, 1, 2)

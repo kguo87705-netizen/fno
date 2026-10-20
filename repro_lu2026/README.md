@@ -2,6 +2,8 @@
 
 ## 当前进度
 
+- **M4c映射层消融完成（最新）：问题在映射层，不在学习率**：先用 M4b 权重做输入敏感性——预测跨样本标准差 0.097 m/s、真值 74.1 m/s（比值0.13%），打乱输入-目标配对后验证L1仅变2e-6，输出与训练集均值图相关0.86，**说明M4/M4b实际输出的是常数先验**。子集记忆在N=32→128之间断裂（Dice 0.959→0.404）；lr 3e-4/1e-4跑100轮仍只有Dice 0.47（低于均值图0.59），不触发完整重跑。把时域稠密`Linear(1000→200)`换成局部卷积（kernel8/stride5/padding2）+R轴插值加1×3卷积后，150轮内训练集Dice **0.480→0.835**、缺陷区MAE **2208→21.8 m/s**，验证集Dice 0.455→0.581；无参数插值变体仍只有0.496/0.471。剩余差距（训练0.835 vs 验证0.581）指向数据量。测试集未读，M5未开始。见[M4c报告](reports/m4c_report.md)。
+
 - **M4b预算诊断完成（最新），判定为优化/结构问题**：只改训练预算（500轮跑满、无早停、余弦1e-3→1e-6），其余与M4完全相同。耗时127.8分钟、最佳轮次463、验证L1 0.02483（M4为0.02537）。**训练集Dice仅0.4798、验证集0.4555，训练集自己都学不出字母，训练/验证差距仅0.024，且模型不如不学习的"训练集平均图"（Dice 0.5935/0.5838）**；加2.66倍预算只换来+0.013/+0.015 Dice，损失曲线最后50轮已饱和。按预定规则判为优化/结构问题，不是数据不足，故未执行扩充到2500样本。建议的局部T轴映射方案已写入报告但**未实施**。测试集未读取，M5未开始。见[M4b报告](reports/m4b_report.md)。
 
 - **M3+M4完成，但基线未达标**：数据加载管线打通（375/40/85按冻结清单、训练集统计归一化、按需HDF5读取27.9样本/s），原版FNO2d基线26,438,321参数、batch 32、显存峰值5.30GiB、188轮/48.59分钟。**验证集相对L2=0.06259、MAE=54.56m/s、RMSE=354.08m/s、SSIM=0.95724，仅略优于恒背景参照（0.07313），且不如训练集平均图（0.05591）——只学到中心模糊团块，没有恢复字母形状。** 为使训练可行，输入按批准改为"FMC−均匀参考"的散射场（唯一偏离，理由与反证据见报告）。测试集未读取，M5未开始。见[M3+M4报告](reports/m3_m4_report.md)。
@@ -25,6 +27,8 @@
 - M2批量数据已完成；M3加载与M4原版FNO已执行（基线未达标，见报告）；M5评估尚未执行。
 
 ## 报告
+
+- [M4c：输入敏感性、子集记忆、学习率与T/R映射层消融](reports/m4c_report.md)
 
 - [M4b训练预算诊断：迭代不足 vs 数据不足的判定](reports/m4b_report.md)
 
@@ -95,3 +99,5 @@ dt=5ns，内部4000点；输出每4点抽取，1000点覆盖0–19.98μs。t=0�
 12. `code/m3_data.py`负责M3：`norm`/`norm_scatter`拟合归一化参数（只用训练集）、`stats`汇总原始/归一化/散射幅度、`viz`画三张预览图、`load`测按需加载吞吐；`code/m4_fno.py`负责M4：`bench`测单步与预算、`overfit`跑8样本门禁、`train`正式训练（每10轮存`last.pt`，`train.resume=true`时自动续训）。所有阶段统一用`code/run_m3_m4.ps1 -ConfigPath <绝对配置> -Stage <阶段>`，该脚本仅在本进程内把缓存/TEMP重定向到E盘。参数与路径见`configs/m3_m4_fno.json`，归一化参数与指标见`configs/m3_normalization.json`、`configs/m3_scatter_normalization.json`、`configs/m3_measurements.json`、`configs/m4_measurements.json`，结果与诊断见[M3+M4报告](reports/m3_m4_report.md)。权重、日志、数据不入Git。
 
 13. `configs/m4b_fno.json`是M4b预算诊断配置（由M4配置程序化派生，只改轮数/早停/学习率衰减/保存策略）；训练同用`code/run_m3_m4.ps1 -Stage m4-train`，结果写入新的`m4b_train_*`目录，图前缀为`m4b_`，不覆盖M4。`code/m4b_diagnostics.py <M4目录> <M4b目录>`只读取两边已保存的`best.pt`，在训练集与验证集上重算相对L2/MAE/RMSE/SSIM及缺陷区MAE、Dice、IoU，并对照"恒背景"和"训练集平均图"两个无学习参照，输出`configs/m4b_diagnostics.json`与对比图。判定与结论见[M4b报告](reports/m4b_report.md)。
+
+14. `code/m4c_part1.py`（`sens`/`subset`/`lowlr`）与 `code/m4c_ablation.py`（`run <variant> <lr>`、`figs <variant>`）组成M4c诊断：前者用已保存权重测输入敏感性、跑8/32/128/375子集记忆曲线和两种低学习率；后者只替换T/R映射层跑150轮消融，`model.mapping`可设为`dense`（M4/M4b原定义）/`local`/`interp`。曲线由`code/m4c_curves.py`汇总，指标见`configs/m4c_sensitivity.json`、`configs/m4c_subsets.json`、`configs/m4c_lowlr.json`、`configs/m4c_ablation.json`，判定见[M4c报告](reports/m4c_report.md)。
