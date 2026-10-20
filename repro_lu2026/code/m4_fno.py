@@ -293,11 +293,12 @@ def _resolve_run_dir(cfg):
     if rf and rf not in ('latest', True):
         return Path(rf)
     if tr.get('resume') and rf == 'latest':
-        cands = sorted(Path(cfg['results_root']).glob('m4_train_*'), key=lambda p: p.stat().st_mtime)
+        cands = sorted(Path(cfg['results_root']).glob(tr.get('run_prefix', 'm4_train') + '_*'),
+                        key=lambda p: p.stat().st_mtime)
         for c in reversed(cands):
             if (c / 'last.pt').exists():
                 return c
-    return m3.new_dir(cfg['results_root'], 'm4_train')
+    return m3.new_dir(cfg['results_root'], tr.get('run_prefix', 'm4_train'))
 
 
 def stage_train(cfg, splits, norm, device):
@@ -369,7 +370,7 @@ def stage_train(cfg, splits, norm, device):
         if epoch == 1 or epoch % 5 == 0 or improved:
             print(f"epoch {epoch:4d} train {train_l1:.5f} val {val_l1:.5f} lr {lr:.2e} "
                   f"{t_train:.1f}s bad {bad}", flush=True)
-        if bad >= tr['patience']:
+        if tr.get('early_stop', True) and bad >= tr['patience']:
             print(f'early stop at epoch {epoch} (best {best:.5f} @ {best_epoch})')
             break
     total_s = prior_s + (time.perf_counter() - t_start)
@@ -388,7 +389,7 @@ def stage_train(cfg, splits, norm, device):
     const = torch.full_like(true_ms, cfg['speed']['max_ms'])
     cdiff = const - true_ms
     cwin = gaussian_window(cfg['eval']['ssim_window'], cfg['eval']['ssim_sigma'], const.device)
-    true_norm = (true_ms - cfg['speed']['min_ms']) * norm['speed']['scale'] + norm['speed']['offset']
+    true_norm = true_ms * norm['speed']['scale'] + norm['speed']['offset']
     baseline = {
         'description': 'constant prediction of 5800 m/s at every pixel; no learning',
         'relative_l2_rms_of_samples': float(np.sqrt(np.mean(
@@ -416,7 +417,7 @@ def stage_train(cfg, splits, norm, device):
     ax[1].grid(alpha=0.3)
     fig.suptitle(f'FNO2d baseline: stopped after {len(hist)} epochs, best validation L1 {best:.5f}')
     fig.tight_layout()
-    p = Path(cfg['figure_dir']) / 'm4_training_curves.png'
+    p = Path(cfg['figure_dir']) / (cfg.get('figure_prefix', 'm4') + '_training_curves.png')
     if p.exists():
         raise SystemExit(f'refusing to overwrite {p}')
     fig.savefig(p, dpi=cfg['preview']['dpi'])
@@ -444,7 +445,7 @@ def stage_train(cfg, splits, norm, device):
         fig.suptitle(f"Validation sample, MAE {ev['per']['per_sample_mae_ms'][i]:.1f} m/s, "
                      f"SSIM {ev['per']['ssim'][i]:.4f}")
         fig.tight_layout()
-        pp = Path(cfg['figure_dir']) / f'm4_val_{r["sample_id"]}.png'
+        pp = Path(cfg['figure_dir']) / (cfg.get('figure_prefix', 'm4') + f'_val_{r["sample_id"]}.png')
         if pp.exists():
             raise SystemExit(f'refusing to overwrite {pp}')
         fig.savefig(pp, dpi=cfg['preview']['dpi'])

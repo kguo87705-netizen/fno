@@ -2,7 +2,9 @@
 
 ## 当前进度
 
-- **M3+M4完成（最新），但基线未达标**：数据加载管线打通（375/40/85按冻结清单、训练集统计归一化、按需HDF5读取27.9样本/s），原版FNO2d基线26,438,321参数、batch 32、显存峰值5.30GiB、188轮/48.59分钟。**验证集相对L2=0.06259、MAE=54.56m/s、RMSE=354.08m/s、SSIM=0.95724，仅略优于恒背景参照（0.07313），且不如训练集平均图（0.05591）——只学到中心模糊团块，没有恢复字母形状。** 为使训练可行，输入按批准改为"FMC−均匀参考"的散射场（唯一偏离，理由与反证据见报告）。测试集未读取，M5未开始。见[M3+M4报告](reports/m3_m4_report.md)。
+- **M4b预算诊断完成（最新），判定为优化/结构问题**：只改训练预算（500轮跑满、无早停、余弦1e-3→1e-6），其余与M4完全相同。耗时127.8分钟、最佳轮次463、验证L1 0.02483（M4为0.02537）。**训练集Dice仅0.4798、验证集0.4555，训练集自己都学不出字母，训练/验证差距仅0.024，且模型不如不学习的"训练集平均图"（Dice 0.5935/0.5838）**；加2.66倍预算只换来+0.013/+0.015 Dice，损失曲线最后50轮已饱和。按预定规则判为优化/结构问题，不是数据不足，故未执行扩充到2500样本。建议的局部T轴映射方案已写入报告但**未实施**。测试集未读取，M5未开始。见[M4b报告](reports/m4b_report.md)。
+
+- **M3+M4完成，但基线未达标**：数据加载管线打通（375/40/85按冻结清单、训练集统计归一化、按需HDF5读取27.9样本/s），原版FNO2d基线26,438,321参数、batch 32、显存峰值5.30GiB、188轮/48.59分钟。**验证集相对L2=0.06259、MAE=54.56m/s、RMSE=354.08m/s、SSIM=0.95724，仅略优于恒背景参照（0.07313），且不如训练集平均图（0.05591）——只学到中心模糊团块，没有恢复字母形状。** 为使训练可行，输入按批准改为"FMC−均匀参考"的散射场（唯一偏离，理由与反证据见报告）。测试集未读取，M5未开始。见[M3+M4报告](reports/m3_m4_report.md)。
 
 - **M2完成**：Deepwave 0.05mm/2.5ns按冻结清单生成500个EMNIST样本（训练375、验证40、测试85）及1份均匀参考。501个HDF5的SHA256和内容独立审计全部通过，异常/重试0；数据共8.297682GB，生成总跨度123.57分钟，500样本平均14.725秒。原始FMC未归一化。见[M2完成报告](reports/m2_completion_report.md)。
 
@@ -23,6 +25,8 @@
 - M2批量数据已完成；M3加载与M4原版FNO已执行（基线未达标，见报告）；M5评估尚未执行。
 
 ## 报告
+
+- [M4b训练预算诊断：迭代不足 vs 数据不足的判定](reports/m4b_report.md)
 
 - [M3数据加载与M4原版FNO基线：指标、偏离说明与失败诊断](reports/m3_m4_report.md)
 
@@ -89,3 +93,5 @@ dt=5ns，内部4000点；输出每4点抽取，1000点覆盖0–19.98μs。t=0�
 11. `code/prepare_m2_manifest.py`冻结500样本划分；`code/run_m2.ps1`调用`generate_m2.py`执行pilot或bulk并支持严格校验后的断点续跑；`code/audit_m2.py`对完成数据重算SHA256及汇总原始幅度；`code/report_m2.py`从审计JSON生成完成报告。固定配置、清单、逐文件账本和统计见`configs/m2_*.json`，运行方法见[M2完成报告](reports/m2_completion_report.md)。数据、日志、环境和原始EMNIST不入Git。
 
 12. `code/m3_data.py`负责M3：`norm`/`norm_scatter`拟合归一化参数（只用训练集）、`stats`汇总原始/归一化/散射幅度、`viz`画三张预览图、`load`测按需加载吞吐；`code/m4_fno.py`负责M4：`bench`测单步与预算、`overfit`跑8样本门禁、`train`正式训练（每10轮存`last.pt`，`train.resume=true`时自动续训）。所有阶段统一用`code/run_m3_m4.ps1 -ConfigPath <绝对配置> -Stage <阶段>`，该脚本仅在本进程内把缓存/TEMP重定向到E盘。参数与路径见`configs/m3_m4_fno.json`，归一化参数与指标见`configs/m3_normalization.json`、`configs/m3_scatter_normalization.json`、`configs/m3_measurements.json`、`configs/m4_measurements.json`，结果与诊断见[M3+M4报告](reports/m3_m4_report.md)。权重、日志、数据不入Git。
+
+13. `configs/m4b_fno.json`是M4b预算诊断配置（由M4配置程序化派生，只改轮数/早停/学习率衰减/保存策略）；训练同用`code/run_m3_m4.ps1 -Stage m4-train`，结果写入新的`m4b_train_*`目录，图前缀为`m4b_`，不覆盖M4。`code/m4b_diagnostics.py <M4目录> <M4b目录>`只读取两边已保存的`best.pt`，在训练集与验证集上重算相对L2/MAE/RMSE/SSIM及缺陷区MAE、Dice、IoU，并对照"恒背景"和"训练集平均图"两个无学习参照，输出`configs/m4b_diagnostics.json`与对比图。判定与结论见[M4b报告](reports/m4b_report.md)。
