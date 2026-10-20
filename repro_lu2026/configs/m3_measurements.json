@@ -1,0 +1,118 @@
+{
+  "per_split": {
+    "train": {
+      "samples": 375,
+      "fmc_raw": {
+        "min": -0.24541442096233368,
+        "max": 0.28267255425453186,
+        "rms": 0.0038924068974442345
+      },
+      "fmc_norm": {
+        "min": -1.0,
+        "max": 1.0,
+        "rms": 0.0720766684595548
+      },
+      "scatter": {
+        "max_abs": 0.005902318003563778,
+        "rms": 0.0002076267095842273,
+        "norm_rms": 0.0007863352793314505,
+        "ratio_to_direct": 0.053417519613657385
+      },
+      "uniform_reference_rms": 0.0038868654158015765
+    },
+    "validation": {
+      "samples": 40,
+      "fmc_raw": {
+        "min": -0.24541442096233368,
+        "max": 0.28267255425453186,
+        "rms": 0.003892090027623874
+      },
+      "fmc_norm": {
+        "min": -1.0,
+        "max": 1.0,
+        "rms": 0.07207642735501811
+      },
+      "scatter": {
+        "max_abs": 0.00578221510345589,
+        "rms": 0.0002015999624612354,
+        "norm_rms": 0.0007635104515821315,
+        "ratio_to_direct": 0.051866977858727695
+      },
+      "uniform_reference_rms": 0.0038868654158015882
+    },
+    "test": {
+      "samples": 85,
+      "fmc_raw": {
+        "min": -0.24541442096233368,
+        "max": 0.28267255425453186,
+        "rms": 0.0038921592100287345
+      },
+      "fmc_norm": {
+        "min": -1.0,
+        "max": 1.0,
+        "rms": 0.07207646990144652
+      },
+      "scatter": {
+        "max_abs": 0.005684674534968792,
+        "rms": 0.0002029304191454189,
+        "norm_rms": 0.0007685492302175526,
+        "ratio_to_direct": 0.05220927339558229
+      },
+      "uniform_reference_rms": 0.0038868654158015913
+    }
+  },
+  "definitions": {
+    "fmc_raw_rms": "RMS of the saved FMC; the dataset is not normalized",
+    "fmc_norm_rms": "RMS after the train-fitted affine map to [-1, 1]",
+    "scatter_rms": "RMS of (sample FMC - uniform FMC); the stored data are not subtracted",
+    "scatter_norm_rms": "RMS of the same difference after the affine map (scale only)",
+    "direct_rms": "RMS of the uniform reference FMC, i.e. the direct-arrival level"
+  },
+  "all": {
+    "samples": 500,
+    "fmc_raw": {
+      "rms": 0.0038923394427850047
+    },
+    "fmc_norm": {
+      "rms": 0.07207661541637268
+    },
+    "scatter": {
+      "rms": 0.0002063583529717189,
+      "norm_rms": 0.0007815316894985919,
+      "ratio_to_direct": 0.053091200979790566
+    },
+    "uniform_reference_rms": 0.00388686541580158
+  },
+  "normalization": {
+    "min": -0.24541442096233368,
+    "max": 0.28267255425453186,
+    "norm_range": [
+      -1.0,
+      1.0
+    ],
+    "scale": 3.7872549293204494,
+    "offset": -0.07055302448407796,
+    "formula": "x_n = lo + (x - min) * (hi - lo) / (max - min)",
+    "fit_split": "train",
+    "fit_samples": 375,
+    "fit_elements": 1536000000,
+    "fit_seconds": 5.812769600000138,
+    "read_mib_per_s": 1008.0177614471182,
+    "leakage_guard": "validation and test never contribute to these values"
+  },
+  "speed_normalization": {
+    "min_ms": 1500.0,
+    "max_ms": 5800.0,
+    "norm_range": [
+      -1.0,
+      1.0
+    ],
+    "scale": 0.00046511627906976747,
+    "offset": -1.697674418604651,
+    "formula": "c_n = -1.0 + (c_ms - 1500.0) * 2.0 / 4300.0",
+    "fixed_physical_range": true,
+    "fitted_from_data": false
+  },
+  "stats_seconds": 59.33217949999971,
+  "note": "The scatter rows subtract the single uniform reference FMC only to report amplitude levels; no file is modified and the training input keeps the direct arrival."
+}

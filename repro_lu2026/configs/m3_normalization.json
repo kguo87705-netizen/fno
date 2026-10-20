@@ -1,0 +1,38 @@
+{
+  "seed": 42,
+  "dataset_dir": "E:/FNO_research/data/m2_emnist500_dw005_v1",
+  "manifest_path": "E:\\FNO_research\\repos\\fno_light\\repro_lu2026\\configs\\m2_split_manifest.json",
+  "manifest_sha256": "af86c270f7aaa3c8aefa82e88f10d7eedcc97c1556ebfd09fee89d49cc0d7293",
+  "created": "2026-10-20T09:58:50",
+  "fmc": {
+    "min": -0.24541442096233368,
+    "max": 0.28267255425453186,
+    "norm_range": [
+      -1.0,
+      1.0
+    ],
+    "scale": 3.7872549293204494,
+    "offset": -0.07055302448407796,
+    "formula": "x_n = lo + (x - min) * (hi - lo) / (max - min)",
+    "fit_split": "train",
+    "fit_samples": 375,
+    "fit_elements": 1536000000,
+    "fit_seconds": 5.812769600000138,
+    "read_mib_per_s": 1008.0177614471182,
+    "leakage_guard": "validation and test never contribute to these values"
+  },
+  "speed": {
+    "min_ms": 1500.0,
+    "max_ms": 5800.0,
+    "norm_range": [
+      -1.0,
+      1.0
+    ],
+    "scale": 0.00046511627906976747,
+    "offset": -1.697674418604651,
+    "formula": "c_n = -1.0 + (c_ms - 1500.0) * 2.0 / 4300.0",
+    "fixed_physical_range": true,
+    "fitted_from_data": false
+  },
+  "purpose": "M3 baseline normalization exactly as specified; no per-sample or per-split statistics"
+}

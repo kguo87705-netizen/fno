@@ -1,0 +1,89 @@
+﻿{
+  "root": "E:/FNO_research",
+  "dataset_dir": "E:/FNO_research/data/m2_emnist500_dw005_v1",
+  "manifest_path": "E:\\FNO_research\\repos\\fno_light\\repro_lu2026\\configs\\m2_split_manifest.json",
+  "normalization_path": "E:\\FNO_research\\repos\\fno_light\\repro_lu2026\\configs\\m3_normalization.json",
+  "stats_path": "E:\\FNO_research\\repos\\fno_light\\repro_lu2026\\configs\\m3_measurements.json",
+  "metrics_path": "E:\\FNO_research\\repos\\fno_light\\repro_lu2026\\configs\\m4_measurements.json",
+  "figure_dir": "E:\\FNO_research\\repos\\fno_light\\repro_lu2026\\reports",
+  "results_root": "E:/FNO_research/results",
+  "split_counts": {
+    "train": 375,
+    "validation": 40,
+    "test": 85
+  },
+  "seed": 42,
+  "speed": {
+    "min_ms": 1500.0,
+    "max_ms": 5800.0,
+    "norm_range": [-1.0, 1.0],
+    "note": "Fixed physical range, identical for every split; not fitted from data."
+  },
+  "fmc_norm_range": [-1.0, 1.0],
+  "fmc_norm_source": "Global min/max of the 375 training samples only; validation and test reuse these values.",
+  "scatter": {
+    "enabled": true,
+    "reference": "E:/FNO_research/data/m2_emnist500_dw005_v1/samples/uniform.h5",
+    "normalization_path": "E:\\FNO_research\\repos\\fno_light\\repro_lu2026\\configs\\m3_scatter_normalization.json",
+    "input": "sample FMC minus the uniform-medium FMC, then one affine map using the training-set min/max of that scattering field",
+    "reason": "The full FMC is 99.3% a sample-independent direct arrival; the 0.7% differential collapses under the specified architecture (evidence in reports/m3_m4_report.md). A defect-free reference acquisition is available in practice.",
+    "scope": "input preprocessing only; speed normalization, network structure and training settings are unchanged"
+  },
+  "preview": {
+    "count": 3,
+    "seed": 42,
+    "tx_one_based": 32,
+    "dpi": 120
+  },
+  "loader": {
+    "batch_size": 32,
+    "num_workers": 4,
+    "prefetch_factor": 2,
+    "pin_memory": true,
+    "note": "On-demand HDF5 reads; the 8.3 GB dataset is not preloaded because host RAM is 15.6 GB."
+  },
+  "model": {
+    "in_channels": 64,
+    "t_in": 1000,
+    "r_in": 64,
+    "width": 32,
+    "modes": 40,
+    "n_layers": 4,
+    "t_out": 200,
+    "r_out": 200,
+    "q_hidden": 128,
+    "out_channels": 1,
+    "architecture": "pointwise lifting -> learnable linear T(1000->200) and R(64->200) -> 4 Fourier layers -> 2-layer pointwise MLP; no U-Net branch, no attention, no physics loss"
+  },
+  "train": {
+    "batch_size": 32,
+    "lr": 0.001,
+    "weight_decay": 0.0,
+    "max_epochs": 500,
+    "patience": 50,
+    "min_delta": 1e-07,
+    "scheduler": "cosine",
+    "eta_min": 1e-05,
+    "tf32": true,
+    "resume": true,
+    "resume_from": "latest",
+    "checkpoint_every": 10,
+    "num_workers": 4,
+    "loss": "L1 on normalized speed",
+    "note": "Early stop when validation L1 has not decreased for patience epochs."
+  },
+  "overfit": {
+    "n_samples": 8,
+    "max_steps": 3000,
+    "lr": 0.001,
+    "scheduler": "cosine",
+    "target_l1": 0.01,
+    "eval_every": 100
+  },
+  "eval": {
+    "ssim_window": 11,
+    "ssim_sigma": 1.5,
+    "n_figures": 3,
+    "metrics": "relative L2, MAE and RMSE in m/s on validation; SSIM on the 200x200 speed map with data_range 4300 m/s"
+  }
+}

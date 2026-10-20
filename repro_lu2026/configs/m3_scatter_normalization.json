@@ -1,0 +1,45 @@
+{
+  "seed": 42,
+  "dataset_dir": "E:/FNO_research/data/m2_emnist500_dw005_v1",
+  "manifest_path": "E:\\FNO_research\\repos\\fno_light\\repro_lu2026\\configs\\m2_split_manifest.json",
+  "manifest_sha256": "af86c270f7aaa3c8aefa82e88f10d7eedcc97c1556ebfd09fee89d49cc0d7293",
+  "created": "2026-10-20T10:25:30",
+  "fmc": {
+    "mode": "scatter",
+    "reference": "E:/FNO_research/data/m2_emnist500_dw005_v1/samples/uniform.h5",
+    "reference_sha256": "5b534829dd4c829bf1e96b802b4a92660cd7f2263f6acf1819cac632f6f5c93b",
+    "input": "FMC - uniform FMC",
+    "min": -0.005902317818254232,
+    "max": 0.004426355939358473,
+    "raw_rms": 0.00020762670958297713,
+    "norm_rms": 0.04020394378899744,
+    "norm_range": [
+      -1.0,
+      1.0
+    ],
+    "scale": 193.63570260178935,
+    "offset": 0.14289945771671864,
+    "formula": "x_n = lo + (x - ref - min) * (hi - lo) / (max - min)",
+    "fit_split": "train",
+    "fit_samples": 375,
+    "fit_elements": 1536000000,
+    "fit_seconds": 12.635160900000301,
+    "read_mib_per_s": 463.7356853920127,
+    "leakage_guard": "validation and test never contribute to these values",
+    "no_fixed_gain": "the mapping comes only from train-set min/max; no arbitrary multiplier"
+  },
+  "speed": {
+    "min_ms": 1500.0,
+    "max_ms": 5800.0,
+    "norm_range": [
+      -1.0,
+      1.0
+    ],
+    "scale": 0.00046511627906976747,
+    "offset": -1.697674418604651,
+    "formula": "c_n = -1.0 + (c_ms - 1500.0) * 2.0 / 4300.0",
+    "fixed_physical_range": true,
+    "fitted_from_data": false
+  },
+  "purpose": "M4 input: defect-free reference subtracted first, then train-set min/max affine map"
+}
