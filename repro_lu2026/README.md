@@ -2,6 +2,8 @@
 
 ## 当前进度
 
+- **M4d-E 诊断完成；FWI 初值预实验在 3b 停止（最新）**：E 线（改进FNO，非 U-FNO 复现）用 M4c 的 local 映射。置换检验证明模型确实依赖输入（验证 Dice 0.581→0.422，降0.159；90%样本匹配自己标签）；更正 M4c 的缺陷区 MAE 口径（整体21.77 vs 缺陷区869.5/1919.4）。数据缩放：N=94/188/375 验证Dice 0.488/0.515/0.525（两种子均值），N=375−N=188 仅 0.0104<0.03，且 modes20 反而更好（0.544）→ **判定不扩数据**。FWI：0.1mm/accuracy8 的真实声速正演失配E_scat=0.146、初始残差1.024（7.03倍）；3b 程序检查三次未过（E_d/E_c 在4–5位小数不变），定位为梯度≈1e-13 与判定尺度不匹配，**按规则停止，未做 3c–3e**。测试集封存，M5未开始。见[M4d报告](reports/m4d_report.md)与[FWI预实验报告](reports/m4d_fwi_pilot_report.md)。
+
 - **M4c映射层消融完成（最新）：问题在映射层，不在学习率**：先用 M4b 权重做输入敏感性——预测跨样本标准差 0.097 m/s、真值 74.1 m/s（比值0.13%），打乱输入-目标配对后验证L1仅变2e-6，输出与训练集均值图相关0.86，**说明M4/M4b实际输出的是常数先验**。子集记忆在N=32→128之间断裂（Dice 0.959→0.404）；lr 3e-4/1e-4跑100轮仍只有Dice 0.47（低于均值图0.59），不触发完整重跑。把时域稠密`Linear(1000→200)`换成局部卷积（kernel8/stride5/padding2）+R轴插值加1×3卷积后，150轮内训练集Dice **0.480→0.835**、缺陷区MAE **2208→21.8 m/s**，验证集Dice 0.455→0.581；无参数插值变体仍只有0.496/0.471。剩余差距（训练0.835 vs 验证0.581）指向数据量。测试集未读，M5未开始。见[M4c报告](reports/m4c_report.md)。
 
 - **M4b预算诊断完成（最新），判定为优化/结构问题**：只改训练预算（500轮跑满、无早停、余弦1e-3→1e-6），其余与M4完全相同。耗时127.8分钟、最佳轮次463、验证L1 0.02483（M4为0.02537）。**训练集Dice仅0.4798、验证集0.4555，训练集自己都学不出字母，训练/验证差距仅0.024，且模型不如不学习的"训练集平均图"（Dice 0.5935/0.5838）**；加2.66倍预算只换来+0.013/+0.015 Dice，损失曲线最后50轮已饱和。按预定规则判为优化/结构问题，不是数据不足，故未执行扩充到2500样本。建议的局部T轴映射方案已写入报告但**未实施**。测试集未读取，M5未开始。见[M4b报告](reports/m4b_report.md)。
@@ -27,6 +29,9 @@
 - M2批量数据已完成；M3加载与M4原版FNO已执行（基线未达标，见报告）；M5评估尚未执行。
 
 ## 报告
+
+- [M4d-E：输入依赖、指标口径、数据缩放与容量对照](reports/m4d_report.md)
+- [M4d-E FWI 初值预实验（3b 停止）](reports/m4d_fwi_pilot_report.md)
 
 - [M4c：输入敏感性、子集记忆、学习率与T/R映射层消融](reports/m4c_report.md)
 
@@ -101,3 +106,5 @@ dt=5ns，内部4000点；输出每4点抽取，1000点覆盖0–19.98μs。t=0�
 13. `configs/m4b_fno.json`是M4b预算诊断配置（由M4配置程序化派生，只改轮数/早停/学习率衰减/保存策略）；训练同用`code/run_m3_m4.ps1 -Stage m4-train`，结果写入新的`m4b_train_*`目录，图前缀为`m4b_`，不覆盖M4。`code/m4b_diagnostics.py <M4目录> <M4b目录>`只读取两边已保存的`best.pt`，在训练集与验证集上重算相对L2/MAE/RMSE/SSIM及缺陷区MAE、Dice、IoU，并对照"恒背景"和"训练集平均图"两个无学习参照，输出`configs/m4b_diagnostics.json`与对比图。判定与结论见[M4b报告](reports/m4b_report.md)。
 
 14. `code/m4c_part1.py`（`sens`/`subset`/`lowlr`）与 `code/m4c_ablation.py`（`run <variant> <lr>`、`figs <variant>`）组成M4c诊断：前者用已保存权重测输入敏感性、跑8/32/128/375子集记忆曲线和两种低学习率；后者只替换T/R映射层跑150轮消融，`model.mapping`可设为`dense`（M4/M4b原定义）/`local`/`interp`。曲线由`code/m4c_curves.py`汇总，指标见`configs/m4c_sensitivity.json`、`configs/m4c_subsets.json`、`configs/m4c_lowlr.json`、`configs/m4c_ablation.json`，判定见[M4c报告](reports/m4c_report.md)。
+
+15. E 线（改进FNO，**不是** Lu U-FNO 的复现）诊断脚本：`code/m4d_E_inputdep.py`（无不动点置换的输入依赖性）、`code/m4d_E_diagnostics.py`（缺陷区口径、阈值扫描、预测直方图）、`code/m4d_E_scaling.py`（`run <N> <seed> <modes> <cache>`、`merge`、`fig`：数据缩放与容量对照，1800步/次）、`code/m4d_E_fwi.py`（`3a` 正演失配、`3b` 反演犯罪程序检查、`3c` 学习率、`3d` 单样本、`3e` 三样本；散射场 MSE 排除对角线，16炮/迭代，共享炮序）。对应 JSON 在 `configs/m4d_E_*.json`，结论见[M4d报告](reports/m4d_report.md)和[FWI报告](reports/m4d_fwi_pilot_report.md)。

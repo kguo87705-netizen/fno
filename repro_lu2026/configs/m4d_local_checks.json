@@ -1,0 +1,39 @@
+{
+  "checkpoint": "E:\\FNO_research\\results\\m4c_local_20261020_170451\\best.pt",
+  "splits": {
+    "train": {
+      "samples": 375,
+      "overall_mae_ms": 21.774837493896484,
+      "defect_mae_ms": 869.4531003417969,
+      "dice": 0.8352174717249233,
+      "iou": 0.7309551581726519,
+      "relative_l2_rms_of_samples": 0.03066081926226616,
+      "rmse_ms": 165.9656982421875,
+      "ssim": 0.984683632850647,
+      "pred_cross_sample_std_ms": 64.52069091796875,
+      "true_cross_sample_std_ms": 74.12059020996094,
+      "ratio_pred_over_true": 0.8704826831817627,
+      "mean_spatial_corr_with_training_mean_image": 0.6688058524926503,
+      "l1_true_pairing": 0.010127832181751728,
+      "l1_shuffled_pairing": 0.03190126642584801,
+      "l1_change_when_shuffled": 0.021773435175418854
+    },
+    "validation": {
+      "samples": 40,
+      "overall_mae_ms": 50.98844528198242,
+      "defect_mae_ms": 1919.4495727539063,
+      "dice": 0.5813771075955335,
+      "iou": 0.42028909495609074,
+      "relative_l2_rms_of_samples": 0.06217893958091736,
+      "rmse_ms": 345.94659423828125,
+      "ssim": 0.9635132551193237,
+      "pred_cross_sample_std_ms": 64.07716369628906,
+      "true_cross_sample_std_ms": 72.13011169433594,
+      "ratio_pred_over_true": 0.8883552551269531,
+      "mean_spatial_corr_with_training_mean_image": 0.6269860580563545,
+      "l1_true_pairing": 0.023715557530522346,
+      "l1_shuffled_pairing": 0.03148062154650688,
+      "l1_change_when_shuffled": 0.007765064015984535
+    }
+  }
+}
